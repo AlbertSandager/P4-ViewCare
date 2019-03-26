@@ -3,48 +3,48 @@ TimeQuest Timing Analyzer Summary
 ------------------------------------------------------------
 
 Type  : Slow 1200mV 85C Model Setup 'sclk'
-Slack : -3.634
-TNS   : -43.956
+Slack : -3.777
+TNS   : -47.839
 
 Type  : Slow 1200mV 85C Model Setup 'rx_req'
-Slack : 0.149
-TNS   : 0.000
+Slack : -0.380
+TNS   : -0.965
 
 Type  : Slow 1200mV 85C Model Hold 'rx_req'
-Slack : -0.487
-TNS   : -3.322
+Slack : -0.374
+TNS   : -2.523
 
 Type  : Slow 1200mV 85C Model Hold 'sclk'
-Slack : 0.260
+Slack : 0.196
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Recovery 'sclk'
-Slack : -0.681
-TNS   : -13.342
+Slack : -0.675
+TNS   : -17.311
 
 Type  : Slow 1200mV 85C Model Recovery 'rx_req'
-Slack : -0.085
-TNS   : -0.331
+Slack : -0.660
+TNS   : -2.331
 
 Type  : Slow 1200mV 85C Model Recovery 'reset_n'
-Slack : -0.049
-TNS   : -0.084
+Slack : 0.000
+TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Removal 'reset_n'
-Slack : -0.383
-TNS   : -2.035
+Slack : -0.478
+TNS   : -2.988
 
 Type  : Slow 1200mV 85C Model Removal 'rx_req'
-Slack : -0.214
-TNS   : -1.554
+Slack : -0.190
+TNS   : -1.287
 
 Type  : Slow 1200mV 85C Model Removal 'sclk'
-Slack : 0.200
+Slack : 0.387
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Minimum Pulse Width 'sclk'
 Slack : -3.000
-TNS   : -42.000
+TNS   : -43.000
 
 Type  : Slow 1200mV 85C Model Minimum Pulse Width 'reset_n'
 Slack : -3.000
@@ -55,48 +55,48 @@ Slack : -3.000
 TNS   : -3.000
 
 Type  : Slow 1200mV 0C Model Setup 'sclk'
-Slack : -3.162
-TNS   : -36.767
+Slack : -3.307
+TNS   : -40.375
 
 Type  : Slow 1200mV 0C Model Setup 'rx_req'
-Slack : 0.190
-TNS   : 0.000
+Slack : -0.295
+TNS   : -0.646
 
 Type  : Slow 1200mV 0C Model Hold 'rx_req'
-Slack : -0.356
-TNS   : -2.297
+Slack : -0.265
+TNS   : -1.743
 
 Type  : Slow 1200mV 0C Model Hold 'sclk'
-Slack : 0.238
+Slack : 0.173
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Recovery 'sclk'
-Slack : -0.546
-TNS   : -10.408
-
-Type  : Slow 1200mV 0C Model Recovery 'reset_n'
-Slack : 0.033
-TNS   : 0.000
+Slack : -0.550
+TNS   : -13.727
 
 Type  : Slow 1200mV 0C Model Recovery 'rx_req'
-Slack : 0.040
+Slack : -0.511
+TNS   : -1.395
+
+Type  : Slow 1200mV 0C Model Recovery 'reset_n'
+Slack : 0.082
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Removal 'reset_n'
-Slack : -0.409
-TNS   : -2.243
+Slack : -0.515
+TNS   : -3.281
 
 Type  : Slow 1200mV 0C Model Removal 'rx_req'
-Slack : -0.281
-TNS   : -2.104
+Slack : -0.263
+TNS   : -1.878
 
 Type  : Slow 1200mV 0C Model Removal 'sclk'
-Slack : 0.147
+Slack : 0.328
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'sclk'
 Slack : -3.000
-TNS   : -42.000
+TNS   : -43.000
 
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'reset_n'
 Slack : -3.000
@@ -107,55 +107,55 @@ Slack : -3.000
 TNS   : -3.000
 
 Type  : Fast 1200mV 0C Model Setup 'sclk'
-Slack : -2.277
-TNS   : -21.295
+Slack : -2.356
+TNS   : -20.868
 
 Type  : Fast 1200mV 0C Model Setup 'rx_req'
-Slack : 0.521
+Slack : 0.204
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Hold 'rx_req'
-Slack : -0.406
-TNS   : -2.867
+Slack : -0.320
+TNS   : -2.373
 
 Type  : Fast 1200mV 0C Model Hold 'sclk'
-Slack : 0.076
+Slack : 0.061
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Recovery 'sclk'
-Slack : -0.519
-TNS   : -10.014
+Slack : -0.509
+TNS   : -10.659
 
 Type  : Fast 1200mV 0C Model Recovery 'rx_req'
-Slack : 0.436
+Slack : 0.094
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Recovery 'reset_n'
-Slack : 0.438
+Slack : 0.493
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Removal 'reset_n'
-Slack : -0.354
-TNS   : -2.342
+Slack : -0.422
+TNS   : -2.877
 
 Type  : Fast 1200mV 0C Model Removal 'rx_req'
-Slack : -0.294
-TNS   : -2.330
+Slack : -0.249
+TNS   : -1.846
 
 Type  : Fast 1200mV 0C Model Removal 'sclk'
-Slack : 0.104
+Slack : 0.197
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'sclk'
 Slack : -3.000
-TNS   : -46.909
+TNS   : -47.742
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'reset_n'
 Slack : -3.000
-TNS   : -3.344
+TNS   : -3.238
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'rx_req'
 Slack : -3.000
-TNS   : -3.222
+TNS   : -3.000
 
 ------------------------------------------------------------

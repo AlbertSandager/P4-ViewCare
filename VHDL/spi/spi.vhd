@@ -29,7 +29,7 @@ USE ieee.std_logic_arith.all;
 ENTITY spi IS
   GENERIC(
     cpol    : STD_LOGIC := '0';  --spi clock polarity mode
-    cpha    : STD_LOGIC := '0';  --spi clock phase mode
+    cpha    : STD_LOGIC := '1';  --spi clock phase mode
     d_width : INTEGER := 8);     --data width in bits
   PORT(
     sclk         : IN     STD_LOGIC;  --spi clk from master

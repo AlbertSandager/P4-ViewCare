@@ -4,7 +4,7 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(EP3C16F484) Path("C:/altera/13.1/projects/spi/output_files/") File("spi.sof") MfrSpec(OpMask(1));
+		Device PartName(EP3C16F484) Path("C:/Users/Albert Sandager/Documents/GitHub/P4-ViewCare/VHDL/spi/output_files/") File("spi.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 

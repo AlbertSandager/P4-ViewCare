@@ -1,0 +1,729 @@
+ARM GAS  C:\Users\Kristian\AppData\Local\Temp\ccbeMJtx.s 			page 1
+
+
+   1              		.syntax unified
+   2              		.cpu cortex-m3
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 1
+  11              		.eabi_attribute 34, 1
+  12              		.eabi_attribute 18, 4
+  13              		.thumb
+  14              		.syntax unified
+  15              		.file	"main.c"
+  16              		.text
+  17              	.Ltext0:
+  18              		.cfi_sections	.debug_frame
+  19              		.section	.text.Pin_SW2_Handler,"ax",%progbits
+  20              		.align	2
+  21              		.global	Pin_SW2_Handler
+  22              		.thumb
+  23              		.thumb_func
+  24              		.type	Pin_SW2_Handler, %function
+  25              	Pin_SW2_Handler:
+  26              	.LFB63:
+  27              		.file 1 "main.c"
+   1:main.c        **** /* ========================================
+   2:main.c        ****  *
+   3:main.c        ****  * Copyright YOUR COMPANY, THE YEAR
+   4:main.c        ****  * All Rights Reserved
+   5:main.c        ****  * UNPUBLISHED, LICENSED SOFTWARE.
+   6:main.c        ****  *
+   7:main.c        ****  * CONFIDENTIAL AND PROPRIETARY INFORMATION
+   8:main.c        ****  * WHICH IS THE PROPERTY OF your company.
+   9:main.c        ****  *
+  10:main.c        ****  * ========================================
+  11:main.c        **** */
+  12:main.c        **** #include "project.h"
+  13:main.c        **** CY_ISR (Pin_SW2_Handler)
+  14:main.c        ****     {
+  28              		.loc 1 14 0
+  29              		.cfi_startproc
+  30              		@ args = 0, pretend = 0, frame = 0
+  31              		@ frame_needed = 0, uses_anonymous_args = 0
+  32 0000 08B5     		push	{r3, lr}
+  33              		.cfi_def_cfa_offset 8
+  34              		.cfi_offset 3, -8
+  35              		.cfi_offset 14, -4
+  15:main.c        ****         Pin_Red_Write(~Pin_Red_Read() );
+  36              		.loc 1 15 0
+  37 0002 FFF7FEFF 		bl	Pin_Red_Read
+  38              	.LVL0:
+  39 0006 C043     		mvns	r0, r0
+  40 0008 C0B2     		uxtb	r0, r0
+  41 000a FFF7FEFF 		bl	Pin_Red_Write
+  42              	.LVL1:
+ARM GAS  C:\Users\Kristian\AppData\Local\Temp\ccbeMJtx.s 			page 2
+
+
+  16:main.c        ****         
+  17:main.c        ****         Pin_SW2_ClearInterrupt();
+  43              		.loc 1 17 0
+  44 000e FFF7FEFF 		bl	Pin_SW2_ClearInterrupt
+  45              	.LVL2:
+  46 0012 08BD     		pop	{r3, pc}
+  47              		.cfi_endproc
+  48              	.LFE63:
+  49              		.size	Pin_SW2_Handler, .-Pin_SW2_Handler
+  50              		.section	.text.main,"ax",%progbits
+  51              		.align	2
+  52              		.global	main
+  53              		.thumb
+  54              		.thumb_func
+  55              		.type	main, %function
+  56              	main:
+  57              	.LFB64:
+  18:main.c        ****     }
+  19:main.c        **** 
+  20:main.c        **** 
+  21:main.c        **** int main(void)
+  22:main.c        **** {
+  58              		.loc 1 22 0
+  59              		.cfi_startproc
+  60              		@ Volatile: function does not return.
+  61              		@ args = 0, pretend = 0, frame = 0
+  62              		@ frame_needed = 0, uses_anonymous_args = 0
+  63 0000 08B5     		push	{r3, lr}
+  64              		.cfi_def_cfa_offset 8
+  65              		.cfi_offset 3, -8
+  66              		.cfi_offset 14, -4
+  23:main.c        ****     CyGlobalIntEnable; /* Enable global interrupts. */
+  67              		.loc 1 23 0
+  68              		.syntax unified
+  69              	@ 23 "main.c" 1
+  70 0002 62B6     		CPSIE   i
+  71              	@ 0 "" 2
+  24:main.c        ****    
+  25:main.c        ****     
+  26:main.c        ****     /* Place your initialization/startup code here (e.g. MyInst_Start()) */
+  27:main.c        **** 
+  28:main.c        ****     Pin_SW2_int_StartEx(Pin_SW2_Handler);
+  72              		.loc 1 28 0
+  73              		.thumb
+  74              		.syntax unified
+  75 0004 0648     		ldr	r0, .L6
+  76 0006 FFF7FEFF 		bl	Pin_SW2_int_StartEx
+  77              	.LVL3:
+  78              	.L4:
+  29:main.c        ****     for(;;)
+  30:main.c        ****     {
+  31:main.c        ****         Pin_Blue_Write(~Pin_Blue_Read());
+  79              		.loc 1 31 0 discriminator 1
+  80 000a FFF7FEFF 		bl	Pin_Blue_Read
+  81              	.LVL4:
+  82 000e C043     		mvns	r0, r0
+  83 0010 C0B2     		uxtb	r0, r0
+ARM GAS  C:\Users\Kristian\AppData\Local\Temp\ccbeMJtx.s 			page 3
+
+
+  84 0012 FFF7FEFF 		bl	Pin_Blue_Write
+  85              	.LVL5:
+  32:main.c        ****         CyDelay(1000);
+  86              		.loc 1 32 0 discriminator 1
+  87 0016 4FF47A70 		mov	r0, #1000
+  88 001a FFF7FEFF 		bl	CyDelay
+  89              	.LVL6:
+  90 001e F4E7     		b	.L4
+  91              	.L7:
+  92              		.align	2
+  93              	.L6:
+  94 0020 00000000 		.word	Pin_SW2_Handler
+  95              		.cfi_endproc
+  96              	.LFE64:
+  97              		.size	main, .-main
+  98              		.text
+  99              	.Letext0:
+ 100              		.file 2 "c:\\program files (x86)\\cypress\\psoc creator\\4.2\\psoc creator\\import\\gnu\\arm\\5.4.
+ 101              		.file 3 "c:\\program files (x86)\\cypress\\psoc creator\\4.2\\psoc creator\\import\\gnu\\arm\\5.4.
+ 102              		.file 4 "Generated_Source\\PSoC5/Pin_Red.h"
+ 103              		.file 5 "Generated_Source\\PSoC5/Pin_SW2.h"
+ 104              		.file 6 "Generated_Source\\PSoC5/Pin_SW2_int.h"
+ 105              		.file 7 "Generated_Source\\PSoC5/Pin_Blue.h"
+ 106              		.file 8 "Generated_Source\\PSoC5/CyLib.h"
+ 107              		.file 9 "Generated_Source\\PSoC5/core_cm3.h"
+ 108              		.section	.debug_info,"",%progbits
+ 109              	.Ldebug_info0:
+ 110 0000 84010000 		.4byte	0x184
+ 111 0004 0400     		.2byte	0x4
+ 112 0006 00000000 		.4byte	.Ldebug_abbrev0
+ 113 000a 04       		.byte	0x4
+ 114 000b 01       		.uleb128 0x1
+ 115 000c 49000000 		.4byte	.LASF23
+ 116 0010 0C       		.byte	0xc
+ 117 0011 2E000000 		.4byte	.LASF24
+ 118 0015 F1000000 		.4byte	.LASF25
+ 119 0019 00000000 		.4byte	.Ldebug_ranges0+0
+ 120 001d 00000000 		.4byte	0
+ 121 0021 00000000 		.4byte	.Ldebug_line0
+ 122 0025 02       		.uleb128 0x2
+ 123 0026 01       		.byte	0x1
+ 124 0027 06       		.byte	0x6
+ 125 0028 D4010000 		.4byte	.LASF0
+ 126 002c 02       		.uleb128 0x2
+ 127 002d 01       		.byte	0x1
+ 128 002e 08       		.byte	0x8
+ 129 002f 82010000 		.4byte	.LASF1
+ 130 0033 02       		.uleb128 0x2
+ 131 0034 02       		.byte	0x2
+ 132 0035 05       		.byte	0x5
+ 133 0036 09020000 		.4byte	.LASF2
+ 134 003a 02       		.uleb128 0x2
+ 135 003b 02       		.byte	0x2
+ 136 003c 07       		.byte	0x7
+ 137 003d 0E000000 		.4byte	.LASF3
+ 138 0041 03       		.uleb128 0x3
+ 139 0042 EC010000 		.4byte	.LASF9
+ARM GAS  C:\Users\Kristian\AppData\Local\Temp\ccbeMJtx.s 			page 4
+
+
+ 140 0046 02       		.byte	0x2
+ 141 0047 3F       		.byte	0x3f
+ 142 0048 4C000000 		.4byte	0x4c
+ 143 004c 02       		.uleb128 0x2
+ 144 004d 04       		.byte	0x4
+ 145 004e 05       		.byte	0x5
+ 146 004f BE010000 		.4byte	.LASF4
+ 147 0053 02       		.uleb128 0x2
+ 148 0054 04       		.byte	0x4
+ 149 0055 07       		.byte	0x7
+ 150 0056 DF000000 		.4byte	.LASF5
+ 151 005a 02       		.uleb128 0x2
+ 152 005b 08       		.byte	0x8
+ 153 005c 05       		.byte	0x5
+ 154 005d 00000000 		.4byte	.LASF6
+ 155 0061 02       		.uleb128 0x2
+ 156 0062 08       		.byte	0x8
+ 157 0063 07       		.byte	0x7
+ 158 0064 36010000 		.4byte	.LASF7
+ 159 0068 04       		.uleb128 0x4
+ 160 0069 04       		.byte	0x4
+ 161 006a 05       		.byte	0x5
+ 162 006b 696E7400 		.ascii	"int\000"
+ 163 006f 02       		.uleb128 0x2
+ 164 0070 04       		.byte	0x4
+ 165 0071 07       		.byte	0x7
+ 166 0072 21000000 		.4byte	.LASF8
+ 167 0076 03       		.uleb128 0x3
+ 168 0077 13020000 		.4byte	.LASF10
+ 169 007b 03       		.byte	0x3
+ 170 007c 2C       		.byte	0x2c
+ 171 007d 41000000 		.4byte	0x41
+ 172 0081 02       		.uleb128 0x2
+ 173 0082 04       		.byte	0x4
+ 174 0083 04       		.byte	0x4
+ 175 0084 F6010000 		.4byte	.LASF11
+ 176 0088 02       		.uleb128 0x2
+ 177 0089 08       		.byte	0x8
+ 178 008a 04       		.byte	0x4
+ 179 008b B7010000 		.4byte	.LASF12
+ 180 008f 02       		.uleb128 0x2
+ 181 0090 01       		.byte	0x1
+ 182 0091 08       		.byte	0x8
+ 183 0092 90010000 		.4byte	.LASF13
+ 184 0096 02       		.uleb128 0x2
+ 185 0097 04       		.byte	0x4
+ 186 0098 07       		.byte	0x7
+ 187 0099 1B020000 		.4byte	.LASF14
+ 188 009d 02       		.uleb128 0x2
+ 189 009e 08       		.byte	0x8
+ 190 009f 04       		.byte	0x4
+ 191 00a0 E0010000 		.4byte	.LASF15
+ 192 00a4 05       		.uleb128 0x5
+ 193 00a5 64010000 		.4byte	.LASF26
+ 194 00a9 01       		.byte	0x1
+ 195 00aa 0D       		.byte	0xd
+ 196 00ab 00000000 		.4byte	.LFB63
+ARM GAS  C:\Users\Kristian\AppData\Local\Temp\ccbeMJtx.s 			page 5
+
+
+ 197 00af 14000000 		.4byte	.LFE63-.LFB63
+ 198 00b3 01       		.uleb128 0x1
+ 199 00b4 9C       		.byte	0x9c
+ 200 00b5 D5000000 		.4byte	0xd5
+ 201 00b9 06       		.uleb128 0x6
+ 202 00ba 06000000 		.4byte	.LVL0
+ 203 00be 3A010000 		.4byte	0x13a
+ 204 00c2 06       		.uleb128 0x6
+ 205 00c3 0E000000 		.4byte	.LVL1
+ 206 00c7 45010000 		.4byte	0x145
+ 207 00cb 06       		.uleb128 0x6
+ 208 00cc 12000000 		.4byte	.LVL2
+ 209 00d0 50010000 		.4byte	0x150
+ 210 00d4 00       		.byte	0
+ 211 00d5 07       		.uleb128 0x7
+ 212 00d6 44000000 		.4byte	.LASF27
+ 213 00da 01       		.byte	0x1
+ 214 00db 15       		.byte	0x15
+ 215 00dc 68000000 		.4byte	0x68
+ 216 00e0 00000000 		.4byte	.LFB64
+ 217 00e4 24000000 		.4byte	.LFE64-.LFB64
+ 218 00e8 01       		.uleb128 0x1
+ 219 00e9 9C       		.byte	0x9c
+ 220 00ea 29010000 		.4byte	0x129
+ 221 00ee 08       		.uleb128 0x8
+ 222 00ef 0A000000 		.4byte	.LVL3
+ 223 00f3 5B010000 		.4byte	0x15b
+ 224 00f7 05010000 		.4byte	0x105
+ 225 00fb 09       		.uleb128 0x9
+ 226 00fc 01       		.uleb128 0x1
+ 227 00fd 50       		.byte	0x50
+ 228 00fe 05       		.uleb128 0x5
+ 229 00ff 03       		.byte	0x3
+ 230 0100 00000000 		.4byte	Pin_SW2_Handler
+ 231 0104 00       		.byte	0
+ 232 0105 06       		.uleb128 0x6
+ 233 0106 0E000000 		.4byte	.LVL4
+ 234 010a 66010000 		.4byte	0x166
+ 235 010e 06       		.uleb128 0x6
+ 236 010f 16000000 		.4byte	.LVL5
+ 237 0113 71010000 		.4byte	0x171
+ 238 0117 0A       		.uleb128 0xa
+ 239 0118 1E000000 		.4byte	.LVL6
+ 240 011c 7C010000 		.4byte	0x17c
+ 241 0120 09       		.uleb128 0x9
+ 242 0121 01       		.uleb128 0x1
+ 243 0122 50       		.byte	0x50
+ 244 0123 03       		.uleb128 0x3
+ 245 0124 0A       		.byte	0xa
+ 246 0125 E803     		.2byte	0x3e8
+ 247 0127 00       		.byte	0
+ 248 0128 00       		.byte	0
+ 249 0129 0B       		.uleb128 0xb
+ 250 012a C7010000 		.4byte	.LASF28
+ 251 012e 09       		.byte	0x9
+ 252 012f 1207     		.2byte	0x712
+ 253 0131 35010000 		.4byte	0x135
+ARM GAS  C:\Users\Kristian\AppData\Local\Temp\ccbeMJtx.s 			page 6
+
+
+ 254 0135 0C       		.uleb128 0xc
+ 255 0136 76000000 		.4byte	0x76
+ 256 013a 0D       		.uleb128 0xd
+ 257 013b FC010000 		.4byte	.LASF16
+ 258 013f FC010000 		.4byte	.LASF16
+ 259 0143 04       		.byte	0x4
+ 260 0144 29       		.byte	0x29
+ 261 0145 0D       		.uleb128 0xd
+ 262 0146 74010000 		.4byte	.LASF17
+ 263 014a 74010000 		.4byte	.LASF17
+ 264 014e 04       		.byte	0x4
+ 265 014f 26       		.byte	0x26
+ 266 0150 0D       		.uleb128 0xd
+ 267 0151 4D010000 		.4byte	.LASF18
+ 268 0155 4D010000 		.4byte	.LASF18
+ 269 0159 05       		.byte	0x5
+ 270 015a 2B       		.byte	0x2b
+ 271 015b 0D       		.uleb128 0xd
+ 272 015c A3010000 		.4byte	.LASF19
+ 273 0160 A3010000 		.4byte	.LASF19
+ 274 0164 06       		.byte	0x6
+ 275 0165 18       		.byte	0x18
+ 276 0166 0D       		.uleb128 0xd
+ 277 0167 95010000 		.4byte	.LASF20
+ 278 016b 95010000 		.4byte	.LASF20
+ 279 016f 07       		.byte	0x7
+ 280 0170 29       		.byte	0x29
+ 281 0171 0D       		.uleb128 0xd
+ 282 0172 35000000 		.4byte	.LASF21
+ 283 0176 35000000 		.4byte	.LASF21
+ 284 017a 07       		.byte	0x7
+ 285 017b 26       		.byte	0x26
+ 286 017c 0D       		.uleb128 0xd
+ 287 017d D7000000 		.4byte	.LASF22
+ 288 0181 D7000000 		.4byte	.LASF22
+ 289 0185 08       		.byte	0x8
+ 290 0186 76       		.byte	0x76
+ 291 0187 00       		.byte	0
+ 292              		.section	.debug_abbrev,"",%progbits
+ 293              	.Ldebug_abbrev0:
+ 294 0000 01       		.uleb128 0x1
+ 295 0001 11       		.uleb128 0x11
+ 296 0002 01       		.byte	0x1
+ 297 0003 25       		.uleb128 0x25
+ 298 0004 0E       		.uleb128 0xe
+ 299 0005 13       		.uleb128 0x13
+ 300 0006 0B       		.uleb128 0xb
+ 301 0007 03       		.uleb128 0x3
+ 302 0008 0E       		.uleb128 0xe
+ 303 0009 1B       		.uleb128 0x1b
+ 304 000a 0E       		.uleb128 0xe
+ 305 000b 55       		.uleb128 0x55
+ 306 000c 17       		.uleb128 0x17
+ 307 000d 11       		.uleb128 0x11
+ 308 000e 01       		.uleb128 0x1
+ 309 000f 10       		.uleb128 0x10
+ 310 0010 17       		.uleb128 0x17
+ARM GAS  C:\Users\Kristian\AppData\Local\Temp\ccbeMJtx.s 			page 7
+
+
+ 311 0011 00       		.byte	0
+ 312 0012 00       		.byte	0
+ 313 0013 02       		.uleb128 0x2
+ 314 0014 24       		.uleb128 0x24
+ 315 0015 00       		.byte	0
+ 316 0016 0B       		.uleb128 0xb
+ 317 0017 0B       		.uleb128 0xb
+ 318 0018 3E       		.uleb128 0x3e
+ 319 0019 0B       		.uleb128 0xb
+ 320 001a 03       		.uleb128 0x3
+ 321 001b 0E       		.uleb128 0xe
+ 322 001c 00       		.byte	0
+ 323 001d 00       		.byte	0
+ 324 001e 03       		.uleb128 0x3
+ 325 001f 16       		.uleb128 0x16
+ 326 0020 00       		.byte	0
+ 327 0021 03       		.uleb128 0x3
+ 328 0022 0E       		.uleb128 0xe
+ 329 0023 3A       		.uleb128 0x3a
+ 330 0024 0B       		.uleb128 0xb
+ 331 0025 3B       		.uleb128 0x3b
+ 332 0026 0B       		.uleb128 0xb
+ 333 0027 49       		.uleb128 0x49
+ 334 0028 13       		.uleb128 0x13
+ 335 0029 00       		.byte	0
+ 336 002a 00       		.byte	0
+ 337 002b 04       		.uleb128 0x4
+ 338 002c 24       		.uleb128 0x24
+ 339 002d 00       		.byte	0
+ 340 002e 0B       		.uleb128 0xb
+ 341 002f 0B       		.uleb128 0xb
+ 342 0030 3E       		.uleb128 0x3e
+ 343 0031 0B       		.uleb128 0xb
+ 344 0032 03       		.uleb128 0x3
+ 345 0033 08       		.uleb128 0x8
+ 346 0034 00       		.byte	0
+ 347 0035 00       		.byte	0
+ 348 0036 05       		.uleb128 0x5
+ 349 0037 2E       		.uleb128 0x2e
+ 350 0038 01       		.byte	0x1
+ 351 0039 3F       		.uleb128 0x3f
+ 352 003a 19       		.uleb128 0x19
+ 353 003b 03       		.uleb128 0x3
+ 354 003c 0E       		.uleb128 0xe
+ 355 003d 3A       		.uleb128 0x3a
+ 356 003e 0B       		.uleb128 0xb
+ 357 003f 3B       		.uleb128 0x3b
+ 358 0040 0B       		.uleb128 0xb
+ 359 0041 27       		.uleb128 0x27
+ 360 0042 19       		.uleb128 0x19
+ 361 0043 11       		.uleb128 0x11
+ 362 0044 01       		.uleb128 0x1
+ 363 0045 12       		.uleb128 0x12
+ 364 0046 06       		.uleb128 0x6
+ 365 0047 40       		.uleb128 0x40
+ 366 0048 18       		.uleb128 0x18
+ 367 0049 9742     		.uleb128 0x2117
+ARM GAS  C:\Users\Kristian\AppData\Local\Temp\ccbeMJtx.s 			page 8
+
+
+ 368 004b 19       		.uleb128 0x19
+ 369 004c 01       		.uleb128 0x1
+ 370 004d 13       		.uleb128 0x13
+ 371 004e 00       		.byte	0
+ 372 004f 00       		.byte	0
+ 373 0050 06       		.uleb128 0x6
+ 374 0051 898201   		.uleb128 0x4109
+ 375 0054 00       		.byte	0
+ 376 0055 11       		.uleb128 0x11
+ 377 0056 01       		.uleb128 0x1
+ 378 0057 31       		.uleb128 0x31
+ 379 0058 13       		.uleb128 0x13
+ 380 0059 00       		.byte	0
+ 381 005a 00       		.byte	0
+ 382 005b 07       		.uleb128 0x7
+ 383 005c 2E       		.uleb128 0x2e
+ 384 005d 01       		.byte	0x1
+ 385 005e 3F       		.uleb128 0x3f
+ 386 005f 19       		.uleb128 0x19
+ 387 0060 03       		.uleb128 0x3
+ 388 0061 0E       		.uleb128 0xe
+ 389 0062 3A       		.uleb128 0x3a
+ 390 0063 0B       		.uleb128 0xb
+ 391 0064 3B       		.uleb128 0x3b
+ 392 0065 0B       		.uleb128 0xb
+ 393 0066 27       		.uleb128 0x27
+ 394 0067 19       		.uleb128 0x19
+ 395 0068 49       		.uleb128 0x49
+ 396 0069 13       		.uleb128 0x13
+ 397 006a 8701     		.uleb128 0x87
+ 398 006c 19       		.uleb128 0x19
+ 399 006d 11       		.uleb128 0x11
+ 400 006e 01       		.uleb128 0x1
+ 401 006f 12       		.uleb128 0x12
+ 402 0070 06       		.uleb128 0x6
+ 403 0071 40       		.uleb128 0x40
+ 404 0072 18       		.uleb128 0x18
+ 405 0073 9742     		.uleb128 0x2117
+ 406 0075 19       		.uleb128 0x19
+ 407 0076 01       		.uleb128 0x1
+ 408 0077 13       		.uleb128 0x13
+ 409 0078 00       		.byte	0
+ 410 0079 00       		.byte	0
+ 411 007a 08       		.uleb128 0x8
+ 412 007b 898201   		.uleb128 0x4109
+ 413 007e 01       		.byte	0x1
+ 414 007f 11       		.uleb128 0x11
+ 415 0080 01       		.uleb128 0x1
+ 416 0081 31       		.uleb128 0x31
+ 417 0082 13       		.uleb128 0x13
+ 418 0083 01       		.uleb128 0x1
+ 419 0084 13       		.uleb128 0x13
+ 420 0085 00       		.byte	0
+ 421 0086 00       		.byte	0
+ 422 0087 09       		.uleb128 0x9
+ 423 0088 8A8201   		.uleb128 0x410a
+ 424 008b 00       		.byte	0
+ARM GAS  C:\Users\Kristian\AppData\Local\Temp\ccbeMJtx.s 			page 9
+
+
+ 425 008c 02       		.uleb128 0x2
+ 426 008d 18       		.uleb128 0x18
+ 427 008e 9142     		.uleb128 0x2111
+ 428 0090 18       		.uleb128 0x18
+ 429 0091 00       		.byte	0
+ 430 0092 00       		.byte	0
+ 431 0093 0A       		.uleb128 0xa
+ 432 0094 898201   		.uleb128 0x4109
+ 433 0097 01       		.byte	0x1
+ 434 0098 11       		.uleb128 0x11
+ 435 0099 01       		.uleb128 0x1
+ 436 009a 31       		.uleb128 0x31
+ 437 009b 13       		.uleb128 0x13
+ 438 009c 00       		.byte	0
+ 439 009d 00       		.byte	0
+ 440 009e 0B       		.uleb128 0xb
+ 441 009f 34       		.uleb128 0x34
+ 442 00a0 00       		.byte	0
+ 443 00a1 03       		.uleb128 0x3
+ 444 00a2 0E       		.uleb128 0xe
+ 445 00a3 3A       		.uleb128 0x3a
+ 446 00a4 0B       		.uleb128 0xb
+ 447 00a5 3B       		.uleb128 0x3b
+ 448 00a6 05       		.uleb128 0x5
+ 449 00a7 49       		.uleb128 0x49
+ 450 00a8 13       		.uleb128 0x13
+ 451 00a9 3F       		.uleb128 0x3f
+ 452 00aa 19       		.uleb128 0x19
+ 453 00ab 3C       		.uleb128 0x3c
+ 454 00ac 19       		.uleb128 0x19
+ 455 00ad 00       		.byte	0
+ 456 00ae 00       		.byte	0
+ 457 00af 0C       		.uleb128 0xc
+ 458 00b0 35       		.uleb128 0x35
+ 459 00b1 00       		.byte	0
+ 460 00b2 49       		.uleb128 0x49
+ 461 00b3 13       		.uleb128 0x13
+ 462 00b4 00       		.byte	0
+ 463 00b5 00       		.byte	0
+ 464 00b6 0D       		.uleb128 0xd
+ 465 00b7 2E       		.uleb128 0x2e
+ 466 00b8 00       		.byte	0
+ 467 00b9 3F       		.uleb128 0x3f
+ 468 00ba 19       		.uleb128 0x19
+ 469 00bb 3C       		.uleb128 0x3c
+ 470 00bc 19       		.uleb128 0x19
+ 471 00bd 6E       		.uleb128 0x6e
+ 472 00be 0E       		.uleb128 0xe
+ 473 00bf 03       		.uleb128 0x3
+ 474 00c0 0E       		.uleb128 0xe
+ 475 00c1 3A       		.uleb128 0x3a
+ 476 00c2 0B       		.uleb128 0xb
+ 477 00c3 3B       		.uleb128 0x3b
+ 478 00c4 0B       		.uleb128 0xb
+ 479 00c5 00       		.byte	0
+ 480 00c6 00       		.byte	0
+ 481 00c7 00       		.byte	0
+ARM GAS  C:\Users\Kristian\AppData\Local\Temp\ccbeMJtx.s 			page 10
+
+
+ 482              		.section	.debug_aranges,"",%progbits
+ 483 0000 24000000 		.4byte	0x24
+ 484 0004 0200     		.2byte	0x2
+ 485 0006 00000000 		.4byte	.Ldebug_info0
+ 486 000a 04       		.byte	0x4
+ 487 000b 00       		.byte	0
+ 488 000c 0000     		.2byte	0
+ 489 000e 0000     		.2byte	0
+ 490 0010 00000000 		.4byte	.LFB63
+ 491 0014 14000000 		.4byte	.LFE63-.LFB63
+ 492 0018 00000000 		.4byte	.LFB64
+ 493 001c 24000000 		.4byte	.LFE64-.LFB64
+ 494 0020 00000000 		.4byte	0
+ 495 0024 00000000 		.4byte	0
+ 496              		.section	.debug_ranges,"",%progbits
+ 497              	.Ldebug_ranges0:
+ 498 0000 00000000 		.4byte	.LFB63
+ 499 0004 14000000 		.4byte	.LFE63
+ 500 0008 00000000 		.4byte	.LFB64
+ 501 000c 24000000 		.4byte	.LFE64
+ 502 0010 00000000 		.4byte	0
+ 503 0014 00000000 		.4byte	0
+ 504              		.section	.debug_line,"",%progbits
+ 505              	.Ldebug_line0:
+ 506 0000 B5010000 		.section	.debug_str,"MS",%progbits,1
+ 506      02008301 
+ 506      00000201 
+ 506      FB0E0D00 
+ 506      01010101 
+ 507              	.LASF6:
+ 508 0000 6C6F6E67 		.ascii	"long long int\000"
+ 508      206C6F6E 
+ 508      6720696E 
+ 508      7400
+ 509              	.LASF3:
+ 510 000e 73686F72 		.ascii	"short unsigned int\000"
+ 510      7420756E 
+ 510      7369676E 
+ 510      65642069 
+ 510      6E7400
+ 511              	.LASF8:
+ 512 0021 756E7369 		.ascii	"unsigned int\000"
+ 512      676E6564 
+ 512      20696E74 
+ 512      00
+ 513              	.LASF24:
+ 514 002e 6D61696E 		.ascii	"main.c\000"
+ 514      2E6300
+ 515              	.LASF21:
+ 516 0035 50696E5F 		.ascii	"Pin_Blue_Write\000"
+ 516      426C7565 
+ 516      5F577269 
+ 516      746500
+ 517              	.LASF27:
+ 518 0044 6D61696E 		.ascii	"main\000"
+ 518      00
+ 519              	.LASF23:
+ARM GAS  C:\Users\Kristian\AppData\Local\Temp\ccbeMJtx.s 			page 11
+
+
+ 520 0049 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 520      43313120 
+ 520      352E342E 
+ 520      31203230 
+ 520      31363036 
+ 521 007c 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
+ 521      20726576 
+ 521      6973696F 
+ 521      6E203233 
+ 521      37373135 
+ 522 00af 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 522      66756E63 
+ 522      74696F6E 
+ 522      2D736563 
+ 522      74696F6E 
+ 523              	.LASF22:
+ 524 00d7 43794465 		.ascii	"CyDelay\000"
+ 524      6C617900 
+ 525              	.LASF5:
+ 526 00df 6C6F6E67 		.ascii	"long unsigned int\000"
+ 526      20756E73 
+ 526      69676E65 
+ 526      6420696E 
+ 526      7400
+ 527              	.LASF25:
+ 528 00f1 433A5C55 		.ascii	"C:\\Users\\Kristian\\Documents\\PSoC Creator\\Outpu"
+ 528      73657273 
+ 528      5C4B7269 
+ 528      73746961 
+ 528      6E5C446F 
+ 529 011f 7470696E 		.ascii	"tpinseks\\Lesson3.cydsn\000"
+ 529      73656B73 
+ 529      5C4C6573 
+ 529      736F6E33 
+ 529      2E637964 
+ 530              	.LASF7:
+ 531 0136 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 531      206C6F6E 
+ 531      6720756E 
+ 531      7369676E 
+ 531      65642069 
+ 532              	.LASF18:
+ 533 014d 50696E5F 		.ascii	"Pin_SW2_ClearInterrupt\000"
+ 533      5357325F 
+ 533      436C6561 
+ 533      72496E74 
+ 533      65727275 
+ 534              	.LASF26:
+ 535 0164 50696E5F 		.ascii	"Pin_SW2_Handler\000"
+ 535      5357325F 
+ 535      48616E64 
+ 535      6C657200 
+ 536              	.LASF17:
+ 537 0174 50696E5F 		.ascii	"Pin_Red_Write\000"
+ 537      5265645F 
+ 537      57726974 
+ 537      6500
+ARM GAS  C:\Users\Kristian\AppData\Local\Temp\ccbeMJtx.s 			page 12
+
+
+ 538              	.LASF1:
+ 539 0182 756E7369 		.ascii	"unsigned char\000"
+ 539      676E6564 
+ 539      20636861 
+ 539      7200
+ 540              	.LASF13:
+ 541 0190 63686172 		.ascii	"char\000"
+ 541      00
+ 542              	.LASF20:
+ 543 0195 50696E5F 		.ascii	"Pin_Blue_Read\000"
+ 543      426C7565 
+ 543      5F526561 
+ 543      6400
+ 544              	.LASF19:
+ 545 01a3 50696E5F 		.ascii	"Pin_SW2_int_StartEx\000"
+ 545      5357325F 
+ 545      696E745F 
+ 545      53746172 
+ 545      74457800 
+ 546              	.LASF12:
+ 547 01b7 646F7562 		.ascii	"double\000"
+ 547      6C6500
+ 548              	.LASF4:
+ 549 01be 6C6F6E67 		.ascii	"long int\000"
+ 549      20696E74 
+ 549      00
+ 550              	.LASF28:
+ 551 01c7 49544D5F 		.ascii	"ITM_RxBuffer\000"
+ 551      52784275 
+ 551      66666572 
+ 551      00
+ 552              	.LASF0:
+ 553 01d4 7369676E 		.ascii	"signed char\000"
+ 553      65642063 
+ 553      68617200 
+ 554              	.LASF15:
+ 555 01e0 6C6F6E67 		.ascii	"long double\000"
+ 555      20646F75 
+ 555      626C6500 
+ 556              	.LASF9:
+ 557 01ec 5F5F696E 		.ascii	"__int32_t\000"
+ 557      7433325F 
+ 557      7400
+ 558              	.LASF11:
+ 559 01f6 666C6F61 		.ascii	"float\000"
+ 559      7400
+ 560              	.LASF16:
+ 561 01fc 50696E5F 		.ascii	"Pin_Red_Read\000"
+ 561      5265645F 
+ 561      52656164 
+ 561      00
+ 562              	.LASF2:
+ 563 0209 73686F72 		.ascii	"short int\000"
+ 563      7420696E 
+ 563      7400
+ 564              	.LASF10:
+ 565 0213 696E7433 		.ascii	"int32_t\000"
+ARM GAS  C:\Users\Kristian\AppData\Local\Temp\ccbeMJtx.s 			page 13
+
+
+ 565      325F7400 
+ 566              	.LASF14:
+ 567 021b 73697A65 		.ascii	"sizetype\000"
+ 567      74797065 
+ 567      00
+ 568              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

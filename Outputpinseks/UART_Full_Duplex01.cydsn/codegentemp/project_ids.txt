@@ -1,0 +1,10 @@
+C:\Users\Kristian\Documents\PSoC Creator\Outputpinseks\Design01.cydsn\Design01.cyprj|1710c76b-d081-40c4-abe6-a0ae920e11e5
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|b3cdc5c8-06ff-4770-a9c9-ca6db85728c2
+C:\Users\Kristian\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\Downloads ( 4.2).cyprj|d6fb325b-7d11-4c52-a1f9-e7233e9c5f9e
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|f86fd8ce-3493-480f-9ded-45add10e4122
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|aacbb87c-43ff-4a7a-a513-cc6c56c1caf8
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|282bc62a-c21b-4139-97aa-ebb55a7369a8
+C:\Users\Kristian\Documents\PSoC Creator\Outputpinseks\lesson2_inputs.cydsn\lesson2_inputs.cyprj|9b320e87-f54e-4c2f-8d9c-c9c4095f6f87
+C:\Users\Kristian\Documents\PSoC Creator\Outputpinseks\Lesson3.cydsn\Lesson3.cyprj|209f3916-4cbf-428a-96d3-86c51a41f905
+C:\Users\Kristian\Documents\PSoC Creator\Outputpinseks\Lesson4.cydsn\Lesson4.cyprj|6647c119-f13a-4ed3-9485-0eb594d81678
+C:\Users\Kristian\Documents\PSoC Creator\Outputpinseks\UART_Full_Duplex01.cydsn\UART_Full_Duplex01.cyprj|adeec318-bae1-4a79-9b8e-72f7bcfa12cb

@@ -21,7 +21,7 @@ int main(void)
 
     for(;;)
     {
-        UART_PutString("Hello world\n \r");
+        UART_PutString("Hej Albert din dejlige dreng\n \r");
         
         CyDelay(1000);
         

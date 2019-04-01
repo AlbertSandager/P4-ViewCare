@@ -1,0 +1,6 @@
+C:\Users\Albert Sandager\Documents\PSoC Creator\uart\uart.cydsn\uart.cyprj|761fe7c0-55ca-4bde-8036-5f66b0558a55
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|1239ca97-2fb0-454b-b0bf-21a908884fc9
+C:\Users\Albert Sandager\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\Downloads ( 4.2).cyprj|9bc90b84-9e1e-4e63-b660-836061e4a336
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|782431ff-84c6-43ff-99e3-1f7bceee59a0
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|e4465969-aa1b-4837-8ecf-a0171aa7c68f
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|23d35201-e760-4f09-9099-64b9bd821328

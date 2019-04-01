@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CyXmlSerializer>
+<!--This file is machine generated and read. It is not intended to be edited by hand.-->
+<!--Due to this, there is no schema for this file.-->
+<CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21 type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWrkspcCustomData" version="4">
+<CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997 type_name="CyDesigner.Common.Base.CyCustomData" version="2">
+<userData>
+<dataGuid v="1b906a0f-a7b6-4e4d-a428-82f98b53cb35">
+<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Source">
+<TreeKeys>
+<v>Source</v>
+<v>Components</v>
+<v>Output</v>
+</TreeKeys>
+<TreeStates>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>Outputpinseks</v>
+<v>Outputpinseks\Design01\TopDesign</v>
+<v>Outputpinseks\Design01\Design01.cydwr</v>
+<v>Outputpinseks\Design01\Design01.cydwr\Pins</v>
+<v>Outputpinseks\Design01\Design01.cydwr\Analog</v>
+<v>Outputpinseks\Design01\Design01.cydwr\Clocks</v>
+<v>Outputpinseks\Design01\Design01.cydwr\Interrupts</v>
+<v>Outputpinseks\Design01\Design01.cydwr\DMA</v>
+<v>Outputpinseks\Design01\Design01.cydwr\System</v>
+<v>Outputpinseks\Design01\Design01.cydwr\Directives</v>
+<v>Outputpinseks\Design01\Design01.cydwr\Flash Security</v>
+<v>Outputpinseks\Design01\Design01.cydwr\EEPROM</v>
+<v>Outputpinseks\Design01\Header Files</v>
+<v>Outputpinseks\Design01\Header Files\cyapicallbacks.h</v>
+<v>Outputpinseks\Design01\Source Files</v>
+<v>Outputpinseks\Design01\Source Files\main.c</v>
+<v>Outputpinseks\Design01\Generated_Source</v>
+<v>Outputpinseks\Design01\Generated_Source\PSoC5</v>
+<v>Outputpinseks\lesson2_inputs\TopDesign</v>
+<v>Outputpinseks\lesson2_inputs\lesson2_inputs.cydwr</v>
+<v>Outputpinseks\lesson2_inputs\lesson2_inputs.cydwr\Pins</v>
+<v>Outputpinseks\lesson2_inputs\lesson2_inputs.cydwr\Analog</v>
+<v>Outputpinseks\lesson2_inputs\lesson2_inputs.cydwr\Clocks</v>
+<v>Outputpinseks\lesson2_inputs\lesson2_inputs.cydwr\Interrupts</v>
+<v>Outputpinseks\lesson2_inputs\lesson2_inputs.cydwr\DMA</v>
+<v>Outputpinseks\lesson2_inputs\lesson2_inputs.cydwr\System</v>
+<v>Outputpinseks\lesson2_inputs\lesson2_inputs.cydwr\Directives</v>
+<v>Outputpinseks\lesson2_inputs\lesson2_inputs.cydwr\Flash Security</v>
+<v>Outputpinseks\lesson2_inputs\lesson2_inputs.cydwr\EEPROM</v>
+<v>Outputpinseks\lesson2_inputs\Header Files</v>
+<v>Outputpinseks\lesson2_inputs\Header Files\cyapicallbacks.h</v>
+<v>Outputpinseks\lesson2_inputs\Source Files</v>
+<v>Outputpinseks\lesson2_inputs\Source Files\main.c</v>
+<v>Outputpinseks\lesson2_inputs\Generated_Source</v>
+<v>Outputpinseks\lesson2_inputs\Generated_Source\PSoC5</v>
+<v>Outputpinseks\Lesson3\TopDesign</v>
+<v>Outputpinseks\Lesson3\Lesson3.cydwr</v>
+<v>Outputpinseks\Lesson3\Lesson3.cydwr\Pins</v>
+<v>Outputpinseks\Lesson3\Lesson3.cydwr\Analog</v>
+<v>Outputpinseks\Lesson3\Lesson3.cydwr\Clocks</v>
+<v>Outputpinseks\Lesson3\Lesson3.cydwr\Interrupts</v>
+<v>Outputpinseks\Lesson3\Lesson3.cydwr\DMA</v>
+<v>Outputpinseks\Lesson3\Lesson3.cydwr\System</v>
+<v>Outputpinseks\Lesson3\Lesson3.cydwr\Directives</v>
+<v>Outputpinseks\Lesson3\Lesson3.cydwr\Flash Security</v>
+<v>Outputpinseks\Lesson3\Lesson3.cydwr\EEPROM</v>
+<v>Outputpinseks\Lesson3\Header Files</v>
+<v>Outputpinseks\Lesson3\Header Files\cyapicallbacks.h</v>
+<v>Outputpinseks\Lesson3\Source Files</v>
+<v>Outputpinseks\Lesson3\Source Files\main.c</v>
+<v>Outputpinseks\Lesson3\Generated_Source</v>
+<v>Outputpinseks\Lesson3\Generated_Source\PSoC5</v>
+<v>Outputpinseks\Lesson4\TopDesign</v>
+<v>Outputpinseks\Lesson4\Lesson4.cydwr</v>
+<v>Outputpinseks\Lesson4\Lesson4.cydwr\Pins</v>
+<v>Outputpinseks\Lesson4\Lesson4.cydwr\Analog</v>
+<v>Outputpinseks\Lesson4\Lesson4.cydwr\Clocks</v>
+<v>Outputpinseks\Lesson4\Lesson4.cydwr\Interrupts</v>
+<v>Outputpinseks\Lesson4\Lesson4.cydwr\DMA</v>
+<v>Outputpinseks\Lesson4\Lesson4.cydwr\System</v>
+<v>Outputpinseks\Lesson4\Lesson4.cydwr\Directives</v>
+<v>Outputpinseks\Lesson4\Lesson4.cydwr\Flash Security</v>
+<v>Outputpinseks\Lesson4\Lesson4.cydwr\EEPROM</v>
+<v>Outputpinseks\Lesson4\Header Files</v>
+<v>Outputpinseks\Lesson4\Header Files\cyapicallbacks.h</v>
+<v>Outputpinseks\Lesson4\Source Files</v>
+<v>Outputpinseks\Lesson4\Source Files\main.c</v>
+<v>Outputpinseks\Lesson4\Generated_Source</v>
+<v>Outputpinseks\Lesson4\Generated_Source\PSoC5</v>
+<v>Outputpinseks\UART_Full_Duplex01\TopDesign</v>
+<v>Outputpinseks\UART_Full_Duplex01\UART_Full_Duplex01.cydwr</v>
+<v>Outputpinseks\UART_Full_Duplex01\UART_Full_Duplex01.cydwr\Pins</v>
+<v>Outputpinseks\UART_Full_Duplex01\UART_Full_Duplex01.cydwr\Analog</v>
+<v>Outputpinseks\UART_Full_Duplex01\UART_Full_Duplex01.cydwr\Clocks</v>
+<v>Outputpinseks\UART_Full_Duplex01\UART_Full_Duplex01.cydwr\Interrupts</v>
+<v>Outputpinseks\UART_Full_Duplex01\UART_Full_Duplex01.cydwr\DMA</v>
+<v>Outputpinseks\UART_Full_Duplex01\UART_Full_Duplex01.cydwr\System</v>
+<v>Outputpinseks\UART_Full_Duplex01\UART_Full_Duplex01.cydwr\Directives</v>
+<v>Outputpinseks\UART_Full_Duplex01\UART_Full_Duplex01.cydwr\Flash Security</v>
+<v>Outputpinseks\UART_Full_Duplex01\UART_Full_Duplex01.cydwr\EEPROM</v>
+<v>Outputpinseks\UART_Full_Duplex01\Header Files</v>
+<v>Outputpinseks\UART_Full_Duplex01\Header Files\common.h</v>
+<v>Outputpinseks\UART_Full_Duplex01\Header Files\cyapicallbacks.h</v>
+<v>Outputpinseks\UART_Full_Duplex01\Source Files</v>
+<v>Outputpinseks\UART_Full_Duplex01\Source Files\debug.c</v>
+<v>Outputpinseks\UART_Full_Duplex01\Source Files\main.c</v>
+<v>Outputpinseks\UART_Full_Duplex01\CE210741_UART_Full_Duplex_and_printf_Support_with_PSoC_3_4_5LP.pdf</v>
+<v>Outputpinseks\UART_printf</v>
+<v>Outputpinseks\UART_printf\TopDesign</v>
+<v>Outputpinseks\UART_printf\UART_printf.cydwr</v>
+<v>Outputpinseks\UART_printf\UART_printf.cydwr\Pins</v>
+<v>Outputpinseks\UART_printf\UART_printf.cydwr\Analog</v>
+<v>Outputpinseks\UART_printf\UART_printf.cydwr\Clocks</v>
+<v>Outputpinseks\UART_printf\UART_printf.cydwr\Interrupts</v>
+<v>Outputpinseks\UART_printf\UART_printf.cydwr\DMA</v>
+<v>Outputpinseks\UART_printf\UART_printf.cydwr\System</v>
+<v>Outputpinseks\UART_printf\UART_printf.cydwr\Directives</v>
+<v>Outputpinseks\UART_printf\UART_printf.cydwr\Flash Security</v>
+<v>Outputpinseks\UART_printf\UART_printf.cydwr\EEPROM</v>
+<v>Outputpinseks\UART_printf\Header Files</v>
+<v>Outputpinseks\UART_printf\Header Files\cyapicallbacks.h</v>
+<v>Outputpinseks\UART_printf\Source Files</v>
+<v>Outputpinseks\UART_printf\Source Files\main.c</v>
+<v>Outputpinseks\UART_printf\Generated_Source</v>
+<v>Outputpinseks\UART_printf\Generated_Source\PSoC5</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>Outputpinseks</v>
+<v>Outputpinseks\Design01</v>
+<v>Outputpinseks\lesson2_inputs</v>
+<v>Outputpinseks\Lesson3</v>
+<v>Outputpinseks\Lesson4</v>
+<v>Outputpinseks\UART_Full_Duplex01</v>
+<v>Outputpinseks\UART_printf</v>
+<v>Outputpinseks\UART_printf\TopDesign</v>
+<v>Outputpinseks\UART_printf\UART_printf.cydwr</v>
+<v>Outputpinseks\UART_printf\UART_printf.cydwr\Pins</v>
+<v>Outputpinseks\UART_printf\UART_printf.cydwr\Analog</v>
+<v>Outputpinseks\UART_printf\UART_printf.cydwr\Clocks</v>
+<v>Outputpinseks\UART_printf\UART_printf.cydwr\Interrupts</v>
+<v>Outputpinseks\UART_printf\UART_printf.cydwr\DMA</v>
+<v>Outputpinseks\UART_printf\UART_printf.cydwr\System</v>
+<v>Outputpinseks\UART_printf\UART_printf.cydwr\Directives</v>
+<v>Outputpinseks\UART_printf\UART_printf.cydwr\Flash Security</v>
+<v>Outputpinseks\UART_printf\UART_printf.cydwr\EEPROM</v>
+<v>Outputpinseks\UART_printf\Header Files</v>
+<v>Outputpinseks\UART_printf\Header Files\cyapicallbacks.h</v>
+<v>Outputpinseks\UART_printf\Source Files</v>
+<v>Outputpinseks\UART_printf\Source Files\main.c</v>
+<v>Outputpinseks\UART_printf\Generated_Source</v>
+<v>Outputpinseks\UART_printf\Generated_Source\PSoC5</v>
+<v>Outputpinseks\UART_printf\Generated_Source\PSoC5\cy_boot</v>
+<v>Outputpinseks\UART_printf\Generated_Source\PSoC5\Em_EEPROM_Dynamic</v>
+<v>Outputpinseks\UART_printf\Generated_Source\PSoC5\UART</v>
+<v>Outputpinseks\UART_printf\Generated_Source\PSoC5\UART_IntClock</v>
+<v>Outputpinseks\UART_printf\Generated_Source\PSoC5\cycodeshareexport.ld</v>
+<v>Outputpinseks\UART_printf\Generated_Source\PSoC5\cycodeshareimport.ld</v>
+<v>Outputpinseks\UART_printf\Generated_Source\PSoC5\cycodeshareimport.scat</v>
+<v>Outputpinseks\UART_printf\Generated_Source\PSoC5\cydevice.h</v>
+<v>Outputpinseks\UART_printf\Generated_Source\PSoC5\cydevice_trm.h</v>
+<v>Outputpinseks\UART_printf\Generated_Source\PSoC5\cydevicegnu.inc</v>
+<v>Outputpinseks\UART_printf\Generated_Source\PSoC5\cydevicegnu_trm.inc</v>
+<v>Outputpinseks\UART_printf\Generated_Source\PSoC5\cydeviceiar.inc</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>Outputpinseks</v>
+<v>Outputpinseks\Design01</v>
+<v>Outputpinseks\Design01\TopDesign</v>
+<v>Outputpinseks\Design01\TopDesign\TopDesign.cysch</v>
+<v>Outputpinseks\lesson2_inputs</v>
+<v>Outputpinseks\lesson2_inputs\TopDesign</v>
+<v>Outputpinseks\lesson2_inputs\TopDesign\TopDesign.cysch</v>
+<v>Outputpinseks\Lesson3</v>
+<v>Outputpinseks\Lesson3\TopDesign</v>
+<v>Outputpinseks\Lesson3\TopDesign\TopDesign.cysch</v>
+<v>Outputpinseks\Lesson4</v>
+<v>Outputpinseks\Lesson4\TopDesign</v>
+<v>Outputpinseks\Lesson4\TopDesign\TopDesign.cysch</v>
+<v>Outputpinseks\UART_Full_Duplex01</v>
+<v>Outputpinseks\UART_Full_Duplex01\TopDesign</v>
+<v>Outputpinseks\UART_Full_Duplex01\TopDesign\PSoC3</v>
+<v>Outputpinseks\UART_Full_Duplex01\TopDesign\PSoC3\TopDesign.ctl</v>
+<v>Outputpinseks\UART_Full_Duplex01\TopDesign\PSoC4</v>
+<v>Outputpinseks\UART_Full_Duplex01\TopDesign\PSoC4\PSoC 4200</v>
+<v>Outputpinseks\UART_Full_Duplex01\TopDesign\PSoC4\PSoC 4200\TopDesign.ctl</v>
+<v>Outputpinseks\UART_Full_Duplex01\TopDesign\PSoC4\PSoC 4200 BLE</v>
+<v>Outputpinseks\UART_Full_Duplex01\TopDesign\PSoC4\PSoC 4200 BLE\TopDesign.ctl</v>
+<v>Outputpinseks\UART_Full_Duplex01\TopDesign\PSoC4\PSoC 4200L</v>
+<v>Outputpinseks\UART_Full_Duplex01\TopDesign\PSoC4\PSoC 4200L\TopDesign.ctl</v>
+<v>Outputpinseks\UART_Full_Duplex01\TopDesign\PSoC5</v>
+<v>Outputpinseks\UART_Full_Duplex01\TopDesign\PSoC5\TopDesign.ctl</v>
+<v>Outputpinseks\UART_Full_Duplex01\TopDesign\TopDesign.cysch</v>
+<v>Outputpinseks\UART_printf</v>
+<v>Outputpinseks\UART_printf\TopDesign</v>
+<v>Outputpinseks\UART_printf\TopDesign\TopDesign.cysch</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>Outputpinseks</v>
+<v>Outputpinseks\Design01</v>
+<v>Outputpinseks\Design01\TopDesign</v>
+<v>Outputpinseks\Design01\TopDesign\TopDesign.cysch</v>
+<v>Outputpinseks\lesson2_inputs</v>
+<v>Outputpinseks\lesson2_inputs\TopDesign</v>
+<v>Outputpinseks\lesson2_inputs\TopDesign\TopDesign.cysch</v>
+<v>Outputpinseks\Lesson3</v>
+<v>Outputpinseks\Lesson3\TopDesign</v>
+<v>Outputpinseks\Lesson3\TopDesign\TopDesign.cysch</v>
+<v>Outputpinseks\Lesson4</v>
+<v>Outputpinseks\Lesson4\TopDesign</v>
+<v>Outputpinseks\Lesson4\TopDesign\TopDesign.cysch</v>
+<v>Outputpinseks\UART_Full_Duplex01</v>
+<v>Outputpinseks\UART_Full_Duplex01\TopDesign</v>
+<v>Outputpinseks\UART_Full_Duplex01\TopDesign\PSoC3</v>
+<v>Outputpinseks\UART_Full_Duplex01\TopDesign\PSoC3\TopDesign.ctl</v>
+<v>Outputpinseks\UART_Full_Duplex01\TopDesign\PSoC4</v>
+<v>Outputpinseks\UART_Full_Duplex01\TopDesign\PSoC4\PSoC 4200</v>
+<v>Outputpinseks\UART_Full_Duplex01\TopDesign\PSoC4\PSoC 4200\TopDesign.ctl</v>
+<v>Outputpinseks\UART_Full_Duplex01\TopDesign\PSoC4\PSoC 4200 BLE</v>
+<v>Outputpinseks\UART_Full_Duplex01\TopDesign\PSoC4\PSoC 4200 BLE\TopDesign.ctl</v>
+<v>Outputpinseks\UART_Full_Duplex01\TopDesign\PSoC4\PSoC 4200L</v>
+<v>Outputpinseks\UART_Full_Duplex01\TopDesign\PSoC4\PSoC 4200L\TopDesign.ctl</v>
+<v>Outputpinseks\UART_Full_Duplex01\TopDesign\PSoC5</v>
+<v>Outputpinseks\UART_Full_Duplex01\TopDesign\PSoC5\TopDesign.ctl</v>
+<v>Outputpinseks\UART_Full_Duplex01\TopDesign\TopDesign.cysch</v>
+<v>Outputpinseks\UART_printf</v>
+<v>Outputpinseks\UART_printf\TopDesign</v>
+<v>Outputpinseks\UART_printf\TopDesign\TopDesign.cysch</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>Outputpinseks</v>
+<v>Outputpinseks\Design01</v>
+<v>Outputpinseks\Design01\CortexM3</v>
+<v>Outputpinseks\Design01\CortexM3\ARM_GCC_541</v>
+<v>Outputpinseks\Design01\CortexM3\ARM_GCC_541\Debug</v>
+<v>Outputpinseks\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files</v>
+<v>Outputpinseks\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Cm3Start.lst</v>
+<v>Outputpinseks\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>Outputpinseks\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>Outputpinseks\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\CyDmac.lst</v>
+<v>Outputpinseks\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>Outputpinseks\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>Outputpinseks\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>Outputpinseks\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>Outputpinseks\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>Outputpinseks\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\CySpc.lst</v>
+<v>Outputpinseks\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>Outputpinseks\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>Outputpinseks\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_Blue.lst</v>
+<v>Outputpinseks\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_Green.lst</v>
+<v>Outputpinseks\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_Red.lst</v>
+<v>Outputpinseks\Design01\CortexM3\ARM_GCC_541\Debug\Design01.elf</v>
+<v>Outputpinseks\Design01\CortexM3\ARM_GCC_541\Debug\Design01.hex</v>
+<v>Outputpinseks\Design01\CortexM3\ARM_GCC_541\Debug\Design01.map</v>
+<v>Outputpinseks\Design01\Design01.gpdsc</v>
+<v>Outputpinseks\Design01\Design01.rpt</v>
+<v>Outputpinseks\Design01\Design01_timing.html</v>
+<v>Outputpinseks\lesson2_inputs</v>
+<v>Outputpinseks\lesson2_inputs\CortexM3</v>
+<v>Outputpinseks\lesson2_inputs\CortexM3\ARM_GCC_541</v>
+<v>Outputpinseks\lesson2_inputs\CortexM3\ARM_GCC_541\Debug</v>
+<v>Outputpinseks\lesson2_inputs\CortexM3\ARM_GCC_541\Debug\Listing Files</v>
+<v>Outputpinseks\lesson2_inputs\CortexM3\ARM_GCC_541\Debug\Listing Files\Cm3Start.lst</v>
+<v>Outputpinseks\lesson2_inputs\CortexM3\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>Outputpinseks\lesson2_inputs\CortexM3\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>Outputpinseks\lesson2_inputs\CortexM3\ARM_GCC_541\Debug\Listing Files\CyDmac.lst</v>
+<v>Outputpinseks\lesson2_inputs\CortexM3\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>Outputpinseks\lesson2_inputs\CortexM3\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>Outputpinseks\lesson2_inputs\CortexM3\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>Outputpinseks\lesson2_inputs\CortexM3\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>Outputpinseks\lesson2_inputs\CortexM3\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>Outputpinseks\lesson2_inputs\CortexM3\ARM_GCC_541\Debug\Listing Files\CySpc.lst</v>
+<v>Outputpinseks\lesson2_inputs\CortexM3\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>Outputpinseks\lesson2_inputs\CortexM3\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>Outputpinseks\lesson2_inputs\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_Blue.lst</v>
+<v>Outputpinseks\lesson2_inputs\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_Green.lst</v>
+<v>Outputpinseks\lesson2_inputs\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_Red.lst</v>
+<v>Outputpinseks\lesson2_inputs\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_SW2.lst</v>
+<v>Outputpinseks\lesson2_inputs\CortexM3\ARM_GCC_541\Debug\lesson2_inputs.elf</v>
+<v>Outputpinseks\lesson2_inputs\CortexM3\ARM_GCC_541\Debug\lesson2_inputs.hex</v>
+<v>Outputpinseks\lesson2_inputs\CortexM3\ARM_GCC_541\Debug\lesson2_inputs.map</v>
+<v>Outputpinseks\lesson2_inputs\lesson2_inputs.gpdsc</v>
+<v>Outputpinseks\lesson2_inputs\lesson2_inputs.rpt</v>
+<v>Outputpinseks\lesson2_inputs\lesson2_inputs_timing.html</v>
+<v>Outputpinseks\Lesson3</v>
+<v>Outputpinseks\Lesson3\CortexM3</v>
+<v>Outputpinseks\Lesson3\CortexM3\ARM_GCC_541</v>
+<v>Outputpinseks\Lesson3\CortexM3\ARM_GCC_541\Debug</v>
+<v>Outputpinseks\Lesson3\CortexM3\ARM_GCC_541\Debug\Listing Files</v>
+<v>Outputpinseks\Lesson3\CortexM3\ARM_GCC_541\Debug\Listing Files\Cm3Start.lst</v>
+<v>Outputpinseks\Lesson3\CortexM3\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>Outputpinseks\Lesson3\CortexM3\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>Outputpinseks\Lesson3\CortexM3\ARM_GCC_541\Debug\Listing Files\CyDmac.lst</v>
+<v>Outputpinseks\Lesson3\CortexM3\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>Outputpinseks\Lesson3\CortexM3\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>Outputpinseks\Lesson3\CortexM3\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>Outputpinseks\Lesson3\CortexM3\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>Outputpinseks\Lesson3\CortexM3\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>Outputpinseks\Lesson3\CortexM3\ARM_GCC_541\Debug\Listing Files\CySpc.lst</v>
+<v>Outputpinseks\Lesson3\CortexM3\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>Outputpinseks\Lesson3\CortexM3\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>Outputpinseks\Lesson3\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_Blue.lst</v>
+<v>Outputpinseks\Lesson3\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_Green.lst</v>
+<v>Outputpinseks\Lesson3\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_Red.lst</v>
+<v>Outputpinseks\Lesson3\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_SW2.lst</v>
+<v>Outputpinseks\Lesson3\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_SW2_int.lst</v>
+<v>Outputpinseks\Lesson3\CortexM3\ARM_GCC_541\Debug\Lesson3.elf</v>
+<v>Outputpinseks\Lesson3\CortexM3\ARM_GCC_541\Debug\Lesson3.hex</v>
+<v>Outputpinseks\Lesson3\CortexM3\ARM_GCC_541\Debug\Lesson3.map</v>
+<v>Outputpinseks\Lesson3\Lesson3.gpdsc</v>
+<v>Outputpinseks\Lesson3\Lesson3.rpt</v>
+<v>Outputpinseks\Lesson3\Lesson3_timing.html</v>
+<v>Outputpinseks\Lesson4</v>
+<v>Outputpinseks\Lesson4\CortexM3</v>
+<v>Outputpinseks\Lesson4\CortexM3\ARM_GCC_541</v>
+<v>Outputpinseks\Lesson4\CortexM3\ARM_GCC_541\Debug</v>
+<v>Outputpinseks\Lesson4\CortexM3\ARM_GCC_541\Debug\Listing Files</v>
+<v>Outputpinseks\Lesson4\CortexM3\ARM_GCC_541\Debug\Listing Files\Clock_1.lst</v>
+<v>Outputpinseks\Lesson4\CortexM3\ARM_GCC_541\Debug\Listing Files\Cm3Start.lst</v>
+<v>Outputpinseks\Lesson4\CortexM3\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>Outputpinseks\Lesson4\CortexM3\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>Outputpinseks\Lesson4\CortexM3\ARM_GCC_541\Debug\Listing Files\CyDmac.lst</v>
+<v>Outputpinseks\Lesson4\CortexM3\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>Outputpinseks\Lesson4\CortexM3\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>Outputpinseks\Lesson4\CortexM3\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>Outputpinseks\Lesson4\CortexM3\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>Outputpinseks\Lesson4\CortexM3\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>Outputpinseks\Lesson4\CortexM3\ARM_GCC_541\Debug\Listing Files\CySpc.lst</v>
+<v>Outputpinseks\Lesson4\CortexM3\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>Outputpinseks\Lesson4\CortexM3\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>Outputpinseks\Lesson4\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_Blue.lst</v>
+<v>Outputpinseks\Lesson4\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_Green.lst</v>
+<v>Outputpinseks\Lesson4\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_Red.lst</v>
+<v>Outputpinseks\Lesson4\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_SW2.lst</v>
+<v>Outputpinseks\Lesson4\CortexM3\ARM_GCC_541\Debug\Lesson4.elf</v>
+<v>Outputpinseks\Lesson4\CortexM3\ARM_GCC_541\Debug\Lesson4.hex</v>
+<v>Outputpinseks\Lesson4\CortexM3\ARM_GCC_541\Debug\Lesson4.map</v>
+<v>Outputpinseks\Lesson4\Lesson4.gpdsc</v>
+<v>Outputpinseks\Lesson4\Lesson4.rpt</v>
+<v>Outputpinseks\Lesson4\Lesson4_timing.html</v>
+<v>Outputpinseks\UART_Full_Duplex01</v>
+<v>Outputpinseks\UART_Full_Duplex01\UART_Full_Duplex01.gpdsc</v>
+<v>Outputpinseks\UART_Full_Duplex01\UART_Full_Duplex01.rpt</v>
+<v>Outputpinseks\UART_Full_Duplex01\UART_Full_Duplex01_timing.html</v>
+<v>Outputpinseks\UART_printf</v>
+<v>Outputpinseks\UART_printf\CortexM3</v>
+<v>Outputpinseks\UART_printf\CortexM3\ARM_GCC_541</v>
+<v>Outputpinseks\UART_printf\CortexM3\ARM_GCC_541\Debug</v>
+<v>Outputpinseks\UART_printf\CortexM3\ARM_GCC_541\Debug\Listing Files</v>
+<v>Outputpinseks\UART_printf\CortexM3\ARM_GCC_541\Debug\Listing Files\Cm3Start.lst</v>
+<v>Outputpinseks\UART_printf\CortexM3\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>Outputpinseks\UART_printf\CortexM3\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>Outputpinseks\UART_printf\CortexM3\ARM_GCC_541\Debug\Listing Files\CyDmac.lst</v>
+<v>Outputpinseks\UART_printf\CortexM3\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>Outputpinseks\UART_printf\CortexM3\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>Outputpinseks\UART_printf\CortexM3\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>Outputpinseks\UART_printf\CortexM3\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>Outputpinseks\UART_printf\CortexM3\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>Outputpinseks\UART_printf\CortexM3\ARM_GCC_541\Debug\Listing Files\CySpc.lst</v>
+<v>Outputpinseks\UART_printf\CortexM3\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>Outputpinseks\UART_printf\CortexM3\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>Outputpinseks\UART_printf\CortexM3\ARM_GCC_541\Debug\Listing Files\UART.lst</v>
+<v>Outputpinseks\UART_printf\CortexM3\ARM_GCC_541\Debug\Listing Files\UART_BOOT.lst</v>
+<v>Outputpinseks\UART_printf\CortexM3\ARM_GCC_541\Debug\Listing Files\UART_INT.lst</v>
+<v>Outputpinseks\UART_printf\CortexM3\ARM_GCC_541\Debug\Listing Files\UART_IntClock.lst</v>
+<v>Outputpinseks\UART_printf\CortexM3\ARM_GCC_541\Debug\Listing Files\UART_PM.lst</v>
+<v>Outputpinseks\UART_printf\CortexM3\ARM_GCC_541\Debug\UART_printf.elf</v>
+<v>Outputpinseks\UART_printf\CortexM3\ARM_GCC_541\Debug\UART_printf.hex</v>
+<v>Outputpinseks\UART_printf\CortexM3\ARM_GCC_541\Debug\UART_printf.map</v>
+<v>Outputpinseks\UART_printf\UART_printf.gpdsc</v>
+<v>Outputpinseks\UART_printf\UART_printf.rpt</v>
+<v>Outputpinseks\UART_printf\UART_printf_timing.html</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>Outputpinseks</v>
+<v>Outputpinseks\Design01</v>
+<v>Outputpinseks\Design01\CortexM3</v>
+<v>Outputpinseks\Design01\CortexM3\ARM_GCC_541</v>
+<v>Outputpinseks\Design01\CortexM3\ARM_GCC_541\Debug</v>
+<v>Outputpinseks\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files</v>
+<v>Outputpinseks\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Cm3Start.lst</v>
+<v>Outputpinseks\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>Outputpinseks\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>Outputpinseks\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\CyDmac.lst</v>
+<v>Outputpinseks\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>Outputpinseks\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>Outputpinseks\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>Outputpinseks\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>Outputpinseks\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>Outputpinseks\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\CySpc.lst</v>
+<v>Outputpinseks\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>Outputpinseks\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>Outputpinseks\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_Blue.lst</v>
+<v>Outputpinseks\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_Green.lst</v>
+<v>Outputpinseks\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_Red.lst</v>
+<v>Outputpinseks\Design01\CortexM3\ARM_GCC_541\Debug\Design01.elf</v>
+<v>Outputpinseks\Design01\CortexM3\ARM_GCC_541\Debug\Design01.hex</v>
+<v>Outputpinseks\Design01\CortexM3\ARM_GCC_541\Debug\Design01.map</v>
+<v>Outputpinseks\Design01\Design01.gpdsc</v>
+<v>Outputpinseks\Design01\Design01.rpt</v>
+<v>Outputpinseks\Design01\Design01_timing.html</v>
+<v>Outputpinseks\lesson2_inputs</v>
+<v>Outputpinseks\lesson2_inputs\CortexM3</v>
+<v>Outputpinseks\lesson2_inputs\CortexM3\ARM_GCC_541</v>
+<v>Outputpinseks\lesson2_inputs\CortexM3\ARM_GCC_541\Debug</v>
+<v>Outputpinseks\lesson2_inputs\CortexM3\ARM_GCC_541\Debug\Listing Files</v>
+<v>Outputpinseks\lesson2_inputs\CortexM3\ARM_GCC_541\Debug\Listing Files\Cm3Start.lst</v>
+<v>Outputpinseks\lesson2_inputs\CortexM3\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>Outputpinseks\lesson2_inputs\CortexM3\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>Outputpinseks\lesson2_inputs\CortexM3\ARM_GCC_541\Debug\Listing Files\CyDmac.lst</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStates>
+<TreeKeysV2>
+<v>Datasheet</v>
+</TreeKeysV2>
+<TreeStatesV2>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>Outputpinseks</v>
+<v>Outputpinseks\Design01</v>
+<v>Outputpinseks\Design01\PSoC 5LP Architecture TRM</v>
+<v>Outputpinseks\Design01\CY8C58LP Family Datasheet</v>
+<v>Outputpinseks\Design01\System Reference Guides</v>
+<v>Outputpinseks\Design01\System Reference Guides\cy_boot_v5_70</v>
+<v>Outputpinseks\Design01\cy_pins_v2_20</v>
+<v>Outputpinseks\Design01\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>Outputpinseks\lesson2_inputs</v>
+<v>Outputpinseks\lesson2_inputs\PSoC 5LP Architecture TRM</v>
+<v>Outputpinseks\lesson2_inputs\CY8C58LP Family Datasheet</v>
+<v>Outputpinseks\lesson2_inputs\System Reference Guides</v>
+<v>Outputpinseks\lesson2_inputs\System Reference Guides\cy_boot_v5_70</v>
+<v>Outputpinseks\lesson2_inputs\cy_pins_v2_20</v>
+<v>Outputpinseks\lesson2_inputs\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>Outputpinseks\lesson2_inputs\Gnd_v1_0.pdf</v>
+<v>Outputpinseks\lesson2_inputs\LED_v1_0</v>
+<v>Outputpinseks\lesson2_inputs\LED_v1_0\LED_v1_0.pdf</v>
+<v>Outputpinseks\lesson2_inputs\Power_v1_0</v>
+<v>Outputpinseks\lesson2_inputs\Power_v1_0\Power_v1_0.pdf</v>
+<v>Outputpinseks\lesson2_inputs\Resistor_v1_0</v>
+<v>Outputpinseks\lesson2_inputs\Resistor_v1_0\Resistor_v1_0.pdf</v>
+<v>Outputpinseks\lesson2_inputs\SwitchSPST_v1_0.pdf</v>
+<v>Outputpinseks\Lesson3</v>
+<v>Outputpinseks\Lesson3\PSoC 5LP Architecture TRM</v>
+<v>Outputpinseks\Lesson3\CY8C58LP Family Datasheet</v>
+<v>Outputpinseks\Lesson3\System Reference Guides</v>
+<v>Outputpinseks\Lesson3\System Reference Guides\cy_boot_v5_70</v>
+<v>Outputpinseks\Lesson3\cy_isr_v1_70.pdf</v>
+<v>Outputpinseks\Lesson3\cy_pins_v2_20</v>
+<v>Outputpinseks\Lesson3\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>Outputpinseks\Lesson3\Gnd_v1_0.pdf</v>
+<v>Outputpinseks\Lesson3\LED_v1_0</v>
+<v>Outputpinseks\Lesson3\LED_v1_0\LED_v1_0.pdf</v>
+<v>Outputpinseks\Lesson3\Power_v1_0</v>
+<v>Outputpinseks\Lesson3\Power_v1_0\Power_v1_0.pdf</v>
+<v>Outputpinseks\Lesson3\Resistor_v1_0</v>
+<v>Outputpinseks\Lesson3\Resistor_v1_0\Resistor_v1_0.pdf</v>
+<v>Outputpinseks\Lesson3\SwitchSPST_v1_0.pdf</v>
+<v>Outputpinseks\Lesson4</v>
+<v>Outputpinseks\Lesson4\PSoC 5LP Architecture TRM</v>
+<v>Outputpinseks\Lesson4\CY8C58LP Family Datasheet</v>
+<v>Outputpinseks\Lesson4\System Reference Guides</v>
+<v>Outputpinseks\Lesson4\System Reference Guides\cy_boot_v5_70</v>
+<v>Outputpinseks\Lesson4\cy_clock_v2_20.pdf</v>
+<v>Outputpinseks\Lesson4\cy_constant_v1_0.pdf</v>
+<v>Outputpinseks\Lesson4\cy_pins_v2_20</v>
+<v>Outputpinseks\Lesson4\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>Outputpinseks\Lesson4\cy_tff_v1_0.pdf</v>
+<v>Outputpinseks\Lesson4\Debouncer_v1_0.pdf</v>
+<v>Outputpinseks\Lesson4\Gnd_v1_0.pdf</v>
+<v>Outputpinseks\Lesson4\I2S_v2_70.pdf</v>
+<v>Outputpinseks\Lesson4\LED_v1_0</v>
+<v>Outputpinseks\Lesson4\LED_v1_0\LED_v1_0.pdf</v>
+<v>Outputpinseks\Lesson4\not_v1_0.pdf</v>
+<v>Outputpinseks\Lesson4\Power_v1_0</v>
+<v>Outputpinseks\Lesson4\Power_v1_0\Power_v1_0.pdf</v>
+<v>Outputpinseks\Lesson4\Resistor_v1_0</v>
+<v>Outputpinseks\Lesson4\Resistor_v1_0\Resistor_v1_0.pdf</v>
+<v>Outputpinseks\Lesson4\SwitchSPST_v1_0.pdf</v>
+<v>Outputpinseks\UART_Full_Duplex01</v>
+<v>Outputpinseks\UART_Full_Duplex01\PSoC 5LP Architecture TRM</v>
+<v>Outputpinseks\UART_Full_Duplex01\CY8C58LP Family Datasheet</v>
+<v>Outputpinseks\UART_Full_Duplex01\System Reference Guides</v>
+<v>Outputpinseks\UART_Full_Duplex01\System Reference Guides\cy_boot_v5_60</v>
+<v>Outputpinseks\UART_Full_Duplex01\cy_isr_v1_70.pdf</v>
+<v>Outputpinseks\UART_Full_Duplex01\cy_pins_v2_20</v>
+<v>Outputpinseks\UART_Full_Duplex01\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>Outputpinseks\UART_Full_Duplex01\Gnd_v1_0.pdf</v>
+<v>Outputpinseks\UART_Full_Duplex01\LED_v1_0.pdf</v>
+<v>Outputpinseks\UART_Full_Duplex01\Power_v1_0.pdf</v>
+<v>Outputpinseks\UART_Full_Duplex01\Resistor_v1_0.pdf</v>
+<v>Outputpinseks\UART_Full_Duplex01\SwitchSPST_v1_0.pdf</v>
+<v>Outputpinseks\UART_Full_Duplex01\UART_v2_50.pdf</v>
+<v>Outputpinseks\UART_printf</v>
+<v>Outputpinseks\UART_printf\PSoC 5LP Architecture TRM</v>
+<v>Outputpinseks\UART_printf\CY8C58LP Family Datasheet</v>
+<v>Outputpinseks\UART_printf\System Reference Guides</v>
+<v>Outputpinseks\UART_printf\System Reference Guides\cy_boot_v5_70</v>
+<v>Outputpinseks\UART_printf\cy_pins_v2_20</v>
+<v>Outputpinseks\UART_printf\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>Outputpinseks\UART_printf\UART_v2_50.pdf</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>Outputpinseks</v>
+<v>Outputpinseks\Design01</v>
+<v>Outputpinseks\Design01\PSoC 5LP Architecture TRM</v>
+<v>Outputpinseks\Design01\CY8C58LP Family Datasheet</v>
+<v>Outputpinseks\Design01\System Reference Guides</v>
+<v>Outputpinseks\Design01\System Reference Guides\cy_boot_v5_70</v>
+<v>Outputpinseks\Design01\cy_pins_v2_20</v>
+<v>Outputpinseks\Design01\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>Outputpinseks\lesson2_inputs</v>
+<v>Outputpinseks\lesson2_inputs\PSoC 5LP Architecture TRM</v>
+<v>Outputpinseks\lesson2_inputs\CY8C58LP Family Datasheet</v>
+<v>Outputpinseks\lesson2_inputs\System Reference Guides</v>
+<v>Outputpinseks\lesson2_inputs\System Reference Guides\cy_boot_v5_70</v>
+<v>Outputpinseks\lesson2_inputs\cy_pins_v2_20</v>
+<v>Outputpinseks\lesson2_inputs\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>Outputpinseks\lesson2_inputs\Gnd_v1_0.pdf</v>
+<v>Outputpinseks\lesson2_inputs\LED_v1_0</v>
+<v>Outputpinseks\lesson2_inputs\LED_v1_0\LED_v1_0.pdf</v>
+<v>Outputpinseks\lesson2_inputs\Power_v1_0</v>
+<v>Outputpinseks\lesson2_inputs\Power_v1_0\Power_v1_0.pdf</v>
+<v>Outputpinseks\lesson2_inputs\Resistor_v1_0</v>
+<v>Outputpinseks\lesson2_inputs\Resistor_v1_0\Resistor_v1_0.pdf</v>
+<v>Outputpinseks\lesson2_inputs\SwitchSPST_v1_0.pdf</v>
+<v>Outputpinseks\Lesson3</v>
+<v>Outputpinseks\Lesson3\PSoC 5LP Architecture TRM</v>
+<v>Outputpinseks\Lesson3\CY8C58LP Family Datasheet</v>
+<v>Outputpinseks\Lesson3\System Reference Guides</v>
+<v>Outputpinseks\Lesson3\System Reference Guides\cy_boot_v5_70</v>
+<v>Outputpinseks\Lesson3\cy_isr_v1_70.pdf</v>
+<v>Outputpinseks\Lesson3\cy_pins_v2_20</v>
+<v>Outputpinseks\Lesson3\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>Outputpinseks\Lesson3\Gnd_v1_0.pdf</v>
+<v>Outputpinseks\Lesson3\LED_v1_0</v>
+<v>Outputpinseks\Lesson3\LED_v1_0\LED_v1_0.pdf</v>
+<v>Outputpinseks\Lesson3\Power_v1_0</v>
+<v>Outputpinseks\Lesson3\Power_v1_0\Power_v1_0.pdf</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStatesV2>
+</CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35>
+</dataGuid>
+<dataGuid v="5f2be1a5-0687-4501-bb8c-cf21cb8211bf">
+<CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf type_name="CyDesigner.Common.ProjMgmt.GUI.CyBookmarkData" version="1">
+<indicators />
+</CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf>
+</dataGuid>
+</userData>
+</CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
+<Unloaded />
+<OpenDocs>
+<name v="..\UART_printf\UART_printf.cydsn\main.c" />
+</OpenDocs>
+<OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
+
+  Actipro Docking/MDI for WinForms
+  Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
+  http://www.actiprosoftware.com
+
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="885, 495" SelectedTabbedMdiWindow="5c4c737c-82f4-49ba-af37-2c3a7dc547c0"><DocumentWindow Key="C:\Users\Albert Sandager\Documents\GitHub\P4-ViewCare\PSoC\UART_printf\UART_printf.cydsn\main.c" Guid="5c4c737c-82f4-49ba-af37-2c3a7dc547c0" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+<config v="" />
+<AutoUpdate v="true" />
+</CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
+</CyXmlSerializer>

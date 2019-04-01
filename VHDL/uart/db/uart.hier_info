@@ -181,17 +181,17 @@ rx => rx_count.OUTPUTSELECT
 rx => rx_count.OUTPUTSELECT
 rx => rx_busy.OUTPUTSELECT
 rx => rx_error.IN1
-rx_busy << rx_busy~reg0.DB_MAX_OUTPUT_PORT_TYPE
-rx_error << rx_error~reg0.DB_MAX_OUTPUT_PORT_TYPE
-rx_data[0] << rx_data[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-rx_data[1] << rx_data[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-rx_data[2] << rx_data[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-rx_data[3] << rx_data[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-rx_data[4] << rx_data[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-rx_data[5] << rx_data[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-rx_data[6] << rx_data[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-rx_data[7] << rx_data[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-tx_busy << tx_busy~reg0.DB_MAX_OUTPUT_PORT_TYPE
-tx << tx~reg0.DB_MAX_OUTPUT_PORT_TYPE
+rx_busy <= rx_busy~reg0.DB_MAX_OUTPUT_PORT_TYPE
+rx_error <= rx_error~reg0.DB_MAX_OUTPUT_PORT_TYPE
+rx_data[0] <= rx_data[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+rx_data[1] <= rx_data[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+rx_data[2] <= rx_data[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+rx_data[3] <= rx_data[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+rx_data[4] <= rx_data[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+rx_data[5] <= rx_data[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+rx_data[6] <= rx_data[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+rx_data[7] <= rx_data[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+tx_busy <= tx_busy~reg0.DB_MAX_OUTPUT_PORT_TYPE
+tx <= tx~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 

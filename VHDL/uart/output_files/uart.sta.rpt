@@ -1,5 +1,5 @@
 TimeQuest Timing Analyzer report for uart
-Thu Mar 14 14:37:10 2019
+Mon Apr 01 09:24:35 2019
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -1724,7 +1724,7 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit TimeQuest Timing Analyzer
     Info: Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
-    Info: Processing started: Thu Mar 14 14:37:06 2019
+    Info: Processing started: Mon Apr 01 09:24:32 2019
 Info: Command: quartus_sta uart -c uart
 Info: qsta_default_script.tcl version: #1
 Warning (20028): Parallel compilation is not licensed and has been disabled
@@ -1796,9 +1796,9 @@ Info (332146): Worst-case minimum pulse width slack is -3.000
 Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 5 warnings
-    Info: Peak virtual memory: 491 megabytes
-    Info: Processing ended: Thu Mar 14 14:37:10 2019
-    Info: Elapsed time: 00:00:04
+    Info: Peak virtual memory: 492 megabytes
+    Info: Processing ended: Mon Apr 01 09:24:35 2019
+    Info: Elapsed time: 00:00:03
     Info: Total CPU time (on all processors): 00:00:03
 
 

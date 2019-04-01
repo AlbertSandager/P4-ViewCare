@@ -2,7 +2,7 @@
 --	Conversion of uart.v to vh2:
 --
 --	Cypress Semiconductor - WARP Version 6.3 IR 41
---	Thu Mar 14 14:24:13 2019
+--	Mon Apr 01 09:21:15 2019
 --
 
 USE cypress.cypress.all;

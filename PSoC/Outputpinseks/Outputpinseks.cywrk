@@ -3,7 +3,7 @@
 <!--This file is machine generated and read. It is not intended to be edited by hand.-->
 <!--Due to this, there is no schema for this file.-->
 <CyGuid_2867d519-54d2-4c01-9830-c51cb08bc3dd type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWorkspaceSerialize" version="5" xml_contents_version="3" name="Outputpinseks" persistent="Outputpinseks.cywrk" platform="NOT_USED">
-<current_project name=".\lesson12.cydsn\lesson12.cyprj" />
+<current_project name="..\UART_printf\UART_printf.cydsn\UART_printf.cyprj" />
 <wrkspc_folders />
 <files />
 <projects>
@@ -12,7 +12,7 @@
 <v>.\Lesson3.cydsn\Lesson3.cyprj</v>
 <v>.\Lesson4.cydsn\Lesson4.cyprj</v>
 <v>.\UART_Full_Duplex01.cydsn\UART_Full_Duplex01.cyprj</v>
-<v>.\lesson12.cydsn\lesson12.cyprj</v>
+<v>..\UART_printf\UART_printf.cydsn\UART_printf.cyprj</v>
 </projects>
 <workspace_id v="b18003cd-285f-478b-9fe1-40c8d3cb5699" />
 <WriteAppVersionLastSavedWith v="4.2.0.641" />

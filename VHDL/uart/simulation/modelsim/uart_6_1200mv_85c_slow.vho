@@ -16,7 +16,7 @@
 -- PROGRAM "Quartus II 64-Bit"
 -- VERSION "Version 13.1.0 Build 162 10/23/2013 SJ Web Edition"
 
--- DATE "03/14/2019 14:37:13"
+-- DATE "04/01/2019 09:24:38"
 
 -- 
 -- Device: Altera EP3C16F484C6 Package FBGA484
@@ -40,11 +40,11 @@ ENTITY 	uart IS
 	tx_ena : IN std_logic;
 	tx_data : IN std_logic_vector(7 DOWNTO 0);
 	rx : IN std_logic;
-	rx_busy : BUFFER std_logic;
-	rx_error : BUFFER std_logic;
-	rx_data : BUFFER std_logic_vector(7 DOWNTO 0);
-	tx_busy : BUFFER std_logic;
-	tx : BUFFER std_logic
+	rx_busy : OUT std_logic;
+	rx_error : OUT std_logic;
+	rx_data : OUT std_logic_vector(7 DOWNTO 0);
+	tx_busy : OUT std_logic;
+	tx : OUT std_logic
 	);
 END uart;
 

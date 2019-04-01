@@ -1,0 +1,11 @@
+C:\Users\Albert Sandager\Documents\GitHub\P4-ViewCare\PSoC\Outputpinseks\Design01.cydsn\Design01.cyprj|1797002f-0cbd-47ed-a804-f90a290be0e2
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|0b92f80b-0f82-494a-b963-9bbd467dbeb7
+C:\Users\Albert Sandager\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\Downloads ( 4.2).cyprj|79c271e5-b7fd-48b4-a812-9d362d87a0d3
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|c22a2626-2d0a-4f6c-b004-a2cd5f2220ef
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|c18feedb-ff50-41fd-9fff-745b05365b1b
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|63c07114-04d1-4f01-a1f2-244e8cdc84f3
+C:\Users\Albert Sandager\Documents\GitHub\P4-ViewCare\PSoC\Outputpinseks\lesson2_inputs.cydsn\lesson2_inputs.cyprj|6db3cb3f-42a0-435b-a40c-0d45eaa35fb5
+C:\Users\Albert Sandager\Documents\GitHub\P4-ViewCare\PSoC\Outputpinseks\Lesson3.cydsn\Lesson3.cyprj|5ad745aa-d8ea-41d3-baee-acd9c07ca8c8
+C:\Users\Albert Sandager\Documents\GitHub\P4-ViewCare\PSoC\Outputpinseks\Lesson4.cydsn\Lesson4.cyprj|2b574c6d-1e5a-452d-b3c1-46c33671500c
+C:\Users\Albert Sandager\Documents\GitHub\P4-ViewCare\PSoC\Outputpinseks\UART_Full_Duplex01.cydsn\UART_Full_Duplex01.cyprj|f1930914-2979-4274-a16a-e1fa2a423234
+C:\Users\Albert Sandager\Documents\GitHub\P4-ViewCare\PSoC\Outputpinseks\UARTalbert.cydsn\UARTalbert.cyprj|5b1bd16e-3790-4cbb-9e39-983023282131

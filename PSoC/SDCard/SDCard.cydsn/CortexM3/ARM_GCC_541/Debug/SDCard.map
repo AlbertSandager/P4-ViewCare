@@ -1987,35 +1987,35 @@ END GROUP
  .debug_frame   0x00001fb0       0x28 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-memcpy-stub.o)
  .debug_frame   0x00001fd8       0x20 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-memset.o)
 
-.debug_str      0x00000000     0x1b8a
+.debug_str      0x00000000     0x1bd9
  *(.debug_str)
- .debug_str     0x00000000      0x194 .\CortexM3\ARM_GCC_541\Debug\main.o
-                                0x1dc (size before relaxing)
- .debug_str     0x00000194      0x1a2 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
-                                0x32b (size before relaxing)
- .debug_str     0x00000336       0x7f .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
-                                0x1e6 (size before relaxing)
- .debug_str     0x000003b5      0x124 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+ .debug_str     0x00000000      0x19f .\CortexM3\ARM_GCC_541\Debug\main.o
+                                0x1e7 (size before relaxing)
+ .debug_str     0x0000019f      0x1a2 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+                                0x336 (size before relaxing)
+ .debug_str     0x00000341       0x7f .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
+                                0x1f1 (size before relaxing)
+ .debug_str     0x000003c0      0x168 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
                                 0x2d9 (size before relaxing)
- .debug_str     0x000004d9      0x17d .\CortexM3\ARM_GCC_541\Debug\SDCard.a(LCD.o)
+ .debug_str     0x00000528      0x17d .\CortexM3\ARM_GCC_541\Debug\SDCard.a(LCD.o)
                                 0x31b (size before relaxing)
- .debug_str     0x00000656      0x7fd .\CortexM3\ARM_GCC_541\Debug\SDCard.a(CyLib.o)
+ .debug_str     0x000006a5      0x7fd .\CortexM3\ARM_GCC_541\Debug\SDCard.a(CyLib.o)
                                 0x9ec (size before relaxing)
- .debug_str     0x00000e53      0x371 .\CortexM3\ARM_GCC_541\Debug\SDCard.a(cyPm.o)
+ .debug_str     0x00000ea2      0x371 .\CortexM3\ARM_GCC_541\Debug\SDCard.a(cyPm.o)
                                 0x545 (size before relaxing)
- .debug_str     0x000011c4      0x145 .\CortexM3\ARM_GCC_541\Debug\SDCard.a(CyFlash.o)
+ .debug_str     0x00001213      0x145 .\CortexM3\ARM_GCC_541\Debug\SDCard.a(CyFlash.o)
                                 0x2f8 (size before relaxing)
- .debug_str     0x00001309      0x126 .\CortexM3\ARM_GCC_541\Debug\SDCard.a(CySpc.o)
+ .debug_str     0x00001358      0x126 .\CortexM3\ARM_GCC_541\Debug\SDCard.a(CySpc.o)
                                 0x2f5 (size before relaxing)
- .debug_str     0x0000142f       0xdf .\CortexM3\ARM_GCC_541\Debug\SDCard.a(emFile_ConfigMMC_SPI.o)
+ .debug_str     0x0000147e       0xdf .\CortexM3\ARM_GCC_541\Debug\SDCard.a(emFile_ConfigMMC_SPI.o)
                                 0x250 (size before relaxing)
- .debug_str     0x0000150e      0x153 .\CortexM3\ARM_GCC_541\Debug\SDCard.a(emFile_MMC_HW_SPI.o)
+ .debug_str     0x0000155d      0x153 .\CortexM3\ARM_GCC_541\Debug\SDCard.a(emFile_MMC_HW_SPI.o)
                                 0x2ff (size before relaxing)
- .debug_str     0x00001661      0x2e0 .\CortexM3\ARM_GCC_541\Debug\SDCard.a(emFile_SPI0.o)
+ .debug_str     0x000016b0      0x2e0 .\CortexM3\ARM_GCC_541\Debug\SDCard.a(emFile_SPI0.o)
                                 0x47e (size before relaxing)
- .debug_str     0x00001941      0x1b6 .\CortexM3\ARM_GCC_541\Debug\SDCard.a(emFile_Clock_1.o)
+ .debug_str     0x00001990      0x1b6 .\CortexM3\ARM_GCC_541\Debug\SDCard.a(emFile_Clock_1.o)
                                 0x344 (size before relaxing)
- .debug_str     0x00001af7       0x93 .\CortexM3\ARM_GCC_541\Debug\SDCard.a(emFile_SPI0_CS.o)
+ .debug_str     0x00001b46       0x93 .\CortexM3\ARM_GCC_541\Debug\SDCard.a(emFile_SPI0_CS.o)
                                 0x211 (size before relaxing)
 
 .debug_loc
@@ -2227,4 +2227,4 @@ END GROUP
 
 /DISCARD/
  *(.note.GNU-stack)
-OUTPUT(C:\Users\Albert Sandager\Documents\PSoC Creator\SDCard\SDCard.cydsn\CortexM3\ARM_GCC_541\Debug\SDCard.elf elf32-littlearm)
+OUTPUT(C:\Users\Albert Sandager\Documents\GitHub\P4-ViewCare\PSoC\SDCard\SDCard.cydsn\CortexM3\ARM_GCC_541\Debug\SDCard.elf elf32-littlearm)

@@ -1,5 +1,5 @@
--- Project:   C:\Users\Albert Sandager\Documents\PSoC Creator\uart\uart.cydsn\uart.cyprj
--- Generated: 03/14/2019 14:24:21
+-- Project:   C:\Users\Albert Sandager\Documents\GitHub\P4-ViewCare\PSoC\uart\uart.cydsn\uart.cyprj
+-- Generated: 04/01/2019 09:21:20
 -- PSoC Creator  4.2
 
 ENTITY uart IS

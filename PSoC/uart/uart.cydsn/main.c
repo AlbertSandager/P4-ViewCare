@@ -11,18 +11,20 @@
 */
 #include "project.h"
 
+uint8 receivedData;
+
 int main(void)
 {
     CyGlobalIntEnable; /* Enable global interrupts. */
 
     UART_Start();
-    UART_PutString("J");
-
+    //UART_PutString("H");
+    UART_WriteTxData(156);
+    receivedData = UART_ReadRxData();
     
-
     for(;;)
     {
-
+        
     }
 }
 

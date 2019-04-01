@@ -1,6 +1,6 @@
 vendor_name = ModelSim
-source_file = 1, C:/altera/13.1/projects/uart/uart.vhd
-source_file = 1, C:/altera/13.1/projects/uart/db/uart.cbx.xml
+source_file = 1, C:/Users/Albert Sandager/Documents/GitHub/P4-ViewCare/VHDL/uart/uart.vhd
+source_file = 1, C:/Users/Albert Sandager/Documents/GitHub/P4-ViewCare/VHDL/uart/db/uart.cbx.xml
 source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
 source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
 source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/timing_b.vhd

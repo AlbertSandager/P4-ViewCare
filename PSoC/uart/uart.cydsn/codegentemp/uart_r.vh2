@@ -1,5 +1,5 @@
 -- Project:   uart
--- Generated: 03/14/2019 14:24:18
+-- Generated: 04/01/2019 09:21:17
 -- PSoC Creator  4.2
 
 ENTITY uart IS

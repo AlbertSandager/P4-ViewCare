@@ -1,5 +1,5 @@
 # SDCard
-# 2019-04-01 07:01:04Z
+# 2019-04-02 07:10:28Z
 
 # IO_0@[IOP=(1)][IoId=(0)] is reserved: SWDDebugEnabled
 dont_use_io iocell 1 0
@@ -22,3 +22,5 @@ set_io "\LCD:LCDPort(3)\" iocell 2 3
 set_io "\LCD:LCDPort(4)\" iocell 2 4
 set_io "\LCD:LCDPort(5)\" iocell 2 5
 set_io "\LCD:LCDPort(6)\" iocell 2 6
+set_io "Rx_1(0)" iocell 12 6
+set_io "Tx_1(0)" iocell 12 7

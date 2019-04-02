@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccFf5KWN.s 			page 1
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccZPcFJj.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccFf5KWN.s 			page 1
   37              		.loc 1 18 0
   38              		.syntax unified
   39              	@ 18 "main.c" 1
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccFf5KWN.s 			page 2
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccZPcFJj.s 			page 2
 
 
   40 0002 62B6     		CPSIE   i
@@ -71,9 +71,9 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccFf5KWN.s 			page 1
   45 0004 FFF7FEFF 		bl	UART_Start
   46              	.LVL0:
   21:main.c        ****     //UART_PutString("H");
-  22:main.c        ****     UART_WriteTxData(156);
+  22:main.c        ****     UART_WriteTxData(100);
   47              		.loc 1 22 0
-  48 0008 9C20     		movs	r0, #156
+  48 0008 6420     		movs	r0, #100
   49 000a FFF7FEFF 		bl	UART_WriteTxData
   50              	.LVL1:
   23:main.c        ****     receivedData = UART_ReadRxData();
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccFf5KWN.s 			page 1
   89 0027 06       		.byte	0x6
   90 0028 A1010000 		.4byte	.LASF0
   91 002c 02       		.uleb128 0x2
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccFf5KWN.s 			page 3
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccZPcFJj.s 			page 3
 
 
   92 002d 01       		.byte	0x1
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccFf5KWN.s 			page 1
  146 0094 02       		.uleb128 0x2
  147 0095 08       		.byte	0x8
  148 0096 04       		.byte	0x4
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccFf5KWN.s 			page 4
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccZPcFJj.s 			page 4
 
 
  149 0097 81010000 		.4byte	.LASF13
@@ -215,8 +215,8 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccFf5KWN.s 			page 1
  180 00e0 01       		.uleb128 0x1
  181 00e1 50       		.byte	0x50
  182 00e2 02       		.uleb128 0x2
- 183 00e3 09       		.byte	0x9
- 184 00e4 9C       		.byte	0x9c
+ 183 00e3 08       		.byte	0x8
+ 184 00e4 64       		.byte	0x64
  185 00e5 00       		.byte	0
  186 00e6 07       		.uleb128 0x7
  187 00e7 12000000 		.4byte	.LVL2
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccFf5KWN.s 			page 1
  203 010d 03       		.byte	0x3
  204 010e 00000000 		.4byte	receivedData
  205 0112 0D       		.uleb128 0xd
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccFf5KWN.s 			page 5
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccZPcFJj.s 			page 5
 
 
  206 0113 4A010000 		.4byte	.LASF19
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccFf5KWN.s 			page 1
  260 0025 3B       		.uleb128 0x3b
  261 0026 0B       		.uleb128 0xb
  262 0027 49       		.uleb128 0x49
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccFf5KWN.s 			page 6
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccZPcFJj.s 			page 6
 
 
  263 0028 13       		.uleb128 0x13
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccFf5KWN.s 			page 1
  317 0060 00       		.byte	0
  318 0061 00       		.byte	0
  319 0062 07       		.uleb128 0x7
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccFf5KWN.s 			page 7
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccZPcFJj.s 			page 7
 
 
  320 0063 898201   		.uleb128 0x4109
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccFf5KWN.s 			page 1
  374 00a0 00       		.byte	0
  375 00a1 03       		.uleb128 0x3
  376 00a2 0E       		.uleb128 0xe
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccFf5KWN.s 			page 8
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccZPcFJj.s 			page 8
 
 
  377 00a3 3A       		.uleb128 0x3a
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccFf5KWN.s 			page 1
  427      01010101 
  428              	.LASF6:
  429 0000 6C6F6E67 		.ascii	"long long int\000"
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccFf5KWN.s 			page 9
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccZPcFJj.s 			page 9
 
 
  429      206C6F6E 
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccFf5KWN.s 			page 1
  448      20756E73 
  448      69676E65 
  448      6420696E 
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccFf5KWN.s 			page 10
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccZPcFJj.s 			page 10
 
 
  448      7400
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccFf5KWN.s 			page 1
  473              	.LASF25:
  474 01c8 6D61696E 		.ascii	"main\000"
  474      00
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccFf5KWN.s 			page 11
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccZPcFJj.s 			page 11
 
 
  475              	.LASF12:

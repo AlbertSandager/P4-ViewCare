@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 1
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 1
 
 
    1              		.syntax unified
@@ -23,7 +23,7 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 1
   20              		.section	.cyconfigecc,"a",%progbits
   21              		.align	2
   22              		.type	cy_meta_configecc, %object
-  23              		.size	cy_meta_configecc, 1616
+  23              		.size	cy_meta_configecc, 4628
   24              	cy_meta_configecc:
   25 0000 01       		.byte	1
   26 0001 01       		.byte	1
@@ -33,124 +33,124 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 1
   30 0005 00       		.byte	0
   31 0006 00       		.byte	0
   32 0007 00       		.byte	0
-  33 0008 DC       		.byte	-36
-  34 0009 34       		.byte	52
+  33 0008 80       		.byte	-128
+  34 0009 00       		.byte	0
   35 000a 00       		.byte	0
   36 000b 00       		.byte	0
-  37 000c D4       		.byte	-44
+  37 000c 40       		.byte	64
   38 000d 00       		.byte	0
-  39 000e 08       		.byte	8
+  39 000e 00       		.byte	0
   40 000f 00       		.byte	0
-  41 0010 21       		.byte	33
-  42 0011 3F       		.byte	63
-  43 0012 1E       		.byte	30
-  44 0013 40       		.byte	64
-  45 0014 0C       		.byte	12
-  46 0015 34       		.byte	52
-  47 0016 D0       		.byte	-48
+  41 0010 00       		.byte	0
+  42 0011 01       		.byte	1
+  43 0012 00       		.byte	0
+  44 0013 00       		.byte	0
+  45 0014 00       		.byte	0
+  46 0015 00       		.byte	0
+  47 0016 00       		.byte	0
   48 0017 00       		.byte	0
-  49 0018 24       		.byte	36
-  50 0019 34       		.byte	52
-  51 001a 10       		.byte	16
+  49 0018 03       		.byte	3
+  50 0019 00       		.byte	0
+  51 001a 04       		.byte	4
   52 001b 00       		.byte	0
-  53 001c 11       		.byte	17
-  54 001d 4B       		.byte	75
-  55 001e 22       		.byte	34
-  56 001f 30       		.byte	48
+  53 001c 04       		.byte	4
+  54 001d 00       		.byte	0
+  55 001e 03       		.byte	3
+  56 001f 01       		.byte	1
   57 0020 00       		.byte	0
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 2
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 2
 
 
   58 0021 00       		.byte	0
-  59 0022 80       		.byte	-128
+  59 0022 00       		.byte	0
   60 0023 00       		.byte	0
-  61 0024 08       		.byte	8
-  62 0025 08       		.byte	8
+  61 0024 00       		.byte	0
+  62 0025 01       		.byte	1
   63 0026 00       		.byte	0
-  64 0027 75       		.byte	117
-  65 0028 DC       		.byte	-36
-  66 0029 20       		.byte	32
-  67 002a 00       		.byte	0
-  68 002b 02       		.byte	2
-  69 002c 00       		.byte	0
-  70 002d 14       		.byte	20
-  71 002e 00       		.byte	0
-  72 002f 20       		.byte	32
-  73 0030 D0       		.byte	-48
+  64 0027 00       		.byte	0
+  65 0028 00       		.byte	0
+  66 0029 01       		.byte	1
+  67 002a 08       		.byte	8
+  68 002b 00       		.byte	0
+  69 002c 01       		.byte	1
+  70 002d 01       		.byte	1
+  71 002e 06       		.byte	6
+  72 002f 00       		.byte	0
+  73 0030 05       		.byte	5
   74 0031 00       		.byte	0
-  75 0032 0C       		.byte	12
-  76 0033 34       		.byte	52
-  77 0034 30       		.byte	48
-  78 0035 14       		.byte	20
-  79 0036 0F       		.byte	15
+  75 0032 02       		.byte	2
+  76 0033 00       		.byte	0
+  77 0034 00       		.byte	0
+  78 0035 00       		.byte	0
+  79 0036 00       		.byte	0
   80 0037 00       		.byte	0
-  81 0038 30       		.byte	48
-  82 0039 07       		.byte	7
-  83 003a 0F       		.byte	15
-  84 003b 78       		.byte	120
-  85 003c 80       		.byte	-128
+  81 0038 00       		.byte	0
+  82 0039 00       		.byte	0
+  83 003a 08       		.byte	8
+  84 003b 00       		.byte	0
+  85 003c 10       		.byte	16
   86 003d 00       		.byte	0
-  87 003e 40       		.byte	64
+  87 003e 00       		.byte	0
   88 003f 00       		.byte	0
-  89 0040 00       		.byte	0
-  90 0041 08       		.byte	8
-  91 0042 02       		.byte	2
-  92 0043 03       		.byte	3
-  93 0044 00       		.byte	0
-  94 0045 00       		.byte	0
-  95 0046 50       		.byte	80
-  96 0047 00       		.byte	0
-  97 0048 65       		.byte	101
-  98 0049 03       		.byte	3
-  99 004a 10       		.byte	16
+  89 0040 07       		.byte	7
+  90 0041 00       		.byte	0
+  91 0042 08       		.byte	8
+  92 0043 00       		.byte	0
+  93 0044 10       		.byte	16
+  94 0045 01       		.byte	1
+  95 0046 00       		.byte	0
+  96 0047 01       		.byte	1
+  97 0048 00       		.byte	0
+  98 0049 00       		.byte	0
+  99 004a 02       		.byte	2
  100 004b 00       		.byte	0
- 101 004c 04       		.byte	4
- 102 004d FE       		.byte	-2
- 103 004e BB       		.byte	-69
- 104 004f CD       		.byte	-51
- 105 0050 3F       		.byte	63
- 106 0051 FF       		.byte	-1
- 107 0052 FF       		.byte	-1
- 108 0053 FF       		.byte	-1
- 109 0054 22       		.byte	34
+ 101 004c 00       		.byte	0
+ 102 004d 00       		.byte	0
+ 103 004e 14       		.byte	20
+ 104 004f 50       		.byte	80
+ 105 0050 00       		.byte	0
+ 106 0051 00       		.byte	0
+ 107 0052 00       		.byte	0
+ 108 0053 00       		.byte	0
+ 109 0054 00       		.byte	0
  110 0055 00       		.byte	0
- 111 0056 F0       		.byte	-16
- 112 0057 08       		.byte	8
- 113 0058 04       		.byte	4
+ 111 0056 00       		.byte	0
+ 112 0057 00       		.byte	0
+ 113 0058 00       		.byte	0
  114 0059 00       		.byte	0
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 3
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 3
 
 
  115 005a 00       		.byte	0
  116 005b 00       		.byte	0
- 117 005c 40       		.byte	64
+ 117 005c 00       		.byte	0
  118 005d 00       		.byte	0
  119 005e 00       		.byte	0
  120 005f 00       		.byte	0
- 121 0060 04       		.byte	4
- 122 0061 04       		.byte	4
- 123 0062 04       		.byte	4
- 124 0063 04       		.byte	4
- 125 0064 00       		.byte	0
+ 121 0060 00       		.byte	0
+ 122 0061 00       		.byte	0
+ 123 0062 00       		.byte	0
+ 124 0063 00       		.byte	0
+ 125 0064 18       		.byte	24
  126 0065 00       		.byte	0
  127 0066 00       		.byte	0
- 128 0067 01       		.byte	1
- 129 0068 00       		.byte	0
- 130 0069 00       		.byte	0
- 131 006a C0       		.byte	-64
- 132 006b 00       		.byte	0
- 133 006c 40       		.byte	64
- 134 006d 01       		.byte	1
- 135 006e 10       		.byte	16
- 136 006f 11       		.byte	17
- 137 0070 C0       		.byte	-64
- 138 0071 01       		.byte	1
+ 128 0067 00       		.byte	0
+ 129 0068 04       		.byte	4
+ 130 0069 04       		.byte	4
+ 131 006a 00       		.byte	0
+ 132 006b 04       		.byte	4
+ 133 006c 00       		.byte	0
+ 134 006d 10       		.byte	16
+ 135 006e 00       		.byte	0
+ 136 006f 01       		.byte	1
+ 137 0070 00       		.byte	0
+ 138 0071 00       		.byte	0
  139 0072 00       		.byte	0
- 140 0073 11       		.byte	17
- 141 0074 40       		.byte	64
- 142 0075 01       		.byte	1
- 143 0076 40       		.byte	64
- 144 0077 01       		.byte	1
+ 140 0073 00       		.byte	0
+ 141 0074 00       		.byte	0
+ 142 0075 00       		.byte	0
+ 143 0076 00       		.byte	0
+ 144 0077 00       		.byte	0
  145 0078 00       		.byte	0
  146 0079 00       		.byte	0
  147 007a 00       		.byte	0
@@ -167,84 +167,84 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 1
  158 0085 00       		.byte	0
  159 0086 00       		.byte	0
  160 0087 00       		.byte	0
- 161 0088 7F       		.byte	127
- 162 0089 01       		.byte	1
- 163 008a 80       		.byte	-128
+ 161 0088 00       		.byte	0
+ 162 0089 00       		.byte	0
+ 163 008a 00       		.byte	0
  164 008b 00       		.byte	0
  165 008c 00       		.byte	0
- 166 008d 04       		.byte	4
+ 166 008d 00       		.byte	0
  167 008e 00       		.byte	0
  168 008f 00       		.byte	0
- 169 0090 1F       		.byte	31
- 170 0091 40       		.byte	64
- 171 0092 20       		.byte	32
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 4
+ 169 0090 31       		.byte	49
+ 170 0091 0D       		.byte	13
+ 171 0092 0E       		.byte	14
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 4
 
 
  172 0093 00       		.byte	0
- 173 0094 C0       		.byte	-64
- 174 0095 22       		.byte	34
- 175 0096 02       		.byte	2
- 176 0097 08       		.byte	8
- 177 0098 80       		.byte	-128
- 178 0099 01       		.byte	1
- 179 009a 00       		.byte	0
- 180 009b 00       		.byte	0
- 181 009c 00       		.byte	0
- 182 009d 08       		.byte	8
- 183 009e FF       		.byte	-1
- 184 009f 21       		.byte	33
+ 173 0094 00       		.byte	0
+ 174 0095 0D       		.byte	13
+ 175 0096 00       		.byte	0
+ 176 0097 00       		.byte	0
+ 177 0098 22       		.byte	34
+ 178 0099 02       		.byte	2
+ 179 009a 10       		.byte	16
+ 180 009b A4       		.byte	-92
+ 181 009c 17       		.byte	23
+ 182 009d 01       		.byte	1
+ 183 009e 28       		.byte	40
+ 184 009f 62       		.byte	98
  185 00a0 00       		.byte	0
- 186 00a1 01       		.byte	1
- 187 00a2 60       		.byte	96
- 188 00a3 00       		.byte	0
- 189 00a4 C0       		.byte	-64
- 190 00a5 01       		.byte	1
- 191 00a6 01       		.byte	1
+ 186 00a1 C2       		.byte	-62
+ 187 00a2 00       		.byte	0
+ 188 00a3 08       		.byte	8
+ 189 00a4 29       		.byte	41
+ 190 00a5 00       		.byte	0
+ 191 00a6 16       		.byte	22
  192 00a7 00       		.byte	0
- 193 00a8 90       		.byte	-112
- 194 00a9 40       		.byte	64
- 195 00aa 40       		.byte	64
- 196 00ab 00       		.byte	0
- 197 00ac C0       		.byte	-64
- 198 00ad 07       		.byte	7
- 199 00ae 04       		.byte	4
- 200 00af 18       		.byte	24
- 201 00b0 C0       		.byte	-64
- 202 00b1 10       		.byte	16
- 203 00b2 08       		.byte	8
+ 193 00a8 12       		.byte	18
+ 194 00a9 02       		.byte	2
+ 195 00aa 04       		.byte	4
+ 196 00ab 0D       		.byte	13
+ 197 00ac 16       		.byte	22
+ 198 00ad 00       		.byte	0
+ 199 00ae 00       		.byte	0
+ 200 00af 20       		.byte	32
+ 201 00b0 16       		.byte	22
+ 202 00b1 0D       		.byte	13
+ 203 00b2 00       		.byte	0
  204 00b3 00       		.byte	0
- 205 00b4 00       		.byte	0
- 206 00b5 01       		.byte	1
- 207 00b6 9F       		.byte	-97
+ 205 00b4 04       		.byte	4
+ 206 00b5 10       		.byte	16
+ 207 00b6 00       		.byte	0
  208 00b7 00       		.byte	0
- 209 00b8 FF       		.byte	-1
- 210 00b9 00       		.byte	0
- 211 00ba 00       		.byte	0
- 212 00bb 3F       		.byte	63
- 213 00bc 00       		.byte	0
- 214 00bd 40       		.byte	64
- 215 00be 00       		.byte	0
- 216 00bf 08       		.byte	8
+ 209 00b8 10       		.byte	16
+ 210 00b9 0D       		.byte	13
+ 211 00ba 06       		.byte	6
+ 212 00bb 00       		.byte	0
+ 213 00bc 06       		.byte	6
+ 214 00bd 0D       		.byte	13
+ 215 00be 10       		.byte	16
+ 216 00bf 00       		.byte	0
  217 00c0 00       		.byte	0
- 218 00c1 28       		.byte	40
- 219 00c2 00       		.byte	0
- 220 00c3 00       		.byte	0
- 221 00c4 00       		.byte	0
- 222 00c5 00       		.byte	0
- 223 00c6 01       		.byte	1
- 224 00c7 44       		.byte	68
- 225 00c8 00       		.byte	0
+ 218 00c1 00       		.byte	0
+ 219 00c2 0F       		.byte	15
+ 220 00c3 0F       		.byte	15
+ 221 00c4 30       		.byte	48
+ 222 00c5 10       		.byte	16
+ 223 00c6 00       		.byte	0
+ 224 00c7 E0       		.byte	-32
+ 225 00c8 08       		.byte	8
  226 00c9 00       		.byte	0
- 227 00ca 00       		.byte	0
- 228 00cb 00       		.byte	0
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 5
+ 227 00ca 20       		.byte	32
+ 228 00cb 08       		.byte	8
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 5
 
 
  229 00cc 00       		.byte	0
  230 00cd 00       		.byte	0
  231 00ce 00       		.byte	0
- 232 00cf 00       		.byte	0
+ 232 00cf 10       		.byte	16
  233 00d0 00       		.byte	0
  234 00d1 00       		.byte	0
  235 00d2 00       		.byte	0
@@ -259,24 +259,24 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 1
  244 00db 00       		.byte	0
  245 00dc 00       		.byte	0
  246 00dd 00       		.byte	0
- 247 00de 02       		.byte	2
- 248 00df 2C       		.byte	44
- 249 00e0 04       		.byte	4
- 250 00e1 04       		.byte	4
+ 247 00de 00       		.byte	0
+ 248 00df 00       		.byte	0
+ 249 00e0 00       		.byte	0
+ 250 00e1 00       		.byte	0
  251 00e2 00       		.byte	0
- 252 00e3 04       		.byte	4
- 253 00e4 00       		.byte	0
+ 252 00e3 00       		.byte	0
+ 253 00e4 01       		.byte	1
  254 00e5 00       		.byte	0
  255 00e6 00       		.byte	0
- 256 00e7 01       		.byte	1
- 257 00e8 00       		.byte	0
- 258 00e9 00       		.byte	0
+ 256 00e7 00       		.byte	0
+ 257 00e8 04       		.byte	4
+ 258 00e9 04       		.byte	4
  259 00ea 00       		.byte	0
- 260 00eb 00       		.byte	0
+ 260 00eb 04       		.byte	4
  261 00ec 00       		.byte	0
- 262 00ed 00       		.byte	0
+ 262 00ed 10       		.byte	16
  263 00ee 00       		.byte	0
- 264 00ef 00       		.byte	0
+ 264 00ef 01       		.byte	1
  265 00f0 00       		.byte	0
  266 00f1 00       		.byte	0
  267 00f2 00       		.byte	0
@@ -298,87 +298,87 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 1
  283 0102 00       		.byte	0
  284 0103 00       		.byte	0
  285 0104 00       		.byte	0
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 6
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 6
 
 
  286 0105 00       		.byte	0
  287 0106 00       		.byte	0
  288 0107 00       		.byte	0
- 289 0108 95       		.byte	-107
+ 289 0108 00       		.byte	0
  290 0109 00       		.byte	0
- 291 010a 42       		.byte	66
+ 291 010a 00       		.byte	0
  292 010b 00       		.byte	0
- 293 010c 68       		.byte	104
+ 293 010c 00       		.byte	0
  294 010d 00       		.byte	0
  295 010e 00       		.byte	0
  296 010f 00       		.byte	0
- 297 0110 10       		.byte	16
- 298 0111 00       		.byte	0
- 299 0112 68       		.byte	104
+ 297 0110 7F       		.byte	127
+ 298 0111 01       		.byte	1
+ 299 0112 80       		.byte	-128
  300 0113 00       		.byte	0
- 301 0114 04       		.byte	4
- 302 0115 00       		.byte	0
- 303 0116 03       		.byte	3
+ 301 0114 C0       		.byte	-64
+ 302 0115 01       		.byte	1
+ 303 0116 04       		.byte	4
  304 0117 00       		.byte	0
- 305 0118 68       		.byte	104
- 306 0119 00       		.byte	0
- 307 011a 00       		.byte	0
- 308 011b 00       		.byte	0
- 309 011c 89       		.byte	-119
- 310 011d 00       		.byte	0
- 311 011e 16       		.byte	22
+ 305 0118 00       		.byte	0
+ 306 0119 08       		.byte	8
+ 307 011a 9F       		.byte	-97
+ 308 011b 21       		.byte	33
+ 309 011c 1F       		.byte	31
+ 310 011d 01       		.byte	1
+ 311 011e 20       		.byte	32
  312 011f 00       		.byte	0
  313 0120 00       		.byte	0
- 314 0121 00       		.byte	0
- 315 0122 00       		.byte	0
+ 314 0121 01       		.byte	1
+ 315 0122 60       		.byte	96
  316 0123 00       		.byte	0
- 317 0124 68       		.byte	104
- 318 0125 00       		.byte	0
- 319 0126 00       		.byte	0
+ 317 0124 00       		.byte	0
+ 318 0125 01       		.byte	1
+ 319 0126 FF       		.byte	-1
  320 0127 00       		.byte	0
- 321 0128 68       		.byte	104
- 322 0129 00       		.byte	0
+ 321 0128 80       		.byte	-128
+ 322 0129 40       		.byte	64
  323 012a 00       		.byte	0
  324 012b 00       		.byte	0
- 325 012c 93       		.byte	-109
- 326 012d 00       		.byte	0
- 327 012e 24       		.byte	36
+ 325 012c C0       		.byte	-64
+ 326 012d 04       		.byte	4
+ 327 012e 01       		.byte	1
  328 012f 00       		.byte	0
- 329 0130 68       		.byte	104
- 330 0131 00       		.byte	0
- 331 0132 00       		.byte	0
- 332 0133 00       		.byte	0
+ 329 0130 90       		.byte	-112
+ 330 0131 07       		.byte	7
+ 331 0132 40       		.byte	64
+ 332 0133 18       		.byte	24
  333 0134 00       		.byte	0
- 334 0135 00       		.byte	0
+ 334 0135 40       		.byte	64
  335 0136 00       		.byte	0
  336 0137 00       		.byte	0
- 337 0138 07       		.byte	7
- 338 0139 00       		.byte	0
- 339 013a 00       		.byte	0
+ 337 0138 C0       		.byte	-64
+ 338 0139 10       		.byte	16
+ 339 013a 08       		.byte	8
  340 013b 00       		.byte	0
- 341 013c 78       		.byte	120
- 342 013d 00       		.byte	0
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 7
+ 341 013c C0       		.byte	-64
+ 342 013d 22       		.byte	34
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 7
 
 
- 343 013e 80       		.byte	-128
- 344 013f 00       		.byte	0
+ 343 013e 02       		.byte	2
+ 344 013f 08       		.byte	8
  345 0140 00       		.byte	0
  346 0141 00       		.byte	0
- 347 0142 22       		.byte	34
- 348 0143 00       		.byte	0
- 349 0144 00       		.byte	0
+ 347 0142 00       		.byte	0
+ 348 0143 3F       		.byte	63
+ 349 0144 FF       		.byte	-1
  350 0145 00       		.byte	0
- 351 0146 40       		.byte	64
- 352 0147 00       		.byte	0
+ 351 0146 00       		.byte	0
+ 352 0147 40       		.byte	64
  353 0148 00       		.byte	0
- 354 0149 00       		.byte	0
+ 354 0149 88       		.byte	-120
  355 014a 00       		.byte	0
  356 014b 00       		.byte	0
  357 014c 00       		.byte	0
  358 014d 00       		.byte	0
- 359 014e 00       		.byte	0
- 360 014f 00       		.byte	0
+ 359 014e 10       		.byte	16
+ 360 014f 04       		.byte	4
  361 0150 00       		.byte	0
  362 0151 00       		.byte	0
  363 0152 00       		.byte	0
@@ -395,22 +395,22 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 1
  374 015d 00       		.byte	0
  375 015e 00       		.byte	0
  376 015f 00       		.byte	0
- 377 0160 04       		.byte	4
+ 377 0160 00       		.byte	0
  378 0161 00       		.byte	0
  379 0162 00       		.byte	0
  380 0163 00       		.byte	0
  381 0164 00       		.byte	0
  382 0165 00       		.byte	0
  383 0166 00       		.byte	0
- 384 0167 01       		.byte	1
- 385 0168 00       		.byte	0
- 386 0169 00       		.byte	0
+ 384 0167 00       		.byte	0
+ 385 0168 04       		.byte	4
+ 386 0169 04       		.byte	4
  387 016a 00       		.byte	0
  388 016b 00       		.byte	0
  389 016c 00       		.byte	0
  390 016d 00       		.byte	0
  391 016e 00       		.byte	0
- 392 016f 00       		.byte	0
+ 392 016f 01       		.byte	1
  393 0170 00       		.byte	0
  394 0171 00       		.byte	0
  395 0172 00       		.byte	0
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 1
  397 0174 00       		.byte	0
  398 0175 00       		.byte	0
  399 0176 00       		.byte	0
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 8
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 8
 
 
  400 0177 00       		.byte	0
@@ -438,128 +438,128 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 1
  414 0185 00       		.byte	0
  415 0186 00       		.byte	0
  416 0187 00       		.byte	0
- 417 0188 68       		.byte	104
+ 417 0188 00       		.byte	0
  418 0189 00       		.byte	0
- 419 018a 03       		.byte	3
+ 419 018a 00       		.byte	0
  420 018b 00       		.byte	0
  421 018c 00       		.byte	0
  422 018d 00       		.byte	0
- 423 018e 10       		.byte	16
+ 423 018e 00       		.byte	0
  424 018f 00       		.byte	0
  425 0190 00       		.byte	0
- 426 0191 11       		.byte	17
+ 426 0191 00       		.byte	0
  427 0192 00       		.byte	0
- 428 0193 02       		.byte	2
+ 428 0193 00       		.byte	0
  429 0194 00       		.byte	0
- 430 0195 00       		.byte	0
- 431 0196 0C       		.byte	12
- 432 0197 00       		.byte	0
- 433 0198 00       		.byte	0
- 434 0199 00       		.byte	0
+ 430 0195 03       		.byte	3
+ 431 0196 00       		.byte	0
+ 432 0197 04       		.byte	4
+ 433 0198 01       		.byte	1
+ 434 0199 03       		.byte	3
  435 019a 00       		.byte	0
- 436 019b 00       		.byte	0
- 437 019c 01       		.byte	1
- 438 019d 01       		.byte	1
- 439 019e 32       		.byte	50
- 440 019f 24       		.byte	36
- 441 01a0 04       		.byte	4
- 442 01a1 76       		.byte	118
- 443 01a2 53       		.byte	83
+ 436 019b 0C       		.byte	12
+ 437 019c 00       		.byte	0
+ 438 019d 03       		.byte	3
+ 439 019e 01       		.byte	1
+ 440 019f 04       		.byte	4
+ 441 01a0 00       		.byte	0
+ 442 01a1 00       		.byte	0
+ 443 01a2 00       		.byte	0
  444 01a3 00       		.byte	0
  445 01a4 00       		.byte	0
- 446 01a5 42       		.byte	66
+ 446 01a5 00       		.byte	0
  447 01a6 00       		.byte	0
- 448 01a7 01       		.byte	1
+ 448 01a7 00       		.byte	0
  449 01a8 00       		.byte	0
- 450 01a9 00       		.byte	0
+ 450 01a9 0A       		.byte	10
  451 01aa 00       		.byte	0
- 452 01ab 70       		.byte	112
+ 452 01ab 04       		.byte	4
  453 01ac 00       		.byte	0
  454 01ad 00       		.byte	0
- 455 01ae 02       		.byte	2
+ 455 01ae 01       		.byte	1
  456 01af 00       		.byte	0
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 9
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 9
 
 
  457 01b0 00       		.byte	0
  458 01b1 00       		.byte	0
- 459 01b2 01       		.byte	1
- 460 01b3 08       		.byte	8
+ 459 01b2 00       		.byte	0
+ 460 01b3 05       		.byte	5
  461 01b4 00       		.byte	0
  462 01b5 00       		.byte	0
  463 01b6 00       		.byte	0
  464 01b7 00       		.byte	0
  465 01b8 00       		.byte	0
  466 01b9 00       		.byte	0
- 467 01ba 70       		.byte	112
+ 467 01ba 00       		.byte	0
  468 01bb 08       		.byte	8
  469 01bc 00       		.byte	0
- 470 01bd 07       		.byte	7
- 471 01be 0F       		.byte	15
- 472 01bf 70       		.byte	112
+ 470 01bd 00       		.byte	0
+ 471 01be 00       		.byte	0
+ 472 01bf 00       		.byte	0
  473 01c0 00       		.byte	0
- 474 01c1 20       		.byte	32
- 475 01c2 00       		.byte	0
+ 474 01c1 00       		.byte	0
+ 475 01c2 01       		.byte	1
  476 01c3 00       		.byte	0
  477 01c4 00       		.byte	0
- 478 01c5 00       		.byte	0
+ 478 01c5 0F       		.byte	15
  479 01c6 00       		.byte	0
- 480 01c7 40       		.byte	64
+ 480 01c7 00       		.byte	0
  481 01c8 00       		.byte	0
  482 01c9 00       		.byte	0
  483 01ca 00       		.byte	0
- 484 01cb 00       		.byte	0
+ 484 01cb 20       		.byte	32
  485 01cc 00       		.byte	0
  486 01cd 00       		.byte	0
- 487 01ce 00       		.byte	0
+ 487 01ce 04       		.byte	4
  488 01cf 00       		.byte	0
- 489 01d0 00       		.byte	0
- 490 01d1 00       		.byte	0
+ 489 01d0 61       		.byte	97
+ 490 01d1 03       		.byte	3
  491 01d2 00       		.byte	0
  492 01d3 00       		.byte	0
  493 01d4 00       		.byte	0
  494 01d5 00       		.byte	0
- 495 01d6 00       		.byte	0
- 496 01d7 00       		.byte	0
- 497 01d8 00       		.byte	0
- 498 01d9 00       		.byte	0
- 499 01da 00       		.byte	0
- 500 01db 00       		.byte	0
- 501 01dc 09       		.byte	9
+ 495 01d6 EC       		.byte	-20
+ 496 01d7 0B       		.byte	11
+ 497 01d8 1C       		.byte	28
+ 498 01d9 FF       		.byte	-1
+ 499 01da FF       		.byte	-1
+ 500 01db FF       		.byte	-1
+ 501 01dc 00       		.byte	0
  502 01dd 00       		.byte	0
- 503 01de 00       		.byte	0
- 504 01df 00       		.byte	0
- 505 01e0 04       		.byte	4
- 506 01e1 04       		.byte	4
+ 503 01de F0       		.byte	-16
+ 504 01df 44       		.byte	68
+ 505 01e0 0C       		.byte	12
+ 506 01e1 00       		.byte	0
  507 01e2 00       		.byte	0
- 508 01e3 04       		.byte	4
+ 508 01e3 00       		.byte	0
  509 01e4 00       		.byte	0
  510 01e5 00       		.byte	0
- 511 01e6 00       		.byte	0
- 512 01e7 01       		.byte	1
- 513 01e8 00       		.byte	0
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 10
+ 511 01e6 02       		.byte	2
+ 512 01e7 2C       		.byte	44
+ 513 01e8 04       		.byte	4
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 10
 
 
- 514 01e9 00       		.byte	0
- 515 01ea 00       		.byte	0
- 516 01eb 00       		.byte	0
- 517 01ec 00       		.byte	0
- 518 01ed 00       		.byte	0
+ 514 01e9 04       		.byte	4
+ 515 01ea 04       		.byte	4
+ 516 01eb 04       		.byte	4
+ 517 01ec 10       		.byte	16
+ 518 01ed 01       		.byte	1
  519 01ee 00       		.byte	0
- 520 01ef 00       		.byte	0
+ 520 01ef 01       		.byte	1
  521 01f0 00       		.byte	0
  522 01f1 00       		.byte	0
  523 01f2 00       		.byte	0
  524 01f3 00       		.byte	0
  525 01f4 00       		.byte	0
  526 01f5 00       		.byte	0
- 527 01f6 00       		.byte	0
+ 527 01f6 C0       		.byte	-64
  528 01f7 00       		.byte	0
  529 01f8 00       		.byte	0
  530 01f9 00       		.byte	0
- 531 01fa 00       		.byte	0
- 532 01fb 00       		.byte	0
+ 531 01fa 40       		.byte	64
+ 532 01fb 02       		.byte	2
  533 01fc 00       		.byte	0
  534 01fd 00       		.byte	0
  535 01fe 00       		.byte	0
@@ -580,124 +580,124 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 1
  550 020d 00       		.byte	0
  551 020e 00       		.byte	0
  552 020f 00       		.byte	0
- 553 0210 00       		.byte	0
+ 553 0210 5C       		.byte	92
  554 0211 00       		.byte	0
  555 0212 00       		.byte	0
  556 0213 00       		.byte	0
- 557 0214 00       		.byte	0
+ 557 0214 54       		.byte	84
  558 0215 00       		.byte	0
- 559 0216 00       		.byte	0
+ 559 0216 08       		.byte	8
  560 0217 00       		.byte	0
- 561 0218 00       		.byte	0
+ 561 0218 44       		.byte	68
  562 0219 00       		.byte	0
  563 021a 00       		.byte	0
- 564 021b 0F       		.byte	15
- 565 021c 00       		.byte	0
+ 564 021b 00       		.byte	0
+ 565 021c 61       		.byte	97
  566 021d 00       		.byte	0
- 567 021e 00       		.byte	0
+ 567 021e 02       		.byte	2
  568 021f 00       		.byte	0
  569 0220 00       		.byte	0
  570 0221 00       		.byte	0
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 11
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 11
 
 
- 571 0222 00       		.byte	0
+ 571 0222 4F       		.byte	79
  572 0223 00       		.byte	0
  573 0224 00       		.byte	0
  574 0225 00       		.byte	0
  575 0226 00       		.byte	0
  576 0227 00       		.byte	0
- 577 0228 01       		.byte	1
+ 577 0228 08       		.byte	8
  578 0229 00       		.byte	0
- 579 022a 00       		.byte	0
+ 579 022a 20       		.byte	32
  580 022b 00       		.byte	0
- 581 022c 00       		.byte	0
+ 581 022c 5C       		.byte	92
  582 022d 00       		.byte	0
  583 022e 00       		.byte	0
  584 022f 00       		.byte	0
- 585 0230 01       		.byte	1
+ 585 0230 00       		.byte	0
  586 0231 00       		.byte	0
- 587 0232 01       		.byte	1
+ 587 0232 10       		.byte	16
  588 0233 00       		.byte	0
- 589 0234 00       		.byte	0
+ 589 0234 10       		.byte	16
  590 0235 00       		.byte	0
- 591 0236 00       		.byte	0
+ 591 0236 4C       		.byte	76
  592 0237 00       		.byte	0
- 593 0238 00       		.byte	0
+ 593 0238 21       		.byte	33
  594 0239 00       		.byte	0
- 595 023a 00       		.byte	0
+ 595 023a 0E       		.byte	14
  596 023b 00       		.byte	0
- 597 023c 00       		.byte	0
+ 597 023c 4C       		.byte	76
  598 023d 00       		.byte	0
- 599 023e 00       		.byte	0
+ 599 023e 10       		.byte	16
  600 023f 00       		.byte	0
- 601 0240 00       		.byte	0
+ 601 0240 61       		.byte	97
  602 0241 00       		.byte	0
  603 0242 00       		.byte	0
  604 0243 00       		.byte	0
- 605 0244 00       		.byte	0
+ 605 0244 10       		.byte	16
  606 0245 00       		.byte	0
- 607 0246 00       		.byte	0
+ 607 0246 0F       		.byte	15
  608 0247 00       		.byte	0
  609 0248 00       		.byte	0
  610 0249 00       		.byte	0
- 611 024a 00       		.byte	0
- 612 024b 00       		.byte	0
+ 611 024a 03       		.byte	3
+ 612 024b 08       		.byte	8
  613 024c 00       		.byte	0
  614 024d 00       		.byte	0
- 615 024e 00       		.byte	0
+ 615 024e 10       		.byte	16
  616 024f 00       		.byte	0
- 617 0250 00       		.byte	0
- 618 0251 00       		.byte	0
- 619 0252 00       		.byte	0
+ 617 0250 64       		.byte	100
+ 618 0251 01       		.byte	1
+ 619 0252 20       		.byte	32
  620 0253 00       		.byte	0
- 621 0254 00       		.byte	0
- 622 0255 00       		.byte	0
- 623 0256 00       		.byte	0
- 624 0257 00       		.byte	0
- 625 0258 00       		.byte	0
- 626 0259 00       		.byte	0
- 627 025a 00       		.byte	0
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 12
+ 621 0254 05       		.byte	5
+ 622 0255 0F       		.byte	15
+ 623 0256 CD       		.byte	-51
+ 624 0257 EB       		.byte	-21
+ 625 0258 3D       		.byte	61
+ 626 0259 FF       		.byte	-1
+ 627 025a FF       		.byte	-1
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 12
 
 
- 628 025b 00       		.byte	0
- 629 025c 00       		.byte	0
+ 628 025b FF       		.byte	-1
+ 629 025c 22       		.byte	34
  630 025d 00       		.byte	0
- 631 025e 00       		.byte	0
- 632 025f 00       		.byte	0
- 633 0260 20       		.byte	32
+ 631 025e F0       		.byte	-16
+ 632 025f 08       		.byte	8
+ 633 0260 04       		.byte	4
  634 0261 00       		.byte	0
- 635 0262 02       		.byte	2
+ 635 0262 00       		.byte	0
  636 0263 00       		.byte	0
- 637 0264 00       		.byte	0
+ 637 0264 40       		.byte	64
  638 0265 00       		.byte	0
  639 0266 00       		.byte	0
  640 0267 00       		.byte	0
- 641 0268 00       		.byte	0
- 642 0269 00       		.byte	0
- 643 026a 00       		.byte	0
- 644 026b 00       		.byte	0
- 645 026c 00       		.byte	0
+ 641 0268 04       		.byte	4
+ 642 0269 04       		.byte	4
+ 643 026a 04       		.byte	4
+ 644 026b 04       		.byte	4
+ 645 026c 10       		.byte	16
  646 026d 00       		.byte	0
  647 026e 00       		.byte	0
- 648 026f 00       		.byte	0
+ 648 026f 01       		.byte	1
  649 0270 00       		.byte	0
  650 0271 00       		.byte	0
- 651 0272 00       		.byte	0
+ 651 0272 C0       		.byte	-64
  652 0273 00       		.byte	0
- 653 0274 00       		.byte	0
- 654 0275 00       		.byte	0
- 655 0276 00       		.byte	0
- 656 0277 00       		.byte	0
- 657 0278 00       		.byte	0
- 658 0279 00       		.byte	0
+ 653 0274 40       		.byte	64
+ 654 0275 01       		.byte	1
+ 655 0276 10       		.byte	16
+ 656 0277 11       		.byte	17
+ 657 0278 C0       		.byte	-64
+ 658 0279 01       		.byte	1
  659 027a 00       		.byte	0
- 660 027b 00       		.byte	0
- 661 027c 00       		.byte	0
- 662 027d 00       		.byte	0
- 663 027e 00       		.byte	0
- 664 027f 00       		.byte	0
+ 660 027b 11       		.byte	17
+ 661 027c 40       		.byte	64
+ 662 027d 01       		.byte	1
+ 663 027e 40       		.byte	64
+ 664 027f 01       		.byte	1
  665 0280 00       		.byte	0
  666 0281 00       		.byte	0
  667 0282 00       		.byte	0
@@ -718,109 +718,109 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 1
  682 0291 00       		.byte	0
  683 0292 00       		.byte	0
  684 0293 00       		.byte	0
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 13
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 13
 
 
- 685 0294 00       		.byte	0
+ 685 0294 30       		.byte	48
  686 0295 00       		.byte	0
- 687 0296 00       		.byte	0
+ 687 0296 0C       		.byte	12
  688 0297 00       		.byte	0
- 689 0298 00       		.byte	0
- 690 0299 00       		.byte	0
- 691 029a 00       		.byte	0
- 692 029b 00       		.byte	0
+ 689 0298 09       		.byte	9
+ 690 0299 11       		.byte	17
+ 691 029a 10       		.byte	16
+ 692 029b 26       		.byte	38
  693 029c 00       		.byte	0
  694 029d 00       		.byte	0
- 695 029e 00       		.byte	0
- 696 029f 00       		.byte	0
- 697 02a0 00       		.byte	0
+ 695 029e 03       		.byte	3
+ 696 029f 10       		.byte	16
+ 697 02a0 10       		.byte	16
  698 02a1 00       		.byte	0
  699 02a2 00       		.byte	0
  700 02a3 00       		.byte	0
  701 02a4 00       		.byte	0
- 702 02a5 00       		.byte	0
+ 702 02a5 11       		.byte	17
  703 02a6 00       		.byte	0
- 704 02a7 00       		.byte	0
- 705 02a8 00       		.byte	0
- 706 02a9 00       		.byte	0
+ 704 02a7 0E       		.byte	14
+ 705 02a8 14       		.byte	20
+ 706 02a9 2C       		.byte	44
  707 02aa 00       		.byte	0
- 708 02ab 00       		.byte	0
- 709 02ac 00       		.byte	0
+ 708 02ab 13       		.byte	19
+ 709 02ac 40       		.byte	64
  710 02ad 00       		.byte	0
  711 02ae 00       		.byte	0
  712 02af 00       		.byte	0
  713 02b0 00       		.byte	0
  714 02b1 00       		.byte	0
  715 02b2 00       		.byte	0
- 716 02b3 00       		.byte	0
- 717 02b4 00       		.byte	0
+ 716 02b3 13       		.byte	19
+ 717 02b4 1C       		.byte	28
  718 02b5 00       		.byte	0
- 719 02b6 00       		.byte	0
+ 719 02b6 22       		.byte	34
  720 02b7 00       		.byte	0
- 721 02b8 40       		.byte	64
- 722 02b9 20       		.byte	32
- 723 02ba 00       		.byte	0
- 724 02bb 50       		.byte	80
+ 721 02b8 2C       		.byte	44
+ 722 02b9 00       		.byte	0
+ 723 02ba 11       		.byte	17
+ 724 02bb 2C       		.byte	44
  725 02bc 00       		.byte	0
- 726 02bd 44       		.byte	68
+ 726 02bd 00       		.byte	0
  727 02be 00       		.byte	0
- 728 02bf 40       		.byte	64
- 729 02c0 00       		.byte	0
- 730 02c1 08       		.byte	8
- 731 02c2 80       		.byte	-128
- 732 02c3 01       		.byte	1
- 733 02c4 00       		.byte	0
- 734 02c5 08       		.byte	8
- 735 02c6 08       		.byte	8
- 736 02c7 00       		.byte	0
- 737 02c8 08       		.byte	8
- 738 02c9 09       		.byte	9
+ 728 02bf 08       		.byte	8
+ 729 02c0 1F       		.byte	31
+ 730 02c1 00       		.byte	0
+ 731 02c2 00       		.byte	0
+ 732 02c3 2A       		.byte	42
+ 733 02c4 60       		.byte	96
+ 734 02c5 0F       		.byte	15
+ 735 02c6 00       		.byte	0
+ 736 02c7 10       		.byte	16
+ 737 02c8 20       		.byte	32
+ 738 02c9 00       		.byte	0
  739 02ca 00       		.byte	0
- 740 02cb 00       		.byte	0
+ 740 02cb 28       		.byte	40
  741 02cc 00       		.byte	0
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 14
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 14
 
 
  742 02cd 00       		.byte	0
- 743 02ce 20       		.byte	32
- 744 02cf 20       		.byte	32
- 745 02d0 40       		.byte	64
- 746 02d1 A0       		.byte	-96
+ 743 02ce 00       		.byte	0
+ 744 02cf 40       		.byte	64
+ 745 02d0 00       		.byte	0
+ 746 02d1 00       		.byte	0
  747 02d2 00       		.byte	0
  748 02d3 00       		.byte	0
  749 02d4 00       		.byte	0
- 750 02d5 44       		.byte	68
- 751 02d6 01       		.byte	1
+ 750 02d5 00       		.byte	0
+ 751 02d6 00       		.byte	0
  752 02d7 00       		.byte	0
  753 02d8 00       		.byte	0
  754 02d9 00       		.byte	0
  755 02da 00       		.byte	0
  756 02db 00       		.byte	0
  757 02dc 00       		.byte	0
- 758 02dd 80       		.byte	-128
- 759 02de 10       		.byte	16
- 760 02df 20       		.byte	32
+ 758 02dd 00       		.byte	0
+ 759 02de 00       		.byte	0
+ 760 02df 00       		.byte	0
  761 02e0 00       		.byte	0
  762 02e1 00       		.byte	0
  763 02e2 00       		.byte	0
  764 02e3 00       		.byte	0
  765 02e4 00       		.byte	0
  766 02e5 00       		.byte	0
- 767 02e6 21       		.byte	33
+ 767 02e6 00       		.byte	0
  768 02e7 00       		.byte	0
- 769 02e8 00       		.byte	0
- 770 02e9 00       		.byte	0
+ 769 02e8 04       		.byte	4
+ 770 02e9 04       		.byte	4
  771 02ea 00       		.byte	0
  772 02eb 00       		.byte	0
- 773 02ec 00       		.byte	0
+ 773 02ec 11       		.byte	17
  774 02ed 00       		.byte	0
- 775 02ee 14       		.byte	20
- 776 02ef 40       		.byte	64
+ 775 02ee 00       		.byte	0
+ 776 02ef 01       		.byte	1
  777 02f0 00       		.byte	0
  778 02f1 00       		.byte	0
  779 02f2 00       		.byte	0
  780 02f3 00       		.byte	0
- 781 02f4 20       		.byte	32
+ 781 02f4 00       		.byte	0
  782 02f5 00       		.byte	0
  783 02f6 00       		.byte	0
  784 02f7 00       		.byte	0
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 1
  796 0303 00       		.byte	0
  797 0304 00       		.byte	0
  798 0305 00       		.byte	0
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 15
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 15
 
 
  799 0306 00       		.byte	0
@@ -852,36 +852,36 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 1
  807 030e 00       		.byte	0
  808 030f 00       		.byte	0
  809 0310 00       		.byte	0
- 810 0311 00       		.byte	0
+ 810 0311 02       		.byte	2
  811 0312 00       		.byte	0
  812 0313 00       		.byte	0
- 813 0314 20       		.byte	32
- 814 0315 08       		.byte	8
- 815 0316 02       		.byte	2
- 816 0317 40       		.byte	64
+ 813 0314 00       		.byte	0
+ 814 0315 00       		.byte	0
+ 815 0316 00       		.byte	0
+ 816 0317 00       		.byte	0
  817 0318 00       		.byte	0
  818 0319 00       		.byte	0
- 819 031a 00       		.byte	0
+ 819 031a 02       		.byte	2
  820 031b 00       		.byte	0
- 821 031c 00       		.byte	0
- 822 031d 80       		.byte	-128
- 823 031e 00       		.byte	0
+ 821 031c 08       		.byte	8
+ 822 031d 00       		.byte	0
+ 823 031e 03       		.byte	3
  824 031f 00       		.byte	0
  825 0320 00       		.byte	0
  826 0321 00       		.byte	0
  827 0322 00       		.byte	0
  828 0323 00       		.byte	0
  829 0324 00       		.byte	0
- 830 0325 00       		.byte	0
- 831 0326 00       		.byte	0
+ 830 0325 02       		.byte	2
+ 831 0326 0C       		.byte	12
  832 0327 00       		.byte	0
  833 0328 00       		.byte	0
  834 0329 00       		.byte	0
  835 032a 00       		.byte	0
- 836 032b 00       		.byte	0
- 837 032c 00       		.byte	0
+ 836 032b 01       		.byte	1
+ 837 032c 01       		.byte	1
  838 032d 00       		.byte	0
- 839 032e 00       		.byte	0
+ 839 032e 02       		.byte	2
  840 032f 00       		.byte	0
  841 0330 00       		.byte	0
  842 0331 00       		.byte	0
@@ -891,44 +891,44 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 1
  846 0335 00       		.byte	0
  847 0336 00       		.byte	0
  848 0337 00       		.byte	0
- 849 0338 00       		.byte	0
- 850 0339 04       		.byte	4
- 851 033a 00       		.byte	0
+ 849 0338 04       		.byte	4
+ 850 0339 02       		.byte	2
+ 851 033a 03       		.byte	3
  852 033b 00       		.byte	0
  853 033c 00       		.byte	0
- 854 033d 80       		.byte	-128
- 855 033e 00       		.byte	0
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 16
+ 854 033d 00       		.byte	0
+ 855 033e 01       		.byte	1
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 16
 
 
  856 033f 00       		.byte	0
  857 0340 00       		.byte	0
- 858 0341 00       		.byte	0
- 859 0342 00       		.byte	0
+ 858 0341 01       		.byte	1
+ 859 0342 0F       		.byte	15
  860 0343 00       		.byte	0
  861 0344 00       		.byte	0
  862 0345 00       		.byte	0
  863 0346 00       		.byte	0
- 864 0347 00       		.byte	0
+ 864 0347 02       		.byte	2
  865 0348 00       		.byte	0
- 866 0349 01       		.byte	1
- 867 034a 80       		.byte	-128
- 868 034b 41       		.byte	65
- 869 034c 40       		.byte	64
+ 866 0349 00       		.byte	0
+ 867 034a 00       		.byte	0
+ 868 034b 00       		.byte	0
+ 869 034c 00       		.byte	0
  870 034d 00       		.byte	0
  871 034e 00       		.byte	0
- 872 034f 00       		.byte	0
+ 872 034f 40       		.byte	64
  873 0350 00       		.byte	0
- 874 0351 08       		.byte	8
- 875 0352 22       		.byte	34
- 876 0353 50       		.byte	80
+ 874 0351 00       		.byte	0
+ 875 0352 00       		.byte	0
+ 876 0353 00       		.byte	0
  877 0354 00       		.byte	0
  878 0355 00       		.byte	0
  879 0356 00       		.byte	0
  880 0357 00       		.byte	0
- 881 0358 18       		.byte	24
- 882 0359 0C       		.byte	12
- 883 035a 05       		.byte	5
+ 881 0358 00       		.byte	0
+ 882 0359 00       		.byte	0
+ 883 035a 00       		.byte	0
  884 035b 00       		.byte	0
  885 035c 00       		.byte	0
  886 035d 00       		.byte	0
@@ -942,14 +942,14 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 1
  894 0365 00       		.byte	0
  895 0366 00       		.byte	0
  896 0367 00       		.byte	0
- 897 0368 00       		.byte	0
- 898 0369 00       		.byte	0
+ 897 0368 04       		.byte	4
+ 898 0369 04       		.byte	4
  899 036a 00       		.byte	0
  900 036b 00       		.byte	0
  901 036c 00       		.byte	0
  902 036d 00       		.byte	0
  903 036e 00       		.byte	0
- 904 036f 00       		.byte	0
+ 904 036f 01       		.byte	1
  905 0370 00       		.byte	0
  906 0371 00       		.byte	0
  907 0372 00       		.byte	0
@@ -958,24 +958,24 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 1
  910 0375 00       		.byte	0
  911 0376 00       		.byte	0
  912 0377 00       		.byte	0
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 17
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 17
 
 
- 913 0378 BF       		.byte	-65
+ 913 0378 00       		.byte	0
  914 0379 00       		.byte	0
- 915 037a 6D       		.byte	109
+ 915 037a 00       		.byte	0
  916 037b 00       		.byte	0
- 917 037c 6E       		.byte	110
+ 917 037c 00       		.byte	0
  918 037d 00       		.byte	0
  919 037e 00       		.byte	0
  920 037f 00       		.byte	0
  921 0380 00       		.byte	0
  922 0381 00       		.byte	0
- 923 0382 A0       		.byte	-96
+ 923 0382 00       		.byte	0
  924 0383 00       		.byte	0
- 925 0384 70       		.byte	112
+ 925 0384 00       		.byte	0
  926 0385 00       		.byte	0
- 927 0386 20       		.byte	32
+ 927 0386 00       		.byte	0
  928 0387 00       		.byte	0
  929 0388 00       		.byte	0
  930 0389 00       		.byte	0
@@ -983,229 +983,229 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 1
  932 038b 00       		.byte	0
  933 038c 00       		.byte	0
  934 038d 00       		.byte	0
- 935 038e F0       		.byte	-16
+ 935 038e 00       		.byte	0
  936 038f 00       		.byte	0
- 937 0390 10       		.byte	16
- 938 0391 00       		.byte	0
+ 937 0390 00       		.byte	0
+ 938 0391 10       		.byte	16
  939 0392 00       		.byte	0
  940 0393 00       		.byte	0
- 941 0394 00       		.byte	0
- 942 0395 00       		.byte	0
- 943 0396 00       		.byte	0
+ 941 0394 33       		.byte	51
+ 942 0395 18       		.byte	24
+ 943 0396 0C       		.byte	12
  944 0397 00       		.byte	0
- 945 0398 00       		.byte	0
- 946 0399 00       		.byte	0
+ 945 0398 02       		.byte	2
+ 946 0399 08       		.byte	8
  947 039a 00       		.byte	0
  948 039b 00       		.byte	0
- 949 039c 00       		.byte	0
- 950 039d 00       		.byte	0
+ 949 039c 3F       		.byte	63
+ 950 039d FF       		.byte	-1
  951 039e 00       		.byte	0
  952 039f 00       		.byte	0
- 953 03a0 00       		.byte	0
+ 953 03a0 03       		.byte	3
  954 03a1 00       		.byte	0
  955 03a2 00       		.byte	0
- 956 03a3 00       		.byte	0
- 957 03a4 00       		.byte	0
- 958 03a5 00       		.byte	0
- 959 03a6 00       		.byte	0
+ 956 03a3 04       		.byte	4
+ 957 03a4 1F       		.byte	31
+ 958 03a5 80       		.byte	-128
+ 959 03a6 20       		.byte	32
  960 03a7 00       		.byte	0
- 961 03a8 00       		.byte	0
- 962 03a9 00       		.byte	0
- 963 03aa 00       		.byte	0
- 964 03ab 00       		.byte	0
- 965 03ac 00       		.byte	0
- 966 03ad 00       		.byte	0
+ 961 03a8 1C       		.byte	28
+ 962 03a9 3C       		.byte	60
+ 963 03aa 23       		.byte	35
+ 964 03ab C2       		.byte	-62
+ 965 03ac 01       		.byte	1
+ 966 03ad C0       		.byte	-64
  967 03ae 00       		.byte	0
  968 03af 00       		.byte	0
- 969 03b0 00       		.byte	0
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 18
+ 969 03b0 08       		.byte	8
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 18
 
 
- 970 03b1 00       		.byte	0
+ 970 03b1 44       		.byte	68
  971 03b2 00       		.byte	0
  972 03b3 00       		.byte	0
- 973 03b4 00       		.byte	0
- 974 03b5 00       		.byte	0
+ 973 03b4 04       		.byte	4
+ 974 03b5 E7       		.byte	-25
  975 03b6 00       		.byte	0
- 976 03b7 00       		.byte	0
- 977 03b8 A0       		.byte	-96
- 978 03b9 00       		.byte	0
+ 976 03b7 18       		.byte	24
+ 977 03b8 0C       		.byte	12
+ 978 03b9 1C       		.byte	28
  979 03ba 00       		.byte	0
- 980 03bb 40       		.byte	64
- 981 03bc 22       		.byte	34
+ 980 03bb E1       		.byte	-31
+ 981 03bc 00       		.byte	0
  982 03bd 00       		.byte	0
- 983 03be 00       		.byte	0
- 984 03bf 12       		.byte	18
- 985 03c0 00       		.byte	0
- 986 03c1 24       		.byte	36
- 987 03c2 41       		.byte	65
+ 983 03be 23       		.byte	35
+ 984 03bf E3       		.byte	-29
+ 985 03c0 10       		.byte	16
+ 986 03c1 C0       		.byte	-64
+ 987 03c2 2C       		.byte	44
  988 03c3 00       		.byte	0
- 989 03c4 00       		.byte	0
- 990 03c5 08       		.byte	8
- 991 03c6 40       		.byte	64
- 992 03c7 0A       		.byte	10
- 993 03c8 28       		.byte	40
- 994 03c9 80       		.byte	-128
- 995 03ca 00       		.byte	0
- 996 03cb 02       		.byte	2
+ 989 03c4 0F       		.byte	15
+ 990 03c5 1F       		.byte	31
+ 991 03c6 00       		.byte	0
+ 992 03c7 38       		.byte	56
+ 993 03c8 00       		.byte	0
+ 994 03c9 00       		.byte	0
+ 995 03ca 28       		.byte	40
+ 996 03cb 20       		.byte	32
  997 03cc 00       		.byte	0
- 998 03cd 22       		.byte	34
- 999 03ce 00       		.byte	0
- 1000 03cf 40       		.byte	64
+ 998 03cd 00       		.byte	0
+ 999 03ce 01       		.byte	1
+ 1000 03cf 00       		.byte	0
  1001 03d0 00       		.byte	0
- 1002 03d1 01       		.byte	1
+ 1002 03d1 00       		.byte	0
  1003 03d2 00       		.byte	0
  1004 03d3 00       		.byte	0
- 1005 03d4 20       		.byte	32
- 1006 03d5 8C       		.byte	-116
- 1007 03d6 42       		.byte	66
- 1008 03d7 12       		.byte	18
- 1009 03d8 16       		.byte	22
- 1010 03d9 20       		.byte	32
+ 1005 03d4 00       		.byte	0
+ 1006 03d5 00       		.byte	0
+ 1007 03d6 00       		.byte	0
+ 1008 03d7 00       		.byte	0
+ 1009 03d8 00       		.byte	0
+ 1010 03d9 00       		.byte	0
  1011 03da 00       		.byte	0
  1012 03db 00       		.byte	0
- 1013 03dc A0       		.byte	-96
- 1014 03dd 04       		.byte	4
- 1015 03de 0E       		.byte	14
- 1016 03df 40       		.byte	64
+ 1013 03dc 00       		.byte	0
+ 1014 03dd 00       		.byte	0
+ 1015 03de 00       		.byte	0
+ 1016 03df 00       		.byte	0
  1017 03e0 00       		.byte	0
- 1018 03e1 05       		.byte	5
- 1019 03e2 20       		.byte	32
- 1020 03e3 02       		.byte	2
- 1021 03e4 28       		.byte	40
+ 1018 03e1 00       		.byte	0
+ 1019 03e2 00       		.byte	0
+ 1020 03e3 00       		.byte	0
+ 1021 03e4 00       		.byte	0
  1022 03e5 00       		.byte	0
  1023 03e6 02       		.byte	2
- 1024 03e7 02       		.byte	2
- 1025 03e8 20       		.byte	32
- 1026 03e9 00       		.byte	0
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 19
+ 1024 03e7 13       		.byte	19
+ 1025 03e8 04       		.byte	4
+ 1026 03e9 04       		.byte	4
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 19
 
 
- 1027 03ea 49       		.byte	73
- 1028 03eb 00       		.byte	0
- 1029 03ec 00       		.byte	0
- 1030 03ed 00       		.byte	0
- 1031 03ee 08       		.byte	8
- 1032 03ef 42       		.byte	66
- 1033 03f0 96       		.byte	-106
+ 1027 03ea 00       		.byte	0
+ 1028 03eb 04       		.byte	4
+ 1029 03ec 11       		.byte	17
+ 1030 03ed 10       		.byte	16
+ 1031 03ee 00       		.byte	0
+ 1032 03ef 01       		.byte	1
+ 1033 03f0 00       		.byte	0
  1034 03f1 00       		.byte	0
  1035 03f2 00       		.byte	0
- 1036 03f3 01       		.byte	1
- 1037 03f4 A0       		.byte	-96
+ 1036 03f3 00       		.byte	0
+ 1037 03f4 00       		.byte	0
  1038 03f5 00       		.byte	0
  1039 03f6 00       		.byte	0
- 1040 03f7 01       		.byte	1
+ 1040 03f7 00       		.byte	0
  1041 03f8 00       		.byte	0
  1042 03f9 00       		.byte	0
  1043 03fa 00       		.byte	0
  1044 03fb 00       		.byte	0
  1045 03fc 00       		.byte	0
- 1046 03fd 88       		.byte	-120
- 1047 03fe 80       		.byte	-128
+ 1046 03fd 00       		.byte	0
+ 1047 03fe 00       		.byte	0
  1048 03ff 00       		.byte	0
- 1049 0400 01       		.byte	1
+ 1049 0400 00       		.byte	0
  1050 0401 00       		.byte	0
  1051 0402 00       		.byte	0
- 1052 0403 40       		.byte	64
+ 1052 0403 00       		.byte	0
  1053 0404 00       		.byte	0
- 1054 0405 0A       		.byte	10
- 1055 0406 0A       		.byte	10
+ 1054 0405 00       		.byte	0
+ 1055 0406 00       		.byte	0
  1056 0407 00       		.byte	0
  1057 0408 00       		.byte	0
  1058 0409 00       		.byte	0
  1059 040a 00       		.byte	0
  1060 040b 00       		.byte	0
  1061 040c 00       		.byte	0
- 1062 040d 40       		.byte	64
- 1063 040e 22       		.byte	34
- 1064 040f 0D       		.byte	13
- 1065 0410 00       		.byte	0
- 1066 0411 00       		.byte	0
+ 1062 040d 00       		.byte	0
+ 1063 040e 00       		.byte	0
+ 1064 040f 00       		.byte	0
+ 1065 0410 01       		.byte	1
+ 1066 0411 22       		.byte	34
  1067 0412 00       		.byte	0
- 1068 0413 00       		.byte	0
+ 1068 0413 D1       		.byte	-47
  1069 0414 00       		.byte	0
- 1070 0415 00       		.byte	0
- 1071 0416 00       		.byte	0
+ 1070 0415 67       		.byte	103
+ 1071 0416 04       		.byte	4
  1072 0417 00       		.byte	0
- 1073 0418 40       		.byte	64
- 1074 0419 00       		.byte	0
- 1075 041a 00       		.byte	0
+ 1073 0418 00       		.byte	0
+ 1074 0419 67       		.byte	103
+ 1075 041a 02       		.byte	2
  1076 041b 00       		.byte	0
- 1077 041c 0A       		.byte	10
+ 1077 041c 02       		.byte	2
  1078 041d 00       		.byte	0
  1079 041e 00       		.byte	0
- 1080 041f 20       		.byte	32
- 1081 0420 68       		.byte	104
- 1082 0421 23       		.byte	35
- 1083 0422 82       		.byte	-126
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 20
+ 1080 041f 00       		.byte	0
+ 1081 0420 00       		.byte	0
+ 1082 0421 00       		.byte	0
+ 1083 0422 04       		.byte	4
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 20
 
 
- 1084 0423 12       		.byte	18
- 1085 0424 00       		.byte	0
- 1086 0425 00       		.byte	0
+ 1084 0423 00       		.byte	0
+ 1085 0424 02       		.byte	2
+ 1086 0425 44       		.byte	68
  1087 0426 00       		.byte	0
- 1088 0427 00       		.byte	0
+ 1088 0427 31       		.byte	49
  1089 0428 00       		.byte	0
  1090 0429 00       		.byte	0
- 1091 042a 01       		.byte	1
- 1092 042b 01       		.byte	1
+ 1091 042a 02       		.byte	2
+ 1092 042b 00       		.byte	0
  1093 042c 00       		.byte	0
- 1094 042d 00       		.byte	0
+ 1094 042d 01       		.byte	1
  1095 042e 00       		.byte	0
- 1096 042f 00       		.byte	0
+ 1096 042f 0E       		.byte	14
  1097 0430 00       		.byte	0
  1098 0431 00       		.byte	0
  1099 0432 00       		.byte	0
  1100 0433 00       		.byte	0
- 1101 0434 00       		.byte	0
+ 1101 0434 01       		.byte	1
  1102 0435 00       		.byte	0
  1103 0436 00       		.byte	0
  1104 0437 00       		.byte	0
- 1105 0438 00       		.byte	0
+ 1105 0438 01       		.byte	1
  1106 0439 00       		.byte	0
- 1107 043a 80       		.byte	-128
+ 1107 043a 00       		.byte	0
  1108 043b 00       		.byte	0
  1109 043c 00       		.byte	0
  1110 043d 00       		.byte	0
  1111 043e 00       		.byte	0
  1112 043f 00       		.byte	0
- 1113 0440 0A       		.byte	10
- 1114 0441 02       		.byte	2
+ 1113 0440 04       		.byte	4
+ 1114 0441 80       		.byte	-128
  1115 0442 00       		.byte	0
- 1116 0443 08       		.byte	8
- 1117 0444 00       		.byte	0
- 1118 0445 00       		.byte	0
- 1119 0446 00       		.byte	0
- 1120 0447 00       		.byte	0
- 1121 0448 00       		.byte	0
+ 1116 0443 60       		.byte	96
+ 1117 0444 02       		.byte	2
+ 1118 0445 18       		.byte	24
+ 1119 0446 01       		.byte	1
+ 1120 0447 07       		.byte	7
+ 1121 0448 20       		.byte	32
  1122 0449 00       		.byte	0
  1123 044a 00       		.byte	0
  1124 044b 00       		.byte	0
  1125 044c 00       		.byte	0
  1126 044d 00       		.byte	0
- 1127 044e 00       		.byte	0
- 1128 044f 00       		.byte	0
- 1129 0450 00       		.byte	0
- 1130 0451 00       		.byte	0
- 1131 0452 00       		.byte	0
+ 1127 044e 01       		.byte	1
+ 1128 044f 10       		.byte	16
+ 1129 0450 65       		.byte	101
+ 1130 0451 04       		.byte	4
+ 1131 0452 03       		.byte	3
  1132 0453 00       		.byte	0
- 1133 0454 00       		.byte	0
- 1134 0455 00       		.byte	0
- 1135 0456 00       		.byte	0
+ 1133 0454 02       		.byte	2
+ 1134 0455 0C       		.byte	12
+ 1135 0456 0E       		.byte	14
  1136 0457 00       		.byte	0
- 1137 0458 00       		.byte	0
- 1138 0459 00       		.byte	0
- 1139 045a 00       		.byte	0
- 1140 045b 00       		.byte	0
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 21
+ 1137 0458 05       		.byte	5
+ 1138 0459 FF       		.byte	-1
+ 1139 045a FF       		.byte	-1
+ 1140 045b FF       		.byte	-1
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 21
 
 
- 1141 045c 00       		.byte	0
- 1142 045d 00       		.byte	0
- 1143 045e 00       		.byte	0
- 1144 045f 00       		.byte	0
- 1145 0460 00       		.byte	0
+ 1141 045c 62       		.byte	98
+ 1142 045d A0       		.byte	-96
+ 1143 045e F0       		.byte	-16
+ 1144 045f 41       		.byte	65
+ 1145 0460 0C       		.byte	12
  1146 0461 00       		.byte	0
  1147 0462 00       		.byte	0
  1148 0463 00       		.byte	0
@@ -1213,59 +1213,59 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 1
  1150 0465 00       		.byte	0
  1151 0466 00       		.byte	0
  1152 0467 00       		.byte	0
- 1153 0468 00       		.byte	0
- 1154 0469 00       		.byte	0
- 1155 046a 00       		.byte	0
+ 1153 0468 04       		.byte	4
+ 1154 0469 04       		.byte	4
+ 1155 046a 04       		.byte	4
  1156 046b 00       		.byte	0
- 1157 046c 00       		.byte	0
- 1158 046d 00       		.byte	0
+ 1157 046c 11       		.byte	17
+ 1158 046d 01       		.byte	1
  1159 046e 00       		.byte	0
- 1160 046f 00       		.byte	0
+ 1160 046f 01       		.byte	1
  1161 0470 00       		.byte	0
  1162 0471 00       		.byte	0
  1163 0472 00       		.byte	0
  1164 0473 00       		.byte	0
  1165 0474 00       		.byte	0
  1166 0475 00       		.byte	0
- 1167 0476 00       		.byte	0
- 1168 0477 00       		.byte	0
- 1169 0478 FB       		.byte	-5
- 1170 0479 00       		.byte	0
- 1171 047a FF       		.byte	-1
- 1172 047b 00       		.byte	0
- 1173 047c DF       		.byte	-33
- 1174 047d 00       		.byte	0
- 1175 047e 00       		.byte	0
- 1176 047f 00       		.byte	0
+ 1167 0476 40       		.byte	64
+ 1168 0477 02       		.byte	2
+ 1169 0478 00       		.byte	0
+ 1170 0479 10       		.byte	16
+ 1171 047a 30       		.byte	48
+ 1172 047b 10       		.byte	16
+ 1173 047c 00       		.byte	0
+ 1174 047d 10       		.byte	16
+ 1175 047e 10       		.byte	16
+ 1176 047f 12       		.byte	18
  1177 0480 00       		.byte	0
  1178 0481 00       		.byte	0
- 1179 0482 FF       		.byte	-1
+ 1179 0482 00       		.byte	0
  1180 0483 00       		.byte	0
- 1181 0484 DF       		.byte	-33
+ 1181 0484 00       		.byte	0
  1182 0485 00       		.byte	0
- 1183 0486 BF       		.byte	-65
+ 1183 0486 00       		.byte	0
  1184 0487 00       		.byte	0
- 1185 0488 D0       		.byte	-48
+ 1185 0488 00       		.byte	0
  1186 0489 00       		.byte	0
- 1187 048a 30       		.byte	48
+ 1187 048a 00       		.byte	0
  1188 048b 00       		.byte	0
  1189 048c 00       		.byte	0
  1190 048d 00       		.byte	0
  1191 048e 00       		.byte	0
  1192 048f 00       		.byte	0
- 1193 0490 71       		.byte	113
+ 1193 0490 00       		.byte	0
  1194 0491 00       		.byte	0
  1195 0492 00       		.byte	0
  1196 0493 00       		.byte	0
- 1197 0494 00       		.byte	0
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 22
+ 1197 0494 3E       		.byte	62
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 22
 
 
- 1198 0495 00       		.byte	0
+ 1198 0495 02       		.byte	2
  1199 0496 00       		.byte	0
  1200 0497 00       		.byte	0
  1201 0498 00       		.byte	0
- 1202 0499 00       		.byte	0
+ 1202 0499 03       		.byte	3
  1203 049a 00       		.byte	0
  1204 049b 00       		.byte	0
  1205 049c 00       		.byte	0
@@ -1278,16 +1278,16 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 1
  1212 04a3 00       		.byte	0
  1213 04a4 00       		.byte	0
  1214 04a5 00       		.byte	0
- 1215 04a6 00       		.byte	0
+ 1215 04a6 38       		.byte	56
  1216 04a7 00       		.byte	0
  1217 04a8 00       		.byte	0
  1218 04a9 00       		.byte	0
  1219 04aa 00       		.byte	0
  1220 04ab 00       		.byte	0
- 1221 04ac 00       		.byte	0
+ 1221 04ac 09       		.byte	9
  1222 04ad 00       		.byte	0
- 1223 04ae 00       		.byte	0
- 1224 04af 00       		.byte	0
+ 1223 04ae 02       		.byte	2
+ 1224 04af 01       		.byte	1
  1225 04b0 00       		.byte	0
  1226 04b1 00       		.byte	0
  1227 04b2 00       		.byte	0
@@ -1296,69 +1296,69 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 1
  1230 04b5 00       		.byte	0
  1231 04b6 00       		.byte	0
  1232 04b7 00       		.byte	0
- 1233 04b8 04       		.byte	4
- 1234 04b9 00       		.byte	0
- 1235 04ba 00       		.byte	0
+ 1233 04b8 01       		.byte	1
+ 1234 04b9 03       		.byte	3
+ 1235 04ba 14       		.byte	20
  1236 04bb 00       		.byte	0
- 1237 04bc 00       		.byte	0
+ 1237 04bc 22       		.byte	34
  1238 04bd 00       		.byte	0
- 1239 04be 40       		.byte	64
+ 1239 04be 01       		.byte	1
  1240 04bf 00       		.byte	0
  1241 04c0 00       		.byte	0
- 1242 04c1 00       		.byte	0
- 1243 04c2 00       		.byte	0
+ 1242 04c1 03       		.byte	3
+ 1243 04c2 07       		.byte	7
  1244 04c3 00       		.byte	0
- 1245 04c4 00       		.byte	0
+ 1245 04c4 38       		.byte	56
  1246 04c5 00       		.byte	0
  1247 04c6 00       		.byte	0
  1248 04c7 00       		.byte	0
- 1249 04c8 00       		.byte	0
- 1250 04c9 00       		.byte	0
+ 1249 04c8 08       		.byte	8
+ 1250 04c9 02       		.byte	2
  1251 04ca 00       		.byte	0
  1252 04cb 00       		.byte	0
- 1253 04cc 08       		.byte	8
+ 1253 04cc 00       		.byte	0
  1254 04cd 00       		.byte	0
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 23
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 23
 
 
- 1255 04ce 00       		.byte	0
- 1256 04cf 00       		.byte	0
- 1257 04d0 00       		.byte	0
+ 1255 04ce 10       		.byte	16
+ 1256 04cf 01       		.byte	1
+ 1257 04d0 01       		.byte	1
  1258 04d1 00       		.byte	0
  1259 04d2 00       		.byte	0
  1260 04d3 00       		.byte	0
  1261 04d4 00       		.byte	0
  1262 04d5 00       		.byte	0
- 1263 04d6 00       		.byte	0
+ 1263 04d6 40       		.byte	64
  1264 04d7 00       		.byte	0
  1265 04d8 00       		.byte	0
- 1266 04d9 00       		.byte	0
- 1267 04da 00       		.byte	0
- 1268 04db 00       		.byte	0
- 1269 04dc 00       		.byte	0
- 1270 04dd 00       		.byte	0
- 1271 04de 40       		.byte	64
- 1272 04df 00       		.byte	0
- 1273 04e0 00       		.byte	0
+ 1266 04d9 FF       		.byte	-1
+ 1267 04da 07       		.byte	7
+ 1268 04db FF       		.byte	-1
+ 1269 04dc 40       		.byte	64
+ 1270 04dd 20       		.byte	32
+ 1271 04de F0       		.byte	-16
+ 1272 04df 05       		.byte	5
+ 1273 04e0 08       		.byte	8
  1274 04e1 00       		.byte	0
  1275 04e2 00       		.byte	0
  1276 04e3 00       		.byte	0
- 1277 04e4 00       		.byte	0
+ 1277 04e4 09       		.byte	9
  1278 04e5 00       		.byte	0
  1279 04e6 00       		.byte	0
  1280 04e7 00       		.byte	0
- 1281 04e8 00       		.byte	0
- 1282 04e9 00       		.byte	0
- 1283 04ea 00       		.byte	0
- 1284 04eb 00       		.byte	0
+ 1281 04e8 04       		.byte	4
+ 1282 04e9 04       		.byte	4
+ 1283 04ea 04       		.byte	4
+ 1284 04eb 04       		.byte	4
  1285 04ec 00       		.byte	0
- 1286 04ed 00       		.byte	0
+ 1286 04ed 01       		.byte	1
  1287 04ee 00       		.byte	0
- 1288 04ef 00       		.byte	0
- 1289 04f0 00       		.byte	0
- 1290 04f1 00       		.byte	0
- 1291 04f2 00       		.byte	0
- 1292 04f3 00       		.byte	0
+ 1288 04ef 01       		.byte	1
+ 1289 04f0 40       		.byte	64
+ 1290 04f1 A8       		.byte	-88
+ 1291 04f2 40       		.byte	64
+ 1292 04f3 20       		.byte	32
  1293 04f4 00       		.byte	0
  1294 04f5 00       		.byte	0
  1295 04f6 00       		.byte	0
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 1
  1309 0504 00       		.byte	0
  1310 0505 00       		.byte	0
  1311 0506 00       		.byte	0
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 24
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 24
 
 
  1312 0507 00       		.byte	0
@@ -1404,16 +1404,16 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 1
  1332 051b 00       		.byte	0
  1333 051c 00       		.byte	0
  1334 051d 00       		.byte	0
- 1335 051e C0       		.byte	-64
+ 1335 051e 00       		.byte	0
  1336 051f 00       		.byte	0
  1337 0520 00       		.byte	0
  1338 0521 00       		.byte	0
  1339 0522 00       		.byte	0
  1340 0523 00       		.byte	0
- 1341 0524 00       		.byte	0
- 1342 0525 00       		.byte	0
+ 1341 0524 38       		.byte	56
+ 1342 0525 0F       		.byte	15
  1343 0526 00       		.byte	0
- 1344 0527 00       		.byte	0
+ 1344 0527 0F       		.byte	15
  1345 0528 00       		.byte	0
  1346 0529 00       		.byte	0
  1347 052a 00       		.byte	0
@@ -1432,13 +1432,13 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 1
  1360 0537 00       		.byte	0
  1361 0538 00       		.byte	0
  1362 0539 00       		.byte	0
- 1363 053a 02       		.byte	2
+ 1363 053a 00       		.byte	0
  1364 053b 00       		.byte	0
  1365 053c 00       		.byte	0
  1366 053d 00       		.byte	0
  1367 053e 00       		.byte	0
  1368 053f 00       		.byte	0
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 25
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 25
 
 
  1369 0540 00       		.byte	0
@@ -1450,14 +1450,14 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 1
  1375 0546 00       		.byte	0
  1376 0547 00       		.byte	0
  1377 0548 00       		.byte	0
- 1378 0549 00       		.byte	0
+ 1378 0549 72       		.byte	114
  1379 054a 00       		.byte	0
  1380 054b 00       		.byte	0
  1381 054c 00       		.byte	0
  1382 054d 00       		.byte	0
  1383 054e 00       		.byte	0
  1384 054f 00       		.byte	0
- 1385 0550 00       		.byte	0
+ 1385 0550 03       		.byte	3
  1386 0551 00       		.byte	0
  1387 0552 00       		.byte	0
  1388 0553 00       		.byte	0
@@ -1467,13 +1467,13 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 1
  1392 0557 00       		.byte	0
  1393 0558 00       		.byte	0
  1394 0559 00       		.byte	0
- 1395 055a 00       		.byte	0
+ 1395 055a 03       		.byte	3
  1396 055b 00       		.byte	0
- 1397 055c 00       		.byte	0
+ 1397 055c 03       		.byte	3
  1398 055d 00       		.byte	0
  1399 055e 00       		.byte	0
  1400 055f 00       		.byte	0
- 1401 0560 00       		.byte	0
+ 1401 0560 03       		.byte	3
  1402 0561 00       		.byte	0
  1403 0562 00       		.byte	0
  1404 0563 00       		.byte	0
@@ -1483,7 +1483,7 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 1
  1408 0567 00       		.byte	0
  1409 0568 00       		.byte	0
  1410 0569 00       		.byte	0
- 1411 056a 00       		.byte	0
+ 1411 056a 03       		.byte	3
  1412 056b 00       		.byte	0
  1413 056c 00       		.byte	0
  1414 056d 00       		.byte	0
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 1
  1423 0576 00       		.byte	0
  1424 0577 00       		.byte	0
  1425 0578 00       		.byte	0
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 26
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 26
 
 
  1426 0579 00       		.byte	0
@@ -1508,7 +1508,7 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 1
  1430 057d 00       		.byte	0
  1431 057e 00       		.byte	0
  1432 057f 00       		.byte	0
- 1433 0580 00       		.byte	0
+ 1433 0580 10       		.byte	16
  1434 0581 00       		.byte	0
  1435 0582 00       		.byte	0
  1436 0583 00       		.byte	0
@@ -1516,7 +1516,7 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 1
  1438 0585 00       		.byte	0
  1439 0586 00       		.byte	0
  1440 0587 00       		.byte	0
- 1441 0588 04       		.byte	4
+ 1441 0588 00       		.byte	0
  1442 0589 00       		.byte	0
  1443 058a 00       		.byte	0
  1444 058b 00       		.byte	0
@@ -1530,7 +1530,7 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 1
  1452 0593 00       		.byte	0
  1453 0594 00       		.byte	0
  1454 0595 00       		.byte	0
- 1455 0596 80       		.byte	-128
+ 1455 0596 00       		.byte	0
  1456 0597 00       		.byte	0
  1457 0598 00       		.byte	0
  1458 0599 00       		.byte	0
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 1
  1480 05af 00       		.byte	0
  1481 05b0 00       		.byte	0
  1482 05b1 00       		.byte	0
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 27
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 27
 
 
  1483 05b2 00       		.byte	0
@@ -1569,7 +1569,7 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 1
  1488 05b7 00       		.byte	0
  1489 05b8 00       		.byte	0
  1490 05b9 00       		.byte	0
- 1491 05ba 02       		.byte	2
+ 1491 05ba 00       		.byte	0
  1492 05bb 00       		.byte	0
  1493 05bc 00       		.byte	0
  1494 05bd 00       		.byte	0
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 1
  1537 05e8 00       		.byte	0
  1538 05e9 00       		.byte	0
  1539 05ea 00       		.byte	0
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 28
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 28
 
 
  1540 05eb 00       		.byte	0
@@ -1634,7 +1634,7 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 1
  1550 05f5 00       		.byte	0
  1551 05f6 00       		.byte	0
  1552 05f7 00       		.byte	0
- 1553 05f8 40       		.byte	64
+ 1553 05f8 10       		.byte	16
  1554 05f9 00       		.byte	0
  1555 05fa 00       		.byte	0
  1556 05fb 00       		.byte	0
@@ -1654,9 +1654,9 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 1
  1570 0609 00       		.byte	0
  1571 060a 00       		.byte	0
  1572 060b 00       		.byte	0
- 1573 060c 20       		.byte	32
+ 1573 060c 00       		.byte	0
  1574 060d 00       		.byte	0
- 1575 060e 20       		.byte	32
+ 1575 060e 00       		.byte	0
  1576 060f 00       		.byte	0
  1577 0610 00       		.byte	0
  1578 0611 00       		.byte	0
@@ -1666,7 +1666,7 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 1
  1582 0615 00       		.byte	0
  1583 0616 00       		.byte	0
  1584 0617 00       		.byte	0
- 1585 0618 80       		.byte	-128
+ 1585 0618 00       		.byte	0
  1586 0619 00       		.byte	0
  1587 061a 00       		.byte	0
  1588 061b 00       		.byte	0
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 1
  1594 0621 00       		.byte	0
  1595 0622 00       		.byte	0
  1596 0623 00       		.byte	0
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 29
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 29
 
 
  1597 0624 00       		.byte	0
@@ -1697,510 +1697,3681 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 1
  1610 0631 00       		.byte	0
  1611 0632 00       		.byte	0
  1612 0633 00       		.byte	0
- 1613 0634 00       		.byte	0
+ 1613 0634 08       		.byte	8
  1614 0635 00       		.byte	0
  1615 0636 00       		.byte	0
  1616 0637 00       		.byte	0
- 1617 0638 04       		.byte	4
- 1618 0639 23       		.byte	35
- 1619 063a 23       		.byte	35
+ 1617 0638 00       		.byte	0
+ 1618 0639 00       		.byte	0
+ 1619 063a 00       		.byte	0
  1620 063b 00       		.byte	0
- 1621 063c 03       		.byte	3
+ 1621 063c 00       		.byte	0
  1622 063d 00       		.byte	0
  1623 063e 00       		.byte	0
  1624 063f 00       		.byte	0
  1625 0640 00       		.byte	0
- 1626 0641 0B       		.byte	11
- 1627 0642 0B       		.byte	11
+ 1626 0641 00       		.byte	0
+ 1627 0642 00       		.byte	0
  1628 0643 00       		.byte	0
  1629 0644 00       		.byte	0
  1630 0645 00       		.byte	0
  1631 0646 00       		.byte	0
  1632 0647 00       		.byte	0
  1633 0648 00       		.byte	0
- 1634 0649 7F       		.byte	127
- 1635 064a 7F       		.byte	127
+ 1634 0649 00       		.byte	0
+ 1635 064a 00       		.byte	0
  1636 064b 00       		.byte	0
  1637 064c 00       		.byte	0
  1638 064d 00       		.byte	0
  1639 064e 00       		.byte	0
  1640 064f 00       		.byte	0
- 1641              		.global	cy_meta_custnvl
- 1642              		.section	.cycustnvl,"a",%progbits
- 1643              		.align	2
- 1644              		.type	cy_meta_custnvl, %object
- 1645              		.size	cy_meta_custnvl, 4
- 1646              	cy_meta_custnvl:
- 1647 0000 00       		.byte	0
- 1648 0001 00       		.byte	0
- 1649 0002 40       		.byte	64
- 1650 0003 05       		.byte	5
- 1651              		.global	cy_meta_wonvl
- 1652              		.section	.cywolatch,"a",%progbits
- 1653              		.align	2
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 30
+ 1641 0650 00       		.byte	0
+ 1642 0651 00       		.byte	0
+ 1643 0652 04       		.byte	4
+ 1644 0653 00       		.byte	0
+ 1645 0654 00       		.byte	0
+ 1646 0655 00       		.byte	0
+ 1647 0656 00       		.byte	0
+ 1648 0657 00       		.byte	0
+ 1649 0658 00       		.byte	0
+ 1650 0659 00       		.byte	0
+ 1651 065a 00       		.byte	0
+ 1652 065b 00       		.byte	0
+ 1653 065c 00       		.byte	0
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 30
 
 
- 1654              		.type	cy_meta_wonvl, %object
- 1655              		.size	cy_meta_wonvl, 4
- 1656              	cy_meta_wonvl:
- 1657 0000 BC       		.byte	-68
- 1658 0001 90       		.byte	-112
- 1659 0002 AC       		.byte	-84
- 1660 0003 AF       		.byte	-81
- 1661              		.global	cy_meta_flashprotect
- 1662              		.section	.cyflashprotect,"a",%progbits
- 1663              		.align	2
- 1664              		.type	cy_meta_flashprotect, %object
- 1665              		.size	cy_meta_flashprotect, 256
- 1666              	cy_meta_flashprotect:
- 1667 0000 00000000 		.space	256
- 1667      00000000 
- 1667      00000000 
- 1667      00000000 
- 1667      00000000 
- 1668              		.global	cy_metadata
- 1669              		.section	.cymeta,"a",%progbits
- 1670              		.align	2
- 1671              		.type	cy_metadata, %object
- 1672              		.size	cy_metadata, 12
- 1673              	cy_metadata:
- 1674 0000 00       		.byte	0
- 1675 0001 01       		.byte	1
- 1676 0002 2E       		.byte	46
- 1677 0003 16       		.byte	22
- 1678 0004 10       		.byte	16
- 1679 0005 69       		.byte	105
- 1680 0006 00       		.byte	0
- 1681 0007 01       		.byte	1
- 1682 0008 00       		.byte	0
- 1683 0009 00       		.byte	0
- 1684 000a 00       		.byte	0
- 1685 000b 00       		.byte	0
- 1686              		.text
- 1687              	.Letext0:
- 1688              		.file 1 "c:\\program files (x86)\\cypress\\psoc creator\\4.2\\psoc creator\\import\\gnu\\arm\\5.4.
- 1689              		.file 2 "c:\\program files (x86)\\cypress\\psoc creator\\4.2\\psoc creator\\import\\gnu\\arm\\5.4.
- 1690              		.file 3 "Generated_Source\\PSoC5\\cymetadata.c"
- 1691              		.section	.debug_info,"",%progbits
- 1692              	.Ldebug_info0:
- 1693 0000 34010000 		.4byte	0x134
- 1694 0004 0400     		.2byte	0x4
- 1695 0006 00000000 		.4byte	.Ldebug_abbrev0
- 1696 000a 04       		.byte	0x4
- 1697 000b 01       		.uleb128 0x1
- 1698 000c 0A000000 		.4byte	.LASF17
- 1699 0010 0C       		.byte	0xc
- 1700 0011 CD010000 		.4byte	.LASF18
- 1701 0015 98000000 		.4byte	.LASF19
- 1702 0019 00000000 		.4byte	.Ldebug_line0
- 1703 001d 02       		.uleb128 0x2
- 1704 001e 01       		.byte	0x1
- 1705 001f 06       		.byte	0x6
- 1706 0020 C1010000 		.4byte	.LASF0
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 31
+ 1654 065d 00       		.byte	0
+ 1655 065e 00       		.byte	0
+ 1656 065f 00       		.byte	0
+ 1657 0660 00       		.byte	0
+ 1658 0661 00       		.byte	0
+ 1659 0662 00       		.byte	0
+ 1660 0663 00       		.byte	0
+ 1661 0664 00       		.byte	0
+ 1662 0665 00       		.byte	0
+ 1663 0666 00       		.byte	0
+ 1664 0667 00       		.byte	0
+ 1665 0668 00       		.byte	0
+ 1666 0669 00       		.byte	0
+ 1667 066a 00       		.byte	0
+ 1668 066b 00       		.byte	0
+ 1669 066c 00       		.byte	0
+ 1670 066d 00       		.byte	0
+ 1671 066e 00       		.byte	0
+ 1672 066f 00       		.byte	0
+ 1673 0670 00       		.byte	0
+ 1674 0671 00       		.byte	0
+ 1675 0672 00       		.byte	0
+ 1676 0673 00       		.byte	0
+ 1677 0674 00       		.byte	0
+ 1678 0675 00       		.byte	0
+ 1679 0676 00       		.byte	0
+ 1680 0677 00       		.byte	0
+ 1681 0678 00       		.byte	0
+ 1682 0679 00       		.byte	0
+ 1683 067a 00       		.byte	0
+ 1684 067b 00       		.byte	0
+ 1685 067c 40       		.byte	64
+ 1686 067d 00       		.byte	0
+ 1687 067e 00       		.byte	0
+ 1688 067f 00       		.byte	0
+ 1689 0680 00       		.byte	0
+ 1690 0681 00       		.byte	0
+ 1691 0682 00       		.byte	0
+ 1692 0683 00       		.byte	0
+ 1693 0684 40       		.byte	64
+ 1694 0685 00       		.byte	0
+ 1695 0686 00       		.byte	0
+ 1696 0687 00       		.byte	0
+ 1697 0688 00       		.byte	0
+ 1698 0689 00       		.byte	0
+ 1699 068a 00       		.byte	0
+ 1700 068b 00       		.byte	0
+ 1701 068c 00       		.byte	0
+ 1702 068d 00       		.byte	0
+ 1703 068e 00       		.byte	0
+ 1704 068f 00       		.byte	0
+ 1705 0690 00       		.byte	0
+ 1706 0691 00       		.byte	0
+ 1707 0692 00       		.byte	0
+ 1708 0693 00       		.byte	0
+ 1709 0694 00       		.byte	0
+ 1710 0695 00       		.byte	0
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 31
 
 
- 1707 0024 03       		.uleb128 0x3
- 1708 0025 00000000 		.4byte	.LASF9
- 1709 0029 01       		.byte	0x1
- 1710 002a 1D       		.byte	0x1d
- 1711 002b 2F000000 		.4byte	0x2f
- 1712 002f 02       		.uleb128 0x2
- 1713 0030 01       		.byte	0x1
- 1714 0031 08       		.byte	0x8
- 1715 0032 F3000000 		.4byte	.LASF1
- 1716 0036 02       		.uleb128 0x2
- 1717 0037 02       		.byte	0x2
- 1718 0038 05       		.byte	0x5
- 1719 0039 AE010000 		.4byte	.LASF2
- 1720 003d 02       		.uleb128 0x2
- 1721 003e 02       		.byte	0x2
- 1722 003f 07       		.byte	0x7
- 1723 0040 13010000 		.4byte	.LASF3
- 1724 0044 02       		.uleb128 0x2
- 1725 0045 04       		.byte	0x4
- 1726 0046 05       		.byte	0x5
- 1727 0047 B8010000 		.4byte	.LASF4
- 1728 004b 02       		.uleb128 0x2
- 1729 004c 04       		.byte	0x4
- 1730 004d 07       		.byte	0x7
- 1731 004e 01010000 		.4byte	.LASF5
- 1732 0052 02       		.uleb128 0x2
- 1733 0053 08       		.byte	0x8
- 1734 0054 05       		.byte	0x5
- 1735 0055 A0010000 		.4byte	.LASF6
- 1736 0059 02       		.uleb128 0x2
- 1737 005a 08       		.byte	0x8
- 1738 005b 07       		.byte	0x7
- 1739 005c 55010000 		.4byte	.LASF7
- 1740 0060 04       		.uleb128 0x4
- 1741 0061 04       		.byte	0x4
- 1742 0062 05       		.byte	0x5
- 1743 0063 696E7400 		.ascii	"int\000"
- 1744 0067 02       		.uleb128 0x2
- 1745 0068 04       		.byte	0x4
- 1746 0069 07       		.byte	0x7
- 1747 006a 48010000 		.4byte	.LASF8
- 1748 006e 03       		.uleb128 0x3
- 1749 006f 6C010000 		.4byte	.LASF10
- 1750 0073 02       		.byte	0x2
- 1751 0074 18       		.byte	0x18
- 1752 0075 24000000 		.4byte	0x24
- 1753 0079 05       		.uleb128 0x5
- 1754 007a 91000000 		.4byte	0x91
- 1755 007e 8A000000 		.4byte	0x8a
- 1756 0082 06       		.uleb128 0x6
- 1757 0083 8A000000 		.4byte	0x8a
- 1758 0087 4F06     		.2byte	0x64f
- 1759 0089 00       		.byte	0
- 1760 008a 02       		.uleb128 0x2
- 1761 008b 04       		.byte	0x4
- 1762 008c 07       		.byte	0x7
- 1763 008d 97010000 		.4byte	.LASF11
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 32
+ 1711 0696 00       		.byte	0
+ 1712 0697 00       		.byte	0
+ 1713 0698 00       		.byte	0
+ 1714 0699 00       		.byte	0
+ 1715 069a 00       		.byte	0
+ 1716 069b 00       		.byte	0
+ 1717 069c 00       		.byte	0
+ 1718 069d 00       		.byte	0
+ 1719 069e 00       		.byte	0
+ 1720 069f 00       		.byte	0
+ 1721 06a0 00       		.byte	0
+ 1722 06a1 00       		.byte	0
+ 1723 06a2 00       		.byte	0
+ 1724 06a3 00       		.byte	0
+ 1725 06a4 00       		.byte	0
+ 1726 06a5 00       		.byte	0
+ 1727 06a6 00       		.byte	0
+ 1728 06a7 00       		.byte	0
+ 1729 06a8 00       		.byte	0
+ 1730 06a9 00       		.byte	0
+ 1731 06aa 00       		.byte	0
+ 1732 06ab 00       		.byte	0
+ 1733 06ac 00       		.byte	0
+ 1734 06ad 00       		.byte	0
+ 1735 06ae 00       		.byte	0
+ 1736 06af 00       		.byte	0
+ 1737 06b0 00       		.byte	0
+ 1738 06b1 00       		.byte	0
+ 1739 06b2 00       		.byte	0
+ 1740 06b3 00       		.byte	0
+ 1741 06b4 00       		.byte	0
+ 1742 06b5 00       		.byte	0
+ 1743 06b6 00       		.byte	0
+ 1744 06b7 00       		.byte	0
+ 1745 06b8 00       		.byte	0
+ 1746 06b9 00       		.byte	0
+ 1747 06ba 00       		.byte	0
+ 1748 06bb 00       		.byte	0
+ 1749 06bc 00       		.byte	0
+ 1750 06bd 00       		.byte	0
+ 1751 06be 00       		.byte	0
+ 1752 06bf 00       		.byte	0
+ 1753 06c0 00       		.byte	0
+ 1754 06c1 00       		.byte	0
+ 1755 06c2 00       		.byte	0
+ 1756 06c3 00       		.byte	0
+ 1757 06c4 00       		.byte	0
+ 1758 06c5 00       		.byte	0
+ 1759 06c6 00       		.byte	0
+ 1760 06c7 00       		.byte	0
+ 1761 06c8 00       		.byte	0
+ 1762 06c9 00       		.byte	0
+ 1763 06ca 00       		.byte	0
+ 1764 06cb 00       		.byte	0
+ 1765 06cc 00       		.byte	0
+ 1766 06cd 00       		.byte	0
+ 1767 06ce 00       		.byte	0
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 32
 
 
- 1764 0091 07       		.uleb128 0x7
- 1765 0092 6E000000 		.4byte	0x6e
- 1766 0096 08       		.uleb128 0x8
- 1767 0097 36010000 		.4byte	.LASF12
- 1768 009b 03       		.byte	0x3
- 1769 009c 1F       		.byte	0x1f
- 1770 009d A7000000 		.4byte	0xa7
- 1771 00a1 05       		.uleb128 0x5
- 1772 00a2 03       		.byte	0x3
- 1773 00a3 00000000 		.4byte	cy_meta_configecc
- 1774 00a7 07       		.uleb128 0x7
- 1775 00a8 79000000 		.4byte	0x79
- 1776 00ac 05       		.uleb128 0x5
- 1777 00ad 91000000 		.4byte	0x91
- 1778 00b1 BC000000 		.4byte	0xbc
- 1779 00b5 09       		.uleb128 0x9
- 1780 00b6 8A000000 		.4byte	0x8a
- 1781 00ba 03       		.byte	0x3
- 1782 00bb 00       		.byte	0
- 1783 00bc 08       		.uleb128 0x8
- 1784 00bd 26010000 		.4byte	.LASF13
- 1785 00c1 03       		.byte	0x3
- 1786 00c2 F6       		.byte	0xf6
- 1787 00c3 CD000000 		.4byte	0xcd
- 1788 00c7 05       		.uleb128 0x5
- 1789 00c8 03       		.byte	0x3
- 1790 00c9 00000000 		.4byte	cy_meta_custnvl
- 1791 00cd 07       		.uleb128 0x7
- 1792 00ce AC000000 		.4byte	0xac
- 1793 00d2 0A       		.uleb128 0xa
- 1794 00d3 89010000 		.4byte	.LASF14
- 1795 00d7 03       		.byte	0x3
- 1796 00d8 0401     		.2byte	0x104
- 1797 00da E4000000 		.4byte	0xe4
- 1798 00de 05       		.uleb128 0x5
- 1799 00df 03       		.byte	0x3
- 1800 00e0 00000000 		.4byte	cy_meta_wonvl
- 1801 00e4 07       		.uleb128 0x7
- 1802 00e5 AC000000 		.4byte	0xac
- 1803 00e9 05       		.uleb128 0x5
- 1804 00ea 91000000 		.4byte	0x91
- 1805 00ee F9000000 		.4byte	0xf9
- 1806 00f2 09       		.uleb128 0x9
- 1807 00f3 8A000000 		.4byte	0x8a
- 1808 00f7 FF       		.byte	0xff
- 1809 00f8 00       		.byte	0
- 1810 00f9 0A       		.uleb128 0xa
- 1811 00fa 74010000 		.4byte	.LASF15
- 1812 00fe 03       		.byte	0x3
- 1813 00ff 1201     		.2byte	0x112
- 1814 0101 0B010000 		.4byte	0x10b
- 1815 0105 05       		.uleb128 0x5
- 1816 0106 03       		.byte	0x3
- 1817 0107 00000000 		.4byte	cy_meta_flashprotect
- 1818 010b 07       		.uleb128 0x7
- 1819 010c E9000000 		.4byte	0xe9
- 1820 0110 05       		.uleb128 0x5
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 33
+ 1768 06cf 00       		.byte	0
+ 1769 06d0 02       		.byte	2
+ 1770 06d1 00       		.byte	0
+ 1771 06d2 00       		.byte	0
+ 1772 06d3 00       		.byte	0
+ 1773 06d4 00       		.byte	0
+ 1774 06d5 00       		.byte	0
+ 1775 06d6 00       		.byte	0
+ 1776 06d7 00       		.byte	0
+ 1777 06d8 00       		.byte	0
+ 1778 06d9 00       		.byte	0
+ 1779 06da 00       		.byte	0
+ 1780 06db 00       		.byte	0
+ 1781 06dc 00       		.byte	0
+ 1782 06dd 00       		.byte	0
+ 1783 06de 00       		.byte	0
+ 1784 06df 00       		.byte	0
+ 1785 06e0 00       		.byte	0
+ 1786 06e1 00       		.byte	0
+ 1787 06e2 00       		.byte	0
+ 1788 06e3 00       		.byte	0
+ 1789 06e4 00       		.byte	0
+ 1790 06e5 00       		.byte	0
+ 1791 06e6 00       		.byte	0
+ 1792 06e7 00       		.byte	0
+ 1793 06e8 00       		.byte	0
+ 1794 06e9 00       		.byte	0
+ 1795 06ea 00       		.byte	0
+ 1796 06eb 00       		.byte	0
+ 1797 06ec 00       		.byte	0
+ 1798 06ed 00       		.byte	0
+ 1799 06ee 00       		.byte	0
+ 1800 06ef 00       		.byte	0
+ 1801 06f0 00       		.byte	0
+ 1802 06f1 00       		.byte	0
+ 1803 06f2 00       		.byte	0
+ 1804 06f3 00       		.byte	0
+ 1805 06f4 00       		.byte	0
+ 1806 06f5 00       		.byte	0
+ 1807 06f6 00       		.byte	0
+ 1808 06f7 00       		.byte	0
+ 1809 06f8 00       		.byte	0
+ 1810 06f9 00       		.byte	0
+ 1811 06fa 00       		.byte	0
+ 1812 06fb 00       		.byte	0
+ 1813 06fc 00       		.byte	0
+ 1814 06fd 00       		.byte	0
+ 1815 06fe 00       		.byte	0
+ 1816 06ff 00       		.byte	0
+ 1817 0700 00       		.byte	0
+ 1818 0701 00       		.byte	0
+ 1819 0702 00       		.byte	0
+ 1820 0703 00       		.byte	0
+ 1821 0704 00       		.byte	0
+ 1822 0705 00       		.byte	0
+ 1823 0706 00       		.byte	0
+ 1824 0707 00       		.byte	0
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 33
 
 
- 1821 0111 91000000 		.4byte	0x91
- 1822 0115 20010000 		.4byte	0x120
- 1823 0119 09       		.uleb128 0x9
- 1824 011a 8A000000 		.4byte	0x8a
- 1825 011e 0B       		.byte	0xb
- 1826 011f 00       		.byte	0
- 1827 0120 0A       		.uleb128 0xa
- 1828 0121 E7000000 		.4byte	.LASF16
- 1829 0125 03       		.byte	0x3
- 1830 0126 3F01     		.2byte	0x13f
- 1831 0128 32010000 		.4byte	0x132
- 1832 012c 05       		.uleb128 0x5
- 1833 012d 03       		.byte	0x3
- 1834 012e 00000000 		.4byte	cy_metadata
- 1835 0132 07       		.uleb128 0x7
- 1836 0133 10010000 		.4byte	0x110
- 1837 0137 00       		.byte	0
- 1838              		.section	.debug_abbrev,"",%progbits
- 1839              	.Ldebug_abbrev0:
- 1840 0000 01       		.uleb128 0x1
- 1841 0001 11       		.uleb128 0x11
- 1842 0002 01       		.byte	0x1
- 1843 0003 25       		.uleb128 0x25
- 1844 0004 0E       		.uleb128 0xe
- 1845 0005 13       		.uleb128 0x13
- 1846 0006 0B       		.uleb128 0xb
- 1847 0007 03       		.uleb128 0x3
- 1848 0008 0E       		.uleb128 0xe
- 1849 0009 1B       		.uleb128 0x1b
- 1850 000a 0E       		.uleb128 0xe
- 1851 000b 10       		.uleb128 0x10
- 1852 000c 17       		.uleb128 0x17
- 1853 000d 00       		.byte	0
- 1854 000e 00       		.byte	0
- 1855 000f 02       		.uleb128 0x2
- 1856 0010 24       		.uleb128 0x24
- 1857 0011 00       		.byte	0
- 1858 0012 0B       		.uleb128 0xb
- 1859 0013 0B       		.uleb128 0xb
- 1860 0014 3E       		.uleb128 0x3e
- 1861 0015 0B       		.uleb128 0xb
- 1862 0016 03       		.uleb128 0x3
- 1863 0017 0E       		.uleb128 0xe
- 1864 0018 00       		.byte	0
- 1865 0019 00       		.byte	0
- 1866 001a 03       		.uleb128 0x3
- 1867 001b 16       		.uleb128 0x16
- 1868 001c 00       		.byte	0
- 1869 001d 03       		.uleb128 0x3
- 1870 001e 0E       		.uleb128 0xe
- 1871 001f 3A       		.uleb128 0x3a
- 1872 0020 0B       		.uleb128 0xb
- 1873 0021 3B       		.uleb128 0x3b
- 1874 0022 0B       		.uleb128 0xb
- 1875 0023 49       		.uleb128 0x49
- 1876 0024 13       		.uleb128 0x13
- 1877 0025 00       		.byte	0
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 34
+ 1825 0708 00       		.byte	0
+ 1826 0709 00       		.byte	0
+ 1827 070a 00       		.byte	0
+ 1828 070b 00       		.byte	0
+ 1829 070c 00       		.byte	0
+ 1830 070d 00       		.byte	0
+ 1831 070e 00       		.byte	0
+ 1832 070f 00       		.byte	0
+ 1833 0710 00       		.byte	0
+ 1834 0711 00       		.byte	0
+ 1835 0712 00       		.byte	0
+ 1836 0713 00       		.byte	0
+ 1837 0714 00       		.byte	0
+ 1838 0715 00       		.byte	0
+ 1839 0716 00       		.byte	0
+ 1840 0717 00       		.byte	0
+ 1841 0718 00       		.byte	0
+ 1842 0719 00       		.byte	0
+ 1843 071a 00       		.byte	0
+ 1844 071b 00       		.byte	0
+ 1845 071c 00       		.byte	0
+ 1846 071d 00       		.byte	0
+ 1847 071e 00       		.byte	0
+ 1848 071f 00       		.byte	0
+ 1849 0720 00       		.byte	0
+ 1850 0721 00       		.byte	0
+ 1851 0722 00       		.byte	0
+ 1852 0723 00       		.byte	0
+ 1853 0724 00       		.byte	0
+ 1854 0725 00       		.byte	0
+ 1855 0726 00       		.byte	0
+ 1856 0727 00       		.byte	0
+ 1857 0728 00       		.byte	0
+ 1858 0729 00       		.byte	0
+ 1859 072a 00       		.byte	0
+ 1860 072b 00       		.byte	0
+ 1861 072c 00       		.byte	0
+ 1862 072d 00       		.byte	0
+ 1863 072e 00       		.byte	0
+ 1864 072f 00       		.byte	0
+ 1865 0730 00       		.byte	0
+ 1866 0731 00       		.byte	0
+ 1867 0732 00       		.byte	0
+ 1868 0733 00       		.byte	0
+ 1869 0734 00       		.byte	0
+ 1870 0735 00       		.byte	0
+ 1871 0736 00       		.byte	0
+ 1872 0737 00       		.byte	0
+ 1873 0738 00       		.byte	0
+ 1874 0739 00       		.byte	0
+ 1875 073a 00       		.byte	0
+ 1876 073b 00       		.byte	0
+ 1877 073c 00       		.byte	0
+ 1878 073d 00       		.byte	0
+ 1879 073e 00       		.byte	0
+ 1880 073f 00       		.byte	0
+ 1881 0740 00       		.byte	0
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 34
 
 
- 1878 0026 00       		.byte	0
- 1879 0027 04       		.uleb128 0x4
- 1880 0028 24       		.uleb128 0x24
- 1881 0029 00       		.byte	0
- 1882 002a 0B       		.uleb128 0xb
- 1883 002b 0B       		.uleb128 0xb
- 1884 002c 3E       		.uleb128 0x3e
- 1885 002d 0B       		.uleb128 0xb
- 1886 002e 03       		.uleb128 0x3
- 1887 002f 08       		.uleb128 0x8
- 1888 0030 00       		.byte	0
- 1889 0031 00       		.byte	0
- 1890 0032 05       		.uleb128 0x5
- 1891 0033 01       		.uleb128 0x1
- 1892 0034 01       		.byte	0x1
- 1893 0035 49       		.uleb128 0x49
- 1894 0036 13       		.uleb128 0x13
- 1895 0037 01       		.uleb128 0x1
- 1896 0038 13       		.uleb128 0x13
- 1897 0039 00       		.byte	0
- 1898 003a 00       		.byte	0
- 1899 003b 06       		.uleb128 0x6
- 1900 003c 21       		.uleb128 0x21
- 1901 003d 00       		.byte	0
- 1902 003e 49       		.uleb128 0x49
- 1903 003f 13       		.uleb128 0x13
- 1904 0040 2F       		.uleb128 0x2f
- 1905 0041 05       		.uleb128 0x5
- 1906 0042 00       		.byte	0
- 1907 0043 00       		.byte	0
- 1908 0044 07       		.uleb128 0x7
- 1909 0045 26       		.uleb128 0x26
- 1910 0046 00       		.byte	0
- 1911 0047 49       		.uleb128 0x49
- 1912 0048 13       		.uleb128 0x13
- 1913 0049 00       		.byte	0
- 1914 004a 00       		.byte	0
- 1915 004b 08       		.uleb128 0x8
- 1916 004c 34       		.uleb128 0x34
- 1917 004d 00       		.byte	0
- 1918 004e 03       		.uleb128 0x3
- 1919 004f 0E       		.uleb128 0xe
- 1920 0050 3A       		.uleb128 0x3a
- 1921 0051 0B       		.uleb128 0xb
- 1922 0052 3B       		.uleb128 0x3b
- 1923 0053 0B       		.uleb128 0xb
- 1924 0054 49       		.uleb128 0x49
- 1925 0055 13       		.uleb128 0x13
- 1926 0056 3F       		.uleb128 0x3f
- 1927 0057 19       		.uleb128 0x19
- 1928 0058 02       		.uleb128 0x2
- 1929 0059 18       		.uleb128 0x18
- 1930 005a 00       		.byte	0
- 1931 005b 00       		.byte	0
- 1932 005c 09       		.uleb128 0x9
- 1933 005d 21       		.uleb128 0x21
- 1934 005e 00       		.byte	0
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 35
+ 1882 0741 00       		.byte	0
+ 1883 0742 00       		.byte	0
+ 1884 0743 00       		.byte	0
+ 1885 0744 00       		.byte	0
+ 1886 0745 00       		.byte	0
+ 1887 0746 00       		.byte	0
+ 1888 0747 00       		.byte	0
+ 1889 0748 00       		.byte	0
+ 1890 0749 00       		.byte	0
+ 1891 074a 00       		.byte	0
+ 1892 074b 00       		.byte	0
+ 1893 074c 00       		.byte	0
+ 1894 074d 00       		.byte	0
+ 1895 074e 00       		.byte	0
+ 1896 074f 00       		.byte	0
+ 1897 0750 00       		.byte	0
+ 1898 0751 00       		.byte	0
+ 1899 0752 00       		.byte	0
+ 1900 0753 00       		.byte	0
+ 1901 0754 00       		.byte	0
+ 1902 0755 00       		.byte	0
+ 1903 0756 00       		.byte	0
+ 1904 0757 00       		.byte	0
+ 1905 0758 00       		.byte	0
+ 1906 0759 00       		.byte	0
+ 1907 075a 00       		.byte	0
+ 1908 075b 00       		.byte	0
+ 1909 075c 00       		.byte	0
+ 1910 075d 00       		.byte	0
+ 1911 075e 00       		.byte	0
+ 1912 075f 00       		.byte	0
+ 1913 0760 00       		.byte	0
+ 1914 0761 00       		.byte	0
+ 1915 0762 00       		.byte	0
+ 1916 0763 00       		.byte	0
+ 1917 0764 00       		.byte	0
+ 1918 0765 00       		.byte	0
+ 1919 0766 00       		.byte	0
+ 1920 0767 00       		.byte	0
+ 1921 0768 00       		.byte	0
+ 1922 0769 00       		.byte	0
+ 1923 076a 00       		.byte	0
+ 1924 076b 00       		.byte	0
+ 1925 076c 40       		.byte	64
+ 1926 076d 00       		.byte	0
+ 1927 076e 00       		.byte	0
+ 1928 076f 00       		.byte	0
+ 1929 0770 00       		.byte	0
+ 1930 0771 00       		.byte	0
+ 1931 0772 00       		.byte	0
+ 1932 0773 00       		.byte	0
+ 1933 0774 00       		.byte	0
+ 1934 0775 00       		.byte	0
+ 1935 0776 00       		.byte	0
+ 1936 0777 00       		.byte	0
+ 1937 0778 00       		.byte	0
+ 1938 0779 00       		.byte	0
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 35
 
 
- 1935 005f 49       		.uleb128 0x49
- 1936 0060 13       		.uleb128 0x13
- 1937 0061 2F       		.uleb128 0x2f
- 1938 0062 0B       		.uleb128 0xb
- 1939 0063 00       		.byte	0
- 1940 0064 00       		.byte	0
- 1941 0065 0A       		.uleb128 0xa
- 1942 0066 34       		.uleb128 0x34
- 1943 0067 00       		.byte	0
- 1944 0068 03       		.uleb128 0x3
- 1945 0069 0E       		.uleb128 0xe
- 1946 006a 3A       		.uleb128 0x3a
- 1947 006b 0B       		.uleb128 0xb
- 1948 006c 3B       		.uleb128 0x3b
- 1949 006d 05       		.uleb128 0x5
- 1950 006e 49       		.uleb128 0x49
- 1951 006f 13       		.uleb128 0x13
- 1952 0070 3F       		.uleb128 0x3f
- 1953 0071 19       		.uleb128 0x19
- 1954 0072 02       		.uleb128 0x2
- 1955 0073 18       		.uleb128 0x18
- 1956 0074 00       		.byte	0
- 1957 0075 00       		.byte	0
- 1958 0076 00       		.byte	0
- 1959              		.section	.debug_aranges,"",%progbits
- 1960 0000 14000000 		.4byte	0x14
- 1961 0004 0200     		.2byte	0x2
- 1962 0006 00000000 		.4byte	.Ldebug_info0
- 1963 000a 04       		.byte	0x4
- 1964 000b 00       		.byte	0
- 1965 000c 0000     		.2byte	0
- 1966 000e 0000     		.2byte	0
- 1967 0010 00000000 		.4byte	0
- 1968 0014 00000000 		.4byte	0
- 1969              		.section	.debug_line,"",%progbits
- 1970              	.Ldebug_line0:
- 1971 0000 3D010000 		.section	.debug_str,"MS",%progbits,1
- 1971      02003701 
- 1971      00000201 
- 1971      FB0E0D00 
- 1971      01010101 
- 1972              	.LASF9:
- 1973 0000 5F5F7569 		.ascii	"__uint8_t\000"
- 1973      6E74385F 
- 1973      7400
- 1974              	.LASF17:
- 1975 000a 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
- 1975      43313120 
- 1975      352E342E 
- 1975      31203230 
- 1975      31363036 
- 1976 003d 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
- 1976      20726576 
- 1976      6973696F 
- 1976      6E203233 
- 1976      37373135 
- 1977 0070 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 36
+ 1939 077a 00       		.byte	0
+ 1940 077b 00       		.byte	0
+ 1941 077c 00       		.byte	0
+ 1942 077d 00       		.byte	0
+ 1943 077e 00       		.byte	0
+ 1944 077f 00       		.byte	0
+ 1945 0780 00       		.byte	0
+ 1946 0781 00       		.byte	0
+ 1947 0782 00       		.byte	0
+ 1948 0783 00       		.byte	0
+ 1949 0784 00       		.byte	0
+ 1950 0785 00       		.byte	0
+ 1951 0786 00       		.byte	0
+ 1952 0787 00       		.byte	0
+ 1953 0788 00       		.byte	0
+ 1954 0789 00       		.byte	0
+ 1955 078a 00       		.byte	0
+ 1956 078b 00       		.byte	0
+ 1957 078c 00       		.byte	0
+ 1958 078d 00       		.byte	0
+ 1959 078e 00       		.byte	0
+ 1960 078f 00       		.byte	0
+ 1961 0790 00       		.byte	0
+ 1962 0791 00       		.byte	0
+ 1963 0792 00       		.byte	0
+ 1964 0793 00       		.byte	0
+ 1965 0794 00       		.byte	0
+ 1966 0795 00       		.byte	0
+ 1967 0796 00       		.byte	0
+ 1968 0797 00       		.byte	0
+ 1969 0798 00       		.byte	0
+ 1970 0799 00       		.byte	0
+ 1971 079a 00       		.byte	0
+ 1972 079b 00       		.byte	0
+ 1973 079c 00       		.byte	0
+ 1974 079d 00       		.byte	0
+ 1975 079e 00       		.byte	0
+ 1976 079f 00       		.byte	0
+ 1977 07a0 00       		.byte	0
+ 1978 07a1 00       		.byte	0
+ 1979 07a2 00       		.byte	0
+ 1980 07a3 00       		.byte	0
+ 1981 07a4 00       		.byte	0
+ 1982 07a5 00       		.byte	0
+ 1983 07a6 00       		.byte	0
+ 1984 07a7 00       		.byte	0
+ 1985 07a8 00       		.byte	0
+ 1986 07a9 00       		.byte	0
+ 1987 07aa 00       		.byte	0
+ 1988 07ab 00       		.byte	0
+ 1989 07ac 00       		.byte	0
+ 1990 07ad 00       		.byte	0
+ 1991 07ae 00       		.byte	0
+ 1992 07af 00       		.byte	0
+ 1993 07b0 00       		.byte	0
+ 1994 07b1 00       		.byte	0
+ 1995 07b2 00       		.byte	0
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 36
 
 
- 1977      66756E63 
- 1977      74696F6E 
- 1977      2D736563 
- 1977      74696F6E 
- 1978              	.LASF19:
- 1979 0098 433A5C55 		.ascii	"C:\\Users\\Albert Sandager\\Documents\\GitHub\\P4-V"
- 1979      73657273 
- 1979      5C416C62 
- 1979      65727420 
- 1979      53616E64 
- 1980 00c6 69657743 		.ascii	"iewCare\\PSoC\\SDCard\\SDCard.cydsn\000"
- 1980      6172655C 
- 1980      50536F43 
- 1980      5C534443 
- 1980      6172645C 
- 1981              	.LASF16:
- 1982 00e7 63795F6D 		.ascii	"cy_metadata\000"
- 1982      65746164 
- 1982      61746100 
- 1983              	.LASF1:
- 1984 00f3 756E7369 		.ascii	"unsigned char\000"
- 1984      676E6564 
- 1984      20636861 
- 1984      7200
- 1985              	.LASF5:
- 1986 0101 6C6F6E67 		.ascii	"long unsigned int\000"
- 1986      20756E73 
- 1986      69676E65 
- 1986      6420696E 
- 1986      7400
- 1987              	.LASF3:
- 1988 0113 73686F72 		.ascii	"short unsigned int\000"
- 1988      7420756E 
- 1988      7369676E 
- 1988      65642069 
- 1988      6E7400
- 1989              	.LASF13:
- 1990 0126 63795F6D 		.ascii	"cy_meta_custnvl\000"
- 1990      6574615F 
- 1990      63757374 
- 1990      6E766C00 
- 1991              	.LASF12:
- 1992 0136 63795F6D 		.ascii	"cy_meta_configecc\000"
- 1992      6574615F 
- 1992      636F6E66 
- 1992      69676563 
- 1992      6300
- 1993              	.LASF8:
- 1994 0148 756E7369 		.ascii	"unsigned int\000"
- 1994      676E6564 
- 1994      20696E74 
- 1994      00
- 1995              	.LASF7:
- 1996 0155 6C6F6E67 		.ascii	"long long unsigned int\000"
- 1996      206C6F6E 
- 1996      6720756E 
- 1996      7369676E 
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccdUpeNc.s 			page 37
+ 1996 07b3 00       		.byte	0
+ 1997 07b4 00       		.byte	0
+ 1998 07b5 00       		.byte	0
+ 1999 07b6 00       		.byte	0
+ 2000 07b7 00       		.byte	0
+ 2001 07b8 00       		.byte	0
+ 2002 07b9 00       		.byte	0
+ 2003 07ba 00       		.byte	0
+ 2004 07bb 00       		.byte	0
+ 2005 07bc 00       		.byte	0
+ 2006 07bd 00       		.byte	0
+ 2007 07be 00       		.byte	0
+ 2008 07bf 00       		.byte	0
+ 2009 07c0 00       		.byte	0
+ 2010 07c1 00       		.byte	0
+ 2011 07c2 00       		.byte	0
+ 2012 07c3 00       		.byte	0
+ 2013 07c4 00       		.byte	0
+ 2014 07c5 00       		.byte	0
+ 2015 07c6 00       		.byte	0
+ 2016 07c7 00       		.byte	0
+ 2017 07c8 00       		.byte	0
+ 2018 07c9 00       		.byte	0
+ 2019 07ca 00       		.byte	0
+ 2020 07cb 00       		.byte	0
+ 2021 07cc 00       		.byte	0
+ 2022 07cd 00       		.byte	0
+ 2023 07ce 04       		.byte	4
+ 2024 07cf 00       		.byte	0
+ 2025 07d0 00       		.byte	0
+ 2026 07d1 00       		.byte	0
+ 2027 07d2 00       		.byte	0
+ 2028 07d3 00       		.byte	0
+ 2029 07d4 00       		.byte	0
+ 2030 07d5 00       		.byte	0
+ 2031 07d6 00       		.byte	0
+ 2032 07d7 00       		.byte	0
+ 2033 07d8 00       		.byte	0
+ 2034 07d9 00       		.byte	0
+ 2035 07da 00       		.byte	0
+ 2036 07db 00       		.byte	0
+ 2037 07dc 00       		.byte	0
+ 2038 07dd 00       		.byte	0
+ 2039 07de 00       		.byte	0
+ 2040 07df 00       		.byte	0
+ 2041 07e0 00       		.byte	0
+ 2042 07e1 00       		.byte	0
+ 2043 07e2 00       		.byte	0
+ 2044 07e3 00       		.byte	0
+ 2045 07e4 00       		.byte	0
+ 2046 07e5 00       		.byte	0
+ 2047 07e6 00       		.byte	0
+ 2048 07e7 00       		.byte	0
+ 2049 07e8 00       		.byte	0
+ 2050 07e9 00       		.byte	0
+ 2051 07ea 00       		.byte	0
+ 2052 07eb 00       		.byte	0
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 37
 
 
- 1996      65642069 
- 1997              	.LASF10:
- 1998 016c 75696E74 		.ascii	"uint8_t\000"
- 1998      385F7400 
- 1999              	.LASF15:
- 2000 0174 63795F6D 		.ascii	"cy_meta_flashprotect\000"
- 2000      6574615F 
- 2000      666C6173 
- 2000      6870726F 
- 2000      74656374 
- 2001              	.LASF14:
- 2002 0189 63795F6D 		.ascii	"cy_meta_wonvl\000"
- 2002      6574615F 
- 2002      776F6E76 
- 2002      6C00
- 2003              	.LASF11:
- 2004 0197 73697A65 		.ascii	"sizetype\000"
- 2004      74797065 
- 2004      00
- 2005              	.LASF6:
- 2006 01a0 6C6F6E67 		.ascii	"long long int\000"
- 2006      206C6F6E 
- 2006      6720696E 
- 2006      7400
- 2007              	.LASF2:
- 2008 01ae 73686F72 		.ascii	"short int\000"
- 2008      7420696E 
- 2008      7400
- 2009              	.LASF4:
- 2010 01b8 6C6F6E67 		.ascii	"long int\000"
- 2010      20696E74 
- 2010      00
- 2011              	.LASF0:
- 2012 01c1 7369676E 		.ascii	"signed char\000"
- 2012      65642063 
- 2012      68617200 
- 2013              	.LASF18:
- 2014 01cd 47656E65 		.ascii	"Generated_Source\\PSoC5\\cymetadata.c\000"
- 2014      72617465 
- 2014      645F536F 
- 2014      75726365 
- 2014      5C50536F 
- 2015              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
+ 2053 07ec 00       		.byte	0
+ 2054 07ed 00       		.byte	0
+ 2055 07ee 00       		.byte	0
+ 2056 07ef 00       		.byte	0
+ 2057 07f0 52       		.byte	82
+ 2058 07f1 00       		.byte	0
+ 2059 07f2 00       		.byte	0
+ 2060 07f3 20       		.byte	32
+ 2061 07f4 00       		.byte	0
+ 2062 07f5 04       		.byte	4
+ 2063 07f6 00       		.byte	0
+ 2064 07f7 00       		.byte	0
+ 2065 07f8 00       		.byte	0
+ 2066 07f9 20       		.byte	32
+ 2067 07fa 00       		.byte	0
+ 2068 07fb A0       		.byte	-96
+ 2069 07fc 00       		.byte	0
+ 2070 07fd 00       		.byte	0
+ 2071 07fe 20       		.byte	32
+ 2072 07ff 02       		.byte	2
+ 2073 0800 00       		.byte	0
+ 2074 0801 14       		.byte	20
+ 2075 0802 00       		.byte	0
+ 2076 0803 00       		.byte	0
+ 2077 0804 04       		.byte	4
+ 2078 0805 00       		.byte	0
+ 2079 0806 01       		.byte	1
+ 2080 0807 00       		.byte	0
+ 2081 0808 00       		.byte	0
+ 2082 0809 82       		.byte	-126
+ 2083 080a 00       		.byte	0
+ 2084 080b 20       		.byte	32
+ 2085 080c 00       		.byte	0
+ 2086 080d 04       		.byte	4
+ 2087 080e 08       		.byte	8
+ 2088 080f 00       		.byte	0
+ 2089 0810 04       		.byte	4
+ 2090 0811 80       		.byte	-128
+ 2091 0812 4D       		.byte	77
+ 2092 0813 00       		.byte	0
+ 2093 0814 00       		.byte	0
+ 2094 0815 00       		.byte	0
+ 2095 0816 00       		.byte	0
+ 2096 0817 40       		.byte	64
+ 2097 0818 00       		.byte	0
+ 2098 0819 00       		.byte	0
+ 2099 081a 00       		.byte	0
+ 2100 081b 00       		.byte	0
+ 2101 081c 00       		.byte	0
+ 2102 081d 00       		.byte	0
+ 2103 081e 00       		.byte	0
+ 2104 081f 08       		.byte	8
+ 2105 0820 00       		.byte	0
+ 2106 0821 80       		.byte	-128
+ 2107 0822 04       		.byte	4
+ 2108 0823 00       		.byte	0
+ 2109 0824 00       		.byte	0
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 38
+
+
+ 2110 0825 00       		.byte	0
+ 2111 0826 80       		.byte	-128
+ 2112 0827 00       		.byte	0
+ 2113 0828 00       		.byte	0
+ 2114 0829 16       		.byte	22
+ 2115 082a 00       		.byte	0
+ 2116 082b 00       		.byte	0
+ 2117 082c 00       		.byte	0
+ 2118 082d 00       		.byte	0
+ 2119 082e 28       		.byte	40
+ 2120 082f 00       		.byte	0
+ 2121 0830 44       		.byte	68
+ 2122 0831 08       		.byte	8
+ 2123 0832 00       		.byte	0
+ 2124 0833 00       		.byte	0
+ 2125 0834 00       		.byte	0
+ 2126 0835 00       		.byte	0
+ 2127 0836 00       		.byte	0
+ 2128 0837 40       		.byte	64
+ 2129 0838 00       		.byte	0
+ 2130 0839 98       		.byte	-104
+ 2131 083a 02       		.byte	2
+ 2132 083b 20       		.byte	32
+ 2133 083c 00       		.byte	0
+ 2134 083d 00       		.byte	0
+ 2135 083e 80       		.byte	-128
+ 2136 083f 00       		.byte	0
+ 2137 0840 00       		.byte	0
+ 2138 0841 00       		.byte	0
+ 2139 0842 00       		.byte	0
+ 2140 0843 40       		.byte	64
+ 2141 0844 00       		.byte	0
+ 2142 0845 00       		.byte	0
+ 2143 0846 00       		.byte	0
+ 2144 0847 10       		.byte	16
+ 2145 0848 00       		.byte	0
+ 2146 0849 00       		.byte	0
+ 2147 084a 00       		.byte	0
+ 2148 084b 00       		.byte	0
+ 2149 084c 08       		.byte	8
+ 2150 084d 00       		.byte	0
+ 2151 084e 40       		.byte	64
+ 2152 084f 21       		.byte	33
+ 2153 0850 00       		.byte	0
+ 2154 0851 00       		.byte	0
+ 2155 0852 00       		.byte	0
+ 2156 0853 00       		.byte	0
+ 2157 0854 01       		.byte	1
+ 2158 0855 00       		.byte	0
+ 2159 0856 00       		.byte	0
+ 2160 0857 00       		.byte	0
+ 2161 0858 00       		.byte	0
+ 2162 0859 00       		.byte	0
+ 2163 085a 00       		.byte	0
+ 2164 085b 00       		.byte	0
+ 2165 085c 00       		.byte	0
+ 2166 085d 00       		.byte	0
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 39
+
+
+ 2167 085e 00       		.byte	0
+ 2168 085f 00       		.byte	0
+ 2169 0860 00       		.byte	0
+ 2170 0861 00       		.byte	0
+ 2171 0862 00       		.byte	0
+ 2172 0863 00       		.byte	0
+ 2173 0864 00       		.byte	0
+ 2174 0865 00       		.byte	0
+ 2175 0866 00       		.byte	0
+ 2176 0867 00       		.byte	0
+ 2177 0868 00       		.byte	0
+ 2178 0869 00       		.byte	0
+ 2179 086a 00       		.byte	0
+ 2180 086b 00       		.byte	0
+ 2181 086c 00       		.byte	0
+ 2182 086d 00       		.byte	0
+ 2183 086e 00       		.byte	0
+ 2184 086f 00       		.byte	0
+ 2185 0870 00       		.byte	0
+ 2186 0871 00       		.byte	0
+ 2187 0872 80       		.byte	-128
+ 2188 0873 00       		.byte	0
+ 2189 0874 08       		.byte	8
+ 2190 0875 00       		.byte	0
+ 2191 0876 00       		.byte	0
+ 2192 0877 00       		.byte	0
+ 2193 0878 80       		.byte	-128
+ 2194 0879 09       		.byte	9
+ 2195 087a 00       		.byte	0
+ 2196 087b 20       		.byte	32
+ 2197 087c 00       		.byte	0
+ 2198 087d 00       		.byte	0
+ 2199 087e 00       		.byte	0
+ 2200 087f 10       		.byte	16
+ 2201 0880 50       		.byte	80
+ 2202 0881 14       		.byte	20
+ 2203 0882 40       		.byte	64
+ 2204 0883 01       		.byte	1
+ 2205 0884 00       		.byte	0
+ 2206 0885 00       		.byte	0
+ 2207 0886 82       		.byte	-126
+ 2208 0887 00       		.byte	0
+ 2209 0888 05       		.byte	5
+ 2210 0889 10       		.byte	16
+ 2211 088a 29       		.byte	41
+ 2212 088b 00       		.byte	0
+ 2213 088c 80       		.byte	-128
+ 2214 088d 82       		.byte	-126
+ 2215 088e 00       		.byte	0
+ 2216 088f 00       		.byte	0
+ 2217 0890 01       		.byte	1
+ 2218 0891 28       		.byte	40
+ 2219 0892 10       		.byte	16
+ 2220 0893 09       		.byte	9
+ 2221 0894 00       		.byte	0
+ 2222 0895 00       		.byte	0
+ 2223 0896 0E       		.byte	14
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 40
+
+
+ 2224 0897 00       		.byte	0
+ 2225 0898 00       		.byte	0
+ 2226 0899 48       		.byte	72
+ 2227 089a 00       		.byte	0
+ 2228 089b 00       		.byte	0
+ 2229 089c 01       		.byte	1
+ 2230 089d 40       		.byte	64
+ 2231 089e 00       		.byte	0
+ 2232 089f 00       		.byte	0
+ 2233 08a0 00       		.byte	0
+ 2234 08a1 00       		.byte	0
+ 2235 08a2 28       		.byte	40
+ 2236 08a3 00       		.byte	0
+ 2237 08a4 00       		.byte	0
+ 2238 08a5 40       		.byte	64
+ 2239 08a6 00       		.byte	0
+ 2240 08a7 00       		.byte	0
+ 2241 08a8 00       		.byte	0
+ 2242 08a9 00       		.byte	0
+ 2243 08aa 00       		.byte	0
+ 2244 08ab 00       		.byte	0
+ 2245 08ac 00       		.byte	0
+ 2246 08ad 00       		.byte	0
+ 2247 08ae 00       		.byte	0
+ 2248 08af 00       		.byte	0
+ 2249 08b0 2F       		.byte	47
+ 2250 08b1 00       		.byte	0
+ 2251 08b2 AE       		.byte	-82
+ 2252 08b3 00       		.byte	0
+ 2253 08b4 C6       		.byte	-58
+ 2254 08b5 00       		.byte	0
+ 2255 08b6 00       		.byte	0
+ 2256 08b7 00       		.byte	0
+ 2257 08b8 00       		.byte	0
+ 2258 08b9 00       		.byte	0
+ 2259 08ba 20       		.byte	32
+ 2260 08bb 00       		.byte	0
+ 2261 08bc 1A       		.byte	26
+ 2262 08bd 00       		.byte	0
+ 2263 08be 67       		.byte	103
+ 2264 08bf 00       		.byte	0
+ 2265 08c0 17       		.byte	23
+ 2266 08c1 00       		.byte	0
+ 2267 08c2 0C       		.byte	12
+ 2268 08c3 00       		.byte	0
+ 2269 08c4 00       		.byte	0
+ 2270 08c5 00       		.byte	0
+ 2271 08c6 F0       		.byte	-16
+ 2272 08c7 00       		.byte	0
+ 2273 08c8 10       		.byte	16
+ 2274 08c9 00       		.byte	0
+ 2275 08ca 00       		.byte	0
+ 2276 08cb 00       		.byte	0
+ 2277 08cc 00       		.byte	0
+ 2278 08cd 00       		.byte	0
+ 2279 08ce 00       		.byte	0
+ 2280 08cf 00       		.byte	0
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 41
+
+
+ 2281 08d0 00       		.byte	0
+ 2282 08d1 00       		.byte	0
+ 2283 08d2 90       		.byte	-112
+ 2284 08d3 00       		.byte	0
+ 2285 08d4 20       		.byte	32
+ 2286 08d5 00       		.byte	0
+ 2287 08d6 00       		.byte	0
+ 2288 08d7 00       		.byte	0
+ 2289 08d8 60       		.byte	96
+ 2290 08d9 00       		.byte	0
+ 2291 08da 00       		.byte	0
+ 2292 08db 00       		.byte	0
+ 2293 08dc 80       		.byte	-128
+ 2294 08dd 00       		.byte	0
+ 2295 08de 00       		.byte	0
+ 2296 08df 00       		.byte	0
+ 2297 08e0 00       		.byte	0
+ 2298 08e1 00       		.byte	0
+ 2299 08e2 00       		.byte	0
+ 2300 08e3 00       		.byte	0
+ 2301 08e4 00       		.byte	0
+ 2302 08e5 00       		.byte	0
+ 2303 08e6 00       		.byte	0
+ 2304 08e7 00       		.byte	0
+ 2305 08e8 00       		.byte	0
+ 2306 08e9 00       		.byte	0
+ 2307 08ea 00       		.byte	0
+ 2308 08eb 00       		.byte	0
+ 2309 08ec 00       		.byte	0
+ 2310 08ed 00       		.byte	0
+ 2311 08ee 00       		.byte	0
+ 2312 08ef 00       		.byte	0
+ 2313 08f0 00       		.byte	0
+ 2314 08f1 00       		.byte	0
+ 2315 08f2 02       		.byte	2
+ 2316 08f3 00       		.byte	0
+ 2317 08f4 01       		.byte	1
+ 2318 08f5 00       		.byte	0
+ 2319 08f6 00       		.byte	0
+ 2320 08f7 00       		.byte	0
+ 2321 08f8 20       		.byte	32
+ 2322 08f9 00       		.byte	0
+ 2323 08fa 04       		.byte	4
+ 2324 08fb 00       		.byte	0
+ 2325 08fc 02       		.byte	2
+ 2326 08fd 00       		.byte	0
+ 2327 08fe 00       		.byte	0
+ 2328 08ff 00       		.byte	0
+ 2329 0900 00       		.byte	0
+ 2330 0901 00       		.byte	0
+ 2331 0902 00       		.byte	0
+ 2332 0903 00       		.byte	0
+ 2333 0904 00       		.byte	0
+ 2334 0905 00       		.byte	0
+ 2335 0906 08       		.byte	8
+ 2336 0907 00       		.byte	0
+ 2337 0908 00       		.byte	0
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 42
+
+
+ 2338 0909 00       		.byte	0
+ 2339 090a 00       		.byte	0
+ 2340 090b 00       		.byte	0
+ 2341 090c 02       		.byte	2
+ 2342 090d 00       		.byte	0
+ 2343 090e 02       		.byte	2
+ 2344 090f 00       		.byte	0
+ 2345 0910 21       		.byte	33
+ 2346 0911 00       		.byte	0
+ 2347 0912 00       		.byte	0
+ 2348 0913 00       		.byte	0
+ 2349 0914 00       		.byte	0
+ 2350 0915 00       		.byte	0
+ 2351 0916 00       		.byte	0
+ 2352 0917 00       		.byte	0
+ 2353 0918 00       		.byte	0
+ 2354 0919 10       		.byte	16
+ 2355 091a 00       		.byte	0
+ 2356 091b 00       		.byte	0
+ 2357 091c 00       		.byte	0
+ 2358 091d 00       		.byte	0
+ 2359 091e 00       		.byte	0
+ 2360 091f 00       		.byte	0
+ 2361 0920 00       		.byte	0
+ 2362 0921 00       		.byte	0
+ 2363 0922 28       		.byte	40
+ 2364 0923 00       		.byte	0
+ 2365 0924 00       		.byte	0
+ 2366 0925 00       		.byte	0
+ 2367 0926 04       		.byte	4
+ 2368 0927 00       		.byte	0
+ 2369 0928 00       		.byte	0
+ 2370 0929 00       		.byte	0
+ 2371 092a 00       		.byte	0
+ 2372 092b 00       		.byte	0
+ 2373 092c 00       		.byte	0
+ 2374 092d 00       		.byte	0
+ 2375 092e 00       		.byte	0
+ 2376 092f 00       		.byte	0
+ 2377 0930 00       		.byte	0
+ 2378 0931 00       		.byte	0
+ 2379 0932 00       		.byte	0
+ 2380 0933 00       		.byte	0
+ 2381 0934 00       		.byte	0
+ 2382 0935 00       		.byte	0
+ 2383 0936 00       		.byte	0
+ 2384 0937 00       		.byte	0
+ 2385 0938 00       		.byte	0
+ 2386 0939 00       		.byte	0
+ 2387 093a 00       		.byte	0
+ 2388 093b 00       		.byte	0
+ 2389 093c 00       		.byte	0
+ 2390 093d 00       		.byte	0
+ 2391 093e 00       		.byte	0
+ 2392 093f 00       		.byte	0
+ 2393 0940 00       		.byte	0
+ 2394 0941 00       		.byte	0
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 43
+
+
+ 2395 0942 00       		.byte	0
+ 2396 0943 00       		.byte	0
+ 2397 0944 00       		.byte	0
+ 2398 0945 00       		.byte	0
+ 2399 0946 00       		.byte	0
+ 2400 0947 00       		.byte	0
+ 2401 0948 00       		.byte	0
+ 2402 0949 00       		.byte	0
+ 2403 094a 00       		.byte	0
+ 2404 094b 00       		.byte	0
+ 2405 094c 00       		.byte	0
+ 2406 094d 00       		.byte	0
+ 2407 094e 00       		.byte	0
+ 2408 094f 00       		.byte	0
+ 2409 0950 00       		.byte	0
+ 2410 0951 00       		.byte	0
+ 2411 0952 00       		.byte	0
+ 2412 0953 00       		.byte	0
+ 2413 0954 08       		.byte	8
+ 2414 0955 00       		.byte	0
+ 2415 0956 04       		.byte	4
+ 2416 0957 00       		.byte	0
+ 2417 0958 00       		.byte	0
+ 2418 0959 00       		.byte	0
+ 2419 095a 01       		.byte	1
+ 2420 095b 00       		.byte	0
+ 2421 095c 00       		.byte	0
+ 2422 095d 00       		.byte	0
+ 2423 095e 00       		.byte	0
+ 2424 095f 00       		.byte	0
+ 2425 0960 00       		.byte	0
+ 2426 0961 00       		.byte	0
+ 2427 0962 00       		.byte	0
+ 2428 0963 00       		.byte	0
+ 2429 0964 00       		.byte	0
+ 2430 0965 00       		.byte	0
+ 2431 0966 00       		.byte	0
+ 2432 0967 00       		.byte	0
+ 2433 0968 00       		.byte	0
+ 2434 0969 00       		.byte	0
+ 2435 096a 00       		.byte	0
+ 2436 096b 00       		.byte	0
+ 2437 096c 00       		.byte	0
+ 2438 096d 00       		.byte	0
+ 2439 096e 00       		.byte	0
+ 2440 096f 00       		.byte	0
+ 2441 0970 44       		.byte	68
+ 2442 0971 40       		.byte	64
+ 2443 0972 08       		.byte	8
+ 2444 0973 00       		.byte	0
+ 2445 0974 00       		.byte	0
+ 2446 0975 20       		.byte	32
+ 2447 0976 01       		.byte	1
+ 2448 0977 00       		.byte	0
+ 2449 0978 80       		.byte	-128
+ 2450 0979 20       		.byte	32
+ 2451 097a A0       		.byte	-96
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 44
+
+
+ 2452 097b 00       		.byte	0
+ 2453 097c 00       		.byte	0
+ 2454 097d 00       		.byte	0
+ 2455 097e 20       		.byte	32
+ 2456 097f 02       		.byte	2
+ 2457 0980 A0       		.byte	-96
+ 2458 0981 00       		.byte	0
+ 2459 0982 02       		.byte	2
+ 2460 0983 10       		.byte	16
+ 2461 0984 04       		.byte	4
+ 2462 0985 00       		.byte	0
+ 2463 0986 00       		.byte	0
+ 2464 0987 40       		.byte	64
+ 2465 0988 14       		.byte	20
+ 2466 0989 11       		.byte	17
+ 2467 098a 20       		.byte	32
+ 2468 098b 14       		.byte	20
+ 2469 098c 00       		.byte	0
+ 2470 098d 00       		.byte	0
+ 2471 098e 20       		.byte	32
+ 2472 098f 00       		.byte	0
+ 2473 0990 80       		.byte	-128
+ 2474 0991 60       		.byte	96
+ 2475 0992 00       		.byte	0
+ 2476 0993 00       		.byte	0
+ 2477 0994 00       		.byte	0
+ 2478 0995 40       		.byte	64
+ 2479 0996 00       		.byte	0
+ 2480 0997 40       		.byte	64
+ 2481 0998 80       		.byte	-128
+ 2482 0999 80       		.byte	-128
+ 2483 099a 00       		.byte	0
+ 2484 099b 14       		.byte	20
+ 2485 099c 04       		.byte	4
+ 2486 099d 00       		.byte	0
+ 2487 099e 00       		.byte	0
+ 2488 099f 00       		.byte	0
+ 2489 09a0 00       		.byte	0
+ 2490 09a1 20       		.byte	32
+ 2491 09a2 49       		.byte	73
+ 2492 09a3 00       		.byte	0
+ 2493 09a4 00       		.byte	0
+ 2494 09a5 20       		.byte	32
+ 2495 09a6 00       		.byte	0
+ 2496 09a7 08       		.byte	8
+ 2497 09a8 28       		.byte	40
+ 2498 09a9 40       		.byte	64
+ 2499 09aa 02       		.byte	2
+ 2500 09ab 00       		.byte	0
+ 2501 09ac 00       		.byte	0
+ 2502 09ad 00       		.byte	0
+ 2503 09ae 00       		.byte	0
+ 2504 09af 02       		.byte	2
+ 2505 09b0 00       		.byte	0
+ 2506 09b1 00       		.byte	0
+ 2507 09b2 00       		.byte	0
+ 2508 09b3 00       		.byte	0
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 45
+
+
+ 2509 09b4 00       		.byte	0
+ 2510 09b5 00       		.byte	0
+ 2511 09b6 00       		.byte	0
+ 2512 09b7 00       		.byte	0
+ 2513 09b8 00       		.byte	0
+ 2514 09b9 00       		.byte	0
+ 2515 09ba 00       		.byte	0
+ 2516 09bb 00       		.byte	0
+ 2517 09bc 00       		.byte	0
+ 2518 09bd 00       		.byte	0
+ 2519 09be 00       		.byte	0
+ 2520 09bf 00       		.byte	0
+ 2521 09c0 00       		.byte	0
+ 2522 09c1 00       		.byte	0
+ 2523 09c2 00       		.byte	0
+ 2524 09c3 00       		.byte	0
+ 2525 09c4 00       		.byte	0
+ 2526 09c5 00       		.byte	0
+ 2527 09c6 00       		.byte	0
+ 2528 09c7 00       		.byte	0
+ 2529 09c8 00       		.byte	0
+ 2530 09c9 01       		.byte	1
+ 2531 09ca 00       		.byte	0
+ 2532 09cb 00       		.byte	0
+ 2533 09cc 00       		.byte	0
+ 2534 09cd 00       		.byte	0
+ 2535 09ce 00       		.byte	0
+ 2536 09cf 00       		.byte	0
+ 2537 09d0 00       		.byte	0
+ 2538 09d1 00       		.byte	0
+ 2539 09d2 00       		.byte	0
+ 2540 09d3 00       		.byte	0
+ 2541 09d4 00       		.byte	0
+ 2542 09d5 00       		.byte	0
+ 2543 09d6 00       		.byte	0
+ 2544 09d7 00       		.byte	0
+ 2545 09d8 01       		.byte	1
+ 2546 09d9 14       		.byte	20
+ 2547 09da 00       		.byte	0
+ 2548 09db 00       		.byte	0
+ 2549 09dc 00       		.byte	0
+ 2550 09dd 00       		.byte	0
+ 2551 09de 00       		.byte	0
+ 2552 09df 00       		.byte	0
+ 2553 09e0 B4       		.byte	-76
+ 2554 09e1 00       		.byte	0
+ 2555 09e2 02       		.byte	2
+ 2556 09e3 10       		.byte	16
+ 2557 09e4 00       		.byte	0
+ 2558 09e5 00       		.byte	0
+ 2559 09e6 00       		.byte	0
+ 2560 09e7 00       		.byte	0
+ 2561 09e8 00       		.byte	0
+ 2562 09e9 00       		.byte	0
+ 2563 09ea 00       		.byte	0
+ 2564 09eb 00       		.byte	0
+ 2565 09ec 00       		.byte	0
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 46
+
+
+ 2566 09ed 00       		.byte	0
+ 2567 09ee 00       		.byte	0
+ 2568 09ef 00       		.byte	0
+ 2569 09f0 00       		.byte	0
+ 2570 09f1 20       		.byte	32
+ 2571 09f2 01       		.byte	1
+ 2572 09f3 08       		.byte	8
+ 2573 09f4 40       		.byte	64
+ 2574 09f5 00       		.byte	0
+ 2575 09f6 00       		.byte	0
+ 2576 09f7 00       		.byte	0
+ 2577 09f8 00       		.byte	0
+ 2578 09f9 00       		.byte	0
+ 2579 09fa 00       		.byte	0
+ 2580 09fb 01       		.byte	1
+ 2581 09fc 00       		.byte	0
+ 2582 09fd 00       		.byte	0
+ 2583 09fe 04       		.byte	4
+ 2584 09ff 00       		.byte	0
+ 2585 0a00 00       		.byte	0
+ 2586 0a01 00       		.byte	0
+ 2587 0a02 40       		.byte	64
+ 2588 0a03 01       		.byte	1
+ 2589 0a04 00       		.byte	0
+ 2590 0a05 00       		.byte	0
+ 2591 0a06 00       		.byte	0
+ 2592 0a07 00       		.byte	0
+ 2593 0a08 04       		.byte	4
+ 2594 0a09 00       		.byte	0
+ 2595 0a0a 00       		.byte	0
+ 2596 0a0b 00       		.byte	0
+ 2597 0a0c 00       		.byte	0
+ 2598 0a0d 02       		.byte	2
+ 2599 0a0e 00       		.byte	0
+ 2600 0a0f 00       		.byte	0
+ 2601 0a10 00       		.byte	0
+ 2602 0a11 00       		.byte	0
+ 2603 0a12 00       		.byte	0
+ 2604 0a13 08       		.byte	8
+ 2605 0a14 00       		.byte	0
+ 2606 0a15 00       		.byte	0
+ 2607 0a16 00       		.byte	0
+ 2608 0a17 00       		.byte	0
+ 2609 0a18 00       		.byte	0
+ 2610 0a19 00       		.byte	0
+ 2611 0a1a 00       		.byte	0
+ 2612 0a1b 00       		.byte	0
+ 2613 0a1c 00       		.byte	0
+ 2614 0a1d 00       		.byte	0
+ 2615 0a1e 00       		.byte	0
+ 2616 0a1f 00       		.byte	0
+ 2617 0a20 00       		.byte	0
+ 2618 0a21 00       		.byte	0
+ 2619 0a22 00       		.byte	0
+ 2620 0a23 08       		.byte	8
+ 2621 0a24 00       		.byte	0
+ 2622 0a25 02       		.byte	2
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 47
+
+
+ 2623 0a26 40       		.byte	64
+ 2624 0a27 00       		.byte	0
+ 2625 0a28 00       		.byte	0
+ 2626 0a29 00       		.byte	0
+ 2627 0a2a 00       		.byte	0
+ 2628 0a2b 00       		.byte	0
+ 2629 0a2c 00       		.byte	0
+ 2630 0a2d 00       		.byte	0
+ 2631 0a2e 00       		.byte	0
+ 2632 0a2f 00       		.byte	0
+ 2633 0a30 C7       		.byte	-57
+ 2634 0a31 00       		.byte	0
+ 2635 0a32 AF       		.byte	-81
+ 2636 0a33 00       		.byte	0
+ 2637 0a34 CF       		.byte	-49
+ 2638 0a35 00       		.byte	0
+ 2639 0a36 00       		.byte	0
+ 2640 0a37 00       		.byte	0
+ 2641 0a38 00       		.byte	0
+ 2642 0a39 00       		.byte	0
+ 2643 0a3a 2F       		.byte	47
+ 2644 0a3b 00       		.byte	0
+ 2645 0a3c 6F       		.byte	111
+ 2646 0a3d 00       		.byte	0
+ 2647 0a3e 8F       		.byte	-113
+ 2648 0a3f 00       		.byte	0
+ 2649 0a40 00       		.byte	0
+ 2650 0a41 00       		.byte	0
+ 2651 0a42 00       		.byte	0
+ 2652 0a43 00       		.byte	0
+ 2653 0a44 00       		.byte	0
+ 2654 0a45 00       		.byte	0
+ 2655 0a46 01       		.byte	1
+ 2656 0a47 00       		.byte	0
+ 2657 0a48 00       		.byte	0
+ 2658 0a49 00       		.byte	0
+ 2659 0a4a 00       		.byte	0
+ 2660 0a4b 00       		.byte	0
+ 2661 0a4c 00       		.byte	0
+ 2662 0a4d 00       		.byte	0
+ 2663 0a4e 00       		.byte	0
+ 2664 0a4f 00       		.byte	0
+ 2665 0a50 80       		.byte	-128
+ 2666 0a51 00       		.byte	0
+ 2667 0a52 40       		.byte	64
+ 2668 0a53 00       		.byte	0
+ 2669 0a54 00       		.byte	0
+ 2670 0a55 00       		.byte	0
+ 2671 0a56 00       		.byte	0
+ 2672 0a57 00       		.byte	0
+ 2673 0a58 20       		.byte	32
+ 2674 0a59 00       		.byte	0
+ 2675 0a5a 40       		.byte	64
+ 2676 0a5b 00       		.byte	0
+ 2677 0a5c 40       		.byte	64
+ 2678 0a5d 00       		.byte	0
+ 2679 0a5e 00       		.byte	0
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 48
+
+
+ 2680 0a5f 00       		.byte	0
+ 2681 0a60 00       		.byte	0
+ 2682 0a61 00       		.byte	0
+ 2683 0a62 00       		.byte	0
+ 2684 0a63 00       		.byte	0
+ 2685 0a64 00       		.byte	0
+ 2686 0a65 00       		.byte	0
+ 2687 0a66 00       		.byte	0
+ 2688 0a67 00       		.byte	0
+ 2689 0a68 00       		.byte	0
+ 2690 0a69 00       		.byte	0
+ 2691 0a6a 00       		.byte	0
+ 2692 0a6b 00       		.byte	0
+ 2693 0a6c 00       		.byte	0
+ 2694 0a6d 00       		.byte	0
+ 2695 0a6e 00       		.byte	0
+ 2696 0a6f 00       		.byte	0
+ 2697 0a70 48       		.byte	72
+ 2698 0a71 20       		.byte	32
+ 2699 0a72 01       		.byte	1
+ 2700 0a73 00       		.byte	0
+ 2701 0a74 00       		.byte	0
+ 2702 0a75 50       		.byte	80
+ 2703 0a76 00       		.byte	0
+ 2704 0a77 60       		.byte	96
+ 2705 0a78 42       		.byte	66
+ 2706 0a79 00       		.byte	0
+ 2707 0a7a 00       		.byte	0
+ 2708 0a7b 08       		.byte	8
+ 2709 0a7c 20       		.byte	32
+ 2710 0a7d 02       		.byte	2
+ 2711 0a7e 00       		.byte	0
+ 2712 0a7f 01       		.byte	1
+ 2713 0a80 00       		.byte	0
+ 2714 0a81 00       		.byte	0
+ 2715 0a82 28       		.byte	40
+ 2716 0a83 00       		.byte	0
+ 2717 0a84 00       		.byte	0
+ 2718 0a85 40       		.byte	64
+ 2719 0a86 84       		.byte	-124
+ 2720 0a87 08       		.byte	8
+ 2721 0a88 40       		.byte	64
+ 2722 0a89 20       		.byte	32
+ 2723 0a8a 00       		.byte	0
+ 2724 0a8b 00       		.byte	0
+ 2725 0a8c 00       		.byte	0
+ 2726 0a8d C3       		.byte	-61
+ 2727 0a8e 01       		.byte	1
+ 2728 0a8f 12       		.byte	18
+ 2729 0a90 00       		.byte	0
+ 2730 0a91 04       		.byte	4
+ 2731 0a92 A8       		.byte	-88
+ 2732 0a93 00       		.byte	0
+ 2733 0a94 00       		.byte	0
+ 2734 0a95 00       		.byte	0
+ 2735 0a96 04       		.byte	4
+ 2736 0a97 00       		.byte	0
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 49
+
+
+ 2737 0a98 42       		.byte	66
+ 2738 0a99 20       		.byte	32
+ 2739 0a9a 02       		.byte	2
+ 2740 0a9b 00       		.byte	0
+ 2741 0a9c 00       		.byte	0
+ 2742 0a9d 00       		.byte	0
+ 2743 0a9e 00       		.byte	0
+ 2744 0a9f 00       		.byte	0
+ 2745 0aa0 00       		.byte	0
+ 2746 0aa1 00       		.byte	0
+ 2747 0aa2 28       		.byte	40
+ 2748 0aa3 00       		.byte	0
+ 2749 0aa4 80       		.byte	-128
+ 2750 0aa5 00       		.byte	0
+ 2751 0aa6 80       		.byte	-128
+ 2752 0aa7 00       		.byte	0
+ 2753 0aa8 80       		.byte	-128
+ 2754 0aa9 20       		.byte	32
+ 2755 0aaa 00       		.byte	0
+ 2756 0aab 00       		.byte	0
+ 2757 0aac 00       		.byte	0
+ 2758 0aad 00       		.byte	0
+ 2759 0aae 00       		.byte	0
+ 2760 0aaf 00       		.byte	0
+ 2761 0ab0 00       		.byte	0
+ 2762 0ab1 00       		.byte	0
+ 2763 0ab2 00       		.byte	0
+ 2764 0ab3 00       		.byte	0
+ 2765 0ab4 00       		.byte	0
+ 2766 0ab5 A2       		.byte	-94
+ 2767 0ab6 00       		.byte	0
+ 2768 0ab7 00       		.byte	0
+ 2769 0ab8 00       		.byte	0
+ 2770 0ab9 00       		.byte	0
+ 2771 0aba 00       		.byte	0
+ 2772 0abb 00       		.byte	0
+ 2773 0abc 00       		.byte	0
+ 2774 0abd 00       		.byte	0
+ 2775 0abe 00       		.byte	0
+ 2776 0abf 54       		.byte	84
+ 2777 0ac0 00       		.byte	0
+ 2778 0ac1 00       		.byte	0
+ 2779 0ac2 00       		.byte	0
+ 2780 0ac3 00       		.byte	0
+ 2781 0ac4 21       		.byte	33
+ 2782 0ac5 00       		.byte	0
+ 2783 0ac6 A8       		.byte	-88
+ 2784 0ac7 08       		.byte	8
+ 2785 0ac8 00       		.byte	0
+ 2786 0ac9 00       		.byte	0
+ 2787 0aca 00       		.byte	0
+ 2788 0acb 00       		.byte	0
+ 2789 0acc 00       		.byte	0
+ 2790 0acd 00       		.byte	0
+ 2791 0ace 00       		.byte	0
+ 2792 0acf 00       		.byte	0
+ 2793 0ad0 00       		.byte	0
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 50
+
+
+ 2794 0ad1 00       		.byte	0
+ 2795 0ad2 00       		.byte	0
+ 2796 0ad3 00       		.byte	0
+ 2797 0ad4 00       		.byte	0
+ 2798 0ad5 00       		.byte	0
+ 2799 0ad6 80       		.byte	-128
+ 2800 0ad7 24       		.byte	36
+ 2801 0ad8 00       		.byte	0
+ 2802 0ad9 00       		.byte	0
+ 2803 0ada 00       		.byte	0
+ 2804 0adb 00       		.byte	0
+ 2805 0adc 00       		.byte	0
+ 2806 0add 00       		.byte	0
+ 2807 0ade 00       		.byte	0
+ 2808 0adf 00       		.byte	0
+ 2809 0ae0 00       		.byte	0
+ 2810 0ae1 00       		.byte	0
+ 2811 0ae2 00       		.byte	0
+ 2812 0ae3 00       		.byte	0
+ 2813 0ae4 00       		.byte	0
+ 2814 0ae5 00       		.byte	0
+ 2815 0ae6 00       		.byte	0
+ 2816 0ae7 00       		.byte	0
+ 2817 0ae8 00       		.byte	0
+ 2818 0ae9 00       		.byte	0
+ 2819 0aea 00       		.byte	0
+ 2820 0aeb 00       		.byte	0
+ 2821 0aec 00       		.byte	0
+ 2822 0aed 00       		.byte	0
+ 2823 0aee 00       		.byte	0
+ 2824 0aef 00       		.byte	0
+ 2825 0af0 00       		.byte	0
+ 2826 0af1 01       		.byte	1
+ 2827 0af2 00       		.byte	0
+ 2828 0af3 08       		.byte	8
+ 2829 0af4 01       		.byte	1
+ 2830 0af5 00       		.byte	0
+ 2831 0af6 00       		.byte	0
+ 2832 0af7 00       		.byte	0
+ 2833 0af8 00       		.byte	0
+ 2834 0af9 40       		.byte	64
+ 2835 0afa 00       		.byte	0
+ 2836 0afb 00       		.byte	0
+ 2837 0afc 00       		.byte	0
+ 2838 0afd 00       		.byte	0
+ 2839 0afe 00       		.byte	0
+ 2840 0aff 00       		.byte	0
+ 2841 0b00 80       		.byte	-128
+ 2842 0b01 60       		.byte	96
+ 2843 0b02 00       		.byte	0
+ 2844 0b03 59       		.byte	89
+ 2845 0b04 00       		.byte	0
+ 2846 0b05 08       		.byte	8
+ 2847 0b06 09       		.byte	9
+ 2848 0b07 00       		.byte	0
+ 2849 0b08 00       		.byte	0
+ 2850 0b09 10       		.byte	16
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 51
+
+
+ 2851 0b0a 04       		.byte	4
+ 2852 0b0b 68       		.byte	104
+ 2853 0b0c 81       		.byte	-127
+ 2854 0b0d 61       		.byte	97
+ 2855 0b0e 2B       		.byte	43
+ 2856 0b0f 00       		.byte	0
+ 2857 0b10 04       		.byte	4
+ 2858 0b11 20       		.byte	32
+ 2859 0b12 00       		.byte	0
+ 2860 0b13 00       		.byte	0
+ 2861 0b14 00       		.byte	0
+ 2862 0b15 10       		.byte	16
+ 2863 0b16 20       		.byte	32
+ 2864 0b17 0A       		.byte	10
+ 2865 0b18 00       		.byte	0
+ 2866 0b19 00       		.byte	0
+ 2867 0b1a 00       		.byte	0
+ 2868 0b1b 00       		.byte	0
+ 2869 0b1c 00       		.byte	0
+ 2870 0b1d 00       		.byte	0
+ 2871 0b1e 00       		.byte	0
+ 2872 0b1f 00       		.byte	0
+ 2873 0b20 04       		.byte	4
+ 2874 0b21 00       		.byte	0
+ 2875 0b22 00       		.byte	0
+ 2876 0b23 00       		.byte	0
+ 2877 0b24 10       		.byte	16
+ 2878 0b25 00       		.byte	0
+ 2879 0b26 00       		.byte	0
+ 2880 0b27 04       		.byte	4
+ 2881 0b28 00       		.byte	0
+ 2882 0b29 00       		.byte	0
+ 2883 0b2a 00       		.byte	0
+ 2884 0b2b 00       		.byte	0
+ 2885 0b2c 00       		.byte	0
+ 2886 0b2d 00       		.byte	0
+ 2887 0b2e 00       		.byte	0
+ 2888 0b2f 00       		.byte	0
+ 2889 0b30 F7       		.byte	-9
+ 2890 0b31 00       		.byte	0
+ 2891 0b32 DB       		.byte	-37
+ 2892 0b33 00       		.byte	0
+ 2893 0b34 F6       		.byte	-10
+ 2894 0b35 00       		.byte	0
+ 2895 0b36 00       		.byte	0
+ 2896 0b37 00       		.byte	0
+ 2897 0b38 00       		.byte	0
+ 2898 0b39 00       		.byte	0
+ 2899 0b3a 0D       		.byte	13
+ 2900 0b3b 00       		.byte	0
+ 2901 0b3c 06       		.byte	6
+ 2902 0b3d 00       		.byte	0
+ 2903 0b3e 0C       		.byte	12
+ 2904 0b3f 00       		.byte	0
+ 2905 0b40 B0       		.byte	-80
+ 2906 0b41 00       		.byte	0
+ 2907 0b42 30       		.byte	48
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 52
+
+
+ 2908 0b43 00       		.byte	0
+ 2909 0b44 00       		.byte	0
+ 2910 0b45 00       		.byte	0
+ 2911 0b46 00       		.byte	0
+ 2912 0b47 00       		.byte	0
+ 2913 0b48 70       		.byte	112
+ 2914 0b49 00       		.byte	0
+ 2915 0b4a 00       		.byte	0
+ 2916 0b4b 00       		.byte	0
+ 2917 0b4c 00       		.byte	0
+ 2918 0b4d 00       		.byte	0
+ 2919 0b4e 00       		.byte	0
+ 2920 0b4f 00       		.byte	0
+ 2921 0b50 04       		.byte	4
+ 2922 0b51 00       		.byte	0
+ 2923 0b52 42       		.byte	66
+ 2924 0b53 00       		.byte	0
+ 2925 0b54 01       		.byte	1
+ 2926 0b55 00       		.byte	0
+ 2927 0b56 00       		.byte	0
+ 2928 0b57 00       		.byte	0
+ 2929 0b58 00       		.byte	0
+ 2930 0b59 00       		.byte	0
+ 2931 0b5a 00       		.byte	0
+ 2932 0b5b 00       		.byte	0
+ 2933 0b5c 00       		.byte	0
+ 2934 0b5d 00       		.byte	0
+ 2935 0b5e 00       		.byte	0
+ 2936 0b5f 00       		.byte	0
+ 2937 0b60 00       		.byte	0
+ 2938 0b61 00       		.byte	0
+ 2939 0b62 00       		.byte	0
+ 2940 0b63 00       		.byte	0
+ 2941 0b64 00       		.byte	0
+ 2942 0b65 00       		.byte	0
+ 2943 0b66 00       		.byte	0
+ 2944 0b67 00       		.byte	0
+ 2945 0b68 00       		.byte	0
+ 2946 0b69 00       		.byte	0
+ 2947 0b6a 00       		.byte	0
+ 2948 0b6b 00       		.byte	0
+ 2949 0b6c 00       		.byte	0
+ 2950 0b6d 00       		.byte	0
+ 2951 0b6e 00       		.byte	0
+ 2952 0b6f 00       		.byte	0
+ 2953 0b70 00       		.byte	0
+ 2954 0b71 00       		.byte	0
+ 2955 0b72 00       		.byte	0
+ 2956 0b73 00       		.byte	0
+ 2957 0b74 00       		.byte	0
+ 2958 0b75 00       		.byte	0
+ 2959 0b76 00       		.byte	0
+ 2960 0b77 00       		.byte	0
+ 2961 0b78 00       		.byte	0
+ 2962 0b79 00       		.byte	0
+ 2963 0b7a 00       		.byte	0
+ 2964 0b7b 00       		.byte	0
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 53
+
+
+ 2965 0b7c 00       		.byte	0
+ 2966 0b7d 00       		.byte	0
+ 2967 0b7e 00       		.byte	0
+ 2968 0b7f 00       		.byte	0
+ 2969 0b80 00       		.byte	0
+ 2970 0b81 00       		.byte	0
+ 2971 0b82 00       		.byte	0
+ 2972 0b83 01       		.byte	1
+ 2973 0b84 00       		.byte	0
+ 2974 0b85 00       		.byte	0
+ 2975 0b86 00       		.byte	0
+ 2976 0b87 00       		.byte	0
+ 2977 0b88 04       		.byte	4
+ 2978 0b89 00       		.byte	0
+ 2979 0b8a 00       		.byte	0
+ 2980 0b8b 00       		.byte	0
+ 2981 0b8c 00       		.byte	0
+ 2982 0b8d 00       		.byte	0
+ 2983 0b8e 00       		.byte	0
+ 2984 0b8f 00       		.byte	0
+ 2985 0b90 00       		.byte	0
+ 2986 0b91 00       		.byte	0
+ 2987 0b92 00       		.byte	0
+ 2988 0b93 00       		.byte	0
+ 2989 0b94 00       		.byte	0
+ 2990 0b95 00       		.byte	0
+ 2991 0b96 00       		.byte	0
+ 2992 0b97 00       		.byte	0
+ 2993 0b98 00       		.byte	0
+ 2994 0b99 00       		.byte	0
+ 2995 0b9a 00       		.byte	0
+ 2996 0b9b 00       		.byte	0
+ 2997 0b9c 00       		.byte	0
+ 2998 0b9d 00       		.byte	0
+ 2999 0b9e 00       		.byte	0
+ 3000 0b9f 00       		.byte	0
+ 3001 0ba0 00       		.byte	0
+ 3002 0ba1 00       		.byte	0
+ 3003 0ba2 00       		.byte	0
+ 3004 0ba3 00       		.byte	0
+ 3005 0ba4 00       		.byte	0
+ 3006 0ba5 00       		.byte	0
+ 3007 0ba6 00       		.byte	0
+ 3008 0ba7 01       		.byte	1
+ 3009 0ba8 00       		.byte	0
+ 3010 0ba9 00       		.byte	0
+ 3011 0baa 00       		.byte	0
+ 3012 0bab 00       		.byte	0
+ 3013 0bac 00       		.byte	0
+ 3014 0bad 00       		.byte	0
+ 3015 0bae 00       		.byte	0
+ 3016 0baf 00       		.byte	0
+ 3017 0bb0 00       		.byte	0
+ 3018 0bb1 00       		.byte	0
+ 3019 0bb2 00       		.byte	0
+ 3020 0bb3 00       		.byte	0
+ 3021 0bb4 00       		.byte	0
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 54
+
+
+ 3022 0bb5 00       		.byte	0
+ 3023 0bb6 00       		.byte	0
+ 3024 0bb7 00       		.byte	0
+ 3025 0bb8 00       		.byte	0
+ 3026 0bb9 00       		.byte	0
+ 3027 0bba 00       		.byte	0
+ 3028 0bbb 00       		.byte	0
+ 3029 0bbc 00       		.byte	0
+ 3030 0bbd 00       		.byte	0
+ 3031 0bbe 00       		.byte	0
+ 3032 0bbf 00       		.byte	0
+ 3033 0bc0 00       		.byte	0
+ 3034 0bc1 00       		.byte	0
+ 3035 0bc2 00       		.byte	0
+ 3036 0bc3 00       		.byte	0
+ 3037 0bc4 00       		.byte	0
+ 3038 0bc5 00       		.byte	0
+ 3039 0bc6 00       		.byte	0
+ 3040 0bc7 00       		.byte	0
+ 3041 0bc8 00       		.byte	0
+ 3042 0bc9 00       		.byte	0
+ 3043 0bca 00       		.byte	0
+ 3044 0bcb 00       		.byte	0
+ 3045 0bcc 00       		.byte	0
+ 3046 0bcd 00       		.byte	0
+ 3047 0bce 00       		.byte	0
+ 3048 0bcf 00       		.byte	0
+ 3049 0bd0 00       		.byte	0
+ 3050 0bd1 00       		.byte	0
+ 3051 0bd2 00       		.byte	0
+ 3052 0bd3 00       		.byte	0
+ 3053 0bd4 00       		.byte	0
+ 3054 0bd5 00       		.byte	0
+ 3055 0bd6 00       		.byte	0
+ 3056 0bd7 00       		.byte	0
+ 3057 0bd8 00       		.byte	0
+ 3058 0bd9 00       		.byte	0
+ 3059 0bda 00       		.byte	0
+ 3060 0bdb 00       		.byte	0
+ 3061 0bdc 10       		.byte	16
+ 3062 0bdd 00       		.byte	0
+ 3063 0bde 00       		.byte	0
+ 3064 0bdf 00       		.byte	0
+ 3065 0be0 00       		.byte	0
+ 3066 0be1 00       		.byte	0
+ 3067 0be2 00       		.byte	0
+ 3068 0be3 00       		.byte	0
+ 3069 0be4 00       		.byte	0
+ 3070 0be5 00       		.byte	0
+ 3071 0be6 00       		.byte	0
+ 3072 0be7 00       		.byte	0
+ 3073 0be8 00       		.byte	0
+ 3074 0be9 00       		.byte	0
+ 3075 0bea 00       		.byte	0
+ 3076 0beb 00       		.byte	0
+ 3077 0bec 00       		.byte	0
+ 3078 0bed 00       		.byte	0
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 55
+
+
+ 3079 0bee 00       		.byte	0
+ 3080 0bef 00       		.byte	0
+ 3081 0bf0 20       		.byte	32
+ 3082 0bf1 00       		.byte	0
+ 3083 0bf2 04       		.byte	4
+ 3084 0bf3 02       		.byte	2
+ 3085 0bf4 00       		.byte	0
+ 3086 0bf5 41       		.byte	65
+ 3087 0bf6 48       		.byte	72
+ 3088 0bf7 20       		.byte	32
+ 3089 0bf8 00       		.byte	0
+ 3090 0bf9 40       		.byte	64
+ 3091 0bfa 01       		.byte	1
+ 3092 0bfb 00       		.byte	0
+ 3093 0bfc 00       		.byte	0
+ 3094 0bfd 00       		.byte	0
+ 3095 0bfe A8       		.byte	-88
+ 3096 0bff 01       		.byte	1
+ 3097 0c00 00       		.byte	0
+ 3098 0c01 00       		.byte	0
+ 3099 0c02 00       		.byte	0
+ 3100 0c03 00       		.byte	0
+ 3101 0c04 00       		.byte	0
+ 3102 0c05 10       		.byte	16
+ 3103 0c06 00       		.byte	0
+ 3104 0c07 41       		.byte	65
+ 3105 0c08 20       		.byte	32
+ 3106 0c09 00       		.byte	0
+ 3107 0c0a 00       		.byte	0
+ 3108 0c0b 00       		.byte	0
+ 3109 0c0c 00       		.byte	0
+ 3110 0c0d 00       		.byte	0
+ 3111 0c0e 00       		.byte	0
+ 3112 0c0f 20       		.byte	32
+ 3113 0c10 08       		.byte	8
+ 3114 0c11 10       		.byte	16
+ 3115 0c12 00       		.byte	0
+ 3116 0c13 00       		.byte	0
+ 3117 0c14 00       		.byte	0
+ 3118 0c15 00       		.byte	0
+ 3119 0c16 40       		.byte	64
+ 3120 0c17 10       		.byte	16
+ 3121 0c18 00       		.byte	0
+ 3122 0c19 20       		.byte	32
+ 3123 0c1a 02       		.byte	2
+ 3124 0c1b 00       		.byte	0
+ 3125 0c1c 00       		.byte	0
+ 3126 0c1d 00       		.byte	0
+ 3127 0c1e 01       		.byte	1
+ 3128 0c1f 2A       		.byte	42
+ 3129 0c20 00       		.byte	0
+ 3130 0c21 00       		.byte	0
+ 3131 0c22 20       		.byte	32
+ 3132 0c23 00       		.byte	0
+ 3133 0c24 00       		.byte	0
+ 3134 0c25 00       		.byte	0
+ 3135 0c26 44       		.byte	68
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 56
+
+
+ 3136 0c27 11       		.byte	17
+ 3137 0c28 80       		.byte	-128
+ 3138 0c29 28       		.byte	40
+ 3139 0c2a 00       		.byte	0
+ 3140 0c2b 00       		.byte	0
+ 3141 0c2c A0       		.byte	-96
+ 3142 0c2d 00       		.byte	0
+ 3143 0c2e 04       		.byte	4
+ 3144 0c2f 11       		.byte	17
+ 3145 0c30 00       		.byte	0
+ 3146 0c31 04       		.byte	4
+ 3147 0c32 02       		.byte	2
+ 3148 0c33 00       		.byte	0
+ 3149 0c34 00       		.byte	0
+ 3150 0c35 00       		.byte	0
+ 3151 0c36 00       		.byte	0
+ 3152 0c37 00       		.byte	0
+ 3153 0c38 04       		.byte	4
+ 3154 0c39 00       		.byte	0
+ 3155 0c3a 00       		.byte	0
+ 3156 0c3b 00       		.byte	0
+ 3157 0c3c 00       		.byte	0
+ 3158 0c3d 00       		.byte	0
+ 3159 0c3e 00       		.byte	0
+ 3160 0c3f 00       		.byte	0
+ 3161 0c40 40       		.byte	64
+ 3162 0c41 00       		.byte	0
+ 3163 0c42 00       		.byte	0
+ 3164 0c43 14       		.byte	20
+ 3165 0c44 00       		.byte	0
+ 3166 0c45 00       		.byte	0
+ 3167 0c46 00       		.byte	0
+ 3168 0c47 00       		.byte	0
+ 3169 0c48 00       		.byte	0
+ 3170 0c49 00       		.byte	0
+ 3171 0c4a 00       		.byte	0
+ 3172 0c4b 00       		.byte	0
+ 3173 0c4c 00       		.byte	0
+ 3174 0c4d 00       		.byte	0
+ 3175 0c4e 00       		.byte	0
+ 3176 0c4f 00       		.byte	0
+ 3177 0c50 40       		.byte	64
+ 3178 0c51 00       		.byte	0
+ 3179 0c52 00       		.byte	0
+ 3180 0c53 00       		.byte	0
+ 3181 0c54 00       		.byte	0
+ 3182 0c55 00       		.byte	0
+ 3183 0c56 00       		.byte	0
+ 3184 0c57 00       		.byte	0
+ 3185 0c58 E8       		.byte	-24
+ 3186 0c59 52       		.byte	82
+ 3187 0c5a 04       		.byte	4
+ 3188 0c5b 69       		.byte	105
+ 3189 0c5c 00       		.byte	0
+ 3190 0c5d 00       		.byte	0
+ 3191 0c5e 00       		.byte	0
+ 3192 0c5f 00       		.byte	0
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 57
+
+
+ 3193 0c60 00       		.byte	0
+ 3194 0c61 00       		.byte	0
+ 3195 0c62 00       		.byte	0
+ 3196 0c63 01       		.byte	1
+ 3197 0c64 00       		.byte	0
+ 3198 0c65 00       		.byte	0
+ 3199 0c66 00       		.byte	0
+ 3200 0c67 00       		.byte	0
+ 3201 0c68 00       		.byte	0
+ 3202 0c69 00       		.byte	0
+ 3203 0c6a 00       		.byte	0
+ 3204 0c6b 00       		.byte	0
+ 3205 0c6c 00       		.byte	0
+ 3206 0c6d 00       		.byte	0
+ 3207 0c6e 00       		.byte	0
+ 3208 0c6f 00       		.byte	0
+ 3209 0c70 00       		.byte	0
+ 3210 0c71 00       		.byte	0
+ 3211 0c72 00       		.byte	0
+ 3212 0c73 00       		.byte	0
+ 3213 0c74 00       		.byte	0
+ 3214 0c75 00       		.byte	0
+ 3215 0c76 00       		.byte	0
+ 3216 0c77 00       		.byte	0
+ 3217 0c78 00       		.byte	0
+ 3218 0c79 00       		.byte	0
+ 3219 0c7a 00       		.byte	0
+ 3220 0c7b 00       		.byte	0
+ 3221 0c7c 00       		.byte	0
+ 3222 0c7d 00       		.byte	0
+ 3223 0c7e 00       		.byte	0
+ 3224 0c7f 00       		.byte	0
+ 3225 0c80 40       		.byte	64
+ 3226 0c81 00       		.byte	0
+ 3227 0c82 00       		.byte	0
+ 3228 0c83 40       		.byte	64
+ 3229 0c84 80       		.byte	-128
+ 3230 0c85 52       		.byte	82
+ 3231 0c86 0C       		.byte	12
+ 3232 0c87 21       		.byte	33
+ 3233 0c88 00       		.byte	0
+ 3234 0c89 10       		.byte	16
+ 3235 0c8a 00       		.byte	0
+ 3236 0c8b 00       		.byte	0
+ 3237 0c8c 81       		.byte	-127
+ 3238 0c8d 41       		.byte	65
+ 3239 0c8e 61       		.byte	97
+ 3240 0c8f 00       		.byte	0
+ 3241 0c90 10       		.byte	16
+ 3242 0c91 20       		.byte	32
+ 3243 0c92 14       		.byte	20
+ 3244 0c93 00       		.byte	0
+ 3245 0c94 A8       		.byte	-88
+ 3246 0c95 50       		.byte	80
+ 3247 0c96 00       		.byte	0
+ 3248 0c97 04       		.byte	4
+ 3249 0c98 40       		.byte	64
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 58
+
+
+ 3250 0c99 00       		.byte	0
+ 3251 0c9a 00       		.byte	0
+ 3252 0c9b 20       		.byte	32
+ 3253 0c9c 00       		.byte	0
+ 3254 0c9d 00       		.byte	0
+ 3255 0c9e 00       		.byte	0
+ 3256 0c9f 12       		.byte	18
+ 3257 0ca0 00       		.byte	0
+ 3258 0ca1 00       		.byte	0
+ 3259 0ca2 00       		.byte	0
+ 3260 0ca3 00       		.byte	0
+ 3261 0ca4 01       		.byte	1
+ 3262 0ca5 00       		.byte	0
+ 3263 0ca6 00       		.byte	0
+ 3264 0ca7 00       		.byte	0
+ 3265 0ca8 00       		.byte	0
+ 3266 0ca9 00       		.byte	0
+ 3267 0caa 00       		.byte	0
+ 3268 0cab 00       		.byte	0
+ 3269 0cac 00       		.byte	0
+ 3270 0cad 00       		.byte	0
+ 3271 0cae 00       		.byte	0
+ 3272 0caf 00       		.byte	0
+ 3273 0cb0 F3       		.byte	-13
+ 3274 0cb1 00       		.byte	0
+ 3275 0cb2 F1       		.byte	-15
+ 3276 0cb3 00       		.byte	0
+ 3277 0cb4 D0       		.byte	-48
+ 3278 0cb5 00       		.byte	0
+ 3279 0cb6 00       		.byte	0
+ 3280 0cb7 00       		.byte	0
+ 3281 0cb8 00       		.byte	0
+ 3282 0cb9 00       		.byte	0
+ 3283 0cba F5       		.byte	-11
+ 3284 0cbb 00       		.byte	0
+ 3285 0cbc F4       		.byte	-12
+ 3286 0cbd 00       		.byte	0
+ 3287 0cbe FE       		.byte	-2
+ 3288 0cbf 00       		.byte	0
+ 3289 0cc0 0A       		.byte	10
+ 3290 0cc1 00       		.byte	0
+ 3291 0cc2 04       		.byte	4
+ 3292 0cc3 00       		.byte	0
+ 3293 0cc4 00       		.byte	0
+ 3294 0cc5 00       		.byte	0
+ 3295 0cc6 00       		.byte	0
+ 3296 0cc7 00       		.byte	0
+ 3297 0cc8 01       		.byte	1
+ 3298 0cc9 00       		.byte	0
+ 3299 0cca 00       		.byte	0
+ 3300 0ccb 00       		.byte	0
+ 3301 0ccc 00       		.byte	0
+ 3302 0ccd 00       		.byte	0
+ 3303 0cce 00       		.byte	0
+ 3304 0ccf 00       		.byte	0
+ 3305 0cd0 00       		.byte	0
+ 3306 0cd1 00       		.byte	0
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 59
+
+
+ 3307 0cd2 00       		.byte	0
+ 3308 0cd3 00       		.byte	0
+ 3309 0cd4 00       		.byte	0
+ 3310 0cd5 00       		.byte	0
+ 3311 0cd6 00       		.byte	0
+ 3312 0cd7 00       		.byte	0
+ 3313 0cd8 00       		.byte	0
+ 3314 0cd9 00       		.byte	0
+ 3315 0cda 00       		.byte	0
+ 3316 0cdb 00       		.byte	0
+ 3317 0cdc 00       		.byte	0
+ 3318 0cdd 00       		.byte	0
+ 3319 0cde 00       		.byte	0
+ 3320 0cdf 00       		.byte	0
+ 3321 0ce0 00       		.byte	0
+ 3322 0ce1 00       		.byte	0
+ 3323 0ce2 00       		.byte	0
+ 3324 0ce3 00       		.byte	0
+ 3325 0ce4 00       		.byte	0
+ 3326 0ce5 00       		.byte	0
+ 3327 0ce6 00       		.byte	0
+ 3328 0ce7 00       		.byte	0
+ 3329 0ce8 00       		.byte	0
+ 3330 0ce9 00       		.byte	0
+ 3331 0cea 00       		.byte	0
+ 3332 0ceb 00       		.byte	0
+ 3333 0cec 00       		.byte	0
+ 3334 0ced 00       		.byte	0
+ 3335 0cee 00       		.byte	0
+ 3336 0cef 00       		.byte	0
+ 3337 0cf0 00       		.byte	0
+ 3338 0cf1 00       		.byte	0
+ 3339 0cf2 00       		.byte	0
+ 3340 0cf3 00       		.byte	0
+ 3341 0cf4 00       		.byte	0
+ 3342 0cf5 00       		.byte	0
+ 3343 0cf6 00       		.byte	0
+ 3344 0cf7 00       		.byte	0
+ 3345 0cf8 04       		.byte	4
+ 3346 0cf9 00       		.byte	0
+ 3347 0cfa 00       		.byte	0
+ 3348 0cfb 00       		.byte	0
+ 3349 0cfc 00       		.byte	0
+ 3350 0cfd 00       		.byte	0
+ 3351 0cfe 00       		.byte	0
+ 3352 0cff 00       		.byte	0
+ 3353 0d00 00       		.byte	0
+ 3354 0d01 00       		.byte	0
+ 3355 0d02 00       		.byte	0
+ 3356 0d03 00       		.byte	0
+ 3357 0d04 00       		.byte	0
+ 3358 0d05 00       		.byte	0
+ 3359 0d06 00       		.byte	0
+ 3360 0d07 00       		.byte	0
+ 3361 0d08 00       		.byte	0
+ 3362 0d09 00       		.byte	0
+ 3363 0d0a 00       		.byte	0
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 60
+
+
+ 3364 0d0b 00       		.byte	0
+ 3365 0d0c 00       		.byte	0
+ 3366 0d0d 00       		.byte	0
+ 3367 0d0e 00       		.byte	0
+ 3368 0d0f 00       		.byte	0
+ 3369 0d10 00       		.byte	0
+ 3370 0d11 00       		.byte	0
+ 3371 0d12 00       		.byte	0
+ 3372 0d13 00       		.byte	0
+ 3373 0d14 00       		.byte	0
+ 3374 0d15 00       		.byte	0
+ 3375 0d16 00       		.byte	0
+ 3376 0d17 00       		.byte	0
+ 3377 0d18 00       		.byte	0
+ 3378 0d19 00       		.byte	0
+ 3379 0d1a 00       		.byte	0
+ 3380 0d1b 00       		.byte	0
+ 3381 0d1c 00       		.byte	0
+ 3382 0d1d 00       		.byte	0
+ 3383 0d1e 00       		.byte	0
+ 3384 0d1f 00       		.byte	0
+ 3385 0d20 00       		.byte	0
+ 3386 0d21 00       		.byte	0
+ 3387 0d22 00       		.byte	0
+ 3388 0d23 00       		.byte	0
+ 3389 0d24 00       		.byte	0
+ 3390 0d25 00       		.byte	0
+ 3391 0d26 00       		.byte	0
+ 3392 0d27 00       		.byte	0
+ 3393 0d28 00       		.byte	0
+ 3394 0d29 00       		.byte	0
+ 3395 0d2a 00       		.byte	0
+ 3396 0d2b 00       		.byte	0
+ 3397 0d2c 00       		.byte	0
+ 3398 0d2d 00       		.byte	0
+ 3399 0d2e 00       		.byte	0
+ 3400 0d2f 00       		.byte	0
+ 3401 0d30 00       		.byte	0
+ 3402 0d31 00       		.byte	0
+ 3403 0d32 00       		.byte	0
+ 3404 0d33 00       		.byte	0
+ 3405 0d34 00       		.byte	0
+ 3406 0d35 00       		.byte	0
+ 3407 0d36 00       		.byte	0
+ 3408 0d37 00       		.byte	0
+ 3409 0d38 00       		.byte	0
+ 3410 0d39 00       		.byte	0
+ 3411 0d3a 00       		.byte	0
+ 3412 0d3b 00       		.byte	0
+ 3413 0d3c 00       		.byte	0
+ 3414 0d3d 00       		.byte	0
+ 3415 0d3e 00       		.byte	0
+ 3416 0d3f 00       		.byte	0
+ 3417 0d40 00       		.byte	0
+ 3418 0d41 00       		.byte	0
+ 3419 0d42 00       		.byte	0
+ 3420 0d43 00       		.byte	0
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 61
+
+
+ 3421 0d44 00       		.byte	0
+ 3422 0d45 00       		.byte	0
+ 3423 0d46 00       		.byte	0
+ 3424 0d47 00       		.byte	0
+ 3425 0d48 00       		.byte	0
+ 3426 0d49 00       		.byte	0
+ 3427 0d4a 00       		.byte	0
+ 3428 0d4b 00       		.byte	0
+ 3429 0d4c 00       		.byte	0
+ 3430 0d4d 00       		.byte	0
+ 3431 0d4e 00       		.byte	0
+ 3432 0d4f 00       		.byte	0
+ 3433 0d50 00       		.byte	0
+ 3434 0d51 00       		.byte	0
+ 3435 0d52 00       		.byte	0
+ 3436 0d53 00       		.byte	0
+ 3437 0d54 80       		.byte	-128
+ 3438 0d55 00       		.byte	0
+ 3439 0d56 00       		.byte	0
+ 3440 0d57 00       		.byte	0
+ 3441 0d58 00       		.byte	0
+ 3442 0d59 00       		.byte	0
+ 3443 0d5a 00       		.byte	0
+ 3444 0d5b 00       		.byte	0
+ 3445 0d5c 00       		.byte	0
+ 3446 0d5d 00       		.byte	0
+ 3447 0d5e 00       		.byte	0
+ 3448 0d5f 00       		.byte	0
+ 3449 0d60 00       		.byte	0
+ 3450 0d61 00       		.byte	0
+ 3451 0d62 00       		.byte	0
+ 3452 0d63 00       		.byte	0
+ 3453 0d64 00       		.byte	0
+ 3454 0d65 00       		.byte	0
+ 3455 0d66 00       		.byte	0
+ 3456 0d67 00       		.byte	0
+ 3457 0d68 00       		.byte	0
+ 3458 0d69 00       		.byte	0
+ 3459 0d6a 00       		.byte	0
+ 3460 0d6b 00       		.byte	0
+ 3461 0d6c 00       		.byte	0
+ 3462 0d6d 00       		.byte	0
+ 3463 0d6e 00       		.byte	0
+ 3464 0d6f 00       		.byte	0
+ 3465 0d70 60       		.byte	96
+ 3466 0d71 00       		.byte	0
+ 3467 0d72 00       		.byte	0
+ 3468 0d73 00       		.byte	0
+ 3469 0d74 00       		.byte	0
+ 3470 0d75 51       		.byte	81
+ 3471 0d76 00       		.byte	0
+ 3472 0d77 00       		.byte	0
+ 3473 0d78 00       		.byte	0
+ 3474 0d79 40       		.byte	64
+ 3475 0d7a 08       		.byte	8
+ 3476 0d7b 00       		.byte	0
+ 3477 0d7c 00       		.byte	0
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 62
+
+
+ 3478 0d7d 00       		.byte	0
+ 3479 0d7e 24       		.byte	36
+ 3480 0d7f 01       		.byte	1
+ 3481 0d80 00       		.byte	0
+ 3482 0d81 20       		.byte	32
+ 3483 0d82 41       		.byte	65
+ 3484 0d83 00       		.byte	0
+ 3485 0d84 00       		.byte	0
+ 3486 0d85 52       		.byte	82
+ 3487 0d86 20       		.byte	32
+ 3488 0d87 00       		.byte	0
+ 3489 0d88 40       		.byte	64
+ 3490 0d89 04       		.byte	4
+ 3491 0d8a 00       		.byte	0
+ 3492 0d8b 20       		.byte	32
+ 3493 0d8c 20       		.byte	32
+ 3494 0d8d 10       		.byte	16
+ 3495 0d8e 28       		.byte	40
+ 3496 0d8f 00       		.byte	0
+ 3497 0d90 01       		.byte	1
+ 3498 0d91 20       		.byte	32
+ 3499 0d92 00       		.byte	0
+ 3500 0d93 00       		.byte	0
+ 3501 0d94 00       		.byte	0
+ 3502 0d95 00       		.byte	0
+ 3503 0d96 80       		.byte	-128
+ 3504 0d97 18       		.byte	24
+ 3505 0d98 00       		.byte	0
+ 3506 0d99 00       		.byte	0
+ 3507 0d9a 00       		.byte	0
+ 3508 0d9b 00       		.byte	0
+ 3509 0d9c 88       		.byte	-120
+ 3510 0d9d 40       		.byte	64
+ 3511 0d9e 00       		.byte	0
+ 3512 0d9f 10       		.byte	16
+ 3513 0da0 A8       		.byte	-88
+ 3514 0da1 00       		.byte	0
+ 3515 0da2 00       		.byte	0
+ 3516 0da3 00       		.byte	0
+ 3517 0da4 00       		.byte	0
+ 3518 0da5 01       		.byte	1
+ 3519 0da6 80       		.byte	-128
+ 3520 0da7 10       		.byte	16
+ 3521 0da8 00       		.byte	0
+ 3522 0da9 40       		.byte	64
+ 3523 0daa 00       		.byte	0
+ 3524 0dab 01       		.byte	1
+ 3525 0dac 20       		.byte	32
+ 3526 0dad 80       		.byte	-128
+ 3527 0dae 04       		.byte	4
+ 3528 0daf 01       		.byte	1
+ 3529 0db0 00       		.byte	0
+ 3530 0db1 00       		.byte	0
+ 3531 0db2 00       		.byte	0
+ 3532 0db3 00       		.byte	0
+ 3533 0db4 00       		.byte	0
+ 3534 0db5 00       		.byte	0
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 63
+
+
+ 3535 0db6 00       		.byte	0
+ 3536 0db7 00       		.byte	0
+ 3537 0db8 00       		.byte	0
+ 3538 0db9 00       		.byte	0
+ 3539 0dba 00       		.byte	0
+ 3540 0dbb 00       		.byte	0
+ 3541 0dbc 00       		.byte	0
+ 3542 0dbd 00       		.byte	0
+ 3543 0dbe 00       		.byte	0
+ 3544 0dbf 00       		.byte	0
+ 3545 0dc0 00       		.byte	0
+ 3546 0dc1 00       		.byte	0
+ 3547 0dc2 00       		.byte	0
+ 3548 0dc3 00       		.byte	0
+ 3549 0dc4 00       		.byte	0
+ 3550 0dc5 00       		.byte	0
+ 3551 0dc6 00       		.byte	0
+ 3552 0dc7 00       		.byte	0
+ 3553 0dc8 01       		.byte	1
+ 3554 0dc9 00       		.byte	0
+ 3555 0dca 00       		.byte	0
+ 3556 0dcb 00       		.byte	0
+ 3557 0dcc 80       		.byte	-128
+ 3558 0dcd 00       		.byte	0
+ 3559 0dce 00       		.byte	0
+ 3560 0dcf 2A       		.byte	42
+ 3561 0dd0 02       		.byte	2
+ 3562 0dd1 00       		.byte	0
+ 3563 0dd2 00       		.byte	0
+ 3564 0dd3 08       		.byte	8
+ 3565 0dd4 00       		.byte	0
+ 3566 0dd5 00       		.byte	0
+ 3567 0dd6 00       		.byte	0
+ 3568 0dd7 00       		.byte	0
+ 3569 0dd8 00       		.byte	0
+ 3570 0dd9 00       		.byte	0
+ 3571 0dda 00       		.byte	0
+ 3572 0ddb 00       		.byte	0
+ 3573 0ddc 00       		.byte	0
+ 3574 0ddd 00       		.byte	0
+ 3575 0dde 00       		.byte	0
+ 3576 0ddf 00       		.byte	0
+ 3577 0de0 00       		.byte	0
+ 3578 0de1 00       		.byte	0
+ 3579 0de2 00       		.byte	0
+ 3580 0de3 00       		.byte	0
+ 3581 0de4 00       		.byte	0
+ 3582 0de5 00       		.byte	0
+ 3583 0de6 00       		.byte	0
+ 3584 0de7 00       		.byte	0
+ 3585 0de8 00       		.byte	0
+ 3586 0de9 00       		.byte	0
+ 3587 0dea 00       		.byte	0
+ 3588 0deb 00       		.byte	0
+ 3589 0dec 00       		.byte	0
+ 3590 0ded 00       		.byte	0
+ 3591 0dee 00       		.byte	0
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 64
+
+
+ 3592 0def 00       		.byte	0
+ 3593 0df0 02       		.byte	2
+ 3594 0df1 04       		.byte	4
+ 3595 0df2 00       		.byte	0
+ 3596 0df3 00       		.byte	0
+ 3597 0df4 00       		.byte	0
+ 3598 0df5 00       		.byte	0
+ 3599 0df6 80       		.byte	-128
+ 3600 0df7 00       		.byte	0
+ 3601 0df8 10       		.byte	16
+ 3602 0df9 00       		.byte	0
+ 3603 0dfa 00       		.byte	0
+ 3604 0dfb 00       		.byte	0
+ 3605 0dfc 00       		.byte	0
+ 3606 0dfd 00       		.byte	0
+ 3607 0dfe 00       		.byte	0
+ 3608 0dff 00       		.byte	0
+ 3609 0e00 00       		.byte	0
+ 3610 0e01 00       		.byte	0
+ 3611 0e02 00       		.byte	0
+ 3612 0e03 40       		.byte	64
+ 3613 0e04 00       		.byte	0
+ 3614 0e05 00       		.byte	0
+ 3615 0e06 00       		.byte	0
+ 3616 0e07 00       		.byte	0
+ 3617 0e08 00       		.byte	0
+ 3618 0e09 00       		.byte	0
+ 3619 0e0a 00       		.byte	0
+ 3620 0e0b 00       		.byte	0
+ 3621 0e0c 00       		.byte	0
+ 3622 0e0d 00       		.byte	0
+ 3623 0e0e 00       		.byte	0
+ 3624 0e0f 00       		.byte	0
+ 3625 0e10 00       		.byte	0
+ 3626 0e11 00       		.byte	0
+ 3627 0e12 00       		.byte	0
+ 3628 0e13 00       		.byte	0
+ 3629 0e14 00       		.byte	0
+ 3630 0e15 00       		.byte	0
+ 3631 0e16 00       		.byte	0
+ 3632 0e17 20       		.byte	32
+ 3633 0e18 00       		.byte	0
+ 3634 0e19 00       		.byte	0
+ 3635 0e1a 00       		.byte	0
+ 3636 0e1b 00       		.byte	0
+ 3637 0e1c 00       		.byte	0
+ 3638 0e1d 00       		.byte	0
+ 3639 0e1e 00       		.byte	0
+ 3640 0e1f 40       		.byte	64
+ 3641 0e20 00       		.byte	0
+ 3642 0e21 00       		.byte	0
+ 3643 0e22 00       		.byte	0
+ 3644 0e23 00       		.byte	0
+ 3645 0e24 00       		.byte	0
+ 3646 0e25 00       		.byte	0
+ 3647 0e26 00       		.byte	0
+ 3648 0e27 00       		.byte	0
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 65
+
+
+ 3649 0e28 00       		.byte	0
+ 3650 0e29 00       		.byte	0
+ 3651 0e2a 00       		.byte	0
+ 3652 0e2b 00       		.byte	0
+ 3653 0e2c 00       		.byte	0
+ 3654 0e2d 00       		.byte	0
+ 3655 0e2e 00       		.byte	0
+ 3656 0e2f 00       		.byte	0
+ 3657 0e30 D3       		.byte	-45
+ 3658 0e31 00       		.byte	0
+ 3659 0e32 E3       		.byte	-29
+ 3660 0e33 00       		.byte	0
+ 3661 0e34 FB       		.byte	-5
+ 3662 0e35 00       		.byte	0
+ 3663 0e36 00       		.byte	0
+ 3664 0e37 00       		.byte	0
+ 3665 0e38 00       		.byte	0
+ 3666 0e39 00       		.byte	0
+ 3667 0e3a F0       		.byte	-16
+ 3668 0e3b 00       		.byte	0
+ 3669 0e3c BE       		.byte	-66
+ 3670 0e3d 00       		.byte	0
+ 3671 0e3e F9       		.byte	-7
+ 3672 0e3f 00       		.byte	0
+ 3673 0e40 00       		.byte	0
+ 3674 0e41 00       		.byte	0
+ 3675 0e42 00       		.byte	0
+ 3676 0e43 00       		.byte	0
+ 3677 0e44 00       		.byte	0
+ 3678 0e45 00       		.byte	0
+ 3679 0e46 F1       		.byte	-15
+ 3680 0e47 00       		.byte	0
+ 3681 0e48 0C       		.byte	12
+ 3682 0e49 00       		.byte	0
+ 3683 0e4a 00       		.byte	0
+ 3684 0e4b 00       		.byte	0
+ 3685 0e4c 00       		.byte	0
+ 3686 0e4d 00       		.byte	0
+ 3687 0e4e 00       		.byte	0
+ 3688 0e4f 00       		.byte	0
+ 3689 0e50 00       		.byte	0
+ 3690 0e51 00       		.byte	0
+ 3691 0e52 00       		.byte	0
+ 3692 0e53 00       		.byte	0
+ 3693 0e54 00       		.byte	0
+ 3694 0e55 00       		.byte	0
+ 3695 0e56 00       		.byte	0
+ 3696 0e57 00       		.byte	0
+ 3697 0e58 00       		.byte	0
+ 3698 0e59 00       		.byte	0
+ 3699 0e5a 00       		.byte	0
+ 3700 0e5b 00       		.byte	0
+ 3701 0e5c 00       		.byte	0
+ 3702 0e5d 00       		.byte	0
+ 3703 0e5e 00       		.byte	0
+ 3704 0e5f 00       		.byte	0
+ 3705 0e60 00       		.byte	0
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 66
+
+
+ 3706 0e61 00       		.byte	0
+ 3707 0e62 00       		.byte	0
+ 3708 0e63 00       		.byte	0
+ 3709 0e64 00       		.byte	0
+ 3710 0e65 00       		.byte	0
+ 3711 0e66 00       		.byte	0
+ 3712 0e67 00       		.byte	0
+ 3713 0e68 00       		.byte	0
+ 3714 0e69 00       		.byte	0
+ 3715 0e6a 00       		.byte	0
+ 3716 0e6b 00       		.byte	0
+ 3717 0e6c 00       		.byte	0
+ 3718 0e6d 00       		.byte	0
+ 3719 0e6e 00       		.byte	0
+ 3720 0e6f 00       		.byte	0
+ 3721 0e70 00       		.byte	0
+ 3722 0e71 00       		.byte	0
+ 3723 0e72 00       		.byte	0
+ 3724 0e73 00       		.byte	0
+ 3725 0e74 00       		.byte	0
+ 3726 0e75 00       		.byte	0
+ 3727 0e76 00       		.byte	0
+ 3728 0e77 00       		.byte	0
+ 3729 0e78 00       		.byte	0
+ 3730 0e79 00       		.byte	0
+ 3731 0e7a 00       		.byte	0
+ 3732 0e7b 00       		.byte	0
+ 3733 0e7c 00       		.byte	0
+ 3734 0e7d 00       		.byte	0
+ 3735 0e7e 00       		.byte	0
+ 3736 0e7f 00       		.byte	0
+ 3737 0e80 00       		.byte	0
+ 3738 0e81 00       		.byte	0
+ 3739 0e82 00       		.byte	0
+ 3740 0e83 00       		.byte	0
+ 3741 0e84 00       		.byte	0
+ 3742 0e85 00       		.byte	0
+ 3743 0e86 00       		.byte	0
+ 3744 0e87 00       		.byte	0
+ 3745 0e88 00       		.byte	0
+ 3746 0e89 00       		.byte	0
+ 3747 0e8a 00       		.byte	0
+ 3748 0e8b 00       		.byte	0
+ 3749 0e8c 00       		.byte	0
+ 3750 0e8d 00       		.byte	0
+ 3751 0e8e 00       		.byte	0
+ 3752 0e8f 00       		.byte	0
+ 3753 0e90 00       		.byte	0
+ 3754 0e91 00       		.byte	0
+ 3755 0e92 00       		.byte	0
+ 3756 0e93 00       		.byte	0
+ 3757 0e94 00       		.byte	0
+ 3758 0e95 00       		.byte	0
+ 3759 0e96 00       		.byte	0
+ 3760 0e97 00       		.byte	0
+ 3761 0e98 00       		.byte	0
+ 3762 0e99 00       		.byte	0
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 67
+
+
+ 3763 0e9a 00       		.byte	0
+ 3764 0e9b 00       		.byte	0
+ 3765 0e9c 00       		.byte	0
+ 3766 0e9d 00       		.byte	0
+ 3767 0e9e 00       		.byte	0
+ 3768 0e9f 00       		.byte	0
+ 3769 0ea0 00       		.byte	0
+ 3770 0ea1 00       		.byte	0
+ 3771 0ea2 00       		.byte	0
+ 3772 0ea3 00       		.byte	0
+ 3773 0ea4 00       		.byte	0
+ 3774 0ea5 00       		.byte	0
+ 3775 0ea6 00       		.byte	0
+ 3776 0ea7 00       		.byte	0
+ 3777 0ea8 00       		.byte	0
+ 3778 0ea9 00       		.byte	0
+ 3779 0eaa 00       		.byte	0
+ 3780 0eab 00       		.byte	0
+ 3781 0eac 00       		.byte	0
+ 3782 0ead 00       		.byte	0
+ 3783 0eae 00       		.byte	0
+ 3784 0eaf 00       		.byte	0
+ 3785 0eb0 00       		.byte	0
+ 3786 0eb1 00       		.byte	0
+ 3787 0eb2 00       		.byte	0
+ 3788 0eb3 00       		.byte	0
+ 3789 0eb4 00       		.byte	0
+ 3790 0eb5 00       		.byte	0
+ 3791 0eb6 00       		.byte	0
+ 3792 0eb7 00       		.byte	0
+ 3793 0eb8 00       		.byte	0
+ 3794 0eb9 00       		.byte	0
+ 3795 0eba 00       		.byte	0
+ 3796 0ebb 00       		.byte	0
+ 3797 0ebc 00       		.byte	0
+ 3798 0ebd 00       		.byte	0
+ 3799 0ebe 00       		.byte	0
+ 3800 0ebf 00       		.byte	0
+ 3801 0ec0 00       		.byte	0
+ 3802 0ec1 00       		.byte	0
+ 3803 0ec2 00       		.byte	0
+ 3804 0ec3 00       		.byte	0
+ 3805 0ec4 00       		.byte	0
+ 3806 0ec5 00       		.byte	0
+ 3807 0ec6 00       		.byte	0
+ 3808 0ec7 00       		.byte	0
+ 3809 0ec8 00       		.byte	0
+ 3810 0ec9 00       		.byte	0
+ 3811 0eca 00       		.byte	0
+ 3812 0ecb 00       		.byte	0
+ 3813 0ecc 00       		.byte	0
+ 3814 0ecd 00       		.byte	0
+ 3815 0ece 00       		.byte	0
+ 3816 0ecf 00       		.byte	0
+ 3817 0ed0 40       		.byte	64
+ 3818 0ed1 00       		.byte	0
+ 3819 0ed2 00       		.byte	0
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 68
+
+
+ 3820 0ed3 00       		.byte	0
+ 3821 0ed4 00       		.byte	0
+ 3822 0ed5 00       		.byte	0
+ 3823 0ed6 00       		.byte	0
+ 3824 0ed7 00       		.byte	0
+ 3825 0ed8 00       		.byte	0
+ 3826 0ed9 00       		.byte	0
+ 3827 0eda 00       		.byte	0
+ 3828 0edb 00       		.byte	0
+ 3829 0edc 00       		.byte	0
+ 3830 0edd 00       		.byte	0
+ 3831 0ede 00       		.byte	0
+ 3832 0edf 00       		.byte	0
+ 3833 0ee0 00       		.byte	0
+ 3834 0ee1 00       		.byte	0
+ 3835 0ee2 00       		.byte	0
+ 3836 0ee3 00       		.byte	0
+ 3837 0ee4 00       		.byte	0
+ 3838 0ee5 00       		.byte	0
+ 3839 0ee6 00       		.byte	0
+ 3840 0ee7 00       		.byte	0
+ 3841 0ee8 00       		.byte	0
+ 3842 0ee9 00       		.byte	0
+ 3843 0eea 00       		.byte	0
+ 3844 0eeb 00       		.byte	0
+ 3845 0eec 00       		.byte	0
+ 3846 0eed 00       		.byte	0
+ 3847 0eee 00       		.byte	0
+ 3848 0eef 00       		.byte	0
+ 3849 0ef0 00       		.byte	0
+ 3850 0ef1 00       		.byte	0
+ 3851 0ef2 00       		.byte	0
+ 3852 0ef3 00       		.byte	0
+ 3853 0ef4 00       		.byte	0
+ 3854 0ef5 00       		.byte	0
+ 3855 0ef6 00       		.byte	0
+ 3856 0ef7 00       		.byte	0
+ 3857 0ef8 00       		.byte	0
+ 3858 0ef9 00       		.byte	0
+ 3859 0efa 00       		.byte	0
+ 3860 0efb 00       		.byte	0
+ 3861 0efc 00       		.byte	0
+ 3862 0efd 00       		.byte	0
+ 3863 0efe 00       		.byte	0
+ 3864 0eff 20       		.byte	32
+ 3865 0f00 00       		.byte	0
+ 3866 0f01 00       		.byte	0
+ 3867 0f02 00       		.byte	0
+ 3868 0f03 00       		.byte	0
+ 3869 0f04 00       		.byte	0
+ 3870 0f05 00       		.byte	0
+ 3871 0f06 00       		.byte	0
+ 3872 0f07 00       		.byte	0
+ 3873 0f08 00       		.byte	0
+ 3874 0f09 00       		.byte	0
+ 3875 0f0a 00       		.byte	0
+ 3876 0f0b 00       		.byte	0
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 69
+
+
+ 3877 0f0c 00       		.byte	0
+ 3878 0f0d 00       		.byte	0
+ 3879 0f0e 00       		.byte	0
+ 3880 0f0f 00       		.byte	0
+ 3881 0f10 00       		.byte	0
+ 3882 0f11 00       		.byte	0
+ 3883 0f12 00       		.byte	0
+ 3884 0f13 00       		.byte	0
+ 3885 0f14 00       		.byte	0
+ 3886 0f15 00       		.byte	0
+ 3887 0f16 00       		.byte	0
+ 3888 0f17 00       		.byte	0
+ 3889 0f18 00       		.byte	0
+ 3890 0f19 00       		.byte	0
+ 3891 0f1a 00       		.byte	0
+ 3892 0f1b 00       		.byte	0
+ 3893 0f1c 00       		.byte	0
+ 3894 0f1d 00       		.byte	0
+ 3895 0f1e 00       		.byte	0
+ 3896 0f1f 00       		.byte	0
+ 3897 0f20 00       		.byte	0
+ 3898 0f21 00       		.byte	0
+ 3899 0f22 00       		.byte	0
+ 3900 0f23 00       		.byte	0
+ 3901 0f24 00       		.byte	0
+ 3902 0f25 00       		.byte	0
+ 3903 0f26 00       		.byte	0
+ 3904 0f27 00       		.byte	0
+ 3905 0f28 00       		.byte	0
+ 3906 0f29 00       		.byte	0
+ 3907 0f2a 00       		.byte	0
+ 3908 0f2b 00       		.byte	0
+ 3909 0f2c 00       		.byte	0
+ 3910 0f2d 00       		.byte	0
+ 3911 0f2e 00       		.byte	0
+ 3912 0f2f 00       		.byte	0
+ 3913 0f30 00       		.byte	0
+ 3914 0f31 00       		.byte	0
+ 3915 0f32 00       		.byte	0
+ 3916 0f33 00       		.byte	0
+ 3917 0f34 00       		.byte	0
+ 3918 0f35 00       		.byte	0
+ 3919 0f36 00       		.byte	0
+ 3920 0f37 00       		.byte	0
+ 3921 0f38 00       		.byte	0
+ 3922 0f39 00       		.byte	0
+ 3923 0f3a 00       		.byte	0
+ 3924 0f3b 00       		.byte	0
+ 3925 0f3c 00       		.byte	0
+ 3926 0f3d 00       		.byte	0
+ 3927 0f3e 00       		.byte	0
+ 3928 0f3f 00       		.byte	0
+ 3929 0f40 00       		.byte	0
+ 3930 0f41 00       		.byte	0
+ 3931 0f42 00       		.byte	0
+ 3932 0f43 00       		.byte	0
+ 3933 0f44 00       		.byte	0
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 70
+
+
+ 3934 0f45 00       		.byte	0
+ 3935 0f46 00       		.byte	0
+ 3936 0f47 00       		.byte	0
+ 3937 0f48 00       		.byte	0
+ 3938 0f49 00       		.byte	0
+ 3939 0f4a 00       		.byte	0
+ 3940 0f4b 00       		.byte	0
+ 3941 0f4c 00       		.byte	0
+ 3942 0f4d 00       		.byte	0
+ 3943 0f4e 00       		.byte	0
+ 3944 0f4f 00       		.byte	0
+ 3945 0f50 00       		.byte	0
+ 3946 0f51 00       		.byte	0
+ 3947 0f52 00       		.byte	0
+ 3948 0f53 00       		.byte	0
+ 3949 0f54 00       		.byte	0
+ 3950 0f55 00       		.byte	0
+ 3951 0f56 00       		.byte	0
+ 3952 0f57 00       		.byte	0
+ 3953 0f58 00       		.byte	0
+ 3954 0f59 00       		.byte	0
+ 3955 0f5a 00       		.byte	0
+ 3956 0f5b 00       		.byte	0
+ 3957 0f5c 00       		.byte	0
+ 3958 0f5d 00       		.byte	0
+ 3959 0f5e 00       		.byte	0
+ 3960 0f5f 00       		.byte	0
+ 3961 0f60 00       		.byte	0
+ 3962 0f61 00       		.byte	0
+ 3963 0f62 00       		.byte	0
+ 3964 0f63 00       		.byte	0
+ 3965 0f64 00       		.byte	0
+ 3966 0f65 00       		.byte	0
+ 3967 0f66 00       		.byte	0
+ 3968 0f67 00       		.byte	0
+ 3969 0f68 00       		.byte	0
+ 3970 0f69 00       		.byte	0
+ 3971 0f6a 00       		.byte	0
+ 3972 0f6b 00       		.byte	0
+ 3973 0f6c 00       		.byte	0
+ 3974 0f6d 00       		.byte	0
+ 3975 0f6e 00       		.byte	0
+ 3976 0f6f 00       		.byte	0
+ 3977 0f70 00       		.byte	0
+ 3978 0f71 00       		.byte	0
+ 3979 0f72 00       		.byte	0
+ 3980 0f73 00       		.byte	0
+ 3981 0f74 00       		.byte	0
+ 3982 0f75 00       		.byte	0
+ 3983 0f76 00       		.byte	0
+ 3984 0f77 00       		.byte	0
+ 3985 0f78 00       		.byte	0
+ 3986 0f79 00       		.byte	0
+ 3987 0f7a 00       		.byte	0
+ 3988 0f7b 00       		.byte	0
+ 3989 0f7c 40       		.byte	64
+ 3990 0f7d 00       		.byte	0
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 71
+
+
+ 3991 0f7e 00       		.byte	0
+ 3992 0f7f 00       		.byte	0
+ 3993 0f80 00       		.byte	0
+ 3994 0f81 00       		.byte	0
+ 3995 0f82 00       		.byte	0
+ 3996 0f83 00       		.byte	0
+ 3997 0f84 40       		.byte	64
+ 3998 0f85 00       		.byte	0
+ 3999 0f86 00       		.byte	0
+ 4000 0f87 00       		.byte	0
+ 4001 0f88 00       		.byte	0
+ 4002 0f89 00       		.byte	0
+ 4003 0f8a 00       		.byte	0
+ 4004 0f8b 00       		.byte	0
+ 4005 0f8c 00       		.byte	0
+ 4006 0f8d 00       		.byte	0
+ 4007 0f8e 00       		.byte	0
+ 4008 0f8f 00       		.byte	0
+ 4009 0f90 00       		.byte	0
+ 4010 0f91 00       		.byte	0
+ 4011 0f92 00       		.byte	0
+ 4012 0f93 00       		.byte	0
+ 4013 0f94 00       		.byte	0
+ 4014 0f95 00       		.byte	0
+ 4015 0f96 00       		.byte	0
+ 4016 0f97 00       		.byte	0
+ 4017 0f98 00       		.byte	0
+ 4018 0f99 00       		.byte	0
+ 4019 0f9a 00       		.byte	0
+ 4020 0f9b 00       		.byte	0
+ 4021 0f9c 00       		.byte	0
+ 4022 0f9d 00       		.byte	0
+ 4023 0f9e 00       		.byte	0
+ 4024 0f9f 00       		.byte	0
+ 4025 0fa0 00       		.byte	0
+ 4026 0fa1 00       		.byte	0
+ 4027 0fa2 00       		.byte	0
+ 4028 0fa3 00       		.byte	0
+ 4029 0fa4 00       		.byte	0
+ 4030 0fa5 00       		.byte	0
+ 4031 0fa6 00       		.byte	0
+ 4032 0fa7 00       		.byte	0
+ 4033 0fa8 00       		.byte	0
+ 4034 0fa9 00       		.byte	0
+ 4035 0faa 00       		.byte	0
+ 4036 0fab 00       		.byte	0
+ 4037 0fac 00       		.byte	0
+ 4038 0fad 00       		.byte	0
+ 4039 0fae 00       		.byte	0
+ 4040 0faf 00       		.byte	0
+ 4041 0fb0 00       		.byte	0
+ 4042 0fb1 00       		.byte	0
+ 4043 0fb2 00       		.byte	0
+ 4044 0fb3 00       		.byte	0
+ 4045 0fb4 00       		.byte	0
+ 4046 0fb5 00       		.byte	0
+ 4047 0fb6 00       		.byte	0
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 72
+
+
+ 4048 0fb7 00       		.byte	0
+ 4049 0fb8 00       		.byte	0
+ 4050 0fb9 00       		.byte	0
+ 4051 0fba 00       		.byte	0
+ 4052 0fbb 00       		.byte	0
+ 4053 0fbc 00       		.byte	0
+ 4054 0fbd 00       		.byte	0
+ 4055 0fbe 00       		.byte	0
+ 4056 0fbf 00       		.byte	0
+ 4057 0fc0 00       		.byte	0
+ 4058 0fc1 00       		.byte	0
+ 4059 0fc2 00       		.byte	0
+ 4060 0fc3 00       		.byte	0
+ 4061 0fc4 00       		.byte	0
+ 4062 0fc5 00       		.byte	0
+ 4063 0fc6 00       		.byte	0
+ 4064 0fc7 00       		.byte	0
+ 4065 0fc8 00       		.byte	0
+ 4066 0fc9 00       		.byte	0
+ 4067 0fca 00       		.byte	0
+ 4068 0fcb 00       		.byte	0
+ 4069 0fcc 00       		.byte	0
+ 4070 0fcd 00       		.byte	0
+ 4071 0fce 00       		.byte	0
+ 4072 0fcf 00       		.byte	0
+ 4073 0fd0 00       		.byte	0
+ 4074 0fd1 00       		.byte	0
+ 4075 0fd2 00       		.byte	0
+ 4076 0fd3 00       		.byte	0
+ 4077 0fd4 00       		.byte	0
+ 4078 0fd5 00       		.byte	0
+ 4079 0fd6 00       		.byte	0
+ 4080 0fd7 00       		.byte	0
+ 4081 0fd8 00       		.byte	0
+ 4082 0fd9 00       		.byte	0
+ 4083 0fda 00       		.byte	0
+ 4084 0fdb 00       		.byte	0
+ 4085 0fdc 00       		.byte	0
+ 4086 0fdd 00       		.byte	0
+ 4087 0fde 00       		.byte	0
+ 4088 0fdf 00       		.byte	0
+ 4089 0fe0 00       		.byte	0
+ 4090 0fe1 00       		.byte	0
+ 4091 0fe2 00       		.byte	0
+ 4092 0fe3 00       		.byte	0
+ 4093 0fe4 00       		.byte	0
+ 4094 0fe5 00       		.byte	0
+ 4095 0fe6 00       		.byte	0
+ 4096 0fe7 00       		.byte	0
+ 4097 0fe8 00       		.byte	0
+ 4098 0fe9 00       		.byte	0
+ 4099 0fea 00       		.byte	0
+ 4100 0feb 00       		.byte	0
+ 4101 0fec 00       		.byte	0
+ 4102 0fed 00       		.byte	0
+ 4103 0fee 00       		.byte	0
+ 4104 0fef 00       		.byte	0
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 73
+
+
+ 4105 0ff0 00       		.byte	0
+ 4106 0ff1 00       		.byte	0
+ 4107 0ff2 00       		.byte	0
+ 4108 0ff3 00       		.byte	0
+ 4109 0ff4 00       		.byte	0
+ 4110 0ff5 00       		.byte	0
+ 4111 0ff6 00       		.byte	0
+ 4112 0ff7 00       		.byte	0
+ 4113 0ff8 00       		.byte	0
+ 4114 0ff9 00       		.byte	0
+ 4115 0ffa 00       		.byte	0
+ 4116 0ffb 00       		.byte	0
+ 4117 0ffc 00       		.byte	0
+ 4118 0ffd 00       		.byte	0
+ 4119 0ffe 00       		.byte	0
+ 4120 0fff 00       		.byte	0
+ 4121 1000 00       		.byte	0
+ 4122 1001 00       		.byte	0
+ 4123 1002 00       		.byte	0
+ 4124 1003 00       		.byte	0
+ 4125 1004 40       		.byte	64
+ 4126 1005 00       		.byte	0
+ 4127 1006 00       		.byte	0
+ 4128 1007 00       		.byte	0
+ 4129 1008 00       		.byte	0
+ 4130 1009 00       		.byte	0
+ 4131 100a 00       		.byte	0
+ 4132 100b 00       		.byte	0
+ 4133 100c 00       		.byte	0
+ 4134 100d 00       		.byte	0
+ 4135 100e 00       		.byte	0
+ 4136 100f 00       		.byte	0
+ 4137 1010 00       		.byte	0
+ 4138 1011 00       		.byte	0
+ 4139 1012 00       		.byte	0
+ 4140 1013 00       		.byte	0
+ 4141 1014 00       		.byte	0
+ 4142 1015 00       		.byte	0
+ 4143 1016 00       		.byte	0
+ 4144 1017 00       		.byte	0
+ 4145 1018 00       		.byte	0
+ 4146 1019 00       		.byte	0
+ 4147 101a 00       		.byte	0
+ 4148 101b 00       		.byte	0
+ 4149 101c 00       		.byte	0
+ 4150 101d 00       		.byte	0
+ 4151 101e 00       		.byte	0
+ 4152 101f 00       		.byte	0
+ 4153 1020 00       		.byte	0
+ 4154 1021 00       		.byte	0
+ 4155 1022 00       		.byte	0
+ 4156 1023 00       		.byte	0
+ 4157 1024 00       		.byte	0
+ 4158 1025 00       		.byte	0
+ 4159 1026 00       		.byte	0
+ 4160 1027 00       		.byte	0
+ 4161 1028 00       		.byte	0
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 74
+
+
+ 4162 1029 00       		.byte	0
+ 4163 102a 00       		.byte	0
+ 4164 102b 00       		.byte	0
+ 4165 102c 00       		.byte	0
+ 4166 102d 00       		.byte	0
+ 4167 102e 00       		.byte	0
+ 4168 102f 00       		.byte	0
+ 4169 1030 00       		.byte	0
+ 4170 1031 00       		.byte	0
+ 4171 1032 00       		.byte	0
+ 4172 1033 00       		.byte	0
+ 4173 1034 00       		.byte	0
+ 4174 1035 00       		.byte	0
+ 4175 1036 00       		.byte	0
+ 4176 1037 00       		.byte	0
+ 4177 1038 00       		.byte	0
+ 4178 1039 00       		.byte	0
+ 4179 103a 00       		.byte	0
+ 4180 103b 00       		.byte	0
+ 4181 103c 00       		.byte	0
+ 4182 103d 00       		.byte	0
+ 4183 103e 00       		.byte	0
+ 4184 103f 00       		.byte	0
+ 4185 1040 00       		.byte	0
+ 4186 1041 00       		.byte	0
+ 4187 1042 00       		.byte	0
+ 4188 1043 00       		.byte	0
+ 4189 1044 00       		.byte	0
+ 4190 1045 00       		.byte	0
+ 4191 1046 00       		.byte	0
+ 4192 1047 00       		.byte	0
+ 4193 1048 00       		.byte	0
+ 4194 1049 00       		.byte	0
+ 4195 104a 00       		.byte	0
+ 4196 104b 00       		.byte	0
+ 4197 104c 00       		.byte	0
+ 4198 104d 00       		.byte	0
+ 4199 104e 00       		.byte	0
+ 4200 104f 00       		.byte	0
+ 4201 1050 00       		.byte	0
+ 4202 1051 00       		.byte	0
+ 4203 1052 00       		.byte	0
+ 4204 1053 00       		.byte	0
+ 4205 1054 00       		.byte	0
+ 4206 1055 00       		.byte	0
+ 4207 1056 00       		.byte	0
+ 4208 1057 00       		.byte	0
+ 4209 1058 00       		.byte	0
+ 4210 1059 00       		.byte	0
+ 4211 105a 00       		.byte	0
+ 4212 105b 00       		.byte	0
+ 4213 105c 00       		.byte	0
+ 4214 105d 00       		.byte	0
+ 4215 105e 00       		.byte	0
+ 4216 105f 00       		.byte	0
+ 4217 1060 00       		.byte	0
+ 4218 1061 00       		.byte	0
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 75
+
+
+ 4219 1062 00       		.byte	0
+ 4220 1063 00       		.byte	0
+ 4221 1064 00       		.byte	0
+ 4222 1065 00       		.byte	0
+ 4223 1066 00       		.byte	0
+ 4224 1067 00       		.byte	0
+ 4225 1068 00       		.byte	0
+ 4226 1069 00       		.byte	0
+ 4227 106a 00       		.byte	0
+ 4228 106b 00       		.byte	0
+ 4229 106c 00       		.byte	0
+ 4230 106d 00       		.byte	0
+ 4231 106e 00       		.byte	0
+ 4232 106f 00       		.byte	0
+ 4233 1070 00       		.byte	0
+ 4234 1071 00       		.byte	0
+ 4235 1072 00       		.byte	0
+ 4236 1073 00       		.byte	0
+ 4237 1074 00       		.byte	0
+ 4238 1075 00       		.byte	0
+ 4239 1076 00       		.byte	0
+ 4240 1077 80       		.byte	-128
+ 4241 1078 00       		.byte	0
+ 4242 1079 00       		.byte	0
+ 4243 107a 00       		.byte	0
+ 4244 107b 00       		.byte	0
+ 4245 107c 00       		.byte	0
+ 4246 107d 00       		.byte	0
+ 4247 107e 00       		.byte	0
+ 4248 107f 00       		.byte	0
+ 4249 1080 00       		.byte	0
+ 4250 1081 00       		.byte	0
+ 4251 1082 00       		.byte	0
+ 4252 1083 00       		.byte	0
+ 4253 1084 40       		.byte	64
+ 4254 1085 00       		.byte	0
+ 4255 1086 00       		.byte	0
+ 4256 1087 00       		.byte	0
+ 4257 1088 00       		.byte	0
+ 4258 1089 00       		.byte	0
+ 4259 108a 00       		.byte	0
+ 4260 108b 00       		.byte	0
+ 4261 108c 00       		.byte	0
+ 4262 108d 00       		.byte	0
+ 4263 108e 00       		.byte	0
+ 4264 108f 00       		.byte	0
+ 4265 1090 00       		.byte	0
+ 4266 1091 00       		.byte	0
+ 4267 1092 00       		.byte	0
+ 4268 1093 00       		.byte	0
+ 4269 1094 00       		.byte	0
+ 4270 1095 00       		.byte	0
+ 4271 1096 00       		.byte	0
+ 4272 1097 80       		.byte	-128
+ 4273 1098 00       		.byte	0
+ 4274 1099 00       		.byte	0
+ 4275 109a 00       		.byte	0
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 76
+
+
+ 4276 109b 00       		.byte	0
+ 4277 109c 00       		.byte	0
+ 4278 109d 20       		.byte	32
+ 4279 109e 00       		.byte	0
+ 4280 109f 00       		.byte	0
+ 4281 10a0 00       		.byte	0
+ 4282 10a1 00       		.byte	0
+ 4283 10a2 00       		.byte	0
+ 4284 10a3 00       		.byte	0
+ 4285 10a4 00       		.byte	0
+ 4286 10a5 00       		.byte	0
+ 4287 10a6 00       		.byte	0
+ 4288 10a7 00       		.byte	0
+ 4289 10a8 00       		.byte	0
+ 4290 10a9 00       		.byte	0
+ 4291 10aa 00       		.byte	0
+ 4292 10ab 00       		.byte	0
+ 4293 10ac 00       		.byte	0
+ 4294 10ad 00       		.byte	0
+ 4295 10ae 00       		.byte	0
+ 4296 10af 00       		.byte	0
+ 4297 10b0 00       		.byte	0
+ 4298 10b1 00       		.byte	0
+ 4299 10b2 00       		.byte	0
+ 4300 10b3 00       		.byte	0
+ 4301 10b4 00       		.byte	0
+ 4302 10b5 00       		.byte	0
+ 4303 10b6 00       		.byte	0
+ 4304 10b7 00       		.byte	0
+ 4305 10b8 00       		.byte	0
+ 4306 10b9 00       		.byte	0
+ 4307 10ba 00       		.byte	0
+ 4308 10bb 00       		.byte	0
+ 4309 10bc 00       		.byte	0
+ 4310 10bd 00       		.byte	0
+ 4311 10be 00       		.byte	0
+ 4312 10bf 00       		.byte	0
+ 4313 10c0 00       		.byte	0
+ 4314 10c1 00       		.byte	0
+ 4315 10c2 00       		.byte	0
+ 4316 10c3 00       		.byte	0
+ 4317 10c4 00       		.byte	0
+ 4318 10c5 00       		.byte	0
+ 4319 10c6 00       		.byte	0
+ 4320 10c7 00       		.byte	0
+ 4321 10c8 00       		.byte	0
+ 4322 10c9 00       		.byte	0
+ 4323 10ca 00       		.byte	0
+ 4324 10cb 00       		.byte	0
+ 4325 10cc 00       		.byte	0
+ 4326 10cd 00       		.byte	0
+ 4327 10ce 00       		.byte	0
+ 4328 10cf 00       		.byte	0
+ 4329 10d0 00       		.byte	0
+ 4330 10d1 00       		.byte	0
+ 4331 10d2 00       		.byte	0
+ 4332 10d3 00       		.byte	0
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 77
+
+
+ 4333 10d4 00       		.byte	0
+ 4334 10d5 00       		.byte	0
+ 4335 10d6 10       		.byte	16
+ 4336 10d7 00       		.byte	0
+ 4337 10d8 00       		.byte	0
+ 4338 10d9 00       		.byte	0
+ 4339 10da 00       		.byte	0
+ 4340 10db 00       		.byte	0
+ 4341 10dc 40       		.byte	64
+ 4342 10dd 00       		.byte	0
+ 4343 10de 00       		.byte	0
+ 4344 10df 00       		.byte	0
+ 4345 10e0 00       		.byte	0
+ 4346 10e1 00       		.byte	0
+ 4347 10e2 00       		.byte	0
+ 4348 10e3 00       		.byte	0
+ 4349 10e4 00       		.byte	0
+ 4350 10e5 00       		.byte	0
+ 4351 10e6 00       		.byte	0
+ 4352 10e7 00       		.byte	0
+ 4353 10e8 00       		.byte	0
+ 4354 10e9 00       		.byte	0
+ 4355 10ea 00       		.byte	0
+ 4356 10eb 00       		.byte	0
+ 4357 10ec 00       		.byte	0
+ 4358 10ed 00       		.byte	0
+ 4359 10ee 00       		.byte	0
+ 4360 10ef 00       		.byte	0
+ 4361 10f0 00       		.byte	0
+ 4362 10f1 20       		.byte	32
+ 4363 10f2 00       		.byte	0
+ 4364 10f3 00       		.byte	0
+ 4365 10f4 00       		.byte	0
+ 4366 10f5 00       		.byte	0
+ 4367 10f6 00       		.byte	0
+ 4368 10f7 00       		.byte	0
+ 4369 10f8 00       		.byte	0
+ 4370 10f9 00       		.byte	0
+ 4371 10fa 00       		.byte	0
+ 4372 10fb 00       		.byte	0
+ 4373 10fc 00       		.byte	0
+ 4374 10fd 00       		.byte	0
+ 4375 10fe 00       		.byte	0
+ 4376 10ff 00       		.byte	0
+ 4377 1100 00       		.byte	0
+ 4378 1101 00       		.byte	0
+ 4379 1102 00       		.byte	0
+ 4380 1103 00       		.byte	0
+ 4381 1104 00       		.byte	0
+ 4382 1105 00       		.byte	0
+ 4383 1106 00       		.byte	0
+ 4384 1107 00       		.byte	0
+ 4385 1108 00       		.byte	0
+ 4386 1109 00       		.byte	0
+ 4387 110a 00       		.byte	0
+ 4388 110b 00       		.byte	0
+ 4389 110c 00       		.byte	0
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 78
+
+
+ 4390 110d 00       		.byte	0
+ 4391 110e 00       		.byte	0
+ 4392 110f 00       		.byte	0
+ 4393 1110 00       		.byte	0
+ 4394 1111 00       		.byte	0
+ 4395 1112 00       		.byte	0
+ 4396 1113 00       		.byte	0
+ 4397 1114 00       		.byte	0
+ 4398 1115 00       		.byte	0
+ 4399 1116 00       		.byte	0
+ 4400 1117 00       		.byte	0
+ 4401 1118 00       		.byte	0
+ 4402 1119 00       		.byte	0
+ 4403 111a 00       		.byte	0
+ 4404 111b 00       		.byte	0
+ 4405 111c 00       		.byte	0
+ 4406 111d 00       		.byte	0
+ 4407 111e 00       		.byte	0
+ 4408 111f 00       		.byte	0
+ 4409 1120 00       		.byte	0
+ 4410 1121 00       		.byte	0
+ 4411 1122 00       		.byte	0
+ 4412 1123 00       		.byte	0
+ 4413 1124 00       		.byte	0
+ 4414 1125 00       		.byte	0
+ 4415 1126 00       		.byte	0
+ 4416 1127 00       		.byte	0
+ 4417 1128 00       		.byte	0
+ 4418 1129 00       		.byte	0
+ 4419 112a 00       		.byte	0
+ 4420 112b 00       		.byte	0
+ 4421 112c 00       		.byte	0
+ 4422 112d 00       		.byte	0
+ 4423 112e 00       		.byte	0
+ 4424 112f 00       		.byte	0
+ 4425 1130 00       		.byte	0
+ 4426 1131 00       		.byte	0
+ 4427 1132 00       		.byte	0
+ 4428 1133 00       		.byte	0
+ 4429 1134 00       		.byte	0
+ 4430 1135 00       		.byte	0
+ 4431 1136 00       		.byte	0
+ 4432 1137 00       		.byte	0
+ 4433 1138 00       		.byte	0
+ 4434 1139 00       		.byte	0
+ 4435 113a 00       		.byte	0
+ 4436 113b 00       		.byte	0
+ 4437 113c 00       		.byte	0
+ 4438 113d 00       		.byte	0
+ 4439 113e 00       		.byte	0
+ 4440 113f 00       		.byte	0
+ 4441 1140 00       		.byte	0
+ 4442 1141 00       		.byte	0
+ 4443 1142 00       		.byte	0
+ 4444 1143 80       		.byte	-128
+ 4445 1144 00       		.byte	0
+ 4446 1145 00       		.byte	0
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 79
+
+
+ 4447 1146 00       		.byte	0
+ 4448 1147 00       		.byte	0
+ 4449 1148 00       		.byte	0
+ 4450 1149 00       		.byte	0
+ 4451 114a 00       		.byte	0
+ 4452 114b 00       		.byte	0
+ 4453 114c 40       		.byte	64
+ 4454 114d 00       		.byte	0
+ 4455 114e 00       		.byte	0
+ 4456 114f 00       		.byte	0
+ 4457 1150 00       		.byte	0
+ 4458 1151 00       		.byte	0
+ 4459 1152 00       		.byte	0
+ 4460 1153 00       		.byte	0
+ 4461 1154 00       		.byte	0
+ 4462 1155 00       		.byte	0
+ 4463 1156 00       		.byte	0
+ 4464 1157 00       		.byte	0
+ 4465 1158 00       		.byte	0
+ 4466 1159 00       		.byte	0
+ 4467 115a 00       		.byte	0
+ 4468 115b 00       		.byte	0
+ 4469 115c 00       		.byte	0
+ 4470 115d 00       		.byte	0
+ 4471 115e 00       		.byte	0
+ 4472 115f 00       		.byte	0
+ 4473 1160 00       		.byte	0
+ 4474 1161 00       		.byte	0
+ 4475 1162 00       		.byte	0
+ 4476 1163 00       		.byte	0
+ 4477 1164 00       		.byte	0
+ 4478 1165 00       		.byte	0
+ 4479 1166 00       		.byte	0
+ 4480 1167 00       		.byte	0
+ 4481 1168 00       		.byte	0
+ 4482 1169 00       		.byte	0
+ 4483 116a 00       		.byte	0
+ 4484 116b 00       		.byte	0
+ 4485 116c 00       		.byte	0
+ 4486 116d 00       		.byte	0
+ 4487 116e 00       		.byte	0
+ 4488 116f 00       		.byte	0
+ 4489 1170 00       		.byte	0
+ 4490 1171 00       		.byte	0
+ 4491 1172 00       		.byte	0
+ 4492 1173 00       		.byte	0
+ 4493 1174 00       		.byte	0
+ 4494 1175 00       		.byte	0
+ 4495 1176 00       		.byte	0
+ 4496 1177 00       		.byte	0
+ 4497 1178 00       		.byte	0
+ 4498 1179 00       		.byte	0
+ 4499 117a 00       		.byte	0
+ 4500 117b 00       		.byte	0
+ 4501 117c 00       		.byte	0
+ 4502 117d 00       		.byte	0
+ 4503 117e 00       		.byte	0
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 80
+
+
+ 4504 117f 00       		.byte	0
+ 4505 1180 00       		.byte	0
+ 4506 1181 00       		.byte	0
+ 4507 1182 00       		.byte	0
+ 4508 1183 00       		.byte	0
+ 4509 1184 00       		.byte	0
+ 4510 1185 00       		.byte	0
+ 4511 1186 00       		.byte	0
+ 4512 1187 00       		.byte	0
+ 4513 1188 00       		.byte	0
+ 4514 1189 00       		.byte	0
+ 4515 118a 00       		.byte	0
+ 4516 118b 00       		.byte	0
+ 4517 118c 00       		.byte	0
+ 4518 118d 00       		.byte	0
+ 4519 118e 00       		.byte	0
+ 4520 118f 00       		.byte	0
+ 4521 1190 00       		.byte	0
+ 4522 1191 00       		.byte	0
+ 4523 1192 00       		.byte	0
+ 4524 1193 00       		.byte	0
+ 4525 1194 00       		.byte	0
+ 4526 1195 00       		.byte	0
+ 4527 1196 00       		.byte	0
+ 4528 1197 00       		.byte	0
+ 4529 1198 00       		.byte	0
+ 4530 1199 00       		.byte	0
+ 4531 119a 00       		.byte	0
+ 4532 119b 00       		.byte	0
+ 4533 119c 00       		.byte	0
+ 4534 119d 00       		.byte	0
+ 4535 119e 00       		.byte	0
+ 4536 119f 00       		.byte	0
+ 4537 11a0 00       		.byte	0
+ 4538 11a1 00       		.byte	0
+ 4539 11a2 00       		.byte	0
+ 4540 11a3 00       		.byte	0
+ 4541 11a4 00       		.byte	0
+ 4542 11a5 00       		.byte	0
+ 4543 11a6 00       		.byte	0
+ 4544 11a7 00       		.byte	0
+ 4545 11a8 00       		.byte	0
+ 4546 11a9 00       		.byte	0
+ 4547 11aa 00       		.byte	0
+ 4548 11ab 00       		.byte	0
+ 4549 11ac 00       		.byte	0
+ 4550 11ad 00       		.byte	0
+ 4551 11ae 00       		.byte	0
+ 4552 11af 00       		.byte	0
+ 4553 11b0 40       		.byte	64
+ 4554 11b1 00       		.byte	0
+ 4555 11b2 00       		.byte	0
+ 4556 11b3 00       		.byte	0
+ 4557 11b4 00       		.byte	0
+ 4558 11b5 00       		.byte	0
+ 4559 11b6 00       		.byte	0
+ 4560 11b7 00       		.byte	0
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 81
+
+
+ 4561 11b8 00       		.byte	0
+ 4562 11b9 00       		.byte	0
+ 4563 11ba 00       		.byte	0
+ 4564 11bb 00       		.byte	0
+ 4565 11bc 00       		.byte	0
+ 4566 11bd 00       		.byte	0
+ 4567 11be 00       		.byte	0
+ 4568 11bf 00       		.byte	0
+ 4569 11c0 00       		.byte	0
+ 4570 11c1 00       		.byte	0
+ 4571 11c2 00       		.byte	0
+ 4572 11c3 00       		.byte	0
+ 4573 11c4 20       		.byte	32
+ 4574 11c5 00       		.byte	0
+ 4575 11c6 20       		.byte	32
+ 4576 11c7 00       		.byte	0
+ 4577 11c8 00       		.byte	0
+ 4578 11c9 00       		.byte	0
+ 4579 11ca 00       		.byte	0
+ 4580 11cb 00       		.byte	0
+ 4581 11cc 00       		.byte	0
+ 4582 11cd 00       		.byte	0
+ 4583 11ce 00       		.byte	0
+ 4584 11cf 00       		.byte	0
+ 4585 11d0 00       		.byte	0
+ 4586 11d1 00       		.byte	0
+ 4587 11d2 00       		.byte	0
+ 4588 11d3 00       		.byte	0
+ 4589 11d4 00       		.byte	0
+ 4590 11d5 00       		.byte	0
+ 4591 11d6 00       		.byte	0
+ 4592 11d7 00       		.byte	0
+ 4593 11d8 00       		.byte	0
+ 4594 11d9 00       		.byte	0
+ 4595 11da 00       		.byte	0
+ 4596 11db 00       		.byte	0
+ 4597 11dc 00       		.byte	0
+ 4598 11dd 00       		.byte	0
+ 4599 11de 00       		.byte	0
+ 4600 11df 00       		.byte	0
+ 4601 11e0 00       		.byte	0
+ 4602 11e1 00       		.byte	0
+ 4603 11e2 00       		.byte	0
+ 4604 11e3 00       		.byte	0
+ 4605 11e4 00       		.byte	0
+ 4606 11e5 00       		.byte	0
+ 4607 11e6 00       		.byte	0
+ 4608 11e7 00       		.byte	0
+ 4609 11e8 00       		.byte	0
+ 4610 11e9 00       		.byte	0
+ 4611 11ea 00       		.byte	0
+ 4612 11eb 00       		.byte	0
+ 4613 11ec 00       		.byte	0
+ 4614 11ed 00       		.byte	0
+ 4615 11ee 00       		.byte	0
+ 4616 11ef 00       		.byte	0
+ 4617 11f0 0C       		.byte	12
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 82
+
+
+ 4618 11f1 23       		.byte	35
+ 4619 11f2 23       		.byte	35
+ 4620 11f3 00       		.byte	0
+ 4621 11f4 03       		.byte	3
+ 4622 11f5 00       		.byte	0
+ 4623 11f6 00       		.byte	0
+ 4624 11f7 00       		.byte	0
+ 4625 11f8 80       		.byte	-128
+ 4626 11f9 00       		.byte	0
+ 4627 11fa 40       		.byte	64
+ 4628 11fb 80       		.byte	-128
+ 4629 11fc 80       		.byte	-128
+ 4630 11fd 00       		.byte	0
+ 4631 11fe 80       		.byte	-128
+ 4632 11ff 00       		.byte	0
+ 4633 1200 00       		.byte	0
+ 4634 1201 00       		.byte	0
+ 4635 1202 00       		.byte	0
+ 4636 1203 00       		.byte	0
+ 4637 1204 00       		.byte	0
+ 4638 1205 0B       		.byte	11
+ 4639 1206 0B       		.byte	11
+ 4640 1207 00       		.byte	0
+ 4641 1208 00       		.byte	0
+ 4642 1209 00       		.byte	0
+ 4643 120a 00       		.byte	0
+ 4644 120b 00       		.byte	0
+ 4645 120c 00       		.byte	0
+ 4646 120d 7F       		.byte	127
+ 4647 120e 7F       		.byte	127
+ 4648 120f 00       		.byte	0
+ 4649 1210 00       		.byte	0
+ 4650 1211 00       		.byte	0
+ 4651 1212 00       		.byte	0
+ 4652 1213 00       		.byte	0
+ 4653              		.global	cy_meta_custnvl
+ 4654              		.section	.cycustnvl,"a",%progbits
+ 4655              		.align	2
+ 4656              		.type	cy_meta_custnvl, %object
+ 4657              		.size	cy_meta_custnvl, 4
+ 4658              	cy_meta_custnvl:
+ 4659 0000 00       		.byte	0
+ 4660 0001 00       		.byte	0
+ 4661 0002 40       		.byte	64
+ 4662 0003 05       		.byte	5
+ 4663              		.global	cy_meta_wonvl
+ 4664              		.section	.cywolatch,"a",%progbits
+ 4665              		.align	2
+ 4666              		.type	cy_meta_wonvl, %object
+ 4667              		.size	cy_meta_wonvl, 4
+ 4668              	cy_meta_wonvl:
+ 4669 0000 BC       		.byte	-68
+ 4670 0001 90       		.byte	-112
+ 4671 0002 AC       		.byte	-84
+ 4672 0003 AF       		.byte	-81
+ 4673              		.global	cy_meta_flashprotect
+ 4674              		.section	.cyflashprotect,"a",%progbits
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 83
+
+
+ 4675              		.align	2
+ 4676              		.type	cy_meta_flashprotect, %object
+ 4677              		.size	cy_meta_flashprotect, 256
+ 4678              	cy_meta_flashprotect:
+ 4679 0000 00000000 		.space	256
+ 4679      00000000 
+ 4679      00000000 
+ 4679      00000000 
+ 4679      00000000 
+ 4680              		.global	cy_metadata
+ 4681              		.section	.cymeta,"a",%progbits
+ 4682              		.align	2
+ 4683              		.type	cy_metadata, %object
+ 4684              		.size	cy_metadata, 12
+ 4685              	cy_metadata:
+ 4686 0000 00       		.byte	0
+ 4687 0001 01       		.byte	1
+ 4688 0002 2E       		.byte	46
+ 4689 0003 16       		.byte	22
+ 4690 0004 10       		.byte	16
+ 4691 0005 69       		.byte	105
+ 4692 0006 00       		.byte	0
+ 4693 0007 01       		.byte	1
+ 4694 0008 00       		.byte	0
+ 4695 0009 00       		.byte	0
+ 4696 000a 00       		.byte	0
+ 4697 000b 00       		.byte	0
+ 4698              		.text
+ 4699              	.Letext0:
+ 4700              		.file 1 "c:\\program files (x86)\\cypress\\psoc creator\\4.2\\psoc creator\\import\\gnu\\arm\\5.4.
+ 4701              		.file 2 "c:\\program files (x86)\\cypress\\psoc creator\\4.2\\psoc creator\\import\\gnu\\arm\\5.4.
+ 4702              		.file 3 "Generated_Source\\PSoC5\\cymetadata.c"
+ 4703              		.section	.debug_info,"",%progbits
+ 4704              	.Ldebug_info0:
+ 4705 0000 35010000 		.4byte	0x135
+ 4706 0004 0400     		.2byte	0x4
+ 4707 0006 00000000 		.4byte	.Ldebug_abbrev0
+ 4708 000a 04       		.byte	0x4
+ 4709 000b 01       		.uleb128 0x1
+ 4710 000c 0A000000 		.4byte	.LASF17
+ 4711 0010 0C       		.byte	0xc
+ 4712 0011 CD010000 		.4byte	.LASF18
+ 4713 0015 98000000 		.4byte	.LASF19
+ 4714 0019 00000000 		.4byte	.Ldebug_line0
+ 4715 001d 02       		.uleb128 0x2
+ 4716 001e 01       		.byte	0x1
+ 4717 001f 06       		.byte	0x6
+ 4718 0020 C1010000 		.4byte	.LASF0
+ 4719 0024 03       		.uleb128 0x3
+ 4720 0025 00000000 		.4byte	.LASF9
+ 4721 0029 01       		.byte	0x1
+ 4722 002a 1D       		.byte	0x1d
+ 4723 002b 2F000000 		.4byte	0x2f
+ 4724 002f 02       		.uleb128 0x2
+ 4725 0030 01       		.byte	0x1
+ 4726 0031 08       		.byte	0x8
+ 4727 0032 F3000000 		.4byte	.LASF1
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 84
+
+
+ 4728 0036 02       		.uleb128 0x2
+ 4729 0037 02       		.byte	0x2
+ 4730 0038 05       		.byte	0x5
+ 4731 0039 AE010000 		.4byte	.LASF2
+ 4732 003d 02       		.uleb128 0x2
+ 4733 003e 02       		.byte	0x2
+ 4734 003f 07       		.byte	0x7
+ 4735 0040 13010000 		.4byte	.LASF3
+ 4736 0044 02       		.uleb128 0x2
+ 4737 0045 04       		.byte	0x4
+ 4738 0046 05       		.byte	0x5
+ 4739 0047 B8010000 		.4byte	.LASF4
+ 4740 004b 02       		.uleb128 0x2
+ 4741 004c 04       		.byte	0x4
+ 4742 004d 07       		.byte	0x7
+ 4743 004e 01010000 		.4byte	.LASF5
+ 4744 0052 02       		.uleb128 0x2
+ 4745 0053 08       		.byte	0x8
+ 4746 0054 05       		.byte	0x5
+ 4747 0055 A0010000 		.4byte	.LASF6
+ 4748 0059 02       		.uleb128 0x2
+ 4749 005a 08       		.byte	0x8
+ 4750 005b 07       		.byte	0x7
+ 4751 005c 55010000 		.4byte	.LASF7
+ 4752 0060 04       		.uleb128 0x4
+ 4753 0061 04       		.byte	0x4
+ 4754 0062 05       		.byte	0x5
+ 4755 0063 696E7400 		.ascii	"int\000"
+ 4756 0067 02       		.uleb128 0x2
+ 4757 0068 04       		.byte	0x4
+ 4758 0069 07       		.byte	0x7
+ 4759 006a 48010000 		.4byte	.LASF8
+ 4760 006e 03       		.uleb128 0x3
+ 4761 006f 6C010000 		.4byte	.LASF10
+ 4762 0073 02       		.byte	0x2
+ 4763 0074 18       		.byte	0x18
+ 4764 0075 24000000 		.4byte	0x24
+ 4765 0079 05       		.uleb128 0x5
+ 4766 007a 91000000 		.4byte	0x91
+ 4767 007e 8A000000 		.4byte	0x8a
+ 4768 0082 06       		.uleb128 0x6
+ 4769 0083 8A000000 		.4byte	0x8a
+ 4770 0087 1312     		.2byte	0x1213
+ 4771 0089 00       		.byte	0
+ 4772 008a 02       		.uleb128 0x2
+ 4773 008b 04       		.byte	0x4
+ 4774 008c 07       		.byte	0x7
+ 4775 008d 97010000 		.4byte	.LASF11
+ 4776 0091 07       		.uleb128 0x7
+ 4777 0092 6E000000 		.4byte	0x6e
+ 4778 0096 08       		.uleb128 0x8
+ 4779 0097 36010000 		.4byte	.LASF12
+ 4780 009b 03       		.byte	0x3
+ 4781 009c 1F       		.byte	0x1f
+ 4782 009d A7000000 		.4byte	0xa7
+ 4783 00a1 05       		.uleb128 0x5
+ 4784 00a2 03       		.byte	0x3
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 85
+
+
+ 4785 00a3 00000000 		.4byte	cy_meta_configecc
+ 4786 00a7 07       		.uleb128 0x7
+ 4787 00a8 79000000 		.4byte	0x79
+ 4788 00ac 05       		.uleb128 0x5
+ 4789 00ad 91000000 		.4byte	0x91
+ 4790 00b1 BC000000 		.4byte	0xbc
+ 4791 00b5 09       		.uleb128 0x9
+ 4792 00b6 8A000000 		.4byte	0x8a
+ 4793 00ba 03       		.byte	0x3
+ 4794 00bb 00       		.byte	0
+ 4795 00bc 0A       		.uleb128 0xa
+ 4796 00bd 26010000 		.4byte	.LASF13
+ 4797 00c1 03       		.byte	0x3
+ 4798 00c2 6F02     		.2byte	0x26f
+ 4799 00c4 CE000000 		.4byte	0xce
+ 4800 00c8 05       		.uleb128 0x5
+ 4801 00c9 03       		.byte	0x3
+ 4802 00ca 00000000 		.4byte	cy_meta_custnvl
+ 4803 00ce 07       		.uleb128 0x7
+ 4804 00cf AC000000 		.4byte	0xac
+ 4805 00d3 0A       		.uleb128 0xa
+ 4806 00d4 89010000 		.4byte	.LASF14
+ 4807 00d8 03       		.byte	0x3
+ 4808 00d9 7D02     		.2byte	0x27d
+ 4809 00db E5000000 		.4byte	0xe5
+ 4810 00df 05       		.uleb128 0x5
+ 4811 00e0 03       		.byte	0x3
+ 4812 00e1 00000000 		.4byte	cy_meta_wonvl
+ 4813 00e5 07       		.uleb128 0x7
+ 4814 00e6 AC000000 		.4byte	0xac
+ 4815 00ea 05       		.uleb128 0x5
+ 4816 00eb 91000000 		.4byte	0x91
+ 4817 00ef FA000000 		.4byte	0xfa
+ 4818 00f3 09       		.uleb128 0x9
+ 4819 00f4 8A000000 		.4byte	0x8a
+ 4820 00f8 FF       		.byte	0xff
+ 4821 00f9 00       		.byte	0
+ 4822 00fa 0A       		.uleb128 0xa
+ 4823 00fb 74010000 		.4byte	.LASF15
+ 4824 00ff 03       		.byte	0x3
+ 4825 0100 8B02     		.2byte	0x28b
+ 4826 0102 0C010000 		.4byte	0x10c
+ 4827 0106 05       		.uleb128 0x5
+ 4828 0107 03       		.byte	0x3
+ 4829 0108 00000000 		.4byte	cy_meta_flashprotect
+ 4830 010c 07       		.uleb128 0x7
+ 4831 010d EA000000 		.4byte	0xea
+ 4832 0111 05       		.uleb128 0x5
+ 4833 0112 91000000 		.4byte	0x91
+ 4834 0116 21010000 		.4byte	0x121
+ 4835 011a 09       		.uleb128 0x9
+ 4836 011b 8A000000 		.4byte	0x8a
+ 4837 011f 0B       		.byte	0xb
+ 4838 0120 00       		.byte	0
+ 4839 0121 0A       		.uleb128 0xa
+ 4840 0122 E7000000 		.4byte	.LASF16
+ 4841 0126 03       		.byte	0x3
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 86
+
+
+ 4842 0127 B802     		.2byte	0x2b8
+ 4843 0129 33010000 		.4byte	0x133
+ 4844 012d 05       		.uleb128 0x5
+ 4845 012e 03       		.byte	0x3
+ 4846 012f 00000000 		.4byte	cy_metadata
+ 4847 0133 07       		.uleb128 0x7
+ 4848 0134 11010000 		.4byte	0x111
+ 4849 0138 00       		.byte	0
+ 4850              		.section	.debug_abbrev,"",%progbits
+ 4851              	.Ldebug_abbrev0:
+ 4852 0000 01       		.uleb128 0x1
+ 4853 0001 11       		.uleb128 0x11
+ 4854 0002 01       		.byte	0x1
+ 4855 0003 25       		.uleb128 0x25
+ 4856 0004 0E       		.uleb128 0xe
+ 4857 0005 13       		.uleb128 0x13
+ 4858 0006 0B       		.uleb128 0xb
+ 4859 0007 03       		.uleb128 0x3
+ 4860 0008 0E       		.uleb128 0xe
+ 4861 0009 1B       		.uleb128 0x1b
+ 4862 000a 0E       		.uleb128 0xe
+ 4863 000b 10       		.uleb128 0x10
+ 4864 000c 17       		.uleb128 0x17
+ 4865 000d 00       		.byte	0
+ 4866 000e 00       		.byte	0
+ 4867 000f 02       		.uleb128 0x2
+ 4868 0010 24       		.uleb128 0x24
+ 4869 0011 00       		.byte	0
+ 4870 0012 0B       		.uleb128 0xb
+ 4871 0013 0B       		.uleb128 0xb
+ 4872 0014 3E       		.uleb128 0x3e
+ 4873 0015 0B       		.uleb128 0xb
+ 4874 0016 03       		.uleb128 0x3
+ 4875 0017 0E       		.uleb128 0xe
+ 4876 0018 00       		.byte	0
+ 4877 0019 00       		.byte	0
+ 4878 001a 03       		.uleb128 0x3
+ 4879 001b 16       		.uleb128 0x16
+ 4880 001c 00       		.byte	0
+ 4881 001d 03       		.uleb128 0x3
+ 4882 001e 0E       		.uleb128 0xe
+ 4883 001f 3A       		.uleb128 0x3a
+ 4884 0020 0B       		.uleb128 0xb
+ 4885 0021 3B       		.uleb128 0x3b
+ 4886 0022 0B       		.uleb128 0xb
+ 4887 0023 49       		.uleb128 0x49
+ 4888 0024 13       		.uleb128 0x13
+ 4889 0025 00       		.byte	0
+ 4890 0026 00       		.byte	0
+ 4891 0027 04       		.uleb128 0x4
+ 4892 0028 24       		.uleb128 0x24
+ 4893 0029 00       		.byte	0
+ 4894 002a 0B       		.uleb128 0xb
+ 4895 002b 0B       		.uleb128 0xb
+ 4896 002c 3E       		.uleb128 0x3e
+ 4897 002d 0B       		.uleb128 0xb
+ 4898 002e 03       		.uleb128 0x3
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 87
+
+
+ 4899 002f 08       		.uleb128 0x8
+ 4900 0030 00       		.byte	0
+ 4901 0031 00       		.byte	0
+ 4902 0032 05       		.uleb128 0x5
+ 4903 0033 01       		.uleb128 0x1
+ 4904 0034 01       		.byte	0x1
+ 4905 0035 49       		.uleb128 0x49
+ 4906 0036 13       		.uleb128 0x13
+ 4907 0037 01       		.uleb128 0x1
+ 4908 0038 13       		.uleb128 0x13
+ 4909 0039 00       		.byte	0
+ 4910 003a 00       		.byte	0
+ 4911 003b 06       		.uleb128 0x6
+ 4912 003c 21       		.uleb128 0x21
+ 4913 003d 00       		.byte	0
+ 4914 003e 49       		.uleb128 0x49
+ 4915 003f 13       		.uleb128 0x13
+ 4916 0040 2F       		.uleb128 0x2f
+ 4917 0041 05       		.uleb128 0x5
+ 4918 0042 00       		.byte	0
+ 4919 0043 00       		.byte	0
+ 4920 0044 07       		.uleb128 0x7
+ 4921 0045 26       		.uleb128 0x26
+ 4922 0046 00       		.byte	0
+ 4923 0047 49       		.uleb128 0x49
+ 4924 0048 13       		.uleb128 0x13
+ 4925 0049 00       		.byte	0
+ 4926 004a 00       		.byte	0
+ 4927 004b 08       		.uleb128 0x8
+ 4928 004c 34       		.uleb128 0x34
+ 4929 004d 00       		.byte	0
+ 4930 004e 03       		.uleb128 0x3
+ 4931 004f 0E       		.uleb128 0xe
+ 4932 0050 3A       		.uleb128 0x3a
+ 4933 0051 0B       		.uleb128 0xb
+ 4934 0052 3B       		.uleb128 0x3b
+ 4935 0053 0B       		.uleb128 0xb
+ 4936 0054 49       		.uleb128 0x49
+ 4937 0055 13       		.uleb128 0x13
+ 4938 0056 3F       		.uleb128 0x3f
+ 4939 0057 19       		.uleb128 0x19
+ 4940 0058 02       		.uleb128 0x2
+ 4941 0059 18       		.uleb128 0x18
+ 4942 005a 00       		.byte	0
+ 4943 005b 00       		.byte	0
+ 4944 005c 09       		.uleb128 0x9
+ 4945 005d 21       		.uleb128 0x21
+ 4946 005e 00       		.byte	0
+ 4947 005f 49       		.uleb128 0x49
+ 4948 0060 13       		.uleb128 0x13
+ 4949 0061 2F       		.uleb128 0x2f
+ 4950 0062 0B       		.uleb128 0xb
+ 4951 0063 00       		.byte	0
+ 4952 0064 00       		.byte	0
+ 4953 0065 0A       		.uleb128 0xa
+ 4954 0066 34       		.uleb128 0x34
+ 4955 0067 00       		.byte	0
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 88
+
+
+ 4956 0068 03       		.uleb128 0x3
+ 4957 0069 0E       		.uleb128 0xe
+ 4958 006a 3A       		.uleb128 0x3a
+ 4959 006b 0B       		.uleb128 0xb
+ 4960 006c 3B       		.uleb128 0x3b
+ 4961 006d 05       		.uleb128 0x5
+ 4962 006e 49       		.uleb128 0x49
+ 4963 006f 13       		.uleb128 0x13
+ 4964 0070 3F       		.uleb128 0x3f
+ 4965 0071 19       		.uleb128 0x19
+ 4966 0072 02       		.uleb128 0x2
+ 4967 0073 18       		.uleb128 0x18
+ 4968 0074 00       		.byte	0
+ 4969 0075 00       		.byte	0
+ 4970 0076 00       		.byte	0
+ 4971              		.section	.debug_aranges,"",%progbits
+ 4972 0000 14000000 		.4byte	0x14
+ 4973 0004 0200     		.2byte	0x2
+ 4974 0006 00000000 		.4byte	.Ldebug_info0
+ 4975 000a 04       		.byte	0x4
+ 4976 000b 00       		.byte	0
+ 4977 000c 0000     		.2byte	0
+ 4978 000e 0000     		.2byte	0
+ 4979 0010 00000000 		.4byte	0
+ 4980 0014 00000000 		.4byte	0
+ 4981              		.section	.debug_line,"",%progbits
+ 4982              	.Ldebug_line0:
+ 4983 0000 3D010000 		.section	.debug_str,"MS",%progbits,1
+ 4983      02003701 
+ 4983      00000201 
+ 4983      FB0E0D00 
+ 4983      01010101 
+ 4984              	.LASF9:
+ 4985 0000 5F5F7569 		.ascii	"__uint8_t\000"
+ 4985      6E74385F 
+ 4985      7400
+ 4986              	.LASF17:
+ 4987 000a 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 4987      43313120 
+ 4987      352E342E 
+ 4987      31203230 
+ 4987      31363036 
+ 4988 003d 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
+ 4988      20726576 
+ 4988      6973696F 
+ 4988      6E203233 
+ 4988      37373135 
+ 4989 0070 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
+ 4989      66756E63 
+ 4989      74696F6E 
+ 4989      2D736563 
+ 4989      74696F6E 
+ 4990              	.LASF19:
+ 4991 0098 433A5C55 		.ascii	"C:\\Users\\Albert Sandager\\Documents\\GitHub\\P4-V"
+ 4991      73657273 
+ 4991      5C416C62 
+ 4991      65727420 
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 89
+
+
+ 4991      53616E64 
+ 4992 00c6 69657743 		.ascii	"iewCare\\PSoC\\SDCard\\SDCard.cydsn\000"
+ 4992      6172655C 
+ 4992      50536F43 
+ 4992      5C534443 
+ 4992      6172645C 
+ 4993              	.LASF16:
+ 4994 00e7 63795F6D 		.ascii	"cy_metadata\000"
+ 4994      65746164 
+ 4994      61746100 
+ 4995              	.LASF1:
+ 4996 00f3 756E7369 		.ascii	"unsigned char\000"
+ 4996      676E6564 
+ 4996      20636861 
+ 4996      7200
+ 4997              	.LASF5:
+ 4998 0101 6C6F6E67 		.ascii	"long unsigned int\000"
+ 4998      20756E73 
+ 4998      69676E65 
+ 4998      6420696E 
+ 4998      7400
+ 4999              	.LASF3:
+ 5000 0113 73686F72 		.ascii	"short unsigned int\000"
+ 5000      7420756E 
+ 5000      7369676E 
+ 5000      65642069 
+ 5000      6E7400
+ 5001              	.LASF13:
+ 5002 0126 63795F6D 		.ascii	"cy_meta_custnvl\000"
+ 5002      6574615F 
+ 5002      63757374 
+ 5002      6E766C00 
+ 5003              	.LASF12:
+ 5004 0136 63795F6D 		.ascii	"cy_meta_configecc\000"
+ 5004      6574615F 
+ 5004      636F6E66 
+ 5004      69676563 
+ 5004      6300
+ 5005              	.LASF8:
+ 5006 0148 756E7369 		.ascii	"unsigned int\000"
+ 5006      676E6564 
+ 5006      20696E74 
+ 5006      00
+ 5007              	.LASF7:
+ 5008 0155 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 5008      206C6F6E 
+ 5008      6720756E 
+ 5008      7369676E 
+ 5008      65642069 
+ 5009              	.LASF10:
+ 5010 016c 75696E74 		.ascii	"uint8_t\000"
+ 5010      385F7400 
+ 5011              	.LASF15:
+ 5012 0174 63795F6D 		.ascii	"cy_meta_flashprotect\000"
+ 5012      6574615F 
+ 5012      666C6173 
+ 5012      6870726F 
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cc4pPxhJ.s 			page 90
+
+
+ 5012      74656374 
+ 5013              	.LASF14:
+ 5014 0189 63795F6D 		.ascii	"cy_meta_wonvl\000"
+ 5014      6574615F 
+ 5014      776F6E76 
+ 5014      6C00
+ 5015              	.LASF11:
+ 5016 0197 73697A65 		.ascii	"sizetype\000"
+ 5016      74797065 
+ 5016      00
+ 5017              	.LASF6:
+ 5018 01a0 6C6F6E67 		.ascii	"long long int\000"
+ 5018      206C6F6E 
+ 5018      6720696E 
+ 5018      7400
+ 5019              	.LASF2:
+ 5020 01ae 73686F72 		.ascii	"short int\000"
+ 5020      7420696E 
+ 5020      7400
+ 5021              	.LASF4:
+ 5022 01b8 6C6F6E67 		.ascii	"long int\000"
+ 5022      20696E74 
+ 5022      00
+ 5023              	.LASF0:
+ 5024 01c1 7369676E 		.ascii	"signed char\000"
+ 5024      65642063 
+ 5024      68617200 
+ 5025              	.LASF18:
+ 5026 01cd 47656E65 		.ascii	"Generated_Source\\PSoC5\\cymetadata.c\000"
+ 5026      72617465 
+ 5026      645F536F 
+ 5026      75726365 
+ 5026      5C50536F 
+ 5027              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

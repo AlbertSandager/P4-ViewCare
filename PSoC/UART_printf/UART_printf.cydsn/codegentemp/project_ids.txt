@@ -1,0 +1,6 @@
+C:\Users\Albert Sandager\Documents\GitHub\P4-ViewCare\PSoC\UART_printf\UART_printf.cydsn\UART_printf.cyprj|85cb1b4c-d974-488f-82eb-b56553ff3568
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|87d89599-1225-4c13-b6a0-6c640861d63e
+C:\Users\Albert Sandager\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\Downloads ( 4.2).cyprj|753e90df-3df9-4f30-b8fb-a5a81498485a
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|91bbc06a-f1ec-48c9-98f4-1dee2d976b38
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|f28211c7-6743-4410-973d-5ea206811197
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|38713c0e-7c0c-44c1-9894-7a4869401891

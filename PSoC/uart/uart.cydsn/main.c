@@ -19,7 +19,7 @@ int main(void)
 
     UART_Start();
     //UART_PutString("H");
-    UART_WriteTxData(156);
+    UART_WriteTxData(100);
     receivedData = UART_ReadRxData();
     
     for(;;)

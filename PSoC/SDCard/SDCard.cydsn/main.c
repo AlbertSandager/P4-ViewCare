@@ -60,60 +60,54 @@ void NextStep(U16 step, char * str)
 
 int main()
 {
+    CyGlobalIntEnable; /* Enable global interrupts. */
+    
     char sdVolName[10];     /* Buffer that will hold SD card Volume name */
     U16 step = 1u;
     FS_FILE * pFile;
     
     /* Start LCD */
-    LCD_Start();
+    UART_Start();
     
     /* Initialize file system */
     FS_Init();
     
     /* Display step number */
-    NextStep(step++, "SD CARD NAME");
-    
-    LCD_Position(0u, 0u);
+    UART_PutString("SD CARD NAME\n \r");
     
     /* Get volume name of SD card #0 */
     if(0 != FS_GetVolumeName(0u, &sdVolName[0], 9u))
     {
         /* Getting volume name succeeded so prompt it on the LCD */
-        LCD_PrintString("SD card name:");
-        LCD_Position(1u, 0u);
-        LCD_PrintString(sdVolName);
+        UART_PutString("SD card name:\n \r");
+        UART_PutString(sdVolName);
     }
     else
     {
         /* Operation Failed - indicate this */
-        LCD_PrintString("Failed to get");
-        LCD_Position(1u, 0u);
-        LCD_PrintString("SD card name");
+        UART_PutString("Failed to get\n \r");
+        UART_PutString("SD card name\n \r");
     }
     
     /* Need some delay to indicate output on the LCD */
     CyDelay(2000u);
     
-    NextStep(step++, "SD CARD FORMAT");
-        
-    LCD_Position(0u, 0u);
-    LCD_PrintString("SD card format");
+    UART_PutString("SD CARD FORMAT\n \r");
+    UART_PutString("SD card format\n \r");
     
     if(0 == FS_FormatSD(sdVolName))
     {
-        LCD_Position(1u, 0u);
-        LCD_PrintString("Succeeded");
+        UART_PutString("Succeeded\n \r");
     }
     else
     {
-        LCD_Position(1u, 0u);
-        LCD_PrintString("Failed");
+        UART_PutString("Failed\n \r");
     }
     
     /* Need some delay to indicate output on the LCD */
     CyDelay(2000u);
     
-    NextStep(step++, "DIRECTORY");
+    UART_PutString("DIRECTORY\n \r");
     
     LCD_Position(0u, 0u);
     
@@ -121,118 +115,93 @@ int main()
     if(0 == FS_MkDir("Dir"))
     {
         /* Display successful directory creation message */
-        LCD_PrintString("\"Dir\" created");
+        UART_PutString("\"Dir\" created\n \r");
     }
     else
     {
         /* Display failure message */
-        LCD_PrintString("Failed to create");
-        LCD_Position(1u, 0u);
-        LCD_PrintString("directory");
+        UART_PutString("Failed to create\n \r");
+        UART_PutString("directory\n \r");
     }
     
     /* Need some delay to indicate output on the LCD */
     CyDelay(2000u);
     
-    NextStep(step++, "FILE");
+    UART_PutString("FILE\n \r");
     
     /* Create specific file for modification */
     pFile = FS_FOpen(sdFile, "w");
-    
-    LCD_Position(0u, 0u);
     
     /* Check if file was created */
     if(pFile)
     {
         /* Indicate successful file creation message */
-        LCD_PrintString("File ");
-        LCD_PrintString(sdFile);
-        LCD_Position(1u, 0u);
-        LCD_PrintString("was opened");
+        UART_PutString("File \n \r");
+        UART_PutString(sdFile);
+        UART_PutString("was opened\n \r");
         
         /* Need some delay to indicate output on the LCD */
         CyDelay(2000u);
-        
-        LCD_ClearDisplay();
-        
-        LCD_Position(0u, 0u);
         
         if(0 != FS_Write(pFile, "0123456789", 10u)) 
         {
             /* Inditate that data was written to a file */
-            LCD_PrintString("\"0123456789\"");
-            LCD_PrintString(sdFile);
-            LCD_Position(1u, 0u);
-            LCD_PrintString("written to file");
+            UART_PutString("\"0123456789\"\n \r");
+            UART_PutString(sdFile);
+            UART_PutString("written to file\n \r");
         }
         else
         {
-            LCD_PrintString("Failed to write");
-            LCD_Position(1u, 0u);
-            LCD_PrintString("data to file");
+            UART_PutString("Failed to write\n \r");
+            UART_PutString("data to file\n \r");
         }
         
         /* Need some delay to indicate output on the LCD */
         CyDelay(2000u);
         
-        LCD_ClearDisplay();
-        
-        LCD_Position(0u, 0u);
-        
         if(0 == FS_FClose(pFile))
         {
-            LCD_PrintString("File was closed");
+            UART_PutString("File was closed\n \r");
         }
         else
         {
-            LCD_PrintString("Failed to close");
-            LCD_Position(1u, 0u);
-            LCD_PrintString("file");
+            UART_PutString("Failed to close\n \r");
+            UART_PutString("file\n \r");
         }
     }
     else
     {
-        LCD_PrintString("Failed to create");
-        LCD_Position(1u, 0u);
-        LCD_PrintString("file");
+        UART_PutString("Failed to create\n \r");
+        UART_PutString("file\n \r");
     }
     
     /* Need some delay to indicate output on the LCD */
     CyDelay(2000u);
         
-    LCD_ClearDisplay();
+    UART_PutString("COPY\n \r");
     
-    NextStep(step++, "COPY");
-    
-    LCD_Position(0u, 0u);
     
     /* Copy a file to a previously created directory */
-    if(0 == FS_CopyFile(sdFile, "\\Dir\\file1.txt"))
+    if(0 == FS_CopyFile(sdFile, "\\Dir\\file1.txt\n \r"))
     {
-        LCD_PrintString("File was ");
-        LCD_Position(1u, 0u);
-        LCD_PrintString("copied to \"DIR\"");
+        UART_PutString("File was \n \r");
+        UART_PutString("copied to \"DIR\"\n \r");
     }
     else
     {
-        LCD_PrintString("Failed to copy");
-        LCD_Position(1u, 0u);
-        LCD_PrintString("file");
+        UART_PutString("Failed to copy\n \r");
+        UART_PutString("file\n \r");
     }
     
     /* Need some delay to indicate output on the LCD */
     CyDelay(2000);
     
-    LCD_ClearDisplay();
-    
-    LCD_Position(0u, 0u);
-    LCD_PrintString("Example project");
-    LCD_Position(1u, 0u);
-    LCD_PrintString("completed");
+    UART_PutString("Example project\n \r");
+    UART_PutString("completed\n \r");
     
     for(;;)
     {
-
+        
     }
 }
 

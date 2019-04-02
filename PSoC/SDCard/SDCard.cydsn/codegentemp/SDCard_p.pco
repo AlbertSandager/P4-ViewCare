@@ -57,10 +57,10 @@ set_location "\emFile:Net_10\" macrocell 3 0 0 2
 set_location "\UART:BUART:sTX:sCLOCK:TxBitClkGen\" datapathcell 2 3 2 
 # Note: port 12 is the logical name for port 7
 set_io "Rx_1(0)" iocell 12 6
-set_io "\emFile:mosi0(0)\" iocell 3 3
+set_io "\emFile:mosi0(0)\" iocell 3 4
 # Note: port 12 is the logical name for port 7
 set_io "Tx_1(0)" iocell 12 7
-set_io "\emFile:miso0(0)\" iocell 3 5
+set_io "\emFile:miso0(0)\" iocell 3 3
 set_location "ClockBlock" clockblockcell -1 -1 0
 set_io "\emFile:SPI0_CS(0)\" iocell 3 6
-set_io "\emFile:sclk0(0)\" iocell 3 4
+set_io "\emFile:sclk0(0)\" iocell 3 5

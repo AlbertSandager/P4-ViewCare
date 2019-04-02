@@ -11517,14 +11517,14 @@ ARM GAS  Generated_Source\PSoC5\CyBootAsmGnu.s 			page 1
  211              	.set emFile_Clock_1__PM_ACT_MSK, 0x01
  212              	.set emFile_Clock_1__PM_STBY_CFG, CYREG_PM_STBY_CFG2
  213              	.set emFile_Clock_1__PM_STBY_MSK, 0x01
- 214              	.set emFile_miso0__0__INTTYPE, CYREG_PICU3_INTTYPE5
+ 214              	.set emFile_miso0__0__INTTYPE, CYREG_PICU3_INTTYPE3
 ARM GAS  Generated_Source\PSoC5\CyBootAsmGnu.s 			page 193
 
 
- 215              	.set emFile_miso0__0__MASK, 0x20
- 216              	.set emFile_miso0__0__PC, CYREG_PRT3_PC5
+ 215              	.set emFile_miso0__0__MASK, 0x08
+ 216              	.set emFile_miso0__0__PC, CYREG_PRT3_PC3
  217              	.set emFile_miso0__0__PORT, 3
- 218              	.set emFile_miso0__0__SHIFT, 5
+ 218              	.set emFile_miso0__0__SHIFT, 3
  219              	.set emFile_miso0__AG, CYREG_PRT3_AG
  220              	.set emFile_miso0__AMUX, CYREG_PRT3_AMUX
  221              	.set emFile_miso0__BIE, CYREG_PRT3_BIE
@@ -11539,7 +11539,7 @@ ARM GAS  Generated_Source\PSoC5\CyBootAsmGnu.s 			page 1
  230              	.set emFile_miso0__INTTYPE_BASE, CYDEV_PICU_INTTYPE_PICU3_BASE
  231              	.set emFile_miso0__LCD_COM_SEG, CYREG_PRT3_LCD_COM_SEG
  232              	.set emFile_miso0__LCD_EN, CYREG_PRT3_LCD_EN
- 233              	.set emFile_miso0__MASK, 0x20
+ 233              	.set emFile_miso0__MASK, 0x08
  234              	.set emFile_miso0__PORT, 3
  235              	.set emFile_miso0__PRT, CYREG_PRT3_PRT
  236              	.set emFile_miso0__PRTDSI__CAPS_SEL, CYREG_PRT3_CAPS_SEL
@@ -11550,13 +11550,13 @@ ARM GAS  Generated_Source\PSoC5\CyBootAsmGnu.s 			page 1
  241              	.set emFile_miso0__PRTDSI__OUT_SEL1, CYREG_PRT3_OUT_SEL1
  242              	.set emFile_miso0__PRTDSI__SYNC_OUT, CYREG_PRT3_SYNC_OUT
  243              	.set emFile_miso0__PS, CYREG_PRT3_PS
- 244              	.set emFile_miso0__SHIFT, 5
+ 244              	.set emFile_miso0__SHIFT, 3
  245              	.set emFile_miso0__SLW, CYREG_PRT3_SLW
- 246              	.set emFile_mosi0__0__INTTYPE, CYREG_PICU3_INTTYPE3
- 247              	.set emFile_mosi0__0__MASK, 0x08
- 248              	.set emFile_mosi0__0__PC, CYREG_PRT3_PC3
+ 246              	.set emFile_mosi0__0__INTTYPE, CYREG_PICU3_INTTYPE4
+ 247              	.set emFile_mosi0__0__MASK, 0x10
+ 248              	.set emFile_mosi0__0__PC, CYREG_PRT3_PC4
  249              	.set emFile_mosi0__0__PORT, 3
- 250              	.set emFile_mosi0__0__SHIFT, 3
+ 250              	.set emFile_mosi0__0__SHIFT, 4
  251              	.set emFile_mosi0__AG, CYREG_PRT3_AG
  252              	.set emFile_mosi0__AMUX, CYREG_PRT3_AMUX
  253              	.set emFile_mosi0__BIE, CYREG_PRT3_BIE
@@ -11571,7 +11571,7 @@ ARM GAS  Generated_Source\PSoC5\CyBootAsmGnu.s 			page 1
  262              	.set emFile_mosi0__INTTYPE_BASE, CYDEV_PICU_INTTYPE_PICU3_BASE
  263              	.set emFile_mosi0__LCD_COM_SEG, CYREG_PRT3_LCD_COM_SEG
  264              	.set emFile_mosi0__LCD_EN, CYREG_PRT3_LCD_EN
- 265              	.set emFile_mosi0__MASK, 0x08
+ 265              	.set emFile_mosi0__MASK, 0x10
  266              	.set emFile_mosi0__PORT, 3
  267              	.set emFile_mosi0__PRT, CYREG_PRT3_PRT
  268              	.set emFile_mosi0__PRTDSI__CAPS_SEL, CYREG_PRT3_CAPS_SEL
@@ -11585,13 +11585,13 @@ ARM GAS  Generated_Source\PSoC5\CyBootAsmGnu.s 			page 1
  273              	.set emFile_mosi0__PRTDSI__OUT_SEL1, CYREG_PRT3_OUT_SEL1
  274              	.set emFile_mosi0__PRTDSI__SYNC_OUT, CYREG_PRT3_SYNC_OUT
  275              	.set emFile_mosi0__PS, CYREG_PRT3_PS
- 276              	.set emFile_mosi0__SHIFT, 3
+ 276              	.set emFile_mosi0__SHIFT, 4
  277              	.set emFile_mosi0__SLW, CYREG_PRT3_SLW
- 278              	.set emFile_sclk0__0__INTTYPE, CYREG_PICU3_INTTYPE4
- 279              	.set emFile_sclk0__0__MASK, 0x10
- 280              	.set emFile_sclk0__0__PC, CYREG_PRT3_PC4
+ 278              	.set emFile_sclk0__0__INTTYPE, CYREG_PICU3_INTTYPE5
+ 279              	.set emFile_sclk0__0__MASK, 0x20
+ 280              	.set emFile_sclk0__0__PC, CYREG_PRT3_PC5
  281              	.set emFile_sclk0__0__PORT, 3
- 282              	.set emFile_sclk0__0__SHIFT, 4
+ 282              	.set emFile_sclk0__0__SHIFT, 5
  283              	.set emFile_sclk0__AG, CYREG_PRT3_AG
  284              	.set emFile_sclk0__AMUX, CYREG_PRT3_AMUX
  285              	.set emFile_sclk0__BIE, CYREG_PRT3_BIE
@@ -11606,7 +11606,7 @@ ARM GAS  Generated_Source\PSoC5\CyBootAsmGnu.s 			page 1
  294              	.set emFile_sclk0__INTTYPE_BASE, CYDEV_PICU_INTTYPE_PICU3_BASE
  295              	.set emFile_sclk0__LCD_COM_SEG, CYREG_PRT3_LCD_COM_SEG
  296              	.set emFile_sclk0__LCD_EN, CYREG_PRT3_LCD_EN
- 297              	.set emFile_sclk0__MASK, 0x10
+ 297              	.set emFile_sclk0__MASK, 0x20
  298              	.set emFile_sclk0__PORT, 3
  299              	.set emFile_sclk0__PRT, CYREG_PRT3_PRT
  300              	.set emFile_sclk0__PRTDSI__CAPS_SEL, CYREG_PRT3_CAPS_SEL
@@ -11617,7 +11617,7 @@ ARM GAS  Generated_Source\PSoC5\CyBootAsmGnu.s 			page 1
  305              	.set emFile_sclk0__PRTDSI__OUT_SEL1, CYREG_PRT3_OUT_SEL1
  306              	.set emFile_sclk0__PRTDSI__SYNC_OUT, CYREG_PRT3_SYNC_OUT
  307              	.set emFile_sclk0__PS, CYREG_PRT3_PS
- 308              	.set emFile_sclk0__SHIFT, 4
+ 308              	.set emFile_sclk0__SHIFT, 5
  309              	.set emFile_sclk0__SLW, CYREG_PRT3_SLW
  310              	.set emFile_SPI0_BSPIM_BitCounter__16BIT_CONTROL_AUX_CTL_REG, CYREG_B1_UDB05_06_ACTL
  311              	.set emFile_SPI0_BSPIM_BitCounter__16BIT_CONTROL_CONTROL_REG, CYREG_B1_UDB05_06_CTL

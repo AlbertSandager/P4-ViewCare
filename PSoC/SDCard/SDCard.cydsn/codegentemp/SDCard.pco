@@ -1,5 +1,5 @@
 # SDCard
-# 2019-04-02 09:09:48Z
+# 2019-04-02 10:19:52Z
 
 # IO_0@[IOP=(1)][IoId=(0)] is reserved: SWDDebugEnabled
 dont_use_io iocell 1 0
@@ -13,9 +13,9 @@ dont_use_io iocell 15 2
 dont_use_io iocell 15 3
 set_location "\emFile:SPI0:BSPIM:mosi_pre_reg_split\" 3 1 1 0
 set_location "ClockBlock" clockblockcell -1 -1 0
-set_io "\emFile:mosi0(0)\" iocell 3 3
-set_io "\emFile:miso0(0)\" iocell 3 5
-set_io "\emFile:sclk0(0)\" iocell 3 4
+set_io "\emFile:mosi0(0)\" iocell 3 4
+set_io "\emFile:miso0(0)\" iocell 3 3
+set_io "\emFile:sclk0(0)\" iocell 3 5
 set_io "\emFile:SPI0_CS(0)\" iocell 3 6
 set_io "Rx_1(0)" iocell 12 6
 set_io "Tx_1(0)" iocell 12 7

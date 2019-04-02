@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccS3Fs31.s 			page 1
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cczDa0Vc.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccS3Fs31.s 			page 1
   41      61726420 
   41      666F726D 
   41      61740A20 
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccS3Fs31.s 			page 2
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cczDa0Vc.s 			page 2
 
 
   41      0D00
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccS3Fs31.s 			page 1
   72 00d3 00       		.align	2
   73              	.LC15:
   74 00d4 22303132 		.ascii	"\"0123456789\"\012 \015\000"
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccS3Fs31.s 			page 3
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cczDa0Vc.s 			page 3
 
 
   74      33343536 
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccS3Fs31.s 			page 1
  100              	.LC24:
  101 016c 636F7069 		.ascii	"copied to \"DIR\"\012 \015\000"
  101      65642074 
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccS3Fs31.s 			page 4
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cczDa0Vc.s 			page 4
 
 
  101      6F202244 
@@ -213,36 +213,18 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccS3Fs31.s 			page 1
  117              	main:
  118              	.LFB63:
  119              		.file 1 "main.c"
-   1:main.c        **** /* Description:
-   2:main.c        **** *  The example project consists of 5 simple steps. Each of the steps performs 
-   3:main.c        **** *  single File System operation. 
-   4:main.c        **** *  Step#1: Gets SD card name and displays it on the LCD.
-   5:main.c        **** *  Step#2: Performs Format SD operation and displays the status of the format 
-   6:main.c        **** *  operation execution.
-   7:main.c        **** *  Step#3: Creates directory with the name - "Dir" and displays a status of 
-   8:main.c        **** *  directory creation operation.
-   9:main.c        **** *  Step#4: Creates a file - "File.txt" in the root directory and writes the 
-  10:main.c        **** *  following string to the file -"123456789". Displays a status of operations 
-  11:main.c        **** *  execution.
-  12:main.c        **** *  Step#5: Copies newly created file ("File.txt") to directory "Dir" with the 
-  13:main.c        **** *  name - "File1.txt". 
-  14:main.c        **** */
-  15:main.c        **** 
-  16:main.c        **** #include <project.h>
-  17:main.c        **** #include <FS.h>
-  18:main.c        **** #include <string.h>
-  19:main.c        **** #include <Global.h>
-  20:main.c        **** 
-  21:main.c        **** 
-  22:main.c        **** char sdFile[9] = "File.txt";
-  23:main.c        **** 
-  24:main.c        **** 
-  25:main.c        **** int main()
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccS3Fs31.s 			page 5
-
-
-  26:main.c        **** {
- 120              		.loc 1 26 0
+   1:main.c        **** #include <project.h>
+   2:main.c        **** #include <FS.h>
+   3:main.c        **** #include <string.h>
+   4:main.c        **** #include <Global.h>
+   5:main.c        **** 
+   6:main.c        **** 
+   7:main.c        **** char sdFile[9] = "File.txt"; // Choose the file name
+   8:main.c        **** 
+   9:main.c        **** 
+  10:main.c        **** int main()
+  11:main.c        **** {
+ 120              		.loc 1 11 0
  121              		.cfi_startproc
  122              		@ args = 0, pretend = 0, frame = 16
  123              		@ frame_needed = 1, uses_anonymous_args = 0
@@ -254,32 +236,32 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccS3Fs31.s 			page 1
  129              		.cfi_def_cfa_offset 24
  130 0004 00AF     		add	r7, sp, #0
  131              		.cfi_def_cfa_register 7
-  27:main.c        ****     CyGlobalIntEnable; /* Enable global interrupts. */
- 132              		.loc 1 27 0
+  12:main.c        ****     CyGlobalIntEnable; //Enable global interrupts. (UART thing :D)
+ 132              		.loc 1 12 0
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cczDa0Vc.s 			page 5
+
+
  133              		.syntax unified
- 134              	@ 27 "main.c" 1
+ 134              	@ 12 "main.c" 1
  135 0006 62B6     		CPSIE   i
  136              	@ 0 "" 2
-  28:main.c        ****     
-  29:main.c        ****     char sdVolName[10];     /* Buffer that will hold SD card Volume name */
-  30:main.c        ****     FS_FILE * pFile;
-  31:main.c        ****     
-  32:main.c        ****     /* Start LCD */
-  33:main.c        ****     UART_Start();
- 137              		.loc 1 33 0
+  13:main.c        ****     
+  14:main.c        ****     char sdVolName[10]; //Buffer that will hold SD card Volume name
+  15:main.c        ****     FS_FILE * pFile;
+  16:main.c        ****     
+  17:main.c        ****     UART_Start(); //Start the UART
+ 137              		.loc 1 17 0
  138              		.thumb
  139              		.syntax unified
  140 0008 FFF7FEFF 		bl	UART_Start
-  34:main.c        ****     
-  35:main.c        ****     /* Initialize file system */
-  36:main.c        ****     FS_Init();
- 141              		.loc 1 36 0
+  18:main.c        ****     
+  19:main.c        ****     FS_Init(); //Initialize file system
+ 141              		.loc 1 19 0
  142 000c FFF7FEFF 		bl	FS_Init
-  37:main.c        **** 
-  38:main.c        ****     
-  39:main.c        ****     /* Get volume name of SD card #0 */
-  40:main.c        ****     if(0 != FS_GetVolumeName(0u, &sdVolName[0], 9u))
- 143              		.loc 1 40 0
+  20:main.c        **** 
+  21:main.c        ****     
+  22:main.c        ****     if(0 != FS_GetVolumeName(0u, &sdVolName[0], 9u)) //Get volume name of SD card #0
+ 143              		.loc 1 22 0
  144 0010 3B46     		mov	r3, r7
  145 0012 0922     		movs	r2, #9
  146 0014 1946     		mov	r1, r3
@@ -288,439 +270,434 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccS3Fs31.s 			page 1
  149 001c 0346     		mov	r3, r0
  150 001e 002B     		cmp	r3, #0
  151 0020 0DD0     		beq	.L2
-  41:main.c        ****     {
-  42:main.c        ****         /* Getting volume name succeeded so prompt it on the LCD */
-  43:main.c        ****         UART_PutString("SD card name:\n \r");
- 152              		.loc 1 43 0
+  23:main.c        ****     {
+  24:main.c        ****         //Getting volume name succeeded so print it to the Serial monitor
+  25:main.c        ****         UART_PutString("SD card name:\n \r");
+ 152              		.loc 1 25 0
  153 0022 7D48     		ldr	r0, .L17
  154 0024 FFF7FEFF 		bl	UART_PutString
-  44:main.c        ****         UART_PutString(sdVolName);
- 155              		.loc 1 44 0
+  26:main.c        ****         UART_PutString(sdVolName);
+ 155              		.loc 1 26 0
  156 0028 3B46     		mov	r3, r7
  157 002a 1846     		mov	r0, r3
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccS3Fs31.s 			page 6
-
-
  158 002c FFF7FEFF 		bl	UART_PutString
-  45:main.c        ****         UART_PutString("\n \r");
- 159              		.loc 1 45 0
+  27:main.c        ****         UART_PutString("\n \r");
+ 159              		.loc 1 27 0
  160 0030 7A48     		ldr	r0, .L17+4
  161 0032 FFF7FEFF 		bl	UART_PutString
-  46:main.c        ****         UART_PutString("\n \r");
- 162              		.loc 1 46 0
+  28:main.c        ****         UART_PutString("\n \r");
+ 162              		.loc 1 28 0
  163 0036 7948     		ldr	r0, .L17+4
  164 0038 FFF7FEFF 		bl	UART_PutString
  165 003c 0BE0     		b	.L3
  166              	.L2:
-  47:main.c        ****     }
-  48:main.c        ****     else
-  49:main.c        ****     {
-  50:main.c        ****         /* Operation Failed - indicate this */
-  51:main.c        ****         UART_PutString("Failed to get\n \r");
- 167              		.loc 1 51 0
+  29:main.c        ****     }
+  30:main.c        ****     else
+  31:main.c        ****     {
+  32:main.c        ****         //Operation Failed - indicate this
+  33:main.c        ****         UART_PutString("Failed to get\n \r");
+ 167              		.loc 1 33 0
  168 003e 7848     		ldr	r0, .L17+8
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cczDa0Vc.s 			page 6
+
+
  169 0040 FFF7FEFF 		bl	UART_PutString
-  52:main.c        ****         UART_PutString("SD card name\n \r");
- 170              		.loc 1 52 0
+  34:main.c        ****         UART_PutString("SD card name\n \r");
+ 170              		.loc 1 34 0
  171 0044 7748     		ldr	r0, .L17+12
  172 0046 FFF7FEFF 		bl	UART_PutString
-  53:main.c        ****         UART_PutString("\n \r");
- 173              		.loc 1 53 0
+  35:main.c        ****         UART_PutString("\n \r");
+ 173              		.loc 1 35 0
  174 004a 7448     		ldr	r0, .L17+4
  175 004c FFF7FEFF 		bl	UART_PutString
-  54:main.c        ****         UART_PutString("\n \r");
- 176              		.loc 1 54 0
+  36:main.c        ****         UART_PutString("\n \r");
+ 176              		.loc 1 36 0
  177 0050 7248     		ldr	r0, .L17+4
  178 0052 FFF7FEFF 		bl	UART_PutString
  179              	.L3:
-  55:main.c        ****     }
-  56:main.c        ****     
-  57:main.c        ****     /* Need some delay to indicate output on the LCD */
-  58:main.c        ****     CyDelay(2000u);
- 180              		.loc 1 58 0
+  37:main.c        ****     }
+  38:main.c        ****     
+  39:main.c        ****     //Need some delay to indicate output on the Serial monitor
+  40:main.c        ****     CyDelay(2000u);
+ 180              		.loc 1 40 0
  181 0056 4FF4FA60 		mov	r0, #2000
  182 005a FFF7FEFF 		bl	CyDelay
-  59:main.c        ****     
-  60:main.c        ****     UART_PutString("SD card format\n \r");
- 183              		.loc 1 60 0
+  41:main.c        ****     
+  42:main.c        ****     UART_PutString("SD card format\n \r");
+ 183              		.loc 1 42 0
  184 005e 7248     		ldr	r0, .L17+16
  185 0060 FFF7FEFF 		bl	UART_PutString
-  61:main.c        ****     
-  62:main.c        ****     if(0 == FS_FormatSD(sdVolName))
- 186              		.loc 1 62 0
+  43:main.c        ****     
+  44:main.c        ****     if(0 == FS_FormatSD(sdVolName))
+ 186              		.loc 1 44 0
  187 0064 3B46     		mov	r3, r7
  188 0066 1846     		mov	r0, r3
  189 0068 FFF7FEFF 		bl	FS_FormatSD
  190 006c 0346     		mov	r3, r0
  191 006e 002B     		cmp	r3, #0
  192 0070 09D1     		bne	.L4
-  63:main.c        ****     {
-  64:main.c        ****         UART_PutString("Succeeded\n \r");
- 193              		.loc 1 64 0
+  45:main.c        ****     {
+  46:main.c        ****         UART_PutString("Succeeded\n \r");
+ 193              		.loc 1 46 0
  194 0072 6E48     		ldr	r0, .L17+20
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccS3Fs31.s 			page 7
-
-
  195 0074 FFF7FEFF 		bl	UART_PutString
-  65:main.c        ****         UART_PutString("\n \r");
- 196              		.loc 1 65 0
+  47:main.c        ****         UART_PutString("\n \r");
+ 196              		.loc 1 47 0
  197 0078 6848     		ldr	r0, .L17+4
  198 007a FFF7FEFF 		bl	UART_PutString
-  66:main.c        ****         UART_PutString("\n \r");
- 199              		.loc 1 66 0
+  48:main.c        ****         UART_PutString("\n \r");
+ 199              		.loc 1 48 0
  200 007e 6748     		ldr	r0, .L17+4
  201 0080 FFF7FEFF 		bl	UART_PutString
  202 0084 08E0     		b	.L5
  203              	.L4:
-  67:main.c        ****     }
-  68:main.c        ****     else
-  69:main.c        ****     {
-  70:main.c        ****         UART_PutString("Failed\n \r");
- 204              		.loc 1 70 0
+  49:main.c        ****     }
+  50:main.c        ****     else
+  51:main.c        ****     {
+  52:main.c        ****         UART_PutString("Failed\n \r");
+ 204              		.loc 1 52 0
  205 0086 6A48     		ldr	r0, .L17+24
  206 0088 FFF7FEFF 		bl	UART_PutString
-  71:main.c        ****         UART_PutString("\n \r");
- 207              		.loc 1 71 0
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cczDa0Vc.s 			page 7
+
+
+  53:main.c        ****         UART_PutString("\n \r");
+ 207              		.loc 1 53 0
  208 008c 6348     		ldr	r0, .L17+4
  209 008e FFF7FEFF 		bl	UART_PutString
-  72:main.c        ****         UART_PutString("\n \r");
- 210              		.loc 1 72 0
+  54:main.c        ****         UART_PutString("\n \r");
+ 210              		.loc 1 54 0
  211 0092 6248     		ldr	r0, .L17+4
  212 0094 FFF7FEFF 		bl	UART_PutString
  213              	.L5:
-  73:main.c        ****     }
-  74:main.c        ****     
-  75:main.c        ****     /* Need some delay to indicate output on the LCD */
-  76:main.c        ****     CyDelay(2000u);
- 214              		.loc 1 76 0
+  55:main.c        ****     }
+  56:main.c        ****     
+  57:main.c        ****     CyDelay(2000u); //Need some delay to indicate output on the Serial monitor
+ 214              		.loc 1 57 0
  215 0098 4FF4FA60 		mov	r0, #2000
  216 009c FFF7FEFF 		bl	CyDelay
-  77:main.c        ****     
-  78:main.c        ****     
-  79:main.c        ****     /* This will create directory "Dir" on SD card */
-  80:main.c        ****     if(0 == FS_MkDir("Dir"))
- 217              		.loc 1 80 0
+  58:main.c        ****     
+  59:main.c        ****     if(0 == FS_MkDir("Dir")) //This will create directory "Dir" on SD card
+ 217              		.loc 1 59 0
  218 00a0 6448     		ldr	r0, .L17+28
  219 00a2 FFF7FEFF 		bl	FS_MkDir
  220 00a6 0346     		mov	r3, r0
  221 00a8 002B     		cmp	r3, #0
  222 00aa 09D1     		bne	.L6
-  81:main.c        ****     {
-  82:main.c        ****         /* Display successful directory creation message */
-  83:main.c        ****         UART_PutString("\"Dir\" created\n \r");
- 223              		.loc 1 83 0
+  60:main.c        ****     {
+  61:main.c        ****         //Display successful directory creation message
+  62:main.c        ****         UART_PutString("\"Dir\" created\n \r");
+ 223              		.loc 1 62 0
  224 00ac 6248     		ldr	r0, .L17+32
  225 00ae FFF7FEFF 		bl	UART_PutString
-  84:main.c        ****         UART_PutString("\n \r");
- 226              		.loc 1 84 0
+  63:main.c        ****         UART_PutString("\n \r");
+ 226              		.loc 1 63 0
  227 00b2 5A48     		ldr	r0, .L17+4
  228 00b4 FFF7FEFF 		bl	UART_PutString
-  85:main.c        ****         UART_PutString("\n \r");
- 229              		.loc 1 85 0
+  64:main.c        ****         UART_PutString("\n \r");
+ 229              		.loc 1 64 0
  230 00b8 5848     		ldr	r0, .L17+4
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccS3Fs31.s 			page 8
-
-
  231 00ba FFF7FEFF 		bl	UART_PutString
  232 00be 0BE0     		b	.L7
  233              	.L6:
-  86:main.c        ****     }
-  87:main.c        ****     else
-  88:main.c        ****     {
-  89:main.c        ****         /* Display failure message */
-  90:main.c        ****         UART_PutString("Failed to create\n \r");
- 234              		.loc 1 90 0
+  65:main.c        ****     }
+  66:main.c        ****     else
+  67:main.c        ****     {
+  68:main.c        ****         //Display failure message
+  69:main.c        ****         UART_PutString("Failed to create\n \r");
+ 234              		.loc 1 69 0
  235 00c0 5E48     		ldr	r0, .L17+36
  236 00c2 FFF7FEFF 		bl	UART_PutString
-  91:main.c        ****         UART_PutString("directory\n \r");
- 237              		.loc 1 91 0
+  70:main.c        ****         UART_PutString("directory\n \r");
+ 237              		.loc 1 70 0
  238 00c6 5E48     		ldr	r0, .L17+40
  239 00c8 FFF7FEFF 		bl	UART_PutString
-  92:main.c        ****         UART_PutString("\n \r");
- 240              		.loc 1 92 0
+  71:main.c        ****         UART_PutString("\n \r");
+ 240              		.loc 1 71 0
  241 00cc 5348     		ldr	r0, .L17+4
  242 00ce FFF7FEFF 		bl	UART_PutString
-  93:main.c        ****         UART_PutString("\n \r");
- 243              		.loc 1 93 0
+  72:main.c        ****         UART_PutString("\n \r");
+ 243              		.loc 1 72 0
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cczDa0Vc.s 			page 8
+
+
  244 00d2 5248     		ldr	r0, .L17+4
  245 00d4 FFF7FEFF 		bl	UART_PutString
  246              	.L7:
-  94:main.c        ****     }
-  95:main.c        ****     
-  96:main.c        ****     /* Need some delay to indicate output on the LCD */
-  97:main.c        ****     CyDelay(2000u);
- 247              		.loc 1 97 0
+  73:main.c        ****     }
+  74:main.c        ****     
+  75:main.c        **** 
+  76:main.c        ****     CyDelay(2000u); //Need some delay to indicate output on the Serial monitor
+ 247              		.loc 1 76 0
  248 00d8 4FF4FA60 		mov	r0, #2000
  249 00dc FFF7FEFF 		bl	CyDelay
-  98:main.c        ****     
-  99:main.c        ****     /* Create specific file for modification */
- 100:main.c        ****     pFile = FS_FOpen(sdFile, "w");
- 250              		.loc 1 100 0
+  77:main.c        ****     
+  78:main.c        ****     //Create specific file for modification
+  79:main.c        ****     pFile = FS_FOpen(sdFile, "w");
+ 250              		.loc 1 79 0
  251 00e0 5849     		ldr	r1, .L17+44
  252 00e2 5948     		ldr	r0, .L17+48
  253 00e4 FFF7FEFF 		bl	FS_FOpen
  254 00e8 F860     		str	r0, [r7, #12]
- 101:main.c        ****     
- 102:main.c        ****     /* Check if file was created */
- 103:main.c        ****     if(pFile)
- 255              		.loc 1 103 0
+  80:main.c        ****     
+  81:main.c        ****     if(pFile) //Check if file was created
+ 255              		.loc 1 81 0
  256 00ea FB68     		ldr	r3, [r7, #12]
  257 00ec 002B     		cmp	r3, #0
  258 00ee 57D0     		beq	.L8
- 104:main.c        ****     {
- 105:main.c        ****         /* Indicate successful file creation message */
- 106:main.c        ****         UART_PutString("File \n \r");
- 259              		.loc 1 106 0
+  82:main.c        ****     {
+  83:main.c        ****         //Indicate successful file creation message
+  84:main.c        ****         UART_PutString("File \n \r");
+ 259              		.loc 1 84 0
  260 00f0 5648     		ldr	r0, .L17+52
  261 00f2 FFF7FEFF 		bl	UART_PutString
- 107:main.c        ****         UART_PutString(sdFile);
- 262              		.loc 1 107 0
+  85:main.c        ****         UART_PutString(sdFile);
+ 262              		.loc 1 85 0
  263 00f6 5448     		ldr	r0, .L17+48
  264 00f8 FFF7FEFF 		bl	UART_PutString
- 108:main.c        ****         UART_PutString("was opened\n \r");
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccS3Fs31.s 			page 9
-
-
- 265              		.loc 1 108 0
+  86:main.c        ****         UART_PutString("was opened\n \r");
+ 265              		.loc 1 86 0
  266 00fc 5448     		ldr	r0, .L17+56
  267 00fe FFF7FEFF 		bl	UART_PutString
- 109:main.c        ****         UART_PutString("\n \r");
- 268              		.loc 1 109 0
+  87:main.c        ****         UART_PutString("\n \r");
+ 268              		.loc 1 87 0
  269 0102 4648     		ldr	r0, .L17+4
  270 0104 FFF7FEFF 		bl	UART_PutString
- 110:main.c        ****         UART_PutString("\n \r");
- 271              		.loc 1 110 0
+  88:main.c        ****         UART_PutString("\n \r");
+ 271              		.loc 1 88 0
  272 0108 4448     		ldr	r0, .L17+4
  273 010a FFF7FEFF 		bl	UART_PutString
- 111:main.c        ****         
- 112:main.c        ****         /* Need some delay to indicate output on the LCD */
- 113:main.c        ****         CyDelay(2000u);
- 274              		.loc 1 113 0
+  89:main.c        ****         
+  90:main.c        ****         //Need some delay to indicate output on the Serial monitor
+  91:main.c        ****         CyDelay(2000u);
+ 274              		.loc 1 91 0
  275 010e 4FF4FA60 		mov	r0, #2000
  276 0112 FFF7FEFF 		bl	CyDelay
- 114:main.c        ****         
- 115:main.c        ****         if(0 != FS_Write(pFile, "0123456789", 10u)) 
- 277              		.loc 1 115 0
+  92:main.c        ****         
+  93:main.c        ****         if(0 != FS_Write(pFile, "0123456789", 10u)) 
+ 277              		.loc 1 93 0
  278 0116 0A22     		movs	r2, #10
  279 0118 4E49     		ldr	r1, .L17+60
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cczDa0Vc.s 			page 9
+
+
  280 011a F868     		ldr	r0, [r7, #12]
  281 011c FFF7FEFF 		bl	FS_Write
  282 0120 0346     		mov	r3, r0
  283 0122 002B     		cmp	r3, #0
  284 0124 0FD0     		beq	.L9
- 116:main.c        ****         {
- 117:main.c        ****             /* Inditate that data was written to a file */
- 118:main.c        ****             UART_PutString("\"0123456789\"\n \r");
- 285              		.loc 1 118 0
+  94:main.c        ****         {
+  95:main.c        ****             //Inditate that data was written to a file
+  96:main.c        ****             UART_PutString("\"0123456789\"\n \r");
+ 285              		.loc 1 96 0
  286 0126 4C48     		ldr	r0, .L17+64
  287 0128 FFF7FEFF 		bl	UART_PutString
- 119:main.c        ****             UART_PutString(sdFile);
- 288              		.loc 1 119 0
+  97:main.c        ****             UART_PutString(sdFile);
+ 288              		.loc 1 97 0
  289 012c 4648     		ldr	r0, .L17+48
  290 012e FFF7FEFF 		bl	UART_PutString
- 120:main.c        ****             UART_PutString("written to file\n \r");
- 291              		.loc 1 120 0
+  98:main.c        ****             UART_PutString("written to file\n \r");
+ 291              		.loc 1 98 0
  292 0132 4A48     		ldr	r0, .L17+68
  293 0134 FFF7FEFF 		bl	UART_PutString
- 121:main.c        ****             UART_PutString("\n \r");
- 294              		.loc 1 121 0
+  99:main.c        ****             UART_PutString("\n \r");
+ 294              		.loc 1 99 0
  295 0138 3848     		ldr	r0, .L17+4
  296 013a FFF7FEFF 		bl	UART_PutString
- 122:main.c        ****             UART_PutString("\n \r");
- 297              		.loc 1 122 0
+ 100:main.c        ****             UART_PutString("\n \r");
+ 297              		.loc 1 100 0
  298 013e 3748     		ldr	r0, .L17+4
  299 0140 FFF7FEFF 		bl	UART_PutString
  300 0144 0BE0     		b	.L10
  301              	.L9:
- 123:main.c        ****         }
- 124:main.c        ****         else
- 125:main.c        ****         {
- 126:main.c        ****             UART_PutString("Failed to write\n \r");
- 302              		.loc 1 126 0
+ 101:main.c        ****         }
+ 102:main.c        ****         else
+ 103:main.c        ****         {
+ 104:main.c        ****             //Display failure message
+ 105:main.c        ****             UART_PutString("Failed to write\n \r");
+ 302              		.loc 1 105 0
  303 0146 4648     		ldr	r0, .L17+72
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccS3Fs31.s 			page 10
-
-
  304 0148 FFF7FEFF 		bl	UART_PutString
- 127:main.c        ****             UART_PutString("data to file\n \r");
- 305              		.loc 1 127 0
+ 106:main.c        ****             UART_PutString("data to file\n \r");
+ 305              		.loc 1 106 0
  306 014c 4548     		ldr	r0, .L17+76
  307 014e FFF7FEFF 		bl	UART_PutString
- 128:main.c        ****             UART_PutString("\n \r");
- 308              		.loc 1 128 0
+ 107:main.c        ****             UART_PutString("\n \r");
+ 308              		.loc 1 107 0
  309 0152 3248     		ldr	r0, .L17+4
  310 0154 FFF7FEFF 		bl	UART_PutString
- 129:main.c        ****             UART_PutString("\n \r");
- 311              		.loc 1 129 0
+ 108:main.c        ****             UART_PutString("\n \r");
+ 311              		.loc 1 108 0
  312 0158 3048     		ldr	r0, .L17+4
  313 015a FFF7FEFF 		bl	UART_PutString
  314              	.L10:
- 130:main.c        ****         }
- 131:main.c        ****         
- 132:main.c        ****         /* Need some delay to indicate output on the LCD */
- 133:main.c        ****         CyDelay(2000u);
- 315              		.loc 1 133 0
+ 109:main.c        ****         }
+ 110:main.c        ****         
+ 111:main.c        ****         //Need some delay to indicate output on the Serial monitor
+ 112:main.c        ****         CyDelay(2000u);
+ 315              		.loc 1 112 0
  316 015e 4FF4FA60 		mov	r0, #2000
  317 0162 FFF7FEFF 		bl	CyDelay
- 134:main.c        ****         
- 135:main.c        ****         if(0 == FS_FClose(pFile))
- 318              		.loc 1 135 0
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cczDa0Vc.s 			page 10
+
+
+ 113:main.c        ****         
+ 114:main.c        ****         if(0 == FS_FClose(pFile)) //Closing the file
+ 318              		.loc 1 114 0
  319 0166 F868     		ldr	r0, [r7, #12]
  320 0168 FFF7FEFF 		bl	FS_FClose
  321 016c 0346     		mov	r3, r0
  322 016e 002B     		cmp	r3, #0
  323 0170 09D1     		bne	.L11
- 136:main.c        ****         {
- 137:main.c        ****             UART_PutString("File was closed\n \r");
- 324              		.loc 1 137 0
+ 115:main.c        ****         {
+ 116:main.c        ****             //Succesfull closure
+ 117:main.c        ****             UART_PutString("File was closed\n \r");
+ 324              		.loc 1 117 0
  325 0172 3D48     		ldr	r0, .L17+80
  326 0174 FFF7FEFF 		bl	UART_PutString
- 138:main.c        ****             UART_PutString("\n \r");
- 327              		.loc 1 138 0
+ 118:main.c        ****             UART_PutString("\n \r");
+ 327              		.loc 1 118 0
  328 0178 2848     		ldr	r0, .L17+4
  329 017a FFF7FEFF 		bl	UART_PutString
- 139:main.c        ****             UART_PutString("\n \r");
- 330              		.loc 1 139 0
+ 119:main.c        ****             UART_PutString("\n \r");
+ 330              		.loc 1 119 0
  331 017e 2748     		ldr	r0, .L17+4
  332 0180 FFF7FEFF 		bl	UART_PutString
  333 0184 18E0     		b	.L13
  334              	.L11:
- 140:main.c        ****         }
- 141:main.c        ****         else
- 142:main.c        ****         {
- 143:main.c        ****             UART_PutString("Failed to close\n \r");
- 335              		.loc 1 143 0
+ 120:main.c        ****         }
+ 121:main.c        ****         else
+ 122:main.c        ****         {
+ 123:main.c        ****             //Display failure message
+ 124:main.c        ****             UART_PutString("Failed to close\n \r");
+ 335              		.loc 1 124 0
  336 0186 3948     		ldr	r0, .L17+84
  337 0188 FFF7FEFF 		bl	UART_PutString
- 144:main.c        ****             UART_PutString("file\n \r");
- 338              		.loc 1 144 0
+ 125:main.c        ****             UART_PutString("file\n \r");
+ 338              		.loc 1 125 0
  339 018c 3848     		ldr	r0, .L17+88
  340 018e FFF7FEFF 		bl	UART_PutString
- 145:main.c        ****             UART_PutString("\n \r");
- 341              		.loc 1 145 0
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccS3Fs31.s 			page 11
-
-
+ 126:main.c        ****             UART_PutString("\n \r");
+ 341              		.loc 1 126 0
  342 0192 2248     		ldr	r0, .L17+4
  343 0194 FFF7FEFF 		bl	UART_PutString
- 146:main.c        ****             UART_PutString("\n \r");
- 344              		.loc 1 146 0
+ 127:main.c        ****             UART_PutString("\n \r");
+ 344              		.loc 1 127 0
  345 0198 2048     		ldr	r0, .L17+4
  346 019a FFF7FEFF 		bl	UART_PutString
  347 019e 0BE0     		b	.L13
  348              	.L8:
- 147:main.c        ****         }
- 148:main.c        ****     }
- 149:main.c        ****     else
- 150:main.c        ****     {
- 151:main.c        ****         UART_PutString("Failed to create\n \r");
- 349              		.loc 1 151 0
+ 128:main.c        ****         }
+ 129:main.c        ****     }
+ 130:main.c        ****     else
+ 131:main.c        ****     {
+ 132:main.c        ****         //Display failure message
+ 133:main.c        ****         UART_PutString("Failed to create\n \r");
+ 349              		.loc 1 133 0
  350 01a0 2648     		ldr	r0, .L17+36
  351 01a2 FFF7FEFF 		bl	UART_PutString
- 152:main.c        ****         UART_PutString("file\n \r");
- 352              		.loc 1 152 0
+ 134:main.c        ****         UART_PutString("file\n \r");
+ 352              		.loc 1 134 0
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cczDa0Vc.s 			page 11
+
+
  353 01a6 3248     		ldr	r0, .L17+88
  354 01a8 FFF7FEFF 		bl	UART_PutString
- 153:main.c        ****         UART_PutString("\n \r");
- 355              		.loc 1 153 0
+ 135:main.c        ****         UART_PutString("\n \r");
+ 355              		.loc 1 135 0
  356 01ac 1B48     		ldr	r0, .L17+4
  357 01ae FFF7FEFF 		bl	UART_PutString
- 154:main.c        ****         UART_PutString("\n \r");
- 358              		.loc 1 154 0
+ 136:main.c        ****         UART_PutString("\n \r");
+ 358              		.loc 1 136 0
  359 01b2 1A48     		ldr	r0, .L17+4
  360 01b4 FFF7FEFF 		bl	UART_PutString
  361              	.L13:
- 155:main.c        ****     }
- 156:main.c        ****     
- 157:main.c        ****     /* Need some delay to indicate output on the LCD */
- 158:main.c        ****     CyDelay(2000u);
- 362              		.loc 1 158 0
+ 137:main.c        ****     }
+ 138:main.c        ****     
+ 139:main.c        ****     //Need some delay to indicate output on the Serial monitor
+ 140:main.c        ****     CyDelay(2000u);
+ 362              		.loc 1 140 0
  363 01b8 4FF4FA60 		mov	r0, #2000
  364 01bc FFF7FEFF 		bl	CyDelay
- 159:main.c        ****     
- 160:main.c        ****     
- 161:main.c        ****     /* Copy a file to a previously created directory */
- 162:main.c        ****     if(0 == FS_CopyFile(sdFile, "\\Dir\\file1.txt"))
- 365              		.loc 1 162 0
+ 141:main.c        ****     
+ 142:main.c        ****     if(0 == FS_CopyFile(sdFile, "\\Dir\\file1.txt")) //Copy a file to a previously created director
+ 365              		.loc 1 142 0
  366 01c0 2C49     		ldr	r1, .L17+92
  367 01c2 2148     		ldr	r0, .L17+48
  368 01c4 FFF7FEFF 		bl	FS_CopyFile
  369 01c8 0346     		mov	r3, r0
  370 01ca 002B     		cmp	r3, #0
  371 01cc 0CD1     		bne	.L14
- 163:main.c        ****     {
- 164:main.c        ****         UART_PutString("File was \n \r");
- 372              		.loc 1 164 0
+ 143:main.c        ****     {
+ 144:main.c        ****         UART_PutString("File was \n \r");
+ 372              		.loc 1 144 0
  373 01ce 2A48     		ldr	r0, .L17+96
  374 01d0 FFF7FEFF 		bl	UART_PutString
- 165:main.c        ****         UART_PutString("copied to \"DIR\"\n \r");
- 375              		.loc 1 165 0
+ 145:main.c        ****         UART_PutString("copied to \"DIR\"\n \r");
+ 375              		.loc 1 145 0
  376 01d4 2948     		ldr	r0, .L17+100
  377 01d6 FFF7FEFF 		bl	UART_PutString
- 166:main.c        ****         UART_PutString("\n \r");
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccS3Fs31.s 			page 12
-
-
- 378              		.loc 1 166 0
+ 146:main.c        ****         UART_PutString("\n \r");
+ 378              		.loc 1 146 0
  379 01da 1048     		ldr	r0, .L17+4
  380 01dc FFF7FEFF 		bl	UART_PutString
- 167:main.c        ****         UART_PutString("\n \r");
- 381              		.loc 1 167 0
+ 147:main.c        ****         UART_PutString("\n \r");
+ 381              		.loc 1 147 0
  382 01e0 0E48     		ldr	r0, .L17+4
  383 01e2 FFF7FEFF 		bl	UART_PutString
  384 01e6 0BE0     		b	.L15
  385              	.L14:
- 168:main.c        ****     }
- 169:main.c        ****     else
- 170:main.c        ****     {
- 171:main.c        ****         UART_PutString("Failed to copy\n \r");
- 386              		.loc 1 171 0
+ 148:main.c        ****     }
+ 149:main.c        ****     else
+ 150:main.c        ****     {
+ 151:main.c        ****         UART_PutString("Failed to copy\n \r");
+ 386              		.loc 1 151 0
  387 01e8 2548     		ldr	r0, .L17+104
  388 01ea FFF7FEFF 		bl	UART_PutString
- 172:main.c        ****         UART_PutString("file\n \r");
- 389              		.loc 1 172 0
+ 152:main.c        ****         UART_PutString("file\n \r");
+ 389              		.loc 1 152 0
  390 01ee 2048     		ldr	r0, .L17+88
  391 01f0 FFF7FEFF 		bl	UART_PutString
- 173:main.c        ****         UART_PutString("\n \r");
- 392              		.loc 1 173 0
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cczDa0Vc.s 			page 12
+
+
+ 153:main.c        ****         UART_PutString("\n \r");
+ 392              		.loc 1 153 0
  393 01f4 0948     		ldr	r0, .L17+4
  394 01f6 FFF7FEFF 		bl	UART_PutString
- 174:main.c        ****         UART_PutString("\n \r");
- 395              		.loc 1 174 0
+ 154:main.c        ****         UART_PutString("\n \r");
+ 395              		.loc 1 154 0
  396 01fa 0848     		ldr	r0, .L17+4
  397 01fc FFF7FEFF 		bl	UART_PutString
  398              	.L15:
- 175:main.c        ****     }
- 176:main.c        ****     
- 177:main.c        ****     /* Need some delay to indicate output on the LCD */
- 178:main.c        ****     CyDelay(2000);
- 399              		.loc 1 178 0
+ 155:main.c        ****     }
+ 156:main.c        ****     
+ 157:main.c        ****     CyDelay(2000); //Need some delay to indicate output on the Serial monitor
+ 399              		.loc 1 157 0
  400 0200 4FF4FA60 		mov	r0, #2000
  401 0204 FFF7FEFF 		bl	CyDelay
- 179:main.c        ****     
- 180:main.c        ****     UART_PutString("Example project\n \r");
- 402              		.loc 1 180 0
+ 158:main.c        ****     
+ 159:main.c        ****     //Finish even though we are Danish :3
+ 160:main.c        ****     UART_PutString("Example project\n \r");
+ 402              		.loc 1 160 0
  403 0208 1E48     		ldr	r0, .L17+108
  404 020a FFF7FEFF 		bl	UART_PutString
- 181:main.c        ****     UART_PutString("completed\n \r");
- 405              		.loc 1 181 0
+ 161:main.c        ****     UART_PutString("completed\n \r");
+ 405              		.loc 1 161 0
  406 020e 1E48     		ldr	r0, .L17+112
  407 0210 FFF7FEFF 		bl	UART_PutString
  408              	.L16:
- 182:main.c        ****     
- 183:main.c        ****     for(;;)
- 184:main.c        ****     {
- 185:main.c        ****         
- 186:main.c        ****     }
- 409              		.loc 1 186 0 discriminator 1
+ 162:main.c        ****     
+ 163:main.c        ****     for(;;)
+ 164:main.c        ****     {
+ 165:main.c        ****         
+ 166:main.c        ****     }
+ 409              		.loc 1 166 0 discriminator 1
  410 0214 FEE7     		b	.L16
  411              	.L18:
  412 0216 00BF     		.align	2
  413              	.L17:
  414 0218 00000000 		.word	.LC0
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccS3Fs31.s 			page 13
-
-
  415 021c 14000000 		.word	.LC1
  416 0220 18000000 		.word	.LC2
  417 0224 2C000000 		.word	.LC3
@@ -741,6 +718,9 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccS3Fs31.s 			page 1
  432 0260 F8000000 		.word	.LC17
  433 0264 0C010000 		.word	.LC18
  434 0268 1C010000 		.word	.LC19
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cczDa0Vc.s 			page 13
+
+
  435 026c 30010000 		.word	.LC20
  436 0270 44010000 		.word	.LC21
  437 0274 4C010000 		.word	.LC22
@@ -778,9 +758,6 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccS3Fs31.s 			page 1
  469 0028 36010000 		.4byte	.LASF0
  470 002c 02       		.uleb128 0x2
  471 002d 01       		.byte	0x1
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccS3Fs31.s 			page 14
-
-
  472 002e 08       		.byte	0x8
  473 002f 06010000 		.4byte	.LASF1
  474 0033 02       		.uleb128 0x2
@@ -801,6 +778,9 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccS3Fs31.s 			page 1
  489 004e 05       		.byte	0x5
  490 004f 19010000 		.4byte	.LASF4
  491 0053 02       		.uleb128 0x2
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cczDa0Vc.s 			page 14
+
+
  492 0054 04       		.byte	0x4
  493 0055 07       		.byte	0x7
  494 0056 34000000 		.4byte	.LASF5
@@ -838,9 +818,6 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccS3Fs31.s 			page 1
  526 0091 08       		.byte	0x8
  527 0092 14010000 		.4byte	.LASF13
  528 0096 02       		.uleb128 0x2
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccS3Fs31.s 			page 15
-
-
  529 0097 08       		.byte	0x8
  530 0098 04       		.byte	0x4
  531 0099 42010000 		.4byte	.LASF14
@@ -861,7 +838,10 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccS3Fs31.s 			page 1
  546 00ba 07       		.uleb128 0x7
  547 00bb 2F000000 		.4byte	.LASF24
  548 00bf 01       		.byte	0x1
- 549 00c0 19       		.byte	0x19
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cczDa0Vc.s 			page 15
+
+
+ 549 00c0 0A       		.byte	0xa
  550 00c1 68000000 		.4byte	0x68
  551 00c5 00000000 		.4byte	.LFB63
  552 00c9 8C020000 		.4byte	.LFE63-.LFB63
@@ -871,7 +851,7 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccS3Fs31.s 			page 1
  556 00d3 08       		.uleb128 0x8
  557 00d4 58010000 		.4byte	.LASF17
  558 00d8 01       		.byte	0x1
- 559 00d9 1D       		.byte	0x1d
+ 559 00d9 0E       		.byte	0xe
  560 00da F0000000 		.4byte	0xf0
  561 00de 02       		.uleb128 0x2
  562 00df 91       		.byte	0x91
@@ -879,7 +859,7 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccS3Fs31.s 			page 1
  564 00e1 08       		.uleb128 0x8
  565 00e2 0E000000 		.4byte	.LASF18
  566 00e6 01       		.byte	0x1
- 567 00e7 1E       		.byte	0x1e
+ 567 00e7 0F       		.byte	0xf
  568 00e8 B4000000 		.4byte	0xb4
  569 00ec 02       		.uleb128 0x2
  570 00ed 91       		.byte	0x91
@@ -898,9 +878,6 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccS3Fs31.s 			page 1
  583 0106 1207     		.2byte	0x712
  584 0108 0C010000 		.4byte	0x10c
  585 010c 0C       		.uleb128 0xc
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccS3Fs31.s 			page 16
-
-
  586 010d 76000000 		.4byte	0x76
  587 0111 09       		.uleb128 0x9
  588 0112 8F000000 		.4byte	0x8f
@@ -912,7 +889,7 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccS3Fs31.s 			page 1
  594 0121 0D       		.uleb128 0xd
  595 0122 21000000 		.4byte	.LASF20
  596 0126 01       		.byte	0x1
- 597 0127 16       		.byte	0x16
+ 597 0127 07       		.byte	0x7
  598 0128 11010000 		.4byte	0x111
  599 012c 05       		.uleb128 0x5
  600 012d 03       		.byte	0x3
@@ -921,6 +898,9 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccS3Fs31.s 			page 1
  603              		.section	.debug_abbrev,"",%progbits
  604              	.Ldebug_abbrev0:
  605 0000 01       		.uleb128 0x1
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cczDa0Vc.s 			page 16
+
+
  606 0001 11       		.uleb128 0x11
  607 0002 01       		.byte	0x1
  608 0003 25       		.uleb128 0x25
@@ -958,9 +938,6 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccS3Fs31.s 			page 1
  640 0023 3A       		.uleb128 0x3a
  641 0024 0B       		.uleb128 0xb
  642 0025 3B       		.uleb128 0x3b
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccS3Fs31.s 			page 17
-
-
  643 0026 0B       		.uleb128 0xb
  644 0027 49       		.uleb128 0x49
  645 0028 13       		.uleb128 0x13
@@ -981,6 +958,9 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccS3Fs31.s 			page 1
  660 0037 13       		.uleb128 0x13
  661 0038 00       		.byte	0
  662 0039 03       		.uleb128 0x3
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cczDa0Vc.s 			page 17
+
+
  663 003a 0E       		.uleb128 0xe
  664 003b 3C       		.uleb128 0x3c
  665 003c 19       		.uleb128 0x19
@@ -1018,9 +998,6 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccS3Fs31.s 			page 1
  697 005d 19       		.uleb128 0x19
  698 005e 01       		.uleb128 0x1
  699 005f 13       		.uleb128 0x13
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccS3Fs31.s 			page 18
-
-
  700 0060 00       		.byte	0
  701 0061 00       		.byte	0
  702 0062 08       		.uleb128 0x8
@@ -1041,6 +1018,9 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccS3Fs31.s 			page 1
  717 0071 09       		.uleb128 0x9
  718 0072 01       		.uleb128 0x1
  719 0073 01       		.byte	0x1
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cczDa0Vc.s 			page 18
+
+
  720 0074 49       		.uleb128 0x49
  721 0075 13       		.uleb128 0x13
  722 0076 01       		.uleb128 0x1
@@ -1078,9 +1058,6 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccS3Fs31.s 			page 1
  754 0096 00       		.byte	0
  755 0097 49       		.uleb128 0x49
  756 0098 13       		.uleb128 0x13
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccS3Fs31.s 			page 19
-
-
  757 0099 00       		.byte	0
  758 009a 00       		.byte	0
  759 009b 0D       		.uleb128 0xd
@@ -1101,6 +1078,9 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccS3Fs31.s 			page 1
  774 00aa 00       		.byte	0
  775 00ab 00       		.byte	0
  776 00ac 00       		.byte	0
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cczDa0Vc.s 			page 19
+
+
  777              		.section	.debug_aranges,"",%progbits
  778 0000 1C000000 		.4byte	0x1c
  779 0004 0200     		.2byte	0x2
@@ -1138,9 +1118,6 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccS3Fs31.s 			page 1
  803 0014 756E7369 		.ascii	"unsigned int\000"
  803      676E6564 
  803      20696E74 
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccS3Fs31.s 			page 20
-
-
  803      00
  804              	.LASF20:
  805 0021 73644669 		.ascii	"sdFile\000"
@@ -1161,6 +1138,9 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccS3Fs31.s 			page 1
  813 0046 6C6F6E67 		.ascii	"long long unsigned int\000"
  813      206C6F6E 
  813      6720756E 
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cczDa0Vc.s 			page 20
+
+
  813      7369676E 
  813      65642069 
  814              	.LASF3:
@@ -1198,9 +1178,6 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccS3Fs31.s 			page 1
  825      00
  826              	.LASF4:
  827 0119 6C6F6E67 		.ascii	"long int\000"
-ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccS3Fs31.s 			page 21
-
-
  827      20696E74 
  827      00
  828              	.LASF12:
@@ -1221,6 +1198,9 @@ ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\ccS3Fs31.s 			page 1
  835      626C6500 
  836              	.LASF9:
  837 014e 5F5F696E 		.ascii	"__int32_t\000"
+ARM GAS  C:\Users\ALBERT~1\AppData\Local\Temp\cczDa0Vc.s 			page 21
+
+
  837      7433325F 
  837      7400
  838              	.LASF17:

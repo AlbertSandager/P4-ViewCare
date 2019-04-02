@@ -1,6 +1,6 @@
 // ======================================================================
 // SDCard.v generated from TopDesign.cysch
-// 04/02/2019 at 09:10
+// 04/02/2019 at 11:09
 // This file is auto generated. ANY EDITS YOU MAKE MAY BE LOST WHEN THIS FILE IS REGENERATED!!!
 // ======================================================================
 
@@ -233,7 +233,7 @@ module SPI_Master_v2_40_0 (
 
 endmodule
 
-// emFile_v1_20(Max_SPI_Frequency=4000, NumberSDCards=1, WP0_En=true, WP1_En=false, WP2_En=false, WP3_En=false, CY_API_CALLBACK_HEADER_INCLUDE=#include "cyapicallbacks.h", CY_COMMENT=, CY_COMPONENT_NAME=emFile_v1_20, CY_CONFIG_TITLE=emFile, CY_CONST_CONFIG=true, CY_CONTROL_FILE=<:default:>, CY_DATASHEET_FILE=<:default:>, CY_FITTER_NAME=emFile, CY_INSTANCE_SHORT_NAME=emFile, CY_MAJOR_VERSION=1, CY_MINOR_VERSION=20, CY_PDL_DRIVER_NAME=, CY_PDL_DRIVER_REQ_VERSION=, CY_PDL_DRIVER_SUBGROUP=, CY_PDL_DRIVER_VARIANT=, CY_REMOVE=false, CY_SUPPRESS_API_GEN=false, CY_VERSION=PSoC Creator  4.2, INSTANCE_NAME=emFile, )
+// emFile_v1_20(Max_SPI_Frequency=4000, NumberSDCards=1, WP0_En=false, WP1_En=false, WP2_En=false, WP3_En=false, CY_API_CALLBACK_HEADER_INCLUDE=#include "cyapicallbacks.h", CY_COMMENT=, CY_COMPONENT_NAME=emFile_v1_20, CY_CONFIG_TITLE=emFile, CY_CONST_CONFIG=true, CY_CONTROL_FILE=<:default:>, CY_DATASHEET_FILE=<:default:>, CY_FITTER_NAME=emFile, CY_INSTANCE_SHORT_NAME=emFile, CY_MAJOR_VERSION=1, CY_MINOR_VERSION=20, CY_PDL_DRIVER_NAME=, CY_PDL_DRIVER_REQ_VERSION=, CY_PDL_DRIVER_SUBGROUP=, CY_PDL_DRIVER_VARIANT=, CY_REMOVE=false, CY_SUPPRESS_API_GEN=false, CY_VERSION=PSoC Creator  4.2, INSTANCE_NAME=emFile, )
 module emFile_v1_20_1 ;
 
 
@@ -583,159 +583,6 @@ module emFile_v1_20_1 ;
 
 	assign tmpOE__SPI0_CS_net = (`CYDEV_CHIP_MEMBER_USED == `CYDEV_CHIP_MEMBER_3A && `CYDEV_CHIP_REVISION_USED < `CYDEV_CHIP_REVISION_3A_ES3) ? ~{1'b1} : {1'b1};
 
-	wire [0:0] tmpOE__SPI0_WP_net;
-	wire [0:0] tmpFB_0__SPI0_WP_net;
-	wire [0:0] tmpIO_0__SPI0_WP_net;
-	wire [0:0] tmpINTERRUPT_0__SPI0_WP_net;
-	electrical [0:0] tmpSIOVREF__SPI0_WP_net;
-
-	cy_psoc3_pins_v1_10
-		#(.id("ac3fc79b-d037-410a-85bf-25d6a39ccf23/9ab8a957-50a1-4a0d-b612-96faedd4be5f"),
-		  .drive_mode(3'b001),
-		  .ibuf_enabled(1'b1),
-		  .init_dr_st(1'b0),
-		  .input_clk_en(0),
-		  .input_sync(1'b0),
-		  .input_sync_mode(1'b0),
-		  .intr_mode(2'b00),
-		  .invert_in_clock(0),
-		  .invert_in_clock_en(0),
-		  .invert_in_reset(0),
-		  .invert_out_clock(0),
-		  .invert_out_clock_en(0),
-		  .invert_out_reset(0),
-		  .io_voltage(""),
-		  .layout_mode("CONTIGUOUS"),
-		  .oe_conn(1'b0),
-		  .oe_reset(0),
-		  .oe_sync(1'b0),
-		  .output_clk_en(0),
-		  .output_clock_mode(1'b0),
-		  .output_conn(1'b0),
-		  .output_mode(1'b0),
-		  .output_reset(0),
-		  .output_sync(1'b0),
-		  .pa_in_clock(-1),
-		  .pa_in_clock_en(-1),
-		  .pa_in_reset(-1),
-		  .pa_out_clock(-1),
-		  .pa_out_clock_en(-1),
-		  .pa_out_reset(-1),
-		  .pin_aliases(""),
-		  .pin_mode("I"),
-		  .por_state(4),
-		  .sio_group_cnt(0),
-		  .sio_hyst(1'b0),
-		  .sio_ibuf(""),
-		  .sio_info(2'b00),
-		  .sio_obuf(""),
-		  .sio_refsel(""),
-		  .sio_vtrip(""),
-		  .slew_rate(1'b0),
-		  .spanning(0),
-		  .use_annotation(1'b0),
-		  .vtrip(2'b00),
-		  .width(1))
-		SPI0_WP
-		 (.oe(tmpOE__SPI0_WP_net),
-		  .y({1'b0}),
-		  .fb({tmpFB_0__SPI0_WP_net[0:0]}),
-		  .io({tmpIO_0__SPI0_WP_net[0:0]}),
-		  .siovref(tmpSIOVREF__SPI0_WP_net),
-		  .interrupt({tmpINTERRUPT_0__SPI0_WP_net[0:0]}),
-		  .in_clock({1'b0}),
-		  .in_clock_en({1'b1}),
-		  .in_reset({1'b0}),
-		  .out_clock({1'b0}),
-		  .out_clock_en({1'b1}),
-		  .out_reset({1'b0}));
-
-	assign tmpOE__SPI0_WP_net = (`CYDEV_CHIP_MEMBER_USED == `CYDEV_CHIP_MEMBER_3A && `CYDEV_CHIP_REVISION_USED < `CYDEV_CHIP_REVISION_3A_ES3) ? ~{1'b1} : {1'b1};
-
-
-
-endmodule
-
-// CharLCD_v2_20(ConversionRoutines=true, CUSTOM0=0,E,8,8,8,E,0, CUSTOM1=0,A,A,4,4,4,0, CUSTOM2=0,E,A,E,8,8,0, CUSTOM3=0,E,A,C,A,A,0, CUSTOM4=0,E,8,C,8,E,0, CUSTOM5=0,E,8,E,2,E,0, CUSTOM6=0,E,8,E,2,E,0, CUSTOM7=0,4,4,4,0,4,0, CustomCharacterSet=0, TypeReplacementString=uint8, CY_API_CALLBACK_HEADER_INCLUDE=#include "cyapicallbacks.h", CY_COMMENT=, CY_COMPONENT_NAME=CharLCD_v2_20, CY_CONFIG_TITLE=LCD, CY_CONST_CONFIG=true, CY_CONTROL_FILE=<:default:>, CY_DATASHEET_FILE=<:default:>, CY_FITTER_NAME=LCD, CY_INSTANCE_SHORT_NAME=LCD, CY_MAJOR_VERSION=2, CY_MINOR_VERSION=20, CY_PDL_DRIVER_NAME=, CY_PDL_DRIVER_REQ_VERSION=, CY_PDL_DRIVER_SUBGROUP=, CY_PDL_DRIVER_VARIANT=, CY_REMOVE=false, CY_SUPPRESS_API_GEN=false, CY_VERSION=PSoC Creator  4.2, INSTANCE_NAME=LCD, )
-module CharLCD_v2_20_2 ;
-
-
-
-	wire [6:0] tmpOE__LCDPort_net;
-	wire [6:0] tmpFB_6__LCDPort_net;
-	wire [6:0] tmpIO_6__LCDPort_net;
-	wire [0:0] tmpINTERRUPT_0__LCDPort_net;
-	electrical [0:0] tmpSIOVREF__LCDPort_net;
-
-	cy_psoc3_pins_v1_10
-		#(.id("a9ca66e8-e0c9-4707-9b40-84ea1286e3e0/ed092b9b-d398-4703-be89-cebf998501f6"),
-		  .drive_mode(21'b110_110_110_110_110_110_110),
-		  .ibuf_enabled(7'b1_1_1_1_1_1_1),
-		  .init_dr_st(7'b0_0_0_0_0_0_0),
-		  .input_clk_en(0),
-		  .input_sync(7'b1_1_1_1_1_1_1),
-		  .input_sync_mode(7'b0_0_0_0_0_0_0),
-		  .intr_mode(14'b00_00_00_00_00_00_00),
-		  .invert_in_clock(0),
-		  .invert_in_clock_en(0),
-		  .invert_in_reset(0),
-		  .invert_out_clock(0),
-		  .invert_out_clock_en(0),
-		  .invert_out_reset(0),
-		  .io_voltage(",,,,,,"),
-		  .layout_mode("CONTIGUOUS"),
-		  .oe_conn(7'b0_0_0_0_0_0_0),
-		  .oe_reset(0),
-		  .oe_sync(7'b0_0_0_0_0_0_0),
-		  .output_clk_en(0),
-		  .output_clock_mode(7'b0_0_0_0_0_0_0),
-		  .output_conn(7'b0_0_0_0_0_0_0),
-		  .output_mode(7'b0_0_0_0_0_0_0),
-		  .output_reset(0),
-		  .output_sync(7'b0_0_0_0_0_0_0),
-		  .pa_in_clock(-1),
-		  .pa_in_clock_en(-1),
-		  .pa_in_reset(-1),
-		  .pa_out_clock(-1),
-		  .pa_out_clock_en(-1),
-		  .pa_out_reset(-1),
-		  .pin_aliases(",,,,,,"),
-		  .pin_mode("OOOOOOO"),
-		  .por_state(4),
-		  .sio_group_cnt(0),
-		  .sio_hyst(7'b1_1_1_1_1_1_1),
-		  .sio_ibuf(""),
-		  .sio_info(14'b00_00_00_00_00_00_00),
-		  .sio_obuf(""),
-		  .sio_refsel(""),
-		  .sio_vtrip(""),
-		  .sio_hifreq(""),
-		  .sio_vohsel(""),
-		  .slew_rate(7'b0_0_0_0_0_0_0),
-		  .spanning(0),
-		  .use_annotation(7'b0_0_0_0_0_0_0),
-		  .vtrip(14'b10_10_10_10_10_10_10),
-		  .width(7),
-		  .ovt_hyst_trim(7'b0_0_0_0_0_0_0),
-		  .ovt_needed(7'b0_0_0_0_0_0_0),
-		  .ovt_slew_control(14'b00_00_00_00_00_00_00),
-		  .input_buffer_sel(14'b00_00_00_00_00_00_00))
-		LCDPort
-		 (.oe(tmpOE__LCDPort_net),
-		  .y({7'b0}),
-		  .fb({tmpFB_6__LCDPort_net[6:0]}),
-		  .io({tmpIO_6__LCDPort_net[6:0]}),
-		  .siovref(tmpSIOVREF__LCDPort_net),
-		  .interrupt({tmpINTERRUPT_0__LCDPort_net[0:0]}),
-		  .in_clock({1'b0}),
-		  .in_clock_en({1'b1}),
-		  .in_reset({1'b0}),
-		  .out_clock({1'b0}),
-		  .out_clock_en({1'b1}),
-		  .out_reset({1'b0}));
-
-	assign tmpOE__LCDPort_net = (`CYDEV_CHIP_MEMBER_USED == `CYDEV_CHIP_MEMBER_3A && `CYDEV_CHIP_REVISION_USED < `CYDEV_CHIP_REVISION_3A_ES3) ? ~{7'b1111111} : {7'b1111111};
-
 
 
 endmodule
@@ -754,7 +601,7 @@ endmodule
 `endif
 
 // UART_v2_50(Address1=0, Address2=0, BaudRate=9600, BreakBitsRX=13, BreakBitsTX=13, BreakDetect=false, CRCoutputsEn=false, Enable_RX=1, Enable_RXIntInterrupt=0, Enable_TX=1, Enable_TXIntInterrupt=0, EnableHWAddress=0, EnIntRXInterrupt=false, EnIntTXInterrupt=false, FlowControl=0, HalfDuplexEn=false, HwTXEnSignal=true, InternalClock=true, InternalClockToleranceMinus=3.93736842105263, InternalClockTolerancePlus=3.93736842105263, InternalClockUsed=1, InterruptOnAddDetect=0, InterruptOnAddressMatch=0, InterruptOnBreak=0, InterruptOnByteRcvd=1, InterruptOnOverrunError=0, InterruptOnParityError=0, InterruptOnStopError=0, InterruptOnTXComplete=false, InterruptOnTXFifoEmpty=false, InterruptOnTXFifoFull=false, InterruptOnTXFifoNotFull=false, IntOnAddressDetect=false, IntOnAddressMatch=false, IntOnBreak=false, IntOnByteRcvd=true, IntOnOverrunError=false, IntOnParityError=false, IntOnStopError=false, NumDataBits=8, NumStopBits=1, OverSamplingRate=8, ParityType=0, ParityTypeSw=false, RequiredClock=76800, RXAddressMode=0, RXBufferSize=4, RxBuffRegSizeReplacementString=uint8, RXEnable=true, TXBitClkGenDP=true, TXBufferSize=4, TxBuffRegSizeReplacementString=uint8, TXEnable=true, Use23Polling=true, CY_API_CALLBACK_HEADER_INCLUDE=#include "cyapicallbacks.h", CY_COMMENT=, CY_COMPONENT_NAME=UART_v2_50, CY_CONFIG_TITLE=UART, CY_CONST_CONFIG=true, CY_CONTROL_FILE=<:default:>, CY_DATASHEET_FILE=<:default:>, CY_FITTER_NAME=UART, CY_INSTANCE_SHORT_NAME=UART, CY_MAJOR_VERSION=2, CY_MINOR_VERSION=50, CY_PDL_DRIVER_NAME=, CY_PDL_DRIVER_REQ_VERSION=, CY_PDL_DRIVER_SUBGROUP=, CY_PDL_DRIVER_VARIANT=, CY_REMOVE=false, CY_SUPPRESS_API_GEN=false, CY_VERSION=PSoC Creator  4.2, INSTANCE_NAME=UART, )
-module UART_v2_50_3 (
+module UART_v2_50_2 (
     cts_n,
     tx,
     rts_n,
@@ -872,9 +719,7 @@ module top ;
 
     emFile_v1_20_1 emFile ();
 
-    CharLCD_v2_20_2 LCD ();
-
-    UART_v2_50_3 UART (
+    UART_v2_50_2 UART (
         .cts_n(1'b0),
         .tx(Net_3),
         .rts_n(Net_4),

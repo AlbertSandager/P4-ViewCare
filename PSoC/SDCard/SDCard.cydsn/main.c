@@ -1,9 +1,4 @@
-/*******************************************************************************
-* File Name: main.c
-*
-* Version: 1.10
-*
-* Description:
+/* Description:
 *  The example project consists of 5 simple steps. Each of the steps performs 
 *  single File System operation. 
 *  Step#1: Gets SD card name and displays it on the LCD.
@@ -16,17 +11,7 @@
 *  execution.
 *  Step#5: Copies newly created file ("File.txt") to directory "Dir" with the 
 *  name - "File1.txt". 
-*
-********************************************************************************
-* Copyright 2011-2012, Cypress Semiconductor Corporation. All rights reserved.
-* This software is owned by Cypress Semiconductor Corporation and is protected
-* by and subject to worldwide patent and copyright laws and treaties.
-* Therefore, you may use this software only as provided in the license agreement
-* accompanying the software package from which you obtained this software.
-* CYPRESS AND ITS SUPPLIERS MAKE NO WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
-* WITH REGARD TO THIS SOFTWARE, INCLUDING, BUT NOT LIMITED TO, NONINFRINGEMENT,
-* IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
-*******************************************************************************/
+*/
 
 #include <project.h>
 #include <FS.h>
@@ -37,33 +22,11 @@
 char sdFile[9] = "File.txt";
 
 
-void NextStep(U16 step, char * str)
-{
-    /* Clear LCD after previously completed operation */
-    LCD_ClearDisplay();
-    
-    /* This will display step number on the LCD prior
-    * every operation on the SD card.
-    */
-    LCD_Position(0u, 0u);
-    LCD_PrintString("Step#");
-    LCD_PrintDecUint16(step);
-    LCD_Position(1u, 0u);
-    LCD_PrintString(str);
-    
-    /* Need some delay to make step number visible */
-    CyDelay(2000u);
-    
-    /* Clear LCD after step number was prompted */
-    LCD_ClearDisplay();
-}
-
 int main()
 {
     CyGlobalIntEnable; /* Enable global interrupts. */
     
     char sdVolName[10];     /* Buffer that will hold SD card Volume name */
-    U16 step = 1u;
     FS_FILE * pFile;
     
     /* Start LCD */
@@ -109,7 +72,6 @@ int main()
     
     UART_PutString("DIRECTORY\n \r");
     
-    LCD_Position(0u, 0u);
     
     /* This will create directory "Dir" on SD card */
     if(0 == FS_MkDir("Dir"))

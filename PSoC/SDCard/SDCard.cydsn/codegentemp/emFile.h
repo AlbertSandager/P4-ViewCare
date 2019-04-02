@@ -34,7 +34,7 @@
 #define emFile_MAX_SPI_FREQ       (4000u)
 
 /* Enable Write Protect */
-#define emFile_WP0_EN             (1u)
+#define emFile_WP0_EN             (0u)
 #define emFile_WP1_EN             (0u)
 #define emFile_WP2_EN             (0u)
 #define emFile_WP3_EN             (0u)

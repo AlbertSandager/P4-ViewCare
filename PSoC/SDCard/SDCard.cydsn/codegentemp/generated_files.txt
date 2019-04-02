@@ -22,9 +22,6 @@
   <file name="C:\Users\Albert Sandager\Documents\GitHub\P4-ViewCare\PSoC\SDCard\SDCard.cydsn\codegentemp\emFile_ConfigMMC_SPI.c" value="SOURCE_C;CortexM3;;;;emFile" />
   <file name="C:\Users\Albert Sandager\Documents\GitHub\P4-ViewCare\PSoC\SDCard\SDCard.cydsn\codegentemp\emFile_MMC_HW_SPI.c" value="SOURCE_C;CortexM3;;;;emFile" />
   <file name="C:\Users\Albert Sandager\Documents\GitHub\P4-ViewCare\PSoC\SDCard\SDCard.cydsn\codegentemp\emFile_PM.c" value="SOURCE_C;CortexM3;;;;emFile" />
-  <file name="C:\Users\Albert Sandager\Documents\GitHub\P4-ViewCare\PSoC\SDCard\SDCard.cydsn\codegentemp\LCD.c" value="SOURCE_C;CortexM3;;;;LCD" />
-  <file name="C:\Users\Albert Sandager\Documents\GitHub\P4-ViewCare\PSoC\SDCard\SDCard.cydsn\codegentemp\LCD.h" value="HEADER;;;;;LCD" />
-  <file name="C:\Users\Albert Sandager\Documents\GitHub\P4-ViewCare\PSoC\SDCard\SDCard.cydsn\codegentemp\LCD_PM.c" value="SOURCE_C;CortexM3;;;;LCD" />
   <file name="C:\Users\Albert Sandager\Documents\GitHub\P4-ViewCare\PSoC\SDCard\SDCard.cydsn\codegentemp\UART.c" value="SOURCE_C;CortexM3;;;;UART" />
   <file name="C:\Users\Albert Sandager\Documents\GitHub\P4-ViewCare\PSoC\SDCard\SDCard.cydsn\codegentemp\UART.h" value="HEADER;;;;;UART" />
   <file name="C:\Users\Albert Sandager\Documents\GitHub\P4-ViewCare\PSoC\SDCard\SDCard.cydsn\codegentemp\UART_PM.c" value="SOURCE_C;CortexM3;;;;UART" />
@@ -49,12 +46,6 @@
   <file name="C:\Users\Albert Sandager\Documents\GitHub\P4-ViewCare\PSoC\SDCard\SDCard.cydsn\codegentemp\emFile_SPI0_CS_aliases.h" value="HEADER;;;;;emFile_SPI0_CS" />
   <file name="C:\Users\Albert Sandager\Documents\GitHub\P4-ViewCare\PSoC\SDCard\SDCard.cydsn\codegentemp\emFile_SPI0_CS.c" value="SOURCE_C;CortexM3;;;;emFile_SPI0_CS" />
   <file name="C:\Users\Albert Sandager\Documents\GitHub\P4-ViewCare\PSoC\SDCard\SDCard.cydsn\codegentemp\emFile_SPI0_CS.h" value="HEADER;;;;;emFile_SPI0_CS" />
-  <file name="C:\Users\Albert Sandager\Documents\GitHub\P4-ViewCare\PSoC\SDCard\SDCard.cydsn\codegentemp\emFile_SPI0_WP_aliases.h" value="HEADER;;;;;emFile_SPI0_WP" />
-  <file name="C:\Users\Albert Sandager\Documents\GitHub\P4-ViewCare\PSoC\SDCard\SDCard.cydsn\codegentemp\emFile_SPI0_WP.c" value="SOURCE_C;CortexM3;;;;emFile_SPI0_WP" />
-  <file name="C:\Users\Albert Sandager\Documents\GitHub\P4-ViewCare\PSoC\SDCard\SDCard.cydsn\codegentemp\emFile_SPI0_WP.h" value="HEADER;;;;;emFile_SPI0_WP" />
-  <file name="C:\Users\Albert Sandager\Documents\GitHub\P4-ViewCare\PSoC\SDCard\SDCard.cydsn\codegentemp\LCD_LCDPort_aliases.h" value="HEADER;;;;;LCD_LCDPort" />
-  <file name="C:\Users\Albert Sandager\Documents\GitHub\P4-ViewCare\PSoC\SDCard\SDCard.cydsn\codegentemp\LCD_LCDPort.c" value="SOURCE_C;CortexM3;;;;LCD_LCDPort" />
-  <file name="C:\Users\Albert Sandager\Documents\GitHub\P4-ViewCare\PSoC\SDCard\SDCard.cydsn\codegentemp\LCD_LCDPort.h" value="HEADER;;;;;LCD_LCDPort" />
   <file name="C:\Users\Albert Sandager\Documents\GitHub\P4-ViewCare\PSoC\SDCard\SDCard.cydsn\codegentemp\UART_IntClock.c" value="SOURCE_C;CortexM3;;;;UART_IntClock" />
   <file name="C:\Users\Albert Sandager\Documents\GitHub\P4-ViewCare\PSoC\SDCard\SDCard.cydsn\codegentemp\UART_IntClock.h" value="HEADER;;;;;UART_IntClock" />
   <file name="C:\Users\Albert Sandager\Documents\GitHub\P4-ViewCare\PSoC\SDCard\SDCard.cydsn\codegentemp\cm3gcc.ld" value="LINKER_SCRIPT;;;b98f980c-3bd1-4fc7-a887-c56a20a46fdd;;cy_boot" />

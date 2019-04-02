@@ -13,7 +13,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="SDCard\SDCard\Generated_Source\PSoC5\LCD_LCDPort">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="SDCard\SDCard\TopDesign">
 <ExpandedNodeIds>
 <v>SDCard</v>
 <v>SDCard\SDCard</v>
@@ -66,9 +66,6 @@
 <v>SDCard\SDCard\Generated_Source\PSoC5\emFile_sclk0</v>
 <v>SDCard\SDCard\Generated_Source\PSoC5\emFile_SPI0</v>
 <v>SDCard\SDCard\Generated_Source\PSoC5\emFile_SPI0_CS</v>
-<v>SDCard\SDCard\Generated_Source\PSoC5\emFile_SPI0_WP</v>
-<v>SDCard\SDCard\Generated_Source\PSoC5\LCD</v>
-<v>SDCard\SDCard\Generated_Source\PSoC5\LCD_LCDPort</v>
 <v>SDCard\SDCard\Generated_Source\PSoC5\UART</v>
 <v>SDCard\SDCard\Generated_Source\PSoC5\UART_IntClock</v>
 <v>SDCard\SDCard\Generated_Source\PSoC5\cycodeshareexport.ld</v>
@@ -76,12 +73,6 @@
 <v>SDCard\SDCard\Generated_Source\PSoC5\cycodeshareimport.scat</v>
 <v>SDCard\SDCard\Generated_Source\PSoC5\cydevice.h</v>
 <v>SDCard\SDCard\Generated_Source\PSoC5\cydevice_trm.h</v>
-<v>SDCard\SDCard\Generated_Source\PSoC5\cydevicegnu.inc</v>
-<v>SDCard\SDCard\Generated_Source\PSoC5\cydevicegnu_trm.inc</v>
-<v>SDCard\SDCard\Generated_Source\PSoC5\cydeviceiar.inc</v>
-<v>SDCard\SDCard\Generated_Source\PSoC5\cydeviceiar_trm.inc</v>
-<v>SDCard\SDCard\Generated_Source\PSoC5\cydevicerv.inc</v>
-<v>SDCard\SDCard\Generated_Source\PSoC5\cydevicerv_trm.inc</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -128,10 +119,6 @@
 <v>SDCard\SDCard\CortexM3\ARM_GCC_541\Debug\Listing Files\emFile_SPI0_CS.lst</v>
 <v>SDCard\SDCard\CortexM3\ARM_GCC_541\Debug\Listing Files\emFile_SPI0_INT.lst</v>
 <v>SDCard\SDCard\CortexM3\ARM_GCC_541\Debug\Listing Files\emFile_SPI0_PM.lst</v>
-<v>SDCard\SDCard\CortexM3\ARM_GCC_541\Debug\Listing Files\emFile_SPI0_WP.lst</v>
-<v>SDCard\SDCard\CortexM3\ARM_GCC_541\Debug\Listing Files\LCD.lst</v>
-<v>SDCard\SDCard\CortexM3\ARM_GCC_541\Debug\Listing Files\LCD_LCDPort.lst</v>
-<v>SDCard\SDCard\CortexM3\ARM_GCC_541\Debug\Listing Files\LCD_PM.lst</v>
 <v>SDCard\SDCard\CortexM3\ARM_GCC_541\Debug\Listing Files\main.lst</v>
 <v>SDCard\SDCard\CortexM3\ARM_GCC_541\Debug\Listing Files\UART.lst</v>
 <v>SDCard\SDCard\CortexM3\ARM_GCC_541\Debug\Listing Files\UART_BOOT.lst</v>
@@ -174,10 +161,6 @@
 <v>SDCard\SDCard\CortexM3\ARM_GCC_541\Debug\Listing Files\emFile_SPI0_CS.lst</v>
 <v>SDCard\SDCard\CortexM3\ARM_GCC_541\Debug\Listing Files\emFile_SPI0_INT.lst</v>
 <v>SDCard\SDCard\CortexM3\ARM_GCC_541\Debug\Listing Files\emFile_SPI0_PM.lst</v>
-<v>SDCard\SDCard\CortexM3\ARM_GCC_541\Debug\Listing Files\emFile_SPI0_WP.lst</v>
-<v>SDCard\SDCard\CortexM3\ARM_GCC_541\Debug\Listing Files\LCD.lst</v>
-<v>SDCard\SDCard\CortexM3\ARM_GCC_541\Debug\Listing Files\LCD_LCDPort.lst</v>
-<v>SDCard\SDCard\CortexM3\ARM_GCC_541\Debug\Listing Files\LCD_PM.lst</v>
 <v>SDCard\SDCard\CortexM3\ARM_GCC_541\Debug\Listing Files\main.lst</v>
 <v>SDCard\SDCard\CortexM3\ARM_GCC_541\Debug\Listing Files\UART.lst</v>
 <v>SDCard\SDCard\CortexM3\ARM_GCC_541\Debug\Listing Files\UART_BOOT.lst</v>
@@ -186,10 +169,6 @@
 <v>SDCard\SDCard\CortexM3\ARM_GCC_541\Debug\Listing Files\UART_PM.lst</v>
 <v>SDCard\SDCard\CortexM3\ARM_GCC_541\Debug\SDCard.elf</v>
 <v>SDCard\SDCard\CortexM3\ARM_GCC_541\Debug\SDCard.hex</v>
-<v>SDCard\SDCard\CortexM3\ARM_GCC_541\Debug\SDCard.map</v>
-<v>SDCard\SDCard\SDCard.gpdsc</v>
-<v>SDCard\SDCard\SDCard.rpt</v>
-<v>SDCard\SDCard\SDCard_timing.html</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
@@ -205,7 +184,6 @@
 <v>SDCard\SDCard\CY8C58LP Family Datasheet</v>
 <v>SDCard\SDCard\System Reference Guides</v>
 <v>SDCard\SDCard\System Reference Guides\cy_boot_v5_60</v>
-<v>SDCard\SDCard\CharLCD_v2_20.pdf</v>
 <v>SDCard\SDCard\cy_pins_v2_20</v>
 <v>SDCard\SDCard\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
 <v>SDCard\SDCard\emFile_v1_20.pdf</v>
@@ -218,7 +196,6 @@
 <v>SDCard\SDCard\CY8C58LP Family Datasheet</v>
 <v>SDCard\SDCard\System Reference Guides</v>
 <v>SDCard\SDCard\System Reference Guides\cy_boot_v5_60</v>
-<v>SDCard\SDCard\CharLCD_v2_20.pdf</v>
 <v>SDCard\SDCard\cy_pins_v2_20</v>
 <v>SDCard\SDCard\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
 <v>SDCard\SDCard\emFile_v1_20.pdf</v>
@@ -242,7 +219,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="982, 655" SelectedTabbedMdiWindow="df64d784-04db-49ad-b5af-78a02df80fe9"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="8b71e467-4ae1-466d-bd94-242654e0832f" /><DocumentWindow Key="C:\Users\Albert Sandager\Documents\GitHub\P4-ViewCare\PSoC\SDCard\SDCard.cydsn\SDCard.cydwr" Guid="0f4d1f82-ce93-424c-bbb7-59868898acf6" /><DocumentWindow Key="C:\Users\Albert Sandager\Documents\GitHub\P4-ViewCare\PSoC\SDCard\SDCard.cydsn\main.c" Guid="df64d784-04db-49ad-b5af-78a02df80fe9" /><DocumentWindow Key="C:\Users\Albert Sandager\Documents\GitHub\P4-ViewCare\PSoC\SDCard\SDCard.cydsn\TopDesign\TopDesign.cysch" Guid="cb532b22-be59-4946-8679-c1f6028ebbd8" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="719, 495" SelectedTabbedMdiWindow="cb532b22-be59-4946-8679-c1f6028ebbd8"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="8b71e467-4ae1-466d-bd94-242654e0832f" /><DocumentWindow Key="C:\Users\Albert Sandager\Documents\GitHub\P4-ViewCare\PSoC\SDCard\SDCard.cydsn\SDCard.cydwr" Guid="0f4d1f82-ce93-424c-bbb7-59868898acf6" /><DocumentWindow Key="C:\Users\Albert Sandager\Documents\GitHub\P4-ViewCare\PSoC\SDCard\SDCard.cydsn\main.c" Guid="df64d784-04db-49ad-b5af-78a02df80fe9" /><DocumentWindow Key="C:\Users\Albert Sandager\Documents\GitHub\P4-ViewCare\PSoC\SDCard\SDCard.cydsn\TopDesign\TopDesign.cysch" Guid="cb532b22-be59-4946-8679-c1f6028ebbd8" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>

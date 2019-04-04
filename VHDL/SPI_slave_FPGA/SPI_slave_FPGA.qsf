@@ -54,10 +54,10 @@ set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
-set_location_assignment PIN_W17 -to miso
-set_location_assignment PIN_T15 -to mosi
-set_location_assignment PIN_V15 -to sclk
-set_location_assignment PIN_AB9 -to ss_n
+set_location_assignment PIN_AB18 -to miso
+set_location_assignment PIN_AA18 -to mosi
+set_location_assignment PIN_AA17 -to sclk
+set_location_assignment PIN_AB17 -to ss_n
 set_location_assignment PIN_J1 -to rx_data[7]
 set_location_assignment PIN_J2 -to rx_data[6]
 set_location_assignment PIN_J3 -to rx_data[5]

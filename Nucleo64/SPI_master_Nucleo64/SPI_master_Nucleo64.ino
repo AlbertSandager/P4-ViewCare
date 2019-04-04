@@ -8,7 +8,7 @@ void setup() {
   SPI.begin(); // wake up the SPI bus.
   SPI.setBitOrder(MSBFIRST); //MSB (most significant byte) first
   pinMode(3, INPUT_PULLUP);
-  SPI.setClockDivider(SPI_CLOCK_DIV8);
+  //SPI.setClockDivider(SPI_CLOCK_DIV4);
 
 }
 
@@ -18,7 +18,7 @@ void loop() {
 
   SPI.transfer(0); // send command byte
 
-  SPI.transfer(133); // send value (0~255)
+  SPI.transfer(55); // send value (0~255)
 
   digitalWrite(ss, HIGH);
 

@@ -14,72 +14,72 @@ Archive member included to satisfy reference by file (symbol)
                               .\CortexM3\ARM_GCC_541\Debug\SDCard.a(cyPm.o) (CyFlash_SetWaitCycles)
 .\CortexM3\ARM_GCC_541\Debug\SDCard.a(CySpc.o)
                               .\CortexM3\ARM_GCC_541\Debug\SDCard.a(CyFlash.o) (CySpcStart)
-..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_FormatSD.o)
+..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_FormatSD.o)
                               .\CortexM3\ARM_GCC_541\Debug\main.o (FS_FormatSD)
-..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Misc.o)
-                              ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_FormatSD.o) (FS_FAT_GetFATType)
-..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Open.o)
-                              ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Misc.o) (FS_FAT_InitDirEntryScan)
-..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Write.o)
-                              ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Misc.o) (FS_FAT_Close)
-..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_CLib.o)
-                              ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Open.o) (FS__CLIB_memcmp)
-..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_CopyFile.o)
+..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Misc.o)
+                              ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_FormatSD.o) (FS_FAT_GetFATType)
+..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Open.o)
+                              ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Misc.o) (FS_FAT_InitDirEntryScan)
+..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Write.o)
+                              ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Misc.o) (FS_FAT_Close)
+..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_CLib.o)
+                              ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Open.o) (FS__CLIB_memcmp)
+..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_CopyFile.o)
                               .\CortexM3\ARM_GCC_541\Debug\main.o (FS_CopyFile)
-..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Core.o)
-                              ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_FormatSD.o) (FS__DivideU32Up)
-..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Dir.o)
+..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Core.o)
+                              ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_FormatSD.o) (FS__DivideU32Up)
+..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Dir.o)
                               .\CortexM3\ARM_GCC_541\Debug\main.o (FS_MkDir)
-..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_GetFileSize.o)
-                              ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_CopyFile.o) (FS__GetFileSize)
-..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_LogBlock.o)
-                              ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_FormatSD.o) (FS_LB_GetStatus)
-..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_memcpy.o)
-                              ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Open.o) (FS_memcpy)
-..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Misc.o)
-                              ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_FormatSD.o) (FS__AllocSectorBuffer)
-..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Read.o)
-                              ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_CopyFile.o) (FS__Read)
-..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_SetEndOfFile.o)
-                              ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_CopyFile.o) (FS__SetEndOfFile)
-..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Storage.o)
+..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_GetFileSize.o)
+                              ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_CopyFile.o) (FS__GetFileSize)
+..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_LogBlock.o)
+                              ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_FormatSD.o) (FS_LB_GetStatus)
+..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_memcpy.o)
+                              ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Open.o) (FS_memcpy)
+..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Misc.o)
+                              ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_FormatSD.o) (FS__AllocSectorBuffer)
+..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Read.o)
+                              ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_CopyFile.o) (FS__Read)
+..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_SetEndOfFile.o)
+                              ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_CopyFile.o) (FS__SetEndOfFile)
+..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Storage.o)
                               .\CortexM3\ARM_GCC_541\Debug\main.o (FS_GetVolumeName)
-..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Time.o)
-                              ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_CopyFile.o) (FS__SetFileTimeEx)
-..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Unmount.o)
-                              ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Misc.o) (FS__UnmountForcedNL)
-..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Volume.o)
-                              ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Misc.o) (FS__AutoMount)
-..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Write.o)
-                              ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_CopyFile.o) (FS__Write)
-..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_CheckDisk.o)
-                              ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Volume.o) (FS_FAT__CheckDisk)
-..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Dir.o)
-                              ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Dir.o) (FS_FAT_ReadDir)
-..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_DirEntry.o)
-                              ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Misc.o) (FS_FAT_SetDirEntryInfo)
-..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_DiskInfo.o)
-                              ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Volume.o) (FS_FAT_GetDiskInfo)
-..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Format.o)
-                              ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_FormatSD.o) (FS_FAT_FormatEx)
-..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Read.o)
-                              ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Read.o) (FS_FAT_Read)
-..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_SetEndOfFile.o)
-                              ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_SetEndOfFile.o) (FS_FAT_SetEndOfFile)
-..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_VolumeLabel.o)
-                              ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Volume.o) (FS_FAT_SetVolumeLabel)
-..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Attrib.o)
-                              ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_CopyFile.o) (FS__GetFileAttributes)
-..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Partition.o)
-                              ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Volume.o) (FS__LocatePartition)
+..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Time.o)
+                              ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_CopyFile.o) (FS__SetFileTimeEx)
+..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Unmount.o)
+                              ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Misc.o) (FS__UnmountForcedNL)
+..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Volume.o)
+                              ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Misc.o) (FS__AutoMount)
+..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Write.o)
+                              ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_CopyFile.o) (FS__Write)
+..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_CheckDisk.o)
+                              ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Volume.o) (FS_FAT__CheckDisk)
+..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Dir.o)
+                              ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Dir.o) (FS_FAT_ReadDir)
+..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_DirEntry.o)
+                              ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Misc.o) (FS_FAT_SetDirEntryInfo)
+..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_DiskInfo.o)
+                              ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Volume.o) (FS_FAT_GetDiskInfo)
+..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Format.o)
+                              ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_FormatSD.o) (FS_FAT_FormatEx)
+..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Read.o)
+                              ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Read.o) (FS_FAT_Read)
+..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_SetEndOfFile.o)
+                              ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_SetEndOfFile.o) (FS_FAT_SetEndOfFile)
+..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_VolumeLabel.o)
+                              ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Volume.o) (FS_FAT_SetVolumeLabel)
+..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Attrib.o)
+                              ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_CopyFile.o) (FS__GetFileAttributes)
+..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Partition.o)
+                              ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Volume.o) (FS__LocatePartition)
 .\CortexM3\ARM_GCC_541\Debug\SDCard.a(emFile_ConfigMMC_SPI.o)
-                              ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Core.o) (FS_X_AddDevices)
-..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(MMC_Drv.o)
+                              ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Core.o) (FS_X_AddDevices)
+..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(MMC_Drv.o)
                               .\CortexM3\ARM_GCC_541\Debug\SDCard.a(emFile_ConfigMMC_SPI.o) (FS_MMC_SPI_Driver)
-..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_CRC16.o)
-                              ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(MMC_Drv.o) (FS_CRC16_Calc)
+..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_CRC16.o)
+                              ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(MMC_Drv.o) (FS_CRC16_Calc)
 .\CortexM3\ARM_GCC_541\Debug\SDCard.a(emFile_MMC_HW_SPI.o)
-                              ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(MMC_Drv.o) (FS_MMC_HW_X_EnableCS)
+                              ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(MMC_Drv.o) (FS_MMC_HW_X_EnableCS)
 .\CortexM3\ARM_GCC_541\Debug\SDCard.a(emFile_SPI0.o)
                               .\CortexM3\ARM_GCC_541\Debug\SDCard.a(emFile_MMC_HW_SPI.o) (emFile_SPI0_ReadTxStatus)
 .\CortexM3\ARM_GCC_541\Debug\SDCard.a(emFile_Clock_1.o)
@@ -95,24 +95,24 @@ c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.
 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-init.o)
                               c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/crt0.o (__libc_init_array)
 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-memcmp.o)
-                              ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_CheckDisk.o) (memcmp)
+                              ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_CheckDisk.o) (memcmp)
 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-memcpy-stub.o)
                               .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o (memcpy)
 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-memset.o)
                               c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m/crt0.o (memset)
 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-strlen.o)
-                              ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Storage.o) (strlen)
+                              ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Storage.o) (strlen)
 
 Allocating common symbols
 Common symbol       size              file
 
-FS_Global           0x84              ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Core.o)
+FS_Global           0x84              ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Core.o)
 emFile_SPI0_swStatusTx
                     0x1               .\CortexM3\ARM_GCC_541\Debug\SDCard.a(emFile_SPI0.o)
 FS_NumBytesAllocated
-                    0x4               ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Core.o)
+                    0x4               ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Core.o)
 FS_STORAGE_Counters
-                    0x14              ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Storage.o)
+                    0x14              ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Storage.o)
 dieTemperature      0x2               .\CortexM3\ARM_GCC_541\Debug\SDCard.a(CyFlash.o)
 emFile_SPI0_swStatusRx
                     0x1               .\CortexM3\ARM_GCC_541\Debug\SDCard.a(emFile_SPI0.o)
@@ -471,408 +471,408 @@ Discarded input sections
                 0x00000000       0x50 .\CortexM3\ARM_GCC_541\Debug\SDCard.a(CySpc.o)
  .text.CySpcGetAlgorithm
                 0x00000000       0x44 .\CortexM3\ARM_GCC_541\Debug\SDCard.a(CySpc.o)
- .text          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_FormatSD.o)
- .data          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_FormatSD.o)
- .bss           0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_FormatSD.o)
- .text          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Misc.o)
- .bss           0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Misc.o)
+ .text          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_FormatSD.o)
+ .data          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_FormatSD.o)
+ .bss           0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_FormatSD.o)
+ .text          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Misc.o)
+ .bss           0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Misc.o)
  .text.FS_FAT_GetIndexOfLastSector
-                0x00000000       0x18 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Misc.o)
+                0x00000000       0x18 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Misc.o)
  .text.FS_FAT_AllocClusterBlock
-                0x00000000       0x64 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Misc.o)
+                0x00000000       0x64 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Misc.o)
  .text.FS_FAT_GrowRootDir
-                0x00000000       0xb0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Misc.o)
+                0x00000000       0xb0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Misc.o)
  .text.FS_FAT_OpenJournalFile
-                0x00000000       0x44 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Misc.o)
+                0x00000000       0x44 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Misc.o)
  .text.FS_FAT_CreateJournalFile
-                0x00000000       0xd4 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Misc.o)
+                0x00000000       0xd4 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Misc.o)
  .rodata.str1.1
-                0x00000000        0xc ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Misc.o)
- .text          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Open.o)
- .data          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Open.o)
- .bss           0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Open.o)
+                0x00000000        0xc ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Misc.o)
+ .text          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Open.o)
+ .data          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Open.o)
+ .bss           0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Open.o)
  .text.FS_FAT_WriteDirEntryShort
-                0x00000000       0x3c ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Open.o)
- .text          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Write.o)
- .data          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Write.o)
- .bss           0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Write.o)
+                0x00000000       0x3c ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Open.o)
+ .text          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Write.o)
+ .data          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Write.o)
+ .bss           0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Write.o)
  .text.FS_FAT_Clean
-                0x00000000       0x54 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Write.o)
- .text          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_CLib.o)
- .data          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_CLib.o)
- .bss           0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_CLib.o)
+                0x00000000       0x54 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Write.o)
+ .text          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_CLib.o)
+ .data          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_CLib.o)
+ .bss           0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_CLib.o)
  .text.FS__CLIB_strncat
-                0x00000000       0x2e ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_CLib.o)
+                0x00000000       0x2e ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_CLib.o)
  .text.FS__CLIB_strcat
-                0x00000000       0x20 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_CLib.o)
+                0x00000000       0x20 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_CLib.o)
  .text.FS__CLIB_strcpy
-                0x00000000       0x1c ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_CLib.o)
+                0x00000000       0x1c ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_CLib.o)
  .text.FS__CLIB_atoi
-                0x00000000       0x9c ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_CLib.o)
- .text          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_CopyFile.o)
- .data          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_CopyFile.o)
- .bss           0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_CopyFile.o)
+                0x00000000       0x9c ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_CLib.o)
+ .text          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_CopyFile.o)
+ .data          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_CopyFile.o)
+ .bss           0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_CopyFile.o)
  .text.FS_CopyFileEx
-                0x00000000       0x12 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_CopyFile.o)
- .text          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Core.o)
- .data          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Core.o)
+                0x00000000       0x12 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_CopyFile.o)
+ .text          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Core.o)
+ .data          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Core.o)
  .text.FS_SetMemAccessCallback
-                0x00000000        0x2 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Core.o)
+                0x00000000        0x2 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Core.o)
  .text.FS_LoadU16BE
-                0x00000000        0xa ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Core.o)
+                0x00000000        0xa ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Core.o)
  .text.FS_StoreU16BE
-                0x00000000        0x8 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Core.o)
+                0x00000000        0x8 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Core.o)
  .text.FS_StoreU32BE
-                0x00000000       0x14 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Core.o)
+                0x00000000       0x14 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Core.o)
  .text.FS_StoreU24LE
-                0x00000000       0x10 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Core.o)
+                0x00000000       0x10 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Core.o)
  .text.FS_SetMaxSectorSize
-                0x00000000       0x18 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Core.o)
+                0x00000000       0x18 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Core.o)
  .text.FS_SetMemHandler
-                0x00000000        0x2 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Core.o)
+                0x00000000        0x2 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Core.o)
  .text.FS_GetMaxSectorSize
-                0x00000000        0xc ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Core.o)
+                0x00000000        0xc ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Core.o)
  .text.FS_BITFIELD_CalcNumBitsUsed
-                0x00000000        0xc ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Core.o)
+                0x00000000        0xc ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Core.o)
  .text.FS_BITFIELD_ReadEntry
-                0x00000000       0x3e ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Core.o)
+                0x00000000       0x3e ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Core.o)
  .text.FS_BITFIELD_WriteEntry
-                0x00000000       0x38 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Core.o)
+                0x00000000       0x38 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Core.o)
  .text.FS_BITFIELD_CalcSize
-                0x00000000        0x8 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Core.o)
+                0x00000000        0x8 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Core.o)
  .text.FS_AllocZeroedPtr
-                0x00000000       0x1e ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Core.o)
+                0x00000000       0x1e ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Core.o)
  .text.FS_STORAGE_DeInit
-                0x00000000       0x20 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Core.o)
+                0x00000000       0x20 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Core.o)
  .text.FS_DeInit
-                0x00000000       0x54 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Core.o)
+                0x00000000       0x54 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Core.o)
  .text.FS_SetBusyLEDCallback
-                0x00000000       0x12 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Core.o)
- .text          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Dir.o)
- .data          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Dir.o)
- .bss           0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Dir.o)
+                0x00000000       0x12 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Core.o)
+ .text          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Dir.o)
+ .data          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Dir.o)
+ .bss           0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Dir.o)
  .text.FS__FindClose
-                0x00000000        0x6 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Dir.o)
+                0x00000000        0x6 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Dir.o)
  .text.FS_FindClose
-                0x00000000        0x4 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Dir.o)
+                0x00000000        0x4 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Dir.o)
  .text.FS__FindNextFile
-                0x00000000       0x52 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Dir.o)
+                0x00000000       0x52 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Dir.o)
  .text.FS_FindNextFile
-                0x00000000        0xa ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Dir.o)
+                0x00000000        0xa ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Dir.o)
  .text.FS__FindFirstFileEx
-                0x00000000       0x86 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Dir.o)
+                0x00000000       0x86 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Dir.o)
  .text.FS__FindFirstFile
-                0x00000000       0x2e ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Dir.o)
+                0x00000000       0x2e ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Dir.o)
  .text.FS_FindFirstFile
-                0x00000000        0xa ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Dir.o)
+                0x00000000        0xa ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Dir.o)
  .text.FS__RmDir
-                0x00000000       0x58 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Dir.o)
+                0x00000000       0x58 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Dir.o)
  .text.FS_RmDir
-                0x00000000        0x4 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Dir.o)
- .text          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_GetFileSize.o)
- .data          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_GetFileSize.o)
- .bss           0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_GetFileSize.o)
+                0x00000000        0x4 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Dir.o)
+ .text          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_GetFileSize.o)
+ .data          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_GetFileSize.o)
+ .bss           0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_GetFileSize.o)
  .text.FS_GetFileSize
-                0x00000000        0x4 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_GetFileSize.o)
- .text          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_LogBlock.o)
- .data          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_LogBlock.o)
- .bss           0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_LogBlock.o)
+                0x00000000        0x4 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_GetFileSize.o)
+ .text          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_LogBlock.o)
+ .data          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_LogBlock.o)
+ .bss           0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_LogBlock.o)
  .text.FS_LB_Ioctl
-                0x00000000       0x2a ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_LogBlock.o)
+                0x00000000       0x2a ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_LogBlock.o)
  .text.FS_LB_FreePartSectors
-                0x00000000       0x16 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_LogBlock.o)
- .text          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_memcpy.o)
- .data          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_memcpy.o)
- .bss           0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_memcpy.o)
- .text          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Misc.o)
- .data          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Misc.o)
- .bss           0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Misc.o)
+                0x00000000       0x16 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_LogBlock.o)
+ .text          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_memcpy.o)
+ .data          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_memcpy.o)
+ .bss           0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_memcpy.o)
+ .text          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Misc.o)
+ .data          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Misc.o)
+ .bss           0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Misc.o)
  .text._CalcSizeInKB
-                0x00000000       0x14 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Misc.o)
+                0x00000000       0x14 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Misc.o)
  .text.FS__GetFileObj
-                0x00000000        0x4 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Misc.o)
+                0x00000000        0x4 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Misc.o)
  .text.FS__FTell
-                0x00000000        0xa ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Misc.o)
+                0x00000000        0xa ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Misc.o)
  .text.FS__CalcSizeInBytes
-                0x00000000       0x20 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Misc.o)
+                0x00000000       0x20 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Misc.o)
  .text.FS__CalcSizeInKB
-                0x00000000        0x4 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Misc.o)
+                0x00000000        0x4 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Misc.o)
  .text.FS_FSeek
-                0x00000000        0x4 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Misc.o)
+                0x00000000        0x4 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Misc.o)
  .text.FS_FTell
-                0x00000000        0x4 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Misc.o)
- .text.FS_FEof  0x00000000       0x20 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Misc.o)
+                0x00000000        0x4 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Misc.o)
+ .text.FS_FEof  0x00000000       0x20 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Misc.o)
  .text.FS_FError
-                0x00000000        0xe ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Misc.o)
+                0x00000000        0xe ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Misc.o)
  .text.FS_ClearErr
-                0x00000000        0xa ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Misc.o)
+                0x00000000        0xa ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Misc.o)
  .text.FS_ConfigUpdateDirOnWrite
-                0x00000000       0x14 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Misc.o)
+                0x00000000       0x14 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Misc.o)
  .text.FS_SetFileWriteMode
-                0x00000000        0xc ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Misc.o)
+                0x00000000        0xc ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Misc.o)
  .text.FS__RemoveDevices
-                0x00000000       0x60 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Misc.o)
+                0x00000000       0x60 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Misc.o)
  .text.FS__RemoveDevice
-                0x00000000       0x9c ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Misc.o)
+                0x00000000       0x9c ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Misc.o)
  .text.FS_RemoveDevice
-                0x00000000       0x14 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Misc.o)
+                0x00000000       0x14 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Misc.o)
  .text.FS_Remove
-                0x00000000        0x4 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Misc.o)
- .text          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Read.o)
- .data          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Read.o)
- .bss           0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Read.o)
- .text.FS_Read  0x00000000        0x4 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Read.o)
- .text          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_SetEndOfFile.o)
- .data          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_SetEndOfFile.o)
- .bss           0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_SetEndOfFile.o)
+                0x00000000        0x4 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Misc.o)
+ .text          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Read.o)
+ .data          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Read.o)
+ .bss           0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Read.o)
+ .text.FS_Read  0x00000000        0x4 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Read.o)
+ .text          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_SetEndOfFile.o)
+ .data          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_SetEndOfFile.o)
+ .bss           0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_SetEndOfFile.o)
  .text.FS_SetEndOfFile
-                0x00000000        0xa ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_SetEndOfFile.o)
- .text          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Storage.o)
- .data          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Storage.o)
- .bss           0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Storage.o)
+                0x00000000        0xa ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_SetEndOfFile.o)
+ .text          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Storage.o)
+ .data          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Storage.o)
+ .bss           0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Storage.o)
  .text.FS__GetNumVolumes
-                0x00000000        0xc ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Storage.o)
+                0x00000000        0xc ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Storage.o)
  .text.FS_AddPhysDevice
-                0x00000000        0x4 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Storage.o)
+                0x00000000        0x4 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Storage.o)
  .text.FS_GetNumVolumes
-                0x00000000        0xc ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Storage.o)
+                0x00000000        0xc ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Storage.o)
  .text.FS_STORAGE_ResetCounters
-                0x00000000        0x2 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Storage.o)
+                0x00000000        0x2 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Storage.o)
  .text.FS_STORAGE_GetCounters
-                0x00000000        0x8 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Storage.o)
+                0x00000000        0x8 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Storage.o)
  .text.FS_FindVolume
-                0x00000000       0x58 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Storage.o)
+                0x00000000       0x58 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Storage.o)
  .text.FS_SetOnDeviceActivityHook
-                0x00000000       0x10 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Storage.o)
+                0x00000000       0x10 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Storage.o)
  .text.FS__GetVolumeStatus
-                0x00000000       0x18 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Storage.o)
+                0x00000000       0x18 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Storage.o)
  .text.FS_GetVolumeStatus
-                0x00000000       0x10 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Storage.o)
+                0x00000000       0x10 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Storage.o)
  .text.FS__GetDeviceInfo
-                0x00000000       0x28 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Storage.o)
+                0x00000000       0x28 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Storage.o)
  .text.FS_STORAGE_GetDeviceInfo
-                0x00000000       0x14 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Storage.o)
+                0x00000000       0x14 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Storage.o)
  .text.FS__ReadSectors
-                0x00000000       0x26 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Storage.o)
+                0x00000000       0x26 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Storage.o)
  .text.FS_STORAGE_ReadSectors
-                0x00000000       0x1c ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Storage.o)
+                0x00000000       0x1c ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Storage.o)
  .text.FS__WriteSectors
-                0x00000000       0x26 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Storage.o)
+                0x00000000       0x26 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Storage.o)
  .text.FS_STORAGE_WriteSectors
-                0x00000000       0x1c ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Storage.o)
+                0x00000000       0x1c ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Storage.o)
  .text.FS__ReadSector
-                0x00000000       0x22 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Storage.o)
+                0x00000000       0x22 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Storage.o)
  .text.FS_STORAGE_ReadSector
-                0x00000000       0x18 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Storage.o)
+                0x00000000       0x18 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Storage.o)
  .text.FS__WriteSector
-                0x00000000       0x22 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Storage.o)
+                0x00000000       0x22 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Storage.o)
  .text.FS_STORAGE_WriteSector
-                0x00000000       0x18 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Storage.o)
+                0x00000000       0x18 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Storage.o)
  .text.FS__IoCtlNL
-                0x00000000       0x36 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Storage.o)
+                0x00000000       0x36 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Storage.o)
  .text.FS__UnmountForcedLL
-                0x00000000       0x22 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Storage.o)
+                0x00000000       0x22 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Storage.o)
  .text.FS_STORAGE_UnmountForced
-                0x00000000       0x14 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Storage.o)
+                0x00000000       0x14 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Storage.o)
  .text.FS__UnmountLL
-                0x00000000       0x22 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Storage.o)
+                0x00000000       0x22 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Storage.o)
  .text.FS_STORAGE_Unmount
-                0x00000000       0x14 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Storage.o)
+                0x00000000       0x14 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Storage.o)
  .text.FS__IoCtl
-                0x00000000        0xa ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Storage.o)
+                0x00000000        0xa ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Storage.o)
  .text.FS_IoCtl
-                0x00000000       0x1a ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Storage.o)
+                0x00000000       0x1a ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Storage.o)
  .text.FS__STORAGE_Sync
-                0x00000000       0x10 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Storage.o)
+                0x00000000       0x10 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Storage.o)
  .text.FS_STORAGE_Sync
-                0x00000000       0x10 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Storage.o)
+                0x00000000       0x10 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Storage.o)
  .text.FS__IsLLFormatted
-                0x00000000       0x20 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Storage.o)
+                0x00000000       0x20 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Storage.o)
  .text.FS_IsLLFormatted
-                0x00000000       0x16 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Storage.o)
+                0x00000000       0x16 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Storage.o)
  .text.FS__FormatLow
-                0x00000000       0x1a ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Storage.o)
+                0x00000000       0x1a ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Storage.o)
  .text.FS_FormatLow
-                0x00000000       0x16 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Storage.o)
+                0x00000000       0x16 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Storage.o)
  .text.FS_FormatLLIfRequired
-                0x00000000       0x16 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Storage.o)
- COMMON         0x00000000       0x14 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Storage.o)
- .text          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Time.o)
- .data          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Time.o)
- .bss           0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Time.o)
+                0x00000000       0x16 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Storage.o)
+ COMMON         0x00000000       0x14 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Storage.o)
+ .text          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Time.o)
+ .data          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Time.o)
+ .bss           0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Time.o)
  .text.FS_TimeStampToFileTime
-                0x00000000       0x36 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Time.o)
+                0x00000000       0x36 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Time.o)
  .text.FS_FileTimeToTimeStamp
-                0x00000000       0x34 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Time.o)
+                0x00000000       0x34 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Time.o)
  .text.FS_SetFileTime
-                0x00000000        0x6 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Time.o)
+                0x00000000        0x6 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Time.o)
  .text.FS_SetFileTimeEx
-                0x00000000        0x4 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Time.o)
+                0x00000000        0x4 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Time.o)
  .text.FS_GetFileTime
-                0x00000000        0x6 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Time.o)
+                0x00000000        0x6 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Time.o)
  .text.FS_GetFileTimeEx
-                0x00000000        0x4 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Time.o)
- .text          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Unmount.o)
- .data          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Unmount.o)
- .bss           0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Unmount.o)
+                0x00000000        0x4 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Time.o)
+ .text          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Unmount.o)
+ .data          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Unmount.o)
+ .bss           0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Unmount.o)
  .text.FS__UnmountForcedNL
-                0x00000000       0x54 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Unmount.o)
+                0x00000000       0x54 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Unmount.o)
  .text.FS__UnmountForced
-                0x00000000        0x4 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Unmount.o)
+                0x00000000        0x4 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Unmount.o)
  .text.FS_UnmountForced
-                0x00000000       0x14 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Unmount.o)
+                0x00000000       0x14 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Unmount.o)
  .text.FS__Unmount
-                0x00000000       0x60 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Unmount.o)
+                0x00000000       0x60 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Unmount.o)
  .text.FS_Unmount
-                0x00000000       0x14 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Unmount.o)
+                0x00000000       0x14 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Unmount.o)
  .text.FS__UnmountNL
-                0x00000000       0x4c ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Unmount.o)
- .text          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Volume.o)
- .data          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Volume.o)
- .bss           0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Volume.o)
+                0x00000000       0x4c ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Unmount.o)
+ .text          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Volume.o)
+ .data          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Volume.o)
+ .bss           0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Volume.o)
  .text.FS_SetAutoMount
-                0x00000000       0x12 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Volume.o)
+                0x00000000       0x12 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Volume.o)
  .text.FS_IsVolumeMounted
-                0x00000000       0x18 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Volume.o)
+                0x00000000       0x18 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Volume.o)
  .text.FS__Sync
-                0x00000000       0x40 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Volume.o)
- .text.FS_Sync  0x00000000       0x16 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Volume.o)
+                0x00000000       0x40 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Volume.o)
+ .text.FS_Sync  0x00000000       0x16 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Volume.o)
  .text.FS__AutoMountNL
-                0x00000000       0x14 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Volume.o)
+                0x00000000       0x14 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Volume.o)
  .text._GetVolumeInfoEx
-                0x00000000       0x30 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Volume.o)
+                0x00000000       0x30 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Volume.o)
  .text.FS_CheckDisk
-                0x00000000       0x50 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Volume.o)
+                0x00000000       0x50 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Volume.o)
  .text.FS__GetVolumeInfoEx
-                0x00000000       0x24 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Volume.o)
+                0x00000000       0x24 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Volume.o)
  .text.FS_GetVolumeSizeKB
-                0x00000000       0x28 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Volume.o)
+                0x00000000       0x28 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Volume.o)
  .text.FS_GetVolumeSize
-                0x00000000       0x28 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Volume.o)
+                0x00000000       0x28 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Volume.o)
  .text.FS__GetVolumeInfo
-                0x00000000        0x6 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Volume.o)
+                0x00000000        0x6 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Volume.o)
  .text.FS_GetVolumeFreeSpaceKB
-                0x00000000       0x26 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Volume.o)
+                0x00000000       0x26 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Volume.o)
  .text.FS_GetVolumeFreeSpace
-                0x00000000       0x26 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Volume.o)
+                0x00000000       0x26 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Volume.o)
  .text.FS_GetVolumeInfo
-                0x00000000        0x4 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Volume.o)
+                0x00000000        0x4 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Volume.o)
  .text.FS_IsHLFormatted
-                0x00000000       0x1a ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Volume.o)
+                0x00000000       0x1a ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Volume.o)
  .text.FS_SetVolumeLabel
-                0x00000000       0x2a ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Volume.o)
+                0x00000000       0x2a ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Volume.o)
  .text.FS_GetVolumeLabel
-                0x00000000       0x32 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Volume.o)
+                0x00000000       0x32 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Volume.o)
  .text.FS__MountNL
-                0x00000000       0x20 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Volume.o)
+                0x00000000       0x20 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Volume.o)
  .text.FS__Mount
-                0x00000000        0x4 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Volume.o)
+                0x00000000        0x4 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Volume.o)
  .text.FS_MountEx
-                0x00000000       0x1a ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Volume.o)
+                0x00000000       0x1a ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Volume.o)
  .text.FS_Mount
-                0x00000000       0x18 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Volume.o)
- .text          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Write.o)
- .data          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Write.o)
- .bss           0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Write.o)
- .text          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_CheckDisk.o)
- .data          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_CheckDisk.o)
- .bss           0x00000000       0x10 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_CheckDisk.o)
+                0x00000000       0x18 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Volume.o)
+ .text          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Write.o)
+ .data          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Write.o)
+ .bss           0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Write.o)
+ .text          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_CheckDisk.o)
+ .data          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_CheckDisk.o)
+ .bss           0x00000000       0x10 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_CheckDisk.o)
  .text.FS_FAT_AbortCheckDisk
-                0x00000000        0xc ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_CheckDisk.o)
+                0x00000000        0xc ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_CheckDisk.o)
  .text._IsClusterEOC
-                0x00000000       0x42 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_CheckDisk.o)
+                0x00000000       0x42 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_CheckDisk.o)
  .text._CheckName
-                0x00000000       0x32 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_CheckDisk.o)
+                0x00000000       0x32 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_CheckDisk.o)
  .text._IsDotFolderEntryValid
-                0x00000000       0x2c ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_CheckDisk.o)
+                0x00000000       0x2c ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_CheckDisk.o)
  .text._CreateDirName
-                0x00000000       0x58 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_CheckDisk.o)
+                0x00000000       0x58 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_CheckDisk.o)
  .text._CreateFileName
-                0x00000000       0x6c ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_CheckDisk.o)
+                0x00000000       0x6c ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_CheckDisk.o)
  .text._SetFileLen
-                0x00000000       0x2e ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_CheckDisk.o)
+                0x00000000       0x2e ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_CheckDisk.o)
  .text._CheckFile
-                0x00000000      0x21e ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_CheckDisk.o)
+                0x00000000      0x21e ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_CheckDisk.o)
  .text._CheckDir
-                0x00000000      0x374 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_CheckDisk.o)
+                0x00000000      0x374 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_CheckDisk.o)
  .text.FS_FAT__CheckDisk
-                0x00000000      0x388 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_CheckDisk.o)
+                0x00000000      0x388 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_CheckDisk.o)
  .rodata.str1.1
-                0x00000000       0x29 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_CheckDisk.o)
- .text          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Dir.o)
- .data          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Dir.o)
- .bss           0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Dir.o)
+                0x00000000       0x29 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_CheckDisk.o)
+ .text          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Dir.o)
+ .data          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Dir.o)
+ .bss           0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Dir.o)
  .text.FS_FAT_CloseDir
-                0x00000000        0xc ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Dir.o)
+                0x00000000        0xc ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Dir.o)
  .text.FS_FAT_ReadDir
-                0x00000000       0x38 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Dir.o)
+                0x00000000       0x38 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Dir.o)
  .text.FS_FAT_RemoveDir
-                0x00000000       0x88 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Dir.o)
+                0x00000000       0x88 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Dir.o)
  .text.FS_FAT_OpenDir
-                0x00000000       0x72 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Dir.o)
- .text          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_DirEntry.o)
- .data          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_DirEntry.o)
- .bss           0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_DirEntry.o)
- .text          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_DiskInfo.o)
- .data          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_DiskInfo.o)
- .bss           0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_DiskInfo.o)
+                0x00000000       0x72 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Dir.o)
+ .text          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_DirEntry.o)
+ .data          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_DirEntry.o)
+ .bss           0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_DirEntry.o)
+ .text          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_DiskInfo.o)
+ .data          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_DiskInfo.o)
+ .bss           0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_DiskInfo.o)
  .text.FS_FAT_GetDiskSpace
-                0x00000000        0xe ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_DiskInfo.o)
+                0x00000000        0xe ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_DiskInfo.o)
  .text.FS_FAT_GetDiskInfo
-                0x00000000       0x84 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_DiskInfo.o)
- .text          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Format.o)
- .data          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Format.o)
- .bss           0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Format.o)
+                0x00000000       0x84 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_DiskInfo.o)
+ .text          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Format.o)
+ .data          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Format.o)
+ .bss           0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Format.o)
  .text.FS_FAT_Format
-                0x00000000       0x74 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Format.o)
- .text          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Read.o)
- .data          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Read.o)
- .bss           0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Read.o)
- .text          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_SetEndOfFile.o)
- .data          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_SetEndOfFile.o)
- .bss           0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_SetEndOfFile.o)
- .text          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_VolumeLabel.o)
- .data          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_VolumeLabel.o)
- .bss           0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_VolumeLabel.o)
+                0x00000000       0x74 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Format.o)
+ .text          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Read.o)
+ .data          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Read.o)
+ .bss           0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Read.o)
+ .text          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_SetEndOfFile.o)
+ .data          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_SetEndOfFile.o)
+ .bss           0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_SetEndOfFile.o)
+ .text          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_VolumeLabel.o)
+ .data          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_VolumeLabel.o)
+ .bss           0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_VolumeLabel.o)
  .text._FindVolumeDirEntry
-                0x00000000       0x3e ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_VolumeLabel.o)
+                0x00000000       0x3e ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_VolumeLabel.o)
  .text.FS_FAT_SetVolumeLabel
-                0x00000000       0xd6 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_VolumeLabel.o)
+                0x00000000       0xd6 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_VolumeLabel.o)
  .text.FS_FAT_GetVolumeLabel
-                0x00000000       0x5c ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_VolumeLabel.o)
- .text          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Attrib.o)
- .data          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Attrib.o)
- .bss           0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Attrib.o)
+                0x00000000       0x5c ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_VolumeLabel.o)
+ .text          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Attrib.o)
+ .data          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Attrib.o)
+ .bss           0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Attrib.o)
  .text.FS_GetFileAttributes
-                0x00000000        0x4 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Attrib.o)
+                0x00000000        0x4 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Attrib.o)
  .text.FS_SetFileAttributes
-                0x00000000        0x4 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Attrib.o)
- .text          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Partition.o)
- .data          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Partition.o)
- .bss           0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Partition.o)
+                0x00000000        0x4 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Attrib.o)
+ .text          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Partition.o)
+ .data          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Partition.o)
+ .bss           0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Partition.o)
  .text.FS__GetMediaStartSec
-                0x00000000       0x2a ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Partition.o)
+                0x00000000       0x2a ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Partition.o)
  .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\SDCard.a(emFile_ConfigMMC_SPI.o)
  .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\SDCard.a(emFile_ConfigMMC_SPI.o)
- .text          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(MMC_Drv.o)
+ .text          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(MMC_Drv.o)
  .text.FS_MMC_ActivateCRC
-                0x00000000       0x10 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(MMC_Drv.o)
+                0x00000000       0x10 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(MMC_Drv.o)
  .text.FS_MMC_DeactivateCRC
-                0x00000000       0x10 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(MMC_Drv.o)
+                0x00000000       0x10 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(MMC_Drv.o)
  .text._CalcDataCRC16ViaTable
-                0x00000000        0x6 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(MMC_Drv.o)
+                0x00000000        0x6 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(MMC_Drv.o)
  .text.FS_MMC_GetCardId
-                0x00000000       0x78 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(MMC_Drv.o)
- .text          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_CRC16.o)
- .data          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_CRC16.o)
- .bss           0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_CRC16.o)
+                0x00000000       0x78 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(MMC_Drv.o)
+ .text          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_CRC16.o)
+ .data          0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_CRC16.o)
+ .bss           0x00000000        0x0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_CRC16.o)
  .text.FS_CRC16_Calc
-                0x00000000       0x30 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_CRC16.o)
+                0x00000000       0x30 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_CRC16.o)
  .text.FS_CRC16_CalcBitByBit
-                0x00000000       0x30 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_CRC16.o)
+                0x00000000       0x30 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_CRC16.o)
  .text.FS_CRC16_Validate
-                0x00000000       0x32 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_CRC16.o)
- .rodata        0x00000000      0x200 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_CRC16.o)
+                0x00000000       0x32 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_CRC16.o)
+ .rodata        0x00000000      0x200 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_CRC16.o)
  .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\SDCard.a(emFile_MMC_HW_SPI.o)
  .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\SDCard.a(emFile_MMC_HW_SPI.o)
  .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\SDCard.a(emFile_SPI0.o)
@@ -985,7 +985,7 @@ LOAD .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
 LOAD .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
 LOAD .\CortexM3\ARM_GCC_541\Debug\SDCard.a
 LOAD C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM3\ARM_GCC_541\Debug\CyComponentLibrary.a
-LOAD ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a
+LOAD ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a
 END GROUP
 START GROUP
 LOAD c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a
@@ -1095,440 +1095,440 @@ END GROUP
                 0x00000be0                CyEnterCriticalSection
                 0x00000be8                CyExitCriticalSection
  .text.FS__SD_Format
-                0x00000bf0      0x26c ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_FormatSD.o)
+                0x00000bf0      0x26c ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_FormatSD.o)
                 0x00000bf0                FS__SD_Format
  .text.FS_FormatSD
-                0x00000e5c       0x10 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_FormatSD.o)
+                0x00000e5c       0x10 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_FormatSD.o)
                 0x00000e5c                FS_FormatSD
  .text._ClusterId2FATOff
-                0x00000e6c       0x18 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Misc.o)
+                0x00000e6c       0x18 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Misc.o)
  .text._CalcLogClusterPos
-                0x00000e84        0xe ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Misc.o)
+                0x00000e84        0xe ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Misc.o)
  .text._ReadFromFreeClusterCache
-                0x00000e92       0x46 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Misc.o)
+                0x00000e92       0x46 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Misc.o)
  .text.FS_FAT_GetFATType
-                0x00000ed8       0x1a ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Misc.o)
+                0x00000ed8       0x1a ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Misc.o)
                 0x00000ed8                FS_FAT_GetFATType
  .text.FS_FAT_ClusterId2SectorNo
-                0x00000ef2        0xc ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Misc.o)
+                0x00000ef2        0xc ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Misc.o)
                 0x00000ef2                FS_FAT_ClusterId2SectorNo
  .text.FS_FAT_IsValidShortNameChar
-                0x00000efe       0x34 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Misc.o)
+                0x00000efe       0x34 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Misc.o)
                 0x00000efe                FS_FAT_IsValidShortNameChar
  .text.FS_FAT_CopyShortName
-                0x00000f32       0x56 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Misc.o)
+                0x00000f32       0x56 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Misc.o)
                 0x00000f32                FS_FAT_CopyShortName
  .text._SFN_CreateDirEntry
-                0x00000f88       0x5a ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Misc.o)
+                0x00000f88       0x5a ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Misc.o)
  .text._SFN_FindDirEntry
-                0x00000fe2       0x10 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Misc.o)
+                0x00000fe2       0x10 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Misc.o)
  *fill*         0x00000ff2        0x2 
  .text.FS_FAT_FindDirEntry
-                0x00000ff4       0x60 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Misc.o)
+                0x00000ff4       0x60 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Misc.o)
                 0x00000ff4                FS_FAT_FindDirEntry
  .text.FS_FAT_CopyDirEntryInfo
-                0x00001054       0x50 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Misc.o)
+                0x00001054       0x50 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Misc.o)
                 0x00001054                FS_FAT_CopyDirEntryInfo
  .text._SFN_ReadDirEntryInfo
-                0x000010a4       0x6e ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Misc.o)
+                0x000010a4       0x6e ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Misc.o)
  .text._SetFATSector
-                0x00001112        0x6 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Misc.o)
+                0x00001112        0x6 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Misc.o)
  .text.FS_FAT_ReadFATEntry
-                0x00001118       0xb2 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Misc.o)
+                0x00001118       0xb2 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Misc.o)
                 0x00001118                FS_FAT_ReadFATEntry
  *fill*         0x000011ca        0x2 
  .text.FS_FAT_GetNumAdjClustersInChain
-                0x000011cc       0x64 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Misc.o)
+                0x000011cc       0x64 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Misc.o)
                 0x000011cc                FS_FAT_GetNumAdjClustersInChain
  .text.FS_FAT_WalkClusterEx
-                0x00001230       0x5c ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Misc.o)
+                0x00001230       0x5c ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Misc.o)
                 0x00001230                FS_FAT_WalkClusterEx
  .text.FS_FAT_GotoCluster
-                0x0000128c       0x88 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Misc.o)
+                0x0000128c       0x88 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Misc.o)
                 0x0000128c                FS_FAT_GotoCluster
  .text.FS_FAT_WalkCluster
-                0x00001314       0x18 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Misc.o)
+                0x00001314       0x18 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Misc.o)
                 0x00001314                FS_FAT_WalkCluster
  .text.FS_FAT_FindLastCluster
-                0x0000132c       0x34 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Misc.o)
+                0x0000132c       0x34 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Misc.o)
                 0x0000132c                FS_FAT_FindLastCluster
  .text._WriteFATEntry
-                0x00001360      0x18e ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Misc.o)
+                0x00001360      0x18e ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Misc.o)
  .text.FS_FAT_MarkClusterEOC
-                0x000014ee        0x8 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Misc.o)
+                0x000014ee        0x8 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Misc.o)
                 0x000014ee                FS_FAT_MarkClusterEOC
  .text.FS_FAT_SyncFAT
-                0x000014f6       0x3c ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Misc.o)
+                0x000014f6       0x3c ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Misc.o)
                 0x000014f6                FS_FAT_SyncFAT
  .text.FS_FAT_LinkCluster
-                0x00001532       0x1c ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Misc.o)
+                0x00001532       0x1c ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Misc.o)
                 0x00001532                FS_FAT_LinkCluster
  *fill*         0x0000154e        0x2 
  .text._CalcFreeClusterCnt
-                0x00001550       0x88 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Misc.o)
+                0x00001550       0x88 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Misc.o)
  .text.FS_FAT_FindFreeCluster
-                0x000015d8       0xa8 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Misc.o)
+                0x000015d8       0xa8 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Misc.o)
                 0x000015d8                FS_FAT_FindFreeCluster
  .text.FS_FAT_AllocCluster
-                0x00001680       0x20 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Misc.o)
+                0x00001680       0x20 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Misc.o)
                 0x00001680                FS_FAT_AllocCluster
  .text._WriteEmptyFATSectors
-                0x000016a0       0x3c ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Misc.o)
+                0x000016a0       0x3c ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Misc.o)
  .text.FS_FAT_FreeClusterChain
-                0x000016dc       0xe0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Misc.o)
+                0x000016dc       0xe0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Misc.o)
                 0x000016dc                FS_FAT_FreeClusterChain
  .text.FS_FAT_CheckBPB
-                0x000017bc      0x1cc ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Misc.o)
+                0x000017bc      0x1cc ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Misc.o)
                 0x000017bc                FS_FAT_CheckBPB
  .text.FS_FAT_InitDirEntryScan
-                0x00001988       0x14 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Open.o)
+                0x00001988       0x14 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Open.o)
                 0x00001988                FS_FAT_InitDirEntryScan
  .text.FS_FAT_IncDirPos
-                0x0000199c        0x8 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Open.o)
+                0x0000199c        0x8 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Open.o)
                 0x0000199c                FS_FAT_IncDirPos
  .text._CopyDirText
-                0x000019a4       0x44 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Open.o)
+                0x000019a4       0x44 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Open.o)
  .text.FS_FAT_Make83Name
-                0x000019e8       0xb0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Open.o)
+                0x000019e8       0xb0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Open.o)
                 0x000019e8                FS_FAT_Make83Name
  .text.FS_FAT_GetDirEntry
-                0x00001a98       0xb2 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Open.o)
+                0x00001a98       0xb2 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Open.o)
                 0x00001a98                FS_FAT_GetDirEntry
  .text.FS_FAT_FindDirEntryShortEx
-                0x00001b4a       0x5a ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Open.o)
+                0x00001b4a       0x5a ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Open.o)
                 0x00001b4a                FS_FAT_FindDirEntryShortEx
  .text.FS_FAT_FindDirEntryShort
-                0x00001ba4       0x36 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Open.o)
+                0x00001ba4       0x36 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Open.o)
                 0x00001ba4                FS_FAT_FindDirEntryShort
  .text.FS_FAT_FindEmptyDirEntry
-                0x00001bda       0xb0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Open.o)
+                0x00001bda       0xb0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Open.o)
                 0x00001bda                FS_FAT_FindEmptyDirEntry
  .text.FS_FAT_GetFirstCluster
-                0x00001c8a       0x1a ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Open.o)
+                0x00001c8a       0x1a ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Open.o)
                 0x00001c8a                FS_FAT_GetFirstCluster
  .text.FS_FAT_FindPath
-                0x00001ca4       0x7a ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Open.o)
+                0x00001ca4       0x7a ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Open.o)
                 0x00001ca4                FS_FAT_FindPath
  .text.FS_FAT_DeleteFileOrDir
-                0x00001d1e       0x48 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Open.o)
+                0x00001d1e       0x48 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Open.o)
                 0x00001d1e                FS_FAT_DeleteFileOrDir
  *fill*         0x00001d66        0x2 
  .text.FS_FAT_Open
-                0x00001d68      0x1dc ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Open.o)
+                0x00001d68      0x1dc ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Open.o)
                 0x00001d68                FS_FAT_Open
  .text.FS_FAT_WriteDirEntryCluster
-                0x00001f44       0x1c ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Open.o)
+                0x00001f44       0x1c ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Open.o)
                 0x00001f44                FS_FAT_WriteDirEntryCluster
  .text.FS_FAT_WriteDirEntry83
-                0x00001f60       0x6c ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Open.o)
+                0x00001f60       0x6c ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Open.o)
                 0x00001f60                FS_FAT_WriteDirEntry83
  .text._WriteBurst
-                0x00001fcc       0x24 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Write.o)
+                0x00001fcc       0x24 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Write.o)
  .text.FS_FAT_GotoClusterAllocIfReq
-                0x00001ff0       0xa8 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Write.o)
+                0x00001ff0       0xa8 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Write.o)
                 0x00001ff0                FS_FAT_GotoClusterAllocIfReq
  .text.FS_FAT_UpdateDirEntry
-                0x00002098       0x68 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Write.o)
+                0x00002098       0x68 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Write.o)
                 0x00002098                FS_FAT_UpdateDirEntry
  .text.FS_FAT_Close
-                0x00002100       0x44 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Write.o)
+                0x00002100       0x44 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Write.o)
                 0x00002100                FS_FAT_Close
  .text.FS_FAT_Write
-                0x00002144      0x1c8 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Write.o)
+                0x00002144      0x1c8 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Write.o)
                 0x00002144                FS_FAT_Write
  .text.FS__CLIB_memcmp
-                0x0000230c       0x20 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_CLib.o)
+                0x0000230c       0x20 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_CLib.o)
                 0x0000230c                FS__CLIB_memcmp
  .text.FS__CLIB_memset
-                0x0000232c       0x6c ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_CLib.o)
+                0x0000232c       0x6c ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_CLib.o)
                 0x0000232c                FS__CLIB_memset
  .text.FS__CLIB_strcmp
-                0x00002398       0x1a ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_CLib.o)
+                0x00002398       0x1a ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_CLib.o)
                 0x00002398                FS__CLIB_strcmp
  .text.FS__CLIB_strlen
-                0x000023b2       0x10 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_CLib.o)
+                0x000023b2       0x10 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_CLib.o)
                 0x000023b2                FS__CLIB_strlen
  .text.FS__CLIB_strncmp
-                0x000023c2       0x26 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_CLib.o)
+                0x000023c2       0x26 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_CLib.o)
                 0x000023c2                FS__CLIB_strncmp
  .text.FS__CLIB_strncpy
-                0x000023e8       0x2e ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_CLib.o)
+                0x000023e8       0x2e ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_CLib.o)
                 0x000023e8                FS__CLIB_strncpy
  .text.FS__CLIB_toupper
-                0x00002416        0xe ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_CLib.o)
+                0x00002416        0xe ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_CLib.o)
                 0x00002416                FS__CLIB_toupper
  .text.FS__CopyFile
-                0x00002424       0xd6 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_CopyFile.o)
+                0x00002424       0xd6 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_CopyFile.o)
                 0x00002424                FS__CopyFile
  .text.FS_CopyFile
-                0x000024fa        0x4 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_CopyFile.o)
+                0x000024fa        0x4 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_CopyFile.o)
                 0x000024fa                FS_CopyFile
  .text.FS__DivideU32Up
-                0x000024fe        0xa ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Core.o)
+                0x000024fe        0xa ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Core.o)
                 0x000024fe                FS__DivideU32Up
  .text.FS__strchr
-                0x00002508       0x14 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Core.o)
+                0x00002508       0x14 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Core.o)
                 0x00002508                FS__strchr
  .text.FS_LoadU32BE
-                0x0000251c       0x18 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Core.o)
+                0x0000251c       0x18 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Core.o)
                 0x0000251c                FS_LoadU32BE
  .text.FS_LoadU32LE
-                0x00002534       0x16 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Core.o)
+                0x00002534       0x16 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Core.o)
                 0x00002534                FS_LoadU32LE
  .text.FS_StoreU32LE
-                0x0000254a       0x14 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Core.o)
+                0x0000254a       0x14 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Core.o)
                 0x0000254a                FS_StoreU32LE
  .text.FS_StoreU16LE
-                0x0000255e        0x8 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Core.o)
+                0x0000255e        0x8 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Core.o)
                 0x0000255e                FS_StoreU16LE
  .text.FS_LoadU16LE
-                0x00002566        0xa ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Core.o)
+                0x00002566        0xa ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Core.o)
                 0x00002566                FS_LoadU16LE
- .text._Alloc   0x00002570       0x30 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Core.o)
+ .text._Alloc   0x00002570       0x30 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Core.o)
  .text.FS_Alloc
-                0x000025a0        0xc ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Core.o)
+                0x000025a0        0xc ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Core.o)
                 0x000025a0                FS_Alloc
  .text.FS_TryAlloc
-                0x000025ac        0x4 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Core.o)
+                0x000025ac        0x4 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Core.o)
                 0x000025ac                FS_TryAlloc
- .text.FS_Free  0x000025b0       0x1c ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Core.o)
+ .text.FS_Free  0x000025b0       0x1c ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Core.o)
                 0x000025b0                FS_Free
  .text.FS_AssignMemory
-                0x000025cc        0xc ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Core.o)
+                0x000025cc        0xc ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Core.o)
                 0x000025cc                FS_AssignMemory
  .text.FS_AllocZeroed
-                0x000025d8       0x16 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Core.o)
+                0x000025d8       0x16 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Core.o)
                 0x000025d8                FS_AllocZeroed
  *fill*         0x000025ee        0x2 
  .text.FS_STORAGE_Init
-                0x000025f0       0x28 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Core.o)
+                0x000025f0       0x28 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Core.o)
                 0x000025f0                FS_STORAGE_Init
  .text.FS__MkDir
-                0x00002618       0x24 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Dir.o)
+                0x00002618       0x24 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Dir.o)
                 0x00002618                FS__MkDir
  .text.FS_MkDir
-                0x0000263c        0x4 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Dir.o)
+                0x0000263c        0x4 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Dir.o)
                 0x0000263c                FS_MkDir
  .text.FS__GetFileSize
-                0x00002640        0xc ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_GetFileSize.o)
+                0x00002640        0xc ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_GetFileSize.o)
                 0x00002640                FS__GetFileSize
  .text._ClrBusyLED
-                0x0000264c        0xc ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_LogBlock.o)
+                0x0000264c        0xc ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_LogBlock.o)
  .text._SetBusyLED
-                0x00002658        0xc ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_LogBlock.o)
- .text._Read    0x00002664        0xc ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_LogBlock.o)
- .text._Write   0x00002670       0x12 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_LogBlock.o)
+                0x00002658        0xc ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_LogBlock.o)
+ .text._Read    0x00002664        0xc ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_LogBlock.o)
+ .text._Write   0x00002670       0x12 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_LogBlock.o)
  .text.FS_LB_GetStatus
-                0x00002682        0xc ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_LogBlock.o)
+                0x00002682        0xc ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_LogBlock.o)
                 0x00002682                FS_LB_GetStatus
  .text.FS_LB_InitMedium
-                0x0000268e       0x1a ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_LogBlock.o)
+                0x0000268e       0x1a ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_LogBlock.o)
                 0x0000268e                FS_LB_InitMedium
  .text.FS_LB_InitMediumIfRequired
-                0x000026a8       0x10 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_LogBlock.o)
+                0x000026a8       0x10 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_LogBlock.o)
                 0x000026a8                FS_LB_InitMediumIfRequired
  .text.FS_LB_ReadDevice
-                0x000026b8       0x2e ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_LogBlock.o)
+                0x000026b8       0x2e ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_LogBlock.o)
                 0x000026b8                FS_LB_ReadDevice
  .text.FS_LB_ReadPart
-                0x000026e6        0xe ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_LogBlock.o)
+                0x000026e6        0xe ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_LogBlock.o)
                 0x000026e6                FS_LB_ReadPart
  .text.FS_LB_ReadBurst
-                0x000026f4       0x38 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_LogBlock.o)
+                0x000026f4       0x38 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_LogBlock.o)
                 0x000026f4                FS_LB_ReadBurst
  .text.FS_LB_ReadBurstPart
-                0x0000272c       0x14 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_LogBlock.o)
+                0x0000272c       0x14 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_LogBlock.o)
                 0x0000272c                FS_LB_ReadBurstPart
  .text.FS_LB_WriteBurst
-                0x00002740       0x30 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_LogBlock.o)
+                0x00002740       0x30 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_LogBlock.o)
                 0x00002740                FS_LB_WriteBurst
  .text.FS_LB_WriteBurstPart
-                0x00002770       0x14 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_LogBlock.o)
+                0x00002770       0x14 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_LogBlock.o)
                 0x00002770                FS_LB_WriteBurstPart
  .text.FS_LB_WriteMultiple
-                0x00002784       0x30 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_LogBlock.o)
+                0x00002784       0x30 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_LogBlock.o)
                 0x00002784                FS_LB_WriteMultiple
  .text.FS_LB_WriteMultiplePart
-                0x000027b4       0x14 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_LogBlock.o)
+                0x000027b4       0x14 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_LogBlock.o)
                 0x000027b4                FS_LB_WriteMultiplePart
  .text.FS_LB_WriteDevice
-                0x000027c8       0x36 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_LogBlock.o)
+                0x000027c8       0x36 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_LogBlock.o)
                 0x000027c8                FS_LB_WriteDevice
  .text.FS_LB_WritePart
-                0x000027fe        0xe ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_LogBlock.o)
+                0x000027fe        0xe ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_LogBlock.o)
                 0x000027fe                FS_LB_WritePart
  .text.FS_GetSectorSize
-                0x0000280c       0x28 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_LogBlock.o)
+                0x0000280c       0x28 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_LogBlock.o)
                 0x0000280c                FS_GetSectorSize
  .text.FS_LB_GetDeviceInfo
-                0x00002834       0x26 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_LogBlock.o)
+                0x00002834       0x26 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_LogBlock.o)
                 0x00002834                FS_LB_GetDeviceInfo
  .text.FS_memcpy
-                0x0000285a      0x120 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_memcpy.o)
+                0x0000285a      0x120 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_memcpy.o)
                 0x0000285a                FS_memcpy
  *fill*         0x0000297a        0x2 
  .text.FS__AllocSectorBuffer
-                0x0000297c       0x2c ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Misc.o)
+                0x0000297c       0x2c ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Misc.o)
                 0x0000297c                FS__AllocSectorBuffer
  .text.FS__FreeSectorBuffer
-                0x000029a8       0x28 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Misc.o)
+                0x000029a8       0x28 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Misc.o)
                 0x000029a8                FS__FreeSectorBuffer
  .text.FS__SB_MarkDirty
-                0x000029d0        0x6 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Misc.o)
+                0x000029d0        0x6 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Misc.o)
                 0x000029d0                FS__SB_MarkDirty
  .text.FS__SB_MarkNotDirty
-                0x000029d6        0x6 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Misc.o)
+                0x000029d6        0x6 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Misc.o)
                 0x000029d6                FS__SB_MarkNotDirty
  .text.FS__FreeFileHandle
-                0x000029dc        0xa ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Misc.o)
+                0x000029dc        0xa ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Misc.o)
                 0x000029dc                FS__FreeFileHandle
  .text.FS__FreeFileObj
-                0x000029e6        0xc ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Misc.o)
+                0x000029e6        0xc ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Misc.o)
                 0x000029e6                FS__FreeFileObj
  .text.FS__FSeek
-                0x000029f2       0x42 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Misc.o)
+                0x000029f2       0x42 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Misc.o)
                 0x000029f2                FS__FSeek
- .text.FS_Init  0x00002a34       0x58 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Misc.o)
+ .text.FS_Init  0x00002a34       0x58 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Misc.o)
                 0x00002a34                FS_Init
  .text.FS__SB_Create
-                0x00002a8c       0x28 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Misc.o)
+                0x00002a8c       0x28 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Misc.o)
                 0x00002a8c                FS__SB_Create
  .text.FS__FCloseNL
-                0x00002ab4       0x1e ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Misc.o)
+                0x00002ab4       0x1e ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Misc.o)
                 0x00002ab4                FS__FCloseNL
  .text.FS__FClose
-                0x00002ad2       0x1a ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Misc.o)
+                0x00002ad2       0x1a ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Misc.o)
                 0x00002ad2                FS__FClose
  .text.FS_FClose
-                0x00002aec        0xa ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Misc.o)
+                0x00002aec        0xa ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Misc.o)
                 0x00002aec                FS_FClose
  *fill*         0x00002af6        0x2 
  .text.FS__AllocFileObj
-                0x00002af8       0x48 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Misc.o)
+                0x00002af8       0x48 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Misc.o)
                 0x00002af8                FS__AllocFileObj
  .text.FS__AllocFileHandle
-                0x00002b40       0x40 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Misc.o)
+                0x00002b40       0x40 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Misc.o)
                 0x00002b40                FS__AllocFileHandle
  .text.FS__OpenEx
-                0x00002b80       0x58 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Misc.o)
+                0x00002b80       0x58 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Misc.o)
                 0x00002b80                FS__OpenEx
  .text.FS__FOpenEx
-                0x00002bd8       0x56 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Misc.o)
+                0x00002bd8       0x56 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Misc.o)
                 0x00002bd8                FS__FOpenEx
  *fill*         0x00002c2e        0x2 
  .text.FS__FOpen
-                0x00002c30       0x48 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Misc.o)
+                0x00002c30       0x48 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Misc.o)
                 0x00002c30                FS__FOpen
  .text.FS_FOpen
-                0x00002c78        0x4 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Misc.o)
+                0x00002c78        0x4 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Misc.o)
                 0x00002c78                FS_FOpen
  .text.FS__Remove
-                0x00002c7c       0x28 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Misc.o)
+                0x00002c7c       0x28 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Misc.o)
                 0x00002c7c                FS__Remove
  .text.FS__SB_Write
-                0x00002ca4       0x24 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Misc.o)
+                0x00002ca4       0x24 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Misc.o)
                 0x00002ca4                FS__SB_Write
  .text._SB_Clean
-                0x00002cc8       0x24 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Misc.o)
+                0x00002cc8       0x24 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Misc.o)
  .text.FS__SB_SetSector
-                0x00002cec       0x20 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Misc.o)
+                0x00002cec       0x20 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Misc.o)
                 0x00002cec                FS__SB_SetSector
  .text.FS__SB_MarkValid
-                0x00002d0c       0x10 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Misc.o)
+                0x00002d0c       0x10 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Misc.o)
                 0x00002d0c                FS__SB_MarkValid
  .text.FS__SB_Clean
-                0x00002d1c        0x4 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Misc.o)
+                0x00002d1c        0x4 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Misc.o)
                 0x00002d1c                FS__SB_Clean
  .text.FS__SB_Delete
-                0x00002d20       0x12 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Misc.o)
+                0x00002d20       0x12 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Misc.o)
                 0x00002d20                FS__SB_Delete
  .text.FS__SB_Flush
-                0x00002d32        0x8 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Misc.o)
+                0x00002d32        0x8 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Misc.o)
                 0x00002d32                FS__SB_Flush
  .text.FS__SB_Read
-                0x00002d3a       0x2a ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Misc.o)
+                0x00002d3a       0x2a ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Misc.o)
                 0x00002d3a                FS__SB_Read
  .text.FS__Read
-                0x00002d64       0x2e ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Read.o)
+                0x00002d64       0x2e ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Read.o)
                 0x00002d64                FS__Read
  .text.FS__SetEndOfFile
-                0x00002d92       0x12 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_SetEndOfFile.o)
+                0x00002d92       0x12 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_SetEndOfFile.o)
                 0x00002d92                FS__SetEndOfFile
  .text.FS__AddPhysDevice
-                0x00002da4       0x10 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Storage.o)
+                0x00002da4       0x10 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Storage.o)
                 0x00002da4                FS__AddPhysDevice
  .text.FS_GetVolumeName
-                0x00002db4       0x60 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Storage.o)
+                0x00002db4       0x60 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Storage.o)
                 0x00002db4                FS_GetVolumeName
  .text.FS__FindVolume
-                0x00002e14       0x78 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Storage.o)
+                0x00002e14       0x78 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Storage.o)
                 0x00002e14                FS__FindVolume
  .text.FS__AddDevice
-                0x00002e8c       0x68 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Storage.o)
+                0x00002e8c       0x68 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Storage.o)
                 0x00002e8c                FS__AddDevice
  .text.FS_AddDevice
-                0x00002ef4        0x4 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Storage.o)
+                0x00002ef4        0x4 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Storage.o)
                 0x00002ef4                FS_AddDevice
  .text.FS__SetFileTimeEx
-                0x00002ef8       0x44 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Time.o)
+                0x00002ef8       0x44 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Time.o)
                 0x00002ef8                FS__SetFileTimeEx
  .text.FS__GetFileTimeEx
-                0x00002f3c       0x42 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Time.o)
+                0x00002f3c       0x42 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Time.o)
                 0x00002f3c                FS__GetFileTimeEx
- .text._Mount   0x00002f7e       0x2e ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Volume.o)
+ .text._Mount   0x00002f7e       0x2e ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Volume.o)
  .text.FS__AutoMount
-                0x00002fac       0x14 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Volume.o)
+                0x00002fac       0x14 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Volume.o)
                 0x00002fac                FS__AutoMount
  .text.FS__Write
-                0x00002fc0       0x3a ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Write.o)
+                0x00002fc0       0x3a ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Write.o)
                 0x00002fc0                FS__Write
  .text.FS_Write
-                0x00002ffa        0x4 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Write.o)
+                0x00002ffa        0x4 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Write.o)
                 0x00002ffa                FS_Write
  *fill*         0x00002ffe        0x2 
  .text.FS_FAT_CreateDirEx
-                0x00003000      0x110 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Dir.o)
+                0x00003000      0x110 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Dir.o)
                 0x00003000                FS_FAT_CreateDirEx
  .text.FS_FAT_CreateDir
-                0x00003110       0x64 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Dir.o)
+                0x00003110       0x64 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Dir.o)
                 0x00003110                FS_FAT_CreateDir
  .text.FS_FAT_SetDirEntryInfo
-                0x00003174       0xb2 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_DirEntry.o)
+                0x00003174       0xb2 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_DirEntry.o)
                 0x00003174                FS_FAT_SetDirEntryInfo
  .text.FS_FAT_GetDirEntryInfo
-                0x00003226       0x90 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_DirEntry.o)
+                0x00003226       0x90 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_DirEntry.o)
                 0x00003226                FS_FAT_GetDirEntryInfo
  *fill*         0x000032b6        0x2 
- .text.T.32     0x000032b8      0x400 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Format.o)
+ .text.T.32     0x000032b8      0x400 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Format.o)
  .text._AutoFormat
-                0x000036b8       0x7c ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Format.o)
+                0x000036b8       0x7c ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Format.o)
  .text.FS_FAT_FormatEx
-                0x00003734       0x74 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Format.o)
+                0x00003734       0x74 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Format.o)
                 0x00003734                FS_FAT_FormatEx
  .text._ReadBurst
-                0x000037a8       0x24 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Read.o)
+                0x000037a8       0x24 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Read.o)
  .text.FS_FAT_Read
-                0x000037cc      0x194 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Read.o)
+                0x000037cc      0x194 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Read.o)
                 0x000037cc                FS_FAT_Read
  .text.FS_FAT_SetEndOfFile
-                0x00003960       0xbc ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_SetEndOfFile.o)
+                0x00003960       0xbc ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_SetEndOfFile.o)
                 0x00003960                FS_FAT_SetEndOfFile
  .text.FS__GetFileAttributes
-                0x00003a1c       0x38 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Attrib.o)
+                0x00003a1c       0x38 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Attrib.o)
                 0x00003a1c                FS__GetFileAttributes
  .text.FS__SetFileAttributes
-                0x00003a54       0x30 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Attrib.o)
+                0x00003a54       0x30 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Attrib.o)
                 0x00003a54                FS__SetFileAttributes
- .text._IsBPB   0x00003a84       0x1e ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Partition.o)
+ .text._IsBPB   0x00003a84       0x1e ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Partition.o)
  .text._HasSignature
-                0x00003aa2       0x18 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Partition.o)
+                0x00003aa2       0x18 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Partition.o)
  .text._GetPartitionStartSector
-                0x00003aba        0xc ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Partition.o)
+                0x00003aba        0xc ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Partition.o)
  .text.FS__GetMediaStartSecEx
-                0x00003ac6       0x6e ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Partition.o)
+                0x00003ac6       0x6e ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Partition.o)
                 0x00003ac6                FS__GetMediaStartSecEx
  .text.FS__LocatePartition
-                0x00003b34       0x44 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Partition.o)
+                0x00003b34       0x44 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Partition.o)
                 0x00003b34                FS__LocatePartition
  .text.FS_X_AddDevices
                 0x00003b78       0x20 .\CortexM3\ARM_GCC_541\Debug\SDCard.a(emFile_ConfigMMC_SPI.o)
@@ -1537,43 +1537,43 @@ END GROUP
                 0x00003b98       0x58 .\CortexM3\ARM_GCC_541\Debug\SDCard.a(emFile_ConfigMMC_SPI.o)
                 0x00003b98                FS_X_GetTimeDate
  .text._CalcDataCRC16Dummy
-                0x00003bf0        0x6 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(MMC_Drv.o)
+                0x00003bf0        0x6 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(MMC_Drv.o)
  *fill*         0x00003bf6        0x2 
  .text._MMC_GetNumUnits
-                0x00003bf8        0xc ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(MMC_Drv.o)
+                0x00003bf8        0xc ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(MMC_Drv.o)
  .text._MMC_GetDriverName
-                0x00003c04        0x8 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(MMC_Drv.o)
+                0x00003c04        0x8 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(MMC_Drv.o)
  .text._MMC_GetStatus
-                0x00003c0c        0x4 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(MMC_Drv.o)
+                0x00003c0c        0x4 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(MMC_Drv.o)
  .text._CheckR1
-                0x00003c10       0x38 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(MMC_Drv.o)
+                0x00003c10       0x38 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(MMC_Drv.o)
  .text._WaitToGetReady
-                0x00003c48       0x26 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(MMC_Drv.o)
+                0x00003c48       0x26 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(MMC_Drv.o)
  .text._SendEmptyCycles
-                0x00003c6e       0x24 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(MMC_Drv.o)
+                0x00003c6e       0x24 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(MMC_Drv.o)
  *fill*         0x00003c92        0x2 
  .text._MMC_AddDevice
-                0x00003c94       0x2c ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(MMC_Drv.o)
- .text.T.53     0x00003cc0       0x14 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(MMC_Drv.o)
+                0x00003c94       0x2c ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(MMC_Drv.o)
+ .text.T.53     0x00003cc0       0x14 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(MMC_Drv.o)
  .text._GetFromCSD
-                0x00003cd4       0x34 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(MMC_Drv.o)
+                0x00003cd4       0x34 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(MMC_Drv.o)
  .text._ExecCmdR1
-                0x00003d08       0x98 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(MMC_Drv.o)
+                0x00003d08       0x98 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(MMC_Drv.o)
  .text._ReadCSD
-                0x00003da0       0x86 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(MMC_Drv.o)
+                0x00003da0       0x86 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(MMC_Drv.o)
  *fill*         0x00003e26        0x2 
  .text._MMC_Read
-                0x00003e28      0x130 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(MMC_Drv.o)
+                0x00003e28      0x130 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(MMC_Drv.o)
  .text._MMC_Write
-                0x00003f58      0x13c ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(MMC_Drv.o)
+                0x00003f58      0x13c ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(MMC_Drv.o)
  .text._ApplyCSD
-                0x00004094      0x228 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(MMC_Drv.o)
+                0x00004094      0x228 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(MMC_Drv.o)
  .text._MMC_Init
-                0x000042bc      0x1c0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(MMC_Drv.o)
+                0x000042bc      0x1c0 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(MMC_Drv.o)
  .text._MMC_InitMedium
-                0x0000447c       0x28 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(MMC_Drv.o)
+                0x0000447c       0x28 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(MMC_Drv.o)
  .text._MMC_IoCtl
-                0x000044a4       0x60 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(MMC_Drv.o)
+                0x000044a4       0x60 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(MMC_Drv.o)
  .text.emFile_Init
                 0x00004504       0x6c .\CortexM3\ARM_GCC_541\Debug\SDCard.a(emFile_MMC_HW_SPI.o)
  .text.emFile_ReadWriteSPI
@@ -1693,24 +1693,24 @@ END GROUP
  .rodata        0x00004c48      0x1b5 .\CortexM3\ARM_GCC_541\Debug\main.o
  *fill*         0x00004dfd        0x3 
  .rodata        0x00004e00       0xb0 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
- .rodata        0x00004eb0       0x98 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_FormatSD.o)
- .rodata        0x00004f48       0x10 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Misc.o)
+ .rodata        0x00004eb0       0x98 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_FormatSD.o)
+ .rodata        0x00004f48       0x10 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Misc.o)
                 0x00004f48                FAT_SFN_API
  .rodata.str1.1
-                0x00004f58        0x3 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Open.o)
+                0x00004f58        0x3 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Open.o)
  *fill*         0x00004f5b        0x1 
- .rodata        0x00004f5c       0x78 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Misc.o)
+ .rodata        0x00004f5c       0x78 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Misc.o)
  .rodata.str1.1
-                0x00004fd4       0x30 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Misc.o)
- .rodata        0x00005004       0x18 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Dir.o)
- .rodata        0x0000501c       0x8c ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Format.o)
+                0x00004fd4       0x30 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Misc.o)
+ .rodata        0x00005004       0x18 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Dir.o)
+ .rodata        0x0000501c       0x8c ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Format.o)
                 0x00005034                _acVolumeLabel
  .rodata.str1.1
-                0x000050a8       0x24 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Format.o)
- .rodata        0x000050cc       0x68 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(MMC_Drv.o)
+                0x000050a8       0x24 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Format.o)
+ .rodata        0x000050cc       0x68 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(MMC_Drv.o)
                 0x00005114                FS_MMC_SPI_Driver
  .rodata.str1.1
-                0x00005134        0x4 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(MMC_Drv.o)
+                0x00005134        0x4 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(MMC_Drv.o)
  .rodata.str1.1
                 0x00005138        0x2 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-impure.o)
                 0x0000513c                . = ALIGN (0x4)
@@ -1794,9 +1794,9 @@ END GROUP
                 0x1fff80dc                cydelay_freq_khz
                 0x1fff80e0                cydelay_freq_mhz
                 0x1fff80e4                cydelay_32k_ms
- .data          0x1fff80e8        0x4 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Misc.o)
+ .data          0x1fff80e8        0x4 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Misc.o)
                 0x1fff80e8                FAT_pDirEntryAPI
- .data          0x1fff80ec        0x4 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(MMC_Drv.o)
+ .data          0x1fff80ec        0x4 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(MMC_Drv.o)
  .data.impure_data
                 0x1fff80f0       0x60 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-impure.o)
  .data._impure_ptr
@@ -1820,15 +1820,15 @@ END GROUP
  .bss           0x1fff817c        0x2 .\CortexM3\ARM_GCC_541\Debug\SDCard.a(UART.o)
                 0x1fff817c                UART_initVar
  *fill*         0x1fff817e        0x2 
- .bss           0x1fff8180        0xc ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Core.o)
+ .bss           0x1fff8180        0xc ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Core.o)
  .bss           0x1fff818c     0x1000 .\CortexM3\ARM_GCC_541\Debug\SDCard.a(emFile_ConfigMMC_SPI.o)
- .bss           0x1fff918c       0x14 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(MMC_Drv.o)
+ .bss           0x1fff918c       0x14 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(MMC_Drv.o)
  .bss           0x1fff91a0        0x1 .\CortexM3\ARM_GCC_541\Debug\SDCard.a(emFile_MMC_HW_SPI.o)
  .bss           0x1fff91a1        0x1 .\CortexM3\ARM_GCC_541\Debug\SDCard.a(emFile_SPI0.o)
                 0x1fff91a1                emFile_SPI0_initVar
  *(COMMON)
  *fill*         0x1fff91a2        0x2 
- COMMON         0x1fff91a4       0x88 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Core.o)
+ COMMON         0x1fff91a4       0x88 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Core.o)
                 0x1fff91a4                FS_Global
                 0x1fff9228                FS_NumBytesAllocated
                 0x1fff9230                . = ALIGN (0x8)
@@ -2100,38 +2100,38 @@ END GROUP
  .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\SDCard.a(UART_IntClock.o)
  .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\SDCard.a(CyFlash.o)
  .comment       0x0000006e       0x6f .\CortexM3\ARM_GCC_541\Debug\SDCard.a(CySpc.o)
- .comment       0x0000006e       0x2b ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_FormatSD.o)
- .comment       0x00000099       0x2b ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Misc.o)
- .comment       0x000000c4       0x2b ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Open.o)
- .comment       0x000000ef       0x2b ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Write.o)
- .comment       0x0000011a       0x2b ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_CLib.o)
- .comment       0x00000145       0x2b ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_CopyFile.o)
- .comment       0x00000170       0x2b ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Core.o)
- .comment       0x0000019b       0x2b ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Dir.o)
- .comment       0x000001c6       0x2b ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_GetFileSize.o)
- .comment       0x000001f1       0x2b ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_LogBlock.o)
- .comment       0x0000021c       0x2b ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_memcpy.o)
- .comment       0x00000247       0x2b ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Misc.o)
- .comment       0x00000272       0x2b ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Read.o)
- .comment       0x0000029d       0x2b ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_SetEndOfFile.o)
- .comment       0x000002c8       0x2b ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Storage.o)
- .comment       0x000002f3       0x2b ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Time.o)
- .comment       0x0000031e       0x2b ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Unmount.o)
- .comment       0x00000349       0x2b ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Volume.o)
- .comment       0x00000374       0x2b ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Write.o)
- .comment       0x0000039f       0x2b ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_CheckDisk.o)
- .comment       0x000003ca       0x2b ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Dir.o)
- .comment       0x000003f5       0x2b ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_DirEntry.o)
- .comment       0x00000420       0x2b ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_DiskInfo.o)
- .comment       0x0000044b       0x2b ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Format.o)
- .comment       0x00000476       0x2b ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Read.o)
- .comment       0x000004a1       0x2b ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_SetEndOfFile.o)
- .comment       0x000004cc       0x2b ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_VolumeLabel.o)
- .comment       0x000004f7       0x2b ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Attrib.o)
- .comment       0x00000522       0x2b ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Partition.o)
+ .comment       0x0000006e       0x2b ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_FormatSD.o)
+ .comment       0x00000099       0x2b ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Misc.o)
+ .comment       0x000000c4       0x2b ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Open.o)
+ .comment       0x000000ef       0x2b ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Write.o)
+ .comment       0x0000011a       0x2b ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_CLib.o)
+ .comment       0x00000145       0x2b ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_CopyFile.o)
+ .comment       0x00000170       0x2b ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Core.o)
+ .comment       0x0000019b       0x2b ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Dir.o)
+ .comment       0x000001c6       0x2b ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_GetFileSize.o)
+ .comment       0x000001f1       0x2b ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_LogBlock.o)
+ .comment       0x0000021c       0x2b ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_memcpy.o)
+ .comment       0x00000247       0x2b ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Misc.o)
+ .comment       0x00000272       0x2b ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Read.o)
+ .comment       0x0000029d       0x2b ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_SetEndOfFile.o)
+ .comment       0x000002c8       0x2b ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Storage.o)
+ .comment       0x000002f3       0x2b ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Time.o)
+ .comment       0x0000031e       0x2b ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Unmount.o)
+ .comment       0x00000349       0x2b ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Volume.o)
+ .comment       0x00000374       0x2b ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Write.o)
+ .comment       0x0000039f       0x2b ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_CheckDisk.o)
+ .comment       0x000003ca       0x2b ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Dir.o)
+ .comment       0x000003f5       0x2b ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_DirEntry.o)
+ .comment       0x00000420       0x2b ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_DiskInfo.o)
+ .comment       0x0000044b       0x2b ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Format.o)
+ .comment       0x00000476       0x2b ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Read.o)
+ .comment       0x000004a1       0x2b ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_SetEndOfFile.o)
+ .comment       0x000004cc       0x2b ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_VolumeLabel.o)
+ .comment       0x000004f7       0x2b ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Attrib.o)
+ .comment       0x00000522       0x2b ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Partition.o)
  .comment       0x0000054d       0x6f .\CortexM3\ARM_GCC_541\Debug\SDCard.a(emFile_ConfigMMC_SPI.o)
- .comment       0x0000054d       0x2b ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(MMC_Drv.o)
- .comment       0x00000578       0x2b ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_CRC16.o)
+ .comment       0x0000054d       0x2b ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(MMC_Drv.o)
+ .comment       0x00000578       0x2b ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_CRC16.o)
  .comment       0x000005a3       0x6f .\CortexM3\ARM_GCC_541\Debug\SDCard.a(emFile_MMC_HW_SPI.o)
  .comment       0x000005a3       0x6f .\CortexM3\ARM_GCC_541\Debug\SDCard.a(emFile_SPI0.o)
  .comment       0x000005a3       0x6f .\CortexM3\ARM_GCC_541\Debug\SDCard.a(emFile_Clock_1.o)
@@ -2184,69 +2184,69 @@ END GROUP
  .ARM.attributes
                 0x00000251       0x33 .\CortexM3\ARM_GCC_541\Debug\SDCard.a(CySpc.o)
  .ARM.attributes
-                0x00000284       0x31 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_FormatSD.o)
+                0x00000284       0x31 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_FormatSD.o)
  .ARM.attributes
-                0x000002b5       0x31 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Misc.o)
+                0x000002b5       0x31 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Misc.o)
  .ARM.attributes
-                0x000002e6       0x31 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Open.o)
+                0x000002e6       0x31 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Open.o)
  .ARM.attributes
-                0x00000317       0x31 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Write.o)
+                0x00000317       0x31 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Write.o)
  .ARM.attributes
-                0x00000348       0x31 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_CLib.o)
+                0x00000348       0x31 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_CLib.o)
  .ARM.attributes
-                0x00000379       0x31 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_CopyFile.o)
+                0x00000379       0x31 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_CopyFile.o)
  .ARM.attributes
-                0x000003aa       0x31 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Core.o)
+                0x000003aa       0x31 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Core.o)
  .ARM.attributes
-                0x000003db       0x31 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Dir.o)
+                0x000003db       0x31 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Dir.o)
  .ARM.attributes
-                0x0000040c       0x31 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_GetFileSize.o)
+                0x0000040c       0x31 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_GetFileSize.o)
  .ARM.attributes
-                0x0000043d       0x31 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_LogBlock.o)
+                0x0000043d       0x31 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_LogBlock.o)
  .ARM.attributes
-                0x0000046e       0x31 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_memcpy.o)
+                0x0000046e       0x31 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_memcpy.o)
  .ARM.attributes
-                0x0000049f       0x31 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Misc.o)
+                0x0000049f       0x31 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Misc.o)
  .ARM.attributes
-                0x000004d0       0x31 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Read.o)
+                0x000004d0       0x31 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Read.o)
  .ARM.attributes
-                0x00000501       0x31 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_SetEndOfFile.o)
+                0x00000501       0x31 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_SetEndOfFile.o)
  .ARM.attributes
-                0x00000532       0x31 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Storage.o)
+                0x00000532       0x31 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Storage.o)
  .ARM.attributes
-                0x00000563       0x31 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Time.o)
+                0x00000563       0x31 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Time.o)
  .ARM.attributes
-                0x00000594       0x31 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Unmount.o)
+                0x00000594       0x31 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Unmount.o)
  .ARM.attributes
-                0x000005c5       0x31 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Volume.o)
+                0x000005c5       0x31 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Volume.o)
  .ARM.attributes
-                0x000005f6       0x31 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Write.o)
+                0x000005f6       0x31 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Write.o)
  .ARM.attributes
-                0x00000627       0x31 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_CheckDisk.o)
+                0x00000627       0x31 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_CheckDisk.o)
  .ARM.attributes
-                0x00000658       0x31 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Dir.o)
+                0x00000658       0x31 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Dir.o)
  .ARM.attributes
-                0x00000689       0x31 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_DirEntry.o)
+                0x00000689       0x31 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_DirEntry.o)
  .ARM.attributes
-                0x000006ba       0x31 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_DiskInfo.o)
+                0x000006ba       0x31 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_DiskInfo.o)
  .ARM.attributes
-                0x000006eb       0x31 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Format.o)
+                0x000006eb       0x31 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Format.o)
  .ARM.attributes
-                0x0000071c       0x31 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_Read.o)
+                0x0000071c       0x31 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_Read.o)
  .ARM.attributes
-                0x0000074d       0x31 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_SetEndOfFile.o)
+                0x0000074d       0x31 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_SetEndOfFile.o)
  .ARM.attributes
-                0x0000077e       0x31 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FAT_VolumeLabel.o)
+                0x0000077e       0x31 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FAT_VolumeLabel.o)
  .ARM.attributes
-                0x000007af       0x31 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Attrib.o)
+                0x000007af       0x31 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Attrib.o)
  .ARM.attributes
-                0x000007e0       0x31 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_Partition.o)
+                0x000007e0       0x31 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_Partition.o)
  .ARM.attributes
                 0x00000811       0x33 .\CortexM3\ARM_GCC_541\Debug\SDCard.a(emFile_ConfigMMC_SPI.o)
  .ARM.attributes
-                0x00000844       0x31 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(MMC_Drv.o)
+                0x00000844       0x31 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(MMC_Drv.o)
  .ARM.attributes
-                0x00000875       0x31 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32nosnlfn.a(FS_CRC16.o)
+                0x00000875       0x31 ..\emFile_V322c\emFile_V322c\LinkLibrary\PSoC5\GCC\libemf32noslfn.a(FS_CRC16.o)
  .ARM.attributes
                 0x000008a6       0x33 .\CortexM3\ARM_GCC_541\Debug\SDCard.a(emFile_MMC_HW_SPI.o)
  .ARM.attributes

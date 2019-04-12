@@ -91,8 +91,8 @@ BEGIN
     END IF;    
   END PROCESS;
   
-  pll1: pll port map (inclk0 => clk, c0=> mclkout);
-  
+    pll1: pll port map (inclk0 => clk, c0=> mclkout);
+
   sclk <= sclk_int;  --output serial clock
   ws <= ws_int;      --output word select
   

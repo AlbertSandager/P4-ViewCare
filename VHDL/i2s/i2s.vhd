@@ -7,6 +7,9 @@ ENTITY i2s IS
     sclk_ws_ratio    :  INTEGER := 64;   --number of sclk periods per word select period
     d_width          :  INTEGER := 24);  --data width
   PORT(
+	 clk	:	IN STD_LOGIC;
+	 mclkout	:	OUT STD_LOGIC;
+	
     reset_n    :  IN   STD_LOGIC;                             --asynchronous active low reset
     mclk       :  IN   STD_LOGIC;                             --master clock
     sclk       :  OUT  STD_LOGIC;                             --serial clock (or bit clock)
@@ -20,6 +23,11 @@ ENTITY i2s IS
 END i2s;
 
 ARCHITECTURE logic OF i2s IS
+  COMPONENT pll IS
+  PORT(
+	inclk0	:	IN STD_LOGIC  := '0';
+	c0			:	OUT STD_LOGIC);
+END COMPONENT;
 
   SIGNAL sclk_int       :  STD_LOGIC := '0';                      --internal serial clock signal
   SIGNAL ws_int         :  STD_LOGIC := '0';                      --internal word select signal
@@ -82,6 +90,8 @@ BEGIN
       END IF;
     END IF;    
   END PROCESS;
+  
+  pll1: pll port map (inclk0 => clk, c0=> mclkout);
   
   sclk <= sclk_int;  --output serial clock
   ws <= ws_int;      --output word select

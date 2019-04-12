@@ -1,5 +1,5 @@
 Assembler report for i2s
-Tue Apr 09 14:41:26 2019
+Fri Apr 12 11:18:18 2019
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -10,7 +10,7 @@ Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
-  5. Assembler Device Options: C:/altera/13.1/projects/i2s/output_files/i2s.sof
+  5. Assembler Device Options: C:/Users/Albert Sandager/Documents/GitHub/P4-ViewCare/VHDL/i2s/output_files/i2s.sof
   6. Assembler Messages
 
 
@@ -37,7 +37,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Tue Apr 09 14:41:26 2019 ;
+; Assembler Status      ; Successful - Fri Apr 12 11:18:18 2019 ;
 ; Revision Name         ; i2s                                   ;
 ; Top-level Entity Name ; i2s                                   ;
 ; Family                ; Cyclone III                           ;
@@ -77,24 +77,24 @@ applicable agreement for further details.
 +-----------------------------------------------------------------------------+----------+---------------+
 
 
-+--------------------------------------------------+
-; Assembler Generated Files                        ;
-+--------------------------------------------------+
-; File Name                                        ;
-+--------------------------------------------------+
-; C:/altera/13.1/projects/i2s/output_files/i2s.sof ;
-+--------------------------------------------------+
++-------------------------------------------------------------------------------------+
+; Assembler Generated Files                                                           ;
++-------------------------------------------------------------------------------------+
+; File Name                                                                           ;
++-------------------------------------------------------------------------------------+
+; C:/Users/Albert Sandager/Documents/GitHub/P4-ViewCare/VHDL/i2s/output_files/i2s.sof ;
++-------------------------------------------------------------------------------------+
 
 
-+----------------------------------------------------------------------------+
-; Assembler Device Options: C:/altera/13.1/projects/i2s/output_files/i2s.sof ;
-+----------------+-----------------------------------------------------------+
-; Option         ; Setting                                                   ;
-+----------------+-----------------------------------------------------------+
-; Device         ; EP3C16F484C6                                              ;
-; JTAG usercode  ; 0x000F3829                                                ;
-; Checksum       ; 0x000F3829                                                ;
-+----------------+-----------------------------------------------------------+
++---------------------------------------------------------------------------------------------------------------+
+; Assembler Device Options: C:/Users/Albert Sandager/Documents/GitHub/P4-ViewCare/VHDL/i2s/output_files/i2s.sof ;
++----------------+----------------------------------------------------------------------------------------------+
+; Option         ; Setting                                                                                      ;
++----------------+----------------------------------------------------------------------------------------------+
+; Device         ; EP3C16F484C6                                                                                 ;
+; JTAG usercode  ; 0x000F5A10                                                                                   ;
+; Checksum       ; 0x000F5A10                                                                                   ;
++----------------+----------------------------------------------------------------------------------------------+
 
 
 +--------------------+
@@ -103,13 +103,13 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Assembler
     Info: Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
-    Info: Processing started: Tue Apr 09 14:41:24 2019
+    Info: Processing started: Fri Apr 12 11:18:16 2019
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off i2s -c i2s
 Info (115031): Writing out detailed assembly data for power analysis
 Info (115030): Assembler is generating device programming files
 Info: Quartus II 64-Bit Assembler was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 456 megabytes
-    Info: Processing ended: Tue Apr 09 14:41:26 2019
+    Info: Peak virtual memory: 460 megabytes
+    Info: Processing ended: Fri Apr 12 11:18:18 2019
     Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:02
 

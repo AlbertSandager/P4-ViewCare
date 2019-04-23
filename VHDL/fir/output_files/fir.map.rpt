@@ -1,5 +1,5 @@
 Analysis & Synthesis report for fir
-Fri Mar 15 08:31:20 2019
+Tue Apr 23 13:53:15 2019
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -9,18 +9,37 @@ Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
   1. Legal Notice
   2. Analysis & Synthesis Summary
   3. Analysis & Synthesis Settings
-  4. Analysis & Synthesis Source Files Read
-  5. Analysis & Synthesis Resource Usage Summary
-  6. Analysis & Synthesis Resource Utilization by Entity
-  7. Analysis & Synthesis DSP Block Usage Summary
-  8. General Register Statistics
-  9. Parameter Settings for Inferred Entity Instance: lpm_mult:Mult3
- 10. Parameter Settings for Inferred Entity Instance: lpm_mult:Mult2
- 11. Parameter Settings for Inferred Entity Instance: lpm_mult:Mult1
- 12. Parameter Settings for Inferred Entity Instance: lpm_mult:Mult0
- 13. lpm_mult Parameter Settings by Entity Instance
- 14. Elapsed Time Per Partition
- 15. Analysis & Synthesis Messages
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. Analysis & Synthesis RAM Summary
+  9. Analysis & Synthesis DSP Block Usage Summary
+ 10. Analysis & Synthesis IP Cores Summary
+ 11. State Machine - |fir|fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|auk_dspip_avalon_streaming_sink_hpfir:sink|sink_state
+ 12. Registers Removed During Synthesis
+ 13. General Register Statistics
+ 14. Inverted Register Statistics
+ 15. Source assignments for fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst
+ 16. Source assignments for fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore
+ 17. Source assignments for fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|altsyncram:u0_m0_wo0_wi0_delayr0_dmem|altsyncram_d4o3:auto_generated
+ 18. Parameter Settings for User Entity Instance: fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst
+ 19. Parameter Settings for User Entity Instance: fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|auk_dspip_avalon_streaming_sink_hpfir:sink
+ 20. Parameter Settings for User Entity Instance: fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|auk_dspip_avalon_streaming_source_hpfir:source
+ 21. Parameter Settings for User Entity Instance: fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|dspba_delay:u0_m0_wo0_memread
+ 22. Parameter Settings for User Entity Instance: fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|dspba_delay:u0_m0_wo0_compute
+ 23. Parameter Settings for User Entity Instance: fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|dspba_delay:d_u0_m0_wo0_compute_q_15
+ 24. Parameter Settings for User Entity Instance: fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|dspba_delay:d_u0_m0_wo0_compute_q_16
+ 25. Parameter Settings for User Entity Instance: fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|dspba_delay:d_xIn_0_13
+ 26. Parameter Settings for User Entity Instance: fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|dspba_delay:d_in0_m0_wi0_wo0_assign_sel_q_13
+ 27. Parameter Settings for User Entity Instance: fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|altsyncram:u0_m0_wo0_wi0_delayr0_dmem
+ 28. Parameter Settings for User Entity Instance: fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|LPM_MULT:u0_m0_wo0_mtree_mult1_0_replace_multlo_component
+ 29. Parameter Settings for User Entity Instance: fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|LPM_MULT:u0_m0_wo0_mtree_mult1_0_replace_multhi_component
+ 30. Parameter Settings for User Entity Instance: fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|auk_dspip_roundsat_hpfir:\gen_outp_blk:0:outp_blk
+ 31. altsyncram Parameter Settings by Entity Instance
+ 32. lpm_mult Parameter Settings by Entity Instance
+ 33. Elapsed Time Per Partition
+ 34. Analysis & Synthesis Messages
 
 
 
@@ -46,19 +65,19 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                    ;
 +------------------------------------+--------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Fri Mar 15 08:31:20 2019      ;
+; Analysis & Synthesis Status        ; Successful - Tue Apr 23 13:53:15 2019      ;
 ; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
 ; Revision Name                      ; fir                                        ;
 ; Top-level Entity Name              ; fir                                        ;
 ; Family                             ; Cyclone III                                ;
-; Total logic elements               ; 190                                        ;
-;     Total combinational functions  ; 52                                         ;
-;     Dedicated logic registers      ; 182                                        ;
-; Total registers                    ; 182                                        ;
-; Total pins                         ; 52                                         ;
+; Total logic elements               ; 264                                        ;
+;     Total combinational functions  ; 107                                        ;
+;     Dedicated logic registers      ; 239                                        ;
+; Total registers                    ; 239                                        ;
+; Total pins                         ; 56                                         ;
 ; Total virtual pins                 ; 0                                          ;
-; Total memory bits                  ; 0                                          ;
-; Embedded Multiplier 9-bit elements ; 4                                          ;
+; Total memory bits                  ; 384                                        ;
+; Embedded Multiplier 9-bit elements ; 3                                          ;
 ; Total PLLs                         ; 0                                          ;
 +------------------------------------+--------------------------------------------+
 
@@ -150,68 +169,119 @@ applicable agreement for further details.
 +----------------------------------------------------------------------------+--------------------+--------------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                       ;
-+----------------------------------+-----------------+------------------------------+----------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                   ; Library ;
-+----------------------------------+-----------------+------------------------------+----------------------------------------------------------------+---------+
-; fir.vhd                          ; yes             ; User VHDL File               ; C:/altera/13.1/projects/fir/fir.vhd                            ;         ;
-; lpm_mult.tdf                     ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/lpm_mult.tdf    ;         ;
-; aglobal131.inc                   ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/aglobal131.inc  ;         ;
-; lpm_add_sub.inc                  ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/lpm_add_sub.inc ;         ;
-; multcore.inc                     ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/multcore.inc    ;         ;
-; bypassff.inc                     ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/bypassff.inc    ;         ;
-; altshift.inc                     ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/altshift.inc    ;         ;
-; db/mult_u1t.tdf                  ; yes             ; Auto-Generated Megafunction  ; C:/altera/13.1/projects/fir/db/mult_u1t.tdf                    ;         ;
-+----------------------------------+-----------------+------------------------------+----------------------------------------------------------------+---------+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 4      ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
 
 
-+-----------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary               ;
-+---------------------------------------------+-------------+
-; Resource                                    ; Usage       ;
-+---------------------------------------------+-------------+
-; Estimated Total logic elements              ; 190         ;
-;                                             ;             ;
-; Total combinational functions               ; 52          ;
-; Logic element usage by number of LUT inputs ;             ;
-;     -- 4 input functions                    ; 0           ;
-;     -- 3 input functions                    ; 49          ;
-;     -- <=2 input functions                  ; 3           ;
-;                                             ;             ;
-; Logic elements by mode                      ;             ;
-;     -- normal mode                          ; 3           ;
-;     -- arithmetic mode                      ; 49          ;
-;                                             ;             ;
-; Total registers                             ; 182         ;
-;     -- Dedicated logic registers            ; 182         ;
-;     -- I/O registers                        ; 0           ;
-;                                             ;             ;
-; I/O pins                                    ; 52          ;
-; Embedded Multiplier 9-bit elements          ; 4           ;
-; Maximum fan-out node                        ; i_clk~input ;
-; Maximum fan-out                             ; 182         ;
-; Total fan-out                               ; 829         ;
-; Average fan-out                             ; 2.40        ;
-+---------------------------------------------+-------------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                           ;
++-----------------------------------------------------+-----------------+------------------------------+---------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path                    ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                    ; Library ;
++-----------------------------------------------------+-----------------+------------------------------+---------------------------------------------------------------------------------+---------+
+; fir.vhd                                             ; yes             ; User Wizard-Generated File   ; C:/Users/Jesper/Desktop/fir/fir.vhd                                             ; fir     ;
+; fir/auk_dspip_math_pkg_hpfir.vhd                    ; yes             ; User VHDL File               ; C:/Users/Jesper/Desktop/fir/fir/auk_dspip_math_pkg_hpfir.vhd                    ; fir     ;
+; fir/auk_dspip_lib_pkg_hpfir.vhd                     ; yes             ; User VHDL File               ; C:/Users/Jesper/Desktop/fir/fir/auk_dspip_lib_pkg_hpfir.vhd                     ; fir     ;
+; fir/auk_dspip_avalon_streaming_controller_hpfir.vhd ; yes             ; User VHDL File               ; C:/Users/Jesper/Desktop/fir/fir/auk_dspip_avalon_streaming_controller_hpfir.vhd ; fir     ;
+; fir/auk_dspip_avalon_streaming_sink_hpfir.vhd       ; yes             ; User VHDL File               ; C:/Users/Jesper/Desktop/fir/fir/auk_dspip_avalon_streaming_sink_hpfir.vhd       ; fir     ;
+; fir/auk_dspip_avalon_streaming_source_hpfir.vhd     ; yes             ; User VHDL File               ; C:/Users/Jesper/Desktop/fir/fir/auk_dspip_avalon_streaming_source_hpfir.vhd     ; fir     ;
+; fir/auk_dspip_roundsat_hpfir.vhd                    ; yes             ; User VHDL File               ; C:/Users/Jesper/Desktop/fir/fir/auk_dspip_roundsat_hpfir.vhd                    ; fir     ;
+; fir/dspba_library_package.vhd                       ; yes             ; User VHDL File               ; C:/Users/Jesper/Desktop/fir/fir/dspba_library_package.vhd                       ; fir     ;
+; fir/dspba_library.vhd                               ; yes             ; User VHDL File               ; C:/Users/Jesper/Desktop/fir/fir/dspba_library.vhd                               ; fir     ;
+; fir/fir_0002_rtl.vhd                                ; yes             ; User VHDL File               ; C:/Users/Jesper/Desktop/fir/fir/fir_0002_rtl.vhd                                ; fir     ;
+; fir/fir_0002_ast.vhd                                ; yes             ; User VHDL File               ; C:/Users/Jesper/Desktop/fir/fir/fir_0002_ast.vhd                                ; fir     ;
+; fir/fir_0002.vhd                                    ; yes             ; User VHDL File               ; C:/Users/Jesper/Desktop/fir/fir/fir_0002.vhd                                    ; fir     ;
+; altsyncram.tdf                                      ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/altsyncram.tdf                   ;         ;
+; stratix_ram_block.inc                               ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/stratix_ram_block.inc            ;         ;
+; lpm_mux.inc                                         ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/lpm_mux.inc                      ;         ;
+; lpm_decode.inc                                      ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/lpm_decode.inc                   ;         ;
+; aglobal131.inc                                      ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/aglobal131.inc                   ;         ;
+; a_rdenreg.inc                                       ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/a_rdenreg.inc                    ;         ;
+; altrom.inc                                          ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/altrom.inc                       ;         ;
+; altram.inc                                          ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/altram.inc                       ;         ;
+; altdpram.inc                                        ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/altdpram.inc                     ;         ;
+; db/altsyncram_d4o3.tdf                              ; yes             ; Auto-Generated Megafunction  ; C:/Users/Jesper/Desktop/fir/db/altsyncram_d4o3.tdf                              ;         ;
+; lpm_mult.tdf                                        ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/lpm_mult.tdf                     ;         ;
+; lpm_add_sub.inc                                     ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/lpm_add_sub.inc                  ;         ;
+; multcore.inc                                        ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/multcore.inc                     ;         ;
+; bypassff.inc                                        ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/bypassff.inc                     ;         ;
+; altshift.inc                                        ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/altshift.inc                     ;         ;
+; db/mult_hbu.tdf                                     ; yes             ; Auto-Generated Megafunction  ; C:/Users/Jesper/Desktop/fir/db/mult_hbu.tdf                                     ;         ;
+; db/mult_t9u.tdf                                     ; yes             ; Auto-Generated Megafunction  ; C:/Users/Jesper/Desktop/fir/db/mult_t9u.tdf                                     ;         ;
++-----------------------------------------------------+-----------------+------------------------------+---------------------------------------------------------------------------------+---------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                      ;
-+---------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------------+--------------+
-; Compilation Hierarchy Node      ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                         ; Library Name ;
-+---------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------------+--------------+
-; |fir                            ; 52 (52)           ; 182 (182)    ; 0           ; 4            ; 4       ; 0         ; 52   ; 0            ; |fir                                        ; work         ;
-;    |lpm_mult:Mult0|             ; 0 (0)             ; 0 (0)        ; 0           ; 1            ; 1       ; 0         ; 0    ; 0            ; |fir|lpm_mult:Mult0                         ; work         ;
-;       |mult_u1t:auto_generated| ; 0 (0)             ; 0 (0)        ; 0           ; 1            ; 1       ; 0         ; 0    ; 0            ; |fir|lpm_mult:Mult0|mult_u1t:auto_generated ; work         ;
-;    |lpm_mult:Mult1|             ; 0 (0)             ; 0 (0)        ; 0           ; 1            ; 1       ; 0         ; 0    ; 0            ; |fir|lpm_mult:Mult1                         ; work         ;
-;       |mult_u1t:auto_generated| ; 0 (0)             ; 0 (0)        ; 0           ; 1            ; 1       ; 0         ; 0    ; 0            ; |fir|lpm_mult:Mult1|mult_u1t:auto_generated ; work         ;
-;    |lpm_mult:Mult2|             ; 0 (0)             ; 0 (0)        ; 0           ; 1            ; 1       ; 0         ; 0    ; 0            ; |fir|lpm_mult:Mult2                         ; work         ;
-;       |mult_u1t:auto_generated| ; 0 (0)             ; 0 (0)        ; 0           ; 1            ; 1       ; 0         ; 0    ; 0            ; |fir|lpm_mult:Mult2|mult_u1t:auto_generated ; work         ;
-;    |lpm_mult:Mult3|             ; 0 (0)             ; 0 (0)        ; 0           ; 1            ; 1       ; 0         ; 0    ; 0            ; |fir|lpm_mult:Mult3                         ; work         ;
-;       |mult_u1t:auto_generated| ; 0 (0)             ; 0 (0)        ; 0           ; 1            ; 1       ; 0         ; 0    ; 0            ; |fir|lpm_mult:Mult3|mult_u1t:auto_generated ; work         ;
-+---------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------------+--------------+
++---------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary             ;
++---------------------------------------------+-----------+
+; Resource                                    ; Usage     ;
++---------------------------------------------+-----------+
+; Estimated Total logic elements              ; 264       ;
+;                                             ;           ;
+; Total combinational functions               ; 107       ;
+; Logic element usage by number of LUT inputs ;           ;
+;     -- 4 input functions                    ; 20        ;
+;     -- 3 input functions                    ; 50        ;
+;     -- <=2 input functions                  ; 37        ;
+;                                             ;           ;
+; Logic elements by mode                      ;           ;
+;     -- normal mode                          ; 57        ;
+;     -- arithmetic mode                      ; 50        ;
+;                                             ;           ;
+; Total registers                             ; 239       ;
+;     -- Dedicated logic registers            ; 239       ;
+;     -- I/O registers                        ; 0         ;
+;                                             ;           ;
+; I/O pins                                    ; 56        ;
+; Total memory bits                           ; 384       ;
+; Embedded Multiplier 9-bit elements          ; 3         ;
+; Maximum fan-out node                        ; clk~input ;
+; Maximum fan-out                             ; 265       ;
+; Total fan-out                               ; 1523      ;
+; Average fan-out                             ; 3.13      ;
++---------------------------------------------+-----------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                                                                                                 ;
++-------------------------------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------+
+; Compilation Hierarchy Node                                              ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                                                            ; Library Name ;
++-------------------------------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------+
+; |fir                                                                    ; 107 (0)           ; 239 (0)      ; 384         ; 3            ; 1       ; 1         ; 56   ; 0            ; |fir                                                                                                                                                           ; fir          ;
+;    |fir_0002:fir_inst|                                                  ; 107 (0)           ; 239 (0)      ; 384         ; 3            ; 1       ; 1         ; 0    ; 0            ; |fir|fir_0002:fir_inst                                                                                                                                         ; fir          ;
+;       |fir_0002_ast:fir_0002_ast_inst|                                  ; 107 (0)           ; 239 (0)      ; 384         ; 3            ; 1       ; 1         ; 0    ; 0            ; |fir|fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst                                                                                                          ; fir          ;
+;          |auk_dspip_avalon_streaming_sink_hpfir:sink|                   ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |fir|fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|auk_dspip_avalon_streaming_sink_hpfir:sink                                                               ; fir          ;
+;          |auk_dspip_avalon_streaming_source_hpfir:source|               ; 0 (0)             ; 26 (26)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |fir|fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|auk_dspip_avalon_streaming_source_hpfir:source                                                           ; fir          ;
+;          |fir_0002_rtl:hpfircore|                                       ; 106 (106)         ; 212 (130)    ; 384         ; 3            ; 1       ; 1         ; 0    ; 0            ; |fir|fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore                                                                                   ; fir          ;
+;             |altsyncram:u0_m0_wo0_wi0_delayr0_dmem|                     ; 0 (0)             ; 0 (0)        ; 384         ; 0            ; 0       ; 0         ; 0    ; 0            ; |fir|fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|altsyncram:u0_m0_wo0_wi0_delayr0_dmem                                             ; work         ;
+;                |altsyncram_d4o3:auto_generated|                         ; 0 (0)             ; 0 (0)        ; 384         ; 0            ; 0       ; 0         ; 0    ; 0            ; |fir|fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|altsyncram:u0_m0_wo0_wi0_delayr0_dmem|altsyncram_d4o3:auto_generated              ; work         ;
+;             |dspba_delay:d_in0_m0_wi0_wo0_assign_sel_q_13|              ; 0 (0)             ; 3 (3)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |fir|fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|dspba_delay:d_in0_m0_wi0_wo0_assign_sel_q_13                                      ; fir          ;
+;             |dspba_delay:d_u0_m0_wo0_compute_q_15|                      ; 0 (0)             ; 3 (3)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |fir|fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|dspba_delay:d_u0_m0_wo0_compute_q_15                                              ; fir          ;
+;             |dspba_delay:d_u0_m0_wo0_compute_q_16|                      ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |fir|fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|dspba_delay:d_u0_m0_wo0_compute_q_16                                              ; fir          ;
+;             |dspba_delay:d_xIn_0_13|                                    ; 0 (0)             ; 72 (72)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |fir|fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|dspba_delay:d_xIn_0_13                                                            ; fir          ;
+;             |dspba_delay:u0_m0_wo0_compute|                             ; 0 (0)             ; 2 (2)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |fir|fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|dspba_delay:u0_m0_wo0_compute                                                     ; fir          ;
+;             |dspba_delay:u0_m0_wo0_memread|                             ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |fir|fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|dspba_delay:u0_m0_wo0_memread                                                     ; fir          ;
+;             |lpm_mult:u0_m0_wo0_mtree_mult1_0_replace_multhi_component| ; 0 (0)             ; 0 (0)        ; 0           ; 1            ; 1       ; 0         ; 0    ; 0            ; |fir|fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|lpm_mult:u0_m0_wo0_mtree_mult1_0_replace_multhi_component                         ; work         ;
+;                |mult_t9u:auto_generated|                                ; 0 (0)             ; 0 (0)        ; 0           ; 1            ; 1       ; 0         ; 0    ; 0            ; |fir|fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|lpm_mult:u0_m0_wo0_mtree_mult1_0_replace_multhi_component|mult_t9u:auto_generated ; work         ;
+;             |lpm_mult:u0_m0_wo0_mtree_mult1_0_replace_multlo_component| ; 0 (0)             ; 0 (0)        ; 0           ; 2            ; 0       ; 1         ; 0    ; 0            ; |fir|fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|lpm_mult:u0_m0_wo0_mtree_mult1_0_replace_multlo_component                         ; work         ;
+;                |mult_hbu:auto_generated|                                ; 0 (0)             ; 0 (0)        ; 0           ; 2            ; 0       ; 1         ; 0    ; 0            ; |fir|fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|lpm_mult:u0_m0_wo0_mtree_mult1_0_replace_multlo_component|mult_hbu:auto_generated ; work         ;
++-------------------------------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis RAM Summary                                                                                                                                                                                                                            ;
++---------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+------+------+
+; Name                                                                                                                                                    ; Type ; Mode             ; Port A Depth ; Port A Width ; Port B Depth ; Port B Width ; Size ; MIF  ;
++---------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+------+------+
+; fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|altsyncram:u0_m0_wo0_wi0_delayr0_dmem|altsyncram_d4o3:auto_generated|ALTSYNCRAM ; M9K  ; Simple Dual Port ; 16           ; 24           ; 16           ; 24           ; 384  ; None ;
++---------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+------+------+
 
 
 +-----------------------------------------------------+
@@ -219,11 +289,11 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +---------------------------------------+-------------+
 ; Statistic                             ; Number Used ;
 +---------------------------------------+-------------+
-; Simple Multipliers (9-bit)            ; 4           ;
-; Simple Multipliers (18-bit)           ; 0           ;
+; Simple Multipliers (9-bit)            ; 1           ;
+; Simple Multipliers (18-bit)           ; 1           ;
 ; Embedded Multiplier Blocks            ; --          ;
-; Embedded Multiplier 9-bit elements    ; 4           ;
-; Signed Embedded Multipliers           ; 4           ;
+; Embedded Multiplier 9-bit elements    ; 3           ;
+; Signed Embedded Multipliers           ; 2           ;
 ; Unsigned Embedded Multipliers         ; 0           ;
 ; Mixed Sign Embedded Multipliers       ; 0           ;
 ; Variable Sign Embedded Multipliers    ; 0           ;
@@ -232,212 +302,459 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Note: number of Embedded Multiplier Blocks used is only available after a successful fit.
 
 
++---------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis IP Cores Summary                                                                                           ;
++--------+------------------------+---------+--------------+--------------+-----------------+-------------------------------------+
+; Vendor ; IP Core Name           ; Version ; Release Date ; License Type ; Entity Instance ; IP Include File                     ;
++--------+------------------------+---------+--------------+--------------+-----------------+-------------------------------------+
+; Altera ; altera_fir_compiler_ii ; 13.1    ; N/A          ; N/A          ; |fir            ; C:/Users/Jesper/Desktop/fir/fir.vhd ;
++--------+------------------------+---------+--------------+--------------+-----------------+-------------------------------------+
+
+
+Encoding Type:  One-Hot
++-----------------------------------------------------------------------------------------------------------------------------+
+; State Machine - |fir|fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|auk_dspip_avalon_streaming_sink_hpfir:sink|sink_state ;
++-------------------+-----------------+-------------------+-----------------+------------------+------------------------------+
+; Name              ; sink_state.end1 ; sink_state.st_err ; sink_state.run1 ; sink_state.stall ; sink_state.start             ;
++-------------------+-----------------+-------------------+-----------------+------------------+------------------------------+
+; sink_state.start  ; 0               ; 0                 ; 0               ; 0                ; 0                            ;
+; sink_state.stall  ; 0               ; 0                 ; 0               ; 1                ; 1                            ;
+; sink_state.run1   ; 0               ; 0                 ; 1               ; 0                ; 1                            ;
+; sink_state.st_err ; 0               ; 1                 ; 0               ; 0                ; 1                            ;
+; sink_state.end1   ; 1               ; 0                 ; 0               ; 0                ; 1                            ;
++-------------------+-----------------+-------------------+-----------------+------------------+------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                                                                                                                                                                                                ;
++-------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------+
+; Register name                                                                                                           ; Reason for Removal                                                                                                      ;
++-------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------+
+; fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|u0_m0_wo0_cm0_q[7]                              ; Stuck at GND due to stuck port data_in                                                                                  ;
+; fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|u0_m0_wo0_cm0_q[2..6]                           ; Stuck at VCC due to stuck port data_in                                                                                  ;
+; fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|auk_dspip_avalon_streaming_source_hpfir:source|at_source_error_s[1]    ; Stuck at GND due to stuck port data_in                                                                                  ;
+; fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|u0_m0_wo0_aseq_q[0]                             ; Merged with fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|\u0_m0_wo0_aseq:u0_m0_wo0_aseq_c[5] ;
+; fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|u0_m0_wo0_oseq_q[0]                             ; Merged with fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|\u0_m0_wo0_oseq:u0_m0_wo0_oseq_c[5] ;
+; fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|auk_dspip_avalon_streaming_sink_hpfir:sink|sink_state.start            ; Lost fanout                                                                                                             ;
+; fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|auk_dspip_avalon_streaming_sink_hpfir:sink|sink_state.stall            ; Lost fanout                                                                                                             ;
+; fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|auk_dspip_avalon_streaming_sink_hpfir:sink|sink_state.run1             ; Lost fanout                                                                                                             ;
+; fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|auk_dspip_avalon_streaming_sink_hpfir:sink|sink_state.st_err           ; Lost fanout                                                                                                             ;
+; fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|auk_dspip_avalon_streaming_sink_hpfir:sink|sink_state.end1             ; Stuck at GND due to stuck port data_in                                                                                  ;
+; fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|u0_m0_wo0_mtree_mult1_0_replace_multlo_q[24]    ; Lost fanout                                                                                                             ;
+; fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|u0_m0_wo0_mtree_mult1_0_replace_multhi_q[7..14] ; Lost fanout                                                                                                             ;
+; fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|u0_m0_wo0_accum_o[24..35]                       ; Lost fanout                                                                                                             ;
+; Total Number of Removed Registers = 35                                                                                  ;                                                                                                                         ;
++-------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------+
+
+
 +------------------------------------------------------+
 ; General Register Statistics                          ;
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 182   ;
+; Total registers                              ; 239   ;
 ; Number of registers using Synchronous Clear  ; 0     ;
-; Number of registers using Synchronous Load   ; 0     ;
-; Number of registers using Asynchronous Clear ; 182   ;
+; Number of registers using Synchronous Load   ; 28    ;
+; Number of registers using Asynchronous Clear ; 239   ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 0     ;
+; Number of registers using Clock Enable       ; 49    ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
 
-+------------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: lpm_mult:Mult3                    ;
-+------------------------------------------------+-------------+---------------------+
-; Parameter Name                                 ; Value       ; Type                ;
-+------------------------------------------------+-------------+---------------------+
-; AUTO_CARRY_CHAINS                              ; ON          ; AUTO_CARRY          ;
-; IGNORE_CARRY_BUFFERS                           ; OFF         ; IGNORE_CARRY        ;
-; AUTO_CASCADE_CHAINS                            ; ON          ; AUTO_CASCADE        ;
-; IGNORE_CASCADE_BUFFERS                         ; OFF         ; IGNORE_CASCADE      ;
-; LPM_WIDTHA                                     ; 8           ; Untyped             ;
-; LPM_WIDTHB                                     ; 8           ; Untyped             ;
-; LPM_WIDTHP                                     ; 16          ; Untyped             ;
-; LPM_WIDTHR                                     ; 16          ; Untyped             ;
-; LPM_WIDTHS                                     ; 1           ; Untyped             ;
-; LPM_REPRESENTATION                             ; SIGNED      ; Untyped             ;
-; LPM_PIPELINE                                   ; 0           ; Untyped             ;
-; LATENCY                                        ; 0           ; Untyped             ;
-; INPUT_A_IS_CONSTANT                            ; NO          ; Untyped             ;
-; INPUT_B_IS_CONSTANT                            ; NO          ; Untyped             ;
-; USE_EAB                                        ; OFF         ; Untyped             ;
-; MAXIMIZE_SPEED                                 ; 5           ; Untyped             ;
-; DEVICE_FAMILY                                  ; Cyclone III ; Untyped             ;
-; CARRY_CHAIN                                    ; MANUAL      ; Untyped             ;
-; APEX20K_TECHNOLOGY_MAPPER                      ; LUT         ; TECH_MAPPER_APEX20K ;
-; DEDICATED_MULTIPLIER_CIRCUITRY                 ; AUTO        ; Untyped             ;
-; DEDICATED_MULTIPLIER_MIN_INPUT_WIDTH_FOR_AUTO  ; 0           ; Untyped             ;
-; DEDICATED_MULTIPLIER_MIN_OUTPUT_WIDTH_FOR_AUTO ; 0           ; Untyped             ;
-; CBXI_PARAMETER                                 ; mult_u1t    ; Untyped             ;
-; INPUT_A_FIXED_VALUE                            ; Bx          ; Untyped             ;
-; INPUT_B_FIXED_VALUE                            ; Bx          ; Untyped             ;
-; USE_AHDL_IMPLEMENTATION                        ; OFF         ; Untyped             ;
-+------------------------------------------------+-------------+---------------------+
++----------------------------------------------------------------------------------------------------------------------------+
+; Inverted Register Statistics                                                                                               ;
++------------------------------------------------------------------------------------------------------------------+---------+
+; Inverted Register                                                                                                ; Fan out ;
++------------------------------------------------------------------------------------------------------------------+---------+
+; fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|\u0_m0_wo0_oseq:u0_m0_wo0_oseq_c[3]      ; 2       ;
+; fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|\u0_m0_wo0_oseq:u0_m0_wo0_oseq_c[1]      ; 2       ;
+; fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|u0_m0_wo0_wi0_ra0_count0_sc[3]           ; 3       ;
+; fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|u0_m0_wo0_cm0_q[0]                       ; 2       ;
+; fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|u0_m0_wo0_wi0_wa0_i[0]                   ; 5       ;
+; fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|u0_m0_wo0_wi0_wa0_i[2]                   ; 3       ;
+; fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|u0_m0_wo0_wi0_ra0_count0_i[1]            ; 4       ;
+; fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|u0_m0_wo0_wi0_ra0_count0_i[3]            ; 2       ;
+; fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|u0_m0_wo0_wi0_ra0_count0_sc[0]           ; 2       ;
+; fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|\u0_m0_wo0_run:u0_m0_wo0_run_enable_c[3] ; 4       ;
+; fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|\u0_m0_wo0_run:u0_m0_wo0_run_enable_c[0] ; 2       ;
+; Total number of inverted registers = 11                                                                          ;         ;
++------------------------------------------------------------------------------------------------------------------+---------+
+
+
++-------------------------------------------------------------------------+
+; Source assignments for fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst ;
++-----------------+-------+------+----------------------------------------+
+; Assignment      ; Value ; From ; To                                     ;
++-----------------+-------+------+----------------------------------------+
+; MESSAGE_DISABLE ; 15400 ; -    ; -                                      ;
+; MESSAGE_DISABLE ; 14130 ; -    ; -                                      ;
+; MESSAGE_DISABLE ; 12020 ; -    ; -                                      ;
+; MESSAGE_DISABLE ; 12030 ; -    ; -                                      ;
+; MESSAGE_DISABLE ; 12010 ; -    ; -                                      ;
+; MESSAGE_DISABLE ; 12110 ; -    ; -                                      ;
+; MESSAGE_DISABLE ; 14320 ; -    ; -                                      ;
+; MESSAGE_DISABLE ; 13410 ; -    ; -                                      ;
+; MESSAGE_DISABLE ; 10036 ; -    ; -                                      ;
++-----------------+-------+------+----------------------------------------+
+
+
++------------------------------------------------------------------------------------------------+
+; Source assignments for fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore ;
++-----------------------------------------+--------+------+--------------------------------------+
+; Assignment                              ; Value  ; From ; To                                   ;
++-----------------------------------------+--------+------+--------------------------------------+
+; PHYSICAL_SYNTHESIS_REGISTER_DUPLICATION ; ON     ; -    ; -                                    ;
+; AUTO_SHIFT_REGISTER_RECOGNITION         ; OFF    ; -    ; -                                    ;
+; MESSAGE_DISABLE                         ; 10036  ; -    ; -                                    ;
+; MESSAGE_DISABLE                         ; 10037  ; -    ; -                                    ;
+; MESSAGE_DISABLE                         ; 14130  ; -    ; -                                    ;
+; MESSAGE_DISABLE                         ; 14320  ; -    ; -                                    ;
+; MESSAGE_DISABLE                         ; 15400  ; -    ; -                                    ;
+; MESSAGE_DISABLE                         ; 14130  ; -    ; -                                    ;
+; MESSAGE_DISABLE                         ; 10036  ; -    ; -                                    ;
+; MESSAGE_DISABLE                         ; 12020  ; -    ; -                                    ;
+; MESSAGE_DISABLE                         ; 12030  ; -    ; -                                    ;
+; MESSAGE_DISABLE                         ; 12010  ; -    ; -                                    ;
+; MESSAGE_DISABLE                         ; 12110  ; -    ; -                                    ;
+; MESSAGE_DISABLE                         ; 14320  ; -    ; -                                    ;
+; MESSAGE_DISABLE                         ; 13410  ; -    ; -                                    ;
+; MESSAGE_DISABLE                         ; 113007 ; -    ; -                                    ;
++-----------------------------------------+--------+------+--------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Source assignments for fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|altsyncram:u0_m0_wo0_wi0_delayr0_dmem|altsyncram_d4o3:auto_generated ;
++---------------------------------+--------------------+------+-------------------------------------------------------------------------------------------------------+
+; Assignment                      ; Value              ; From ; To                                                                                                    ;
++---------------------------------+--------------------+------+-------------------------------------------------------------------------------------------------------+
+; OPTIMIZE_POWER_DURING_SYNTHESIS ; NORMAL_COMPILATION ; -    ; -                                                                                                     ;
++---------------------------------+--------------------+------+-------------------------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst ;
++---------------------+-------------+-----------------------------------------------------------+
+; Parameter Name      ; Value       ; Type                                                      ;
++---------------------+-------------+-----------------------------------------------------------+
+; INWIDTH             ; 24          ; Signed Integer                                            ;
+; FULL_WIDTH          ; 36          ; Signed Integer                                            ;
+; BANKINWIDTH         ; 0           ; Signed Integer                                            ;
+; REM_LSB_BIT_g       ; 0           ; Signed Integer                                            ;
+; REM_LSB_TYPE_g      ; Truncation  ; String                                                    ;
+; REM_MSB_BIT_g       ; 12          ; Signed Integer                                            ;
+; REM_MSB_TYPE_g      ; Truncation  ; String                                                    ;
+; PHYSCHANIN          ; 1           ; Signed Integer                                            ;
+; PHYSCHANOUT         ; 1           ; Signed Integer                                            ;
+; CHANSPERPHYIN       ; 1           ; Signed Integer                                            ;
+; CHANSPERPHYOUT      ; 1           ; Signed Integer                                            ;
+; OUTPUTFIFODEPTH     ; 8           ; Signed Integer                                            ;
+; USE_PACKETS         ; 0           ; Signed Integer                                            ;
+; ENABLE_BACKPRESSURE ; false       ; Enumerated                                                ;
+; LOG2_CHANSPERPHYOUT ; 1           ; Signed Integer                                            ;
+; NUMCHANS            ; 1           ; Signed Integer                                            ;
+; DEVICE_FAMILY       ; Cyclone III ; String                                                    ;
++---------------------+-------------+-----------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+------------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: lpm_mult:Mult2                    ;
-+------------------------------------------------+-------------+---------------------+
-; Parameter Name                                 ; Value       ; Type                ;
-+------------------------------------------------+-------------+---------------------+
-; AUTO_CARRY_CHAINS                              ; ON          ; AUTO_CARRY          ;
-; IGNORE_CARRY_BUFFERS                           ; OFF         ; IGNORE_CARRY        ;
-; AUTO_CASCADE_CHAINS                            ; ON          ; AUTO_CASCADE        ;
-; IGNORE_CASCADE_BUFFERS                         ; OFF         ; IGNORE_CASCADE      ;
-; LPM_WIDTHA                                     ; 8           ; Untyped             ;
-; LPM_WIDTHB                                     ; 8           ; Untyped             ;
-; LPM_WIDTHP                                     ; 16          ; Untyped             ;
-; LPM_WIDTHR                                     ; 16          ; Untyped             ;
-; LPM_WIDTHS                                     ; 1           ; Untyped             ;
-; LPM_REPRESENTATION                             ; SIGNED      ; Untyped             ;
-; LPM_PIPELINE                                   ; 0           ; Untyped             ;
-; LATENCY                                        ; 0           ; Untyped             ;
-; INPUT_A_IS_CONSTANT                            ; NO          ; Untyped             ;
-; INPUT_B_IS_CONSTANT                            ; NO          ; Untyped             ;
-; USE_EAB                                        ; OFF         ; Untyped             ;
-; MAXIMIZE_SPEED                                 ; 5           ; Untyped             ;
-; DEVICE_FAMILY                                  ; Cyclone III ; Untyped             ;
-; CARRY_CHAIN                                    ; MANUAL      ; Untyped             ;
-; APEX20K_TECHNOLOGY_MAPPER                      ; LUT         ; TECH_MAPPER_APEX20K ;
-; DEDICATED_MULTIPLIER_CIRCUITRY                 ; AUTO        ; Untyped             ;
-; DEDICATED_MULTIPLIER_MIN_INPUT_WIDTH_FOR_AUTO  ; 0           ; Untyped             ;
-; DEDICATED_MULTIPLIER_MIN_OUTPUT_WIDTH_FOR_AUTO ; 0           ; Untyped             ;
-; CBXI_PARAMETER                                 ; mult_u1t    ; Untyped             ;
-; INPUT_A_FIXED_VALUE                            ; Bx          ; Untyped             ;
-; INPUT_B_FIXED_VALUE                            ; Bx          ; Untyped             ;
-; USE_AHDL_IMPLEMENTATION                        ; OFF         ; Untyped             ;
-+------------------------------------------------+-------------+---------------------+
++------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|auk_dspip_avalon_streaming_sink_hpfir:sink ;
++-----------------+-------+----------------------------------------------------------------------------------------------------------------+
+; Parameter Name  ; Value ; Type                                                                                                           ;
++-----------------+-------+----------------------------------------------------------------------------------------------------------------+
+; width_g         ; 24    ; Signed Integer                                                                                                 ;
+; data_width      ; 24    ; Signed Integer                                                                                                 ;
+; data_port_count ; 1     ; Signed Integer                                                                                                 ;
+; packet_size_g   ; 1     ; Signed Integer                                                                                                 ;
++-----------------+-------+----------------------------------------------------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+------------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: lpm_mult:Mult1                    ;
-+------------------------------------------------+-------------+---------------------+
-; Parameter Name                                 ; Value       ; Type                ;
-+------------------------------------------------+-------------+---------------------+
-; AUTO_CARRY_CHAINS                              ; ON          ; AUTO_CARRY          ;
-; IGNORE_CARRY_BUFFERS                           ; OFF         ; IGNORE_CARRY        ;
-; AUTO_CASCADE_CHAINS                            ; ON          ; AUTO_CASCADE        ;
-; IGNORE_CASCADE_BUFFERS                         ; OFF         ; IGNORE_CASCADE      ;
-; LPM_WIDTHA                                     ; 8           ; Untyped             ;
-; LPM_WIDTHB                                     ; 8           ; Untyped             ;
-; LPM_WIDTHP                                     ; 16          ; Untyped             ;
-; LPM_WIDTHR                                     ; 16          ; Untyped             ;
-; LPM_WIDTHS                                     ; 1           ; Untyped             ;
-; LPM_REPRESENTATION                             ; SIGNED      ; Untyped             ;
-; LPM_PIPELINE                                   ; 0           ; Untyped             ;
-; LATENCY                                        ; 0           ; Untyped             ;
-; INPUT_A_IS_CONSTANT                            ; NO          ; Untyped             ;
-; INPUT_B_IS_CONSTANT                            ; NO          ; Untyped             ;
-; USE_EAB                                        ; OFF         ; Untyped             ;
-; MAXIMIZE_SPEED                                 ; 5           ; Untyped             ;
-; DEVICE_FAMILY                                  ; Cyclone III ; Untyped             ;
-; CARRY_CHAIN                                    ; MANUAL      ; Untyped             ;
-; APEX20K_TECHNOLOGY_MAPPER                      ; LUT         ; TECH_MAPPER_APEX20K ;
-; DEDICATED_MULTIPLIER_CIRCUITRY                 ; AUTO        ; Untyped             ;
-; DEDICATED_MULTIPLIER_MIN_INPUT_WIDTH_FOR_AUTO  ; 0           ; Untyped             ;
-; DEDICATED_MULTIPLIER_MIN_OUTPUT_WIDTH_FOR_AUTO ; 0           ; Untyped             ;
-; CBXI_PARAMETER                                 ; mult_u1t    ; Untyped             ;
-; INPUT_A_FIXED_VALUE                            ; Bx          ; Untyped             ;
-; INPUT_B_FIXED_VALUE                            ; Bx          ; Untyped             ;
-; USE_AHDL_IMPLEMENTATION                        ; OFF         ; Untyped             ;
-+------------------------------------------------+-------------+---------------------+
++----------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|auk_dspip_avalon_streaming_source_hpfir:source ;
++-----------------------+-------+--------------------------------------------------------------------------------------------------------------+
+; Parameter Name        ; Value ; Type                                                                                                         ;
++-----------------------+-------+--------------------------------------------------------------------------------------------------------------+
+; width_g               ; 24    ; Signed Integer                                                                                               ;
+; data_width            ; 24    ; Signed Integer                                                                                               ;
+; data_port_count       ; 1     ; Signed Integer                                                                                               ;
+; packet_size_g         ; 1     ; Signed Integer                                                                                               ;
+; fifo_depth_g          ; 8     ; Signed Integer                                                                                               ;
+; have_counter_g        ; false ; Enumerated                                                                                                   ;
+; counter_limit_g       ; 1     ; Signed Integer                                                                                               ;
+; use_packets           ; 0     ; Signed Integer                                                                                               ;
+; enable_backpressure_g ; false ; Enumerated                                                                                                   ;
++-----------------------+-------+--------------------------------------------------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+------------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: lpm_mult:Mult0                    ;
-+------------------------------------------------+-------------+---------------------+
-; Parameter Name                                 ; Value       ; Type                ;
-+------------------------------------------------+-------------+---------------------+
-; AUTO_CARRY_CHAINS                              ; ON          ; AUTO_CARRY          ;
-; IGNORE_CARRY_BUFFERS                           ; OFF         ; IGNORE_CARRY        ;
-; AUTO_CASCADE_CHAINS                            ; ON          ; AUTO_CASCADE        ;
-; IGNORE_CASCADE_BUFFERS                         ; OFF         ; IGNORE_CASCADE      ;
-; LPM_WIDTHA                                     ; 8           ; Untyped             ;
-; LPM_WIDTHB                                     ; 8           ; Untyped             ;
-; LPM_WIDTHP                                     ; 16          ; Untyped             ;
-; LPM_WIDTHR                                     ; 16          ; Untyped             ;
-; LPM_WIDTHS                                     ; 1           ; Untyped             ;
-; LPM_REPRESENTATION                             ; SIGNED      ; Untyped             ;
-; LPM_PIPELINE                                   ; 0           ; Untyped             ;
-; LATENCY                                        ; 0           ; Untyped             ;
-; INPUT_A_IS_CONSTANT                            ; NO          ; Untyped             ;
-; INPUT_B_IS_CONSTANT                            ; NO          ; Untyped             ;
-; USE_EAB                                        ; OFF         ; Untyped             ;
-; MAXIMIZE_SPEED                                 ; 5           ; Untyped             ;
-; DEVICE_FAMILY                                  ; Cyclone III ; Untyped             ;
-; CARRY_CHAIN                                    ; MANUAL      ; Untyped             ;
-; APEX20K_TECHNOLOGY_MAPPER                      ; LUT         ; TECH_MAPPER_APEX20K ;
-; DEDICATED_MULTIPLIER_CIRCUITRY                 ; AUTO        ; Untyped             ;
-; DEDICATED_MULTIPLIER_MIN_INPUT_WIDTH_FOR_AUTO  ; 0           ; Untyped             ;
-; DEDICATED_MULTIPLIER_MIN_OUTPUT_WIDTH_FOR_AUTO ; 0           ; Untyped             ;
-; CBXI_PARAMETER                                 ; mult_u1t    ; Untyped             ;
-; INPUT_A_FIXED_VALUE                            ; Bx          ; Untyped             ;
-; INPUT_B_FIXED_VALUE                            ; Bx          ; Untyped             ;
-; USE_AHDL_IMPLEMENTATION                        ; OFF         ; Untyped             ;
-+------------------------------------------------+-------------+---------------------+
++----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|dspba_delay:u0_m0_wo0_memread ;
++----------------+-------+---------------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                                      ;
++----------------+-------+---------------------------------------------------------------------------------------------------------------------------+
+; width          ; 1     ; Signed Integer                                                                                                            ;
+; depth          ; 1     ; Signed Integer                                                                                                            ;
+; reset_high     ; '1'   ; Enumerated                                                                                                                ;
++----------------+-------+---------------------------------------------------------------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+--------------------------------------------------------+
-; lpm_mult Parameter Settings by Entity Instance         ;
-+---------------------------------------+----------------+
-; Name                                  ; Value          ;
-+---------------------------------------+----------------+
-; Number of entity instances            ; 4              ;
-; Entity Instance                       ; lpm_mult:Mult3 ;
-;     -- LPM_WIDTHA                     ; 8              ;
-;     -- LPM_WIDTHB                     ; 8              ;
-;     -- LPM_WIDTHP                     ; 16             ;
-;     -- LPM_REPRESENTATION             ; SIGNED         ;
-;     -- INPUT_A_IS_CONSTANT            ; NO             ;
-;     -- INPUT_B_IS_CONSTANT            ; NO             ;
-;     -- USE_EAB                        ; OFF            ;
-;     -- DEDICATED_MULTIPLIER_CIRCUITRY ; AUTO           ;
-;     -- INPUT_A_FIXED_VALUE            ; Bx             ;
-;     -- INPUT_B_FIXED_VALUE            ; Bx             ;
-; Entity Instance                       ; lpm_mult:Mult2 ;
-;     -- LPM_WIDTHA                     ; 8              ;
-;     -- LPM_WIDTHB                     ; 8              ;
-;     -- LPM_WIDTHP                     ; 16             ;
-;     -- LPM_REPRESENTATION             ; SIGNED         ;
-;     -- INPUT_A_IS_CONSTANT            ; NO             ;
-;     -- INPUT_B_IS_CONSTANT            ; NO             ;
-;     -- USE_EAB                        ; OFF            ;
-;     -- DEDICATED_MULTIPLIER_CIRCUITRY ; AUTO           ;
-;     -- INPUT_A_FIXED_VALUE            ; Bx             ;
-;     -- INPUT_B_FIXED_VALUE            ; Bx             ;
-; Entity Instance                       ; lpm_mult:Mult1 ;
-;     -- LPM_WIDTHA                     ; 8              ;
-;     -- LPM_WIDTHB                     ; 8              ;
-;     -- LPM_WIDTHP                     ; 16             ;
-;     -- LPM_REPRESENTATION             ; SIGNED         ;
-;     -- INPUT_A_IS_CONSTANT            ; NO             ;
-;     -- INPUT_B_IS_CONSTANT            ; NO             ;
-;     -- USE_EAB                        ; OFF            ;
-;     -- DEDICATED_MULTIPLIER_CIRCUITRY ; AUTO           ;
-;     -- INPUT_A_FIXED_VALUE            ; Bx             ;
-;     -- INPUT_B_FIXED_VALUE            ; Bx             ;
-; Entity Instance                       ; lpm_mult:Mult0 ;
-;     -- LPM_WIDTHA                     ; 8              ;
-;     -- LPM_WIDTHB                     ; 8              ;
-;     -- LPM_WIDTHP                     ; 16             ;
-;     -- LPM_REPRESENTATION             ; SIGNED         ;
-;     -- INPUT_A_IS_CONSTANT            ; NO             ;
-;     -- INPUT_B_IS_CONSTANT            ; NO             ;
-;     -- USE_EAB                        ; OFF            ;
-;     -- DEDICATED_MULTIPLIER_CIRCUITRY ; AUTO           ;
-;     -- INPUT_A_FIXED_VALUE            ; Bx             ;
-;     -- INPUT_B_FIXED_VALUE            ; Bx             ;
-+---------------------------------------+----------------+
++----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|dspba_delay:u0_m0_wo0_compute ;
++----------------+-------+---------------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                                      ;
++----------------+-------+---------------------------------------------------------------------------------------------------------------------------+
+; width          ; 1     ; Signed Integer                                                                                                            ;
+; depth          ; 2     ; Signed Integer                                                                                                            ;
+; reset_high     ; '1'   ; Enumerated                                                                                                                ;
++----------------+-------+---------------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|dspba_delay:d_u0_m0_wo0_compute_q_15 ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                                             ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------------+
+; width          ; 1     ; Signed Integer                                                                                                                   ;
+; depth          ; 3     ; Signed Integer                                                                                                                   ;
+; reset_high     ; '1'   ; Enumerated                                                                                                                       ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|dspba_delay:d_u0_m0_wo0_compute_q_16 ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                                             ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------------+
+; width          ; 1     ; Signed Integer                                                                                                                   ;
+; depth          ; 1     ; Signed Integer                                                                                                                   ;
+; reset_high     ; '1'   ; Enumerated                                                                                                                       ;
++----------------+-------+----------------------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|dspba_delay:d_xIn_0_13 ;
++----------------+-------+--------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                               ;
++----------------+-------+--------------------------------------------------------------------------------------------------------------------+
+; width          ; 24    ; Signed Integer                                                                                                     ;
+; depth          ; 3     ; Signed Integer                                                                                                     ;
+; reset_high     ; '1'   ; Enumerated                                                                                                         ;
++----------------+-------+--------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|dspba_delay:d_in0_m0_wi0_wo0_assign_sel_q_13 ;
++----------------+-------+------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                                                     ;
++----------------+-------+------------------------------------------------------------------------------------------------------------------------------------------+
+; width          ; 1     ; Signed Integer                                                                                                                           ;
+; depth          ; 3     ; Signed Integer                                                                                                                           ;
+; reset_high     ; '1'   ; Enumerated                                                                                                                               ;
++----------------+-------+------------------------------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|altsyncram:u0_m0_wo0_wi0_delayr0_dmem ;
++------------------------------------+----------------------+------------------------------------------------------------------------------------------------+
+; Parameter Name                     ; Value                ; Type                                                                                           ;
++------------------------------------+----------------------+------------------------------------------------------------------------------------------------+
+; BYTE_SIZE_BLOCK                    ; 8                    ; Untyped                                                                                        ;
+; AUTO_CARRY_CHAINS                  ; ON                   ; AUTO_CARRY                                                                                     ;
+; IGNORE_CARRY_BUFFERS               ; OFF                  ; IGNORE_CARRY                                                                                   ;
+; AUTO_CASCADE_CHAINS                ; ON                   ; AUTO_CASCADE                                                                                   ;
+; IGNORE_CASCADE_BUFFERS             ; OFF                  ; IGNORE_CASCADE                                                                                 ;
+; WIDTH_BYTEENA                      ; 1                    ; Untyped                                                                                        ;
+; OPERATION_MODE                     ; DUAL_PORT            ; Untyped                                                                                        ;
+; WIDTH_A                            ; 24                   ; Signed Integer                                                                                 ;
+; WIDTHAD_A                          ; 4                    ; Signed Integer                                                                                 ;
+; NUMWORDS_A                         ; 16                   ; Signed Integer                                                                                 ;
+; OUTDATA_REG_A                      ; UNREGISTERED         ; Untyped                                                                                        ;
+; ADDRESS_ACLR_A                     ; NONE                 ; Untyped                                                                                        ;
+; OUTDATA_ACLR_A                     ; NONE                 ; Untyped                                                                                        ;
+; WRCONTROL_ACLR_A                   ; NONE                 ; Untyped                                                                                        ;
+; INDATA_ACLR_A                      ; NONE                 ; Untyped                                                                                        ;
+; BYTEENA_ACLR_A                     ; NONE                 ; Untyped                                                                                        ;
+; WIDTH_B                            ; 24                   ; Signed Integer                                                                                 ;
+; WIDTHAD_B                          ; 4                    ; Signed Integer                                                                                 ;
+; NUMWORDS_B                         ; 16                   ; Signed Integer                                                                                 ;
+; INDATA_REG_B                       ; CLOCK0               ; Untyped                                                                                        ;
+; WRCONTROL_WRADDRESS_REG_B          ; CLOCK0               ; Untyped                                                                                        ;
+; RDCONTROL_REG_B                    ; CLOCK0               ; Untyped                                                                                        ;
+; ADDRESS_REG_B                      ; CLOCK0               ; Untyped                                                                                        ;
+; OUTDATA_REG_B                      ; CLOCK0               ; Untyped                                                                                        ;
+; BYTEENA_REG_B                      ; CLOCK0               ; Untyped                                                                                        ;
+; INDATA_ACLR_B                      ; NONE                 ; Untyped                                                                                        ;
+; WRCONTROL_ACLR_B                   ; NONE                 ; Untyped                                                                                        ;
+; ADDRESS_ACLR_B                     ; NONE                 ; Untyped                                                                                        ;
+; OUTDATA_ACLR_B                     ; CLEAR0               ; Untyped                                                                                        ;
+; RDCONTROL_ACLR_B                   ; NONE                 ; Untyped                                                                                        ;
+; BYTEENA_ACLR_B                     ; NONE                 ; Untyped                                                                                        ;
+; WIDTH_BYTEENA_A                    ; 1                    ; Signed Integer                                                                                 ;
+; WIDTH_BYTEENA_B                    ; 1                    ; Signed Integer                                                                                 ;
+; RAM_BLOCK_TYPE                     ; M9K                  ; Untyped                                                                                        ;
+; BYTE_SIZE                          ; 8                    ; Signed Integer                                                                                 ;
+; READ_DURING_WRITE_MODE_MIXED_PORTS ; OLD_DATA             ; Untyped                                                                                        ;
+; READ_DURING_WRITE_MODE_PORT_A      ; NEW_DATA_NO_NBE_READ ; Untyped                                                                                        ;
+; READ_DURING_WRITE_MODE_PORT_B      ; NEW_DATA_NO_NBE_READ ; Untyped                                                                                        ;
+; INIT_FILE                          ; UNUSED               ; Untyped                                                                                        ;
+; INIT_FILE_LAYOUT                   ; PORT_A               ; Untyped                                                                                        ;
+; MAXIMUM_DEPTH                      ; 0                    ; Signed Integer                                                                                 ;
+; CLOCK_ENABLE_INPUT_A               ; NORMAL               ; Untyped                                                                                        ;
+; CLOCK_ENABLE_INPUT_B               ; NORMAL               ; Untyped                                                                                        ;
+; CLOCK_ENABLE_OUTPUT_A              ; NORMAL               ; Untyped                                                                                        ;
+; CLOCK_ENABLE_OUTPUT_B              ; NORMAL               ; Untyped                                                                                        ;
+; CLOCK_ENABLE_CORE_A                ; USE_INPUT_CLKEN      ; Untyped                                                                                        ;
+; CLOCK_ENABLE_CORE_B                ; USE_INPUT_CLKEN      ; Untyped                                                                                        ;
+; ENABLE_ECC                         ; FALSE                ; Untyped                                                                                        ;
+; ECC_PIPELINE_STAGE_ENABLED         ; FALSE                ; Untyped                                                                                        ;
+; WIDTH_ECCSTATUS                    ; 3                    ; Signed Integer                                                                                 ;
+; DEVICE_FAMILY                      ; Cyclone III          ; Untyped                                                                                        ;
+; CBXI_PARAMETER                     ; altsyncram_d4o3      ; Untyped                                                                                        ;
++------------------------------------+----------------------+------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|LPM_MULT:u0_m0_wo0_mtree_mult1_0_replace_multlo_component ;
++------------------------------------------------+-------------+-----------------------------------------------------------------------------------------------------------------+
+; Parameter Name                                 ; Value       ; Type                                                                                                            ;
++------------------------------------------------+-------------+-----------------------------------------------------------------------------------------------------------------+
+; AUTO_CARRY_CHAINS                              ; ON          ; AUTO_CARRY                                                                                                      ;
+; IGNORE_CARRY_BUFFERS                           ; OFF         ; IGNORE_CARRY                                                                                                    ;
+; AUTO_CASCADE_CHAINS                            ; ON          ; AUTO_CASCADE                                                                                                    ;
+; IGNORE_CASCADE_BUFFERS                         ; OFF         ; IGNORE_CASCADE                                                                                                  ;
+; LPM_WIDTHA                                     ; 18          ; Signed Integer                                                                                                  ;
+; LPM_WIDTHB                                     ; 8           ; Signed Integer                                                                                                  ;
+; LPM_WIDTHP                                     ; 26          ; Signed Integer                                                                                                  ;
+; LPM_WIDTHR                                     ; 0           ; Untyped                                                                                                         ;
+; LPM_WIDTHS                                     ; 1           ; Signed Integer                                                                                                  ;
+; LPM_REPRESENTATION                             ; SIGNED      ; Untyped                                                                                                         ;
+; LPM_PIPELINE                                   ; 1           ; Signed Integer                                                                                                  ;
+; LATENCY                                        ; 0           ; Untyped                                                                                                         ;
+; INPUT_A_IS_CONSTANT                            ; NO          ; Untyped                                                                                                         ;
+; INPUT_B_IS_CONSTANT                            ; NO          ; Untyped                                                                                                         ;
+; USE_EAB                                        ; OFF         ; Untyped                                                                                                         ;
+; MAXIMIZE_SPEED                                 ; 5           ; Untyped                                                                                                         ;
+; DEVICE_FAMILY                                  ; Cyclone III ; Untyped                                                                                                         ;
+; CARRY_CHAIN                                    ; MANUAL      ; Untyped                                                                                                         ;
+; APEX20K_TECHNOLOGY_MAPPER                      ; LUT         ; TECH_MAPPER_APEX20K                                                                                             ;
+; DEDICATED_MULTIPLIER_CIRCUITRY                 ; YES         ; Untyped                                                                                                         ;
+; DEDICATED_MULTIPLIER_MIN_INPUT_WIDTH_FOR_AUTO  ; 0           ; Untyped                                                                                                         ;
+; DEDICATED_MULTIPLIER_MIN_OUTPUT_WIDTH_FOR_AUTO ; 0           ; Untyped                                                                                                         ;
+; CBXI_PARAMETER                                 ; mult_hbu    ; Untyped                                                                                                         ;
+; INPUT_A_FIXED_VALUE                            ; Bx          ; Untyped                                                                                                         ;
+; INPUT_B_FIXED_VALUE                            ; Bx          ; Untyped                                                                                                         ;
+; USE_AHDL_IMPLEMENTATION                        ; OFF         ; Untyped                                                                                                         ;
++------------------------------------------------+-------------+-----------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|LPM_MULT:u0_m0_wo0_mtree_mult1_0_replace_multhi_component ;
++------------------------------------------------+-------------+-----------------------------------------------------------------------------------------------------------------+
+; Parameter Name                                 ; Value       ; Type                                                                                                            ;
++------------------------------------------------+-------------+-----------------------------------------------------------------------------------------------------------------+
+; AUTO_CARRY_CHAINS                              ; ON          ; AUTO_CARRY                                                                                                      ;
+; IGNORE_CARRY_BUFFERS                           ; OFF         ; IGNORE_CARRY                                                                                                    ;
+; AUTO_CASCADE_CHAINS                            ; ON          ; AUTO_CASCADE                                                                                                    ;
+; IGNORE_CASCADE_BUFFERS                         ; OFF         ; IGNORE_CASCADE                                                                                                  ;
+; LPM_WIDTHA                                     ; 7           ; Signed Integer                                                                                                  ;
+; LPM_WIDTHB                                     ; 8           ; Signed Integer                                                                                                  ;
+; LPM_WIDTHP                                     ; 15          ; Signed Integer                                                                                                  ;
+; LPM_WIDTHR                                     ; 0           ; Untyped                                                                                                         ;
+; LPM_WIDTHS                                     ; 1           ; Signed Integer                                                                                                  ;
+; LPM_REPRESENTATION                             ; SIGNED      ; Untyped                                                                                                         ;
+; LPM_PIPELINE                                   ; 1           ; Signed Integer                                                                                                  ;
+; LATENCY                                        ; 0           ; Untyped                                                                                                         ;
+; INPUT_A_IS_CONSTANT                            ; NO          ; Untyped                                                                                                         ;
+; INPUT_B_IS_CONSTANT                            ; NO          ; Untyped                                                                                                         ;
+; USE_EAB                                        ; OFF         ; Untyped                                                                                                         ;
+; MAXIMIZE_SPEED                                 ; 5           ; Untyped                                                                                                         ;
+; DEVICE_FAMILY                                  ; Cyclone III ; Untyped                                                                                                         ;
+; CARRY_CHAIN                                    ; MANUAL      ; Untyped                                                                                                         ;
+; APEX20K_TECHNOLOGY_MAPPER                      ; LUT         ; TECH_MAPPER_APEX20K                                                                                             ;
+; DEDICATED_MULTIPLIER_CIRCUITRY                 ; YES         ; Untyped                                                                                                         ;
+; DEDICATED_MULTIPLIER_MIN_INPUT_WIDTH_FOR_AUTO  ; 0           ; Untyped                                                                                                         ;
+; DEDICATED_MULTIPLIER_MIN_OUTPUT_WIDTH_FOR_AUTO ; 0           ; Untyped                                                                                                         ;
+; CBXI_PARAMETER                                 ; mult_t9u    ; Untyped                                                                                                         ;
+; INPUT_A_FIXED_VALUE                            ; Bx          ; Untyped                                                                                                         ;
+; INPUT_B_FIXED_VALUE                            ; Bx          ; Untyped                                                                                                         ;
+; USE_AHDL_IMPLEMENTATION                        ; OFF         ; Untyped                                                                                                         ;
++------------------------------------------------+-------------+-----------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|auk_dspip_roundsat_hpfir:\gen_outp_blk:0:outp_blk ;
++----------------+------------+-------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value      ; Type                                                                                                              ;
++----------------+------------+-------------------------------------------------------------------------------------------------------------------+
+; in_width_g     ; 36         ; Signed Integer                                                                                                    ;
+; rem_lsb_bit_g  ; 0          ; Signed Integer                                                                                                    ;
+; rem_lsb_type_g ; Truncation ; String                                                                                                            ;
+; rem_msb_bit_g  ; 12         ; Signed Integer                                                                                                    ;
+; rem_msb_type_g ; Truncation ; String                                                                                                            ;
++----------------+------------+-------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------+
+; altsyncram Parameter Settings by Entity Instance                                                                                                          ;
++-------------------------------------------+---------------------------------------------------------------------------------------------------------------+
+; Name                                      ; Value                                                                                                         ;
++-------------------------------------------+---------------------------------------------------------------------------------------------------------------+
+; Number of entity instances                ; 1                                                                                                             ;
+; Entity Instance                           ; fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|altsyncram:u0_m0_wo0_wi0_delayr0_dmem ;
+;     -- OPERATION_MODE                     ; DUAL_PORT                                                                                                     ;
+;     -- WIDTH_A                            ; 24                                                                                                            ;
+;     -- NUMWORDS_A                         ; 16                                                                                                            ;
+;     -- OUTDATA_REG_A                      ; UNREGISTERED                                                                                                  ;
+;     -- WIDTH_B                            ; 24                                                                                                            ;
+;     -- NUMWORDS_B                         ; 16                                                                                                            ;
+;     -- ADDRESS_REG_B                      ; CLOCK0                                                                                                        ;
+;     -- OUTDATA_REG_B                      ; CLOCK0                                                                                                        ;
+;     -- RAM_BLOCK_TYPE                     ; M9K                                                                                                           ;
+;     -- READ_DURING_WRITE_MODE_MIXED_PORTS ; OLD_DATA                                                                                                      ;
++-------------------------------------------+---------------------------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; lpm_mult Parameter Settings by Entity Instance                                                                                                                            ;
++---------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
+; Name                                  ; Value                                                                                                                             ;
++---------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
+; Number of entity instances            ; 2                                                                                                                                 ;
+; Entity Instance                       ; fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|LPM_MULT:u0_m0_wo0_mtree_mult1_0_replace_multlo_component ;
+;     -- LPM_WIDTHA                     ; 18                                                                                                                                ;
+;     -- LPM_WIDTHB                     ; 8                                                                                                                                 ;
+;     -- LPM_WIDTHP                     ; 26                                                                                                                                ;
+;     -- LPM_REPRESENTATION             ; SIGNED                                                                                                                            ;
+;     -- INPUT_A_IS_CONSTANT            ; NO                                                                                                                                ;
+;     -- INPUT_B_IS_CONSTANT            ; NO                                                                                                                                ;
+;     -- USE_EAB                        ; OFF                                                                                                                               ;
+;     -- DEDICATED_MULTIPLIER_CIRCUITRY ; YES                                                                                                                               ;
+;     -- INPUT_A_FIXED_VALUE            ; Bx                                                                                                                                ;
+;     -- INPUT_B_FIXED_VALUE            ; Bx                                                                                                                                ;
+; Entity Instance                       ; fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|LPM_MULT:u0_m0_wo0_mtree_mult1_0_replace_multhi_component ;
+;     -- LPM_WIDTHA                     ; 7                                                                                                                                 ;
+;     -- LPM_WIDTHB                     ; 8                                                                                                                                 ;
+;     -- LPM_WIDTHP                     ; 15                                                                                                                                ;
+;     -- LPM_REPRESENTATION             ; SIGNED                                                                                                                            ;
+;     -- INPUT_A_IS_CONSTANT            ; NO                                                                                                                                ;
+;     -- INPUT_B_IS_CONSTANT            ; NO                                                                                                                                ;
+;     -- USE_EAB                        ; OFF                                                                                                                               ;
+;     -- DEDICATED_MULTIPLIER_CIRCUITRY ; YES                                                                                                                               ;
+;     -- INPUT_A_FIXED_VALUE            ; Bx                                                                                                                                ;
+;     -- INPUT_B_FIXED_VALUE            ; Bx                                                                                                                                ;
++---------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
 
 
 +-------------------------------+
@@ -445,7 +762,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:01     ;
+; Top            ; 00:00:00     ;
 +----------------+--------------+
 
 
@@ -455,43 +772,163 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
-    Info: Processing started: Fri Mar 15 08:31:16 2019
+    Info: Processing started: Tue Apr 23 13:53:12 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off fir -c fir
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 2 design units, including 1 entities, in source file fir.vhd
     Info (12022): Found design unit 1: fir-rtl
     Info (12023): Found entity 1: fir
+Info (12021): Found 1 design units, including 1 entities, in source file fir/altera_avalon_sc_fifo.v
+    Info (12023): Found entity 1: altera_avalon_sc_fifo
+Info (12021): Found 2 design units, including 0 entities, in source file fir/auk_dspip_math_pkg_hpfir.vhd
+    Info (12022): Found design unit 1: auk_dspip_math_pkg_hpfir (fir)
+    Info (12022): Found design unit 2: auk_dspip_math_pkg_hpfir-body
+Info (12021): Found 1 design units, including 0 entities, in source file fir/auk_dspip_lib_pkg_hpfir.vhd
+    Info (12022): Found design unit 1: auk_dspip_lib_pkg_hpfir (fir)
+Info (12021): Found 2 design units, including 1 entities, in source file fir/auk_dspip_avalon_streaming_controller_hpfir.vhd
+    Info (12022): Found design unit 1: auk_dspip_avalon_streaming_controller_hpfir-struct
+    Info (12023): Found entity 1: auk_dspip_avalon_streaming_controller_hpfir
+Info (12021): Found 2 design units, including 1 entities, in source file fir/auk_dspip_avalon_streaming_sink_hpfir.vhd
+    Info (12022): Found design unit 1: auk_dspip_avalon_streaming_sink_hpfir-rtl
+    Info (12023): Found entity 1: auk_dspip_avalon_streaming_sink_hpfir
+Info (12021): Found 2 design units, including 1 entities, in source file fir/auk_dspip_avalon_streaming_source_hpfir.vhd
+    Info (12022): Found design unit 1: auk_dspip_avalon_streaming_source_hpfir-rtl
+    Info (12023): Found entity 1: auk_dspip_avalon_streaming_source_hpfir
+Info (12021): Found 2 design units, including 1 entities, in source file fir/auk_dspip_roundsat_hpfir.vhd
+    Info (12022): Found design unit 1: auk_dspip_roundsat_hpfir-beh
+    Info (12023): Found entity 1: auk_dspip_roundsat_hpfir
+Info (12021): Found 1 design units, including 0 entities, in source file fir/dspba_library_package.vhd
+    Info (12022): Found design unit 1: dspba_library_package (fir)
+Info (12021): Found 2 design units, including 1 entities, in source file fir/dspba_library.vhd
+    Info (12022): Found design unit 1: dspba_delay-delay
+    Info (12023): Found entity 1: dspba_delay
+Info (12021): Found 2 design units, including 1 entities, in source file fir/fir_0002_rtl.vhd
+    Info (12022): Found design unit 1: fir_0002_rtl-normal
+    Info (12023): Found entity 1: fir_0002_rtl
+Info (12021): Found 2 design units, including 1 entities, in source file fir/fir_0002_ast.vhd
+    Info (12022): Found design unit 1: fir_0002_ast-struct
+    Info (12023): Found entity 1: fir_0002_ast
+Info (12021): Found 2 design units, including 1 entities, in source file fir/fir_0002.vhd
+    Info (12022): Found design unit 1: fir_0002-syn
+    Info (12023): Found entity 1: fir_0002
 Info (12127): Elaborating entity "fir" for the top level hierarchy
-Info (278001): Inferred 4 megafunctions from design logic
-    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult3"
-    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult2"
-    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult1"
-    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult0"
-Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult3"
-Info (12133): Instantiated megafunction "lpm_mult:Mult3" with the following parameter:
-    Info (12134): Parameter "LPM_WIDTHA" = "8"
+Info (12128): Elaborating entity "fir_0002" for hierarchy "fir_0002:fir_inst"
+Info (12128): Elaborating entity "fir_0002_ast" for hierarchy "fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst"
+Info (12128): Elaborating entity "auk_dspip_avalon_streaming_sink_hpfir" for hierarchy "fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|auk_dspip_avalon_streaming_sink_hpfir:sink"
+Info (12128): Elaborating entity "auk_dspip_avalon_streaming_source_hpfir" for hierarchy "fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|auk_dspip_avalon_streaming_source_hpfir:source"
+Info (12128): Elaborating entity "auk_dspip_avalon_streaming_controller_hpfir" for hierarchy "fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|auk_dspip_avalon_streaming_controller_hpfir:intf_ctrl"
+Info (12128): Elaborating entity "fir_0002_rtl" for hierarchy "fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore"
+Warning (10631): VHDL Process Statement warning at fir_0002_rtl.vhd(303): inferring latch(es) for signal or variable "u0_m0_wo0_wi0_ra0_count0_i", which holds its previous value in one or more paths through the process
+Info (10041): Inferred latch for "u0_m0_wo0_wi0_ra0_count0_i[0]" at fir_0002_rtl.vhd(303)
+Info (12128): Elaborating entity "dspba_delay" for hierarchy "fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|dspba_delay:u0_m0_wo0_memread"
+Info (12128): Elaborating entity "dspba_delay" for hierarchy "fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|dspba_delay:u0_m0_wo0_compute"
+Info (12128): Elaborating entity "dspba_delay" for hierarchy "fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|dspba_delay:d_u0_m0_wo0_compute_q_15"
+Info (12128): Elaborating entity "dspba_delay" for hierarchy "fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|dspba_delay:d_xIn_0_13"
+Info (12128): Elaborating entity "altsyncram" for hierarchy "fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|altsyncram:u0_m0_wo0_wi0_delayr0_dmem"
+Info (12130): Elaborated megafunction instantiation "fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|altsyncram:u0_m0_wo0_wi0_delayr0_dmem"
+Info (12133): Instantiated megafunction "fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|altsyncram:u0_m0_wo0_wi0_delayr0_dmem" with the following parameter:
+    Info (12134): Parameter "address_aclr_a" = "UNUSED"
+    Info (12134): Parameter "address_aclr_b" = "NONE"
+    Info (12134): Parameter "address_reg_b" = "CLOCK0"
+    Info (12134): Parameter "byte_size" = "8"
+    Info (12134): Parameter "byteena_aclr_a" = "UNUSED"
+    Info (12134): Parameter "byteena_aclr_b" = "NONE"
+    Info (12134): Parameter "byteena_reg_b" = "CLOCK0"
+    Info (12134): Parameter "clock_enable_core_a" = "USE_INPUT_CLKEN"
+    Info (12134): Parameter "clock_enable_core_b" = "USE_INPUT_CLKEN"
+    Info (12134): Parameter "clock_enable_input_a" = "NORMAL"
+    Info (12134): Parameter "clock_enable_input_b" = "NORMAL"
+    Info (12134): Parameter "clock_enable_output_a" = "NORMAL"
+    Info (12134): Parameter "clock_enable_output_b" = "NORMAL"
+    Info (12134): Parameter "intended_device_family" = "Cyclone III"
+    Info (12134): Parameter "ecc_pipeline_stage_enabled" = "FALSE"
+    Info (12134): Parameter "enable_ecc" = "FALSE"
+    Info (12134): Parameter "implement_in_les" = "OFF"
+    Info (12134): Parameter "indata_aclr_a" = "UNUSED"
+    Info (12134): Parameter "indata_aclr_b" = "NONE"
+    Info (12134): Parameter "indata_reg_b" = "CLOCK0"
+    Info (12134): Parameter "init_file" = "UNUSED"
+    Info (12134): Parameter "init_file_layout" = "PORT_A"
+    Info (12134): Parameter "maximum_depth" = "0"
+    Info (12134): Parameter "numwords_a" = "16"
+    Info (12134): Parameter "numwords_b" = "16"
+    Info (12134): Parameter "operation_mode" = "DUAL_PORT"
+    Info (12134): Parameter "outdata_aclr_a" = "NONE"
+    Info (12134): Parameter "outdata_aclr_b" = "CLEAR0"
+    Info (12134): Parameter "outdata_reg_a" = "UNREGISTERED"
+    Info (12134): Parameter "outdata_reg_b" = "CLOCK0"
+    Info (12134): Parameter "power_up_uninitialized" = "FALSE"
+    Info (12134): Parameter "ram_block_type" = "M9K"
+    Info (12134): Parameter "rdcontrol_aclr_b" = "NONE"
+    Info (12134): Parameter "rdcontrol_reg_b" = "CLOCK0"
+    Info (12134): Parameter "read_during_write_mode_mixed_ports" = "OLD_DATA"
+    Info (12134): Parameter "read_during_write_mode_port_a" = "NEW_DATA_NO_NBE_READ"
+    Info (12134): Parameter "read_during_write_mode_port_b" = "NEW_DATA_NO_NBE_READ"
+    Info (12134): Parameter "stratixiv_m144k_allow_dual_clocks" = "ON"
+    Info (12134): Parameter "width_a" = "24"
+    Info (12134): Parameter "width_b" = "24"
+    Info (12134): Parameter "width_byteena_a" = "1"
+    Info (12134): Parameter "width_byteena_b" = "1"
+    Info (12134): Parameter "width_eccstatus" = "3"
+    Info (12134): Parameter "widthad_a" = "4"
+    Info (12134): Parameter "widthad_b" = "4"
+    Info (12134): Parameter "wrcontrol_aclr_a" = "UNUSED"
+    Info (12134): Parameter "wrcontrol_aclr_b" = "NONE"
+    Info (12134): Parameter "wrcontrol_wraddress_reg_b" = "CLOCK0"
+    Info (12134): Parameter "lpm_hint" = "UNUSED"
+    Info (12134): Parameter "lpm_type" = "altsyncram"
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_d4o3.tdf
+    Info (12023): Found entity 1: altsyncram_d4o3
+Info (12128): Elaborating entity "altsyncram_d4o3" for hierarchy "fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|altsyncram:u0_m0_wo0_wi0_delayr0_dmem|altsyncram_d4o3:auto_generated"
+Info (12128): Elaborating entity "LPM_MULT" for hierarchy "fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|LPM_MULT:u0_m0_wo0_mtree_mult1_0_replace_multlo_component"
+Info (12130): Elaborated megafunction instantiation "fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|LPM_MULT:u0_m0_wo0_mtree_mult1_0_replace_multlo_component"
+Info (12133): Instantiated megafunction "fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|LPM_MULT:u0_m0_wo0_mtree_mult1_0_replace_multlo_component" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "18"
     Info (12134): Parameter "LPM_WIDTHB" = "8"
-    Info (12134): Parameter "LPM_WIDTHP" = "16"
-    Info (12134): Parameter "LPM_WIDTHR" = "16"
     Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_WIDTHP" = "26"
     Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
-    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "NO"
-    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
-    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
-Info (12021): Found 1 design units, including 1 entities, in source file db/mult_u1t.tdf
-    Info (12023): Found entity 1: mult_u1t
+    Info (12134): Parameter "LPM_PIPELINE" = "1"
+    Info (12134): Parameter "LPM_TYPE" = "LPM_MULT"
+    Info (12134): Parameter "LPM_HINT" = "DEDICATED_MULTIPLIER_CIRCUITRY=YES, MAXIMIZE_SPEED=5"
+Info (12021): Found 1 design units, including 1 entities, in source file db/mult_hbu.tdf
+    Info (12023): Found entity 1: mult_hbu
+Info (12128): Elaborating entity "mult_hbu" for hierarchy "fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|LPM_MULT:u0_m0_wo0_mtree_mult1_0_replace_multlo_component|mult_hbu:auto_generated"
+Info (12128): Elaborating entity "LPM_MULT" for hierarchy "fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|LPM_MULT:u0_m0_wo0_mtree_mult1_0_replace_multhi_component"
+Info (12130): Elaborated megafunction instantiation "fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|LPM_MULT:u0_m0_wo0_mtree_mult1_0_replace_multhi_component"
+Info (12133): Instantiated megafunction "fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|LPM_MULT:u0_m0_wo0_mtree_mult1_0_replace_multhi_component" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "7"
+    Info (12134): Parameter "LPM_WIDTHB" = "8"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_WIDTHP" = "15"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "LPM_PIPELINE" = "1"
+    Info (12134): Parameter "LPM_TYPE" = "LPM_MULT"
+    Info (12134): Parameter "LPM_HINT" = "DEDICATED_MULTIPLIER_CIRCUITRY=YES, MAXIMIZE_SPEED=5"
+Info (12021): Found 1 design units, including 1 entities, in source file db/mult_t9u.tdf
+    Info (12023): Found entity 1: mult_t9u
+Info (12128): Elaborating entity "mult_t9u" for hierarchy "fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|LPM_MULT:u0_m0_wo0_mtree_mult1_0_replace_multhi_component|mult_t9u:auto_generated"
+Info (12128): Elaborating entity "auk_dspip_roundsat_hpfir" for hierarchy "fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|auk_dspip_roundsat_hpfir:\gen_outp_blk:0:outp_blk"
+Info (13000): Registers with preset signals will power-up high
+Info (13003): DEV_CLRn pin will set, and not reset, register with preset signal due to NOT Gate Push-Back
+Warning (13024): Output pins are stuck at VCC or GND
+    Warning (13410): Pin "ast_source_error[1]" is stuck at GND
 Info (286030): Timing-Driven Synthesis is running
+Info (17049): 25 registers lost all their fanouts during netlist optimizations.
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 246 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 42 input pins
-    Info (21059): Implemented 10 output pins
-    Info (21061): Implemented 190 logic cells
-    Info (21062): Implemented 4 DSP elements
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 553 megabytes
-    Info: Processing ended: Fri Mar 15 08:31:20 2019
-    Info: Elapsed time: 00:00:04
+Warning (21074): Design contains 1 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "ast_sink_error[1]"
+Info (21057): Implemented 347 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 29 input pins
+    Info (21059): Implemented 27 output pins
+    Info (21061): Implemented 264 logic cells
+    Info (21064): Implemented 24 RAM segments
+    Info (21062): Implemented 3 DSP elements
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 6 warnings
+    Info: Peak virtual memory: 4685 megabytes
+    Info: Processing ended: Tue Apr 23 13:53:15 2019
+    Info: Elapsed time: 00:00:03
     Info: Total CPU time (on all processors): 00:00:03
 
 

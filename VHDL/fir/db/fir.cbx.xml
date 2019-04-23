@@ -1,9 +1,8 @@
 <?xml version="1.0" ?>
 <LOG_ROOT>
 	<PROJECT NAME="fir">
-		<CBX_INST_ENTRY INSTANCE_NAME="|fir|lpm_mult:Mult0" CBX_FILE_NAME="mult_u1t.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|fir|lpm_mult:Mult1" CBX_FILE_NAME="mult_u1t.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|fir|lpm_mult:Mult2" CBX_FILE_NAME="mult_u1t.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|fir|lpm_mult:Mult3" CBX_FILE_NAME="mult_u1t.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|fir|fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|LPM_MULT:u0_m0_wo0_mtree_mult1_0_replace_multhi_component" CBX_FILE_NAME="mult_t9u.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|fir|fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|LPM_MULT:u0_m0_wo0_mtree_mult1_0_replace_multlo_component" CBX_FILE_NAME="mult_hbu.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|fir|fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|altsyncram:u0_m0_wo0_wi0_delayr0_dmem" CBX_FILE_NAME="altsyncram_d4o3.tdf"/>
 	</PROJECT>
 </LOG_ROOT>

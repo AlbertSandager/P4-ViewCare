@@ -1,5 +1,3 @@
 v1
-DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,lpm_mult:Mult0|mult_u1t:auto_generated|mac_out2,
-DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,lpm_mult:Mult1|mult_u1t:auto_generated|mac_out2,
-DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,lpm_mult:Mult2|mult_u1t:auto_generated|mac_out2,
-DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,lpm_mult:Mult3|mult_u1t:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|lpm_mult:u0_m0_wo0_mtree_mult1_0_replace_multlo_component|mult_hbu:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,fir_0002:fir_inst|fir_0002_ast:fir_0002_ast_inst|fir_0002_rtl:hpfircore|lpm_mult:u0_m0_wo0_mtree_mult1_0_replace_multhi_component|mult_t9u:auto_generated|mac_out2,

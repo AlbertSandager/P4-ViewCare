@@ -1,5 +1,5 @@
 Flow report for SPI_slave_FPGA
-Thu Apr 04 11:46:55 2019
+Fri Apr 26 14:01:16 2019
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -40,14 +40,14 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Flow Summary                                                                    ;
 +------------------------------------+--------------------------------------------+
-; Flow Status                        ; Successful - Thu Apr 04 11:46:55 2019      ;
+; Flow Status                        ; Successful - Fri Apr 26 14:01:16 2019      ;
 ; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
 ; Revision Name                      ; SPI_slave_FPGA                             ;
 ; Top-level Entity Name              ; SPI_slave_FPGA                             ;
 ; Family                             ; Cyclone III                                ;
 ; Device                             ; EP3C16F484C6                               ;
 ; Timing Models                      ; Final                                      ;
-; Total logic elements               ; 93 / 15,408 ( < 1 % )                      ;
+; Total logic elements               ; 94 / 15,408 ( < 1 % )                      ;
 ;     Total combinational functions  ; 89 / 15,408 ( < 1 % )                      ;
 ;     Dedicated logic registers      ; 40 / 15,408 ( < 1 % )                      ;
 ; Total registers                    ; 40                                         ;
@@ -64,7 +64,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 04/04/2019 11:46:22 ;
+; Start date & time ; 04/26/2019 14:00:46 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; SPI_slave_FPGA      ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ applicable agreement for further details.
 +-------------------------------------+-------------------------------+---------------+-------------+----------------+
 ; Assignment Name                     ; Value                         ; Default Value ; Entity Name ; Section Id     ;
 +-------------------------------------+-------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 8796759316557.155437118203672 ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID               ; 8796759316557.155628004604836 ; --            ; --          ; --             ;
 ; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                          ; --            ; --          ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (VHDL)        ; <None>        ; --          ; --             ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                            ; --            ; --          ; --             ;
@@ -93,12 +93,12 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:03     ; 1.0                     ; 514 MB              ; 00:00:03                           ;
-; Fitter                    ; 00:00:14     ; 1.0                     ; 787 MB              ; 00:00:13                           ;
+; Analysis & Synthesis      ; 00:00:03     ; 1.0                     ; 515 MB              ; 00:00:02                           ;
+; Fitter                    ; 00:00:12     ; 1.0                     ; 799 MB              ; 00:00:11                           ;
 ; Assembler                 ; 00:00:02     ; 1.0                     ; 447 MB              ; 00:00:02                           ;
-; TimeQuest Timing Analyzer ; 00:00:05     ; 1.0                     ; 492 MB              ; 00:00:03                           ;
-; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 420 MB              ; 00:00:01                           ;
-; Total                     ; 00:00:25     ; --                      ; --                  ; 00:00:22                           ;
+; TimeQuest Timing Analyzer ; 00:00:04     ; 1.0                     ; 492 MB              ; 00:00:03                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 409 MB              ; 00:00:01                           ;
+; Total                     ; 00:00:22     ; --                      ; --                  ; 00:00:19                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

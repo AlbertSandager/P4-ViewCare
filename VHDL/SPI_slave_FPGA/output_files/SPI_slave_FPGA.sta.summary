@@ -3,44 +3,44 @@ TimeQuest Timing Analyzer Summary
 ------------------------------------------------------------
 
 Type  : Slow 1200mV 85C Model Setup 'sclk'
-Slack : -2.825
-TNS   : -43.914
+Slack : -3.640
+TNS   : -45.621
 
 Type  : Slow 1200mV 85C Model Setup 'rx_req'
-Slack : -0.113
-TNS   : -0.270
+Slack : 0.479
+TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Hold 'rx_req'
-Slack : -0.180
-TNS   : -0.816
+Slack : -0.856
+TNS   : -6.471
 
 Type  : Slow 1200mV 85C Model Hold 'sclk'
-Slack : 0.094
+Slack : 0.140
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Recovery 'sclk'
-Slack : -0.212
-TNS   : -3.458
+Slack : -0.644
+TNS   : -11.586
 
 Type  : Slow 1200mV 85C Model Recovery 'reset_n'
-Slack : 0.408
-TNS   : 0.000
+Slack : -0.202
+TNS   : -1.346
 
 Type  : Slow 1200mV 85C Model Recovery 'rx_req'
-Slack : 0.472
+Slack : 0.073
 TNS   : 0.000
-
-Type  : Slow 1200mV 85C Model Removal 'reset_n'
-Slack : -0.796
-TNS   : -6.187
 
 Type  : Slow 1200mV 85C Model Removal 'rx_req'
-Slack : -0.785
-TNS   : -6.106
+Slack : -0.377
+TNS   : -2.969
+
+Type  : Slow 1200mV 85C Model Removal 'reset_n'
+Slack : -0.074
+TNS   : -0.125
 
 Type  : Slow 1200mV 85C Model Removal 'sclk'
-Slack : 0.027
-TNS   : 0.000
+Slack : -0.033
+TNS   : -0.033
 
 Type  : Slow 1200mV 85C Model Minimum Pulse Width 'sclk'
 Slack : -3.000
@@ -55,44 +55,44 @@ Slack : -3.000
 TNS   : -3.000
 
 Type  : Slow 1200mV 0C Model Setup 'sclk'
-Slack : -2.453
-TNS   : -36.908
+Slack : -3.150
+TNS   : -38.541
 
 Type  : Slow 1200mV 0C Model Setup 'rx_req'
-Slack : -0.040
-TNS   : -0.059
+Slack : 0.511
+TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Hold 'rx_req'
-Slack : -0.097
-TNS   : -0.205
+Slack : -0.699
+TNS   : -5.245
 
 Type  : Slow 1200mV 0C Model Hold 'sclk'
-Slack : 0.025
+Slack : 0.130
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Recovery 'sclk'
-Slack : -0.125
-TNS   : -1.165
+Slack : -0.520
+TNS   : -8.854
 
 Type  : Slow 1200mV 0C Model Recovery 'reset_n'
-Slack : 0.394
-TNS   : 0.000
+Slack : -0.071
+TNS   : -0.457
 
 Type  : Slow 1200mV 0C Model Recovery 'rx_req'
-Slack : 0.427
+Slack : 0.188
 TNS   : 0.000
-
-Type  : Slow 1200mV 0C Model Removal 'reset_n'
-Slack : -0.714
-TNS   : -5.499
 
 Type  : Slow 1200mV 0C Model Removal 'rx_req'
-Slack : -0.702
-TNS   : -5.271
+Slack : -0.433
+TNS   : -3.398
+
+Type  : Slow 1200mV 0C Model Removal 'reset_n'
+Slack : -0.170
+TNS   : -0.774
 
 Type  : Slow 1200mV 0C Model Removal 'sclk'
-Slack : 0.004
-TNS   : 0.000
+Slack : -0.059
+TNS   : -0.059
 
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'sclk'
 Slack : -3.000
@@ -107,55 +107,55 @@ Slack : -3.000
 TNS   : -3.000
 
 Type  : Fast 1200mV 0C Model Setup 'sclk'
-Slack : -1.679
-TNS   : -17.404
+Slack : -2.264
+TNS   : -20.339
 
 Type  : Fast 1200mV 0C Model Setup 'rx_req'
-Slack : 0.325
+Slack : 0.728
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Hold 'rx_req'
-Slack : -0.148
-TNS   : -0.783
+Slack : -0.620
+TNS   : -4.685
 
 Type  : Fast 1200mV 0C Model Hold 'sclk'
-Slack : 0.012
+Slack : 0.013
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Recovery 'sclk'
-Slack : -0.230
-TNS   : -4.829
-
-Type  : Fast 1200mV 0C Model Recovery 'rx_req'
-Slack : 0.738
-TNS   : 0.000
+Slack : -0.478
+TNS   : -8.024
 
 Type  : Fast 1200mV 0C Model Recovery 'reset_n'
-Slack : 0.788
+Slack : 0.372
 TNS   : 0.000
 
-Type  : Fast 1200mV 0C Model Removal 'reset_n'
-Slack : -0.535
-TNS   : -4.183
+Type  : Fast 1200mV 0C Model Recovery 'rx_req'
+Slack : 0.519
+TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Removal 'rx_req'
-Slack : -0.516
-TNS   : -4.031
+Slack : -0.366
+TNS   : -2.865
+
+Type  : Fast 1200mV 0C Model Removal 'reset_n'
+Slack : -0.190
+TNS   : -1.108
 
 Type  : Fast 1200mV 0C Model Removal 'sclk'
-Slack : -0.030
-TNS   : -0.256
+Slack : -0.040
+TNS   : -0.040
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'sclk'
 Slack : -3.000
-TNS   : -49.249
+TNS   : -47.915
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'reset_n'
 Slack : -3.000
-TNS   : -3.000
+TNS   : -3.402
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'rx_req'
 Slack : -3.000
-TNS   : -3.000
+TNS   : -3.248
 
 ------------------------------------------------------------

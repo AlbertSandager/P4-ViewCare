@@ -9,7 +9,7 @@ ENTITY valueparsing IS
 		baud_rate	:	INTEGER		:= 19_200;		--data link baud rate in bits/second
 		os_rate		:	INTEGER		:= 16;			--oversampling rate to find center of receive bits (in samples per baud period)
 		d_width		:	INTEGER		:= 8; 			--data bus width
-		parity		:	INTEGER		:= 1;				--0 for no parity, 1 for parity
+		parity		:	INTEGER		:= 0;				--0 for no parity, 1 for parity
 		parity_eo	:	STD_LOGIC	:= '0';			--'0' for even, '1' for odd parity
 		
 		--SPI values
@@ -20,17 +20,14 @@ ENTITY valueparsing IS
 	PORT(
 		--UART values
 		clk		:	IN		STD_LOGIC;										--system clock
-		reset_n	:	IN		STD_LOGIC;										--ascynchronous reset
-		tx_ena	:	IN		STD_LOGIC;										--initiate transmission
-		tx_data	:	IN		STD_LOGIC_VECTOR(d_width-1 DOWNTO 0);  --data to transmit
 		rx			:	IN		STD_LOGIC;										--receive pin
 		rx_busy	:	OUT	STD_LOGIC;										--data reception in progress
 		rx_error	:	OUT	STD_LOGIC;										--start, parity, or stop bit error detected
 		rx_data	:	OUT	STD_LOGIC_VECTOR(d_width-1 DOWNTO 0);	--data received
-		tx_busy	:	OUT	STD_LOGIC;  									--transmission in progress
 		tx			:	OUT	STD_LOGIC;										--transmit pin
 		
 		--SPI values
+		spi_led : OUT STD_LOGIC_VECTOR(spi_d_width-1 DOWNTO 0) := (OTHERS => '0');
 		sspi_clk         : IN     STD_LOGIC;  --spi spi_clk from master
 		spi_reset_n      : IN     STD_LOGIC;  --active low reset
 		ss_n         : IN     STD_LOGIC;  --active low slave select
@@ -45,13 +42,16 @@ ENTITY valueparsing IS
 		trdy         : BUFFER STD_LOGIC := '0';  --transmit ready bit
 		rrdy         : BUFFER STD_LOGIC := '0';  --receive ready bit
 		roe          : BUFFER STD_LOGIC := '0';  --receive overrun error bit
-		spi_rx_data      : OUT    STD_LOGIC_VECTOR(spi_d_width-1 DOWNTO 0) := (OTHERS => '0');  --receive register output to logic
 		busy         : OUT    STD_LOGIC := '0';  --busy signal to logic ('1' during transaction)
 		miso         : OUT    STD_LOGIC := 'Z'); --master in, slave out
 END valueparsing;
 		
 ARCHITECTURE logic OF valueparsing IS
 	--UART values
+	SIGNAL tx_busy : STD_LOGIC;  									--transmission in progress
+	SIGNAL reset_n : STD_LOGIC;										--ascynchronous reset
+	SIGNAL tx_ena : STD_LOGIC;										--initiate transmission
+	SIGNAL tx_data : STD_LOGIC_VECTOR(d_width-1 DOWNTO 0);  --data to transmit
 	TYPE 		tx_machine IS(idle, transmit);										--tranmit state machine data type
 	TYPE 		rx_machine IS(idle, receive);											--receive state machine data type
 	SIGNAL	tx_state				:	tx_machine;										--transmit state machine
@@ -65,6 +65,7 @@ ARCHITECTURE logic OF valueparsing IS
 	SIGNAL	tx_buffer			:	STD_LOGIC_VECTOR(parity+d_width+1 DOWNTO 0) := (OTHERS => '1');	--values to be transmitted
 	
 	--SPI values
+	SIGNAL spi_rx_data : STD_LOGIC_VECTOR(spi_d_width-1 DOWNTO 0) := (OTHERS => '0');  --receive register output to logic
 	SIGNAL mode    : STD_LOGIC;  --groups modes by clock polarity relation to data
 	SIGNAL spi_clk     : STD_LOGIC;  --clock
 	SIGNAL bit_cnt : STD_LOGIC_VECTOR(spi_d_width+8 DOWNTO 0);  --'1' for active transaction bit
@@ -76,6 +77,8 @@ ARCHITECTURE logic OF valueparsing IS
 BEGIN
 
 --SPI part starts here!
+
+spi_led <= tx_data;
 
   busy <= NOT ss_n;  --high during transactions
   
@@ -188,6 +191,9 @@ BEGIN
   
 --UART part starts here!
 
+tx_data <= spi_rx_data;
+
+
 	--generate clock enable pulses at the baud rate and the oversampling rate
 	PROCESS(reset_n, clk)
 		VARIABLE count_baud	:	INTEGER RANGE 0 TO clk_freq/baud_rate-1 := 0;			--counter to determine baud rate period
@@ -276,6 +282,18 @@ BEGIN
 	WITH parity SELECT  --compare calculated parity bit with received parity bit to determine error
 		parity_error <= 	rx_parity(d_width) XOR rx_buffer(parity+d_width) WHEN 1,	--using parity
 								'0' WHEN OTHERS;														--not using parity
+		
+	--PROCESS (rrdy, clk, tx_busy)
+	--BEGIN
+	--IF (rrdy = '1') THEN
+	--tx_ena <= '1';
+	--END IF;
+	--IF (tx_busy = '1' AND rrdy = '1') THEN
+	--tx_ena <= '0';
+	--END IF;
+	--END PROCESS;
+	
+		
 		
 	--transmit state machine
 	PROCESS(reset_n, clk)

@@ -48,7 +48,8 @@ struct kanal1 {
 void loop() {
   if(counter ==1) 
   {
-   kanal1[0]=1;
+   // 65591
+   kanal1[0]=5;
    kanal1[1]=0;
    kanal1[2]=55;
    startWord[0]=0;
@@ -59,9 +60,35 @@ void loop() {
   digitalWrite(ss, LOW);
 
     SPI.transfer(0); // send command byte
-    SPI.transfer(0);
-    SPI.transfer(0);
-    SPI.transfer(kanal1,3);
+   SPI.transfer(16);
+  //  SPI.transfer(0);
+   // SPI.transfer(kanal1,3);
+    delayMicroseconds(1);
+  //SPI.transfer(startOrd);
+  
+  //SPI.transfer(startWord,3);
+ // SPI.transfer(0); // send command byte
+  //SPI.transfer(0); // send command byte
+// kanal1 --65591
+  
+  
+ // SPI.transfer(55); // send value (0~255)
+ // SPI.transfer(0);
+ // SPI.transfer(55);
+
+
+  
+  digitalWrite(ss, HIGH);
+
+  delay(1000);
+
+
+    digitalWrite(ss, LOW);
+
+    SPI.transfer(0); // send command byte
+   SPI.transfer(5);
+  //  SPI.transfer(0);
+   // SPI.transfer(kanal1,3);
     delayMicroseconds(1);
   //SPI.transfer(startOrd);
   

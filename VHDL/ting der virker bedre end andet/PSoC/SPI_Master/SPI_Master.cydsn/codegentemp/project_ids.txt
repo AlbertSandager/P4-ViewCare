@@ -1,0 +1,7 @@
+C:\Users\Albert Sandager\Documents\PSoC Creator\SPI_Master\SPI_Master.cydsn\SPI_Master.cyprj|f2bcc908-71ba-44ba-96c2-2047521bbeef
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|b1861a7e-c514-46a0-be10-b6dc27aa66e7
+C:\Users\Albert Sandager\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\Downloads ( 4.2).cyprj|6ac64896-e421-4e86-89d6-5c9e8abbee8f
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|1b4710d4-03b6-427a-9847-0faced5bb0a3
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|142409da-d0fe-4e4b-9d81-2f580275fed4
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|e285e0dc-4c9e-4185-aa42-90a38eef84f2
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\default\CyReferenceLibrary\CyReferenceLibrary.cylib\CyReferenceLibrary.cyprj|0d752d5d-175f-40c5-8308-8cb7bb236da9

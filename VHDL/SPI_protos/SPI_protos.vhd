@@ -10,8 +10,8 @@ ENTITY SPI_protos IS
     s_d_width : INTEGER := 8;     --data width in bits
 	 
     --SPI Master values
-    m_slaves  : INTEGER := 1;  --number of spi slaves
-    m_d_width : INTEGER := 8); --data bus width	 
+  N                     : integer := 8;      -- number of bit to serialize
+  CLK_DIV               : integer := 100 );  -- input clock divider to generate output serial clock; o_sclk frequency = i_clk/(2*CLK_DIV) 
 
 
 	 PORT(
@@ -34,22 +34,16 @@ ENTITY SPI_protos IS
     s_miso         : OUT    STD_LOGIC := 'Z'; --master in, slave out
 	 
 	 --SPI Master values
-	 spi_led : OUT STD_LOGIC_VECTOR(s_d_width-1 DOWNTO 0) := (OTHERS => '0'); 
-	 ena_led : OUT STD_LOGIC;
-    m_clock   : IN     STD_LOGIC;                             --system clock
-	 m_reset_n : IN STD_LOGIC;                             --asynchronous reset
+  i_clk                       : in  std_logic;
+  i_rstb                      : in  std_logic;
+  i_tx_start                  : in  std_logic;  -- start TX on serial line
+  o_tx_end                    : out std_logic;  -- TX data completed; o_data_parallel available
 
-    m_cpol    : IN     STD_LOGIC;                             --spi clock polarity
-    m_cpha    : IN     STD_LOGIC;                             --spi clock phase
-    m_cont    : IN     STD_LOGIC;                             --continuous mode command
-    m_clk_div : IN     INTEGER;                               --system clock cycles per 1/2 period of sclk
-    m_addr    : IN     INTEGER;                               --m_address of slave
-    m_miso    : IN     STD_LOGIC;                             --master in, slave out
-    m_sclk    : BUFFER STD_LOGIC;                             --spi clock
-    m_ss_n    : BUFFER STD_LOGIC_VECTOR(m_slaves-1 DOWNTO 0);   --slave select
-    m_mosi    : OUT    STD_LOGIC;                             --master out, slave in
-    m_busy    : OUT    STD_LOGIC;                             --busy / data ready signal
-    m_rx_data : OUT    STD_LOGIC_VECTOR(m_d_width-1 DOWNTO 0)); --data received
+  o_data_parallel             : out std_logic_vector(N-1 downto 0);  -- received data
+  o_sclk                      : out std_logic;
+  o_ss                        : out std_logic;
+  o_mosi                      : out std_logic;
+  i_miso                      : in  std_logic);
 END SPI_protos;
 
 ARCHITECTURE logic OF SPI_protos IS
@@ -65,20 +59,23 @@ ARCHITECTURE logic OF SPI_protos IS
   SIGNAL s_tx_buf  : STD_LOGIC_VECTOR(s_d_width-1 DOWNTO 0) := (OTHERS => '0');  --transmit buffer
   
   --SPI Master values
-  SIGNAL m_enable : STD_LOGIC;                             --initiate transaction
-  SIGNAL m_tx_data : STD_LOGIC_VECTOR(m_d_width-1 DOWNTO 0);  --data to transmit
+signal i_data_parallel : std_logic_vector(N-1 downto 0);  -- data to sent
+type t_spi_controller_fsm is (
+                          ST_RESET   ,
+                          ST_TX_RX   ,
+                          ST_END     );
+signal r_counter_clock        : integer range 0 to CLK_DIV*2;
+signal r_sclk_rise            : std_logic;
+signal r_sclk_fall            : std_logic;
+signal r_counter_clock_ena    : std_logic;
+signal r_counter_data         : integer range 0 to N;
+signal w_tc_counter_data      : std_logic;
+signal r_st_present           : t_spi_controller_fsm;
+signal w_st_next              : t_spi_controller_fsm;
+signal r_tx_start             : std_logic;  -- start TX on serial line
+signal r_tx_data              : std_logic_vector(N-1 downto 0);  -- data to sent
+signal r_rx_data              : std_logic_vector(N-1 downto 0);  -- received data
 
-  TYPE machine IS(ready, execute);                           --m_state machine data type
-  SIGNAL m_state       : machine;                              --current m_state
-  SIGNAL m_slave       : INTEGER;                              --m_slave selected for current transaction
-  SIGNAL m_clk_ratio   : INTEGER;                              --current m_clk_div
-  SIGNAL m_count       : INTEGER;                              --m_counter to trigger m_sclk from system m_clock
-  SIGNAL m_clk_toggles : INTEGER RANGE 0 TO m_d_width*2 + 1;     --m_count spi m_clock toggles
-  SIGNAL m_assert_data : STD_LOGIC;                            --'1' is tx m_sclk toggle, '0' is rx m_sclk toggle
-  SIGNAL m_continue    : STD_LOGIC;                            --flag to m_continue transaction
-  SIGNAL m_rx_buffer   : STD_LOGIC_VECTOR(m_d_width-1 DOWNTO 0); --receive data buffer
-  SIGNAL m_tx_buffer   : STD_LOGIC_VECTOR(m_d_width-1 DOWNTO 0); --transmit data buffer
-  SIGNAL m_last_bit_rx : INTEGER RANGE 0 TO m_d_width*2;         --last rx data bit location
 BEGIN
 
 -- SPI Slave starts here!!!
@@ -194,118 +191,121 @@ BEGIN
   
   
   -- SPI Master starts here!!!
-spi_led <= m_tx_data;
-m_tx_data <= s_rx_data;
-ena_led <= s_busy;
---m_enable <= s_busy;
-
-
-
-    PROCESS(m_clock, m_reset_n)
-  BEGIN
-
-    IF(m_reset_n = '0') THEN        --reset system
-      m_busy <= '1';                --set m_busy signal
-      m_ss_n <= (OTHERS => '1');    --deassert all m_slave select lines
-      m_mosi <= 'Z';                --set master out to high impedance
-      m_rx_data <= (OTHERS => '0'); --clear receive data port
-      m_state <= ready;             --go to ready m_state when reset is exited
-
-    ELSIF(m_clock'EVENT AND m_clock = '1') THEN
-      CASE m_state IS               --m_state machine
-
-        WHEN ready =>
-          m_busy <= '0';             --m_clock out not m_busy signal
-          m_ss_n <= (OTHERS => '1'); --set all m_slave select outputs high
-          m_mosi <= 'Z';             --set m_mosi output high impedance
-          m_continue <= '0';         --clear m_continue flag
-
-          --user input to initiate transaction
-          IF(m_enable = '1') THEN       
-            m_busy <= '1';             --set m_busy signal
-            IF(m_addr < m_slaves) THEN   --check for valid m_slave m_address
-              m_slave <= m_addr;         --m_clock in current m_slave selection if valid
-            ELSE
-              m_slave <= 0;            --set to first m_slave if not valid
-            END IF;
-            IF(m_clk_div = 0) THEN     --check for valid spi speed
-              m_clk_ratio <= 1;        --set to maximum speed if zero
-              m_count <= 1;            --initiate system-to-spi m_clock m_counter
-            ELSE
-              m_clk_ratio <= m_clk_div;  --set to input selection if valid
-              m_count <= m_clk_div;      --initiate system-to-spi m_clock m_counter
-            END IF;
-            m_sclk <= m_cpol;            --set spi m_clock polarity
-            m_assert_data <= NOT m_cpha; --set spi m_clock phase
-            m_tx_buffer <= m_tx_data;    --m_clock in data for transmit into buffer
-            m_clk_toggles <= 0;        --initiate m_clock toggle m_counter
-            m_last_bit_rx <= m_d_width*2 + conv_integer(m_cpha) - 1; --set last rx data bit
-            m_state <= execute;        --proceed to execute m_state
-          ELSE
-            m_state <= ready;          --remain in ready m_state
-          END IF;
-
-        WHEN execute =>
-          m_busy <= '1';        --set m_busy signal
-          m_ss_n(m_slave) <= '0'; --set proper m_slave select output
-          
-          --system m_clock to m_sclk ratio is met
-          IF(m_count = m_clk_ratio) THEN        
-            m_count <= 1;                     --reset system-to-spi m_clock m_counter
-            m_assert_data <= NOT m_assert_data; --switch transmit/receive indicator
-            IF(m_clk_toggles = m_d_width*2 + 1) THEN
-              m_clk_toggles <= 0;               --reset spi m_clock toggles m_counter
-            ELSE
-              m_clk_toggles <= m_clk_toggles + 1; --increment spi m_clock toggles m_counter
-            END IF;
-            
-            --spi m_clock toggle needed
-            IF(m_clk_toggles <= m_d_width*2 AND m_ss_n(m_slave) = '0') THEN 
-              m_sclk <= NOT m_sclk; --toggle spi m_clock
-            END IF;
-            
-            --receive spi m_clock toggle
-            IF(m_assert_data = '0' AND m_clk_toggles < m_last_bit_rx + 1 AND m_ss_n(m_slave) = '0') THEN 
-              m_rx_buffer <= m_rx_buffer(m_d_width-2 DOWNTO 0) & m_miso; --shift in received bit
-            END IF;
-            
-            --transmit spi m_clock toggle
-            IF(m_assert_data = '1' AND m_clk_toggles < m_last_bit_rx) THEN 
-              m_mosi <= m_tx_buffer(m_d_width-1);                     --m_clock out data bit
-              m_tx_buffer <= m_tx_buffer(m_d_width-2 DOWNTO 0) & '0'; --shift data transmit buffer
-            END IF;
-            
-            --last data receive, but m_continue
-            IF(m_clk_toggles = m_last_bit_rx AND m_cont = '1') THEN 
-              m_tx_buffer <= m_tx_data;                       --reload transmit buffer
-              m_clk_toggles <= m_last_bit_rx - m_d_width*2 + 1; --reset spi m_clock toggle m_counter
-              m_continue <= '1';                            --set m_continue flag
-            END IF;
-            
-            --normal end of transaction, but m_continue
-            IF(m_continue = '1') THEN  
-              m_continue <= '0';      --clear m_continue flag
-              m_busy <= '0';          --m_clock out signal that first receive data is ready
-              m_rx_data <= m_rx_buffer; --m_clock out received data to output port    
-            END IF;
-            
-            --end of transaction
-            IF((m_clk_toggles = m_d_width*2 + 1) AND m_cont = '0') THEN   
-              m_busy <= '0';             --m_clock out not m_busy signal
-              m_ss_n <= (OTHERS => '1'); --set all m_slave selects high
-              m_mosi <= 'Z';             --set m_mosi output high impedance
-              m_rx_data <= m_rx_buffer;    --m_clock out received data to output port
-              m_state <= ready;          --return to ready m_state
-            ELSE                       --not end of transaction
-              m_state <= execute;        --remain in execute m_state
-            END IF;
-          
-          ELSE        --system m_clock to m_sclk ratio not met
-            m_count <= m_count + 1; --increment m_counter
-            m_state <= execute;   --remain in execute m_state
-          END IF;
-
-      END CASE;
-    END IF;
-  END PROCESS; 
+  i_data_parallel <= s_rx_data;
+  
+  
+  
+w_tc_counter_data  <= '0' when(r_counter_data>0) else '1';
+--------------------------------------------------------------------
+-- FSM
+p_state : process(i_clk,i_rstb)
+begin
+  if(i_rstb='0') then
+    r_st_present            <= ST_RESET;
+  elsif(rising_edge(i_clk)) then
+    r_st_present            <= w_st_next;
+  end if;
+end process p_state;
+p_comb : process(
+                 r_st_present                       ,
+                 w_tc_counter_data                  ,
+                 r_tx_start                         ,
+                 r_sclk_rise                        ,
+                 r_sclk_fall                         )
+begin
+  case r_st_present is
+    when  ST_TX_RX      => 
+      if       (w_tc_counter_data='1') and (r_sclk_rise='1') then  w_st_next  <= ST_END       ;
+      else                                                         w_st_next  <= ST_TX_RX     ;
+      end if;
+    when  ST_END      => 
+      if(r_sclk_fall='1') then
+        w_st_next  <= ST_RESET    ;  
+      else
+        w_st_next  <= ST_END    ;  
+      end if;
+    when  others            =>  -- ST_RESET
+      if(r_tx_start='1') then   w_st_next  <= ST_TX_RX ;
+      else                      w_st_next  <= ST_RESET ;
+      end if;
+  end case;
+end process p_comb;
+p_state_out : process(i_clk,i_rstb)
+begin
+  if(i_rstb='0') then
+    r_tx_start           <= '0';
+    r_tx_data            <= (others=>'0');
+    r_rx_data            <= (others=>'0');
+    o_tx_end             <= '0';
+    o_data_parallel      <= (others=>'0');
+    
+    r_counter_data       <= N-1;
+    r_counter_clock_ena  <= '0';
+    o_sclk               <= '1';
+    o_ss                 <= '1';
+    o_mosi               <= '1';
+  elsif(rising_edge(i_clk)) then
+    r_tx_start           <= i_tx_start;
+    case r_st_present is
+      when ST_TX_RX         =>
+        o_tx_end             <= '0';
+        r_counter_clock_ena  <= '1';
+        if(r_sclk_rise='1') then
+          o_sclk               <= '1';
+          r_rx_data            <= r_rx_data(N-2 downto 0)&i_miso;
+          if(r_counter_data>0) then
+            r_counter_data       <= r_counter_data - 1;
+          end if;
+        elsif(r_sclk_fall='1') then
+          o_sclk               <= '0';
+          o_mosi               <= r_tx_data(N-1);
+          r_tx_data            <= r_tx_data(N-2 downto 0)&'1';
+        end if;
+        o_ss                 <= '0';
+      when ST_END          =>
+        o_tx_end             <= r_sclk_fall;
+        o_data_parallel      <= r_rx_data;
+        r_counter_data       <= N-1;
+        r_counter_clock_ena  <= '1';
+        o_ss                 <= '0';
+      
+      when others               =>  -- ST_RESET
+        r_tx_data            <= i_data_parallel;
+        o_tx_end             <= '0';
+        r_counter_data       <= N-1;
+        r_counter_clock_ena  <= '0';
+        o_sclk               <= '1';
+        o_ss                 <= '1';
+        o_mosi               <= '1';
+    end case;
+  end if;
+end process p_state_out;
+p_counter_clock : process(i_clk,i_rstb)
+begin
+  if(i_rstb='0') then
+    r_counter_clock            <= 0;
+    r_sclk_rise                <= '0';
+    r_sclk_fall                <= '0';
+  elsif(rising_edge(i_clk)) then
+    if(r_counter_clock_ena='1') then  -- sclk = '1' by default 
+      if(r_counter_clock=CLK_DIV-1) then  -- firse edge = fall
+        r_counter_clock            <= r_counter_clock + 1;
+        r_sclk_rise                <= '0';
+        r_sclk_fall                <= '1';
+      elsif(r_counter_clock=(CLK_DIV*2)-1) then
+        r_counter_clock            <= 0;
+        r_sclk_rise                <= '1';
+        r_sclk_fall                <= '0';
+      else
+        r_counter_clock            <= r_counter_clock + 1;
+        r_sclk_rise                <= '0';
+        r_sclk_fall                <= '0';
+      end if;
+    else
+      r_counter_clock            <= 0;
+      r_sclk_rise                <= '0';
+      r_sclk_fall                <= '0';
+    end if;
+  end if;
+end process p_counter_clock;
 END logic;

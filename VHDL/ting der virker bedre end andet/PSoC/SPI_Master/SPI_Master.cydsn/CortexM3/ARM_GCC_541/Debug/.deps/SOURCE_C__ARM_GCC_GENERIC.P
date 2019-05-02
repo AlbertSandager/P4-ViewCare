@@ -1,0 +1,88 @@
+C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/CortexM3/ARM_GCC_541/Debug/SPIM.o : C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/CyFlash.h C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/CyLib.h C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/CySpc.h C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/SPIM.c C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/SPIM.h C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/SPIM_IntClock.h C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/SPIM_PVT.h C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/cyPm.h C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/cytypes.h 
+
+C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/CyFlash.h : 
+
+C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/CyLib.h : 
+
+C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/CySpc.h : 
+
+C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/SPIM.c : 
+
+C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/SPIM.h : 
+
+C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/SPIM_IntClock.h : 
+
+C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/SPIM_PVT.h : 
+
+C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/cyPm.h : 
+
+C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/cydevice.h : 
+
+C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/cydevice_trm.h : 
+
+C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/cyfitter.h : 
+
+C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/cytypes.h : 
+
+C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/CortexM3/ARM_GCC_541/Debug/SPIM_INT.o : C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/CyFlash.h C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/CyLib.h C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/CySpc.h C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/SPIM.h C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/SPIM_INT.c C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/SPIM_IntClock.h C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/SPIM_PVT.h C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/cyPm.h C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/cytypes.h C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/cyapicallbacks.h 
+
+C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/SPIM_INT.c : 
+
+C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/cyapicallbacks.h : 
+
+C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/CortexM3/ARM_GCC_541/Debug/SPIM_PM.o : C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/CyFlash.h C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/CyLib.h C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/CySpc.h C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/SPIM.h C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/SPIM_IntClock.h C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/SPIM_PM.c C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/SPIM_PVT.h C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/cyPm.h C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/cytypes.h 
+
+C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/SPIM_PM.c : 
+
+C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/CortexM3/ARM_GCC_541/Debug/main.o : C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/CYDMAC.H C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/CYFITTER.H C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/Clock.h C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/CyDmac.h C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/DMA_RX_dma.h C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/DMA_TX_dma.h C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/UART_USB.h C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/UART_USB_IntClock.h C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/cmsis_armcc.h C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/cmsis_compiler.h C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/cmsis_gcc.h C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/core_cm3.h C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/core_cm3_psoc5.h C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/cy_em_eeprom.h C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/cydisabledsheets.h C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/cyfitter_cfg.h C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/cypins.h C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/miso.h C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/miso_aliases.h C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/mosi.h C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/mosi_aliases.h C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/project.h C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/sclk.h C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/sclk_aliases.h C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/ss.h C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/ss_aliases.h C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/CyFlash.h C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/CyLib.h C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/CySpc.h C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/SPIM.h C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/SPIM_IntClock.h C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/SPIM_PVT.h C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/cyPm.h C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/cytypes.h C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/main.c 
+
+C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/CYDMAC.H : 
+
+C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/Clock.h : 
+
+C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/DMA_RX_dma.h : 
+
+C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/DMA_TX_dma.h : 
+
+C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/UART_USB.h : 
+
+C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/UART_USB_IntClock.h : 
+
+C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/cmsis_armcc.h : 
+
+C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/cmsis_compiler.h : 
+
+C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/cmsis_gcc.h : 
+
+C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/core_cm3.h : 
+
+C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/core_cm3_psoc5.h : 
+
+C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/cy_em_eeprom.h : 
+
+C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/cydisabledsheets.h : 
+
+C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/cyfitter_cfg.h : 
+
+C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/cypins.h : 
+
+C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/miso.h : 
+
+C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/miso_aliases.h : 
+
+C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/mosi.h : 
+
+C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/mosi_aliases.h : 
+
+C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/project.h : 
+
+C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/sclk.h : 
+
+C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/sclk_aliases.h : 
+
+C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/ss.h : 
+
+C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/Generated_Source/PSoC5/ss_aliases.h : 
+
+C:/Users/Albert\ Sandager/Documents/PSoC\ Creator/SPI_Master/SPI_Master.cydsn/main.c : 
+

@@ -5,5 +5,5 @@ if {[file exists rtl_work]} {
 vlib rtl_work
 vmap work rtl_work
 
-vcom -93 -work work {C:/altera/13.1/projects/SPI_protos/SPI_protos.vhd}
+vcom -93 -work work {C:/Users/Albert Sandager/Documents/GitHub/P4-ViewCare/VHDL/SPI_protos/SPI_protos.vhd}
 

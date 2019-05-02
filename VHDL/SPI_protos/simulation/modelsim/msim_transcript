@@ -10,7 +10,7 @@
 # ** Warning: Copied C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
 #          Updated modelsim.ini.
 # 
-# vcom -93 -work work {C:/altera/13.1/projects/SPI_protos/SPI_protos.vhd}
+# vcom -93 -work work {C:/Users/Albert Sandager/Documents/GitHub/P4-ViewCare/VHDL/SPI_protos/SPI_protos.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -18,9 +18,7 @@
 # -- Loading package std_logic_arith
 # -- Compiling entity SPI_protos
 # -- Compiling architecture logic of SPI_protos
-# ** Warning: C:/altera/13.1/projects/SPI_protos/SPI_protos.vhd(95): (vcom-1073) Non-locally static choice (association #1, choice #1) is allowed only if it is the only choice of the only association.
-# 
-# ** Warning: C:/altera/13.1/projects/SPI_protos/SPI_protos.vhd(208): (vcom-1073) Non-locally static choice (association #1, choice #1) is allowed only if it is the only choice of the only association.
+# ** Warning: C:/Users/Albert Sandager/Documents/GitHub/P4-ViewCare/VHDL/SPI_protos/SPI_protos.vhd(98): (vcom-1073) Non-locally static choice (association #1, choice #1) is allowed only if it is the only choice of the only association.
 # 
 # 
 vsim work.spi_protos
@@ -34,9 +32,8 @@ add wave  \
 sim:/spi_protos/s_cpol \
 sim:/spi_protos/s_cpha \
 sim:/spi_protos/s_d_width \
-sim:/spi_protos/s2_cpol \
-sim:/spi_protos/s2_cpha \
-sim:/spi_protos/s2_d_width \
+sim:/spi_protos/m_slaves \
+sim:/spi_protos/m_d_width \
 sim:/spi_protos/s_ss_clk \
 sim:/spi_protos/s_reset_n \
 sim:/spi_protos/s_ss_n \
@@ -51,24 +48,23 @@ sim:/spi_protos/s_tx_load_data \
 sim:/spi_protos/s_trdy \
 sim:/spi_protos/s_rrdy \
 sim:/spi_protos/s_roe \
-sim:/spi_protos/s_busy \
 sim:/spi_protos/s_miso \
-sim:/spi_protos/s2_ss2_clk \
-sim:/spi_protos/s2_ss_n \
-sim:/spi_protos/s2_mosi \
-sim:/spi_protos/s2_rx_req \
-sim:/spi_protos/s2_st_load_en \
-sim:/spi_protos/s2_st_load_s2_trdy \
-sim:/spi_protos/s2_st_load_s2_rrdy \
-sim:/spi_protos/s2_st_load_s2_roe \
-sim:/spi_protos/s2_tx_load_en \
-sim:/spi_protos/s2_trdy \
-sim:/spi_protos/s2_rrdy \
-sim:/spi_protos/s2_roe \
-sim:/spi_protos/s2_rx_data \
-sim:/spi_protos/s2_busy \
-sim:/spi_protos/s2_miso \
 sim:/spi_protos/spi_led \
+sim:/spi_protos/ena_led \
+sim:/spi_protos/m_clock \
+sim:/spi_protos/m_reset_n \
+sim:/spi_protos/m_cpol \
+sim:/spi_protos/m_cpha \
+sim:/spi_protos/m_cont \
+sim:/spi_protos/m_clk_div \
+sim:/spi_protos/m_addr \
+sim:/spi_protos/m_miso \
+sim:/spi_protos/m_sclk \
+sim:/spi_protos/m_ss_n \
+sim:/spi_protos/m_mosi \
+sim:/spi_protos/m_busy \
+sim:/spi_protos/m_rx_data \
+sim:/spi_protos/s_busy \
 sim:/spi_protos/s_rx_data \
 sim:/spi_protos/s_mode \
 sim:/spi_protos/s_clk \
@@ -77,19 +73,22 @@ sim:/spi_protos/s_wr_add \
 sim:/spi_protos/s_rd_add \
 sim:/spi_protos/s_rx_buf \
 sim:/spi_protos/s_tx_buf \
-sim:/spi_protos/s2_reset_n \
-sim:/spi_protos/s2_tx_load_data \
-sim:/spi_protos/s2_mode \
-sim:/spi_protos/s2_clk \
-sim:/spi_protos/s2_bit_cnt \
-sim:/spi_protos/s2_wr_add \
-sim:/spi_protos/s2_rd_add \
-sim:/spi_protos/s2_rx_buf \
-sim:/spi_protos/s2_tx_buf
-# Load canceled
+sim:/spi_protos/m_enable \
+sim:/spi_protos/m_tx_data \
+sim:/spi_protos/m_state \
+sim:/spi_protos/m_slave \
+sim:/spi_protos/m_clk_ratio \
+sim:/spi_protos/m_count \
+sim:/spi_protos/m_clk_toggles \
+sim:/spi_protos/m_assert_data \
+sim:/spi_protos/m_continue \
+sim:/spi_protos/m_rx_buffer \
+sim:/spi_protos/m_tx_buffer \
+sim:/spi_protos/m_last_bit_rx
+force -freeze sim:/spi_protos/s_clk 1 0, 0 {10000 ps} -r 20ns
 run
 run
-restart
+run
 run
 run
 run

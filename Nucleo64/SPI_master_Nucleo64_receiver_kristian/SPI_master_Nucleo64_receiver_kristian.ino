@@ -40,7 +40,7 @@ void convertLong2bit24vector(long val)
 
 
 
-long getData(byte kanal )
+long getData(byte kanal)
 {
   long buffer1 = 0;
   long buffer2 = 0;
@@ -54,6 +54,7 @@ long getData(byte kanal )
   buffer3 = SPI.transfer(0);
   digitalWrite(ss, HIGH);
   //sammensæt modtaget data i en long variabel og returner
+  
   buffer1 = buffer1 << 16;
   buffer2 = buffer2 << 8;
   val = buffer1 + buffer2 + buffer3;

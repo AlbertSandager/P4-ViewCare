@@ -22,9 +22,9 @@
  coef_matrix_in= [125,125,126,126,126,127,126,126,126,125,125];
  INTER_FACTOR  = 1;
  DECI_FACTOR  =  1;
- MSB_RM  = 12;
+ MSB_RM  = 0;
  MSB_TYPE  = 0;
- LSB_RM  = 0;
+ LSB_RM  = 12;
  LSB_TYPE  = 0;
  FIR_WIDTH  = 24 + MSB_RM + LSB_RM;
  OUT_WIDTH  = 24 ;  %24

@@ -1,5 +1,5 @@
 TimeQuest Timing Analyzer report for i2s_transceiver
-Tue Apr 23 15:02:32 2019
+Wed May 08 09:30:42 2019
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -2524,7 +2524,7 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit TimeQuest Timing Analyzer
     Info: Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
-    Info: Processing started: Tue Apr 23 15:02:28 2019
+    Info: Processing started: Wed May 08 09:30:38 2019
 Info: Command: quartus_sta i2s_transceiver -c i2s_transceiver
 Info: qsta_default_script.tcl version: #1
 Warning (20028): Parallel compilation is not licensed and has been disabled
@@ -2597,7 +2597,7 @@ Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 5 warnings
     Info: Peak virtual memory: 4640 megabytes
-    Info: Processing ended: Tue Apr 23 15:02:32 2019
+    Info: Processing ended: Wed May 08 09:30:42 2019
     Info: Elapsed time: 00:00:04
     Info: Total CPU time (on all processors): 00:00:03
 

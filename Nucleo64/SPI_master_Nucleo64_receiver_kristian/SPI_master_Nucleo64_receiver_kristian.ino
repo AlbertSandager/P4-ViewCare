@@ -18,10 +18,10 @@ void setup() {
 }
 // definering af kanaler 
 byte kanal1 = 0x00; 
-byte kanal2 = 0x00;
-byte kanal3 = 0x00;
-byte kanal4 = 0x00;
-
+byte kanal2 = 0x10;
+byte kanal3 = 0x20;
+byte kanal4 = 0x30;
+byte kanal5 = 0x40;
 int receivedVal;
 int error = 0;
 
@@ -71,17 +71,15 @@ void loop() {
 
 
   Serial.print("Sendval convert:  "); Serial.print(sendVal); Serial.print(" to "); Serial.println(bit24val[0]);Serial.println(bit24val[1]);Serial.println(bit24val[2]);
-  digitalWrite(ss, LOW);
-  SPI.transfer(0);
-  SPI.transfer(bit24val[2]);
-  SPI.transfer(bit24val[1]);
-  SPI.transfer(bit24val[0]);
-  digitalWrite(ss, HIGH);
-
-  //Serial.print(receivedVal);
-
+  Serial.println("kanal1");
+  getData(kanal1); 
   delay(3000);
-
+  Serial.println("kanal2");
+  getData(kanal2); 
+  delay(3000);
+  Serial.println("kanal3");
+  getData(kanal3); 
+  delay(3000);
 
   if (receivedVal != 5) {
     error++;

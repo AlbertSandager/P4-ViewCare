@@ -70,9 +70,10 @@ void loop() {
   convertLong2bit24vector(sendVal);
 
 
-  Serial.print("Sendval convert:  "); Serial.print(sendVal); Serial.print(" to "); Serial.println(bit24val[0]);Serial.println(bit24val[1]);Serial.println(bit24val[2]);
+ // Serial.print("Sendval convert:  "); Serial.print(sendVal); Serial.print(" to "); Serial.println(bit24val[0]);Serial.println(bit24val[1]);Serial.println(bit24val[2]);
   Serial.println("kanal1");
-  getData(kanal1); 
+  receivedVal = getData(kanal1);
+  Serial.println(receivedVal); 
   delay(3000);
   Serial.println("kanal2");
   getData(kanal2); 

@@ -6,7 +6,7 @@ ENTITY SPI_slave IS
   GENERIC(
     cpol    : STD_LOGIC := '1';  --spi clock polarity mode
     cpha    : STD_LOGIC := '0';  --spi clock phase mode
-    d_width : INTEGER := 8);     --data width in bits
+    d_width : INTEGER := 24);     --data width in bits
   PORT(
     sclk         : IN     STD_LOGIC;  --spi clk from master
     reset_n      : IN     STD_LOGIC;  --active low reset

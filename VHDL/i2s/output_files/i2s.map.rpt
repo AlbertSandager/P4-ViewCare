@@ -1,5 +1,5 @@
 Analysis & Synthesis report for i2s
-Wed May 08 15:33:44 2019
+Thu May 09 11:46:43 2019
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -12,8 +12,8 @@ Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
   4. Analysis & Synthesis Source Files Read
   5. Analysis & Synthesis Resource Usage Summary
   6. Analysis & Synthesis Resource Utilization by Entity
-  7. General Register Statistics
-  8. Multiplexer Restructuring Statistics (Restructuring Performed)
+  7. Registers Removed During Synthesis
+  8. General Register Statistics
   9. Parameter Settings for User Entity Instance: Top-level Entity: |i2s
  10. Elapsed Time Per Partition
  11. Analysis & Synthesis Messages
@@ -42,16 +42,16 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                    ;
 +------------------------------------+--------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Wed May 08 15:33:43 2019      ;
+; Analysis & Synthesis Status        ; Successful - Thu May 09 11:46:43 2019      ;
 ; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
 ; Revision Name                      ; i2s                                        ;
 ; Top-level Entity Name              ; i2s                                        ;
 ; Family                             ; Cyclone III                                ;
-; Total logic elements               ; 98                                         ;
-;     Total combinational functions  ; 44                                         ;
-;     Dedicated logic registers      ; 66                                         ;
-; Total registers                    ; 66                                         ;
-; Total pins                         ; 80                                         ;
+; Total logic elements               ; 0                                          ;
+;     Total combinational functions  ; 0                                          ;
+;     Dedicated logic registers      ; 0                                          ;
+; Total registers                    ; 0                                          ;
+; Total pins                         ; 151                                        ;
 ; Total virtual pins                 ; 0                                          ;
 ; Total memory bits                  ; 0                                          ;
 ; Embedded Multiplier 9-bit elements ; 0                                          ;
@@ -146,43 +146,42 @@ applicable agreement for further details.
 +----------------------------------------------------------------------------+--------------------+--------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                               ;
-+----------------------------------+-----------------+-----------------+-------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path        ; Library ;
-+----------------------------------+-----------------+-----------------+-------------------------------------+---------+
-; i2s.vhd                          ; yes             ; User VHDL File  ; C:/altera/13.1/projects/i2s/i2s.vhd ;         ;
-+----------------------------------+-----------------+-----------------+-------------------------------------+---------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                  ;
++----------------------------------+-----------------+-----------------+------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                           ; Library ;
++----------------------------------+-----------------+-----------------+------------------------------------------------------------------------+---------+
+; i2s.vhd                          ; yes             ; User VHDL File  ; C:/Users/Albert Sandager/Documents/GitHub/P4-ViewCare/VHDL/i2s/i2s.vhd ;         ;
++----------------------------------+-----------------+-----------------+------------------------------------------------------------------------+---------+
 
 
-+---------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary             ;
-+---------------------------------------------+-----------+
-; Resource                                    ; Usage     ;
-+---------------------------------------------+-----------+
-; Estimated Total logic elements              ; 98        ;
-;                                             ;           ;
-; Total combinational functions               ; 44        ;
-; Logic element usage by number of LUT inputs ;           ;
-;     -- 4 input functions                    ; 29        ;
-;     -- 3 input functions                    ; 6         ;
-;     -- <=2 input functions                  ; 9         ;
-;                                             ;           ;
-; Logic elements by mode                      ;           ;
-;     -- normal mode                          ; 40        ;
-;     -- arithmetic mode                      ; 4         ;
-;                                             ;           ;
-; Total registers                             ; 66        ;
-;     -- Dedicated logic registers            ; 66        ;
-;     -- I/O registers                        ; 0         ;
-;                                             ;           ;
-; I/O pins                                    ; 80        ;
-; Embedded Multiplier 9-bit elements          ; 0         ;
-; Maximum fan-out node                        ; clk~input ;
-; Maximum fan-out                             ; 66        ;
-; Total fan-out                               ; 462       ;
-; Average fan-out                             ; 1.71      ;
-+---------------------------------------------+-----------+
++-----------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary         ;
++---------------------------------------------+-------+
+; Resource                                    ; Usage ;
++---------------------------------------------+-------+
+;                                             ;       ;
+; Total combinational functions               ; 0     ;
+; Logic element usage by number of LUT inputs ;       ;
+;     -- 4 input functions                    ; 0     ;
+;     -- 3 input functions                    ; 0     ;
+;     -- <=2 input functions                  ; 0     ;
+;                                             ;       ;
+; Logic elements by mode                      ;       ;
+;     -- normal mode                          ; 0     ;
+;     -- arithmetic mode                      ; 0     ;
+;                                             ;       ;
+; Total registers                             ; 0     ;
+;     -- Dedicated logic registers            ; 0     ;
+;     -- I/O registers                        ; 0     ;
+;                                             ;       ;
+; I/O pins                                    ; 151   ;
+; Embedded Multiplier 9-bit elements          ; 0     ;
+; Maximum fan-out node                        ; clk   ;
+; Maximum fan-out                             ; 1     ;
+; Total fan-out                               ; 151   ;
+; Average fan-out                             ; 0.50  ;
++---------------------------------------------+-------+
 
 
 +-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -190,9 +189,22 @@ applicable agreement for further details.
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
 ; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name ; Library Name ;
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
-; |i2s                       ; 44 (44)           ; 66 (66)      ; 0           ; 0            ; 0       ; 0         ; 80   ; 0            ; |i2s                ; work         ;
+; |i2s                       ; 0 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 151  ; 0            ; |i2s                ; work         ;
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++---------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                              ;
++----------------------------------------+----------------------------------------+
+; Register name                          ; Reason for Removal                     ;
++----------------------------------------+----------------------------------------+
+; ready~reg0                             ; Stuck at GND due to stuck port data_in ;
+; valid~reg0                             ; Stuck at GND due to stuck port data_in ;
+; sr_in[0..16,18..47]                    ; Merged with sr_in[17]                  ;
+; sr_in[17]                              ; Stuck at GND due to stuck port data_in ;
+; Total Number of Removed Registers = 50 ;                                        ;
++----------------------------------------+----------------------------------------+
 
 
 +------------------------------------------------------+
@@ -200,23 +212,14 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 66    ;
+; Total registers                              ; 0     ;
 ; Number of registers using Synchronous Clear  ; 0     ;
 ; Number of registers using Synchronous Load   ; 0     ;
 ; Number of registers using Asynchronous Clear ; 0     ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 48    ;
+; Number of registers using Clock Enable       ; 0     ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
-
-
-+------------------------------------------------------------------------------------------------------------------------------------------+
-; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                           ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
-; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
-; 4:1                ; 5 bits    ; 10 LEs        ; 5 LEs                ; 5 LEs                  ; Yes        ; |i2s|cnt[0]                ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
 
 
 +---------------------------------------------------------------------+
@@ -224,8 +227,8 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------+-------+--------------------------------------------+
 ; Parameter Name ; Value ; Type                                       ;
 +----------------+-------+--------------------------------------------+
-; DATA_WIDTH     ; 24    ; Signed Integer                             ;
-; BITPERFRAME    ; 64    ; Signed Integer                             ;
+; DATA_WIDTH     ; 48    ; Signed Integer                             ;
+; BITPERFRAME    ; 96    ; Signed Integer                             ;
 +----------------+-------+--------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -235,7 +238,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:01     ;
+; Top            ; 00:00:00     ;
 +----------------+--------------+
 
 
@@ -245,24 +248,179 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
-    Info: Processing started: Wed May 08 15:33:40 2019
+    Info: Processing started: Thu May 09 11:46:40 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off i2s -c i2s
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 2 design units, including 1 entities, in source file i2s.vhd
     Info (12022): Found design unit 1: i2s-rtl
     Info (12023): Found entity 1: i2s
 Info (12127): Elaborating entity "i2s" for the top level hierarchy
-Info (286030): Timing-Driven Synthesis is running
+Warning (10540): VHDL Signal Declaration warning at i2s.vhd(23): used explicit default value for signal "reset" because signal was never assigned a value
+Warning (10873): Using initial value X (don't care) for net "sr_out" at i2s.vhd(34)
+Warning (10873): Using initial value X (don't care) for net "dac_data" at i2s.vhd(14)
+Warning (10873): Using initial value X (don't care) for net "new_sample" at i2s.vhd(27)
+Warning (13024): Output pins are stuck at VCC or GND
+    Warning (13410): Pin "sample_out[0]" is stuck at GND
+    Warning (13410): Pin "sample_out[1]" is stuck at GND
+    Warning (13410): Pin "sample_out[2]" is stuck at GND
+    Warning (13410): Pin "sample_out[3]" is stuck at GND
+    Warning (13410): Pin "sample_out[4]" is stuck at GND
+    Warning (13410): Pin "sample_out[5]" is stuck at GND
+    Warning (13410): Pin "sample_out[6]" is stuck at GND
+    Warning (13410): Pin "sample_out[7]" is stuck at GND
+    Warning (13410): Pin "sample_out[8]" is stuck at GND
+    Warning (13410): Pin "sample_out[9]" is stuck at GND
+    Warning (13410): Pin "sample_out[10]" is stuck at GND
+    Warning (13410): Pin "sample_out[11]" is stuck at GND
+    Warning (13410): Pin "sample_out[12]" is stuck at GND
+    Warning (13410): Pin "sample_out[13]" is stuck at GND
+    Warning (13410): Pin "sample_out[14]" is stuck at GND
+    Warning (13410): Pin "sample_out[15]" is stuck at GND
+    Warning (13410): Pin "sample_out[16]" is stuck at GND
+    Warning (13410): Pin "sample_out[17]" is stuck at GND
+    Warning (13410): Pin "sample_out[18]" is stuck at GND
+    Warning (13410): Pin "sample_out[19]" is stuck at GND
+    Warning (13410): Pin "sample_out[20]" is stuck at GND
+    Warning (13410): Pin "sample_out[21]" is stuck at GND
+    Warning (13410): Pin "sample_out[22]" is stuck at GND
+    Warning (13410): Pin "sample_out[23]" is stuck at GND
+    Warning (13410): Pin "sample_out[24]" is stuck at GND
+    Warning (13410): Pin "sample_out[25]" is stuck at GND
+    Warning (13410): Pin "sample_out[26]" is stuck at GND
+    Warning (13410): Pin "sample_out[27]" is stuck at GND
+    Warning (13410): Pin "sample_out[28]" is stuck at GND
+    Warning (13410): Pin "sample_out[29]" is stuck at GND
+    Warning (13410): Pin "sample_out[30]" is stuck at GND
+    Warning (13410): Pin "sample_out[31]" is stuck at GND
+    Warning (13410): Pin "sample_out[32]" is stuck at GND
+    Warning (13410): Pin "sample_out[33]" is stuck at GND
+    Warning (13410): Pin "sample_out[34]" is stuck at GND
+    Warning (13410): Pin "sample_out[35]" is stuck at GND
+    Warning (13410): Pin "sample_out[36]" is stuck at GND
+    Warning (13410): Pin "sample_out[37]" is stuck at GND
+    Warning (13410): Pin "sample_out[38]" is stuck at GND
+    Warning (13410): Pin "sample_out[39]" is stuck at GND
+    Warning (13410): Pin "sample_out[40]" is stuck at GND
+    Warning (13410): Pin "sample_out[41]" is stuck at GND
+    Warning (13410): Pin "sample_out[42]" is stuck at GND
+    Warning (13410): Pin "sample_out[43]" is stuck at GND
+    Warning (13410): Pin "sample_out[44]" is stuck at GND
+    Warning (13410): Pin "sample_out[45]" is stuck at GND
+    Warning (13410): Pin "sample_out[46]" is stuck at GND
+    Warning (13410): Pin "sample_out[47]" is stuck at GND
+    Warning (13410): Pin "dac_data" is stuck at GND
+    Warning (13410): Pin "valid" is stuck at GND
+    Warning (13410): Pin "ready" is stuck at GND
+    Warning (13410): Pin "led_out[0]" is stuck at GND
+    Warning (13410): Pin "led_out[1]" is stuck at GND
+    Warning (13410): Pin "led_out[2]" is stuck at GND
+    Warning (13410): Pin "led_out[3]" is stuck at GND
+    Warning (13410): Pin "led_out[4]" is stuck at GND
+    Warning (13410): Pin "led_out[5]" is stuck at GND
+    Warning (13410): Pin "led_out[6]" is stuck at GND
+    Warning (13410): Pin "led_out[7]" is stuck at GND
+    Warning (13410): Pin "led_out[8]" is stuck at GND
+    Warning (13410): Pin "led_out[9]" is stuck at GND
+    Warning (13410): Pin "led_out[10]" is stuck at GND
+    Warning (13410): Pin "led_out[11]" is stuck at GND
+    Warning (13410): Pin "led_out[12]" is stuck at GND
+    Warning (13410): Pin "led_out[13]" is stuck at GND
+    Warning (13410): Pin "led_out[14]" is stuck at GND
+    Warning (13410): Pin "led_out[15]" is stuck at GND
+    Warning (13410): Pin "led_out[16]" is stuck at GND
+    Warning (13410): Pin "led_out[17]" is stuck at GND
+    Warning (13410): Pin "led_out[18]" is stuck at GND
+    Warning (13410): Pin "led_out[19]" is stuck at GND
+    Warning (13410): Pin "led_out[20]" is stuck at GND
+    Warning (13410): Pin "led_out[21]" is stuck at GND
+    Warning (13410): Pin "led_out[22]" is stuck at GND
+    Warning (13410): Pin "led_out[23]" is stuck at GND
+    Warning (13410): Pin "led_out[24]" is stuck at GND
+    Warning (13410): Pin "led_out[25]" is stuck at GND
+    Warning (13410): Pin "led_out[26]" is stuck at GND
+    Warning (13410): Pin "led_out[27]" is stuck at GND
+    Warning (13410): Pin "led_out[28]" is stuck at GND
+    Warning (13410): Pin "led_out[29]" is stuck at GND
+    Warning (13410): Pin "led_out[30]" is stuck at GND
+    Warning (13410): Pin "led_out[31]" is stuck at GND
+    Warning (13410): Pin "led_out[32]" is stuck at GND
+    Warning (13410): Pin "led_out[33]" is stuck at GND
+    Warning (13410): Pin "led_out[34]" is stuck at GND
+    Warning (13410): Pin "led_out[35]" is stuck at GND
+    Warning (13410): Pin "led_out[36]" is stuck at GND
+    Warning (13410): Pin "led_out[37]" is stuck at GND
+    Warning (13410): Pin "led_out[38]" is stuck at GND
+    Warning (13410): Pin "led_out[39]" is stuck at GND
+    Warning (13410): Pin "led_out[40]" is stuck at GND
+    Warning (13410): Pin "led_out[41]" is stuck at GND
+    Warning (13410): Pin "led_out[42]" is stuck at GND
+    Warning (13410): Pin "led_out[43]" is stuck at GND
+    Warning (13410): Pin "led_out[44]" is stuck at GND
+    Warning (13410): Pin "led_out[45]" is stuck at GND
+    Warning (13410): Pin "led_out[46]" is stuck at GND
+    Warning (13410): Pin "led_out[47]" is stuck at GND
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 178 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 29 input pins
-    Info (21059): Implemented 51 output pins
-    Info (21061): Implemented 98 logic cells
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 527 megabytes
-    Info: Processing ended: Wed May 08 15:33:44 2019
-    Info: Elapsed time: 00:00:04
-    Info: Total CPU time (on all processors): 00:00:03
+Warning (21074): Design contains 52 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "clk"
+    Warning (15610): No output dependent on input pin "bclk"
+    Warning (15610): No output dependent on input pin "lrclk"
+    Warning (15610): No output dependent on input pin "sample_in[0]"
+    Warning (15610): No output dependent on input pin "sample_in[1]"
+    Warning (15610): No output dependent on input pin "sample_in[2]"
+    Warning (15610): No output dependent on input pin "sample_in[3]"
+    Warning (15610): No output dependent on input pin "sample_in[4]"
+    Warning (15610): No output dependent on input pin "sample_in[5]"
+    Warning (15610): No output dependent on input pin "sample_in[6]"
+    Warning (15610): No output dependent on input pin "sample_in[7]"
+    Warning (15610): No output dependent on input pin "sample_in[8]"
+    Warning (15610): No output dependent on input pin "sample_in[9]"
+    Warning (15610): No output dependent on input pin "sample_in[10]"
+    Warning (15610): No output dependent on input pin "sample_in[11]"
+    Warning (15610): No output dependent on input pin "sample_in[12]"
+    Warning (15610): No output dependent on input pin "sample_in[13]"
+    Warning (15610): No output dependent on input pin "sample_in[14]"
+    Warning (15610): No output dependent on input pin "sample_in[15]"
+    Warning (15610): No output dependent on input pin "sample_in[16]"
+    Warning (15610): No output dependent on input pin "sample_in[17]"
+    Warning (15610): No output dependent on input pin "sample_in[18]"
+    Warning (15610): No output dependent on input pin "sample_in[19]"
+    Warning (15610): No output dependent on input pin "sample_in[20]"
+    Warning (15610): No output dependent on input pin "sample_in[21]"
+    Warning (15610): No output dependent on input pin "sample_in[22]"
+    Warning (15610): No output dependent on input pin "sample_in[23]"
+    Warning (15610): No output dependent on input pin "sample_in[24]"
+    Warning (15610): No output dependent on input pin "sample_in[25]"
+    Warning (15610): No output dependent on input pin "sample_in[26]"
+    Warning (15610): No output dependent on input pin "sample_in[27]"
+    Warning (15610): No output dependent on input pin "sample_in[28]"
+    Warning (15610): No output dependent on input pin "sample_in[29]"
+    Warning (15610): No output dependent on input pin "sample_in[30]"
+    Warning (15610): No output dependent on input pin "sample_in[31]"
+    Warning (15610): No output dependent on input pin "sample_in[32]"
+    Warning (15610): No output dependent on input pin "sample_in[33]"
+    Warning (15610): No output dependent on input pin "sample_in[34]"
+    Warning (15610): No output dependent on input pin "sample_in[35]"
+    Warning (15610): No output dependent on input pin "sample_in[36]"
+    Warning (15610): No output dependent on input pin "sample_in[37]"
+    Warning (15610): No output dependent on input pin "sample_in[38]"
+    Warning (15610): No output dependent on input pin "sample_in[39]"
+    Warning (15610): No output dependent on input pin "sample_in[40]"
+    Warning (15610): No output dependent on input pin "sample_in[41]"
+    Warning (15610): No output dependent on input pin "sample_in[42]"
+    Warning (15610): No output dependent on input pin "sample_in[43]"
+    Warning (15610): No output dependent on input pin "sample_in[44]"
+    Warning (15610): No output dependent on input pin "sample_in[45]"
+    Warning (15610): No output dependent on input pin "sample_in[46]"
+    Warning (15610): No output dependent on input pin "sample_in[47]"
+    Warning (15610): No output dependent on input pin "adc_data"
+Info (21057): Implemented 151 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 52 input pins
+    Info (21059): Implemented 99 output pins
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 158 warnings
+    Info: Peak virtual memory: 530 megabytes
+    Info: Processing ended: Thu May 09 11:46:43 2019
+    Info: Elapsed time: 00:00:03
+    Info: Total CPU time (on all processors): 00:00:02
 
 

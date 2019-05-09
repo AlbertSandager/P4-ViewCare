@@ -6,7 +6,7 @@ use ieee.std_logic_arith.all;
 
 entity top is
 generic (
-    d_width : integer := 8 --defines the data width of the vectors for send and receive. (must also be changed in SPI_slave)
+    d_width : integer := 24 --defines the data width of the vectors for send and receive. (must also be changed in SPI_slave)
 	 );
 	 
 port (

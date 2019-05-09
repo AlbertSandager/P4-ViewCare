@@ -2,11 +2,10 @@ library ieee;
 use ieee.std_logic_1164.all;
 
 entity i2s is
-	generic ( DATA_WIDTH : integer := 24;
-    		  BITPERFRAME : integer := 64
+	generic ( DATA_WIDTH : integer := 48;
+    		  BITPERFRAME : integer := 96
     		);
 	port (
-		reset : in std_logic;
     	clk 		: in std_logic;
         bclk 		: in std_logic;
         lrclk		: in std_logic;
@@ -21,6 +20,7 @@ entity i2s is
 end i2s;
 
 architecture rtl of i2s is
+	signal reset : std_logic := '1';
 	 signal sr_in 					: std_logic_vector(DATA_WIDTH - 1 downto 0);
     signal neg_edge, pos_edge 		: std_logic;
     signal lr_edge					: std_logic;

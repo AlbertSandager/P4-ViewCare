@@ -1,5 +1,5 @@
 Analysis & Synthesis report for top
-Wed May 08 13:28:21 2019
+Thu May 09 08:55:18 2019
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -48,16 +48,16 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                    ;
 +------------------------------------+--------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Wed May 08 13:28:21 2019      ;
+; Analysis & Synthesis Status        ; Successful - Thu May 09 08:55:18 2019      ;
 ; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
 ; Revision Name                      ; top                                        ;
 ; Top-level Entity Name              ; top                                        ;
 ; Family                             ; Cyclone III                                ;
-; Total logic elements               ; 180                                        ;
-;     Total combinational functions  ; 148                                        ;
-;     Dedicated logic registers      ; 78                                         ;
-; Total registers                    ; 78                                         ;
-; Total pins                         ; 44                                         ;
+; Total logic elements               ; 372                                        ;
+;     Total combinational functions  ; 308                                        ;
+;     Dedicated logic registers      ; 174                                        ;
+; Total registers                    ; 174                                        ;
+; Total pins                         ; 76                                         ;
 ; Total virtual pins                 ; 0                                          ;
 ; Total memory bits                  ; 0                                          ;
 ; Embedded Multiplier 9-bit elements ; 0                                          ;
@@ -152,14 +152,14 @@ applicable agreement for further details.
 +----------------------------------------------------------------------------+--------------------+--------------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                         ;
-+----------------------------------+-----------------+-----------------+-----------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                  ; Library ;
-+----------------------------------+-----------------+-----------------+-----------------------------------------------+---------+
-; top.vhd                          ; yes             ; User VHDL File  ; C:/altera/13.1/projects/FPGA_P4/top.vhd       ;         ;
-; SPI_slave.vhd                    ; yes             ; User VHDL File  ; C:/altera/13.1/projects/FPGA_P4/SPI_slave.vhd ;         ;
-+----------------------------------+-----------------+-----------------+-----------------------------------------------+---------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                            ;
++----------------------------------+-----------------+-----------------+----------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                     ; Library ;
++----------------------------------+-----------------+-----------------+----------------------------------------------------------------------------------+---------+
+; top.vhd                          ; yes             ; User VHDL File  ; C:/Users/Albert Sandager/Documents/GitHub/P4-ViewCare/VHDL/FPGA_P4/top.vhd       ;         ;
+; SPI_slave.vhd                    ; yes             ; User VHDL File  ; C:/Users/Albert Sandager/Documents/GitHub/P4-ViewCare/VHDL/FPGA_P4/SPI_slave.vhd ;         ;
++----------------------------------+-----------------+-----------------+----------------------------------------------------------------------------------+---------+
 
 
 +--------------------------------------------------------------+
@@ -167,28 +167,28 @@ applicable agreement for further details.
 +---------------------------------------------+----------------+
 ; Resource                                    ; Usage          ;
 +---------------------------------------------+----------------+
-; Estimated Total logic elements              ; 180            ;
+; Estimated Total logic elements              ; 372            ;
 ;                                             ;                ;
-; Total combinational functions               ; 148            ;
+; Total combinational functions               ; 308            ;
 ; Logic element usage by number of LUT inputs ;                ;
-;     -- 4 input functions                    ; 58             ;
-;     -- 3 input functions                    ; 54             ;
-;     -- <=2 input functions                  ; 36             ;
+;     -- 4 input functions                    ; 124            ;
+;     -- 3 input functions                    ; 116            ;
+;     -- <=2 input functions                  ; 68             ;
 ;                                             ;                ;
 ; Logic elements by mode                      ;                ;
-;     -- normal mode                          ; 148            ;
+;     -- normal mode                          ; 308            ;
 ;     -- arithmetic mode                      ; 0              ;
 ;                                             ;                ;
-; Total registers                             ; 78             ;
-;     -- Dedicated logic registers            ; 78             ;
+; Total registers                             ; 174            ;
+;     -- Dedicated logic registers            ; 174            ;
 ;     -- I/O registers                        ; 0              ;
 ;                                             ;                ;
-; I/O pins                                    ; 44             ;
+; I/O pins                                    ; 76             ;
 ; Embedded Multiplier 9-bit elements          ; 0              ;
 ; Maximum fan-out node                        ; ecg_sclk~input ;
-; Maximum fan-out                             ; 39             ;
-; Total fan-out                               ; 756            ;
-; Average fan-out                             ; 2.41           ;
+; Maximum fan-out                             ; 87             ;
+; Total fan-out                               ; 1606           ;
+; Average fan-out                             ; 2.53           ;
 +---------------------------------------------+----------------+
 
 
@@ -197,9 +197,9 @@ applicable agreement for further details.
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+------------------------+--------------+
 ; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name    ; Library Name ;
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+------------------------+--------------+
-; |top                       ; 148 (0)           ; 78 (0)       ; 0           ; 0            ; 0       ; 0         ; 44   ; 0            ; |top                   ; work         ;
-;    |SPI_slave:ecg_spi|     ; 74 (74)           ; 39 (39)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top|SPI_slave:ecg_spi ; work         ;
-;    |SPI_slave:rec_spi|     ; 74 (74)           ; 39 (39)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top|SPI_slave:rec_spi ; work         ;
+; |top                       ; 308 (0)           ; 174 (0)      ; 0           ; 0            ; 0       ; 0         ; 76   ; 0            ; |top                   ; work         ;
+;    |SPI_slave:ecg_spi|     ; 154 (154)         ; 87 (87)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top|SPI_slave:ecg_spi ; work         ;
+;    |SPI_slave:rec_spi|     ; 154 (154)         ; 87 (87)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top|SPI_slave:rec_spi ; work         ;
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -217,6 +217,38 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; SPI_slave:rec_spi|rx_data[5]                        ; SPI_slave:rec_spi|process_1 ; yes                    ;
 ; SPI_slave:rec_spi|rx_data[6]                        ; SPI_slave:rec_spi|process_1 ; yes                    ;
 ; SPI_slave:rec_spi|rx_data[7]                        ; SPI_slave:rec_spi|process_1 ; yes                    ;
+; SPI_slave:rec_spi|rx_data[8]                        ; SPI_slave:rec_spi|process_1 ; yes                    ;
+; SPI_slave:rec_spi|rx_data[9]                        ; SPI_slave:rec_spi|process_1 ; yes                    ;
+; SPI_slave:rec_spi|rx_data[10]                       ; SPI_slave:rec_spi|process_1 ; yes                    ;
+; SPI_slave:rec_spi|rx_data[11]                       ; SPI_slave:rec_spi|process_1 ; yes                    ;
+; SPI_slave:rec_spi|rx_data[12]                       ; SPI_slave:rec_spi|process_1 ; yes                    ;
+; SPI_slave:rec_spi|rx_data[13]                       ; SPI_slave:rec_spi|process_1 ; yes                    ;
+; SPI_slave:rec_spi|rx_data[14]                       ; SPI_slave:rec_spi|process_1 ; yes                    ;
+; SPI_slave:rec_spi|rx_data[15]                       ; SPI_slave:rec_spi|process_1 ; yes                    ;
+; SPI_slave:rec_spi|rx_data[16]                       ; SPI_slave:rec_spi|process_1 ; yes                    ;
+; SPI_slave:rec_spi|rx_data[17]                       ; SPI_slave:rec_spi|process_1 ; yes                    ;
+; SPI_slave:rec_spi|rx_data[18]                       ; SPI_slave:rec_spi|process_1 ; yes                    ;
+; SPI_slave:rec_spi|rx_data[19]                       ; SPI_slave:rec_spi|process_1 ; yes                    ;
+; SPI_slave:rec_spi|rx_data[20]                       ; SPI_slave:rec_spi|process_1 ; yes                    ;
+; SPI_slave:rec_spi|rx_data[21]                       ; SPI_slave:rec_spi|process_1 ; yes                    ;
+; SPI_slave:rec_spi|rx_data[22]                       ; SPI_slave:rec_spi|process_1 ; yes                    ;
+; SPI_slave:rec_spi|rx_data[23]                       ; SPI_slave:rec_spi|process_1 ; yes                    ;
+; SPI_slave:ecg_spi|rx_data[23]                       ; SPI_slave:ecg_spi|process_1 ; yes                    ;
+; SPI_slave:ecg_spi|rx_data[22]                       ; SPI_slave:ecg_spi|process_1 ; yes                    ;
+; SPI_slave:ecg_spi|rx_data[21]                       ; SPI_slave:ecg_spi|process_1 ; yes                    ;
+; SPI_slave:ecg_spi|rx_data[20]                       ; SPI_slave:ecg_spi|process_1 ; yes                    ;
+; SPI_slave:ecg_spi|rx_data[19]                       ; SPI_slave:ecg_spi|process_1 ; yes                    ;
+; SPI_slave:ecg_spi|rx_data[18]                       ; SPI_slave:ecg_spi|process_1 ; yes                    ;
+; SPI_slave:ecg_spi|rx_data[17]                       ; SPI_slave:ecg_spi|process_1 ; yes                    ;
+; SPI_slave:ecg_spi|rx_data[16]                       ; SPI_slave:ecg_spi|process_1 ; yes                    ;
+; SPI_slave:ecg_spi|rx_data[15]                       ; SPI_slave:ecg_spi|process_1 ; yes                    ;
+; SPI_slave:ecg_spi|rx_data[14]                       ; SPI_slave:ecg_spi|process_1 ; yes                    ;
+; SPI_slave:ecg_spi|rx_data[13]                       ; SPI_slave:ecg_spi|process_1 ; yes                    ;
+; SPI_slave:ecg_spi|rx_data[12]                       ; SPI_slave:ecg_spi|process_1 ; yes                    ;
+; SPI_slave:ecg_spi|rx_data[11]                       ; SPI_slave:ecg_spi|process_1 ; yes                    ;
+; SPI_slave:ecg_spi|rx_data[10]                       ; SPI_slave:ecg_spi|process_1 ; yes                    ;
+; SPI_slave:ecg_spi|rx_data[9]                        ; SPI_slave:ecg_spi|process_1 ; yes                    ;
+; SPI_slave:ecg_spi|rx_data[8]                        ; SPI_slave:ecg_spi|process_1 ; yes                    ;
 ; SPI_slave:ecg_spi|rx_data[7]                        ; SPI_slave:ecg_spi|process_1 ; yes                    ;
 ; SPI_slave:ecg_spi|rx_data[6]                        ; SPI_slave:ecg_spi|process_1 ; yes                    ;
 ; SPI_slave:ecg_spi|rx_data[5]                        ; SPI_slave:ecg_spi|process_1 ; yes                    ;
@@ -225,7 +257,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; SPI_slave:ecg_spi|rx_data[2]                        ; SPI_slave:ecg_spi|process_1 ; yes                    ;
 ; SPI_slave:ecg_spi|rx_data[1]                        ; SPI_slave:ecg_spi|process_1 ; yes                    ;
 ; SPI_slave:ecg_spi|rx_data[0]                        ; SPI_slave:ecg_spi|process_1 ; yes                    ;
-; Number of user-specified and inferred latches = 16  ;                             ;                        ;
+; Number of user-specified and inferred latches = 48  ;                             ;                        ;
 +-----------------------------------------------------+-----------------------------+------------------------+
 Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
 
@@ -246,12 +278,12 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 78    ;
+; Total registers                              ; 174   ;
 ; Number of registers using Synchronous Clear  ; 0     ;
 ; Number of registers using Synchronous Load   ; 0     ;
-; Number of registers using Asynchronous Clear ; 56    ;
+; Number of registers using Asynchronous Clear ; 120   ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 20    ;
+; Number of registers using Clock Enable       ; 52    ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -272,7 +304,7 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +----------------+-------+--------------------------------------------+
 ; Parameter Name ; Value ; Type                                       ;
 +----------------+-------+--------------------------------------------+
-; d_width        ; 8     ; Signed Integer                             ;
+; d_width        ; 24    ; Signed Integer                             ;
 +----------------+-------+--------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -284,7 +316,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------------+
 ; cpol           ; '1'   ; Enumerated                            ;
 ; cpha           ; '0'   ; Enumerated                            ;
-; d_width        ; 8     ; Signed Integer                        ;
+; d_width        ; 24    ; Signed Integer                        ;
 +----------------+-------+---------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -296,7 +328,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------------+
 ; cpol           ; '1'   ; Enumerated                            ;
 ; cpha           ; '0'   ; Enumerated                            ;
-; d_width        ; 8     ; Signed Integer                        ;
+; d_width        ; 24    ; Signed Integer                        ;
 +----------------+-------+---------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -334,7 +366,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
-    Info: Processing started: Wed May 08 13:28:18 2019
+    Info: Processing started: Thu May 09 08:55:13 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off FPGA_P4 -c top
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 2 design units, including 1 entities, in source file top.vhd
@@ -394,6 +426,22 @@ Info (10041): Inferred latch for "rx_data[4]" at SPI_slave.vhd(62)
 Info (10041): Inferred latch for "rx_data[5]" at SPI_slave.vhd(62)
 Info (10041): Inferred latch for "rx_data[6]" at SPI_slave.vhd(62)
 Info (10041): Inferred latch for "rx_data[7]" at SPI_slave.vhd(62)
+Info (10041): Inferred latch for "rx_data[8]" at SPI_slave.vhd(62)
+Info (10041): Inferred latch for "rx_data[9]" at SPI_slave.vhd(62)
+Info (10041): Inferred latch for "rx_data[10]" at SPI_slave.vhd(62)
+Info (10041): Inferred latch for "rx_data[11]" at SPI_slave.vhd(62)
+Info (10041): Inferred latch for "rx_data[12]" at SPI_slave.vhd(62)
+Info (10041): Inferred latch for "rx_data[13]" at SPI_slave.vhd(62)
+Info (10041): Inferred latch for "rx_data[14]" at SPI_slave.vhd(62)
+Info (10041): Inferred latch for "rx_data[15]" at SPI_slave.vhd(62)
+Info (10041): Inferred latch for "rx_data[16]" at SPI_slave.vhd(62)
+Info (10041): Inferred latch for "rx_data[17]" at SPI_slave.vhd(62)
+Info (10041): Inferred latch for "rx_data[18]" at SPI_slave.vhd(62)
+Info (10041): Inferred latch for "rx_data[19]" at SPI_slave.vhd(62)
+Info (10041): Inferred latch for "rx_data[20]" at SPI_slave.vhd(62)
+Info (10041): Inferred latch for "rx_data[21]" at SPI_slave.vhd(62)
+Info (10041): Inferred latch for "rx_data[22]" at SPI_slave.vhd(62)
+Info (10041): Inferred latch for "rx_data[23]" at SPI_slave.vhd(62)
 Info (13000): Registers with preset signals will power-up high
 Info (13003): DEV_CLRn pin will set, and not reset, register with preset signal due to NOT Gate Push-Back
 Warning (13004): Presettable and clearable registers converted to equivalent circuits with latches. Registers power-up to an undefined state, and DEVCLRn places the registers in an undefined state.
@@ -403,36 +451,68 @@ Warning (13004): Presettable and clearable registers converted to equivalent cir
     Warning (13310): Register "SPI_slave:rec_spi|trdy" is converted into an equivalent circuit using register "SPI_slave:rec_spi|trdy~_emulated" and latch "SPI_slave:rec_spi|trdy~1"
     Warning (13310): Register "SPI_slave:rec_spi|rrdy" is converted into an equivalent circuit using register "SPI_slave:rec_spi|rrdy~_emulated" and latch "SPI_slave:rec_spi|rrdy~1"
     Warning (13310): Register "SPI_slave:rec_spi|roe" is converted into an equivalent circuit using register "SPI_slave:rec_spi|roe~_emulated" and latch "SPI_slave:rec_spi|roe~1"
-    Warning (13310): Register "SPI_slave:ecg_spi|tx_buf[7]" is converted into an equivalent circuit using register "SPI_slave:ecg_spi|tx_buf[7]~_emulated" and latch "SPI_slave:ecg_spi|tx_buf[7]~1"
-    Warning (13310): Register "SPI_slave:rec_spi|tx_buf[7]" is converted into an equivalent circuit using register "SPI_slave:rec_spi|tx_buf[7]~_emulated" and latch "SPI_slave:rec_spi|tx_buf[7]~1"
-    Warning (13310): Register "SPI_slave:ecg_spi|tx_buf[6]" is converted into an equivalent circuit using register "SPI_slave:ecg_spi|tx_buf[6]~_emulated" and latch "SPI_slave:ecg_spi|tx_buf[6]~5"
-    Warning (13310): Register "SPI_slave:rec_spi|tx_buf[6]" is converted into an equivalent circuit using register "SPI_slave:rec_spi|tx_buf[6]~_emulated" and latch "SPI_slave:rec_spi|tx_buf[6]~5"
-    Warning (13310): Register "SPI_slave:ecg_spi|tx_buf[5]" is converted into an equivalent circuit using register "SPI_slave:ecg_spi|tx_buf[5]~_emulated" and latch "SPI_slave:ecg_spi|tx_buf[5]~9"
-    Warning (13310): Register "SPI_slave:rec_spi|tx_buf[5]" is converted into an equivalent circuit using register "SPI_slave:rec_spi|tx_buf[5]~_emulated" and latch "SPI_slave:rec_spi|tx_buf[5]~9"
-    Warning (13310): Register "SPI_slave:ecg_spi|tx_buf[4]" is converted into an equivalent circuit using register "SPI_slave:ecg_spi|tx_buf[4]~_emulated" and latch "SPI_slave:ecg_spi|tx_buf[4]~13"
-    Warning (13310): Register "SPI_slave:rec_spi|tx_buf[4]" is converted into an equivalent circuit using register "SPI_slave:rec_spi|tx_buf[4]~_emulated" and latch "SPI_slave:rec_spi|tx_buf[4]~13"
-    Warning (13310): Register "SPI_slave:ecg_spi|tx_buf[3]" is converted into an equivalent circuit using register "SPI_slave:ecg_spi|tx_buf[3]~_emulated" and latch "SPI_slave:ecg_spi|tx_buf[3]~17"
-    Warning (13310): Register "SPI_slave:rec_spi|tx_buf[3]" is converted into an equivalent circuit using register "SPI_slave:rec_spi|tx_buf[3]~_emulated" and latch "SPI_slave:rec_spi|tx_buf[3]~17"
-    Warning (13310): Register "SPI_slave:ecg_spi|tx_buf[2]" is converted into an equivalent circuit using register "SPI_slave:ecg_spi|tx_buf[2]~_emulated" and latch "SPI_slave:ecg_spi|tx_buf[2]~21"
-    Warning (13310): Register "SPI_slave:rec_spi|tx_buf[2]" is converted into an equivalent circuit using register "SPI_slave:rec_spi|tx_buf[2]~_emulated" and latch "SPI_slave:rec_spi|tx_buf[2]~21"
-    Warning (13310): Register "SPI_slave:ecg_spi|tx_buf[1]" is converted into an equivalent circuit using register "SPI_slave:ecg_spi|tx_buf[1]~_emulated" and latch "SPI_slave:ecg_spi|tx_buf[1]~25"
-    Warning (13310): Register "SPI_slave:rec_spi|tx_buf[1]" is converted into an equivalent circuit using register "SPI_slave:rec_spi|tx_buf[1]~_emulated" and latch "SPI_slave:rec_spi|tx_buf[1]~25"
-    Warning (13310): Register "SPI_slave:ecg_spi|tx_buf[0]" is converted into an equivalent circuit using register "SPI_slave:ecg_spi|tx_buf[0]~_emulated" and latch "SPI_slave:ecg_spi|tx_buf[0]~29"
-    Warning (13310): Register "SPI_slave:rec_spi|tx_buf[0]" is converted into an equivalent circuit using register "SPI_slave:rec_spi|tx_buf[0]~_emulated" and latch "SPI_slave:rec_spi|tx_buf[0]~29"
+    Warning (13310): Register "SPI_slave:ecg_spi|tx_buf[23]" is converted into an equivalent circuit using register "SPI_slave:ecg_spi|tx_buf[23]~_emulated" and latch "SPI_slave:ecg_spi|tx_buf[23]~1"
+    Warning (13310): Register "SPI_slave:rec_spi|tx_buf[23]" is converted into an equivalent circuit using register "SPI_slave:rec_spi|tx_buf[23]~_emulated" and latch "SPI_slave:rec_spi|tx_buf[23]~1"
+    Warning (13310): Register "SPI_slave:ecg_spi|tx_buf[22]" is converted into an equivalent circuit using register "SPI_slave:ecg_spi|tx_buf[22]~_emulated" and latch "SPI_slave:ecg_spi|tx_buf[22]~5"
+    Warning (13310): Register "SPI_slave:rec_spi|tx_buf[22]" is converted into an equivalent circuit using register "SPI_slave:rec_spi|tx_buf[22]~_emulated" and latch "SPI_slave:rec_spi|tx_buf[22]~5"
+    Warning (13310): Register "SPI_slave:ecg_spi|tx_buf[21]" is converted into an equivalent circuit using register "SPI_slave:ecg_spi|tx_buf[21]~_emulated" and latch "SPI_slave:ecg_spi|tx_buf[21]~9"
+    Warning (13310): Register "SPI_slave:rec_spi|tx_buf[21]" is converted into an equivalent circuit using register "SPI_slave:rec_spi|tx_buf[21]~_emulated" and latch "SPI_slave:rec_spi|tx_buf[21]~9"
+    Warning (13310): Register "SPI_slave:ecg_spi|tx_buf[20]" is converted into an equivalent circuit using register "SPI_slave:ecg_spi|tx_buf[20]~_emulated" and latch "SPI_slave:ecg_spi|tx_buf[20]~13"
+    Warning (13310): Register "SPI_slave:rec_spi|tx_buf[20]" is converted into an equivalent circuit using register "SPI_slave:rec_spi|tx_buf[20]~_emulated" and latch "SPI_slave:rec_spi|tx_buf[20]~13"
+    Warning (13310): Register "SPI_slave:ecg_spi|tx_buf[19]" is converted into an equivalent circuit using register "SPI_slave:ecg_spi|tx_buf[19]~_emulated" and latch "SPI_slave:ecg_spi|tx_buf[19]~17"
+    Warning (13310): Register "SPI_slave:rec_spi|tx_buf[19]" is converted into an equivalent circuit using register "SPI_slave:rec_spi|tx_buf[19]~_emulated" and latch "SPI_slave:rec_spi|tx_buf[19]~17"
+    Warning (13310): Register "SPI_slave:ecg_spi|tx_buf[18]" is converted into an equivalent circuit using register "SPI_slave:ecg_spi|tx_buf[18]~_emulated" and latch "SPI_slave:ecg_spi|tx_buf[18]~21"
+    Warning (13310): Register "SPI_slave:rec_spi|tx_buf[18]" is converted into an equivalent circuit using register "SPI_slave:rec_spi|tx_buf[18]~_emulated" and latch "SPI_slave:rec_spi|tx_buf[18]~21"
+    Warning (13310): Register "SPI_slave:ecg_spi|tx_buf[17]" is converted into an equivalent circuit using register "SPI_slave:ecg_spi|tx_buf[17]~_emulated" and latch "SPI_slave:ecg_spi|tx_buf[17]~25"
+    Warning (13310): Register "SPI_slave:rec_spi|tx_buf[17]" is converted into an equivalent circuit using register "SPI_slave:rec_spi|tx_buf[17]~_emulated" and latch "SPI_slave:rec_spi|tx_buf[17]~25"
+    Warning (13310): Register "SPI_slave:ecg_spi|tx_buf[16]" is converted into an equivalent circuit using register "SPI_slave:ecg_spi|tx_buf[16]~_emulated" and latch "SPI_slave:ecg_spi|tx_buf[16]~29"
+    Warning (13310): Register "SPI_slave:rec_spi|tx_buf[16]" is converted into an equivalent circuit using register "SPI_slave:rec_spi|tx_buf[16]~_emulated" and latch "SPI_slave:rec_spi|tx_buf[16]~29"
+    Warning (13310): Register "SPI_slave:ecg_spi|tx_buf[15]" is converted into an equivalent circuit using register "SPI_slave:ecg_spi|tx_buf[15]~_emulated" and latch "SPI_slave:ecg_spi|tx_buf[15]~33"
+    Warning (13310): Register "SPI_slave:rec_spi|tx_buf[15]" is converted into an equivalent circuit using register "SPI_slave:rec_spi|tx_buf[15]~_emulated" and latch "SPI_slave:rec_spi|tx_buf[15]~33"
+    Warning (13310): Register "SPI_slave:ecg_spi|tx_buf[14]" is converted into an equivalent circuit using register "SPI_slave:ecg_spi|tx_buf[14]~_emulated" and latch "SPI_slave:ecg_spi|tx_buf[14]~37"
+    Warning (13310): Register "SPI_slave:rec_spi|tx_buf[14]" is converted into an equivalent circuit using register "SPI_slave:rec_spi|tx_buf[14]~_emulated" and latch "SPI_slave:rec_spi|tx_buf[14]~37"
+    Warning (13310): Register "SPI_slave:ecg_spi|tx_buf[13]" is converted into an equivalent circuit using register "SPI_slave:ecg_spi|tx_buf[13]~_emulated" and latch "SPI_slave:ecg_spi|tx_buf[13]~41"
+    Warning (13310): Register "SPI_slave:rec_spi|tx_buf[13]" is converted into an equivalent circuit using register "SPI_slave:rec_spi|tx_buf[13]~_emulated" and latch "SPI_slave:rec_spi|tx_buf[13]~41"
+    Warning (13310): Register "SPI_slave:ecg_spi|tx_buf[12]" is converted into an equivalent circuit using register "SPI_slave:ecg_spi|tx_buf[12]~_emulated" and latch "SPI_slave:ecg_spi|tx_buf[12]~45"
+    Warning (13310): Register "SPI_slave:rec_spi|tx_buf[12]" is converted into an equivalent circuit using register "SPI_slave:rec_spi|tx_buf[12]~_emulated" and latch "SPI_slave:rec_spi|tx_buf[12]~45"
+    Warning (13310): Register "SPI_slave:ecg_spi|tx_buf[11]" is converted into an equivalent circuit using register "SPI_slave:ecg_spi|tx_buf[11]~_emulated" and latch "SPI_slave:ecg_spi|tx_buf[11]~49"
+    Warning (13310): Register "SPI_slave:rec_spi|tx_buf[11]" is converted into an equivalent circuit using register "SPI_slave:rec_spi|tx_buf[11]~_emulated" and latch "SPI_slave:rec_spi|tx_buf[11]~49"
+    Warning (13310): Register "SPI_slave:ecg_spi|tx_buf[10]" is converted into an equivalent circuit using register "SPI_slave:ecg_spi|tx_buf[10]~_emulated" and latch "SPI_slave:ecg_spi|tx_buf[10]~53"
+    Warning (13310): Register "SPI_slave:rec_spi|tx_buf[10]" is converted into an equivalent circuit using register "SPI_slave:rec_spi|tx_buf[10]~_emulated" and latch "SPI_slave:rec_spi|tx_buf[10]~53"
+    Warning (13310): Register "SPI_slave:ecg_spi|tx_buf[9]" is converted into an equivalent circuit using register "SPI_slave:ecg_spi|tx_buf[9]~_emulated" and latch "SPI_slave:ecg_spi|tx_buf[9]~57"
+    Warning (13310): Register "SPI_slave:rec_spi|tx_buf[9]" is converted into an equivalent circuit using register "SPI_slave:rec_spi|tx_buf[9]~_emulated" and latch "SPI_slave:rec_spi|tx_buf[9]~57"
+    Warning (13310): Register "SPI_slave:ecg_spi|tx_buf[8]" is converted into an equivalent circuit using register "SPI_slave:ecg_spi|tx_buf[8]~_emulated" and latch "SPI_slave:ecg_spi|tx_buf[8]~61"
+    Warning (13310): Register "SPI_slave:rec_spi|tx_buf[8]" is converted into an equivalent circuit using register "SPI_slave:rec_spi|tx_buf[8]~_emulated" and latch "SPI_slave:rec_spi|tx_buf[8]~61"
+    Warning (13310): Register "SPI_slave:ecg_spi|tx_buf[7]" is converted into an equivalent circuit using register "SPI_slave:ecg_spi|tx_buf[7]~_emulated" and latch "SPI_slave:ecg_spi|tx_buf[7]~65"
+    Warning (13310): Register "SPI_slave:rec_spi|tx_buf[7]" is converted into an equivalent circuit using register "SPI_slave:rec_spi|tx_buf[7]~_emulated" and latch "SPI_slave:rec_spi|tx_buf[7]~65"
+    Warning (13310): Register "SPI_slave:ecg_spi|tx_buf[6]" is converted into an equivalent circuit using register "SPI_slave:ecg_spi|tx_buf[6]~_emulated" and latch "SPI_slave:ecg_spi|tx_buf[6]~69"
+    Warning (13310): Register "SPI_slave:rec_spi|tx_buf[6]" is converted into an equivalent circuit using register "SPI_slave:rec_spi|tx_buf[6]~_emulated" and latch "SPI_slave:rec_spi|tx_buf[6]~69"
+    Warning (13310): Register "SPI_slave:ecg_spi|tx_buf[5]" is converted into an equivalent circuit using register "SPI_slave:ecg_spi|tx_buf[5]~_emulated" and latch "SPI_slave:ecg_spi|tx_buf[5]~73"
+    Warning (13310): Register "SPI_slave:rec_spi|tx_buf[5]" is converted into an equivalent circuit using register "SPI_slave:rec_spi|tx_buf[5]~_emulated" and latch "SPI_slave:rec_spi|tx_buf[5]~73"
+    Warning (13310): Register "SPI_slave:ecg_spi|tx_buf[4]" is converted into an equivalent circuit using register "SPI_slave:ecg_spi|tx_buf[4]~_emulated" and latch "SPI_slave:ecg_spi|tx_buf[4]~77"
+    Warning (13310): Register "SPI_slave:rec_spi|tx_buf[4]" is converted into an equivalent circuit using register "SPI_slave:rec_spi|tx_buf[4]~_emulated" and latch "SPI_slave:rec_spi|tx_buf[4]~77"
+    Warning (13310): Register "SPI_slave:ecg_spi|tx_buf[3]" is converted into an equivalent circuit using register "SPI_slave:ecg_spi|tx_buf[3]~_emulated" and latch "SPI_slave:ecg_spi|tx_buf[3]~81"
+    Warning (13310): Register "SPI_slave:rec_spi|tx_buf[3]" is converted into an equivalent circuit using register "SPI_slave:rec_spi|tx_buf[3]~_emulated" and latch "SPI_slave:rec_spi|tx_buf[3]~81"
+    Warning (13310): Register "SPI_slave:ecg_spi|tx_buf[2]" is converted into an equivalent circuit using register "SPI_slave:ecg_spi|tx_buf[2]~_emulated" and latch "SPI_slave:ecg_spi|tx_buf[2]~85"
+    Warning (13310): Register "SPI_slave:rec_spi|tx_buf[2]" is converted into an equivalent circuit using register "SPI_slave:rec_spi|tx_buf[2]~_emulated" and latch "SPI_slave:rec_spi|tx_buf[2]~85"
+    Warning (13310): Register "SPI_slave:ecg_spi|tx_buf[1]" is converted into an equivalent circuit using register "SPI_slave:ecg_spi|tx_buf[1]~_emulated" and latch "SPI_slave:ecg_spi|tx_buf[1]~89"
+    Warning (13310): Register "SPI_slave:rec_spi|tx_buf[1]" is converted into an equivalent circuit using register "SPI_slave:rec_spi|tx_buf[1]~_emulated" and latch "SPI_slave:rec_spi|tx_buf[1]~89"
+    Warning (13310): Register "SPI_slave:ecg_spi|tx_buf[0]" is converted into an equivalent circuit using register "SPI_slave:ecg_spi|tx_buf[0]~_emulated" and latch "SPI_slave:ecg_spi|tx_buf[0]~93"
+    Warning (13310): Register "SPI_slave:rec_spi|tx_buf[0]" is converted into an equivalent circuit using register "SPI_slave:rec_spi|tx_buf[0]~_emulated" and latch "SPI_slave:rec_spi|tx_buf[0]~93"
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
 Warning (21074): Design contains 2 input pin(s) that do not drive logic
     Warning (15610): No output dependent on input pin "ecg_st_load_en"
     Warning (15610): No output dependent on input pin "rec_st_load_en"
-Info (21057): Implemented 224 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 26 input pins
-    Info (21059): Implemented 18 output pins
-    Info (21061): Implemented 180 logic cells
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 68 warnings
-    Info: Peak virtual memory: 526 megabytes
-    Info: Processing ended: Wed May 08 13:28:21 2019
-    Info: Elapsed time: 00:00:03
+Info (21057): Implemented 448 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 42 input pins
+    Info (21059): Implemented 34 output pins
+    Info (21061): Implemented 372 logic cells
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 100 warnings
+    Info: Peak virtual memory: 542 megabytes
+    Info: Processing ended: Thu May 09 08:55:18 2019
+    Info: Elapsed time: 00:00:05
     Info: Total CPU time (on all processors): 00:00:03
 
 

@@ -62,6 +62,7 @@ void loop() {
 
     SPI.transfer(0); // send command byte
    SPI.transfer(16);
+   SPI.transfer(5);
   //  SPI.transfer(0);
    // SPI.transfer(kanal1,3);
    // delayMicroseconds(1);
@@ -84,10 +85,10 @@ void loop() {
   delay(100);
 
 
-    digitalWrite(ss, LOW);
+    //digitalWrite(ss, LOW);
 
-    SPI.transfer(0); // send command byte
-   SPI.transfer(5);
+    //SPI.transfer(0); // send command byte
+
   //  SPI.transfer(0);
    // SPI.transfer(kanal1,3);
     //delayMicroseconds(1);
@@ -105,8 +106,8 @@ void loop() {
 
 
   
-  digitalWrite(ss, HIGH);
+  //digitalWrite(ss, HIGH);
 
-  delay(100);
+  //delay(100);
 
 }

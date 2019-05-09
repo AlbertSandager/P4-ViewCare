@@ -30,7 +30,9 @@ void loop() {
   digitalWrite(ss, LOW);
 
   SPI.transfer(0);
-  receivedVal = SPI.transfer(0);
+  receivedVal = SPI.transfer(000);
+  receivedVal = SPI.transfer(000);
+  
 
   digitalWrite(ss, HIGH);
 

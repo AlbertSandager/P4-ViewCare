@@ -27,7 +27,7 @@ int error = 0;
 
 byte bit24val[3];
 
-long sendVal = 0;
+long sendVal = 8388608;
 
 
 void convertLong2bit24vector(long val)
@@ -62,24 +62,25 @@ long getData(byte kanal)
 }
 
 void loop() {
-
-
+  
+  bit24val[0]=0;
+  bit24val[1]=0;
+  bit24val[2]=0;
+  
   convertLong2bit24vector(sendVal);
 
+
+  Serial.print("Sendval convert:  "); Serial.print(sendVal); Serial.print(" to "); Serial.println(bit24val[0]);Serial.println(bit24val[1]);Serial.println(bit24val[2]);
   digitalWrite(ss, LOW);
-
   SPI.transfer(0);
-  SPI.transfer(bit24val[0]);
-  SPI.transfer(bit24val[1]);
   SPI.transfer(bit24val[2]);
-
-  //receivedVal = SPI.transfer(0);
-
+  SPI.transfer(bit24val[1]);
+  SPI.transfer(bit24val[0]);
   digitalWrite(ss, HIGH);
 
-  Serial.print(receivedVal);
+  //Serial.print(receivedVal);
 
-  //  delay(1);
+  delay(3000);
 
 
   if (receivedVal != 5) {

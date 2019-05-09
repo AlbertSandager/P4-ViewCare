@@ -64,7 +64,7 @@ long getData(byte kanal)
 void loop() {
 
 
-  convertLong2bit24vector(sendval);
+  convertLong2bit24vector(sendVal);
 
   digitalWrite(ss, LOW);
 

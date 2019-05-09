@@ -1,7 +1,7 @@
 vendor_name = ModelSim
-source_file = 1, C:/Users/Kristian/Desktop/FPGA_P4/top.vhd
-source_file = 1, C:/Users/Kristian/Desktop/FPGA_P4/SPI_slave.vhd
-source_file = 1, C:/Users/Kristian/Desktop/FPGA_P4/db/top.cbx.xml
+source_file = 1, C:/Users/Albert Sandager/Documents/GitHub/P4-ViewCare/VHDL/TEST/FPGA_P4/top.vhd
+source_file = 1, C:/Users/Albert Sandager/Documents/GitHub/P4-ViewCare/VHDL/TEST/FPGA_P4/SPI_slave.vhd
+source_file = 1, C:/Users/Albert Sandager/Documents/GitHub/P4-ViewCare/VHDL/TEST/FPGA_P4/db/top.cbx.xml
 source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
 source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
 source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/timing_b.vhd

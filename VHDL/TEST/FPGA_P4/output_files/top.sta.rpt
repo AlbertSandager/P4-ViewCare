@@ -1,5 +1,5 @@
 TimeQuest Timing Analyzer report for top
-Thu May 09 12:48:09 2019
+Thu May 09 12:08:00 2019
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -8,126 +8,125 @@ Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 ---------------------
   1. Legal Notice
   2. TimeQuest Timing Analyzer Summary
-  3. Parallel Compilation
-  4. Clocks
-  5. Slow 1200mV 85C Model Fmax Summary
-  6. Timing Closure Recommendations
-  7. Slow 1200mV 85C Model Setup Summary
-  8. Slow 1200mV 85C Model Hold Summary
-  9. Slow 1200mV 85C Model Recovery Summary
- 10. Slow 1200mV 85C Model Removal Summary
- 11. Slow 1200mV 85C Model Minimum Pulse Width Summary
- 12. Slow 1200mV 85C Model Setup: 'rec_sclk'
- 13. Slow 1200mV 85C Model Setup: 'ecg_sclk'
- 14. Slow 1200mV 85C Model Setup: 'rec_ss_n'
- 15. Slow 1200mV 85C Model Setup: 'ecg_ss_n'
- 16. Slow 1200mV 85C Model Hold: 'ecg_ss_n'
- 17. Slow 1200mV 85C Model Hold: 'rec_ss_n'
- 18. Slow 1200mV 85C Model Hold: 'ecg_sclk'
- 19. Slow 1200mV 85C Model Hold: 'rec_sclk'
- 20. Slow 1200mV 85C Model Recovery: 'rec_sclk'
- 21. Slow 1200mV 85C Model Recovery: 'ecg_sclk'
- 22. Slow 1200mV 85C Model Removal: 'ecg_sclk'
- 23. Slow 1200mV 85C Model Removal: 'rec_sclk'
- 24. Slow 1200mV 85C Model Minimum Pulse Width: 'rec_sclk'
- 25. Slow 1200mV 85C Model Minimum Pulse Width: 'ecg_sclk'
- 26. Slow 1200mV 85C Model Minimum Pulse Width: 'ecg_ss_n'
- 27. Slow 1200mV 85C Model Minimum Pulse Width: 'rec_ss_n'
- 28. Setup Times
- 29. Hold Times
- 30. Clock to Output Times
- 31. Minimum Clock to Output Times
- 32. Propagation Delay
- 33. Minimum Propagation Delay
- 34. Output Enable Times
- 35. Minimum Output Enable Times
- 36. Output Disable Times
- 37. Minimum Output Disable Times
- 38. Slow 1200mV 85C Model Metastability Report
- 39. Slow 1200mV 0C Model Fmax Summary
- 40. Slow 1200mV 0C Model Setup Summary
- 41. Slow 1200mV 0C Model Hold Summary
- 42. Slow 1200mV 0C Model Recovery Summary
- 43. Slow 1200mV 0C Model Removal Summary
- 44. Slow 1200mV 0C Model Minimum Pulse Width Summary
- 45. Slow 1200mV 0C Model Setup: 'rec_sclk'
- 46. Slow 1200mV 0C Model Setup: 'ecg_sclk'
- 47. Slow 1200mV 0C Model Setup: 'rec_ss_n'
- 48. Slow 1200mV 0C Model Setup: 'ecg_ss_n'
- 49. Slow 1200mV 0C Model Hold: 'ecg_ss_n'
- 50. Slow 1200mV 0C Model Hold: 'rec_ss_n'
- 51. Slow 1200mV 0C Model Hold: 'ecg_sclk'
- 52. Slow 1200mV 0C Model Hold: 'rec_sclk'
- 53. Slow 1200mV 0C Model Recovery: 'rec_sclk'
- 54. Slow 1200mV 0C Model Recovery: 'ecg_sclk'
- 55. Slow 1200mV 0C Model Removal: 'ecg_sclk'
- 56. Slow 1200mV 0C Model Removal: 'rec_sclk'
- 57. Slow 1200mV 0C Model Minimum Pulse Width: 'rec_sclk'
- 58. Slow 1200mV 0C Model Minimum Pulse Width: 'ecg_sclk'
- 59. Slow 1200mV 0C Model Minimum Pulse Width: 'ecg_ss_n'
- 60. Slow 1200mV 0C Model Minimum Pulse Width: 'rec_ss_n'
- 61. Setup Times
- 62. Hold Times
- 63. Clock to Output Times
- 64. Minimum Clock to Output Times
- 65. Propagation Delay
- 66. Minimum Propagation Delay
- 67. Output Enable Times
- 68. Minimum Output Enable Times
- 69. Output Disable Times
- 70. Minimum Output Disable Times
- 71. Slow 1200mV 0C Model Metastability Report
- 72. Fast 1200mV 0C Model Setup Summary
- 73. Fast 1200mV 0C Model Hold Summary
- 74. Fast 1200mV 0C Model Recovery Summary
- 75. Fast 1200mV 0C Model Removal Summary
- 76. Fast 1200mV 0C Model Minimum Pulse Width Summary
- 77. Fast 1200mV 0C Model Setup: 'rec_sclk'
- 78. Fast 1200mV 0C Model Setup: 'ecg_sclk'
- 79. Fast 1200mV 0C Model Setup: 'rec_ss_n'
- 80. Fast 1200mV 0C Model Setup: 'ecg_ss_n'
- 81. Fast 1200mV 0C Model Hold: 'ecg_ss_n'
- 82. Fast 1200mV 0C Model Hold: 'rec_ss_n'
- 83. Fast 1200mV 0C Model Hold: 'ecg_sclk'
- 84. Fast 1200mV 0C Model Hold: 'rec_sclk'
- 85. Fast 1200mV 0C Model Recovery: 'rec_sclk'
- 86. Fast 1200mV 0C Model Recovery: 'ecg_sclk'
- 87. Fast 1200mV 0C Model Removal: 'ecg_sclk'
- 88. Fast 1200mV 0C Model Removal: 'rec_sclk'
- 89. Fast 1200mV 0C Model Minimum Pulse Width: 'rec_sclk'
- 90. Fast 1200mV 0C Model Minimum Pulse Width: 'ecg_sclk'
- 91. Fast 1200mV 0C Model Minimum Pulse Width: 'rec_ss_n'
- 92. Fast 1200mV 0C Model Minimum Pulse Width: 'ecg_ss_n'
- 93. Setup Times
- 94. Hold Times
- 95. Clock to Output Times
- 96. Minimum Clock to Output Times
- 97. Propagation Delay
- 98. Minimum Propagation Delay
- 99. Output Enable Times
-100. Minimum Output Enable Times
-101. Output Disable Times
-102. Minimum Output Disable Times
-103. Fast 1200mV 0C Model Metastability Report
-104. Multicorner Timing Analysis Summary
-105. Setup Times
-106. Hold Times
-107. Clock to Output Times
-108. Minimum Clock to Output Times
-109. Propagation Delay
-110. Minimum Propagation Delay
-111. Board Trace Model Assignments
-112. Input Transition Times
-113. Slow Corner Signal Integrity Metrics
-114. Fast Corner Signal Integrity Metrics
-115. Setup Transfers
-116. Hold Transfers
-117. Recovery Transfers
-118. Removal Transfers
-119. Report TCCS
-120. Report RSKM
-121. Unconstrained Paths
-122. TimeQuest Timing Analyzer Messages
+  3. Clocks
+  4. Slow 1200mV 85C Model Fmax Summary
+  5. Timing Closure Recommendations
+  6. Slow 1200mV 85C Model Setup Summary
+  7. Slow 1200mV 85C Model Hold Summary
+  8. Slow 1200mV 85C Model Recovery Summary
+  9. Slow 1200mV 85C Model Removal Summary
+ 10. Slow 1200mV 85C Model Minimum Pulse Width Summary
+ 11. Slow 1200mV 85C Model Setup: 'rec_sclk'
+ 12. Slow 1200mV 85C Model Setup: 'ecg_sclk'
+ 13. Slow 1200mV 85C Model Setup: 'rec_ss_n'
+ 14. Slow 1200mV 85C Model Setup: 'ecg_ss_n'
+ 15. Slow 1200mV 85C Model Hold: 'ecg_ss_n'
+ 16. Slow 1200mV 85C Model Hold: 'rec_ss_n'
+ 17. Slow 1200mV 85C Model Hold: 'ecg_sclk'
+ 18. Slow 1200mV 85C Model Hold: 'rec_sclk'
+ 19. Slow 1200mV 85C Model Recovery: 'rec_sclk'
+ 20. Slow 1200mV 85C Model Recovery: 'ecg_sclk'
+ 21. Slow 1200mV 85C Model Removal: 'ecg_sclk'
+ 22. Slow 1200mV 85C Model Removal: 'rec_sclk'
+ 23. Slow 1200mV 85C Model Minimum Pulse Width: 'rec_sclk'
+ 24. Slow 1200mV 85C Model Minimum Pulse Width: 'ecg_sclk'
+ 25. Slow 1200mV 85C Model Minimum Pulse Width: 'ecg_ss_n'
+ 26. Slow 1200mV 85C Model Minimum Pulse Width: 'rec_ss_n'
+ 27. Setup Times
+ 28. Hold Times
+ 29. Clock to Output Times
+ 30. Minimum Clock to Output Times
+ 31. Propagation Delay
+ 32. Minimum Propagation Delay
+ 33. Output Enable Times
+ 34. Minimum Output Enable Times
+ 35. Output Disable Times
+ 36. Minimum Output Disable Times
+ 37. Slow 1200mV 85C Model Metastability Report
+ 38. Slow 1200mV 0C Model Fmax Summary
+ 39. Slow 1200mV 0C Model Setup Summary
+ 40. Slow 1200mV 0C Model Hold Summary
+ 41. Slow 1200mV 0C Model Recovery Summary
+ 42. Slow 1200mV 0C Model Removal Summary
+ 43. Slow 1200mV 0C Model Minimum Pulse Width Summary
+ 44. Slow 1200mV 0C Model Setup: 'rec_sclk'
+ 45. Slow 1200mV 0C Model Setup: 'ecg_sclk'
+ 46. Slow 1200mV 0C Model Setup: 'rec_ss_n'
+ 47. Slow 1200mV 0C Model Setup: 'ecg_ss_n'
+ 48. Slow 1200mV 0C Model Hold: 'ecg_ss_n'
+ 49. Slow 1200mV 0C Model Hold: 'rec_ss_n'
+ 50. Slow 1200mV 0C Model Hold: 'ecg_sclk'
+ 51. Slow 1200mV 0C Model Hold: 'rec_sclk'
+ 52. Slow 1200mV 0C Model Recovery: 'rec_sclk'
+ 53. Slow 1200mV 0C Model Recovery: 'ecg_sclk'
+ 54. Slow 1200mV 0C Model Removal: 'ecg_sclk'
+ 55. Slow 1200mV 0C Model Removal: 'rec_sclk'
+ 56. Slow 1200mV 0C Model Minimum Pulse Width: 'rec_sclk'
+ 57. Slow 1200mV 0C Model Minimum Pulse Width: 'ecg_sclk'
+ 58. Slow 1200mV 0C Model Minimum Pulse Width: 'ecg_ss_n'
+ 59. Slow 1200mV 0C Model Minimum Pulse Width: 'rec_ss_n'
+ 60. Setup Times
+ 61. Hold Times
+ 62. Clock to Output Times
+ 63. Minimum Clock to Output Times
+ 64. Propagation Delay
+ 65. Minimum Propagation Delay
+ 66. Output Enable Times
+ 67. Minimum Output Enable Times
+ 68. Output Disable Times
+ 69. Minimum Output Disable Times
+ 70. Slow 1200mV 0C Model Metastability Report
+ 71. Fast 1200mV 0C Model Setup Summary
+ 72. Fast 1200mV 0C Model Hold Summary
+ 73. Fast 1200mV 0C Model Recovery Summary
+ 74. Fast 1200mV 0C Model Removal Summary
+ 75. Fast 1200mV 0C Model Minimum Pulse Width Summary
+ 76. Fast 1200mV 0C Model Setup: 'rec_sclk'
+ 77. Fast 1200mV 0C Model Setup: 'ecg_sclk'
+ 78. Fast 1200mV 0C Model Setup: 'rec_ss_n'
+ 79. Fast 1200mV 0C Model Setup: 'ecg_ss_n'
+ 80. Fast 1200mV 0C Model Hold: 'ecg_ss_n'
+ 81. Fast 1200mV 0C Model Hold: 'rec_ss_n'
+ 82. Fast 1200mV 0C Model Hold: 'ecg_sclk'
+ 83. Fast 1200mV 0C Model Hold: 'rec_sclk'
+ 84. Fast 1200mV 0C Model Recovery: 'rec_sclk'
+ 85. Fast 1200mV 0C Model Recovery: 'ecg_sclk'
+ 86. Fast 1200mV 0C Model Removal: 'ecg_sclk'
+ 87. Fast 1200mV 0C Model Removal: 'rec_sclk'
+ 88. Fast 1200mV 0C Model Minimum Pulse Width: 'rec_sclk'
+ 89. Fast 1200mV 0C Model Minimum Pulse Width: 'ecg_sclk'
+ 90. Fast 1200mV 0C Model Minimum Pulse Width: 'rec_ss_n'
+ 91. Fast 1200mV 0C Model Minimum Pulse Width: 'ecg_ss_n'
+ 92. Setup Times
+ 93. Hold Times
+ 94. Clock to Output Times
+ 95. Minimum Clock to Output Times
+ 96. Propagation Delay
+ 97. Minimum Propagation Delay
+ 98. Output Enable Times
+ 99. Minimum Output Enable Times
+100. Output Disable Times
+101. Minimum Output Disable Times
+102. Fast 1200mV 0C Model Metastability Report
+103. Multicorner Timing Analysis Summary
+104. Setup Times
+105. Hold Times
+106. Clock to Output Times
+107. Minimum Clock to Output Times
+108. Propagation Delay
+109. Minimum Propagation Delay
+110. Board Trace Model Assignments
+111. Input Transition Times
+112. Slow Corner Signal Integrity Metrics
+113. Fast Corner Signal Integrity Metrics
+114. Setup Transfers
+115. Hold Transfers
+116. Recovery Transfers
+117. Removal Transfers
+118. Report TCCS
+119. Report RSKM
+120. Unconstrained Paths
+121. TimeQuest Timing Analyzer Messages
 
 
 
@@ -161,17 +160,6 @@ applicable agreement for further details.
 ; Delay Model        ; Combined                                           ;
 ; Rise/Fall Delays   ; Enabled                                            ;
 +--------------------+----------------------------------------------------+
-
-
-Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
-+-------------------------------------+
-; Parallel Compilation                ;
-+----------------------------+--------+
-; Processors                 ; Number ;
-+----------------------------+--------+
-; Number detected on machine ; 4      ;
-; Maximum allowed            ; 1      ;
-+----------------------------+--------+
 
 
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -5207,7 +5195,7 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit TimeQuest Timing Analyzer
     Info: Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
-    Info: Processing started: Thu May 09 12:48:05 2019
+    Info: Processing started: Thu May 09 12:07:55 2019
 Info: Command: quartus_sta FPGA_P4 -c top
 Info: qsta_default_script.tcl version: #1
 Warning (20028): Parallel compilation is not licensed and has been disabled
@@ -5334,9 +5322,9 @@ Info (332146): Worst-case minimum pulse width slack is -3.000
 Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 6 warnings
-    Info: Peak virtual memory: 4636 megabytes
-    Info: Processing ended: Thu May 09 12:48:09 2019
-    Info: Elapsed time: 00:00:04
+    Info: Peak virtual memory: 485 megabytes
+    Info: Processing ended: Thu May 09 12:08:00 2019
+    Info: Elapsed time: 00:00:05
     Info: Total CPU time (on all processors): 00:00:03
 
 

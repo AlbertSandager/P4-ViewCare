@@ -56,16 +56,18 @@ set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
 set_location_assignment PIN_R11 -to adc_data
 set_location_assignment PIN_R12 -to bclk
-set_location_assignment PIN_G22 -to clk
+set_location_assignment PIN_G21 -to clk
 set_location_assignment PIN_U10 -to lrclk
-set_location_assignment PIN_J2 -to sample_out[8]
-set_location_assignment PIN_J3 -to sample_out[7]
-set_location_assignment PIN_H1 -to sample_out[6]
-set_location_assignment PIN_F2 -to sample_out[5]
-set_location_assignment PIN_E1 -to sample_out[4]
-set_location_assignment PIN_C1 -to sample_out[3]
-set_location_assignment PIN_C2 -to sample_out[2]
-set_location_assignment PIN_B2 -to sample_out[1]
-set_location_assignment PIN_B1 -to sample_out[0]
 set_location_assignment PIN_V6 -to dac_data
+set_location_assignment PIN_J1 -to led_out[23]
+set_location_assignment PIN_J2 -to led_out[22]
+set_location_assignment PIN_J3 -to led_out[21]
+set_location_assignment PIN_H1 -to led_out[20]
+set_location_assignment PIN_F2 -to led_out[19]
+set_location_assignment PIN_E1 -to led_out[18]
+set_location_assignment PIN_C1 -to led_out[17]
+set_location_assignment PIN_C2 -to led_out[16]
+set_location_assignment PIN_B2 -to led_out[15]
+set_location_assignment PIN_B1 -to ready
+set_location_assignment PIN_F1 -to reset
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

@@ -2,38 +2,39 @@ library ieee;
 use ieee.std_logic_1164.all;
 
 entity i2s is
-	generic ( DATA_WIDTH : integer := 48;
-    		  BITPERFRAME : integer := 96
-    		);
-	port (
-    	clk 		: in std_logic;
-        bclk 		: in std_logic;
-        lrclk		: in std_logic;
-        sample_out 	: out std_logic_vector(DATA_WIDTH - 1 downto 0);
-        sample_in 	: in std_logic_vector(DATA_WIDTH - 1 downto 0);
-        dac_data	: out std_logic;
-        adc_data 	: in std_logic;
-        valid 		: out std_logic;
-        ready 		: out std_logic;
-		  led_out : out std_logic_vector(DATA_WIDTH - 1 downto 0)
-        );
+generic (
+	DATA_WIDTH : integer := 24;
+	BITPERFRAME : integer := 48
+	);
+	
+port (
+	clk : in std_logic;
+	bclk : in std_logic;
+	lrclk : in std_logic;
+	sample_out : out std_logic_vector(DATA_WIDTH - 1 downto 0);
+	sample_in : in std_logic_vector(DATA_WIDTH - 1 downto 0);
+	dac_data	: out std_logic;
+	adc_data : in std_logic;
+	valid : out std_logic;
+	ready : out std_logic;
+	led_out : out std_logic_vector(DATA_WIDTH - 1 downto 0)
+	);
 end i2s;
 
-architecture rtl of i2s is
+architecture Behavorial of i2s is
 	signal reset : std_logic := '1';
-	 signal sr_in 					: std_logic_vector(DATA_WIDTH - 1 downto 0);
-    signal neg_edge, pos_edge 		: std_logic;
-    signal lr_edge					: std_logic;
-    signal new_sample 				: std_logic;
-    
-    signal zbclk, zzbclk, zzzbclk 	: std_logic;
-    signal zlrclk, zzlrclk, zzzlrclk: std_logic;
-    signal cnt						: integer range 0 to 31 := 0;
-    -- signal bits_to_rx				: integer := DATA_WIDTH - 1;
-    
-    signal sr_out 					: std_logic_vector(DATA_WIDTH - 1 downto 0);
-    
+	signal sr_in : std_logic_vector(DATA_WIDTH - 1 downto 0);
+	signal neg_edge, pos_edge : std_logic;
+	signal lr_edge : std_logic;
+	signal new_sample : std_logic;
+	signal zbclk, zzbclk, zzzbclk : std_logic;
+	signal zlrclk, zzlrclk, zzzlrclk : std_logic;
+	signal cnt : integer range 0 to 31 := 0;    
+	signal sr_out : std_logic_vector(DATA_WIDTH - 1 downto 0);
+	
 begin
+
+
 	detect_edge : process(clk)
     begin
     	if rising_edge(clk) then
@@ -50,7 +51,8 @@ begin
             end if;
         end if;
     end process;
-    
+
+	 
     detect_lr_edge : process(clk)
     begin
     	if rising_edge(clk) then
@@ -64,11 +66,12 @@ begin
             end if;
         end if;
     end process;
-    
+
+	 
     detect_sample : process(clk)
     begin
     	if rising_edge(clk) then
-        	if reset = '1' then 
+        	if reset = '0' then 
             	cnt <= 0;
                 valid <= '0';
             else
@@ -97,7 +100,8 @@ begin
     end process;
     
     sample_out <= sr_in;
-    
+
+	 
     get_data : process(clk)
     begin
     	if rising_edge(clk) then
@@ -107,11 +111,13 @@ begin
         	end if;
        	end if;
    	end process;
-    
+		
+		led_out <= sr_in;
+		
     send_data : process(clk)
     begin
     	if rising_edge(clk) then
-        	if reset = '1' then
+        	if reset = '0' then
             	ready <= '0';
             else
         		if new_sample = '0' then -- get data during delay period
@@ -130,5 +136,5 @@ begin
             end if;
         end if;
     end process;
-	 led_out <= sr_out;
-end rtl;
+	 
+end Behavorial;

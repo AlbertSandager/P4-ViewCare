@@ -6,6 +6,7 @@ File myFile;
 
 
 //Global variables
+int button = 2;
 int ss = 8; // using digital pin 10 for SPI slave select
 int cs = 9;
 byte receivedVal;
@@ -14,6 +15,7 @@ byte receivedVal;
 
 void setup() {
 
+  pinMode(button, INPUT_PULLUP);
   Serial.begin(9600);
 
   SPIinit();
@@ -34,8 +36,10 @@ void loop() {
 
   Serial.println(receivedVal);
 
-
-  sdWrite(receivedVal);
+  if (digitalRead(button) == LOW) {
+    sdWrite(receivedVal);
+    delay(5000);
+  }
 
   delay(100);
 }

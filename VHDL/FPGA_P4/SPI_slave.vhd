@@ -6,7 +6,7 @@ ENTITY SPI_slave IS
   GENERIC(
     cpol    : STD_LOGIC := '1';  --spi clock polarity mode
     cpha    : STD_LOGIC := '0';  --spi clock phase mode
-    d_width : INTEGER := 24);     --data width in bits
+    spi_d_width : INTEGER := 24);     --data width in bits
   PORT(
     sclk         : IN     STD_LOGIC;  --spi clk from master
     reset_n      : IN     STD_LOGIC;  --active low reset
@@ -18,25 +18,25 @@ ENTITY SPI_slave IS
     st_load_rrdy : IN     STD_LOGIC;  --asynchronous rrdy load input
     st_load_roe  : IN     STD_LOGIC;  --asynchronous roe load input
     tx_load_en   : IN     STD_LOGIC;  --asynchronous transmit buffer load enable
-	 tx_load_data : IN	  STD_LOGIC_VECTOR(d_width-1 DOWNTO 0);  --asynchronous tx data to load
+	 tx_load_data : IN	  STD_LOGIC_VECTOR(spi_d_width-1 DOWNTO 0);  --asynchronous tx data to load
     trdy         : BUFFER STD_LOGIC := '0';  --transmit ready bit
     rrdy         : BUFFER STD_LOGIC := '0';  --receive ready bit
     roe          : BUFFER STD_LOGIC := '0';  --receive overrun error bit
-    rx_data      : OUT    STD_LOGIC_VECTOR(d_width-1 DOWNTO 0) := (OTHERS => '0');  --receive register output to logic
+    rx_data      : OUT    STD_LOGIC_VECTOR(spi_d_width-1 DOWNTO 0) := (OTHERS => '0');  --receive register output to logic
     busy         : OUT    STD_LOGIC := '0';  --busy signal to logic ('1' during transaction)
     miso         : OUT    STD_LOGIC := 'Z'); --master in, slave out
 END SPI_slave;
 
 ARCHITECTURE Behavorial OF SPI_slave IS
-  --SIGNAL tx_load_data : STD_LOGIC_VECTOR(d_width-1 DOWNTO 0);  --asynchronous tx data to load
-  --SIGNAL rx_data : STD_LOGIC_VECTOR(d_width-1 DOWNTO 0) := (OTHERS => '0');  --receive register output to logic
+  --SIGNAL tx_load_data : STD_LOGIC_VECTOR(spi_d_width-1 DOWNTO 0);  --asynchronous tx data to load
+  --SIGNAL rx_data : STD_LOGIC_VECTOR(spi_d_width-1 DOWNTO 0) := (OTHERS => '0');  --receive register output to logic
   SIGNAL mode    : STD_LOGIC;  --groups modes by clock polarity relation to data
   SIGNAL clk     : STD_LOGIC;  --clock
-  SIGNAL bit_cnt : STD_LOGIC_VECTOR(d_width+8 DOWNTO 0);  --'1' for active transaction bit
+  SIGNAL bit_cnt : STD_LOGIC_VECTOR(spi_d_width+8 DOWNTO 0);  --'1' for active transaction bit
   SIGNAL wr_add  : STD_LOGIC;  --address of register to write ('0' = receive, '1' = status)
   SIGNAL rd_add  : STD_LOGIC;  --address of register to read ('0' = transmit, '1' = status)
-  SIGNAL rx_buf  : STD_LOGIC_VECTOR(d_width-1 DOWNTO 0) := (OTHERS => '0');  --receiver buffer
-  SIGNAL tx_buf  : STD_LOGIC_VECTOR(d_width-1 DOWNTO 0) := (OTHERS => '0');  --transmit buffer
+  SIGNAL rx_buf  : STD_LOGIC_VECTOR(spi_d_width-1 DOWNTO 0) := (OTHERS => '0');  --receiver buffer
+  SIGNAL tx_buf  : STD_LOGIC_VECTOR(spi_d_width-1 DOWNTO 0) := (OTHERS => '0');  --transmit buffer
 BEGIN
 
   busy <= NOT ss_n;  --high during transactions
@@ -54,7 +54,7 @@ BEGIN
 	   bit_cnt <= (conv_integer(NOT cpha) => '1', OTHERS => '0'); --reset miso/mosi bit count
     ELSE                                                         --this slave is selected
       IF(rising_edge(clk)) THEN                                  --new bit on miso/mosi
-        bit_cnt <= bit_cnt(d_width+8-1 DOWNTO 0) & '0';          --shift active bit indicator
+        bit_cnt <= bit_cnt(spi_d_width+8-1 DOWNTO 0) & '0';          --shift active bit indicator
       END IF;
     END IF;
   END PROCESS;
@@ -79,7 +79,7 @@ BEGIN
       trdy <= '1';   --set when tx buffer written or set by user logic                                  
     ELSIF(wr_add = '1' AND bit_cnt(9) = '1' AND falling_edge(clk)) THEN
       trdy <= mosi;  --new value written over spi bus
-    ELSIF(rd_add = '0' AND bit_cnt(d_width+8) = '1' AND falling_edge(clk)) THEN
+    ELSIF(rd_add = '0' AND bit_cnt(spi_d_width+8) = '1' AND falling_edge(clk)) THEN
       trdy <= '0';   --clear when transmit buffer read
     END IF;
     
@@ -90,7 +90,7 @@ BEGIN
       rrdy <= '1';   --set when set by user logic
     ELSIF(wr_add = '1' AND bit_cnt(10) = '1' AND falling_edge(clk)) THEN
       rrdy <= mosi;  --new value written over spi bus
-    ELSIF(wr_add = '0' AND bit_cnt(d_width+8) = '1' AND falling_edge(clk)) THEN
+    ELSIF(wr_add = '0' AND bit_cnt(spi_d_width+8) = '1' AND falling_edge(clk)) THEN
       rrdy <= '1';   --set when new data received
     END IF;
     
@@ -99,7 +99,7 @@ BEGIN
       roe <= '0';   --cleared by user logic or reset
     ELSIF(ss_n = '1' AND st_load_en = '1' AND st_load_roe = '1') THEN
       roe <= '1';   --set by user logic
-    ELSIF(rrdy = '1' AND wr_add = '0' AND bit_cnt(d_width+8) = '1' AND falling_edge(clk)) THEN
+    ELSIF(rrdy = '1' AND wr_add = '0' AND bit_cnt(spi_d_width+8) = '1' AND falling_edge(clk)) THEN
       roe <= '1';   --set by actual overrun
     ELSIF(wr_add = '1' AND bit_cnt(11) = '1' AND falling_edge(clk)) THEN
       roe <= mosi;  --new value written by spi bus
@@ -110,9 +110,9 @@ BEGIN
     IF(reset_n = '0') THEN
       rx_buf <= (OTHERS => '0');
     ELSE
-      FOR i IN 0 TO d_width-1 LOOP          
+      FOR i IN 0 TO spi_d_width-1 LOOP          
         IF(wr_add = '0' AND bit_cnt(i+9) = '1' AND falling_edge(clk)) THEN
-          rx_buf(d_width-1-i) <= mosi;
+          rx_buf(spi_d_width-1-i) <= mosi;
         END IF;
       END LOOP;
     END IF;
@@ -128,8 +128,8 @@ BEGIN
       tx_buf <= (OTHERS => '0');
     ELSIF(ss_n = '1' AND tx_load_en = '1') THEN  --load transmit register from user logic
       tx_buf <= tx_load_data;
-    ELSIF(rd_add = '0' AND bit_cnt(7 DOWNTO 0) = "00000000" AND bit_cnt(d_width+8) = '0' AND rising_edge(clk)) THEN
-      tx_buf(d_width-1 DOWNTO 0) <= tx_buf(d_width-2 DOWNTO 0) & tx_buf(d_width-1);  --shift through tx data
+    ELSIF(rd_add = '0' AND bit_cnt(7 DOWNTO 0) = "00000000" AND bit_cnt(spi_d_width+8) = '0' AND rising_edge(clk)) THEN
+      tx_buf(spi_d_width-1 DOWNTO 0) <= tx_buf(spi_d_width-2 DOWNTO 0) & tx_buf(spi_d_width-1);  --shift through tx data
     END IF;
 
     --miso output register
@@ -142,8 +142,8 @@ BEGIN
         WHEN "100" => miso <= roe;
         WHEN OTHERS => NULL;
       END CASE;
-    ELSIF(rd_add = '0' AND bit_cnt(7 DOWNTO 0) = "00000000" AND bit_cnt(d_width+8) = '0' AND rising_edge(clk)) THEN
-      miso <= tx_buf(d_width-1);                  --send transmit register data to master
+    ELSIF(rd_add = '0' AND bit_cnt(7 DOWNTO 0) = "00000000" AND bit_cnt(spi_d_width+8) = '0' AND rising_edge(clk)) THEN
+      miso <= tx_buf(spi_d_width-1);                  --send transmit register data to master
     END IF;
     
   END PROCESS;

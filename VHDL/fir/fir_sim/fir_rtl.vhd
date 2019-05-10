@@ -16,7 +16,7 @@
 -- ---------------------------------------------------------------------------
 
 -- VHDL created from fir_rtl
--- VHDL created on Wed May 08 08:38:27 2019
+-- VHDL created on Fri May 10 09:55:58 2019
 
 
 library IEEE;
@@ -240,20 +240,20 @@ begin
     u0_m0_wo0_cm0: PROCESS (clk, areset)
     BEGIN
         IF (areset = '1') THEN
-            u0_m0_wo0_cm0_q <= "01111101";
+            u0_m0_wo0_cm0_q <= "10001000";
         ELSIF (clk'EVENT AND clk = '1') THEN
             CASE (u0_m0_wo0_ca0_q) IS
-                WHEN "0000" => u0_m0_wo0_cm0_q <= "01111101";
-                WHEN "0001" => u0_m0_wo0_cm0_q <= "01111101";
-                WHEN "0010" => u0_m0_wo0_cm0_q <= "01111110";
-                WHEN "0011" => u0_m0_wo0_cm0_q <= "01111110";
-                WHEN "0100" => u0_m0_wo0_cm0_q <= "01111110";
-                WHEN "0101" => u0_m0_wo0_cm0_q <= "01111111";
-                WHEN "0110" => u0_m0_wo0_cm0_q <= "01111110";
-                WHEN "0111" => u0_m0_wo0_cm0_q <= "01111110";
-                WHEN "1000" => u0_m0_wo0_cm0_q <= "01111110";
-                WHEN "1001" => u0_m0_wo0_cm0_q <= "01111101";
-                WHEN "1010" => u0_m0_wo0_cm0_q <= "01111101";
+                WHEN "0000" => u0_m0_wo0_cm0_q <= "10001000";
+                WHEN "0001" => u0_m0_wo0_cm0_q <= "01111111";
+                WHEN "0010" => u0_m0_wo0_cm0_q <= "01010000";
+                WHEN "0011" => u0_m0_wo0_cm0_q <= "00110101";
+                WHEN "0100" => u0_m0_wo0_cm0_q <= "00101000";
+                WHEN "0101" => u0_m0_wo0_cm0_q <= "00100100";
+                WHEN "0110" => u0_m0_wo0_cm0_q <= "00101000";
+                WHEN "0111" => u0_m0_wo0_cm0_q <= "00110101";
+                WHEN "1000" => u0_m0_wo0_cm0_q <= "01010000";
+                WHEN "1001" => u0_m0_wo0_cm0_q <= "01111111";
+                WHEN "1010" => u0_m0_wo0_cm0_q <= "10001000";
                 WHEN OTHERS => -- unreachable
                                u0_m0_wo0_cm0_q <= (others => '-');
             END CASE;

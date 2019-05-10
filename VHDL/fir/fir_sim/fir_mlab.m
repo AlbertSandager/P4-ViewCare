@@ -19,7 +19,7 @@
 %MegaWizard Scaled Coefficient Values
 
  function  output = fir_mlab(stimulation, output)
- coef_matrix_in= [125,125,126,126,126,127,126,126,126,125,125];
+ coef_matrix_in= [-120,127,80,53,40,36,40,53,80,127,-120];
  INTER_FACTOR  = 1;
  DECI_FACTOR  =  1;
  MSB_RM  = 0;

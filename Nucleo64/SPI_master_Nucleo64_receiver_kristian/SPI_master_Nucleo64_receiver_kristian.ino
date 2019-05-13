@@ -70,6 +70,9 @@ void loop() {
   convertLong2bit24vector(sendVal);
 
 
+
+
+
  // Serial.print("Sendval convert:  "); Serial.print(sendVal); Serial.print(" to "); Serial.println(bit24val[0]);Serial.println(bit24val[1]);Serial.println(bit24val[2]);
   Serial.println("kanal1");
   receivedVal = getData(kanal1);

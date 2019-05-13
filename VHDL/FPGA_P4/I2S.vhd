@@ -12,25 +12,23 @@ port (
 	bclk : in std_logic;
 	lrclk : in std_logic;
 	reset : in std_logic;
-	sample_out : out std_logic_vector(i2s_d_width - 1 downto 0);
-	sample_in : in std_logic_vector(i2s_d_width - 1 downto 0);
-	dac_data	: out std_logic;
 	adc_data : in std_logic;
 	valid : out std_logic;
 	ready : out std_logic;
-	rx_data : out std_logic_vector(i2s_d_width - 1 downto 0)
+	l_rx_data : out std_logic_vector(i2s_d_width - 1 downto 0);
+	r_rx_data : out std_logic_vector(i2s_d_width - 1 downto 0)
 	);
 end I2S;
 
 architecture Behavorial of I2S is
-	signal sr_in : std_logic_vector(i2s_d_width - 1 downto 0);
+	signal l_sr_in : std_logic_vector(i2s_d_width - 1 downto 0);
+	signal r_sr_in : std_logic_vector(i2s_d_width - 1 downto 0);
 	signal neg_edge, pos_edge : std_logic;
 	signal lr_edge : std_logic;
 	signal new_sample : std_logic;
 	signal zbclk, zzbclk, zzzbclk : std_logic;
 	signal zlrclk, zzlrclk, zzzlrclk : std_logic;
-	signal cnt : integer range 0 to 31 := 0;    
-	signal sr_out : std_logic_vector(i2s_d_width - 1 downto 0);
+	signal cnt : integer range 0 to 31 := 0;
 	
 begin
 
@@ -98,43 +96,32 @@ begin
           	end if;
         end if;
     end process;
-    
-    sample_out <= sr_in;
 
 	 
-    get_data : process(clk)
+    l_get_data : process(clk)
     begin
     	if rising_edge(clk) then
-    		if pos_edge = '1' and new_sample = '1' then
+    		if pos_edge = '1' and new_sample = '1' and lrclk = '0' then
    	        	-- receive
-                sr_in <= sr_in(sr_in'high - 1 downto 0) & adc_data;
+                l_sr_in <= l_sr_in(l_sr_in'high - 1 downto 0) & adc_data;
         	end if;
        	end if;
    	end process;
 		
-		rx_data <= sr_in;
+		l_rx_data <= l_sr_in;
 		
-    send_data : process(clk)
+		
+	 r_get_data : process(clk)
     begin
     	if rising_edge(clk) then
-        	if reset = '0' then
-            	ready <= '0';
-            else
-        		if new_sample = '0' then -- get data during delay period
-        			if pos_edge = '1' then
-            		    sr_out <= sample_in;
-                        ready <= '1';
-            	    end if;
-          		else
-            		if cnt = 0 or cnt > i2s_d_width then
-            	    	dac_data <= 'X';
-            	    else
-            			dac_data <= sr_out(i2s_d_width - cnt);
-            	    end if;
-                    ready <= '0';
-           	 	end if;
-            end if;
-        end if;
-    end process;
+    		if pos_edge = '1' and new_sample = '1' and lrclk = '1' then
+   	        	-- receive
+                r_sr_in <= r_sr_in(r_sr_in'high - 1 downto 0) & adc_data;
+        	end if;
+       	end if;
+   	end process;
+		
+		r_rx_data <= r_sr_in;
+		
 	 
 end Behavorial;

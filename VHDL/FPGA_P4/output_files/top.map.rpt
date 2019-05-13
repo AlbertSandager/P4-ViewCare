@@ -1,5 +1,5 @@
 Analysis & Synthesis report for top
-Fri May 10 16:33:54 2019
+Mon May 13 10:21:07 2019
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -14,19 +14,18 @@ Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
   6. Analysis & Synthesis Resource Utilization by Entity
   7. User-Specified and Inferred Latches
   8. Registers Removed During Synthesis
-  9. Removed Registers Triggering Further Register Optimizations
- 10. General Register Statistics
- 11. Inverted Register Statistics
- 12. Multiplexer Restructuring Statistics (Restructuring Performed)
- 13. Parameter Settings for User Entity Instance: Top-level Entity: |top
- 14. Parameter Settings for User Entity Instance: SPI_slave:ecg_spi_ports
- 15. Parameter Settings for User Entity Instance: SPI_slave:rec_spi_ports
- 16. Parameter Settings for User Entity Instance: I2S:i2s_ports
- 17. Port Connectivity Checks: "I2S:i2s_ports"
- 18. Port Connectivity Checks: "SPI_slave:rec_spi_ports"
- 19. Port Connectivity Checks: "SPI_slave:ecg_spi_ports"
- 20. Elapsed Time Per Partition
- 21. Analysis & Synthesis Messages
+  9. General Register Statistics
+ 10. Inverted Register Statistics
+ 11. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 12. Parameter Settings for User Entity Instance: Top-level Entity: |top
+ 13. Parameter Settings for User Entity Instance: SPI_slave:ecg_spi_ports
+ 14. Parameter Settings for User Entity Instance: SPI_slave:rec_spi_ports
+ 15. Parameter Settings for User Entity Instance: I2S:i2s_ports
+ 16. Port Connectivity Checks: "I2S:i2s_ports"
+ 17. Port Connectivity Checks: "SPI_slave:rec_spi_ports"
+ 18. Port Connectivity Checks: "SPI_slave:ecg_spi_ports"
+ 19. Elapsed Time Per Partition
+ 20. Analysis & Synthesis Messages
 
 
 
@@ -52,16 +51,16 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                    ;
 +------------------------------------+--------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Fri May 10 16:33:54 2019      ;
+; Analysis & Synthesis Status        ; Successful - Mon May 13 10:21:07 2019      ;
 ; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
 ; Revision Name                      ; top                                        ;
 ; Top-level Entity Name              ; top                                        ;
 ; Family                             ; Cyclone III                                ;
-; Total logic elements               ; 420                                        ;
+; Total logic elements               ; 396                                        ;
 ;     Total combinational functions  ; 326                                        ;
-;     Dedicated logic registers      ; 213                                        ;
-; Total registers                    ; 213                                        ;
-; Total pins                         ; 155                                        ;
+;     Dedicated logic registers      ; 189                                        ;
+; Total registers                    ; 189                                        ;
+; Total pins                         ; 82                                         ;
 ; Total virtual pins                 ; 0                                          ;
 ; Total memory bits                  ; 0                                          ;
 ; Embedded Multiplier 9-bit elements ; 0                                          ;
@@ -172,7 +171,7 @@ applicable agreement for further details.
 +---------------------------------------------+----------------+
 ; Resource                                    ; Usage          ;
 +---------------------------------------------+----------------+
-; Estimated Total logic elements              ; 420            ;
+; Estimated Total logic elements              ; 396            ;
 ;                                             ;                ;
 ; Total combinational functions               ; 326            ;
 ; Logic element usage by number of LUT inputs ;                ;
@@ -184,16 +183,16 @@ applicable agreement for further details.
 ;     -- normal mode                          ; 322            ;
 ;     -- arithmetic mode                      ; 4              ;
 ;                                             ;                ;
-; Total registers                             ; 213            ;
-;     -- Dedicated logic registers            ; 213            ;
+; Total registers                             ; 189            ;
+;     -- Dedicated logic registers            ; 189            ;
 ;     -- I/O registers                        ; 0              ;
 ;                                             ;                ;
-; I/O pins                                    ; 155            ;
+; I/O pins                                    ; 82             ;
 ; Embedded Multiplier 9-bit elements          ; 0              ;
 ; Maximum fan-out node                        ; ecg_sclk~input ;
 ; Maximum fan-out                             ; 87             ;
-; Total fan-out                               ; 1868           ;
-; Average fan-out                             ; 2.20           ;
+; Total fan-out                               ; 1699           ;
+; Average fan-out                             ; 2.50           ;
 +---------------------------------------------+----------------+
 
 
@@ -202,8 +201,8 @@ applicable agreement for further details.
 +------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+------------------------------+--------------+
 ; Compilation Hierarchy Node   ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name          ; Library Name ;
 +------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+------------------------------+--------------+
-; |top                         ; 326 (0)           ; 213 (0)      ; 0           ; 0            ; 0       ; 0         ; 155  ; 0            ; |top                         ; work         ;
-;    |I2S:i2s_ports|           ; 18 (18)           ; 39 (39)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top|I2S:i2s_ports           ; work         ;
+; |top                         ; 326 (0)           ; 189 (0)      ; 0           ; 0            ; 0       ; 0         ; 82   ; 0            ; |top                         ; work         ;
+;    |I2S:i2s_ports|           ; 18 (18)           ; 15 (15)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top|I2S:i2s_ports           ; work         ;
 ;    |SPI_slave:ecg_spi_ports| ; 154 (154)         ; 87 (87)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top|SPI_slave:ecg_spi_ports ; work         ;
 ;    |SPI_slave:rec_spi_ports| ; 154 (154)         ; 87 (87)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top|SPI_slave:rec_spi_ports ; work         ;
 +------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+------------------------------+--------------+
@@ -268,36 +267,15 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
 
 
-+--------------------------------------------------------------------------------------+
-; Registers Removed During Synthesis                                                   ;
-+----------------------------------------+---------------------------------------------+
-; Register name                          ; Reason for Removal                          ;
-+----------------------------------------+---------------------------------------------+
-; SPI_slave:rec_spi_ports|bit_cnt[0]     ; Stuck at GND due to stuck port data_in      ;
-; SPI_slave:ecg_spi_ports|bit_cnt[0]     ; Stuck at GND due to stuck port data_in      ;
-; I2S:i2s_ports|new_sample               ; Stuck at VCC due to stuck port data_in      ;
-; I2S:i2s_ports|ready                    ; Stuck at GND due to stuck port data_in      ;
-; I2S:i2s_ports|sr_out[0..23]            ; Stuck at GND due to stuck port clock_enable ;
-; I2S:i2s_ports|dac_data                 ; Stuck at GND due to stuck port data_in      ;
-; Total Number of Removed Registers = 29 ;                                             ;
-+----------------------------------------+---------------------------------------------+
-
-
-+--------------------------------------------------------------------------------------------------------------------------------------+
-; Removed Registers Triggering Further Register Optimizations                                                                          ;
-+--------------------------+---------------------------+-------------------------------------------------------------------------------+
-; Register name            ; Reason for Removal        ; Registers Removed due to This Register                                        ;
-+--------------------------+---------------------------+-------------------------------------------------------------------------------+
-; I2S:i2s_ports|new_sample ; Stuck at VCC              ; I2S:i2s_ports|ready, I2S:i2s_ports|sr_out[0], I2S:i2s_ports|sr_out[1],        ;
-;                          ; due to stuck port data_in ; I2S:i2s_ports|sr_out[2], I2S:i2s_ports|sr_out[3], I2S:i2s_ports|sr_out[4],    ;
-;                          ;                           ; I2S:i2s_ports|sr_out[5], I2S:i2s_ports|sr_out[6], I2S:i2s_ports|sr_out[7],    ;
-;                          ;                           ; I2S:i2s_ports|sr_out[8], I2S:i2s_ports|sr_out[9], I2S:i2s_ports|sr_out[10],   ;
-;                          ;                           ; I2S:i2s_ports|sr_out[11], I2S:i2s_ports|sr_out[12], I2S:i2s_ports|sr_out[13], ;
-;                          ;                           ; I2S:i2s_ports|sr_out[14], I2S:i2s_ports|sr_out[15], I2S:i2s_ports|sr_out[16], ;
-;                          ;                           ; I2S:i2s_ports|sr_out[17], I2S:i2s_ports|sr_out[18], I2S:i2s_ports|sr_out[19], ;
-;                          ;                           ; I2S:i2s_ports|sr_out[20], I2S:i2s_ports|sr_out[21], I2S:i2s_ports|sr_out[22], ;
-;                          ;                           ; I2S:i2s_ports|sr_out[23], I2S:i2s_ports|dac_data                              ;
-+--------------------------+---------------------------+-------------------------------------------------------------------------------+
++--------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                             ;
++---------------------------------------+----------------------------------------+
+; Register name                         ; Reason for Removal                     ;
++---------------------------------------+----------------------------------------+
+; SPI_slave:rec_spi_ports|bit_cnt[0]    ; Stuck at GND due to stuck port data_in ;
+; SPI_slave:ecg_spi_ports|bit_cnt[0]    ; Stuck at GND due to stuck port data_in ;
+; Total Number of Removed Registers = 2 ;                                        ;
++---------------------------------------+----------------------------------------+
 
 
 +------------------------------------------------------+
@@ -305,12 +283,12 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 213   ;
+; Total registers                              ; 189   ;
 ; Number of registers using Synchronous Clear  ; 0     ;
 ; Number of registers using Synchronous Load   ; 0     ;
 ; Number of registers using Asynchronous Clear ; 120   ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 79    ;
+; Number of registers using Clock Enable       ; 55    ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -381,14 +359,15 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+-------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "I2S:i2s_ports"                                                                         ;
-+---------+--------+----------+-------------------------------------------------------------------------------------+
-; Port    ; Type   ; Severity ; Details                                                                             ;
-+---------+--------+----------+-------------------------------------------------------------------------------------+
-; reset   ; Input  ; Info     ; Stuck at VCC                                                                        ;
-; rx_data ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-+---------+--------+----------+-------------------------------------------------------------------------------------+
++---------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "I2S:i2s_ports"                                                                           ;
++-----------+--------+----------+-------------------------------------------------------------------------------------+
+; Port      ; Type   ; Severity ; Details                                                                             ;
++-----------+--------+----------+-------------------------------------------------------------------------------------+
+; reset     ; Input  ; Info     ; Stuck at VCC                                                                        ;
+; l_rx_data ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; r_rx_data ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++-----------+--------+----------+-------------------------------------------------------------------------------------+
 
 
 +-----------------------------------------------------+
@@ -414,7 +393,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:01     ;
+; Top            ; 00:00:02     ;
 +----------------+--------------+
 
 
@@ -424,7 +403,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
-    Info: Processing started: Fri May 10 16:33:51 2019
+    Info: Processing started: Mon May 13 10:21:02 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off FPGA_P4 -c top
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 2 design units, including 1 entities, in source file top.vhd
@@ -437,76 +416,77 @@ Info (12021): Found 2 design units, including 1 entities, in source file i2s.vhd
     Info (12022): Found design unit 1: I2S-Behavorial
     Info (12023): Found entity 1: I2S
 Info (12127): Elaborating entity "top" for the top level hierarchy
-Warning (10541): VHDL Signal Declaration warning at top.vhd(33): used implicit default value for signal "i2s_led_out" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
-Warning (10036): Verilog HDL or VHDL warning at top.vhd(43): object "i2s_rx_data" assigned a value but never read
-Warning (10540): VHDL Signal Declaration warning at top.vhd(44): used explicit default value for signal "ecg_reset_n" because signal was never assigned a value
-Warning (10540): VHDL Signal Declaration warning at top.vhd(45): used explicit default value for signal "rec_reset_n" because signal was never assigned a value
-Warning (10540): VHDL Signal Declaration warning at top.vhd(46): used explicit default value for signal "i2s_reset" because signal was never assigned a value
+Warning (10036): Verilog HDL or VHDL warning at top.vhd(40): object "i2s_l_rx_data" assigned a value but never read
+Warning (10036): Verilog HDL or VHDL warning at top.vhd(40): object "i2s_r_rx_data" assigned a value but never read
+Warning (10540): VHDL Signal Declaration warning at top.vhd(41): used explicit default value for signal "ecg_reset_n" because signal was never assigned a value
+Warning (10540): VHDL Signal Declaration warning at top.vhd(42): used explicit default value for signal "rec_reset_n" because signal was never assigned a value
+Warning (10540): VHDL Signal Declaration warning at top.vhd(43): used explicit default value for signal "i2s_reset" because signal was never assigned a value
 Info (12128): Elaborating entity "SPI_slave" for hierarchy "SPI_slave:ecg_spi_ports"
-Warning (10492): VHDL Process Statement warning at SPI_slave.vhd(53): signal "reset_n" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at SPI_slave.vhd(66): signal "bit_cnt" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at SPI_slave.vhd(71): signal "bit_cnt" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at SPI_slave.vhd(51): signal "reset_n" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at SPI_slave.vhd(64): signal "bit_cnt" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at SPI_slave.vhd(69): signal "bit_cnt" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at SPI_slave.vhd(74): signal "st_load_trdy" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at SPI_slave.vhd(74): signal "reset_n" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
 Warning (10492): VHDL Process Statement warning at SPI_slave.vhd(76): signal "st_load_trdy" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at SPI_slave.vhd(76): signal "reset_n" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at SPI_slave.vhd(78): signal "st_load_trdy" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at SPI_slave.vhd(80): signal "wr_add" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at SPI_slave.vhd(78): signal "wr_add" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at SPI_slave.vhd(78): signal "bit_cnt" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at SPI_slave.vhd(80): signal "rd_add" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
 Warning (10492): VHDL Process Statement warning at SPI_slave.vhd(80): signal "bit_cnt" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at SPI_slave.vhd(82): signal "rd_add" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at SPI_slave.vhd(82): signal "bit_cnt" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at SPI_slave.vhd(85): signal "st_load_rrdy" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at SPI_slave.vhd(85): signal "reset_n" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
 Warning (10492): VHDL Process Statement warning at SPI_slave.vhd(87): signal "st_load_rrdy" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at SPI_slave.vhd(87): signal "reset_n" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at SPI_slave.vhd(89): signal "st_load_rrdy" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at SPI_slave.vhd(89): signal "wr_add" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at SPI_slave.vhd(89): signal "bit_cnt" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
 Warning (10492): VHDL Process Statement warning at SPI_slave.vhd(91): signal "wr_add" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
 Warning (10492): VHDL Process Statement warning at SPI_slave.vhd(91): signal "bit_cnt" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at SPI_slave.vhd(93): signal "wr_add" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at SPI_slave.vhd(93): signal "bit_cnt" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at SPI_slave.vhd(96): signal "st_load_roe" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at SPI_slave.vhd(96): signal "reset_n" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
 Warning (10492): VHDL Process Statement warning at SPI_slave.vhd(98): signal "st_load_roe" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at SPI_slave.vhd(98): signal "reset_n" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at SPI_slave.vhd(100): signal "st_load_roe" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at SPI_slave.vhd(102): signal "rrdy" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at SPI_slave.vhd(100): signal "rrdy" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at SPI_slave.vhd(100): signal "wr_add" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at SPI_slave.vhd(100): signal "bit_cnt" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
 Warning (10492): VHDL Process Statement warning at SPI_slave.vhd(102): signal "wr_add" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
 Warning (10492): VHDL Process Statement warning at SPI_slave.vhd(102): signal "bit_cnt" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at SPI_slave.vhd(104): signal "wr_add" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at SPI_slave.vhd(104): signal "bit_cnt" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at SPI_slave.vhd(110): signal "reset_n" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at SPI_slave.vhd(114): signal "wr_add" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at SPI_slave.vhd(114): signal "bit_cnt" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at SPI_slave.vhd(120): signal "reset_n" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at SPI_slave.vhd(123): signal "rx_buf" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at SPI_slave.vhd(127): signal "reset_n" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at SPI_slave.vhd(130): signal "tx_load_data" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at SPI_slave.vhd(131): signal "rd_add" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at SPI_slave.vhd(131): signal "bit_cnt" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at SPI_slave.vhd(136): signal "reset_n" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at SPI_slave.vhd(138): signal "rd_add" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at SPI_slave.vhd(145): signal "rd_add" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at SPI_slave.vhd(145): signal "bit_cnt" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10631): VHDL Process Statement warning at SPI_slave.vhd(62): inferring latch(es) for signal or variable "rx_data", which holds its previous value in one or more paths through the process
-Info (10041): Inferred latch for "rx_data[0]" at SPI_slave.vhd(62)
-Info (10041): Inferred latch for "rx_data[1]" at SPI_slave.vhd(62)
-Info (10041): Inferred latch for "rx_data[2]" at SPI_slave.vhd(62)
-Info (10041): Inferred latch for "rx_data[3]" at SPI_slave.vhd(62)
-Info (10041): Inferred latch for "rx_data[4]" at SPI_slave.vhd(62)
-Info (10041): Inferred latch for "rx_data[5]" at SPI_slave.vhd(62)
-Info (10041): Inferred latch for "rx_data[6]" at SPI_slave.vhd(62)
-Info (10041): Inferred latch for "rx_data[7]" at SPI_slave.vhd(62)
-Info (10041): Inferred latch for "rx_data[8]" at SPI_slave.vhd(62)
-Info (10041): Inferred latch for "rx_data[9]" at SPI_slave.vhd(62)
-Info (10041): Inferred latch for "rx_data[10]" at SPI_slave.vhd(62)
-Info (10041): Inferred latch for "rx_data[11]" at SPI_slave.vhd(62)
-Info (10041): Inferred latch for "rx_data[12]" at SPI_slave.vhd(62)
-Info (10041): Inferred latch for "rx_data[13]" at SPI_slave.vhd(62)
-Info (10041): Inferred latch for "rx_data[14]" at SPI_slave.vhd(62)
-Info (10041): Inferred latch for "rx_data[15]" at SPI_slave.vhd(62)
-Info (10041): Inferred latch for "rx_data[16]" at SPI_slave.vhd(62)
-Info (10041): Inferred latch for "rx_data[17]" at SPI_slave.vhd(62)
-Info (10041): Inferred latch for "rx_data[18]" at SPI_slave.vhd(62)
-Info (10041): Inferred latch for "rx_data[19]" at SPI_slave.vhd(62)
-Info (10041): Inferred latch for "rx_data[20]" at SPI_slave.vhd(62)
-Info (10041): Inferred latch for "rx_data[21]" at SPI_slave.vhd(62)
-Info (10041): Inferred latch for "rx_data[22]" at SPI_slave.vhd(62)
-Info (10041): Inferred latch for "rx_data[23]" at SPI_slave.vhd(62)
+Warning (10492): VHDL Process Statement warning at SPI_slave.vhd(108): signal "reset_n" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at SPI_slave.vhd(112): signal "wr_add" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at SPI_slave.vhd(112): signal "bit_cnt" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at SPI_slave.vhd(118): signal "reset_n" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at SPI_slave.vhd(121): signal "rx_buf" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at SPI_slave.vhd(125): signal "reset_n" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at SPI_slave.vhd(128): signal "tx_load_data" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at SPI_slave.vhd(129): signal "rd_add" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at SPI_slave.vhd(129): signal "bit_cnt" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at SPI_slave.vhd(134): signal "reset_n" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at SPI_slave.vhd(136): signal "rd_add" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at SPI_slave.vhd(143): signal "rd_add" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at SPI_slave.vhd(143): signal "bit_cnt" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10631): VHDL Process Statement warning at SPI_slave.vhd(60): inferring latch(es) for signal or variable "rx_data", which holds its previous value in one or more paths through the process
+Info (10041): Inferred latch for "rx_data[0]" at SPI_slave.vhd(60)
+Info (10041): Inferred latch for "rx_data[1]" at SPI_slave.vhd(60)
+Info (10041): Inferred latch for "rx_data[2]" at SPI_slave.vhd(60)
+Info (10041): Inferred latch for "rx_data[3]" at SPI_slave.vhd(60)
+Info (10041): Inferred latch for "rx_data[4]" at SPI_slave.vhd(60)
+Info (10041): Inferred latch for "rx_data[5]" at SPI_slave.vhd(60)
+Info (10041): Inferred latch for "rx_data[6]" at SPI_slave.vhd(60)
+Info (10041): Inferred latch for "rx_data[7]" at SPI_slave.vhd(60)
+Info (10041): Inferred latch for "rx_data[8]" at SPI_slave.vhd(60)
+Info (10041): Inferred latch for "rx_data[9]" at SPI_slave.vhd(60)
+Info (10041): Inferred latch for "rx_data[10]" at SPI_slave.vhd(60)
+Info (10041): Inferred latch for "rx_data[11]" at SPI_slave.vhd(60)
+Info (10041): Inferred latch for "rx_data[12]" at SPI_slave.vhd(60)
+Info (10041): Inferred latch for "rx_data[13]" at SPI_slave.vhd(60)
+Info (10041): Inferred latch for "rx_data[14]" at SPI_slave.vhd(60)
+Info (10041): Inferred latch for "rx_data[15]" at SPI_slave.vhd(60)
+Info (10041): Inferred latch for "rx_data[16]" at SPI_slave.vhd(60)
+Info (10041): Inferred latch for "rx_data[17]" at SPI_slave.vhd(60)
+Info (10041): Inferred latch for "rx_data[18]" at SPI_slave.vhd(60)
+Info (10041): Inferred latch for "rx_data[19]" at SPI_slave.vhd(60)
+Info (10041): Inferred latch for "rx_data[20]" at SPI_slave.vhd(60)
+Info (10041): Inferred latch for "rx_data[21]" at SPI_slave.vhd(60)
+Info (10041): Inferred latch for "rx_data[22]" at SPI_slave.vhd(60)
+Info (10041): Inferred latch for "rx_data[23]" at SPI_slave.vhd(60)
 Info (12128): Elaborating entity "I2S" for hierarchy "I2S:i2s_ports"
+Warning (10541): VHDL Signal Declaration warning at I2S.vhd(17): used implicit default value for signal "ready" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
 Info (13000): Registers with preset signals will power-up high
 Info (13003): DEV_CLRn pin will set, and not reset, register with preset signal due to NOT Gate Push-Back
 Warning (13004): Presettable and clearable registers converted to equivalent circuits with latches. Registers power-up to an undefined state, and DEVCLRn places the registers in an undefined state.
@@ -565,70 +545,22 @@ Warning (13004): Presettable and clearable registers converted to equivalent cir
     Warning (13310): Register "SPI_slave:ecg_spi_ports|tx_buf[0]" is converted into an equivalent circuit using register "SPI_slave:ecg_spi_ports|tx_buf[0]~_emulated" and latch "SPI_slave:ecg_spi_ports|tx_buf[0]~93"
     Warning (13310): Register "SPI_slave:rec_spi_ports|tx_buf[0]" is converted into an equivalent circuit using register "SPI_slave:rec_spi_ports|tx_buf[0]~_emulated" and latch "SPI_slave:rec_spi_ports|tx_buf[0]~93"
 Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "i2s_dac_data" is stuck at GND
     Warning (13410): Pin "i2s_ready" is stuck at GND
-    Warning (13410): Pin "i2s_led_out[0]" is stuck at GND
-    Warning (13410): Pin "i2s_led_out[1]" is stuck at GND
-    Warning (13410): Pin "i2s_led_out[2]" is stuck at GND
-    Warning (13410): Pin "i2s_led_out[3]" is stuck at GND
-    Warning (13410): Pin "i2s_led_out[4]" is stuck at GND
-    Warning (13410): Pin "i2s_led_out[5]" is stuck at GND
-    Warning (13410): Pin "i2s_led_out[6]" is stuck at GND
-    Warning (13410): Pin "i2s_led_out[7]" is stuck at GND
-    Warning (13410): Pin "i2s_led_out[8]" is stuck at GND
-    Warning (13410): Pin "i2s_led_out[9]" is stuck at GND
-    Warning (13410): Pin "i2s_led_out[10]" is stuck at GND
-    Warning (13410): Pin "i2s_led_out[11]" is stuck at GND
-    Warning (13410): Pin "i2s_led_out[12]" is stuck at GND
-    Warning (13410): Pin "i2s_led_out[13]" is stuck at GND
-    Warning (13410): Pin "i2s_led_out[14]" is stuck at GND
-    Warning (13410): Pin "i2s_led_out[15]" is stuck at GND
-    Warning (13410): Pin "i2s_led_out[16]" is stuck at GND
-    Warning (13410): Pin "i2s_led_out[17]" is stuck at GND
-    Warning (13410): Pin "i2s_led_out[18]" is stuck at GND
-    Warning (13410): Pin "i2s_led_out[19]" is stuck at GND
-    Warning (13410): Pin "i2s_led_out[20]" is stuck at GND
-    Warning (13410): Pin "i2s_led_out[21]" is stuck at GND
-    Warning (13410): Pin "i2s_led_out[22]" is stuck at GND
-    Warning (13410): Pin "i2s_led_out[23]" is stuck at GND
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Warning (21074): Design contains 26 input pin(s) that do not drive logic
+Warning (21074): Design contains 3 input pin(s) that do not drive logic
     Warning (15610): No output dependent on input pin "ecg_st_load_en"
     Warning (15610): No output dependent on input pin "rec_st_load_en"
-    Warning (15610): No output dependent on input pin "i2s_sample_in[0]"
-    Warning (15610): No output dependent on input pin "i2s_sample_in[1]"
-    Warning (15610): No output dependent on input pin "i2s_sample_in[2]"
-    Warning (15610): No output dependent on input pin "i2s_sample_in[3]"
-    Warning (15610): No output dependent on input pin "i2s_sample_in[4]"
-    Warning (15610): No output dependent on input pin "i2s_sample_in[5]"
-    Warning (15610): No output dependent on input pin "i2s_sample_in[6]"
-    Warning (15610): No output dependent on input pin "i2s_sample_in[7]"
-    Warning (15610): No output dependent on input pin "i2s_sample_in[8]"
-    Warning (15610): No output dependent on input pin "i2s_sample_in[9]"
-    Warning (15610): No output dependent on input pin "i2s_sample_in[10]"
-    Warning (15610): No output dependent on input pin "i2s_sample_in[11]"
-    Warning (15610): No output dependent on input pin "i2s_sample_in[12]"
-    Warning (15610): No output dependent on input pin "i2s_sample_in[13]"
-    Warning (15610): No output dependent on input pin "i2s_sample_in[14]"
-    Warning (15610): No output dependent on input pin "i2s_sample_in[15]"
-    Warning (15610): No output dependent on input pin "i2s_sample_in[16]"
-    Warning (15610): No output dependent on input pin "i2s_sample_in[17]"
-    Warning (15610): No output dependent on input pin "i2s_sample_in[18]"
-    Warning (15610): No output dependent on input pin "i2s_sample_in[19]"
-    Warning (15610): No output dependent on input pin "i2s_sample_in[20]"
-    Warning (15610): No output dependent on input pin "i2s_sample_in[21]"
-    Warning (15610): No output dependent on input pin "i2s_sample_in[22]"
-    Warning (15610): No output dependent on input pin "i2s_sample_in[23]"
-Info (21057): Implemented 575 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 70 input pins
-    Info (21059): Implemented 85 output pins
-    Info (21061): Implemented 420 logic cells
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 154 warnings
-    Info: Peak virtual memory: 526 megabytes
-    Info: Processing ended: Fri May 10 16:33:54 2019
-    Info: Elapsed time: 00:00:03
-    Info: Total CPU time (on all processors): 00:00:03
+    Warning (15610): No output dependent on input pin "i2s_adc_data"
+Info (21057): Implemented 478 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 46 input pins
+    Info (21059): Implemented 36 output pins
+    Info (21061): Implemented 396 logic cells
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 107 warnings
+    Info: Peak virtual memory: 531 megabytes
+    Info: Processing ended: Mon May 13 10:21:07 2019
+    Info: Elapsed time: 00:00:05
+    Info: Total CPU time (on all processors): 00:00:04
 
 

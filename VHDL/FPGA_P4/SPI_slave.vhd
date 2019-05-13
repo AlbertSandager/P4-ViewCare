@@ -28,8 +28,6 @@ ENTITY SPI_slave IS
 END SPI_slave;
 
 ARCHITECTURE Behavorial OF SPI_slave IS
-  --SIGNAL tx_load_data : STD_LOGIC_VECTOR(spi_d_width-1 DOWNTO 0);  --asynchronous tx data to load
-  --SIGNAL rx_data : STD_LOGIC_VECTOR(spi_d_width-1 DOWNTO 0) := (OTHERS => '0');  --receive register output to logic
   SIGNAL mode    : STD_LOGIC;  --groups modes by clock polarity relation to data
   SIGNAL clk     : STD_LOGIC;  --clock
   SIGNAL bit_cnt : STD_LOGIC_VECTOR(spi_d_width+8 DOWNTO 0);  --'1' for active transaction bit

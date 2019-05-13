@@ -14,7 +14,6 @@ port (
 	reset : in std_logic;
 	adc_data : in std_logic;
 	valid : out std_logic;
-	ready : out std_logic;
 	l_rx_data : out std_logic_vector(i2s_d_width - 1 downto 0);
 	r_rx_data : out std_logic_vector(i2s_d_width - 1 downto 0)
 	);

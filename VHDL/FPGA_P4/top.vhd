@@ -27,7 +27,7 @@ port (
 	
 	-- I2S ports
 	i2s_clk, i2s_bclk, i2s_lrclk, i2s_adc_data : in std_logic;
-	i2s_valid, i2s_ready : out std_logic;
+	i2s_valid : out std_logic;
 	i2s_l_led_out : out std_logic_vector(i2s_d_width - 1 downto 0);
 	i2s_r_led_out : out std_logic_vector(i2s_d_width - 1 downto 0)
 	);
@@ -60,7 +60,7 @@ end component;
 component I2S
 port (	
 	clk, bclk, lrclk, adc_data, reset : in std_logic;
-	valid, ready : out std_logic;
+	valid : out std_logic;
 	l_rx_data, r_rx_data : out std_logic_vector(i2s_d_width - 1 downto 0)
 	);
 end component;
@@ -118,7 +118,6 @@ i2s_ports: I2S port map (
 	adc_data=>i2s_adc_data,
 	reset=>i2s_reset,
 	valid=>i2s_valid,
-	ready=>i2s_ready,
 	l_rx_data=>i2s_l_rx_data,
 	r_rx_data=>i2s_r_rx_data
 	);
@@ -126,7 +125,8 @@ i2s_ports: I2S port map (
 	
 	--Code starts here!
 	
-	rec_tx_load_data <= i2s_l_rx_data;
+	rec_tx_load_data <= ecg_rx_data;
+	
 	i2s_l_led_out <= i2s_l_rx_data;
 	i2s_r_led_out <= i2s_r_rx_data;
 

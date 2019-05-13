@@ -4,7 +4,7 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(EP3C16F484) Path("C:/altera/13.1/projects/FPGA_P4/output_files/") File("top.sof") MfrSpec(OpMask(1));
+		Device PartName(EP3C16F484) Path("C:/Users/Albert Sandager/Documents/GitHub/P4-ViewCare/VHDL/FPGA_P4/output_files/") File("top.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 

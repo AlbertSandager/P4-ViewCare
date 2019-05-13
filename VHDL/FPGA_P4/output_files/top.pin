@@ -81,8 +81,8 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : A10       :        :                   :      
 GND+                         : A11       :        :                   :         : 8         :                
 GND+                         : A12       :        :                   :         : 7         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : A13       :        :                   :         : 7         :                
-ecg_tx_load_data[0]          : A14       : input  : 2.5 V             :         : 7         : N              
-ecg_st_load_en               : A15       : input  : 2.5 V             :         : 7         : N              
+i2s_r_led_out[11]            : A14       : output : 2.5 V             :         : 7         : N              
+ecg_st_load_trdy             : A15       : input  : 2.5 V             :         : 7         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : A16       :        :                   :         : 7         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : A17       :        :                   :         : 7         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : A18       :        :                   :         : 7         :                
@@ -93,49 +93,49 @@ GND                          : A22       : gnd    :                   :         
 RESERVED_INPUT_WITH_WEAK_PULLUP : AA1       :        :                   :         : 2         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AA2       :        :                   :         : 2         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AA3       :        :                   :         : 3         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : AA4       :        :                   :         : 3         :                
-rec_rx_data[13]              : AA5       : output : 2.5 V             :         : 3         : N              
+i2s_r_led_out[3]             : AA4       : output : 2.5 V             :         : 3         : N              
+rec_rx_data[12]              : AA5       : output : 2.5 V             :         : 3         : N              
 VCCIO3                       : AA6       : power  :                   : 2.5V    : 3         :                
-i2s_ready                    : AA7       : output : 2.5 V             :         : 3         : N              
-ecg_tx_load_data[5]          : AA8       : input  : 2.5 V             :         : 3         : N              
-ecg_tx_load_data[14]         : AA9       : input  : 2.5 V             :         : 3         : N              
-ecg_tx_load_data[22]         : AA10      : input  : 2.5 V             :         : 3         : N              
+ecg_tx_load_data[15]         : AA7       : input  : 2.5 V             :         : 3         : N              
+ecg_tx_load_data[14]         : AA8       : input  : 2.5 V             :         : 3         : N              
+ecg_tx_load_data[1]          : AA9       : input  : 2.5 V             :         : 3         : N              
+i2s_r_led_out[10]            : AA10      : output : 2.5 V             :         : 3         : N              
 GND+                         : AA11      :        :                   :         : 3         :                
 GND+                         : AA12      :        :                   :         : 4         :                
-ecg_tx_load_data[20]         : AA13      : input  : 2.5 V             :         : 4         : N              
-rec_rx_data[20]              : AA14      : output : 2.5 V             :         : 4         : N              
-rec_trdy                     : AA15      : output : 2.5 V             :         : 4         : N              
+ecg_tx_load_data[4]          : AA13      : input  : 2.5 V             :         : 4         : N              
+ecg_tx_load_data[0]          : AA14      : input  : 2.5 V             :         : 4         : N              
+rec_rx_data[23]              : AA15      : output : 2.5 V             :         : 4         : N              
 rec_rx_req                   : AA16      : input  : 2.5 V             :         : 4         : N              
 rec_sclk                     : AA17      : input  : 2.5 V             :         : 4         : Y              
 rec_mosi                     : AA18      : input  : 2.5 V             :         : 4         : Y              
-ecg_roe                      : AA19      : output : 2.5 V             :         : 4         : N              
-rec_rx_data[2]               : AA20      : output : 2.5 V             :         : 4         : N              
-rec_rx_data[3]               : AA21      : output : 2.5 V             :         : 5         : N              
-rec_rx_data[19]              : AA22      : output : 2.5 V             :         : 5         : N              
+rec_rx_data[10]              : AA19      : output : 2.5 V             :         : 4         : N              
+rec_rx_data[21]              : AA20      : output : 2.5 V             :         : 4         : N              
+rec_rx_data[15]              : AA21      : output : 2.5 V             :         : 5         : N              
+rec_rx_data[16]              : AA22      : output : 2.5 V             :         : 5         : N              
 GND                          : AB1       : gnd    :                   :         :           :                
 VCCIO3                       : AB2       : power  :                   : 2.5V    : 3         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : AB3       :        :                   :         : 3         :                
-ecg_tx_load_data[21]         : AB4       : input  : 2.5 V             :         : 3         : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : AB5       :        :                   :         : 3         :                
+ecg_tx_load_data[8]          : AB3       : input  : 2.5 V             :         : 3         : N              
+i2s_r_led_out[8]             : AB4       : output : 2.5 V             :         : 3         : N              
+ecg_rx_req                   : AB5       : input  : 2.5 V             :         : 3         : N              
 GND                          : AB6       : gnd    :                   :         :           :                
-ecg_tx_load_data[23]         : AB7       : input  : 2.5 V             :         : 3         : N              
-ecg_tx_load_data[4]          : AB8       : input  : 2.5 V             :         : 3         : N              
-ecg_tx_load_data[2]          : AB9       : input  : 2.5 V             :         : 3         : N              
-ecg_tx_load_data[9]          : AB10      : input  : 2.5 V             :         : 3         : N              
+ecg_tx_load_data[19]         : AB7       : input  : 2.5 V             :         : 3         : N              
+ecg_tx_load_data[9]          : AB8       : input  : 2.5 V             :         : 3         : N              
+ecg_tx_load_data[7]          : AB9       : input  : 2.5 V             :         : 3         : N              
+ecg_tx_load_data[22]         : AB10      : input  : 2.5 V             :         : 3         : N              
 GND+                         : AB11      :        :                   :         : 3         :                
 GND+                         : AB12      :        :                   :         : 4         :                
-ecg_tx_load_data[19]         : AB13      : input  : 2.5 V             :         : 4         : N              
-ecg_busy                     : AB14      : output : 2.5 V             :         : 4         : N              
-ecg_trdy                     : AB15      : output : 2.5 V             :         : 4         : N              
-rec_st_load_trdy             : AB16      : input  : 2.5 V             :         : 4         : N              
+ecg_tx_load_data[2]          : AB13      : input  : 2.5 V             :         : 4         : N              
+i2s_r_led_out[2]             : AB14      : output : 2.5 V             :         : 4         : N              
+ecg_busy                     : AB15      : output : 2.5 V             :         : 4         : N              
+ecg_st_load_roe              : AB16      : input  : 2.5 V             :         : 4         : N              
 rec_ss_n                     : AB17      : input  : 2.5 V             :         : 4         : Y              
 rec_miso                     : AB18      : output : 2.5 V             :         : 4         : Y              
-rec_st_load_rrdy             : AB19      : input  : 2.5 V             :         : 4         : N              
-rec_rx_data[9]               : AB20      : output : 2.5 V             :         : 4         : N              
+rec_trdy                     : AB19      : output : 2.5 V             :         : 4         : N              
+rec_rx_data[3]               : AB20      : output : 2.5 V             :         : 4         : N              
 VCCIO4                       : AB21      : power  :                   : 2.5V    : 4         :                
 GND                          : AB22      : gnd    :                   :         :           :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : B1        :        :                   :         : 1         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : B2        :        :                   :         : 1         :                
+i2s_r_led_out[19]            : B1        : output : 2.5 V             :         : 1         : Y              
+i2s_r_led_out[20]            : B2        : output : 2.5 V             :         : 1         : Y              
 RESERVED_INPUT_WITH_WEAK_PULLUP : B3        :        :                   :         : 8         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : B4        :        :                   :         : 8         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : B5        :        :                   :         : 8         :                
@@ -147,17 +147,17 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : B10       :        :                   :      
 GND+                         : B11       :        :                   :         : 8         :                
 GND+                         : B12       :        :                   :         : 7         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : B13       :        :                   :         : 7         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : B14       :        :                   :         : 7         :                
-ecg_tx_load_data[16]         : B15       : input  : 2.5 V             :         : 7         : N              
+ecg_tx_load_data[6]          : B14       : input  : 2.5 V             :         : 7         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : B15       :        :                   :         : 7         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : B16       :        :                   :         : 7         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : B17       :        :                   :         : 7         :                
+i2s_l_led_out[8]             : B17       : output : 2.5 V             :         : 7         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : B18       :        :                   :         : 7         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : B19       :        :                   :         : 7         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : B20       :        :                   :         : 7         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : B21       :        :                   :         : 6         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : B22       :        :                   :         : 6         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : C1        :        :                   :         : 1         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : C2        :        :                   :         : 1         :                
+i2s_r_led_out[22]            : C1        : output : 2.5 V             :         : 1         : Y              
+i2s_r_led_out[21]            : C2        : output : 2.5 V             :         : 1         : Y              
 RESERVED_INPUT_WITH_WEAK_PULLUP : C3        :        :                   :         : 8         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : C4        :        :                   :         : 8         :                
 GND                          : C5        : gnd    :                   :         :           :                
@@ -168,7 +168,7 @@ GND                          : C9        : gnd    :                   :         
 RESERVED_INPUT_WITH_WEAK_PULLUP : C10       :        :                   :         : 8         :                
 GND                          : C11       : gnd    :                   :         :           :                
 GND                          : C12       : gnd    :                   :         :           :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : C13       :        :                   :         : 7         :                
+i2s_r_led_out[4]             : C13       : output : 2.5 V             :         : 7         : N              
 GND                          : C14       : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : C15       :        :                   :         : 7         :                
 GND                          : C16       : gnd    :                   :         :           :                
@@ -190,7 +190,7 @@ VCCIO8                       : D9        : power  :                   : 2.5V    
 RESERVED_INPUT_WITH_WEAK_PULLUP : D10       :        :                   :         : 8         :                
 VCCIO8                       : D11       : power  :                   : 2.5V    : 8         :                
 VCCIO7                       : D12       : power  :                   : 2.5V    : 7         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : D13       :        :                   :         : 7         :                
+ecg_tx_load_data[12]         : D13       : input  : 2.5 V             :         : 7         : N              
 VCCIO7                       : D14       : power  :                   : 2.5V    : 7         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : D15       :        :                   :         : 7         :                
 VCCIO7                       : D16       : power  :                   : 2.5V    : 7         :                
@@ -200,7 +200,7 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : D19       :        :                   :      
 RESERVED_INPUT_WITH_WEAK_PULLUP : D20       :        :                   :         : 6         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : D21       :        :                   :         : 6         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : D22       :        :                   :         : 6         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : E1        :        :                   :         : 1         :                
+i2s_r_led_out[23]            : E1        : output : 2.5 V             :         : 1         : Y              
 ~ALTERA_FLASH_nCE_nCSO~ / RESERVED_INPUT_WITH_WEAK_PULLUP : E2        : input  : 2.5 V             :         : 1         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : E3        :        :                   :         : 1         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : E4        :        :                   :         : 1         :                
@@ -212,10 +212,10 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : E9        :        :                   :      
 RESERVED_INPUT_WITH_WEAK_PULLUP : E10       :        :                   :         : 8         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : E11       :        :                   :         : 7         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : E12       :        :                   :         : 7         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : E13       :        :                   :         : 7         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : E14       :        :                   :         : 7         :                
+ecg_tx_load_data[23]         : E13       : input  : 2.5 V             :         : 7         : N              
+i2s_l_led_out[9]             : E14       : output : 2.5 V             :         : 7         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : E15       :        :                   :         : 7         :                
-rec_st_load_en               : E16       : input  : 2.5 V             :         : 7         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : E16       :        :                   :         : 7         :                
 VCCD_PLL2                    : E17       : power  :                   : 1.2V    :           :                
 GNDA2                        : E18       : gnd    :                   :         :           :                
 VCCIO6                       : E19       : power  :                   : 2.5V    : 6         :                
@@ -223,7 +223,7 @@ GND                          : E20       : gnd    :                   :         
 RESERVED_INPUT_WITH_WEAK_PULLUP : E21       :        :                   :         : 6         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : E22       :        :                   :         : 6         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : F1        :        :                   :         : 1         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : F2        :        :                   :         : 1         :                
+i2s_l_led_out[19]            : F2        : output : 2.5 V             :         : 1         : Y              
 GND                          : F3        : gnd    :                   :         :           :                
 VCCIO1                       : F4        : power  :                   : 2.5V    : 1         :                
 GNDA3                        : F5        : gnd    :                   :         :           :                
@@ -232,9 +232,9 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : F7        :        :                   :      
 RESERVED_INPUT_WITH_WEAK_PULLUP : F8        :        :                   :         : 8         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : F9        :        :                   :         : 8         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : F10       :        :                   :         : 8         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : F11       :        :                   :         : 7         :                
+ecg_tx_load_data[17]         : F11       : input  : 2.5 V             :         : 7         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : F12       :        :                   :         : 7         :                
-ecg_tx_load_data[18]         : F13       : input  : 2.5 V             :         : 7         : N              
+i2s_r_led_out[7]             : F13       : output : 2.5 V             :         : 7         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : F14       :        :                   :         : 7         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : F15       :        :                   :         : 7         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : F16       :        :                   :         : 7         :                
@@ -255,18 +255,18 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : G8        :        :                   :      
 RESERVED_INPUT_WITH_WEAK_PULLUP : G9        :        :                   :         : 8         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : G10       :        :                   :         : 8         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : G11       :        :                   :         : 8         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : G12       :        :                   :         : 7         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : G13       :        :                   :         : 7         :                
+rec_rx_data[17]              : G12       : output : 2.5 V             :         : 7         : N              
+i2s_l_led_out[0]             : G13       : output : 2.5 V             :         : 7         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : G14       :        :                   :         : 7         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : G15       :        :                   :         : 7         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : G16       :        :                   :         : 7         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : G17       :        :                   :         : 6         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : G18       :        :                   :         : 6         :                
+i2s_ready                    : G18       : output : 2.5 V             :         : 6         : N              
 VCCIO6                       : G19       : power  :                   : 2.5V    : 6         :                
 GND                          : G20       : gnd    :                   :         :           :                
 i2s_clk                      : G21       : input  : 2.5 V             :         : 6         : Y              
-GND+                         : G22       :        :                   :         : 6         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : H1        :        :                   :         : 1         :                
+ecg_st_load_en               : G22       : input  : 2.5 V             :         : 6         : N              
+i2s_l_led_out[20]            : H1        : output : 2.5 V             :         : 1         : Y              
 RESERVED_INPUT_WITH_WEAK_PULLUP : H2        :        :                   :         : 1         :                
 GND                          : H3        : gnd    :                   :         :           :                
 VCCIO1                       : H4        : power  :                   : 2.5V    : 1         :                
@@ -277,7 +277,7 @@ GND                          : H8        : gnd    :                   :         
 RESERVED_INPUT_WITH_WEAK_PULLUP : H9        :        :                   :         : 8         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : H10       :        :                   :         : 8         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : H11       :        :                   :         : 8         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : H12       :        :                   :         : 7         :                
+rec_rx_data[2]               : H12       : output : 2.5 V             :         : 7         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : H13       :        :                   :         : 7         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : H14       :        :                   :         : 7         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : H15       :        :                   :         : 7         :                
@@ -288,9 +288,9 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : H19       :        :                   :      
 RESERVED_INPUT_WITH_WEAK_PULLUP : H20       :        :                   :         : 6         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : H21       :        :                   :         : 6         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : H22       :        :                   :         : 6         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : J1        :        :                   :         : 1         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : J2        :        :                   :         : 1         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : J3        :        :                   :         : 1         :                
+i2s_l_led_out[23]            : J1        : output : 2.5 V             :         : 1         : Y              
+i2s_l_led_out[22]            : J2        : output : 2.5 V             :         : 1         : Y              
+i2s_l_led_out[21]            : J3        : output : 2.5 V             :         : 1         : Y              
 RESERVED_INPUT_WITH_WEAK_PULLUP : J4        :        :                   :         : 1         :                
 GND                          : J5        : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : J6        :        :                   :         : 1         :                
@@ -359,7 +359,7 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : M2        :        :                   :      
 RESERVED_INPUT_WITH_WEAK_PULLUP : M3        :        :                   :         : 2         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : M4        :        :                   :         : 2         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : M5        :        :                   :         : 2         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : M6        :        :                   :         : 2         :                
+rec_st_load_en               : M6        : input  : 2.5 V             :         : 2         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : M7        :        :                   :         : 2         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : M8        :        :                   :         : 2         :                
 VCCINT                       : M9        : power  :                   : 1.2V    :           :                
@@ -368,7 +368,7 @@ GND                          : M11       : gnd    :                   :         
 GND                          : M12       : gnd    :                   :         :           :                
 GND                          : M13       : gnd    :                   :         :           :                
 VCCINT                       : M14       : power  :                   : 1.2V    :           :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : M15       :        :                   :         : 5         :                
+i2s_l_led_out[7]             : M15       : output : 2.5 V             :         : 5         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : M16       :        :                   :         : 5         :                
 MSEL0                        : M17       :        :                   :         : 6         :                
 CONF_DONE                    : M18       :        :                   :         : 6         :                
@@ -389,10 +389,10 @@ GND                          : N10       : gnd    :                   :         
 GND                          : N11       : gnd    :                   :         :           :                
 GND                          : N12       : gnd    :                   :         :           :                
 GND                          : N13       : gnd    :                   :         :           :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : N14       :        :                   :         : 5         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : N15       :        :                   :         : 5         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : N16       :        :                   :         : 5         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : N17       :        :                   :         : 5         :                
+i2s_l_led_out[1]             : N14       : output : 2.5 V             :         : 5         : N              
+rec_rx_data[5]               : N15       : output : 2.5 V             :         : 5         : N              
+i2s_l_led_out[3]             : N16       : output : 2.5 V             :         : 5         : N              
+i2s_valid                    : N17       : output : 2.5 V             :         : 5         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : N18       :        :                   :         : 5         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : N19       :        :                   :         : 5         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : N20       :        :                   :         : 5         :                
@@ -411,15 +411,15 @@ VCCINT                       : P10       : power  :                   : 1.2V    
 VCCINT                       : P11       : power  :                   : 1.2V    :           :                
 VCCINT                       : P12       : power  :                   : 1.2V    :           :                
 VCCINT                       : P13       : power  :                   : 1.2V    :           :                
-rec_rx_data[10]              : P14       : output : 2.5 V             :         : 5         : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : P15       :        :                   :         : 5         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : P16       :        :                   :         : 5         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : P17       :        :                   :         : 5         :                
+rec_rx_data[19]              : P14       : output : 2.5 V             :         : 5         : N              
+i2s_l_led_out[17]            : P15       : output : 2.5 V             :         : 5         : N              
+rec_st_load_trdy             : P16       : input  : 2.5 V             :         : 5         : N              
+i2s_r_led_out[9]             : P17       : output : 2.5 V             :         : 5         : N              
 VCCIO5                       : P18       : power  :                   : 2.5V    : 5         :                
 GND                          : P19       : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : P20       :        :                   :         : 5         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : P21       :        :                   :         : 5         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : P22       :        :                   :         : 5         :                
+i2s_r_led_out[14]            : P22       : output : 2.5 V             :         : 5         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : R1        :        :                   :         : 2         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : R2        :        :                   :         : 2         :                
 GND                          : R3        : gnd    :                   :         :           :                
@@ -432,15 +432,15 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : R9        :        :                   :      
 RESERVED_INPUT_WITH_WEAK_PULLUP : R10       :        :                   :         : 3         :                
 i2s_adc_data                 : R11       : input  : 2.5 V             :         : 3         : Y              
 i2s_bclk                     : R12       : input  : 2.5 V             :         : 3         : Y              
-rec_rx_data[22]              : R13       : output : 2.5 V             :         : 4         : N              
+rec_rx_data[6]               : R13       : output : 2.5 V             :         : 4         : N              
 ecg_mosi                     : R14       : input  : 2.5 V             :         : 4         : Y              
-rec_rx_data[15]              : R15       : output : 2.5 V             :         : 4         : N              
-rec_rx_data[21]              : R16       : output : 2.5 V             :         : 4         : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : R17       :        :                   :         : 5         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : R18       :        :                   :         : 5         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : R19       :        :                   :         : 5         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : R20       :        :                   :         : 5         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : R21       :        :                   :         : 5         :                
+i2s_l_led_out[4]             : R15       : output : 2.5 V             :         : 4         : N              
+rec_rx_data[8]               : R16       : output : 2.5 V             :         : 4         : N              
+rec_rx_data[20]              : R17       : output : 2.5 V             :         : 5         : N              
+i2s_l_led_out[16]            : R18       : output : 2.5 V             :         : 5         : N              
+i2s_r_led_out[0]             : R19       : output : 2.5 V             :         : 5         : N              
+i2s_l_led_out[14]            : R20       : output : 2.5 V             :         : 5         : N              
+rec_st_load_roe              : R21       : input  : 2.5 V             :         : 5         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : R22       :        :                   :         : 5         :                
 GND+                         : T1        :        :                   :         : 2         :                
 GND+                         : T2        :        :                   :         : 2         :                
@@ -451,15 +451,15 @@ VCCA1                        : T6        : power  :                   : 2.5V    
 RESERVED_INPUT_WITH_WEAK_PULLUP : T7        :        :                   :         : 2         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : T8        :        :                   :         : 3         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : T9        :        :                   :         : 3         :                
-ecg_tx_load_data[11]         : T10       : input  : 2.5 V             :         : 3         : N              
-ecg_tx_load_data[15]         : T11       : input  : 2.5 V             :         : 3         : N              
+i2s_r_led_out[17]            : T10       : output : 2.5 V             :         : 3         : N              
+i2s_r_led_out[12]            : T11       : output : 2.5 V             :         : 3         : N              
 ecg_ss_n                     : T12       : input  : 2.5 V             :         : 4         : Y              
 VCCINT                       : T13       : power  :                   : 1.2V    :           :                
 ecg_miso                     : T14       : output : 2.5 V             :         : 4         : Y              
-ecg_st_load_rrdy             : T15       : input  : 2.5 V             :         : 4         : N              
-rec_rx_data[8]               : T16       : output : 2.5 V             :         : 4         : N              
-rec_rx_data[4]               : T17       : output : 2.5 V             :         : 5         : N              
-ecg_tx_load_data[1]          : T18       : input  : 2.5 V             :         : 5         : N              
+rec_st_load_rrdy             : T15       : input  : 2.5 V             :         : 4         : N              
+ecg_tx_load_data[11]         : T16       : input  : 2.5 V             :         : 4         : N              
+ecg_tx_load_data[10]         : T17       : input  : 2.5 V             :         : 5         : N              
+rec_rx_data[22]              : T18       : output : 2.5 V             :         : 5         : N              
 VCCIO5                       : T19       : power  :                   : 2.5V    : 5         :                
 GND                          : T20       : gnd    :                   :         :           :                
 GND+                         : T21       :        :                   :         : 5         :                
@@ -472,83 +472,83 @@ GNDA1                        : U5        : gnd    :                   :         
 VCCD_PLL1                    : U6        : power  :                   : 1.2V    :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : U7        :        :                   :         : 3         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : U8        :        :                   :         : 3         :                
-ecg_rx_req                   : U9        : input  : 2.5 V             :         : 3         : N              
+i2s_l_led_out[12]            : U9        : output : 2.5 V             :         : 3         : N              
 i2s_lrclk                    : U10       : input  : 2.5 V             :         : 3         : Y              
-ecg_tx_load_data[6]          : U11       : input  : 2.5 V             :         : 3         : N              
+ecg_st_load_rrdy             : U11       : input  : 2.5 V             :         : 3         : N              
 ecg_sclk                     : U12       : input  : 2.5 V             :         : 4         : Y              
-rec_rx_data[23]              : U13       : output : 2.5 V             :         : 4         : N              
-rec_rx_data[11]              : U14       : output : 2.5 V             :         : 4         : N              
-rec_rx_data[14]              : U15       : output : 2.5 V             :         : 4         : N              
+rec_rx_data[11]              : U13       : output : 2.5 V             :         : 4         : N              
+rec_rx_data[0]               : U14       : output : 2.5 V             :         : 4         : N              
+ecg_roe                      : U15       : output : 2.5 V             :         : 4         : N              
 VCCINT                       : U16       : power  :                   : 1.2V    :           :                
 VCCINT                       : U17       : power  :                   : 1.2V    :           :                
 VCCA4                        : U18       : power  :                   : 2.5V    :           :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : U19       :        :                   :         : 5         :                
-rec_rx_data[5]               : U20       : output : 2.5 V             :         : 5         : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : U21       :        :                   :         : 5         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : U22       :        :                   :         : 5         :                
+rec_rx_data[7]               : U19       : output : 2.5 V             :         : 5         : N              
+i2s_r_led_out[15]            : U20       : output : 2.5 V             :         : 5         : N              
+i2s_l_led_out[18]            : U21       : output : 2.5 V             :         : 5         : N              
+i2s_l_led_out[11]            : U22       : output : 2.5 V             :         : 5         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : V1        :        :                   :         : 2         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : V2        :        :                   :         : 2         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : V3        :        :                   :         : 2         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : V4        :        :                   :         : 2         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : V5        :        :                   :         : 3         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : V6        :        :                   :         : 3         :                
-i2s_valid                    : V7        : output : 2.5 V             :         : 3         : N              
-ecg_tx_load_data[13]         : V8        : input  : 2.5 V             :         : 3         : N              
-ecg_tx_load_data[8]          : V9        : input  : 2.5 V             :         : 3         : N              
-ecg_tx_load_data[7]          : V10       : input  : 2.5 V             :         : 3         : N              
-ecg_tx_load_data[17]         : V11       : input  : 2.5 V             :         : 3         : N              
-rec_rrdy                     : V12       : output : 2.5 V             :         : 4         : N              
+rec_rx_data[18]              : V7        : output : 2.5 V             :         : 3         : N              
+i2s_r_led_out[18]            : V8        : output : 2.5 V             :         : 3         : N              
+ecg_tx_load_data[13]         : V9        : input  : 2.5 V             :         : 3         : N              
+ecg_tx_load_data[20]         : V10       : input  : 2.5 V             :         : 3         : N              
+i2s_r_led_out[1]             : V11       : output : 2.5 V             :         : 3         : N              
+i2s_r_led_out[13]            : V12       : output : 2.5 V             :         : 4         : N              
 rec_busy                     : V13       : output : 2.5 V             :         : 4         : N              
-rec_rx_data[18]              : V14       : output : 2.5 V             :         : 4         : N              
-rec_rx_data[16]              : V15       : output : 2.5 V             :         : 4         : N              
-rec_rx_data[1]               : V16       : output : 2.5 V             :         : 4         : N              
+rec_rx_data[14]              : V14       : output : 2.5 V             :         : 4         : N              
+i2s_r_led_out[6]             : V15       : output : 2.5 V             :         : 4         : N              
+rec_rx_data[9]               : V16       : output : 2.5 V             :         : 4         : N              
 VCCD_PLL4                    : V17       : power  :                   : 1.2V    :           :                
 GNDA4                        : V18       : gnd    :                   :         :           :                
 VCCIO5                       : V19       : power  :                   : 2.5V    : 5         :                
 GND                          : V20       : gnd    :                   :         :           :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : V21       :        :                   :         : 5         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : V22       :        :                   :         : 5         :                
+i2s_l_led_out[2]             : V21       : output : 2.5 V             :         : 5         : N              
+i2s_r_led_out[5]             : V22       : output : 2.5 V             :         : 5         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : W1        :        :                   :         : 2         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : W2        :        :                   :         : 2         :                
 GND                          : W3        : gnd    :                   :         :           :                
 VCCIO2                       : W4        : power  :                   : 2.5V    : 2         :                
 VCCIO3                       : W5        : power  :                   : 2.5V    : 3         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : W6        :        :                   :         : 3         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : W7        :        :                   :         : 3         :                
-ecg_tx_load_data[10]         : W8        : input  : 2.5 V             :         : 3         : N              
+ecg_tx_load_data[16]         : W6        : input  : 2.5 V             :         : 3         : N              
+rec_rx_data[1]               : W7        : output : 2.5 V             :         : 3         : N              
+ecg_tx_load_data[21]         : W8        : input  : 2.5 V             :         : 3         : N              
 VCCIO3                       : W9        : power  :                   : 2.5V    : 3         :                
-ecg_st_load_trdy             : W10       : input  : 2.5 V             :         : 3         : N              
+i2s_r_led_out[16]            : W10       : output : 2.5 V             :         : 3         : N              
 VCCIO3                       : W11       : power  :                   : 2.5V    : 3         :                
 VCCIO4                       : W12       : power  :                   : 2.5V    : 4         :                
-rec_roe                      : W13       : output : 2.5 V             :         : 4         : N              
-rec_rx_data[7]               : W14       : output : 2.5 V             :         : 4         : N              
-rec_rx_data[12]              : W15       : output : 2.5 V             :         : 4         : N              
+rec_rx_data[4]               : W13       : output : 2.5 V             :         : 4         : N              
+ecg_rrdy                     : W14       : output : 2.5 V             :         : 4         : N              
+rec_rx_data[13]              : W15       : output : 2.5 V             :         : 4         : N              
 VCCIO4                       : W16       : power  :                   : 2.5V    : 4         :                
-rec_st_load_roe              : W17       : input  : 2.5 V             :         : 4         : N              
+ecg_tx_load_en               : W17       : input  : 2.5 V             :         : 4         : N              
 VCCIO4                       : W18       : power  :                   : 2.5V    : 4         :                
-ecg_rrdy                     : W19       : output : 2.5 V             :         : 5         : N              
-ecg_st_load_roe              : W20       : input  : 2.5 V             :         : 5         : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : W21       :        :                   :         : 5         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : W22       :        :                   :         : 5         :                
+rec_roe                      : W19       : output : 2.5 V             :         : 5         : N              
+rec_rrdy                     : W20       : output : 2.5 V             :         : 5         : N              
+i2s_l_led_out[15]            : W21       : output : 2.5 V             :         : 5         : N              
+i2s_l_led_out[13]            : W22       : output : 2.5 V             :         : 5         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : Y1        :        :                   :         : 2         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : Y2        :        :                   :         : 2         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : Y3        :        :                   :         : 3         :                
+i2s_l_led_out[6]             : Y3        : output : 2.5 V             :         : 3         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : Y4        :        :                   :         : 3         :                
 GND                          : Y5        : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : Y6        :        :                   :         : 3         :                
-rec_rx_data[0]               : Y7        : output : 2.5 V             :         : 3         : N              
-ecg_tx_load_data[3]          : Y8        : input  : 2.5 V             :         : 3         : N              
+ecg_tx_load_data[3]          : Y7        : input  : 2.5 V             :         : 3         : N              
+ecg_tx_load_data[5]          : Y8        : input  : 2.5 V             :         : 3         : N              
 GND                          : Y9        : gnd    :                   :         :           :                
-ecg_tx_load_data[12]         : Y10       : input  : 2.5 V             :         : 3         : N              
+ecg_tx_load_data[18]         : Y10       : input  : 2.5 V             :         : 3         : N              
 GND                          : Y11       : gnd    :                   :         :           :                
 GND                          : Y12       : gnd    :                   :         :           :                
-ecg_tx_load_en               : Y13       : input  : 2.5 V             :         : 4         : N              
+ecg_trdy                     : Y13       : output : 2.5 V             :         : 4         : N              
 VCCIO4                       : Y14       : power  :                   : 2.5V    : 4         :                
 GND                          : Y15       : gnd    :                   :         :           :                
 GND                          : Y16       : gnd    :                   :         :           :                
-rec_tx_load_en               : Y17       : input  : 2.5 V             :         : 4         : N              
+i2s_l_led_out[10]            : Y17       : output : 2.5 V             :         : 4         : N              
 GND                          : Y18       : gnd    :                   :         :           :                
 VCCIO5                       : Y19       : power  :                   : 2.5V    : 5         :                
 GND                          : Y20       : gnd    :                   :         :           :                
-rec_rx_data[17]              : Y21       : output : 2.5 V             :         : 5         : N              
-rec_rx_data[6]               : Y22       : output : 2.5 V             :         : 5         : N              
+i2s_l_led_out[5]             : Y21       : output : 2.5 V             :         : 5         : N              
+rec_tx_load_en               : Y22       : input  : 2.5 V             :         : 5         : N              

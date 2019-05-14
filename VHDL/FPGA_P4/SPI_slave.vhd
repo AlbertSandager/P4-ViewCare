@@ -4,8 +4,8 @@ USE ieee.std_logic_arith.all;
 
 ENTITY SPI_slave IS
   GENERIC(
-    cpol    : STD_LOGIC := '1';  --spi clock polarity mode
-    cpha    : STD_LOGIC := '0';  --spi clock phase mode
+    cpol    : STD_LOGIC := '0';  --spi clock polarity mode
+    cpha    : STD_LOGIC := '1';  --spi clock phase mode
     spi_d_width : INTEGER := 24);     --data width in bits
   PORT(
     sclk         : IN     STD_LOGIC;  --spi clk from master

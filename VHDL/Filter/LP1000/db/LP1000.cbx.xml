@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="LP1000">
+		<CBX_INST_ENTRY INSTANCE_NAME="|LP1000|LP1000_0002:lp1000_inst|LP1000_0002_ast:LP1000_0002_ast_inst|LP1000_0002_rtl:hpfircore|LPM_MULT:u0_m0_wo0_mtree_mult1_0_replace_multhi_component" CBX_FILE_NAME="mult_t9u.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|LP1000|LP1000_0002:lp1000_inst|LP1000_0002_ast:LP1000_0002_ast_inst|LP1000_0002_rtl:hpfircore|LPM_MULT:u0_m0_wo0_mtree_mult1_0_replace_multlo_component" CBX_FILE_NAME="mult_hbu.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|LP1000|LP1000_0002:lp1000_inst|LP1000_0002_ast:LP1000_0002_ast_inst|LP1000_0002_rtl:hpfircore|altsyncram:u0_m0_wo0_cm0_lutmem_dmem" CBX_FILE_NAME="altsyncram_q8s3.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|LP1000|LP1000_0002:lp1000_inst|LP1000_0002_ast:LP1000_0002_ast_inst|LP1000_0002_rtl:hpfircore|altsyncram:u0_m0_wo0_wi0_delayr0_dmem" CBX_FILE_NAME="altsyncram_7do3.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

@@ -1,0 +1,409 @@
+Analysis & Synthesis report for SPI_slavetest
+Tue May 14 10:57:19 2019
+Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Analysis & Synthesis Source Files Read
+  5. Analysis & Synthesis Resource Usage Summary
+  6. Analysis & Synthesis Resource Utilization by Entity
+  7. User-Specified and Inferred Latches
+  8. Registers Removed During Synthesis
+  9. General Register Statistics
+ 10. Inverted Register Statistics
+ 11. Parameter Settings for User Entity Instance: Top-level Entity: |SPI_slavetest
+ 12. Elapsed Time Per Partition
+ 13. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++---------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                    ;
++------------------------------------+--------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Tue May 14 10:57:19 2019      ;
+; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
+; Revision Name                      ; SPI_slavetest                              ;
+; Top-level Entity Name              ; SPI_slavetest                              ;
+; Family                             ; Cyclone III                                ;
+; Total logic elements               ; 214                                        ;
+;     Total combinational functions  ; 182                                        ;
+;     Dedicated logic registers      ; 87                                         ;
+; Total registers                    ; 87                                         ;
+; Total pins                         ; 63                                         ;
+; Total virtual pins                 ; 0                                          ;
+; Total memory bits                  ; 0                                          ;
+; Embedded Multiplier 9-bit elements ; 0                                          ;
+; Total PLLs                         ; 0                                          ;
++------------------------------------+--------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                        ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                     ; Setting            ; Default Value      ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                     ; EP3C16F484C6       ;                    ;
+; Top-level entity name                                                      ; SPI_slavetest      ; SPI_slavetest      ;
+; Family name                                                                ; Cyclone III        ; Cyclone IV GX      ;
+; Use smart compilation                                                      ; Off                ; Off                ;
+; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                                ; Off                ; Off                ;
+; Restructure Multiplexers                                                   ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                                        ; Off                ; Off                ;
+; Preserve fewer node names                                                  ; On                 ; On                 ;
+; Disable OpenCore Plus hardware evaluation                                  ; Off                ; Off                ;
+; Verilog Version                                                            ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                               ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                   ; Auto               ; Auto               ;
+; Safe State Machine                                                         ; Off                ; Off                ;
+; Extract Verilog State Machines                                             ; On                 ; On                 ;
+; Extract VHDL State Machines                                                ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                          ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                 ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                             ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                    ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                  ; On                 ; On                 ;
+; Parallel Synthesis                                                         ; On                 ; On                 ;
+; DSP Block Balancing                                                        ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                         ; On                 ; On                 ;
+; Power-Up Don't Care                                                        ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                               ; Off                ; Off                ;
+; Remove Duplicate Registers                                                 ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                       ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                     ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                      ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                  ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                       ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                        ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                             ; Off                ; Off                ;
+; Optimization Technique                                                     ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                         ; 70                 ; 70                 ;
+; Auto Carry Chains                                                          ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                       ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                      ; Off                ; Off                ;
+; Auto ROM Replacement                                                       ; On                 ; On                 ;
+; Auto RAM Replacement                                                       ; On                 ; On                 ;
+; Auto DSP Block Replacement                                                 ; On                 ; On                 ;
+; Auto Shift Register Replacement                                            ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                            ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                              ; On                 ; On                 ;
+; Strict RAM Replacement                                                     ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                          ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                     ; Off                ; Off                ;
+; Auto RAM Block Balancing                                                   ; On                 ; On                 ;
+; Auto RAM to Logic Cell Conversion                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                      ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                              ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                        ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                          ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                    ; On                 ; On                 ;
+; Report Parameter Settings                                                  ; On                 ; On                 ;
+; Report Source Assignments                                                  ; On                 ; On                 ;
+; Report Connectivity Checks                                                 ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                         ; Off                ; Off                ;
+; Synchronization Register Chain Length                                      ; 2                  ; 2                  ;
+; PowerPlay Power Optimization                                               ; Normal compilation ; Normal compilation ;
+; HDL message level                                                          ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                            ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                   ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                         ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                  ; 100                ; 100                ;
+; Clock MUX Protection                                                       ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                ; Off                ; Off                ;
+; Block Design Naming                                                        ; Auto               ; Auto               ;
+; SDC constraint protection                                                  ; Off                ; Off                ;
+; Synthesis Effort                                                           ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal               ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                       ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                                         ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                     ; On                 ; On                 ;
+; Synthesis Seed                                                             ; 1                  ; 1                  ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                 ;
++----------------------------------+-----------------+-----------------+---------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                          ; Library ;
++----------------------------------+-----------------+-----------------+---------------------------------------------------------------------------------------+---------+
+; SPI_slavetest.vhd                ; yes             ; User VHDL File  ; C:/Users/Albert Sandager/Documents/GitHub/P4-ViewCare/VHDL/testkode/SPI_slavetest.vhd ;         ;
++----------------------------------+-----------------+-----------------+---------------------------------------------------------------------------------------+---------+
+
+
++-------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                 ;
++---------------------------------------------+---------------+
+; Resource                                    ; Usage         ;
++---------------------------------------------+---------------+
+; Estimated Total logic elements              ; 214           ;
+;                                             ;               ;
+; Total combinational functions               ; 182           ;
+; Logic element usage by number of LUT inputs ;               ;
+;     -- 4 input functions                    ; 110           ;
+;     -- 3 input functions                    ; 14            ;
+;     -- <=2 input functions                  ; 58            ;
+;                                             ;               ;
+; Logic elements by mode                      ;               ;
+;     -- normal mode                          ; 182           ;
+;     -- arithmetic mode                      ; 0             ;
+;                                             ;               ;
+; Total registers                             ; 87            ;
+;     -- Dedicated logic registers            ; 87            ;
+;     -- I/O registers                        ; 0             ;
+;                                             ;               ;
+; I/O pins                                    ; 63            ;
+; Embedded Multiplier 9-bit elements          ; 0             ;
+; Maximum fan-out node                        ; reset_n~input ;
+; Maximum fan-out                             ; 102           ;
+; Total fan-out                               ; 972           ;
+; Average fan-out                             ; 2.46          ;
++---------------------------------------------+---------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                         ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
+; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name ; Library Name ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
+; |SPI_slavetest             ; 182 (182)         ; 87 (87)      ; 0           ; 0            ; 0       ; 0         ; 63   ; 0            ; |SPI_slavetest      ; work         ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++----------------------------------------------------------------------------------------------------+
+; User-Specified and Inferred Latches                                                                ;
++-----------------------------------------------------+---------------------+------------------------+
+; Latch Name                                          ; Latch Enable Signal ; Free of Timing Hazards ;
++-----------------------------------------------------+---------------------+------------------------+
+; rx_data[0]$latch                                    ; process_1           ; yes                    ;
+; rx_data[1]$latch                                    ; process_1           ; yes                    ;
+; rx_data[2]$latch                                    ; process_1           ; yes                    ;
+; rx_data[3]$latch                                    ; process_1           ; yes                    ;
+; rx_data[4]$latch                                    ; process_1           ; yes                    ;
+; rx_data[5]$latch                                    ; process_1           ; yes                    ;
+; rx_data[6]$latch                                    ; process_1           ; yes                    ;
+; rx_data[7]$latch                                    ; process_1           ; yes                    ;
+; rx_data[8]$latch                                    ; process_1           ; yes                    ;
+; rx_data[9]$latch                                    ; process_1           ; yes                    ;
+; rx_data[10]$latch                                   ; process_1           ; yes                    ;
+; rx_data[11]$latch                                   ; process_1           ; yes                    ;
+; rx_data[12]$latch                                   ; process_1           ; yes                    ;
+; rx_data[13]$latch                                   ; process_1           ; yes                    ;
+; rx_data[14]$latch                                   ; process_1           ; yes                    ;
+; rx_data[15]$latch                                   ; process_1           ; yes                    ;
+; rx_data[16]$latch                                   ; process_1           ; yes                    ;
+; rx_data[17]$latch                                   ; process_1           ; yes                    ;
+; rx_data[18]$latch                                   ; process_1           ; yes                    ;
+; rx_data[19]$latch                                   ; process_1           ; yes                    ;
+; rx_data[20]$latch                                   ; process_1           ; yes                    ;
+; rx_data[21]$latch                                   ; process_1           ; yes                    ;
+; rx_data[22]$latch                                   ; process_1           ; yes                    ;
+; rx_data[23]$latch                                   ; process_1           ; yes                    ;
+; Number of user-specified and inferred latches = 24  ;                     ;                        ;
++-----------------------------------------------------+---------------------+------------------------+
+Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
+
+
++--------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                             ;
++---------------------------------------+----------------------------------------+
+; Register name                         ; Reason for Removal                     ;
++---------------------------------------+----------------------------------------+
+; bit_cnt[0]                            ; Stuck at GND due to stuck port data_in ;
+; Total Number of Removed Registers = 1 ;                                        ;
++---------------------------------------+----------------------------------------+
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 87    ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 84    ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 26    ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++--------------------------------------------------+
+; Inverted Register Statistics                     ;
++----------------------------------------+---------+
+; Inverted Register                      ; Fan out ;
++----------------------------------------+---------+
+; bit_cnt[1]                             ; 3       ;
+; Total number of inverted registers = 1 ;         ;
++----------------------------------------+---------+
+
+
++-------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Top-level Entity: |SPI_slavetest ;
++----------------+-------+------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                 ;
++----------------+-------+------------------------------------------------------+
+; cpol           ; '1'   ; Enumerated                                           ;
+; cpha           ; '0'   ; Enumerated                                           ;
+; spi_d_width    ; 24    ; Signed Integer                                       ;
++----------------+-------+------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:01     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit Analysis & Synthesis
+    Info: Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
+    Info: Processing started: Tue May 14 10:57:15 2019
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off SPI_slavetest -c SPI_slavetest
+Warning (20028): Parallel compilation is not licensed and has been disabled
+Info (12021): Found 2 design units, including 1 entities, in source file spi_slavetest.vhd
+    Info (12022): Found design unit 1: SPI_slavetest-Behavorial
+    Info (12023): Found entity 1: SPI_slavetest
+Info (12127): Elaborating entity "SPI_slavetest" for the top level hierarchy
+Warning (10492): VHDL Process Statement warning at SPI_slavetest.vhd(51): signal "reset_n" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at SPI_slavetest.vhd(64): signal "bit_cnt" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at SPI_slavetest.vhd(69): signal "bit_cnt" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at SPI_slavetest.vhd(74): signal "st_load_trdy" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at SPI_slavetest.vhd(74): signal "reset_n" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at SPI_slavetest.vhd(76): signal "st_load_trdy" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at SPI_slavetest.vhd(78): signal "wr_add" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at SPI_slavetest.vhd(78): signal "bit_cnt" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at SPI_slavetest.vhd(80): signal "rd_add" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at SPI_slavetest.vhd(80): signal "bit_cnt" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at SPI_slavetest.vhd(85): signal "st_load_rrdy" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at SPI_slavetest.vhd(85): signal "reset_n" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at SPI_slavetest.vhd(87): signal "st_load_rrdy" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at SPI_slavetest.vhd(89): signal "wr_add" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at SPI_slavetest.vhd(89): signal "bit_cnt" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at SPI_slavetest.vhd(91): signal "wr_add" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at SPI_slavetest.vhd(91): signal "bit_cnt" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at SPI_slavetest.vhd(96): signal "st_load_roe" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at SPI_slavetest.vhd(96): signal "reset_n" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at SPI_slavetest.vhd(98): signal "st_load_roe" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at SPI_slavetest.vhd(100): signal "rrdy" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at SPI_slavetest.vhd(100): signal "wr_add" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at SPI_slavetest.vhd(100): signal "bit_cnt" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at SPI_slavetest.vhd(102): signal "wr_add" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at SPI_slavetest.vhd(102): signal "bit_cnt" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at SPI_slavetest.vhd(108): signal "reset_n" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at SPI_slavetest.vhd(112): signal "wr_add" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at SPI_slavetest.vhd(112): signal "bit_cnt" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at SPI_slavetest.vhd(118): signal "reset_n" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at SPI_slavetest.vhd(121): signal "rx_buf" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at SPI_slavetest.vhd(125): signal "reset_n" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at SPI_slavetest.vhd(128): signal "tx_load_data" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at SPI_slavetest.vhd(129): signal "rd_add" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at SPI_slavetest.vhd(129): signal "bit_cnt" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at SPI_slavetest.vhd(134): signal "reset_n" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at SPI_slavetest.vhd(136): signal "rd_add" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at SPI_slavetest.vhd(143): signal "rd_add" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at SPI_slavetest.vhd(143): signal "bit_cnt" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10631): VHDL Process Statement warning at SPI_slavetest.vhd(60): inferring latch(es) for signal or variable "rx_data", which holds its previous value in one or more paths through the process
+Info (10041): Inferred latch for "rx_data[0]" at SPI_slavetest.vhd(60)
+Info (10041): Inferred latch for "rx_data[1]" at SPI_slavetest.vhd(60)
+Info (10041): Inferred latch for "rx_data[2]" at SPI_slavetest.vhd(60)
+Info (10041): Inferred latch for "rx_data[3]" at SPI_slavetest.vhd(60)
+Info (10041): Inferred latch for "rx_data[4]" at SPI_slavetest.vhd(60)
+Info (10041): Inferred latch for "rx_data[5]" at SPI_slavetest.vhd(60)
+Info (10041): Inferred latch for "rx_data[6]" at SPI_slavetest.vhd(60)
+Info (10041): Inferred latch for "rx_data[7]" at SPI_slavetest.vhd(60)
+Info (10041): Inferred latch for "rx_data[8]" at SPI_slavetest.vhd(60)
+Info (10041): Inferred latch for "rx_data[9]" at SPI_slavetest.vhd(60)
+Info (10041): Inferred latch for "rx_data[10]" at SPI_slavetest.vhd(60)
+Info (10041): Inferred latch for "rx_data[11]" at SPI_slavetest.vhd(60)
+Info (10041): Inferred latch for "rx_data[12]" at SPI_slavetest.vhd(60)
+Info (10041): Inferred latch for "rx_data[13]" at SPI_slavetest.vhd(60)
+Info (10041): Inferred latch for "rx_data[14]" at SPI_slavetest.vhd(60)
+Info (10041): Inferred latch for "rx_data[15]" at SPI_slavetest.vhd(60)
+Info (10041): Inferred latch for "rx_data[16]" at SPI_slavetest.vhd(60)
+Info (10041): Inferred latch for "rx_data[17]" at SPI_slavetest.vhd(60)
+Info (10041): Inferred latch for "rx_data[18]" at SPI_slavetest.vhd(60)
+Info (10041): Inferred latch for "rx_data[19]" at SPI_slavetest.vhd(60)
+Info (10041): Inferred latch for "rx_data[20]" at SPI_slavetest.vhd(60)
+Info (10041): Inferred latch for "rx_data[21]" at SPI_slavetest.vhd(60)
+Info (10041): Inferred latch for "rx_data[22]" at SPI_slavetest.vhd(60)
+Info (10041): Inferred latch for "rx_data[23]" at SPI_slavetest.vhd(60)
+Info (13000): Registers with preset signals will power-up high
+Info (13003): DEV_CLRn pin will set, and not reset, register with preset signal due to NOT Gate Push-Back
+Warning (13004): Presettable and clearable registers converted to equivalent circuits with latches. Registers power-up to an undefined state, and DEVCLRn places the registers in an undefined state.
+    Warning (13310): Register "trdy~reg0" is converted into an equivalent circuit using register "trdy~reg0_emulated" and latch "trdy~1"
+    Warning (13310): Register "rrdy~reg0" is converted into an equivalent circuit using register "rrdy~reg0_emulated" and latch "rrdy~1"
+    Warning (13310): Register "roe~reg0" is converted into an equivalent circuit using register "roe~reg0_emulated" and latch "roe~1"
+    Warning (13310): Register "tx_buf[23]" is converted into an equivalent circuit using register "tx_buf[23]~_emulated" and latch "tx_buf[23]~1"
+    Warning (13310): Register "tx_buf[22]" is converted into an equivalent circuit using register "tx_buf[22]~_emulated" and latch "tx_buf[22]~6"
+    Warning (13310): Register "tx_buf[21]" is converted into an equivalent circuit using register "tx_buf[21]~_emulated" and latch "tx_buf[21]~11"
+    Warning (13310): Register "tx_buf[20]" is converted into an equivalent circuit using register "tx_buf[20]~_emulated" and latch "tx_buf[20]~16"
+    Warning (13310): Register "tx_buf[19]" is converted into an equivalent circuit using register "tx_buf[19]~_emulated" and latch "tx_buf[19]~21"
+    Warning (13310): Register "tx_buf[18]" is converted into an equivalent circuit using register "tx_buf[18]~_emulated" and latch "tx_buf[18]~26"
+    Warning (13310): Register "tx_buf[17]" is converted into an equivalent circuit using register "tx_buf[17]~_emulated" and latch "tx_buf[17]~31"
+    Warning (13310): Register "tx_buf[16]" is converted into an equivalent circuit using register "tx_buf[16]~_emulated" and latch "tx_buf[16]~36"
+    Warning (13310): Register "tx_buf[15]" is converted into an equivalent circuit using register "tx_buf[15]~_emulated" and latch "tx_buf[15]~41"
+    Warning (13310): Register "tx_buf[14]" is converted into an equivalent circuit using register "tx_buf[14]~_emulated" and latch "tx_buf[14]~46"
+    Warning (13310): Register "tx_buf[13]" is converted into an equivalent circuit using register "tx_buf[13]~_emulated" and latch "tx_buf[13]~51"
+    Warning (13310): Register "tx_buf[12]" is converted into an equivalent circuit using register "tx_buf[12]~_emulated" and latch "tx_buf[12]~56"
+    Warning (13310): Register "tx_buf[11]" is converted into an equivalent circuit using register "tx_buf[11]~_emulated" and latch "tx_buf[11]~61"
+    Warning (13310): Register "tx_buf[10]" is converted into an equivalent circuit using register "tx_buf[10]~_emulated" and latch "tx_buf[10]~66"
+    Warning (13310): Register "tx_buf[9]" is converted into an equivalent circuit using register "tx_buf[9]~_emulated" and latch "tx_buf[9]~71"
+    Warning (13310): Register "tx_buf[8]" is converted into an equivalent circuit using register "tx_buf[8]~_emulated" and latch "tx_buf[8]~76"
+    Warning (13310): Register "tx_buf[7]" is converted into an equivalent circuit using register "tx_buf[7]~_emulated" and latch "tx_buf[7]~81"
+    Warning (13310): Register "tx_buf[6]" is converted into an equivalent circuit using register "tx_buf[6]~_emulated" and latch "tx_buf[6]~86"
+    Warning (13310): Register "tx_buf[5]" is converted into an equivalent circuit using register "tx_buf[5]~_emulated" and latch "tx_buf[5]~91"
+    Warning (13310): Register "tx_buf[4]" is converted into an equivalent circuit using register "tx_buf[4]~_emulated" and latch "tx_buf[4]~96"
+    Warning (13310): Register "tx_buf[3]" is converted into an equivalent circuit using register "tx_buf[3]~_emulated" and latch "tx_buf[3]~101"
+    Warning (13310): Register "tx_buf[2]" is converted into an equivalent circuit using register "tx_buf[2]~_emulated" and latch "tx_buf[2]~106"
+    Warning (13310): Register "tx_buf[1]" is converted into an equivalent circuit using register "tx_buf[1]~_emulated" and latch "tx_buf[1]~111"
+    Warning (13310): Register "tx_buf[0]" is converted into an equivalent circuit using register "tx_buf[0]~_emulated" and latch "tx_buf[0]~116"
+Info (286030): Timing-Driven Synthesis is running
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Info (21057): Implemented 277 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 34 input pins
+    Info (21059): Implemented 29 output pins
+    Info (21061): Implemented 214 logic cells
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 68 warnings
+    Info: Peak virtual memory: 538 megabytes
+    Info: Processing ended: Tue May 14 10:57:19 2019
+    Info: Elapsed time: 00:00:04
+    Info: Total CPU time (on all processors): 00:00:03
+
+

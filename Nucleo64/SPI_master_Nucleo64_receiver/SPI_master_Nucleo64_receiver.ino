@@ -26,10 +26,12 @@ void setup() {
 void loop() {
 
   //Getting the values from FPGA. Slave 2
-  SPI.begin(); // wake up the SPI bus.
+  //SPI.begin(); // wake up the SPI bus.
+  SPI.beginTransaction(SPISettings(12000000, MSBFIRST, SPI_MODE2));
   digitalWrite(ss, LOW);
 
   SPI.transfer(0);
+  SPI.transfer(5);
   receivedVal = SPI.transfer(0);
   
 

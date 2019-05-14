@@ -1,0 +1,25 @@
+set_global_assignment -entity "LP100" -library "lib_LP100" -name IP_TOOL_NAME "altera_fir_compiler_ii"
+set_global_assignment -entity "LP100" -library "lib_LP100" -name IP_TOOL_VERSION "13.1"
+set_global_assignment -entity "LP100" -library "lib_LP100" -name IP_TOOL_ENV "mwpim"
+set_global_assignment -library "lib_LP100" -name SPD_FILE [file join $::quartus(sip_path) "LP100.spd"]
+
+set_global_assignment -library "lib_LP100" -name MISC_FILE [file join $::quartus(sip_path) "LP100_sim/altera_avalon_sc_fifo.v"]
+set_global_assignment -library "lib_LP100" -name MISC_FILE [file join $::quartus(sip_path) "LP100_sim/auk_dspip_math_pkg_hpfir.vhd"]
+set_global_assignment -library "lib_LP100" -name MISC_FILE [file join $::quartus(sip_path) "LP100_sim/auk_dspip_lib_pkg_hpfir.vhd"]
+set_global_assignment -library "lib_LP100" -name MISC_FILE [file join $::quartus(sip_path) "LP100_sim/auk_dspip_avalon_streaming_controller_hpfir.vhd"]
+set_global_assignment -library "lib_LP100" -name MISC_FILE [file join $::quartus(sip_path) "LP100_sim/auk_dspip_avalon_streaming_sink_hpfir.vhd"]
+set_global_assignment -library "lib_LP100" -name MISC_FILE [file join $::quartus(sip_path) "LP100_sim/auk_dspip_avalon_streaming_source_hpfir.vhd"]
+set_global_assignment -library "lib_LP100" -name MISC_FILE [file join $::quartus(sip_path) "LP100_sim/auk_dspip_roundsat_hpfir.vhd"]
+set_global_assignment -library "lib_LP100" -name MISC_FILE [file join $::quartus(sip_path) "LP100_sim/dspba_library_package.vhd"]
+set_global_assignment -library "lib_LP100" -name MISC_FILE [file join $::quartus(sip_path) "LP100_sim/dspba_library.vhd"]
+set_global_assignment -library "lib_LP100" -name MISC_FILE [file join $::quartus(sip_path) "LP100_sim/LP100_rtl.vhd"]
+set_global_assignment -library "lib_LP100" -name MISC_FILE [file join $::quartus(sip_path) "LP100_sim/LP100_ast.vhd"]
+set_global_assignment -library "lib_LP100" -name MISC_FILE [file join $::quartus(sip_path) "LP100_sim/LP100.vhd"]
+set_global_assignment -library "lib_LP100" -name MISC_FILE [file join $::quartus(sip_path) "LP100_sim/LP100_nativelink.tcl"]
+set_global_assignment -library "lib_LP100" -name MISC_FILE [file join $::quartus(sip_path) "LP100_sim/LP100_msim.tcl"]
+set_global_assignment -library "lib_LP100" -name MISC_FILE [file join $::quartus(sip_path) "LP100_sim/LP100_tb.vhd"]
+set_global_assignment -library "lib_LP100" -name MISC_FILE [file join $::quartus(sip_path) "LP100_sim/LP100_mlab.m"]
+set_global_assignment -library "lib_LP100" -name MISC_FILE [file join $::quartus(sip_path) "LP100_sim/LP100_model.m"]
+set_global_assignment -library "lib_LP100" -name MISC_FILE [file join $::quartus(sip_path) "LP100_sim/LP100_coef_int.txt"]
+set_global_assignment -library "lib_LP100" -name MISC_FILE [file join $::quartus(sip_path) "LP100_sim/LP100_input.txt"]
+set_global_assignment -library "lib_LP100" -name MISC_FILE [file join $::quartus(sip_path) "LP100_sim/LP100_param.txt"]

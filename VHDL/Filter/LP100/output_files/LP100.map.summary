@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue May 14 10:47:53 2019
+Quartus II 64-Bit Version : 13.1.0 Build 162 10/23/2013 SJ Web Edition
+Revision Name : LP100
+Top-level Entity Name : LP100
+Family : Cyclone III
+Total logic elements : 424
+    Total combinational functions : 258
+    Dedicated logic registers : 302
+Total registers : 302
+Total pins : 56
+Total virtual pins : 0
+Total memory bits : 3,072
+Embedded Multiplier 9-bit elements : 3
+Total PLLs : 0

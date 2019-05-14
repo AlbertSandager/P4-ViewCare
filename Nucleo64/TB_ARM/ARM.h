@@ -20,7 +20,8 @@ class ARM
   void Test_convertLong2bit24vector(long val);
   long Test_getData(byte kanal);
   // Konstanter der bruges i til konfigurrering;
-  int ss=10; 
+  int ss=8; 
+  int trdy=7;
   byte bit24val[3];
   
   private:

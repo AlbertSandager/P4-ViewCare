@@ -12,11 +12,13 @@ void ARM::konfig() {
   Serial.begin(115200);
   pinMode(ss, OUTPUT); // we use this for SS pin
   SPI.begin(); // wake up the SPI bus.
+  SPI.beginTransaction(SPISettings(10000000, MSBFIRST, SPI_MODE2));
   SPI.setBitOrder(MSBFIRST); //MSB (most significant byte) first
   pinMode(3, INPUT_PULLUP);
   SPI.setDataMode (SPI_MODE2);
   //SPI.setClockDivider(SPI_CLOCK_DIV32);
   Serial.println("ARM kode kører");
+  pinMode(trdy,INPUT);
 
 }
 
@@ -65,7 +67,7 @@ void ARM::Test_convertLong2bit24vector(long val)
     bit24val[i] = lowByte(val);
     val = val >> 8;
   }
-  Serial.print("Sendval convert:  "); Serial.print(sendVal); Serial.print(" to "); 
+  //Serial.print("Sendval convert:  "); Serial.print(sendVal); Serial.print(" to "); 
   Serial.println(bit24val[0]);
   Serial.println(bit24val[1]);
   Serial.println(bit24val[2]);
@@ -87,20 +89,22 @@ long ARM::Test_getData(byte kanal)
   buffer3 = SPI.transfer(0);
   digitalWrite(ss, HIGH);
   //sammensæt modtaget data i en long variabel og returner
+
+  Serial.print("buffer1: ");
+  Serial.println(buffer1);
+  
+  Serial.print("buffer2: ");
+  Serial.println(buffer2);
+  
+  Serial.print("buffer3: ");
+  Serial.println(buffer3);
   
   buffer1 = buffer1 << 16;
   buffer2 = buffer2 << 8;
-  Serial.print("buffer1: ";
-  Serial.println(buffer1);
-  
-  Serial.print("buffer2: ";
-  Serial.println(buffer2);
-  
-  Serial.print("buffer3: ";
-  Serial.println(buffer3);
+
   
   val = buffer1 + buffer2 + buffer3;
-  Serial.print("val: ";
+  Serial.print("val: ");
   Serial.println(val);
   return val;
 }

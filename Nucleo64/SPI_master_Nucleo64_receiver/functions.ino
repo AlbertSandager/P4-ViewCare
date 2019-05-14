@@ -3,7 +3,7 @@ void SPIinit() {
   SPI.setBitOrder(MSBFIRST); //MSB (most significant byte) first
   pinMode(ss, OUTPUT); // we use this for SS pin
   pinMode(cs, OUTPUT);
-  SPI.setDataMode (SPI_MODE1);
+  SPI.setDataMode (SPI_MODE2);
   //SPI.setClockDivider(SPI_CLOCK_DIV32);
 }
 

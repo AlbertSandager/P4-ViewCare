@@ -7,7 +7,7 @@ void setup() {
   pinMode(ss, OUTPUT); // we use this for SS pin
   SPI.begin(); // wake up the SPI bus.
   SPI.setBitOrder(MSBFIRST); //MSB (most significant byte) first
-  SPI.setDataMode (SPI_MODE2);
+  SPI.setDataMode (SPI_MODE1);
   pinMode(3, INPUT_PULLUP);
   //SPI.setClockDivider(SPI_CLOCK_DIV4);
 

@@ -13,13 +13,15 @@ port (
 	lrclk : in std_logic;
 	reset : in std_logic;
 	adc_data : in std_logic;
-	valid : out std_logic;
+	l_ready : out std_logic;
+	r_ready : out std_logic;
 	l_rx_data : out std_logic_vector(i2s_d_width - 1 downto 0);
 	r_rx_data : out std_logic_vector(i2s_d_width - 1 downto 0)
 	);
 end I2S;
 
 architecture Behavorial of I2S is
+	signal valid : std_logic;
 	signal l_sr_in : std_logic_vector(i2s_d_width - 1 downto 0);
 	signal r_sr_in : std_logic_vector(i2s_d_width - 1 downto 0);
 	signal neg_edge, pos_edge : std_logic;
@@ -95,7 +97,27 @@ begin
           	end if;
         end if;
     end process;
-
+	 
+	 
+	l_sample_ready : process(clk)
+	 begin
+	 if valid = '1' and lrclk = '0' then
+	 l_ready <= '1';
+	 else
+	 l_ready <= '0';
+	 end if;
+	 end process;
+	 
+	 
+	r_sample_ready : process(clk)
+	 begin
+	 if valid = '1' and lrclk = '1' then
+	 r_ready <= '1';
+	 else
+	 r_ready <= '0';
+	 end if;
+	end process;
+	 
 	 
     l_get_data : process(clk)
     begin

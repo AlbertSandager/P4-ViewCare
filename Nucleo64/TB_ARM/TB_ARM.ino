@@ -18,10 +18,18 @@ void setup() {
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-  if (digitalRead(arm.trdy) == HIGH) {
-    
+  // Modtag vha. følgende if statement:
+ /* if (digitalRead(arm.trdy) == HIGH) {
     arm.Test_getData(kanal1);
-    
   }
+*/
+
+
+
+  //Test af bitshift. 
+    //arm.Test_Bitshift_getData(kanal1);
+
+  //Test af convertLong2bit24Vector: 
+  arm.Test_convertLong2bit24vector(2176812);
+  delay(6000);
 }

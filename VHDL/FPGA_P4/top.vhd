@@ -27,7 +27,6 @@ port (
 	
 	-- I2S ports
 	i2s_clk, i2s_bclk, i2s_lrclk, i2s_adc_data : in std_logic;
-	i2s_valid : out std_logic;
 	i2s_l_led_out : out std_logic_vector(i2s_d_width - 1 downto 0);
 	i2s_r_led_out : out std_logic_vector(i2s_d_width - 1 downto 0)
 	);
@@ -39,13 +38,19 @@ architecture Behavorial of top is
 --send and receive vectors are defined
 signal ecg_rx_data : std_logic_vector(spi_d_width-1 downto 0) := (others => '0');
 signal ecg_rrdy : std_logic := '0';
+signal ecg_reset_n : std_logic := '1';
+
 signal rec_tx_load_data : std_logic_vector(spi_d_width-1 downto 0);
 signal rec_tx_load_en : std_logic;
+signal rec_reset_n : std_logic := '1';
+
+signal i2s_l_ready, i2s_r_ready : std_logic;
 signal i2s_l_rx_data : std_logic_vector(i2s_d_width - 1 downto 0);
 signal i2s_r_rx_data : std_logic_vector(i2s_d_width - 1 downto 0);
-signal ecg_reset_n : std_logic := '1';
-signal rec_reset_n : std_logic := '1';
 signal i2s_reset : std_logic := '1';
+
+
+
 
 
 component SPI_slave
@@ -62,7 +67,7 @@ end component;
 component I2S
 port (	
 	clk, bclk, lrclk, adc_data, reset : in std_logic;
-	valid : out std_logic;
+	l_ready, r_ready : out std_logic;
 	l_rx_data, r_rx_data : out std_logic_vector(i2s_d_width - 1 downto 0)
 	);
 end component;
@@ -119,7 +124,8 @@ i2s_ports: I2S port map (
 	lrclk=>i2s_lrclk,
 	adc_data=>i2s_adc_data,
 	reset=>i2s_reset,
-	valid=>i2s_valid,
+	l_ready=>i2s_l_ready,
+	r_ready=>i2s_r_ready,
 	l_rx_data=>i2s_l_rx_data,
 	r_rx_data=>i2s_r_rx_data
 	);
@@ -127,11 +133,11 @@ i2s_ports: I2S port map (
 	
 	--Code starts here!
 	
-	rec_tx_load_data <= ecg_rx_data;
-	rec_tx_load_en <= ecg_rrdy;
+	rec_tx_load_data <= i2s_l_rx_data;
+	rec_tx_load_en <= i2s_l_ready;
 	
-	--i2s_l_led_out <= i2s_l_rx_data;
-	--i2s_r_led_out <= i2s_r_rx_data;
+	i2s_l_led_out <= i2s_l_rx_data;
+	i2s_r_led_out <= i2s_r_rx_data;
 
 
 end Behavorial;

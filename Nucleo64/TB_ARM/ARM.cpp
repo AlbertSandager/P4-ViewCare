@@ -62,12 +62,11 @@ void ARM::convertLong2bit24vector(long val)
 
 void ARM::Test_convertLong2bit24vector(long val)
 {
-  
+  Serial.print("Val: "); Serial.print(val); Serial.println(" to:"); 
   for (int i = 0; i < 3 ; i++) {
     bit24val[i] = lowByte(val);
     val = val >> 8;
   }
-  //Serial.print("Sendval convert:  "); Serial.print(sendVal); Serial.print(" to "); 
   Serial.println(bit24val[0]);
   Serial.println(bit24val[1]);
   Serial.println(bit24val[2]);
@@ -112,9 +111,9 @@ long ARM::Test_getData(byte kanal)
 //test af bitshift der viser det hele på serial print. 
 long ARM::Test_Bitshift_getData(byte kanal)
 {
-  long buffer1 = 0;
-  long buffer2 = 0;
-  long buffer3 = 0;
+  long buffer1 = 33;
+  long buffer2 = 55;
+  long buffer3 = 44;
   long val = 0;
   // modtag data over SPI bussen
  /*
@@ -139,6 +138,7 @@ long ARM::Test_Bitshift_getData(byte kanal)
   Serial.println("Bitshift af data");
   buffer1 = buffer1 << 16;
   buffer2 = buffer2 << 8;
+  
   Serial.print("buffer1 er flyttet 16 pladser til venstre: ");
   Serial.println(buffer1);
   

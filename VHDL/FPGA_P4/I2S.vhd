@@ -13,7 +13,8 @@ port (
 	lrclk : in std_logic;
 	reset : in std_logic;
 	adc_data : in std_logic;
-	ready : out std_logic;
+	l_ready : out std_logic;
+	r_ready : out std_logic;
 	l_rx_data : out std_logic_vector(i2s_d_width - 1 downto 0);
 	r_rx_data : out std_logic_vector(i2s_d_width - 1 downto 0)
 	);
@@ -98,6 +99,21 @@ begin
     end process;
 	 
 	 
+	sample_ready : process(clk)
+	 begin
+	 if lrclk = '1' then
+	 l_ready <= '1';
+	 else
+	 l_ready <= '0';
+	 end if;
+	 if lrclk = '0' then
+	 r_ready <= '1';
+	 else
+	 r_ready <= '0';
+	 end if;
+	end process;
+	 
+	 
     l_get_data : process(clk)
     begin
     	if rising_edge(clk) then
@@ -111,15 +127,13 @@ begin
 		l_rx_data <= l_sr_in;
 		
 		
+		
 	 r_get_data : process(clk)
     begin
     	if rising_edge(clk) then
     		if pos_edge = '1' and new_sample = '1' and lrclk = '1' then
    	        	-- receive
                 r_sr_in <= r_sr_in(r_sr_in'high - 1 downto 0) & adc_data;
-					 ready <= '1';
-					 else
-					 ready <= '0';
         	end if;
        	end if;
    	end process;

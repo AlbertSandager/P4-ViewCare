@@ -2,75 +2,79 @@
 TimeQuest Timing Analyzer Summary
 ------------------------------------------------------------
 
-Type  : Slow 1200mV 85C Model Setup 'rec_sclk'
-Slack : -3.854
-TNS   : -113.445
-
 Type  : Slow 1200mV 85C Model Setup 'ecg_sclk'
-Slack : -2.773
-TNS   : -88.167
+Slack : -3.201
+TNS   : -84.192
+
+Type  : Slow 1200mV 85C Model Setup 'rec_sclk'
+Slack : -2.171
+TNS   : -75.287
 
 Type  : Slow 1200mV 85C Model Setup 'i2s_clk'
-Slack : -1.180
-TNS   : -7.038
-
-Type  : Slow 1200mV 85C Model Setup 'ecg_ss_n'
-Slack : -0.738
-TNS   : -8.058
+Slack : -1.650
+TNS   : -76.973
 
 Type  : Slow 1200mV 85C Model Setup 'rec_rx_req'
-Slack : -0.236
-TNS   : -0.572
+Slack : -0.665
+TNS   : -3.230
 
-Type  : Slow 1200mV 85C Model Hold 'ecg_ss_n'
-Slack : -0.719
-TNS   : -17.161
-
-Type  : Slow 1200mV 85C Model Hold 'rec_rx_req'
-Slack : -0.373
-TNS   : -5.582
-
-Type  : Slow 1200mV 85C Model Hold 'rec_sclk'
-Slack : 0.251
+Type  : Slow 1200mV 85C Model Setup 'i2s_lrclk'
+Slack : 0.014
 TNS   : 0.000
 
+Type  : Slow 1200mV 85C Model Hold 'i2s_lrclk'
+Slack : -0.394
+TNS   : -7.536
+
+Type  : Slow 1200mV 85C Model Hold 'rec_rx_req'
+Slack : -0.340
+TNS   : -1.294
+
 Type  : Slow 1200mV 85C Model Hold 'i2s_clk'
-Slack : 0.359
+Slack : -0.142
+TNS   : -0.142
+
+Type  : Slow 1200mV 85C Model Hold 'rec_sclk'
+Slack : 0.258
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Hold 'ecg_sclk'
-Slack : 0.381
+Slack : 0.393
 TNS   : 0.000
 
-Type  : Slow 1200mV 85C Model Recovery 'rec_sclk'
-Slack : -3.189
-TNS   : -82.112
-
 Type  : Slow 1200mV 85C Model Recovery 'ecg_sclk'
-Slack : -1.900
-TNS   : -72.231
+Slack : -2.584
+TNS   : -82.672
+
+Type  : Slow 1200mV 85C Model Recovery 'rec_sclk'
+Slack : -2.170
+TNS   : -54.851
 
 Type  : Slow 1200mV 85C Model Removal 'rec_sclk'
-Slack : 0.344
+Slack : 0.339
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Removal 'ecg_sclk'
-Slack : 0.648
+Slack : 0.540
 TNS   : 0.000
-
-Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ecg_sclk'
-Slack : -3.000
-TNS   : -90.000
 
 Type  : Slow 1200mV 85C Model Minimum Pulse Width 'rec_sclk'
 Slack : -3.000
 TNS   : -90.000
 
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ecg_sclk'
+Slack : -3.000
+TNS   : -66.000
+
 Type  : Slow 1200mV 85C Model Minimum Pulse Width 'i2s_clk'
 Slack : -3.000
-TNS   : -18.000
+TNS   : -66.000
 
 Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ecg_ss_n'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'i2s_lrclk'
 Slack : -3.000
 TNS   : -3.000
 
@@ -78,75 +82,79 @@ Type  : Slow 1200mV 85C Model Minimum Pulse Width 'rec_rx_req'
 Slack : -3.000
 TNS   : -3.000
 
-Type  : Slow 1200mV 0C Model Setup 'rec_sclk'
-Slack : -3.350
-TNS   : -95.499
-
 Type  : Slow 1200mV 0C Model Setup 'ecg_sclk'
-Slack : -2.385
-TNS   : -73.332
+Slack : -2.779
+TNS   : -72.153
+
+Type  : Slow 1200mV 0C Model Setup 'rec_sclk'
+Slack : -1.841
+TNS   : -61.737
 
 Type  : Slow 1200mV 0C Model Setup 'i2s_clk'
-Slack : -0.967
-TNS   : -5.208
-
-Type  : Slow 1200mV 0C Model Setup 'ecg_ss_n'
-Slack : -0.577
-TNS   : -4.911
+Slack : -1.387
+TNS   : -63.989
 
 Type  : Slow 1200mV 0C Model Setup 'rec_rx_req'
-Slack : -0.134
-TNS   : -0.167
+Slack : -0.498
+TNS   : -1.281
 
-Type  : Slow 1200mV 0C Model Hold 'ecg_ss_n'
-Slack : -0.618
-TNS   : -13.175
-
-Type  : Slow 1200mV 0C Model Hold 'rec_rx_req'
-Slack : -0.274
-TNS   : -3.180
-
-Type  : Slow 1200mV 0C Model Hold 'rec_sclk'
-Slack : 0.229
+Type  : Slow 1200mV 0C Model Setup 'i2s_lrclk'
+Slack : 0.113
 TNS   : 0.000
 
+Type  : Slow 1200mV 0C Model Hold 'i2s_lrclk'
+Slack : -0.327
+TNS   : -6.120
+
+Type  : Slow 1200mV 0C Model Hold 'rec_rx_req'
+Slack : -0.273
+TNS   : -0.551
+
 Type  : Slow 1200mV 0C Model Hold 'i2s_clk'
-Slack : 0.312
+Slack : -0.072
+TNS   : -0.072
+
+Type  : Slow 1200mV 0C Model Hold 'rec_sclk'
+Slack : 0.239
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Hold 'ecg_sclk'
-Slack : 0.333
+Slack : 0.352
 TNS   : 0.000
 
-Type  : Slow 1200mV 0C Model Recovery 'rec_sclk'
-Slack : -2.763
-TNS   : -71.289
-
 Type  : Slow 1200mV 0C Model Recovery 'ecg_sclk'
-Slack : -1.612
-TNS   : -60.186
+Slack : -2.239
+TNS   : -70.352
+
+Type  : Slow 1200mV 0C Model Recovery 'rec_sclk'
+Slack : -1.890
+TNS   : -45.200
 
 Type  : Slow 1200mV 0C Model Removal 'rec_sclk'
-Slack : 0.303
+Slack : 0.297
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Removal 'ecg_sclk'
-Slack : 0.584
+Slack : 0.493
 TNS   : 0.000
-
-Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ecg_sclk'
-Slack : -3.000
-TNS   : -90.000
 
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'rec_sclk'
 Slack : -3.000
 TNS   : -90.000
 
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ecg_sclk'
+Slack : -3.000
+TNS   : -66.000
+
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'i2s_clk'
 Slack : -3.000
-TNS   : -18.000
+TNS   : -66.000
 
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ecg_ss_n'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'i2s_lrclk'
 Slack : -3.000
 TNS   : -3.000
 
@@ -154,80 +162,84 @@ Type  : Slow 1200mV 0C Model Minimum Pulse Width 'rec_rx_req'
 Slack : -3.000
 TNS   : -3.000
 
-Type  : Fast 1200mV 0C Model Setup 'rec_sclk'
-Slack : -2.374
-TNS   : -58.434
-
 Type  : Fast 1200mV 0C Model Setup 'ecg_sclk'
-Slack : -1.759
-TNS   : -43.404
+Slack : -2.021
+TNS   : -49.613
 
-Type  : Fast 1200mV 0C Model Setup 'ecg_ss_n'
-Slack : -0.600
-TNS   : -8.005
+Type  : Fast 1200mV 0C Model Setup 'rec_sclk'
+Slack : -1.217
+TNS   : -29.912
 
 Type  : Fast 1200mV 0C Model Setup 'i2s_clk'
-Slack : -0.209
-TNS   : -0.901
+Slack : -0.534
+TNS   : -20.804
 
 Type  : Fast 1200mV 0C Model Setup 'rec_rx_req'
-Slack : 0.207
+Slack : 0.046
 TNS   : 0.000
 
-Type  : Fast 1200mV 0C Model Hold 'ecg_ss_n'
-Slack : -0.399
-TNS   : -12.475
+Type  : Fast 1200mV 0C Model Setup 'i2s_lrclk'
+Slack : 0.366
+TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Hold 'rec_rx_req'
-Slack : -0.304
-TNS   : -4.994
+Slack : -0.281
+TNS   : -2.180
 
-Type  : Fast 1200mV 0C Model Hold 'rec_sclk'
-Slack : 0.052
-TNS   : 0.000
+Type  : Fast 1200mV 0C Model Hold 'i2s_lrclk'
+Slack : -0.264
+TNS   : -5.097
 
 Type  : Fast 1200mV 0C Model Hold 'i2s_clk'
-Slack : 0.187
+Slack : -0.145
+TNS   : -1.041
+
+Type  : Fast 1200mV 0C Model Hold 'rec_sclk'
+Slack : 0.044
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Hold 'ecg_sclk'
-Slack : 0.199
+Slack : 0.205
 TNS   : 0.000
 
-Type  : Fast 1200mV 0C Model Recovery 'rec_sclk'
-Slack : -1.987
-TNS   : -49.207
-
 Type  : Fast 1200mV 0C Model Recovery 'ecg_sclk'
-Slack : -1.269
-TNS   : -50.436
+Slack : -1.701
+TNS   : -57.427
+
+Type  : Fast 1200mV 0C Model Recovery 'rec_sclk'
+Slack : -1.110
+TNS   : -28.047
 
 Type  : Fast 1200mV 0C Model Removal 'rec_sclk'
-Slack : 0.140
+Slack : 0.109
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Removal 'ecg_sclk'
-Slack : 0.345
+Slack : 0.313
 TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ecg_sclk'
-Slack : -3.000
-TNS   : -101.407
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'rec_sclk'
 Slack : -3.000
-TNS   : -100.890
+TNS   : -102.373
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ecg_sclk'
+Slack : -3.000
+TNS   : -73.103
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'i2s_clk'
 Slack : -3.000
-TNS   : -18.835
+TNS   : -69.470
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ecg_ss_n'
 Slack : -3.000
-TNS   : -6.185
+TNS   : -4.538
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'i2s_lrclk'
+Slack : -3.000
+TNS   : -3.000
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'rec_rx_req'
 Slack : -3.000
-TNS   : -3.128
+TNS   : -3.000
 
 ------------------------------------------------------------

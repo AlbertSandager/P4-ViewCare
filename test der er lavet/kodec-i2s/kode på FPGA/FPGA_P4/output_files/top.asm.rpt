@@ -1,5 +1,5 @@
 Assembler report for top
-Wed May 15 12:44:56 2019
+Wed May 15 14:47:46 2019
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -37,7 +37,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Wed May 15 12:44:56 2019 ;
+; Assembler Status      ; Successful - Wed May 15 14:47:46 2019 ;
 ; Revision Name         ; top                                   ;
 ; Top-level Entity Name ; top                                   ;
 ; Family                ; Cyclone III                           ;
@@ -92,8 +92,8 @@ applicable agreement for further details.
 ; Option         ; Setting                                                                                          ;
 +----------------+--------------------------------------------------------------------------------------------------+
 ; Device         ; EP3C16F484C6                                                                                     ;
-; JTAG usercode  ; 0x00105CE1                                                                                       ;
-; Checksum       ; 0x00105CE1                                                                                       ;
+; JTAG usercode  ; 0x0010389F                                                                                       ;
+; Checksum       ; 0x0010389F                                                                                       ;
 +----------------+--------------------------------------------------------------------------------------------------+
 
 
@@ -103,14 +103,14 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Assembler
     Info: Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
-    Info: Processing started: Wed May 15 12:44:54 2019
+    Info: Processing started: Wed May 15 14:47:45 2019
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off FPGA_P4 -c top
 Info (115031): Writing out detailed assembly data for power analysis
 Info (115030): Assembler is generating device programming files
 Info: Quartus II 64-Bit Assembler was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 456 megabytes
-    Info: Processing ended: Wed May 15 12:44:57 2019
-    Info: Elapsed time: 00:00:03
+    Info: Processing ended: Wed May 15 14:47:46 2019
+    Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:02
 
 

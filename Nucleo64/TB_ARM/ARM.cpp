@@ -112,9 +112,9 @@ long ARM::Test_getData(byte kanal)
 //test af bitshift der viser det hele på serial print. 
 long ARM::Test_Bitshift_getData(byte kanal)
 {
-  long buffer1 = 0;
-  long buffer2 = 0;
-  long buffer3 = 0;
+  long buffer1 = 33;
+  long buffer2 = 55;
+  long buffer3 = 44;
   long val = 0;
   // modtag data over SPI bussen
  /*
@@ -139,6 +139,7 @@ long ARM::Test_Bitshift_getData(byte kanal)
   Serial.println("Bitshift af data");
   buffer1 = buffer1 << 16;
   buffer2 = buffer2 << 8;
+  
   Serial.print("buffer1 er flyttet 16 pladser til venstre: ");
   Serial.println(buffer1);
   

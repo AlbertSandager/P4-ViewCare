@@ -19,9 +19,11 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  if (digitalRead(arm.trdy) == HIGH) {
-    
+ /* if (digitalRead(arm.trdy) == HIGH) {
     arm.Test_getData(kanal1);
-    
   }
+*/
+  //Test af bitshift. 
+  arm.Test_Bitshift_getData(kanal1);
+  delay(6000);
 }

@@ -108,3 +108,38 @@ long ARM::Test_getData(byte kanal)
   Serial.println(val);
   return val;
 }
+
+
+long ARM::Test_Bitshift_getData(byte kanal)
+{
+  long buffer1 = 0;
+  long buffer2 = 0;
+  long buffer3 = 0;
+  long val = 0;
+  // modtag data over SPI bussen
+  digitalWrite(ss, LOW);
+  SPI.transfer(kanal);
+  buffer1 = SPI.transfer(0);
+  buffer2 = SPI.transfer(0);
+  buffer3 = SPI.transfer(0);
+  digitalWrite(ss, HIGH);
+  //sammensæt modtaget data i en long variabel og returner
+
+  Serial.print("buffer1: ");
+  Serial.println(buffer1);
+  
+  Serial.print("buffer2: ");
+  Serial.println(buffer2);
+  
+  Serial.print("buffer3: ");
+  Serial.println(buffer3);
+  
+  buffer1 = buffer1 << 16;
+  buffer2 = buffer2 << 8;
+
+  
+  val = buffer1 + buffer2 + buffer3;
+  Serial.print("val: ");
+  Serial.println(val);
+  return val;
+}

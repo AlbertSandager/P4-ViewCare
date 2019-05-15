@@ -27,7 +27,6 @@ port (
 	
 	-- I2S ports
 	i2s_clk, i2s_bclk, i2s_lrclk, i2s_adc_data : in std_logic;
-	i2s_ready_port : out std_logic;
 	i2s_l_led_out : out std_logic_vector(i2s_d_width - 1 downto 0);
 	i2s_r_led_out : out std_logic_vector(i2s_d_width - 1 downto 0)
 	);
@@ -135,10 +134,9 @@ i2s_ports: I2S port map (
 	
 	rec_tx_load_data <= i2s_l_rx_data;
 	rec_tx_load_en <= i2s_ready;
-	i2s_ready_port <= i2s_ready;
 	
-	i2s_l_led_out <= i2s_r_rx_data;
-	i2s_r_led_out <= i2s_l_rx_data;
+	i2s_l_led_out <= i2s_l_rx_data;
+	i2s_r_led_out <= i2s_r_rx_data;
 
 
 end Behavorial;

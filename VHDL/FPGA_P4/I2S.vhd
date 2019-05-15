@@ -117,12 +117,14 @@ begin
     		if pos_edge = '1' and new_sample = '1' and lrclk = '1' then
    	        	-- receive
                 r_sr_in <= r_sr_in(r_sr_in'high - 1 downto 0) & adc_data;
+					 ready <= '1';
+					 else
+					 ready <= '0';
         	end if;
        	end if;
    	end process;
 		
 		r_rx_data <= r_sr_in;
-		ready <= new_sample;
 		
 	 
 end Behavorial;

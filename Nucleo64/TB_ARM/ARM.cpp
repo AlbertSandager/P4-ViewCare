@@ -62,12 +62,11 @@ void ARM::convertLong2bit24vector(long val)
 
 void ARM::Test_convertLong2bit24vector(long val)
 {
-  
+  Serial.print("Val: "); Serial.print(val); Serial.println(" to:"); 
   for (int i = 0; i < 3 ; i++) {
     bit24val[i] = lowByte(val);
     val = val >> 8;
   }
-  //Serial.print("Sendval convert:  "); Serial.print(sendVal); Serial.print(" to "); 
   Serial.println(bit24val[0]);
   Serial.println(bit24val[1]);
   Serial.println(bit24val[2]);

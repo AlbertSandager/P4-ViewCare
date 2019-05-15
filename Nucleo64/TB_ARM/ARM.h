@@ -19,6 +19,9 @@ class ARM
   // Funktioner brugt til tests: 
   void Test_convertLong2bit24vector(long val);
   long Test_getData(byte kanal);
+  long Test_Bitshift_getData(byte kanal);
+
+  
   // Konstanter der bruges i til konfigurrering;
   int ss=8; 
   int trdy=7;

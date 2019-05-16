@@ -27,7 +27,6 @@ port (
 	
 	-- I2S ports
 	i2s_clk, i2s_bclk, i2s_lrclk, i2s_adc_data : in std_logic;
-	i2s_ready_port : out std_logic;
 	i2s_l_led_out : out std_logic_vector(i2s_d_width - 1 downto 0);
 	i2s_r_led_out : out std_logic_vector(i2s_d_width - 1 downto 0)
 	);
@@ -51,6 +50,10 @@ signal i2s_l_rx_data : std_logic_vector(i2s_d_width - 1 downto 0);
 signal i2s_r_rx_data : std_logic_vector(i2s_d_width - 1 downto 0);
 signal i2s_reset : std_logic := '1';
 
+signal mux_D1, mux_D2, mux_D3, mux_D4 : std_logic_vector (23 downto 0);
+signal mux_MX_OUT : std_logic_vector (23 downto 0);
+signal mux_SEL : std_logic_vector(1 downto 0);
+
 
 
 
@@ -73,8 +76,16 @@ port (
 	l_rx_data, r_rx_data : out std_logic_vector(i2s_d_width - 1 downto 0)
 	);
 end component;
-  
-  
+
+component Mux4to1
+port (
+	D1, D2, D3, D4 : in std_logic_vector (23 downto 0); 
+	MX_OUT : out std_logic_vector (23 downto 0);
+	SEL : in std_logic_vector(1 downto 0)
+);
+end component;
+
+
 begin
 
 --Setup for SPI slave for ECG
@@ -133,14 +144,29 @@ i2s_ports: I2S port map (
 	);
 
 	
+mux_ports: Mux4to1 port map (
+	D1=>mux_D1,
+	D2=>mux_D2,
+	D3=>mux_D3,
+	D4=>mux_D4,
+	MX_OUT=>mux_MX_OUT,
+	SEL=>mux_SEL
+	);
+
+
 	--Code starts here!
 	
-	rec_tx_load_data <= i2s_r_rx_data;
-	rec_tx_load_en <= i2s_r_ready;
-	i2s_ready_port <= i2s_r_ready;
-	
-	i2s_l_led_out <= i2s_r_rx_data;
-	i2s_r_led_out <= i2s_r_rx_data;
+	mux_D1 <= ecg_rx_data;
+	mux_D2 <= i2s_l_rx_data;
+	mux_D3 <= i2s_r_rx_data;
+
+
+	--rec_tx_load_data <= i2s_r_rx_data;
+	--rec_tx_load_en <= i2s_r_ready;
+	--i2s_ready_port <= i2s_r_ready;
+
+	--i2s_l_led_out <= i2s_r_rx_data;
+	--i2s_r_led_out <= i2s_r_rx_data;
 
 
 end Behavorial;

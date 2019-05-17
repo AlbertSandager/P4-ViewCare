@@ -1,0 +1,48 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Jesper\Documents\GitHub\P4-ViewCare\VHDL\Mux4to1\simulation\modelsim
+Emux4to1
+Z1 w1558076606
+Z2 DPx4 ieee 16 vital_primitives 0 22 9W@YP9_VCb?_GCJ8e:;YQ0
+Z3 DPx10 cycloneiii 20 cycloneiii_atom_pack 0 22 ]RlG5R]Q[aFAe9T5<XI<o1
+Z4 DPx4 ieee 12 vital_timing 0 22 7h8zz2S4HVg:a;2TBMI[j1
+Z5 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z6 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z7 DPx10 cycloneiii 21 cycloneiii_components 0 22 czVkNK5?8i<HPTLVSV_3a2
+Z8 dC:\Users\Jesper\Documents\GitHub\P4-ViewCare\VHDL\Mux4to1\simulation\modelsim
+Z9 8C:/Users/Jesper/Documents/GitHub/P4-ViewCare/VHDL/Mux4to1/simulation/modelsim/mux4to1.vho
+Z10 FC:/Users/Jesper/Documents/GitHub/P4-ViewCare/VHDL/Mux4to1/simulation/modelsim/mux4to1.vho
+l0
+L34
+V0EfajD682g5NZG@5Xin<d2
+!s100 8nPF:>cL1JN]gzh=DUFIi3
+Z11 OV;C;10.1d;51
+32
+!i10b 1
+Z12 !s108 1558076704.548000
+Z13 !s90 -reportprogress|300|-work|work|C:/Users/Jesper/Documents/GitHub/P4-ViewCare/VHDL/Mux4to1/simulation/modelsim/mux4to1.vho|
+Z14 !s107 C:/Users/Jesper/Documents/GitHub/P4-ViewCare/VHDL/Mux4to1/simulation/modelsim/mux4to1.vho|
+Z15 o-work work -O0
+Z16 tExplicit 1
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 7 mux4to1 0 22 0EfajD682g5NZG@5Xin<d2
+l357
+L170
+Vj9QPJ_Bobd4iUab<=[j9n1
+!s100 H:ilkWQieIl9E@eo]YTnQ2
+R11
+32
+!i10b 1
+R12
+R13
+R14
+R15
+R16

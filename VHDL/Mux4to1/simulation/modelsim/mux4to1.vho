@@ -16,7 +16,7 @@
 -- PROGRAM "Quartus II 64-Bit"
 -- VERSION "Version 13.1.0 Build 162 10/23/2013 SJ Web Edition"
 
--- DATE "05/08/2019 08:47:16"
+-- DATE "05/17/2019 09:07:32"
 
 -- 
 -- Device: Altera EP3C16F484C6 Package FBGA484
@@ -37,7 +37,7 @@ ENTITY 	mux4to1 IS
 	D2 : IN std_logic_vector(23 DOWNTO 0);
 	D3 : IN std_logic_vector(23 DOWNTO 0);
 	D4 : IN std_logic_vector(23 DOWNTO 0);
-	MX_OUT : OUT std_logic_vector(23 DOWNTO 0);
+	MX_OUT : BUFFER std_logic_vector(23 DOWNTO 0);
 	SEL : IN std_logic_vector(1 DOWNTO 0)
 	);
 END mux4to1;

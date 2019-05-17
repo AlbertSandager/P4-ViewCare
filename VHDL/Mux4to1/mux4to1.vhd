@@ -5,9 +5,9 @@ USE ieee.std_logic_arith.all;
 entity mux4to1 is 
 
 port( 
-	D1, D2, D3, D4      : IN     STD_LOGIC_vector(23 downto 0); 
-	MX_OUT				: OUT 	STD_LOGIC_VECTOR(23 downto 0);
-	SEL					: IN STD_LOGIC_vector(1 downto 0)
+	D1, D2, D3, D4	: IN	STD_LOGIC_vector(23 downto 0); 
+	MX_OUT			: OUT	STD_LOGIC_VECTOR(23 downto 0);
+	SEL				: IN	STD_LOGIC_vector(1 downto 0)
 );
 
 end mux4to1;

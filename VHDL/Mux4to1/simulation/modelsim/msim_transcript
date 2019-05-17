@@ -1,0 +1,87 @@
+# Reading C:/altera/13.1/modelsim_ase/tcl/vsim/pref.tcl 
+# do mux4to1_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# ** Error: (vdel-19) Failed to access library 'rtl_work' at "rtl_work".
+# 
+# No such file or directory. (errno = ENOENT)
+# ** Warning: (vdel-57) Library 'rtl_work' is missing or is not a valid ModelSim library.
+# 
+# ** Error: C:/altera/13.1/modelsim_ase/win32aloem/vdel failed.
+# Error in macro ./mux4to1_run_msim_rtl_vhdl.do line 4
+# C:/altera/13.1/modelsim_ase/win32aloem/vdel failed.
+#     while executing
+# "vdel -lib rtl_work -all"
+#     invoked from within
+# "if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }"
+vsim work.mux4to1
+# vsim work.mux4to1 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneiii.cycloneiii_atom_pack(body)
+# Loading cycloneiii.cycloneiii_components
+# Loading work.mux4to1(structure)
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneiii.cycloneiii_io_obuf(arch)
+# Loading cycloneiii.cycloneiii_io_ibuf(arch)
+# Loading cycloneiii.cycloneiii_lcell_comb(vital_lcell_comb)
+# ** Warning: Design size of 2 instances exceeds ModelSim ALTERA recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim Altera version. Expect performance to be adversely affected.
+add wave  \
+sim:/mux4to1/D1 \
+sim:/mux4to1/D2 \
+sim:/mux4to1/D3 \
+sim:/mux4to1/D4 \
+sim:/mux4to1/MX_OUT \
+sim:/mux4to1/SEL
+force -freeze sim:/mux4to1/SEL 00 0
+run
+force -freeze sim:/mux4to1/SEL 01 0
+run
+force -freeze sim:/mux4to1/SEL 10 0
+run
+force -freeze sim:/mux4to1/SEL 11 0
+run
+force -freeze sim:/mux4to1/SEL {} 0
+# Value length (0) does not equal array index length (2).
+# 
+# ** Error: (vsim-4011) Invalid force value: {} 0.
+# 
+force -freeze sim:/mux4to1/D1 000000000000000000000000 0
+force -freeze sim:/mux4to1/D2 111111111111111111111111 0
+force -freeze sim:/mux4to1/D3 101010101010101010101010 0
+force -drive sim:/mux4to1/D4 010101010101010101010101 0
+run
+restart
+force -freeze sim:/mux4to1/SEL UU 0
+run
+force -freeze sim:/mux4to1/SEL 00 0
+run
+force -freeze sim:/mux4to1/SEL 01 0
+run
+force -freeze sim:/mux4to1/SEL 10 0
+run
+force -freeze sim:/mux4to1/SEL 11 0
+run
+force -freeze sim:/mux4to1/SEL 00 0
+force -freeze sim:/mux4to1/D1 000000000000000000000000 0
+force -freeze sim:/mux4to1/D2 111111111111111111111111 0
+noforce sim:/mux4to1/SEL
+force -freeze sim:/mux4to1/D3 010101010101010101010101 0
+force -freeze sim:/mux4to1/D4 101010101010101010101010 0
+run
+force -freeze sim:/mux4to1/SEL 00 0
+run
+force -freeze sim:/mux4to1/SEL 01 0
+run
+force -freeze sim:/mux4to1/SEL 10 0
+run
+force -freeze sim:/mux4to1/SEL 11 0
+run

@@ -24,9 +24,16 @@ class ARM
   
   // Konstanter der bruges i til konfigurrering;
   int ss=8; 
-  int trdy=7;
+  int EKG_ready=6;  //interrupt til modtagelse fra ekg
+  int LYD_ready_L=5; //interrupt til modtagelse fra lyd left
+  int LYD_ready_R= 4; //interrupt til modtagelse fra lyd right
   byte bit24val[3];
-  
+
+  bool EKG_ready_bool;  //Fejlsikring med dobbelt afsendelse af data. 
+  bool LYD_ready_L_bool; //Fejlsikring med dobbelt afsendelse af data. 
+  bool LYD_ready_R_bool; //Fejlsikring med dobbelt afsendelse af data. 
+
+ 
   private:
   //kanaler fra fpga:
   

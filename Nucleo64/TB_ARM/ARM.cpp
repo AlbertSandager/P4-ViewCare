@@ -18,8 +18,9 @@ void ARM::konfig() {
   SPI.setDataMode (SPI_MODE2);
   //SPI.setClockDivider(SPI_CLOCK_DIV32);
   Serial.println("ARM kode kører");
-  pinMode(trdy,INPUT);
-
+  pinMode(EKG_ready,INPUT);
+  pinMode(LYD_ready_R,INPUT);
+  pinMode(LYD_ready_L,INPUT);
 }
 
 

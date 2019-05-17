@@ -29,9 +29,9 @@ class ARM
   int LYD_ready_R= 4; //interrupt til modtagelse fra lyd right
   byte bit24val[3];
 
-  bool EKG_ready_bool;  //Fejlsikring med dobbelt afsendelse af data. 
-  bool LYD_ready_L_bool; //Fejlsikring med dobbelt afsendelse af data. 
-  bool LYD_ready_R_bool; //Fejlsikring med dobbelt afsendelse af data. 
+  bool EKG_ready_bool=true;  //Fejlsikring med dobbelt afsendelse af data. 
+  bool LYD_ready_L_bool=true; //Fejlsikring med dobbelt afsendelse af data. 
+  bool LYD_ready_R_bool=true; //Fejlsikring med dobbelt afsendelse af data. 
 
  
   private:

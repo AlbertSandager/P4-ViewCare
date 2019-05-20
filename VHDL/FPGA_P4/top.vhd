@@ -7,7 +7,7 @@ use ieee.std_logic_arith.all;
 entity top is
 generic (
     spi_d_width : integer := 24; --defines the data width of the vectors for send and receive. (must also be changed in SPI_slave)
-	 i2s_d_width : integer := 24 --defines the data width for i2s
+	 i2s_d_width : integer := 32 --defines the data width for i2s
 	 );
 	 
 port (
@@ -24,7 +24,7 @@ port (
 	rec_rx_data      : out std_logic_vector(spi_d_width-1 downto 0) := (others => '0');
    rec_busy         : out std_logic := '0';
    rec_miso         : out std_logic := 'Z';
-	rec_ch1, rec_ch2 : out std_logic;
+	rec_ch1, rec_ch2 : buffer std_logic := '0';
 	
 	-- I2S ports
 	i2s_clk, i2s_bclk, i2s_lrclk, i2s_adc_data : in std_logic;
@@ -72,7 +72,7 @@ end component;
 component I2S
 port (	
 	clk, bclk, lrclk, adc_data, reset : in std_logic;
-	l_ready, r_ready : out std_logic;
+	l_ready_port, r_ready_port : out std_logic;
 	l_rx_data, r_rx_data : out std_logic_vector(i2s_d_width - 1 downto 0)
 	);
 end component;
@@ -139,8 +139,8 @@ i2s_ports: I2S port map (
 	lrclk=>i2s_lrclk,
 	adc_data=>i2s_adc_data,
 	reset=>i2s_reset,
-	l_ready=>i2s_l_ready,
-	r_ready=>i2s_r_ready,
+	l_ready_port=>i2s_l_ready,
+	r_ready_port=>i2s_r_ready,
 	l_rx_data=>i2s_l_rx_data,
 	r_rx_data=>i2s_r_rx_data
 	);
@@ -159,15 +159,14 @@ mux_ports: Mux4to1 port map (
 	--Code starts here!
 	
 	mux_D1 <= ecg_rx_data;
-	mux_D2 <= i2s_l_rx_data;
-	mux_D3 <= i2s_r_rx_data;
+	mux_D2 <= i2s_l_rx_data(23 downto 0);
+	mux_D3 <= i2s_r_rx_data(23 downto 0);
 
 	mux_SEL(0) <= rec_ch_add1;
 	mux_SEL(1) <= rec_ch_add2;
-
+	
 	rec_ch1 <= rec_ch_add1;
 	rec_ch2 <= rec_ch_add2;
-	
 	
 	rec_tx_load_data <= mux_MX_OUT;
 	

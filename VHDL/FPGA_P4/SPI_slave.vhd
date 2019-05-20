@@ -25,8 +25,8 @@ ENTITY SPI_slave IS
     rx_data      : OUT    STD_LOGIC_VECTOR(spi_d_width-1 DOWNTO 0) := (OTHERS => '0');  --receive register output to logic
     busy         : OUT    STD_LOGIC := '0';  --busy signal to logic ('1' during transaction)
     miso         : OUT    STD_LOGIC := 'Z'; --master in, slave out
-	 ch_add1_port : OUT STD_LOGIC;
-	 ch_add2_port : OUT STD_LOGIC
+	 ch_add1_port : BUFFER STD_LOGIC := '0';
+	 ch_add2_port : BUFFER STD_LOGIC := '0'
 	 );
 END SPI_slave;
 

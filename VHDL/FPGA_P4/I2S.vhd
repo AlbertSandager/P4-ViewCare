@@ -3,8 +3,8 @@ use ieee.std_logic_1164.all;
 
 entity I2S is
 generic (
-	i2s_d_width : integer := 24;
-	BITPERFRAME : integer := 48
+	i2s_d_width : integer := 32;
+	BITPERFRAME : integer := 64
 	);
 	
 port (
@@ -13,14 +13,16 @@ port (
 	lrclk : in std_logic;
 	reset : in std_logic;
 	adc_data : in std_logic;
-	l_ready : out std_logic;
-	r_ready : out std_logic;
+	l_ready_port : out std_logic;
+	r_ready_port : out std_logic;
 	l_rx_data : out std_logic_vector(i2s_d_width - 1 downto 0);
 	r_rx_data : out std_logic_vector(i2s_d_width - 1 downto 0)
 	);
 end I2S;
 
 architecture Behavorial of I2S is
+	signal l_ready : std_logic;
+	signal r_ready : std_logic;
 	signal valid : std_logic;
 	signal l_sr_in : std_logic_vector(i2s_d_width - 1 downto 0);
 	signal r_sr_in : std_logic_vector(i2s_d_width - 1 downto 0);
@@ -139,6 +141,8 @@ begin
    	end process;
 		
 		r_rx_data <= r_sr_in;
+		l_ready_port <= l_ready;
+		r_ready_port <= r_ready;
 		
 	 
 end Behavorial;

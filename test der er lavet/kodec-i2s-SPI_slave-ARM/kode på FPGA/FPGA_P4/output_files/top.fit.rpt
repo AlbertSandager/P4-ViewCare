@@ -1,5 +1,5 @@
 Fitter report for top
-Wed May 15 11:50:56 2019
+Fri May 17 16:41:04 2019
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -67,7 +67,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Fitter Summary                                                                  ;
 +------------------------------------+--------------------------------------------+
-; Fitter Status                      ; Successful - Wed May 15 11:50:56 2019      ;
+; Fitter Status                      ; Successful - Fri May 17 16:41:03 2019      ;
 ; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
 ; Revision Name                      ; top                                        ;
 ; Top-level Entity Name              ; top                                        ;
@@ -274,7 +274,7 @@ applicable agreement for further details.
 +--------------+
 ; Pin-Out File ;
 +--------------+
-The pin-out file can be found in C:/Users/Albert Sandager/Documents/GitHub/P4-ViewCare/VHDL/FPGA_P4/output_files/top.pin.
+The pin-out file can be found in C:/Users/Albert Sandager/Documents/GitHub/P4-ViewCare/test der er lavet/kodec-i2s-SPI_slave-ARM/kode på FPGA/FPGA_P4/output_files/top.pin.
 
 
 +--------------------------------------------------------------------+
@@ -533,11 +533,11 @@ The pin-out file can be found in C:/Users/Albert Sandager/Documents/GitHub/P4-Vi
 ; rec_rx_data[3]    ; V13   ; 4        ; 30           ; 0            ; 21           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
 ; rec_rx_data[4]    ; AA15  ; 4        ; 26           ; 0            ; 14           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
 ; rec_rx_data[5]    ; V6    ; 3        ; 1            ; 0            ; 0            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; rec_rx_data[6]    ; Y17   ; 4        ; 35           ; 0            ; 0            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
+; rec_rx_data[6]    ; W17   ; 4        ; 35           ; 0            ; 7            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
 ; rec_rx_data[7]    ; T16   ; 4        ; 37           ; 0            ; 7            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
 ; rec_rx_data[8]    ; W21   ; 5        ; 41           ; 5            ; 0            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
 ; rec_rx_data[9]    ; AB20  ; 4        ; 37           ; 0            ; 14           ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; Fitter               ; -                    ; -                   ;
-; rec_trdy          ; W17   ; 4        ; 35           ; 0            ; 7            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; User                 ; -                    ; -                   ;
+; rec_trdy          ; Y17   ; 4        ; 35           ; 0            ; 0            ; no              ; no                     ; no            ; 2         ; no              ; no         ; no            ; no       ; Off          ; 2.5 V        ; Default          ; Series 50 Ohm without Calibration ; --                        ; no                         ; no                          ; User                 ; -                    ; -                   ;
 +-------------------+-------+----------+--------------+--------------+--------------+-----------------+------------------------+---------------+-----------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-----------------------------------+---------------------------+----------------------------+-----------------------------+----------------------+----------------------+---------------------+
 
 
@@ -1045,7 +1045,7 @@ The pin-out file can be found in C:/Users/Albert Sandager/Documents/GitHub/P4-Vi
 ; W14      ; 155        ; 4        ; ecg_st_load_roe                                           ; input  ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
 ; W15      ; 159        ; 4        ; ecg_tx_load_data[15]                                      ; input  ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
 ; W16      ;            ; 4        ; VCCIO4                                                    ; power  ;              ; 2.5V    ; --         ;                 ; --       ; --           ;
-; W17      ; 166        ; 4        ; rec_trdy                                                  ; output ; 2.5 V        ;         ; Column I/O ; Y               ; no       ; Off          ;
+; W17      ; 166        ; 4        ; rec_rx_data[6]                                            ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
 ; W18      ;            ; 4        ; VCCIO4                                                    ; power  ;              ; 2.5V    ; --         ;                 ; --       ; --           ;
 ; W19      ; 184        ; 5        ; ecg_tx_load_data[17]                                      ; input  ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; W20      ; 183        ; 5        ; ecg_tx_load_data[20]                                      ; input  ; 2.5 V        ;         ; Row I/O    ; N               ; no       ; Off          ;
@@ -1067,7 +1067,7 @@ The pin-out file can be found in C:/Users/Albert Sandager/Documents/GitHub/P4-Vi
 ; Y14      ;            ; 4        ; VCCIO4                                                    ; power  ;              ; 2.5V    ; --         ;                 ; --       ; --           ;
 ; Y15      ;            ;          ; GND                                                       ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; Y16      ;            ;          ; GND                                                       ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
-; Y17      ; 167        ; 4        ; rec_rx_data[6]                                            ; output ; 2.5 V        ;         ; Column I/O ; N               ; no       ; Off          ;
+; Y17      ; 167        ; 4        ; rec_trdy                                                  ; output ; 2.5 V        ;         ; Column I/O ; Y               ; no       ; Off          ;
 ; Y18      ;            ;          ; GND                                                       ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; Y19      ;            ; 5        ; VCCIO5                                                    ; power  ;              ; 2.5V    ; --         ;                 ; --       ; --           ;
 ; Y20      ;            ;          ; GND                                                       ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
@@ -2845,7 +2845,7 @@ Info (176215): I/O bank details before I/O pin placement
         Info (176213): I/O bank number 6 does not use VREF pins and has undetermined VCCIO pins. 2 total pin(s) used --  41 pins available
         Info (176213): I/O bank number 7 does not use VREF pins and has undetermined VCCIO pins. 0 total pin(s) used --  47 pins available
         Info (176213): I/O bank number 8 does not use VREF pins and has undetermined VCCIO pins. 0 total pin(s) used --  43 pins available
-Info (171121): Fitter preparation operations ending: elapsed time is 00:00:03
+Info (171121): Fitter preparation operations ending: elapsed time is 00:00:04
 Info (170189): Fitter placement preparation operations beginning
 Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:00
 Info (170191): Fitter placement operations beginning
@@ -2857,23 +2857,23 @@ Info (170195): Router estimated average interconnect usage is 1% of the availabl
 Info (170194): Fitter routing operations ending: elapsed time is 00:00:03
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
-Info (11888): Total time spent on timing analysis during the Fitter is 0.83 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 1.02 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
-Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:02
-Info (144001): Generated suppressed messages file C:/Users/Albert Sandager/Documents/GitHub/P4-ViewCare/VHDL/FPGA_P4/output_files/top.fit.smsg
+Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:03
+Info (144001): Generated suppressed messages file C:/Users/Albert Sandager/Documents/GitHub/P4-ViewCare/test der er lavet/kodec-i2s-SPI_slave-ARM/kode på FPGA/FPGA_P4/output_files/top.fit.smsg
 Info: Quartus II 64-Bit Fitter was successful. 0 errors, 6 warnings
-    Info: Peak virtual memory: 793 megabytes
-    Info: Processing ended: Wed May 15 11:50:56 2019
-    Info: Elapsed time: 00:00:18
-    Info: Total CPU time (on all processors): 00:00:17
+    Info: Peak virtual memory: 792 megabytes
+    Info: Processing ended: Fri May 17 16:41:04 2019
+    Info: Elapsed time: 00:00:19
+    Info: Total CPU time (on all processors): 00:00:18
 
 
 +----------------------------+
 ; Fitter Suppressed Messages ;
 +----------------------------+
-The suppressed messages can be found in C:/Users/Albert Sandager/Documents/GitHub/P4-ViewCare/VHDL/FPGA_P4/output_files/top.fit.smsg.
+The suppressed messages can be found in C:/Users/Albert Sandager/Documents/GitHub/P4-ViewCare/test der er lavet/kodec-i2s-SPI_slave-ARM/kode på FPGA/FPGA_P4/output_files/top.fit.smsg.
 
 

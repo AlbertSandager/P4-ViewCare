@@ -16,7 +16,7 @@
 -- PROGRAM "Quartus II 64-Bit"
 -- VERSION "Version 13.1.0 Build 162 10/23/2013 SJ Web Edition"
 
--- DATE "05/15/2019 11:51:10"
+-- DATE "05/17/2019 16:41:19"
 
 -- 
 -- Device: Altera EP3C16F484C6 Package FBGA484
@@ -79,7 +79,7 @@ END top;
 -- ecg_busy	=>  Location: PIN_R13,	 I/O Standard: 2.5 V,	 Current Strength: Default
 -- ecg_miso	=>  Location: PIN_T14,	 I/O Standard: 2.5 V,	 Current Strength: Default
 -- rec_st_load_en	=>  Location: PIN_M20,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- rec_trdy	=>  Location: PIN_W17,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- rec_trdy	=>  Location: PIN_Y17,	 I/O Standard: 2.5 V,	 Current Strength: Default
 -- rec_rrdy	=>  Location: PIN_AA10,	 I/O Standard: 2.5 V,	 Current Strength: Default
 -- rec_roe	=>  Location: PIN_AA3,	 I/O Standard: 2.5 V,	 Current Strength: Default
 -- rec_rx_data[0]	=>  Location: PIN_AB15,	 I/O Standard: 2.5 V,	 Current Strength: Default
@@ -88,7 +88,7 @@ END top;
 -- rec_rx_data[3]	=>  Location: PIN_V13,	 I/O Standard: 2.5 V,	 Current Strength: Default
 -- rec_rx_data[4]	=>  Location: PIN_AA15,	 I/O Standard: 2.5 V,	 Current Strength: Default
 -- rec_rx_data[5]	=>  Location: PIN_V6,	 I/O Standard: 2.5 V,	 Current Strength: Default
--- rec_rx_data[6]	=>  Location: PIN_Y17,	 I/O Standard: 2.5 V,	 Current Strength: Default
+-- rec_rx_data[6]	=>  Location: PIN_W17,	 I/O Standard: 2.5 V,	 Current Strength: Default
 -- rec_rx_data[7]	=>  Location: PIN_T16,	 I/O Standard: 2.5 V,	 Current Strength: Default
 -- rec_rx_data[8]	=>  Location: PIN_W21,	 I/O Standard: 2.5 V,	 Current Strength: Default
 -- rec_rx_data[9]	=>  Location: PIN_AB20,	 I/O Standard: 2.5 V,	 Current Strength: Default
@@ -751,12 +751,12 @@ SIGNAL \i2s_ports|r_sr_in[20]~feeder_combout\ : std_logic;
 SIGNAL \i2s_ports|r_sr_in[21]~feeder_combout\ : std_logic;
 SIGNAL \i2s_ports|r_sr_in[22]~feeder_combout\ : std_logic;
 SIGNAL \i2s_ports|r_sr_in[23]~feeder_combout\ : std_logic;
+SIGNAL \rec_spi_ports|rx_data\ : std_logic_vector(23 DOWNTO 0);
+SIGNAL \rec_spi_ports|rx_buf\ : std_logic_vector(23 DOWNTO 0);
 SIGNAL \rec_spi_ports|bit_cnt\ : std_logic_vector(32 DOWNTO 0);
 SIGNAL \ecg_spi_ports|bit_cnt\ : std_logic_vector(32 DOWNTO 0);
 SIGNAL \i2s_ports|r_sr_in\ : std_logic_vector(23 DOWNTO 0);
 SIGNAL \i2s_ports|l_sr_in\ : std_logic_vector(23 DOWNTO 0);
-SIGNAL \rec_spi_ports|rx_data\ : std_logic_vector(23 DOWNTO 0);
-SIGNAL \rec_spi_ports|rx_buf\ : std_logic_vector(23 DOWNTO 0);
 SIGNAL \rec_spi_ports|ALT_INV_process_1~2clkctrl_outclk\ : std_logic;
 SIGNAL \ecg_spi_ports|ALT_INV_process_1~1clkctrl_outclk\ : std_logic;
 SIGNAL \ALT_INV_rec_sclk~input_o\ : std_logic;
@@ -892,7 +892,7 @@ PORT MAP (
 	devoe => ww_devoe,
 	o => \ecg_busy~output_o\);
 
--- Location: IOOBUF_X35_Y0_N9
+-- Location: IOOBUF_X35_Y0_N2
 \rec_trdy~output\ : cycloneiii_io_obuf
 -- pragma translate_off
 GENERIC MAP (
@@ -1000,7 +1000,7 @@ PORT MAP (
 	devoe => ww_devoe,
 	o => \rec_rx_data[5]~output_o\);
 
--- Location: IOOBUF_X35_Y0_N2
+-- Location: IOOBUF_X35_Y0_N9
 \rec_rx_data[6]~output\ : cycloneiii_io_obuf
 -- pragma translate_off
 GENERIC MAP (

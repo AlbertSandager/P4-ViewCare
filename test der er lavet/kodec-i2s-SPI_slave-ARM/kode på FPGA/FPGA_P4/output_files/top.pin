@@ -524,7 +524,7 @@ rec_busy                     : W13       : output : 2.5 V             :         
 ecg_st_load_roe              : W14       : input  : 2.5 V             :         : 4         : N              
 ecg_tx_load_data[15]         : W15       : input  : 2.5 V             :         : 4         : N              
 VCCIO4                       : W16       : power  :                   : 2.5V    : 4         :                
-rec_trdy                     : W17       : output : 2.5 V             :         : 4         : Y              
+rec_rx_data[6]               : W17       : output : 2.5 V             :         : 4         : N              
 VCCIO4                       : W18       : power  :                   : 2.5V    : 4         :                
 ecg_tx_load_data[17]         : W19       : input  : 2.5 V             :         : 5         : N              
 ecg_tx_load_data[20]         : W20       : input  : 2.5 V             :         : 5         : N              
@@ -546,7 +546,7 @@ ecg_tx_load_data[4]          : Y13       : input  : 2.5 V             :         
 VCCIO4                       : Y14       : power  :                   : 2.5V    : 4         :                
 GND                          : Y15       : gnd    :                   :         :           :                
 GND                          : Y16       : gnd    :                   :         :           :                
-rec_rx_data[6]               : Y17       : output : 2.5 V             :         : 4         : N              
+rec_trdy                     : Y17       : output : 2.5 V             :         : 4         : Y              
 GND                          : Y18       : gnd    :                   :         :           :                
 VCCIO5                       : Y19       : power  :                   : 2.5V    : 5         :                
 GND                          : Y20       : gnd    :                   :         :           :                

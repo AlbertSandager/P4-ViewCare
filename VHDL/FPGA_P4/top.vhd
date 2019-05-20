@@ -14,7 +14,7 @@ port (
 	--ECG ports
 	ecg_sclk, ecg_ss_n, ecg_mosi, ecg_rx_req, ecg_st_load_en, ecg_st_load_trdy, ecg_st_load_rrdy, ecg_st_load_roe, ecg_tx_load_en : in std_logic;
 	ecg_tx_load_data : in std_logic_vector(spi_d_width-1 downto 0);
-	ecg_trdy, ecg_roe : buffer std_logic := '0';
+	ecg_trdy, ecg_rrdy, ecg_roe : buffer std_logic := '0';
    ecg_busy : out std_logic := '0';
    ecg_miso : out std_logic := 'Z';
 	
@@ -24,9 +24,11 @@ port (
 	rec_rx_data      : out std_logic_vector(spi_d_width-1 downto 0) := (others => '0');
    rec_busy         : out std_logic := '0';
    rec_miso         : out std_logic := 'Z';
+	rec_ch1, rec_ch2 : out std_logic;
 	
 	-- I2S ports
 	i2s_clk, i2s_bclk, i2s_lrclk, i2s_adc_data : in std_logic;
+	i2s_l_ready, i2s_r_ready : out std_logic;
 	i2s_l_led_out : out std_logic_vector(i2s_d_width - 1 downto 0);
 	i2s_r_led_out : out std_logic_vector(i2s_d_width - 1 downto 0)
 	);
@@ -37,15 +39,14 @@ end top;
 architecture Behavorial of top is
 --send and receive vectors are defined
 signal ecg_rx_data : std_logic_vector(spi_d_width-1 downto 0) := (others => '0');
-signal ecg_rrdy : std_logic := '0';
 signal ecg_reset_n : std_logic := '1';
 
 signal rec_tx_load_data : std_logic_vector(spi_d_width-1 downto 0);
-signal rec_tx_load_en : std_logic;
+signal rec_tx_load_en : std_logic := '1';
 signal rec_reset_n : std_logic := '1';
+signal rec_ch_add1 : std_logic;
+signal rec_ch_add2 : std_logic;
 
-signal i2s_l_ready : std_logic;
-signal i2s_r_ready : std_logic;
 signal i2s_l_rx_data : std_logic_vector(i2s_d_width - 1 downto 0);
 signal i2s_r_rx_data : std_logic_vector(i2s_d_width - 1 downto 0);
 signal i2s_reset : std_logic := '1';
@@ -56,8 +57,6 @@ signal mux_SEL : std_logic_vector(1 downto 0);
 
 
 
-
-
 component SPI_slave
 port (
 	sclk, reset_n, ss_n, mosi, rx_req, st_load_en, st_load_trdy, st_load_rrdy, st_load_roe, tx_load_en : in std_logic;
@@ -65,7 +64,8 @@ port (
 	trdy, rrdy, roe : buffer std_logic := '0';
 	rx_data : out std_logic_vector(spi_d_width-1 downto 0) := (others => '0');
    busy : out std_logic := '0';
-   miso : out std_logic := 'Z'
+   miso : out std_logic := 'Z';
+	ch_add1_port, ch_add2_port : out std_logic
 	);
 end component;
 
@@ -127,7 +127,9 @@ rec_spi_ports: SPI_slave port map (
 	roe=>rec_roe,
 	rx_data=>rec_rx_data,
 	busy=>rec_busy,
-	miso=>rec_miso
+	miso=>rec_miso,
+	ch_add1_port=>rec_ch_add1,
+	ch_add2_port=>rec_ch_add2
 	);
 
 --Setup for I2S transmitter
@@ -160,13 +162,15 @@ mux_ports: Mux4to1 port map (
 	mux_D2 <= i2s_l_rx_data;
 	mux_D3 <= i2s_r_rx_data;
 
+	mux_SEL(0) <= rec_ch_add1;
+	mux_SEL(1) <= rec_ch_add2;
 
-	--rec_tx_load_data <= i2s_r_rx_data;
-	--rec_tx_load_en <= i2s_r_ready;
-	--i2s_ready_port <= i2s_r_ready;
-
-	--i2s_l_led_out <= i2s_r_rx_data;
-	--i2s_r_led_out <= i2s_r_rx_data;
+	rec_ch1 <= rec_ch_add1;
+	rec_ch2 <= rec_ch_add2;
+	
+	
+	rec_tx_load_data <= mux_MX_OUT;
+	
 
 
 end Behavorial;

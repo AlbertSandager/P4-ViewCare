@@ -24,7 +24,10 @@ ENTITY SPI_slave IS
     roe          : BUFFER STD_LOGIC := '0';  --receive overrun error bit
     rx_data      : OUT    STD_LOGIC_VECTOR(spi_d_width-1 DOWNTO 0) := (OTHERS => '0');  --receive register output to logic
     busy         : OUT    STD_LOGIC := '0';  --busy signal to logic ('1' during transaction)
-    miso         : OUT    STD_LOGIC := 'Z'); --master in, slave out
+    miso         : OUT    STD_LOGIC := 'Z'; --master in, slave out
+	 ch_add1_port : OUT STD_LOGIC;
+	 ch_add2_port : OUT STD_LOGIC
+	 );
 END SPI_slave;
 
 ARCHITECTURE Behavorial OF SPI_slave IS
@@ -33,6 +36,8 @@ ARCHITECTURE Behavorial OF SPI_slave IS
   SIGNAL bit_cnt : STD_LOGIC_VECTOR(spi_d_width+8 DOWNTO 0);  --'1' for active transaction bit
   SIGNAL wr_add  : STD_LOGIC;  --address of register to write ('0' = receive, '1' = status)
   SIGNAL rd_add  : STD_LOGIC;  --address of register to read ('0' = transmit, '1' = status)
+  SIGNAL ch_add1 : STD_LOGIC;
+  SIGNAL ch_add2 : STD_LOGIC;
   SIGNAL rx_buf  : STD_LOGIC_VECTOR(spi_d_width-1 DOWNTO 0) := (OTHERS => '0');  --receiver buffer
   SIGNAL tx_buf  : STD_LOGIC_VECTOR(spi_d_width-1 DOWNTO 0) := (OTHERS => '0');  --transmit buffer
 BEGIN
@@ -68,6 +73,16 @@ BEGIN
     --read address register ('0' for transmit, '1' for status)
     IF(bit_cnt(2) = '1' AND falling_edge(clk)) THEN
       rd_add <= mosi;
+    END IF;
+	 
+	 --write address to channel register 1
+    IF(bit_cnt(3) = '1' AND falling_edge(clk)) THEN
+      ch_add1 <= mosi;
+    END IF;
+	 
+	 --write address to channel register 2
+    IF(bit_cnt(4) = '1' AND falling_edge(clk)) THEN
+      ch_add2 <= mosi;
     END IF;
     
     --trdy register
@@ -143,6 +158,9 @@ BEGIN
     ELSIF(rd_add = '0' AND bit_cnt(7 DOWNTO 0) = "00000000" AND bit_cnt(spi_d_width+8) = '0' AND rising_edge(clk)) THEN
       miso <= tx_buf(spi_d_width-1);                  --send transmit register data to master
     END IF;
-    
   END PROCESS;
+  
+  ch_add1_port <= ch_add1;
+  ch_add2_port <= ch_add2;
+  
 END Behavorial;

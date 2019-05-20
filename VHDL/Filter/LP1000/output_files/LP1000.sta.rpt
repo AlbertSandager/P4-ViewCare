@@ -1,5 +1,5 @@
 TimeQuest Timing Analyzer report for LP1000
-Tue May 14 11:06:35 2019
+Mon May 20 13:06:47 2019
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -8,66 +8,65 @@ Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 ---------------------
   1. Legal Notice
   2. TimeQuest Timing Analyzer Summary
-  3. Parallel Compilation
-  4. SDC File List
-  5. Clocks
-  6. Slow 1200mV 85C Model Fmax Summary
-  7. Timing Closure Recommendations
-  8. Slow 1200mV 85C Model Setup Summary
-  9. Slow 1200mV 85C Model Hold Summary
- 10. Slow 1200mV 85C Model Recovery Summary
- 11. Slow 1200mV 85C Model Removal Summary
- 12. Slow 1200mV 85C Model Minimum Pulse Width Summary
- 13. Slow 1200mV 85C Model Setup: 'clk'
- 14. Slow 1200mV 85C Model Hold: 'clk'
- 15. Slow 1200mV 85C Model Minimum Pulse Width: 'clk'
- 16. Setup Times
- 17. Hold Times
- 18. Clock to Output Times
- 19. Minimum Clock to Output Times
- 20. Slow 1200mV 85C Model Metastability Report
- 21. Slow 1200mV 0C Model Fmax Summary
- 22. Slow 1200mV 0C Model Setup Summary
- 23. Slow 1200mV 0C Model Hold Summary
- 24. Slow 1200mV 0C Model Recovery Summary
- 25. Slow 1200mV 0C Model Removal Summary
- 26. Slow 1200mV 0C Model Minimum Pulse Width Summary
- 27. Slow 1200mV 0C Model Setup: 'clk'
- 28. Slow 1200mV 0C Model Hold: 'clk'
- 29. Slow 1200mV 0C Model Minimum Pulse Width: 'clk'
- 30. Setup Times
- 31. Hold Times
- 32. Clock to Output Times
- 33. Minimum Clock to Output Times
- 34. Slow 1200mV 0C Model Metastability Report
- 35. Fast 1200mV 0C Model Setup Summary
- 36. Fast 1200mV 0C Model Hold Summary
- 37. Fast 1200mV 0C Model Recovery Summary
- 38. Fast 1200mV 0C Model Removal Summary
- 39. Fast 1200mV 0C Model Minimum Pulse Width Summary
- 40. Fast 1200mV 0C Model Setup: 'clk'
- 41. Fast 1200mV 0C Model Hold: 'clk'
- 42. Fast 1200mV 0C Model Minimum Pulse Width: 'clk'
- 43. Setup Times
- 44. Hold Times
- 45. Clock to Output Times
- 46. Minimum Clock to Output Times
- 47. Fast 1200mV 0C Model Metastability Report
- 48. Multicorner Timing Analysis Summary
- 49. Setup Times
- 50. Hold Times
- 51. Clock to Output Times
- 52. Minimum Clock to Output Times
- 53. Board Trace Model Assignments
- 54. Input Transition Times
- 55. Slow Corner Signal Integrity Metrics
- 56. Fast Corner Signal Integrity Metrics
- 57. Setup Transfers
- 58. Hold Transfers
- 59. Report TCCS
- 60. Report RSKM
- 61. Unconstrained Paths
- 62. TimeQuest Timing Analyzer Messages
+  3. SDC File List
+  4. Clocks
+  5. Slow 1200mV 85C Model Fmax Summary
+  6. Timing Closure Recommendations
+  7. Slow 1200mV 85C Model Setup Summary
+  8. Slow 1200mV 85C Model Hold Summary
+  9. Slow 1200mV 85C Model Recovery Summary
+ 10. Slow 1200mV 85C Model Removal Summary
+ 11. Slow 1200mV 85C Model Minimum Pulse Width Summary
+ 12. Slow 1200mV 85C Model Setup: 'clk'
+ 13. Slow 1200mV 85C Model Hold: 'clk'
+ 14. Slow 1200mV 85C Model Minimum Pulse Width: 'clk'
+ 15. Setup Times
+ 16. Hold Times
+ 17. Clock to Output Times
+ 18. Minimum Clock to Output Times
+ 19. Slow 1200mV 85C Model Metastability Report
+ 20. Slow 1200mV 0C Model Fmax Summary
+ 21. Slow 1200mV 0C Model Setup Summary
+ 22. Slow 1200mV 0C Model Hold Summary
+ 23. Slow 1200mV 0C Model Recovery Summary
+ 24. Slow 1200mV 0C Model Removal Summary
+ 25. Slow 1200mV 0C Model Minimum Pulse Width Summary
+ 26. Slow 1200mV 0C Model Setup: 'clk'
+ 27. Slow 1200mV 0C Model Hold: 'clk'
+ 28. Slow 1200mV 0C Model Minimum Pulse Width: 'clk'
+ 29. Setup Times
+ 30. Hold Times
+ 31. Clock to Output Times
+ 32. Minimum Clock to Output Times
+ 33. Slow 1200mV 0C Model Metastability Report
+ 34. Fast 1200mV 0C Model Setup Summary
+ 35. Fast 1200mV 0C Model Hold Summary
+ 36. Fast 1200mV 0C Model Recovery Summary
+ 37. Fast 1200mV 0C Model Removal Summary
+ 38. Fast 1200mV 0C Model Minimum Pulse Width Summary
+ 39. Fast 1200mV 0C Model Setup: 'clk'
+ 40. Fast 1200mV 0C Model Hold: 'clk'
+ 41. Fast 1200mV 0C Model Minimum Pulse Width: 'clk'
+ 42. Setup Times
+ 43. Hold Times
+ 44. Clock to Output Times
+ 45. Minimum Clock to Output Times
+ 46. Fast 1200mV 0C Model Metastability Report
+ 47. Multicorner Timing Analysis Summary
+ 48. Setup Times
+ 49. Hold Times
+ 50. Clock to Output Times
+ 51. Minimum Clock to Output Times
+ 52. Board Trace Model Assignments
+ 53. Input Transition Times
+ 54. Slow Corner Signal Integrity Metrics
+ 55. Fast Corner Signal Integrity Metrics
+ 56. Setup Transfers
+ 57. Hold Transfers
+ 58. Report TCCS
+ 59. Report RSKM
+ 60. Unconstrained Paths
+ 61. TimeQuest Timing Analyzer Messages
 
 
 
@@ -103,23 +102,12 @@ applicable agreement for further details.
 +--------------------+----------------------------------------------------+
 
 
-Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
-+-------------------------------------+
-; Parallel Compilation                ;
-+----------------------------+--------+
-; Processors                 ; Number ;
-+----------------------------+--------+
-; Number detected on machine ; 4      ;
-; Maximum allowed            ; 1      ;
-+----------------------------+--------+
-
-
 +------------------------------------------------------------+
 ; SDC File List                                              ;
 +------------------------+--------+--------------------------+
 ; SDC File Path          ; Status ; Read at                  ;
 +------------------------+--------+--------------------------+
-; LP1000/LP1000_0002.sdc ; OK     ; Tue May 14 11:06:33 2019 ;
+; LP1000/LP1000_0002.sdc ; OK     ; Mon May 20 13:06:44 2019 ;
 +------------------------+--------+--------------------------+
 
 
@@ -2056,7 +2044,7 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit TimeQuest Timing Analyzer
     Info: Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
-    Info: Processing started: Tue May 14 11:06:32 2019
+    Info: Processing started: Mon May 20 13:06:43 2019
 Info: Command: quartus_sta LP1000 -c LP1000
 Info: qsta_default_script.tcl version: #1
 Warning (20028): Parallel compilation is not licensed and has been disabled
@@ -2121,9 +2109,9 @@ Info (332146): Worst-case minimum pulse width slack is 9.377
 Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 7 warnings
-    Info: Peak virtual memory: 4618 megabytes
-    Info: Processing ended: Tue May 14 11:06:35 2019
-    Info: Elapsed time: 00:00:03
-    Info: Total CPU time (on all processors): 00:00:02
+    Info: Peak virtual memory: 490 megabytes
+    Info: Processing ended: Mon May 20 13:06:47 2019
+    Info: Elapsed time: 00:00:04
+    Info: Total CPU time (on all processors): 00:00:03
 
 

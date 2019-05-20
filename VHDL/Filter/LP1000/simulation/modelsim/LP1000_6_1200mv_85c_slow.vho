@@ -16,7 +16,7 @@
 -- PROGRAM "Quartus II 64-Bit"
 -- VERSION "Version 13.1.0 Build 162 10/23/2013 SJ Web Edition"
 
--- DATE "05/14/2019 11:06:37"
+-- DATE "05/20/2019 13:06:50"
 
 -- 
 -- Device: Altera EP3C16F484C6 Package FBGA484
@@ -40,9 +40,9 @@ ENTITY 	LP1000 IS
 	ast_sink_data : IN std_logic_vector(23 DOWNTO 0);
 	ast_sink_valid : IN std_logic;
 	ast_sink_error : IN std_logic_vector(1 DOWNTO 0);
-	ast_source_data : OUT std_logic_vector(23 DOWNTO 0);
-	ast_source_valid : OUT std_logic;
-	ast_source_error : OUT std_logic_vector(1 DOWNTO 0)
+	ast_source_data : BUFFER std_logic_vector(23 DOWNTO 0);
+	ast_source_valid : BUFFER std_logic;
+	ast_source_error : BUFFER std_logic_vector(1 DOWNTO 0)
 	);
 END LP1000;
 
@@ -967,9 +967,7 @@ SIGNAL \lp1000_inst|LP1000_0002_ast_inst|source|data_valid~q\ : std_logic;
 SIGNAL \ast_sink_error[0]~input_o\ : std_logic;
 SIGNAL \lp1000_inst|LP1000_0002_ast_inst|sink|at_sink_error_int~0_combout\ : std_logic;
 SIGNAL \lp1000_inst|LP1000_0002_ast_inst|source|at_source_error_s[0]~feeder_combout\ : std_logic;
-SIGNAL \lp1000_inst|LP1000_0002_ast_inst|hpfircore|u0_m0_wo0_mtree_mult1_0_replace_add_o\ : std_logic_vector(31 DOWNTO 0);
-SIGNAL \lp1000_inst|LP1000_0002_ast_inst|hpfircore|u0_m0_wo0_cm0_lutmem_dmem|auto_generated|q_b\ : std_logic_vector(7 DOWNTO 0);
-SIGNAL \lp1000_inst|LP1000_0002_ast_inst|hpfircore|u0_m0_wo0_accum_o\ : std_logic_vector(41 DOWNTO 0);
+SIGNAL \lp1000_inst|LP1000_0002_ast_inst|hpfircore|u0_m0_wo0_mtree_mult1_0_replace_multhi_component|auto_generated|result\ : std_logic_vector(14 DOWNTO 0);
 SIGNAL \lp1000_inst|LP1000_0002_ast_inst|sink|packet_error_s\ : std_logic_vector(1 DOWNTO 0);
 SIGNAL \lp1000_inst|LP1000_0002_ast_inst|source|data_out\ : std_logic_vector(23 DOWNTO 0);
 SIGNAL \lp1000_inst|LP1000_0002_ast_inst|source|at_source_error_s\ : std_logic_vector(1 DOWNTO 0);
@@ -984,11 +982,13 @@ SIGNAL \lp1000_inst|LP1000_0002_ast_inst|hpfircore|u0_m0_wo0_run_count\ : std_lo
 SIGNAL \lp1000_inst|LP1000_0002_ast_inst|hpfircore|u0_m0_wo0_oseq_gated_reg_q\ : std_logic_vector(0 DOWNTO 0);
 SIGNAL \lp1000_inst|LP1000_0002_ast_inst|hpfircore|u0_m0_wo0_oseq_gated_q\ : std_logic_vector(0 DOWNTO 0);
 SIGNAL \lp1000_inst|LP1000_0002_ast_inst|hpfircore|u0_m0_wo0_mtree_mult1_0_replace_multlo_q\ : std_logic_vector(24 DOWNTO 0);
-SIGNAL \lp1000_inst|LP1000_0002_ast_inst|hpfircore|u0_m0_wo0_mtree_mult1_0_replace_multhi_q\ : std_logic_vector(14 DOWNTO 0);
+SIGNAL \lp1000_inst|LP1000_0002_ast_inst|hpfircore|u0_m0_wo0_cm0_lutmem_dmem|auto_generated|q_b\ : std_logic_vector(7 DOWNTO 0);
+SIGNAL \lp1000_inst|LP1000_0002_ast_inst|hpfircore|u0_m0_wo0_mtree_mult1_0_replace_add_o\ : std_logic_vector(31 DOWNTO 0);
 SIGNAL \lp1000_inst|LP1000_0002_ast_inst|hpfircore|u0_m0_wo0_mtree_mult1_0_replace_multlo_component|auto_generated|result\ : std_logic_vector(25 DOWNTO 0);
-SIGNAL \lp1000_inst|LP1000_0002_ast_inst|hpfircore|u0_m0_wo0_ca0_i\ : std_logic_vector(9 DOWNTO 0);
 SIGNAL \lp1000_inst|LP1000_0002_ast_inst|hpfircore|u0_m0_wo0_wi0_delayr0_dmem|auto_generated|q_b\ : std_logic_vector(23 DOWNTO 0);
-SIGNAL \lp1000_inst|LP1000_0002_ast_inst|hpfircore|u0_m0_wo0_mtree_mult1_0_replace_multhi_component|auto_generated|result\ : std_logic_vector(14 DOWNTO 0);
+SIGNAL \lp1000_inst|LP1000_0002_ast_inst|hpfircore|u0_m0_wo0_accum_o\ : std_logic_vector(41 DOWNTO 0);
+SIGNAL \lp1000_inst|LP1000_0002_ast_inst|hpfircore|u0_m0_wo0_ca0_i\ : std_logic_vector(9 DOWNTO 0);
+SIGNAL \lp1000_inst|LP1000_0002_ast_inst|hpfircore|u0_m0_wo0_mtree_mult1_0_replace_multhi_q\ : std_logic_vector(14 DOWNTO 0);
 SIGNAL \ALT_INV_reset_n~inputclkctrl_outclk\ : std_logic;
 SIGNAL \lp1000_inst|LP1000_0002_ast_inst|hpfircore|ALT_INV_u0_m0_wo0_ca0_eq~q\ : std_logic;
 SIGNAL \lp1000_inst|LP1000_0002_ast_inst|hpfircore|ALT_INV_u0_m0_wo0_oseq_eq~q\ : std_logic;

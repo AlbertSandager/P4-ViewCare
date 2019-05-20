@@ -1,5 +1,5 @@
 Analysis & Synthesis report for LP1000
-Tue May 14 11:06:16 2019
+Mon May 20 13:06:22 2019
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -9,40 +9,39 @@ Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
   1. Legal Notice
   2. Analysis & Synthesis Summary
   3. Analysis & Synthesis Settings
-  4. Parallel Compilation
-  5. Analysis & Synthesis Source Files Read
-  6. Analysis & Synthesis Resource Usage Summary
-  7. Analysis & Synthesis Resource Utilization by Entity
-  8. Analysis & Synthesis RAM Summary
-  9. Analysis & Synthesis DSP Block Usage Summary
- 10. Analysis & Synthesis IP Cores Summary
- 11. State Machine - |LP1000|LP1000_0002:lp1000_inst|LP1000_0002_ast:LP1000_0002_ast_inst|auk_dspip_avalon_streaming_sink_hpfir:sink|sink_state
- 12. Registers Removed During Synthesis
- 13. General Register Statistics
- 14. Inverted Register Statistics
- 15. Source assignments for LP1000_0002:lp1000_inst|LP1000_0002_ast:LP1000_0002_ast_inst
- 16. Source assignments for LP1000_0002:lp1000_inst|LP1000_0002_ast:LP1000_0002_ast_inst|LP1000_0002_rtl:hpfircore
- 17. Source assignments for LP1000_0002:lp1000_inst|LP1000_0002_ast:LP1000_0002_ast_inst|LP1000_0002_rtl:hpfircore|altsyncram:u0_m0_wo0_cm0_lutmem_dmem|altsyncram_q8s3:auto_generated
- 18. Source assignments for LP1000_0002:lp1000_inst|LP1000_0002_ast:LP1000_0002_ast_inst|LP1000_0002_rtl:hpfircore|altsyncram:u0_m0_wo0_wi0_delayr0_dmem|altsyncram_7do3:auto_generated
- 19. Parameter Settings for User Entity Instance: LP1000_0002:lp1000_inst|LP1000_0002_ast:LP1000_0002_ast_inst
- 20. Parameter Settings for User Entity Instance: LP1000_0002:lp1000_inst|LP1000_0002_ast:LP1000_0002_ast_inst|auk_dspip_avalon_streaming_sink_hpfir:sink
- 21. Parameter Settings for User Entity Instance: LP1000_0002:lp1000_inst|LP1000_0002_ast:LP1000_0002_ast_inst|auk_dspip_avalon_streaming_source_hpfir:source
- 22. Parameter Settings for User Entity Instance: LP1000_0002:lp1000_inst|LP1000_0002_ast:LP1000_0002_ast_inst|LP1000_0002_rtl:hpfircore|dspba_delay:u0_m0_wo0_memread
- 23. Parameter Settings for User Entity Instance: LP1000_0002:lp1000_inst|LP1000_0002_ast:LP1000_0002_ast_inst|LP1000_0002_rtl:hpfircore|dspba_delay:u0_m0_wo0_compute
- 24. Parameter Settings for User Entity Instance: LP1000_0002:lp1000_inst|LP1000_0002_ast:LP1000_0002_ast_inst|LP1000_0002_rtl:hpfircore|dspba_delay:d_u0_m0_wo0_compute_q_16
- 25. Parameter Settings for User Entity Instance: LP1000_0002:lp1000_inst|LP1000_0002_ast:LP1000_0002_ast_inst|LP1000_0002_rtl:hpfircore|dspba_delay:d_u0_m0_wo0_compute_q_17
- 26. Parameter Settings for User Entity Instance: LP1000_0002:lp1000_inst|LP1000_0002_ast:LP1000_0002_ast_inst|LP1000_0002_rtl:hpfircore|altsyncram:u0_m0_wo0_cm0_lutmem_dmem
- 27. Parameter Settings for User Entity Instance: LP1000_0002:lp1000_inst|LP1000_0002_ast:LP1000_0002_ast_inst|LP1000_0002_rtl:hpfircore|dspba_delay:d_xIn_0_14
- 28. Parameter Settings for User Entity Instance: LP1000_0002:lp1000_inst|LP1000_0002_ast:LP1000_0002_ast_inst|LP1000_0002_rtl:hpfircore|dspba_delay:d_in0_m0_wi0_wo0_assign_sel_q_14
- 29. Parameter Settings for User Entity Instance: LP1000_0002:lp1000_inst|LP1000_0002_ast:LP1000_0002_ast_inst|LP1000_0002_rtl:hpfircore|dspba_delay:d_u0_m0_wo0_memread_q_13
- 30. Parameter Settings for User Entity Instance: LP1000_0002:lp1000_inst|LP1000_0002_ast:LP1000_0002_ast_inst|LP1000_0002_rtl:hpfircore|altsyncram:u0_m0_wo0_wi0_delayr0_dmem
- 31. Parameter Settings for User Entity Instance: LP1000_0002:lp1000_inst|LP1000_0002_ast:LP1000_0002_ast_inst|LP1000_0002_rtl:hpfircore|LPM_MULT:u0_m0_wo0_mtree_mult1_0_replace_multlo_component
- 32. Parameter Settings for User Entity Instance: LP1000_0002:lp1000_inst|LP1000_0002_ast:LP1000_0002_ast_inst|LP1000_0002_rtl:hpfircore|LPM_MULT:u0_m0_wo0_mtree_mult1_0_replace_multhi_component
- 33. Parameter Settings for User Entity Instance: LP1000_0002:lp1000_inst|LP1000_0002_ast:LP1000_0002_ast_inst|auk_dspip_roundsat_hpfir:\gen_outp_blk:0:outp_blk
- 34. altsyncram Parameter Settings by Entity Instance
- 35. lpm_mult Parameter Settings by Entity Instance
- 36. Elapsed Time Per Partition
- 37. Analysis & Synthesis Messages
+  4. Analysis & Synthesis Source Files Read
+  5. Analysis & Synthesis Resource Usage Summary
+  6. Analysis & Synthesis Resource Utilization by Entity
+  7. Analysis & Synthesis RAM Summary
+  8. Analysis & Synthesis DSP Block Usage Summary
+  9. Analysis & Synthesis IP Cores Summary
+ 10. State Machine - |LP1000|LP1000_0002:lp1000_inst|LP1000_0002_ast:LP1000_0002_ast_inst|auk_dspip_avalon_streaming_sink_hpfir:sink|sink_state
+ 11. Registers Removed During Synthesis
+ 12. General Register Statistics
+ 13. Inverted Register Statistics
+ 14. Source assignments for LP1000_0002:lp1000_inst|LP1000_0002_ast:LP1000_0002_ast_inst
+ 15. Source assignments for LP1000_0002:lp1000_inst|LP1000_0002_ast:LP1000_0002_ast_inst|LP1000_0002_rtl:hpfircore
+ 16. Source assignments for LP1000_0002:lp1000_inst|LP1000_0002_ast:LP1000_0002_ast_inst|LP1000_0002_rtl:hpfircore|altsyncram:u0_m0_wo0_cm0_lutmem_dmem|altsyncram_q8s3:auto_generated
+ 17. Source assignments for LP1000_0002:lp1000_inst|LP1000_0002_ast:LP1000_0002_ast_inst|LP1000_0002_rtl:hpfircore|altsyncram:u0_m0_wo0_wi0_delayr0_dmem|altsyncram_7do3:auto_generated
+ 18. Parameter Settings for User Entity Instance: LP1000_0002:lp1000_inst|LP1000_0002_ast:LP1000_0002_ast_inst
+ 19. Parameter Settings for User Entity Instance: LP1000_0002:lp1000_inst|LP1000_0002_ast:LP1000_0002_ast_inst|auk_dspip_avalon_streaming_sink_hpfir:sink
+ 20. Parameter Settings for User Entity Instance: LP1000_0002:lp1000_inst|LP1000_0002_ast:LP1000_0002_ast_inst|auk_dspip_avalon_streaming_source_hpfir:source
+ 21. Parameter Settings for User Entity Instance: LP1000_0002:lp1000_inst|LP1000_0002_ast:LP1000_0002_ast_inst|LP1000_0002_rtl:hpfircore|dspba_delay:u0_m0_wo0_memread
+ 22. Parameter Settings for User Entity Instance: LP1000_0002:lp1000_inst|LP1000_0002_ast:LP1000_0002_ast_inst|LP1000_0002_rtl:hpfircore|dspba_delay:u0_m0_wo0_compute
+ 23. Parameter Settings for User Entity Instance: LP1000_0002:lp1000_inst|LP1000_0002_ast:LP1000_0002_ast_inst|LP1000_0002_rtl:hpfircore|dspba_delay:d_u0_m0_wo0_compute_q_16
+ 24. Parameter Settings for User Entity Instance: LP1000_0002:lp1000_inst|LP1000_0002_ast:LP1000_0002_ast_inst|LP1000_0002_rtl:hpfircore|dspba_delay:d_u0_m0_wo0_compute_q_17
+ 25. Parameter Settings for User Entity Instance: LP1000_0002:lp1000_inst|LP1000_0002_ast:LP1000_0002_ast_inst|LP1000_0002_rtl:hpfircore|altsyncram:u0_m0_wo0_cm0_lutmem_dmem
+ 26. Parameter Settings for User Entity Instance: LP1000_0002:lp1000_inst|LP1000_0002_ast:LP1000_0002_ast_inst|LP1000_0002_rtl:hpfircore|dspba_delay:d_xIn_0_14
+ 27. Parameter Settings for User Entity Instance: LP1000_0002:lp1000_inst|LP1000_0002_ast:LP1000_0002_ast_inst|LP1000_0002_rtl:hpfircore|dspba_delay:d_in0_m0_wi0_wo0_assign_sel_q_14
+ 28. Parameter Settings for User Entity Instance: LP1000_0002:lp1000_inst|LP1000_0002_ast:LP1000_0002_ast_inst|LP1000_0002_rtl:hpfircore|dspba_delay:d_u0_m0_wo0_memread_q_13
+ 29. Parameter Settings for User Entity Instance: LP1000_0002:lp1000_inst|LP1000_0002_ast:LP1000_0002_ast_inst|LP1000_0002_rtl:hpfircore|altsyncram:u0_m0_wo0_wi0_delayr0_dmem
+ 30. Parameter Settings for User Entity Instance: LP1000_0002:lp1000_inst|LP1000_0002_ast:LP1000_0002_ast_inst|LP1000_0002_rtl:hpfircore|LPM_MULT:u0_m0_wo0_mtree_mult1_0_replace_multlo_component
+ 31. Parameter Settings for User Entity Instance: LP1000_0002:lp1000_inst|LP1000_0002_ast:LP1000_0002_ast_inst|LP1000_0002_rtl:hpfircore|LPM_MULT:u0_m0_wo0_mtree_mult1_0_replace_multhi_component
+ 32. Parameter Settings for User Entity Instance: LP1000_0002:lp1000_inst|LP1000_0002_ast:LP1000_0002_ast_inst|auk_dspip_roundsat_hpfir:\gen_outp_blk:0:outp_blk
+ 33. altsyncram Parameter Settings by Entity Instance
+ 34. lpm_mult Parameter Settings by Entity Instance
+ 35. Elapsed Time Per Partition
+ 36. Analysis & Synthesis Messages
 
 
 
@@ -68,7 +67,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                    ;
 +------------------------------------+--------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Tue May 14 11:06:16 2019      ;
+; Analysis & Synthesis Status        ; Successful - Mon May 20 13:06:22 2019      ;
 ; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
 ; Revision Name                      ; LP1000                                     ;
 ; Top-level Entity Name              ; LP1000                                     ;
@@ -172,54 +171,42 @@ applicable agreement for further details.
 +----------------------------------------------------------------------------+--------------------+--------------------+
 
 
-Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
-+-------------------------------------+
-; Parallel Compilation                ;
-+----------------------------+--------+
-; Processors                 ; Number ;
-+----------------------------+--------+
-; Number detected on machine ; 4      ;
-; Maximum allowed            ; 1      ;
-+----------------------------+--------+
-
-
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                                    ;
-+--------------------------------------------------------+-----------------+---------------------------------------+------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path                       ; Used in Netlist ; File Type                             ; File Name with Absolute Path                                                 ; Library ;
-+--------------------------------------------------------+-----------------+---------------------------------------+------------------------------------------------------------------------------+---------+
-; LP1000.vhd                                             ; yes             ; User Wizard-Generated File            ; C:/altera/13.1/LP1000/LP1000.vhd                                             ; LP1000  ;
-; LP1000/auk_dspip_math_pkg_hpfir.vhd                    ; yes             ; User VHDL File                        ; C:/altera/13.1/LP1000/LP1000/auk_dspip_math_pkg_hpfir.vhd                    ; LP1000  ;
-; LP1000/auk_dspip_lib_pkg_hpfir.vhd                     ; yes             ; User VHDL File                        ; C:/altera/13.1/LP1000/LP1000/auk_dspip_lib_pkg_hpfir.vhd                     ; LP1000  ;
-; LP1000/auk_dspip_avalon_streaming_controller_hpfir.vhd ; yes             ; User VHDL File                        ; C:/altera/13.1/LP1000/LP1000/auk_dspip_avalon_streaming_controller_hpfir.vhd ; LP1000  ;
-; LP1000/auk_dspip_avalon_streaming_sink_hpfir.vhd       ; yes             ; User VHDL File                        ; C:/altera/13.1/LP1000/LP1000/auk_dspip_avalon_streaming_sink_hpfir.vhd       ; LP1000  ;
-; LP1000/auk_dspip_avalon_streaming_source_hpfir.vhd     ; yes             ; User VHDL File                        ; C:/altera/13.1/LP1000/LP1000/auk_dspip_avalon_streaming_source_hpfir.vhd     ; LP1000  ;
-; LP1000/auk_dspip_roundsat_hpfir.vhd                    ; yes             ; User VHDL File                        ; C:/altera/13.1/LP1000/LP1000/auk_dspip_roundsat_hpfir.vhd                    ; LP1000  ;
-; LP1000/dspba_library_package.vhd                       ; yes             ; User VHDL File                        ; C:/altera/13.1/LP1000/LP1000/dspba_library_package.vhd                       ; LP1000  ;
-; LP1000/dspba_library.vhd                               ; yes             ; User VHDL File                        ; C:/altera/13.1/LP1000/LP1000/dspba_library.vhd                               ; LP1000  ;
-; LP1000/LP1000_0002_rtl_u0_m0_wo0_cm0_lutmem.hex        ; yes             ; User Hexadecimal (Intel-Format) File  ; C:/altera/13.1/LP1000/LP1000/LP1000_0002_rtl_u0_m0_wo0_cm0_lutmem.hex        ; LP1000  ;
-; LP1000/LP1000_0002_rtl.vhd                             ; yes             ; User VHDL File                        ; C:/altera/13.1/LP1000/LP1000/LP1000_0002_rtl.vhd                             ; LP1000  ;
-; LP1000/LP1000_0002_ast.vhd                             ; yes             ; User VHDL File                        ; C:/altera/13.1/LP1000/LP1000/LP1000_0002_ast.vhd                             ; LP1000  ;
-; LP1000/LP1000_0002.vhd                                 ; yes             ; User VHDL File                        ; C:/altera/13.1/LP1000/LP1000/LP1000_0002.vhd                                 ; LP1000  ;
-; altsyncram.tdf                                         ; yes             ; Megafunction                          ; c:/altera/13.1/quartus/libraries/megafunctions/altsyncram.tdf                ;         ;
-; stratix_ram_block.inc                                  ; yes             ; Megafunction                          ; c:/altera/13.1/quartus/libraries/megafunctions/stratix_ram_block.inc         ;         ;
-; lpm_mux.inc                                            ; yes             ; Megafunction                          ; c:/altera/13.1/quartus/libraries/megafunctions/lpm_mux.inc                   ;         ;
-; lpm_decode.inc                                         ; yes             ; Megafunction                          ; c:/altera/13.1/quartus/libraries/megafunctions/lpm_decode.inc                ;         ;
-; aglobal131.inc                                         ; yes             ; Megafunction                          ; c:/altera/13.1/quartus/libraries/megafunctions/aglobal131.inc                ;         ;
-; a_rdenreg.inc                                          ; yes             ; Megafunction                          ; c:/altera/13.1/quartus/libraries/megafunctions/a_rdenreg.inc                 ;         ;
-; altrom.inc                                             ; yes             ; Megafunction                          ; c:/altera/13.1/quartus/libraries/megafunctions/altrom.inc                    ;         ;
-; altram.inc                                             ; yes             ; Megafunction                          ; c:/altera/13.1/quartus/libraries/megafunctions/altram.inc                    ;         ;
-; altdpram.inc                                           ; yes             ; Megafunction                          ; c:/altera/13.1/quartus/libraries/megafunctions/altdpram.inc                  ;         ;
-; db/altsyncram_q8s3.tdf                                 ; yes             ; Auto-Generated Megafunction           ; C:/altera/13.1/LP1000/db/altsyncram_q8s3.tdf                                 ;         ;
-; db/altsyncram_7do3.tdf                                 ; yes             ; Auto-Generated Megafunction           ; C:/altera/13.1/LP1000/db/altsyncram_7do3.tdf                                 ;         ;
-; lpm_mult.tdf                                           ; yes             ; Megafunction                          ; c:/altera/13.1/quartus/libraries/megafunctions/lpm_mult.tdf                  ;         ;
-; lpm_add_sub.inc                                        ; yes             ; Megafunction                          ; c:/altera/13.1/quartus/libraries/megafunctions/lpm_add_sub.inc               ;         ;
-; multcore.inc                                           ; yes             ; Megafunction                          ; c:/altera/13.1/quartus/libraries/megafunctions/multcore.inc                  ;         ;
-; bypassff.inc                                           ; yes             ; Megafunction                          ; c:/altera/13.1/quartus/libraries/megafunctions/bypassff.inc                  ;         ;
-; altshift.inc                                           ; yes             ; Megafunction                          ; c:/altera/13.1/quartus/libraries/megafunctions/altshift.inc                  ;         ;
-; db/mult_hbu.tdf                                        ; yes             ; Auto-Generated Megafunction           ; C:/altera/13.1/LP1000/db/mult_hbu.tdf                                        ;         ;
-; db/mult_t9u.tdf                                        ; yes             ; Auto-Generated Megafunction           ; C:/altera/13.1/LP1000/db/mult_t9u.tdf                                        ;         ;
-+--------------------------------------------------------+-----------------+---------------------------------------+------------------------------------------------------------------------------+---------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                                                              ;
++--------------------------------------------------------+-----------------+------------------------------+---------------------------------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path                       ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                                                                    ; Library ;
++--------------------------------------------------------+-----------------+------------------------------+---------------------------------------------------------------------------------------------------------------------------------+---------+
+; LP1000.vhd                                             ; yes             ; User Wizard-Generated File   ; C:/Users/Albert Sandager/Documents/GitHub/P4-ViewCare/VHDL/Filter/LP1000/LP1000.vhd                                             ; LP1000  ;
+; LP1000/auk_dspip_math_pkg_hpfir.vhd                    ; yes             ; User VHDL File               ; C:/Users/Albert Sandager/Documents/GitHub/P4-ViewCare/VHDL/Filter/LP1000/LP1000/auk_dspip_math_pkg_hpfir.vhd                    ; LP1000  ;
+; LP1000/auk_dspip_lib_pkg_hpfir.vhd                     ; yes             ; User VHDL File               ; C:/Users/Albert Sandager/Documents/GitHub/P4-ViewCare/VHDL/Filter/LP1000/LP1000/auk_dspip_lib_pkg_hpfir.vhd                     ; LP1000  ;
+; LP1000/auk_dspip_avalon_streaming_controller_hpfir.vhd ; yes             ; User VHDL File               ; C:/Users/Albert Sandager/Documents/GitHub/P4-ViewCare/VHDL/Filter/LP1000/LP1000/auk_dspip_avalon_streaming_controller_hpfir.vhd ; LP1000  ;
+; LP1000/auk_dspip_avalon_streaming_sink_hpfir.vhd       ; yes             ; User VHDL File               ; C:/Users/Albert Sandager/Documents/GitHub/P4-ViewCare/VHDL/Filter/LP1000/LP1000/auk_dspip_avalon_streaming_sink_hpfir.vhd       ; LP1000  ;
+; LP1000/auk_dspip_avalon_streaming_source_hpfir.vhd     ; yes             ; User VHDL File               ; C:/Users/Albert Sandager/Documents/GitHub/P4-ViewCare/VHDL/Filter/LP1000/LP1000/auk_dspip_avalon_streaming_source_hpfir.vhd     ; LP1000  ;
+; LP1000/auk_dspip_roundsat_hpfir.vhd                    ; yes             ; User VHDL File               ; C:/Users/Albert Sandager/Documents/GitHub/P4-ViewCare/VHDL/Filter/LP1000/LP1000/auk_dspip_roundsat_hpfir.vhd                    ; LP1000  ;
+; LP1000/dspba_library_package.vhd                       ; yes             ; User VHDL File               ; C:/Users/Albert Sandager/Documents/GitHub/P4-ViewCare/VHDL/Filter/LP1000/LP1000/dspba_library_package.vhd                       ; LP1000  ;
+; LP1000/dspba_library.vhd                               ; yes             ; User VHDL File               ; C:/Users/Albert Sandager/Documents/GitHub/P4-ViewCare/VHDL/Filter/LP1000/LP1000/dspba_library.vhd                               ; LP1000  ;
+; LP1000/LP1000_0002_rtl.vhd                             ; yes             ; User VHDL File               ; C:/Users/Albert Sandager/Documents/GitHub/P4-ViewCare/VHDL/Filter/LP1000/LP1000/LP1000_0002_rtl.vhd                             ; LP1000  ;
+; LP1000/LP1000_0002_ast.vhd                             ; yes             ; User VHDL File               ; C:/Users/Albert Sandager/Documents/GitHub/P4-ViewCare/VHDL/Filter/LP1000/LP1000/LP1000_0002_ast.vhd                             ; LP1000  ;
+; LP1000/LP1000_0002.vhd                                 ; yes             ; User VHDL File               ; C:/Users/Albert Sandager/Documents/GitHub/P4-ViewCare/VHDL/Filter/LP1000/LP1000/LP1000_0002.vhd                                 ; LP1000  ;
+; altsyncram.tdf                                         ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/altsyncram.tdf                                                                   ;         ;
+; stratix_ram_block.inc                                  ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/stratix_ram_block.inc                                                            ;         ;
+; lpm_mux.inc                                            ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/lpm_mux.inc                                                                      ;         ;
+; lpm_decode.inc                                         ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/lpm_decode.inc                                                                   ;         ;
+; aglobal131.inc                                         ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/aglobal131.inc                                                                   ;         ;
+; a_rdenreg.inc                                          ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/a_rdenreg.inc                                                                    ;         ;
+; altrom.inc                                             ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/altrom.inc                                                                       ;         ;
+; altram.inc                                             ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/altram.inc                                                                       ;         ;
+; altdpram.inc                                           ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/altdpram.inc                                                                     ;         ;
+; db/altsyncram_q8s3.tdf                                 ; yes             ; Auto-Generated Megafunction  ; C:/Users/Albert Sandager/Documents/GitHub/P4-ViewCare/VHDL/Filter/LP1000/db/altsyncram_q8s3.tdf                                 ;         ;
+; db/altsyncram_7do3.tdf                                 ; yes             ; Auto-Generated Megafunction  ; C:/Users/Albert Sandager/Documents/GitHub/P4-ViewCare/VHDL/Filter/LP1000/db/altsyncram_7do3.tdf                                 ;         ;
+; lpm_mult.tdf                                           ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/lpm_mult.tdf                                                                     ;         ;
+; lpm_add_sub.inc                                        ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/lpm_add_sub.inc                                                                  ;         ;
+; multcore.inc                                           ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/multcore.inc                                                                     ;         ;
+; bypassff.inc                                           ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/bypassff.inc                                                                     ;         ;
+; altshift.inc                                           ; yes             ; Megafunction                 ; c:/altera/13.1/quartus/libraries/megafunctions/altshift.inc                                                                     ;         ;
+; db/mult_hbu.tdf                                        ; yes             ; Auto-Generated Megafunction  ; C:/Users/Albert Sandager/Documents/GitHub/P4-ViewCare/VHDL/Filter/LP1000/db/mult_hbu.tdf                                        ;         ;
+; db/mult_t9u.tdf                                        ; yes             ; Auto-Generated Megafunction  ; C:/Users/Albert Sandager/Documents/GitHub/P4-ViewCare/VHDL/Filter/LP1000/db/mult_t9u.tdf                                        ;         ;
++--------------------------------------------------------+-----------------+------------------------------+---------------------------------------------------------------------------------------------------------------------------------+---------+
 
 
 +---------------------------------------------------------+
@@ -311,13 +298,13 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Note: number of Embedded Multiplier Blocks used is only available after a successful fit.
 
 
-+------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis IP Cores Summary                                                                                        ;
-+--------+------------------------+---------+--------------+--------------+-----------------+----------------------------------+
-; Vendor ; IP Core Name           ; Version ; Release Date ; License Type ; Entity Instance ; IP Include File                  ;
-+--------+------------------------+---------+--------------+--------------+-----------------+----------------------------------+
-; Altera ; altera_fir_compiler_ii ; 13.1    ; N/A          ; N/A          ; |LP1000         ; C:/altera/13.1/LP1000/LP1000.vhd ;
-+--------+------------------------+---------+--------------+--------------+-----------------+----------------------------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis IP Cores Summary                                                                                                                                           ;
++--------+------------------------+---------+--------------+--------------+-----------------+-------------------------------------------------------------------------------------+
+; Vendor ; IP Core Name           ; Version ; Release Date ; License Type ; Entity Instance ; IP Include File                                                                     ;
++--------+------------------------+---------+--------------+--------------+-----------------+-------------------------------------------------------------------------------------+
+; Altera ; altera_fir_compiler_ii ; 13.1    ; N/A          ; N/A          ; |LP1000         ; C:/Users/Albert Sandager/Documents/GitHub/P4-ViewCare/VHDL/Filter/LP1000/LP1000.vhd ;
++--------+------------------------+---------+--------------+--------------+-----------------+-------------------------------------------------------------------------------------+
 
 
 Encoding Type:  One-Hot
@@ -883,7 +870,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:00     ;
+; Top            ; 00:00:01     ;
 +----------------+--------------+
 
 
@@ -893,7 +880,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
-    Info: Processing started: Tue May 14 11:06:13 2019
+    Info: Processing started: Mon May 20 13:06:17 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off LP1000 -c LP1000
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 2 design units, including 1 entities, in source file lp1000.vhd
@@ -1002,7 +989,6 @@ Info (12133): Instantiated megafunction "LP1000_0002:lp1000_inst|LP1000_0002_ast
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_q8s3.tdf
     Info (12023): Found entity 1: altsyncram_q8s3
 Info (12128): Elaborating entity "altsyncram_q8s3" for hierarchy "LP1000_0002:lp1000_inst|LP1000_0002_ast:LP1000_0002_ast_inst|LP1000_0002_rtl:hpfircore|altsyncram:u0_m0_wo0_cm0_lutmem_dmem|altsyncram_q8s3:auto_generated"
-Warning (113007): Byte addressed memory initialization file "LP1000_0002_rtl_u0_m0_wo0_cm0_lutmem.hex" was read in the word-addressed format
 Info (12128): Elaborating entity "dspba_delay" for hierarchy "LP1000_0002:lp1000_inst|LP1000_0002_ast:LP1000_0002_ast_inst|LP1000_0002_rtl:hpfircore|dspba_delay:d_xIn_0_14"
 Info (12128): Elaborating entity "altsyncram" for hierarchy "LP1000_0002:lp1000_inst|LP1000_0002_ast:LP1000_0002_ast_inst|LP1000_0002_rtl:hpfircore|altsyncram:u0_m0_wo0_wi0_delayr0_dmem"
 Info (12130): Elaborated megafunction instantiation "LP1000_0002:lp1000_inst|LP1000_0002_ast:LP1000_0002_ast_inst|LP1000_0002_rtl:hpfircore|altsyncram:u0_m0_wo0_wi0_delayr0_dmem"
@@ -1105,10 +1091,10 @@ Info (21057): Implemented 532 device resources after synthesis - the final resou
     Info (21061): Implemented 441 logic cells
     Info (21064): Implemented 32 RAM segments
     Info (21062): Implemented 3 DSP elements
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 7 warnings
-    Info: Peak virtual memory: 4678 megabytes
-    Info: Processing ended: Tue May 14 11:06:16 2019
-    Info: Elapsed time: 00:00:03
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 6 warnings
+    Info: Peak virtual memory: 557 megabytes
+    Info: Processing ended: Mon May 20 13:06:22 2019
+    Info: Elapsed time: 00:00:05
     Info: Total CPU time (on all processors): 00:00:04
 
 

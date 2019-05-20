@@ -19,10 +19,10 @@ void setup() {
 
 void loop() {
   // Modtag vha. følgende if statement:
- /* if (digitalRead(arm.trdy) == HIGH) {
+ if (digitalRead(arm.trdy) == HIGH) {
     arm.Test_getData(kanal1);
   }
-*/
+
 
 
 
@@ -30,6 +30,6 @@ void loop() {
     //arm.Test_Bitshift_getData(kanal1);
 
   //Test af convertLong2bit24Vector: 
-  arm.Test_convertLong2bit24vector(2176812);
-  delay(6000);
+  //arm.Test_convertLong2bit24vector(2176812);
+  //delay(6000);
 }

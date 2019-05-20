@@ -24,7 +24,7 @@ class ARM
   
   // Konstanter der bruges i til konfigurrering;
   int ss=8; 
-  int trdy=7;
+  int trdy=6;
   byte bit24val[3];
   
   private:

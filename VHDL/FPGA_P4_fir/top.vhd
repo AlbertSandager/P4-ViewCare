@@ -36,7 +36,6 @@ port (
 	i2s_clk, i2s_bclk, i2s_lrclk, i2s_adc_data : in std_logic;
 	i2s_l_led_out : out std_logic_vector(i2s_d_width - 1 downto 0);
 	i2s_r_led_out : out std_logic_vector(i2s_d_width - 1 downto 0);
-	i2s_l_fir_clk : in  std_logic := '0';             --                     clk.clk
 	--FIR left
 	i2s_l_fir_ast_sink_error : in std_logic_vector(1 downto 0) := (others => '0'); --                        .error
 	i2s_l_fir_ast_source_valid : out std_logic;                                        --                        .valid

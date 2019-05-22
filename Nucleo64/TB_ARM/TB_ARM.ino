@@ -17,6 +17,8 @@ bool newdata = false;
 int i = 0;
 void setup() {
   // put your setup code here, to run once:
+  pinMode(2, OUTPUT);
+  digitalWrite(2, LOW);
 
   arm.konfig();
 
@@ -28,36 +30,20 @@ void loop() {
 
   //Tjek om der er et sample klar fra EKG
   if (digitalRead(arm.EKG_ready) == HIGH && arm.EKG_ready_bool == true) {
-    kanal1rec = arm.getData(kanal1);
+    recdata[i] = arm.getData(kanal1);
     arm.EKG_ready_bool = false;
-    newdata = true;
-
-
-    if (newdata == true && i < 80) {
-      recdata[i] = kanal1rec;
-      i++;
-      newdata = false;
-    }
+    i++;
   }
+
 
   if (i == 79) {
     Serial.println("New data");
     for (int a = 0; a < 80; a++) {
-      Serial.println(recdata[i]);
+      Serial.println(recdata[a]);
     }
+    i = 0;
     delay(5000);
   }
-  /* if (newdata == true) {
-     recdata[i] = kanal1rec;
-     i++;
-    }
-    if (i == 79) {
-     for (int a; a < 79; a++) {
-       Serial.println(recdata[a]);
-     }
-    }
-  */
- 
 
   /*
       //Tjek om der er et sample klar fra LYD_R
@@ -84,14 +70,9 @@ void loop() {
   if (digitalRead(arm.EKG_ready) == LOW)  {
     arm.EKG_ready_bool = true;
     newdata == false;
-    Serial.println(kanal1rec);
+    //Serial.println(kanal1rec);
   }
 
-  //delay(1);
-
-  /*Serial.print("Kanal1:");*/
-  //Serial.print("Kanal2:"); Serial.println(kanal2rec);
-  //Serial.print("Kanal3:"); Serial.println(kanal3rec);
 
   //Test af bitshift.
   //arm.Test_Bitshift_getData(kanal1);

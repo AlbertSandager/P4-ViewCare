@@ -18,7 +18,7 @@
 
 #include <I2S.h>
 
-const int frequency = 1000; // frequency of square wave in Hz
+const int frequency = 500; // frequency of square wave in Hz
 const int amplitude = 1; // amplitude of square wave
 const long sampleRate = 8000; // sample rate in Hz
 

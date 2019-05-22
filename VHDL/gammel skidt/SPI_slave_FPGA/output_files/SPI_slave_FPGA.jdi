@@ -1,6 +1,6 @@
 <sld_project_info>
   <project>
-    <hash md5_digest_80b="11b21f6ae70b109a5d65"/>
+    <hash md5_digest_80b="16bca87a2531f1427b99"/>
   </project>
   <file_info>
     <file device="EP3C16F484C6" path="SPI_slave_FPGA.sof" usercode="0xFFFFFFFF"/>

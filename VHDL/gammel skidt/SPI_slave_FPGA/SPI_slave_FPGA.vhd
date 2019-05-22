@@ -4,12 +4,11 @@ USE ieee.std_logic_arith.all;
 
 ENTITY SPI_slave_FPGA IS
   GENERIC(
-    cpol    : STD_LOGIC := '0';  --spi clock polarity mode
-    cpha    : STD_LOGIC := '1';  --spi clock phase mode
-    d_width : INTEGER := 8);     --data width in bits
+    cpol    : STD_LOGIC := '1';  --spi clock polarity mode
+    cpha    : STD_LOGIC := '0';  --spi clock phase mode
+    d_width : INTEGER := 24);     --data width in bits
   PORT(
     sclk         : IN     STD_LOGIC;  --spi clk from master
-    reset_n      : IN     STD_LOGIC;  --active low reset
     ss_n         : IN     STD_LOGIC;  --active low slave select
     mosi         : IN     STD_LOGIC;  --master out, slave in
     rx_req       : IN     STD_LOGIC;  --'1' while busy = '0' moves data to the rx_data output
@@ -17,8 +16,6 @@ ENTITY SPI_slave_FPGA IS
     st_load_trdy : IN     STD_LOGIC;  --asynchronous trdy load input
     st_load_rrdy : IN     STD_LOGIC;  --asynchronous rrdy load input
     st_load_roe  : IN     STD_LOGIC;  --asynchronous roe load input
-    tx_load_en   : IN     STD_LOGIC;  --asynchronous transmit buffer load enable
-    tx_load_data : IN     STD_LOGIC_VECTOR(d_width-1 DOWNTO 0);  --asynchronous tx data to load
     trdy         : BUFFER STD_LOGIC := '0';  --transmit ready bit
     rrdy         : BUFFER STD_LOGIC := '0';  --receive ready bit
     roe          : BUFFER STD_LOGIC := '0';  --receive overrun error bit
@@ -35,7 +32,13 @@ ARCHITECTURE logic OF SPI_slave_FPGA IS
   SIGNAL rd_add  : STD_LOGIC;  --address of register to read ('0' = transmit, '1' = status)
   SIGNAL rx_buf  : STD_LOGIC_VECTOR(d_width-1 DOWNTO 0) := (OTHERS => '0');  --receiver buffer
   SIGNAL tx_buf  : STD_LOGIC_VECTOR(d_width-1 DOWNTO 0) := (OTHERS => '0');  --transmit buffer
+  SIGNAL reset_n : STD_LOGIC := '1';  --active low reset
+  SIGNAL tx_load_data : STD_LOGIC_VECTOR(d_width-1 DOWNTO 0);  --asynchronous tx data to load
+  SIGNAL tx_load_en : STD_LOGIC := '1';  --asynchronous transmit buffer load enable
+  
 BEGIN
+tx_load_data <= "110010101100101001101010";
+
   busy <= NOT ss_n;  --high during transactions
   
   --adjust clock so writes are on rising edge and reads on falling edge

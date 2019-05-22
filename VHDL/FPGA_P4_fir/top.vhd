@@ -182,7 +182,7 @@ i2s_ports: I2S port map (
 	r_rx_data=>i2s_r_rx_data
 	);
 
-	
+--Setup for MUX
 mux_ports: Mux4to1 port map (
 	D1=>mux_D1,
 	D2=>mux_D2,
@@ -192,6 +192,7 @@ mux_ports: Mux4to1 port map (
 	SEL=>mux_SEL
 	);
 	
+--Setup for FIR
 fir_ecg_ports: LP1000 port map (
 	clk=>fir_clk,
 	reset_n=>ecg_fir_reset_n,
@@ -233,7 +234,6 @@ fir_r_ports: LP1000 port map (
 	ecg_fir_ast_sink_valid <= ecg_rrdy;
 	i2s_l_fir_ast_sink_valid <= i2s_l_ready;
 	i2s_r_fir_ast_sink_valid <= i2s_r_ready;
-	
 	
 	mux_D1 <= ecg_fir_ast_source_data;
 	mux_D2 <= i2s_l_fir_ast_source_data;

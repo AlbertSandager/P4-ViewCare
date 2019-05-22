@@ -16,7 +16,7 @@
 -- PROGRAM "Quartus II 64-Bit"
 -- VERSION "Version 13.1.0 Build 162 10/23/2013 SJ Web Edition"
 
--- DATE "05/21/2019 10:39:17"
+-- DATE "05/22/2019 08:49:07"
 
 -- 
 -- Device: Altera EP3C16F484C6 Package FBGA484
@@ -3104,8 +3104,6 @@ SIGNAL \fir_r_ports|lp1000_inst|LP1000_0002_ast_inst|source|data_valid~q\ : std_
 SIGNAL \i2s_r_fir_ast_sink_error[0]~input_o\ : std_logic;
 SIGNAL \fir_r_ports|lp1000_inst|LP1000_0002_ast_inst|sink|at_sink_error_int~0_combout\ : std_logic;
 SIGNAL \fir_r_ports|lp1000_inst|LP1000_0002_ast_inst|source|at_source_error_s[0]~feeder_combout\ : std_logic;
-SIGNAL \fir_ecg_ports|lp1000_inst|LP1000_0002_ast_inst|hpfircore|u0_m0_wo0_mtree_mult1_0_replace_multhi_component|auto_generated|result\ : std_logic_vector(14 DOWNTO 0);
-SIGNAL \fir_ecg_ports|lp1000_inst|LP1000_0002_ast_inst|hpfircore|u0_m0_wo0_mtree_mult1_0_replace_multlo_component|auto_generated|result\ : std_logic_vector(25 DOWNTO 0);
 SIGNAL \rec_spi_ports|rx_data\ : std_logic_vector(23 DOWNTO 0);
 SIGNAL \rec_spi_ports|rx_buf\ : std_logic_vector(23 DOWNTO 0);
 SIGNAL \rec_spi_ports|bit_cnt\ : std_logic_vector(32 DOWNTO 0);
@@ -3178,6 +3176,8 @@ SIGNAL \fir_ecg_ports|lp1000_inst|LP1000_0002_ast_inst|hpfircore|u0_m0_wo0_ca0_i
 SIGNAL \fir_ecg_ports|lp1000_inst|LP1000_0002_ast_inst|hpfircore|u0_m0_wo0_accum_o\ : std_logic_vector(41 DOWNTO 0);
 SIGNAL \fir_ecg_ports|lp1000_inst|LP1000_0002_ast_inst|hpfircore|u0_m0_wo0_cm0_lutmem_dmem|auto_generated|q_b\ : std_logic_vector(7 DOWNTO 0);
 SIGNAL \fir_ecg_ports|lp1000_inst|LP1000_0002_ast_inst|hpfircore|u0_m0_wo0_wi0_delayr0_dmem|auto_generated|q_b\ : std_logic_vector(23 DOWNTO 0);
+SIGNAL \fir_ecg_ports|lp1000_inst|LP1000_0002_ast_inst|hpfircore|u0_m0_wo0_mtree_mult1_0_replace_multhi_component|auto_generated|result\ : std_logic_vector(14 DOWNTO 0);
+SIGNAL \fir_ecg_ports|lp1000_inst|LP1000_0002_ast_inst|hpfircore|u0_m0_wo0_mtree_mult1_0_replace_multlo_component|auto_generated|result\ : std_logic_vector(25 DOWNTO 0);
 SIGNAL \ecg_spi_ports|ALT_INV_process_1~1clkctrl_outclk\ : std_logic;
 SIGNAL \ALT_INV_ecg_sclk~input_o\ : std_logic;
 SIGNAL \ALT_INV_rec_sclk~input_o\ : std_logic;

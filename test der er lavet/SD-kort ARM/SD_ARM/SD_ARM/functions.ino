@@ -17,14 +17,14 @@ void sdWrite (int val) {
 
   // if the file opened okay, write to it:
   if (myFile) {
-    Serial.print("Writing to data.txt...");
+   // Serial.print("Writing to data.txt...");
     myFile.println(val);
     // close the file:
     myFile.close();
-    Serial.println("done.");
+   // Serial.println("done.");
   } else {
     // if the file didn't open, print an error:
-    Serial.println("error opening test.txt");
+   // Serial.println("error opening test.txt");
   }
   digitalWrite(cs, HIGH);
 }

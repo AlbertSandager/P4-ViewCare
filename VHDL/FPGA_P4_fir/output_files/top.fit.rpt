@@ -1,5 +1,5 @@
 Fitter report for top
-Wed May 22 08:48:46 2019
+Wed May 22 13:49:31 2019
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -9,46 +9,47 @@ Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
   1. Legal Notice
   2. Fitter Summary
   3. Fitter Settings
-  4. I/O Assignment Warnings
-  5. Fitter Netlist Optimizations
-  6. Incremental Compilation Preservation Summary
-  7. Incremental Compilation Partition Settings
-  8. Incremental Compilation Placement Preservation
-  9. Pin-Out File
- 10. Fitter Resource Usage Summary
- 11. Fitter Partition Statistics
- 12. Input Pins
- 13. Output Pins
- 14. Dual Purpose and Dedicated Pins
- 15. I/O Bank Usage
- 16. All Package Pins
- 17. Fitter Resource Utilization by Entity
- 18. Delay Chain Summary
- 19. Pad To Core Delay Chain Fanout
- 20. Control Signals
- 21. Global & Other Fast Signals
- 22. Non-Global High Fan-Out Signals
- 23. Fitter RAM Summary
- 24. |top|LP1000:fir_l_ports|LP1000_0002:lp1000_inst|LP1000_0002_ast:LP1000_0002_ast_inst|LP1000_0002_rtl:hpfircore|altsyncram:u0_m0_wo0_cm0_lutmem_dmem|altsyncram_q8s3:auto_generated|ALTSYNCRAM
- 25. |top|LP1000:fir_ecg_ports|LP1000_0002:lp1000_inst|LP1000_0002_ast:LP1000_0002_ast_inst|LP1000_0002_rtl:hpfircore|altsyncram:u0_m0_wo0_cm0_lutmem_dmem|altsyncram_q8s3:auto_generated|ALTSYNCRAM
- 26. |top|LP1000:fir_r_ports|LP1000_0002:lp1000_inst|LP1000_0002_ast:LP1000_0002_ast_inst|LP1000_0002_rtl:hpfircore|altsyncram:u0_m0_wo0_cm0_lutmem_dmem|altsyncram_q8s3:auto_generated|ALTSYNCRAM
- 27. Fitter DSP Block Usage Summary
- 28. DSP Block Details
- 29. Routing Usage Summary
- 30. LAB Logic Elements
- 31. LAB-wide Signals
- 32. LAB Signals Sourced
- 33. LAB Signals Sourced Out
- 34. LAB Distinct Inputs
- 35. I/O Rules Summary
- 36. I/O Rules Details
- 37. I/O Rules Matrix
- 38. Fitter Device Options
- 39. Operating Settings and Conditions
- 40. Estimated Delay Added for Hold Timing Summary
- 41. Estimated Delay Added for Hold Timing Details
- 42. Fitter Messages
- 43. Fitter Suppressed Messages
+  4. Parallel Compilation
+  5. I/O Assignment Warnings
+  6. Fitter Netlist Optimizations
+  7. Incremental Compilation Preservation Summary
+  8. Incremental Compilation Partition Settings
+  9. Incremental Compilation Placement Preservation
+ 10. Pin-Out File
+ 11. Fitter Resource Usage Summary
+ 12. Fitter Partition Statistics
+ 13. Input Pins
+ 14. Output Pins
+ 15. Dual Purpose and Dedicated Pins
+ 16. I/O Bank Usage
+ 17. All Package Pins
+ 18. Fitter Resource Utilization by Entity
+ 19. Delay Chain Summary
+ 20. Pad To Core Delay Chain Fanout
+ 21. Control Signals
+ 22. Global & Other Fast Signals
+ 23. Non-Global High Fan-Out Signals
+ 24. Fitter RAM Summary
+ 25. |top|LP1000:fir_l_ports|LP1000_0002:lp1000_inst|LP1000_0002_ast:LP1000_0002_ast_inst|LP1000_0002_rtl:hpfircore|altsyncram:u0_m0_wo0_cm0_lutmem_dmem|altsyncram_q8s3:auto_generated|ALTSYNCRAM
+ 26. |top|LP1000:fir_ecg_ports|LP1000_0002:lp1000_inst|LP1000_0002_ast:LP1000_0002_ast_inst|LP1000_0002_rtl:hpfircore|altsyncram:u0_m0_wo0_cm0_lutmem_dmem|altsyncram_q8s3:auto_generated|ALTSYNCRAM
+ 27. |top|LP1000:fir_r_ports|LP1000_0002:lp1000_inst|LP1000_0002_ast:LP1000_0002_ast_inst|LP1000_0002_rtl:hpfircore|altsyncram:u0_m0_wo0_cm0_lutmem_dmem|altsyncram_q8s3:auto_generated|ALTSYNCRAM
+ 28. Fitter DSP Block Usage Summary
+ 29. DSP Block Details
+ 30. Routing Usage Summary
+ 31. LAB Logic Elements
+ 32. LAB-wide Signals
+ 33. LAB Signals Sourced
+ 34. LAB Signals Sourced Out
+ 35. LAB Distinct Inputs
+ 36. I/O Rules Summary
+ 37. I/O Rules Details
+ 38. I/O Rules Matrix
+ 39. Fitter Device Options
+ 40. Operating Settings and Conditions
+ 41. Estimated Delay Added for Hold Timing Summary
+ 42. Estimated Delay Added for Hold Timing Details
+ 43. Fitter Messages
+ 44. Fitter Suppressed Messages
 
 
 
@@ -74,7 +75,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Fitter Summary                                                                  ;
 +------------------------------------+--------------------------------------------+
-; Fitter Status                      ; Successful - Wed May 22 08:48:46 2019      ;
+; Fitter Status                      ; Successful - Wed May 22 13:49:31 2019      ;
 ; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
 ; Revision Name                      ; top                                        ;
 ; Top-level Entity Name              ; top                                        ;
@@ -152,6 +153,17 @@ applicable agreement for further details.
 ; RAM Bit Reservation (Cyclone III)                                          ; Off                                   ; Off                                   ;
 ; Enable input tri-state on active configuration pins in user mode           ; Off                                   ; Off                                   ;
 +----------------------------------------------------------------------------+---------------------------------------+---------------------------------------+
+
+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 4      ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
 
 
 +----------------------------------------------------------------------+
@@ -354,7 +366,7 @@ applicable agreement for further details.
 +--------------+
 ; Pin-Out File ;
 +--------------+
-The pin-out file can be found in C:/Users/Albert Sandager/Documents/GitHub/P4-ViewCare/VHDL/FPGA_P4_fir/output_files/top.pin.
+The pin-out file can be found in C:/Users/jkhel/Documents/GitHub/P4-ViewCare/VHDL/FPGA_P4_fir/output_files/top.pin.
 
 
 +--------------------------------------------------------------------------+
@@ -4318,34 +4330,34 @@ Info (170189): Fitter placement preparation operations beginning
 Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:01
 Info (170191): Fitter placement operations beginning
 Info (170137): Fitter placement was successful
-Info (170192): Fitter placement operations ending: elapsed time is 00:00:07
+Info (170192): Fitter placement operations ending: elapsed time is 00:00:05
 Info (128000): Starting physical synthesis optimizations for speed
 Info (128002): Starting physical synthesis algorithm logic and register replication
 Info (128003): Physical synthesis algorithm logic and register replication complete: estimated slack improvement of 13 ps
-Info (128001): Physical synthesis optimizations for speed complete: elapsed time is 00:00:05
+Info (128001): Physical synthesis optimizations for speed complete: elapsed time is 00:00:04
 Info (170193): Fitter routing operations beginning
 Info (170195): Router estimated average interconnect usage is 2% of the available device resources
     Info (170196): Router estimated peak interconnect usage is 17% of the available device resources in the region that extends from location X21_Y0 to location X30_Y9
-Info (170194): Fitter routing operations ending: elapsed time is 00:00:06
+Info (170194): Fitter routing operations ending: elapsed time is 00:00:04
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
-Info (11888): Total time spent on timing analysis during the Fitter is 4.38 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 3.19 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
-Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:04
-Info (144001): Generated suppressed messages file C:/Users/Albert Sandager/Documents/GitHub/P4-ViewCare/VHDL/FPGA_P4_fir/output_files/top.fit.smsg
+Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:03
+Info (144001): Generated suppressed messages file C:/Users/jkhel/Documents/GitHub/P4-ViewCare/VHDL/FPGA_P4_fir/output_files/top.fit.smsg
 Info: Quartus II 64-Bit Fitter was successful. 0 errors, 7 warnings
-    Info: Peak virtual memory: 879 megabytes
-    Info: Processing ended: Wed May 22 08:48:47 2019
-    Info: Elapsed time: 00:00:37
-    Info: Total CPU time (on all processors): 00:00:33
+    Info: Peak virtual memory: 5040 megabytes
+    Info: Processing ended: Wed May 22 13:49:32 2019
+    Info: Elapsed time: 00:00:28
+    Info: Total CPU time (on all processors): 00:00:26
 
 
 +----------------------------+
 ; Fitter Suppressed Messages ;
 +----------------------------+
-The suppressed messages can be found in C:/Users/Albert Sandager/Documents/GitHub/P4-ViewCare/VHDL/FPGA_P4_fir/output_files/top.fit.smsg.
+The suppressed messages can be found in C:/Users/jkhel/Documents/GitHub/P4-ViewCare/VHDL/FPGA_P4_fir/output_files/top.fit.smsg.
 
 

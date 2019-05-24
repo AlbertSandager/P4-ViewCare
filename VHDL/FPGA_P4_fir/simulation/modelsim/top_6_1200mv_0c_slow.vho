@@ -16,7 +16,7 @@
 -- PROGRAM "Quartus II 64-Bit"
 -- VERSION "Version 13.1.0 Build 162 10/23/2013 SJ Web Edition"
 
--- DATE "05/22/2019 08:49:06"
+-- DATE "05/22/2019 13:49:47"
 
 -- 
 -- Device: Altera EP3C16F484C6 Package FBGA484
@@ -3104,6 +3104,7 @@ SIGNAL \fir_r_ports|lp1000_inst|LP1000_0002_ast_inst|source|data_valid~q\ : std_
 SIGNAL \i2s_r_fir_ast_sink_error[0]~input_o\ : std_logic;
 SIGNAL \fir_r_ports|lp1000_inst|LP1000_0002_ast_inst|sink|at_sink_error_int~0_combout\ : std_logic;
 SIGNAL \fir_r_ports|lp1000_inst|LP1000_0002_ast_inst|source|at_source_error_s[0]~feeder_combout\ : std_logic;
+SIGNAL \fir_ecg_ports|lp1000_inst|LP1000_0002_ast_inst|hpfircore|u0_m0_wo0_mtree_mult1_0_replace_multhi_component|auto_generated|result\ : std_logic_vector(14 DOWNTO 0);
 SIGNAL \rec_spi_ports|rx_data\ : std_logic_vector(23 DOWNTO 0);
 SIGNAL \rec_spi_ports|rx_buf\ : std_logic_vector(23 DOWNTO 0);
 SIGNAL \rec_spi_ports|bit_cnt\ : std_logic_vector(32 DOWNTO 0);
@@ -3176,16 +3177,15 @@ SIGNAL \fir_ecg_ports|lp1000_inst|LP1000_0002_ast_inst|hpfircore|u0_m0_wo0_ca0_i
 SIGNAL \fir_ecg_ports|lp1000_inst|LP1000_0002_ast_inst|hpfircore|u0_m0_wo0_accum_o\ : std_logic_vector(41 DOWNTO 0);
 SIGNAL \fir_ecg_ports|lp1000_inst|LP1000_0002_ast_inst|hpfircore|u0_m0_wo0_cm0_lutmem_dmem|auto_generated|q_b\ : std_logic_vector(7 DOWNTO 0);
 SIGNAL \fir_ecg_ports|lp1000_inst|LP1000_0002_ast_inst|hpfircore|u0_m0_wo0_wi0_delayr0_dmem|auto_generated|q_b\ : std_logic_vector(23 DOWNTO 0);
-SIGNAL \fir_ecg_ports|lp1000_inst|LP1000_0002_ast_inst|hpfircore|u0_m0_wo0_mtree_mult1_0_replace_multhi_component|auto_generated|result\ : std_logic_vector(14 DOWNTO 0);
 SIGNAL \fir_ecg_ports|lp1000_inst|LP1000_0002_ast_inst|hpfircore|u0_m0_wo0_mtree_mult1_0_replace_multlo_component|auto_generated|result\ : std_logic_vector(25 DOWNTO 0);
 SIGNAL \ecg_spi_ports|ALT_INV_process_1~1clkctrl_outclk\ : std_logic;
 SIGNAL \ALT_INV_ecg_sclk~input_o\ : std_logic;
 SIGNAL \ALT_INV_rec_sclk~input_o\ : std_logic;
 SIGNAL \ALT_INV_rec_ss_n~input_o\ : std_logic;
 SIGNAL \ALT_INV_ecg_ss_n~input_o\ : std_logic;
-SIGNAL \fir_ecg_ports|lp1000_inst|LP1000_0002_ast_inst|hpfircore|ALT_INV_u0_m0_wo0_wi0_ra0_count0_sc\ : std_logic_vector(10 DOWNTO 10);
 SIGNAL \fir_l_ports|lp1000_inst|LP1000_0002_ast_inst|hpfircore|ALT_INV_u0_m0_wo0_wi0_ra0_count0_sc\ : std_logic_vector(10 DOWNTO 10);
 SIGNAL \fir_r_ports|lp1000_inst|LP1000_0002_ast_inst|hpfircore|ALT_INV_u0_m0_wo0_wi0_ra0_count0_sc\ : std_logic_vector(10 DOWNTO 10);
+SIGNAL \fir_ecg_ports|lp1000_inst|LP1000_0002_ast_inst|hpfircore|ALT_INV_u0_m0_wo0_wi0_ra0_count0_sc\ : std_logic_vector(10 DOWNTO 10);
 SIGNAL \rec_spi_ports|ALT_INV_roe~0_combout\ : std_logic;
 SIGNAL \rec_spi_ports|ALT_INV_rrdy~0_combout\ : std_logic;
 SIGNAL \rec_spi_ports|ALT_INV_trdy~0_combout\ : std_logic;
@@ -3195,9 +3195,9 @@ SIGNAL \ecg_spi_ports|ALT_INV_trdy~0_combout\ : std_logic;
 SIGNAL \fir_r_ports|lp1000_inst|LP1000_0002_ast_inst|hpfircore|ALT_INV_u0_m0_wo0_aseq_eq~q\ : std_logic;
 SIGNAL \fir_l_ports|lp1000_inst|LP1000_0002_ast_inst|hpfircore|ALT_INV_u0_m0_wo0_aseq_eq~q\ : std_logic;
 SIGNAL \fir_ecg_ports|lp1000_inst|LP1000_0002_ast_inst|hpfircore|ALT_INV_u0_m0_wo0_aseq_eq~q\ : std_logic;
-SIGNAL \fir_ecg_ports|lp1000_inst|LP1000_0002_ast_inst|hpfircore|ALT_INV_u0_m0_wo0_ca0_eq~q\ : std_logic;
 SIGNAL \fir_l_ports|lp1000_inst|LP1000_0002_ast_inst|hpfircore|ALT_INV_u0_m0_wo0_ca0_eq~q\ : std_logic;
 SIGNAL \fir_r_ports|lp1000_inst|LP1000_0002_ast_inst|hpfircore|ALT_INV_u0_m0_wo0_ca0_eq~q\ : std_logic;
+SIGNAL \fir_ecg_ports|lp1000_inst|LP1000_0002_ast_inst|hpfircore|ALT_INV_u0_m0_wo0_ca0_eq~q\ : std_logic;
 
 BEGIN
 
@@ -4164,9 +4164,9 @@ ww_devpor <= devpor;
 \ALT_INV_rec_sclk~input_o\ <= NOT \rec_sclk~input_o\;
 \ALT_INV_rec_ss_n~input_o\ <= NOT \rec_ss_n~input_o\;
 \ALT_INV_ecg_ss_n~input_o\ <= NOT \ecg_ss_n~input_o\;
-\fir_ecg_ports|lp1000_inst|LP1000_0002_ast_inst|hpfircore|ALT_INV_u0_m0_wo0_wi0_ra0_count0_sc\(10) <= NOT \fir_ecg_ports|lp1000_inst|LP1000_0002_ast_inst|hpfircore|u0_m0_wo0_wi0_ra0_count0_sc\(10);
 \fir_l_ports|lp1000_inst|LP1000_0002_ast_inst|hpfircore|ALT_INV_u0_m0_wo0_wi0_ra0_count0_sc\(10) <= NOT \fir_l_ports|lp1000_inst|LP1000_0002_ast_inst|hpfircore|u0_m0_wo0_wi0_ra0_count0_sc\(10);
 \fir_r_ports|lp1000_inst|LP1000_0002_ast_inst|hpfircore|ALT_INV_u0_m0_wo0_wi0_ra0_count0_sc\(10) <= NOT \fir_r_ports|lp1000_inst|LP1000_0002_ast_inst|hpfircore|u0_m0_wo0_wi0_ra0_count0_sc\(10);
+\fir_ecg_ports|lp1000_inst|LP1000_0002_ast_inst|hpfircore|ALT_INV_u0_m0_wo0_wi0_ra0_count0_sc\(10) <= NOT \fir_ecg_ports|lp1000_inst|LP1000_0002_ast_inst|hpfircore|u0_m0_wo0_wi0_ra0_count0_sc\(10);
 \rec_spi_ports|ALT_INV_roe~0_combout\ <= NOT \rec_spi_ports|roe~0_combout\;
 \rec_spi_ports|ALT_INV_rrdy~0_combout\ <= NOT \rec_spi_ports|rrdy~0_combout\;
 \rec_spi_ports|ALT_INV_trdy~0_combout\ <= NOT \rec_spi_ports|trdy~0_combout\;
@@ -4176,9 +4176,9 @@ ww_devpor <= devpor;
 \fir_r_ports|lp1000_inst|LP1000_0002_ast_inst|hpfircore|ALT_INV_u0_m0_wo0_aseq_eq~q\ <= NOT \fir_r_ports|lp1000_inst|LP1000_0002_ast_inst|hpfircore|u0_m0_wo0_aseq_eq~q\;
 \fir_l_ports|lp1000_inst|LP1000_0002_ast_inst|hpfircore|ALT_INV_u0_m0_wo0_aseq_eq~q\ <= NOT \fir_l_ports|lp1000_inst|LP1000_0002_ast_inst|hpfircore|u0_m0_wo0_aseq_eq~q\;
 \fir_ecg_ports|lp1000_inst|LP1000_0002_ast_inst|hpfircore|ALT_INV_u0_m0_wo0_aseq_eq~q\ <= NOT \fir_ecg_ports|lp1000_inst|LP1000_0002_ast_inst|hpfircore|u0_m0_wo0_aseq_eq~q\;
-\fir_ecg_ports|lp1000_inst|LP1000_0002_ast_inst|hpfircore|ALT_INV_u0_m0_wo0_ca0_eq~q\ <= NOT \fir_ecg_ports|lp1000_inst|LP1000_0002_ast_inst|hpfircore|u0_m0_wo0_ca0_eq~q\;
 \fir_l_ports|lp1000_inst|LP1000_0002_ast_inst|hpfircore|ALT_INV_u0_m0_wo0_ca0_eq~q\ <= NOT \fir_l_ports|lp1000_inst|LP1000_0002_ast_inst|hpfircore|u0_m0_wo0_ca0_eq~q\;
 \fir_r_ports|lp1000_inst|LP1000_0002_ast_inst|hpfircore|ALT_INV_u0_m0_wo0_ca0_eq~q\ <= NOT \fir_r_ports|lp1000_inst|LP1000_0002_ast_inst|hpfircore|u0_m0_wo0_ca0_eq~q\;
+\fir_ecg_ports|lp1000_inst|LP1000_0002_ast_inst|hpfircore|ALT_INV_u0_m0_wo0_ca0_eq~q\ <= NOT \fir_ecg_ports|lp1000_inst|LP1000_0002_ast_inst|hpfircore|u0_m0_wo0_ca0_eq~q\;
 
 -- Location: IOOBUF_X32_Y0_N16
 \ecg_miso~output\ : cycloneiii_io_obuf

@@ -1,0 +1,25 @@
+set_global_assignment -entity "LP1000" -library "lib_LP1000" -name IP_TOOL_NAME "altera_fir_compiler_ii"
+set_global_assignment -entity "LP1000" -library "lib_LP1000" -name IP_TOOL_VERSION "13.1"
+set_global_assignment -entity "LP1000" -library "lib_LP1000" -name IP_TOOL_ENV "mwpim"
+set_global_assignment -library "lib_LP1000" -name SPD_FILE [file join $::quartus(sip_path) "LP1000.spd"]
+
+set_global_assignment -library "lib_LP1000" -name MISC_FILE [file join $::quartus(sip_path) "LP1000_sim/altera_avalon_sc_fifo.v"]
+set_global_assignment -library "lib_LP1000" -name MISC_FILE [file join $::quartus(sip_path) "LP1000_sim/auk_dspip_math_pkg_hpfir.vhd"]
+set_global_assignment -library "lib_LP1000" -name MISC_FILE [file join $::quartus(sip_path) "LP1000_sim/auk_dspip_lib_pkg_hpfir.vhd"]
+set_global_assignment -library "lib_LP1000" -name MISC_FILE [file join $::quartus(sip_path) "LP1000_sim/auk_dspip_avalon_streaming_controller_hpfir.vhd"]
+set_global_assignment -library "lib_LP1000" -name MISC_FILE [file join $::quartus(sip_path) "LP1000_sim/auk_dspip_avalon_streaming_sink_hpfir.vhd"]
+set_global_assignment -library "lib_LP1000" -name MISC_FILE [file join $::quartus(sip_path) "LP1000_sim/auk_dspip_avalon_streaming_source_hpfir.vhd"]
+set_global_assignment -library "lib_LP1000" -name MISC_FILE [file join $::quartus(sip_path) "LP1000_sim/auk_dspip_roundsat_hpfir.vhd"]
+set_global_assignment -library "lib_LP1000" -name MISC_FILE [file join $::quartus(sip_path) "LP1000_sim/dspba_library_package.vhd"]
+set_global_assignment -library "lib_LP1000" -name MISC_FILE [file join $::quartus(sip_path) "LP1000_sim/dspba_library.vhd"]
+set_global_assignment -library "lib_LP1000" -name MISC_FILE [file join $::quartus(sip_path) "LP1000_sim/LP1000_rtl.vhd"]
+set_global_assignment -library "lib_LP1000" -name MISC_FILE [file join $::quartus(sip_path) "LP1000_sim/LP1000_ast.vhd"]
+set_global_assignment -library "lib_LP1000" -name MISC_FILE [file join $::quartus(sip_path) "LP1000_sim/LP1000.vhd"]
+set_global_assignment -library "lib_LP1000" -name MISC_FILE [file join $::quartus(sip_path) "LP1000_sim/LP1000_nativelink.tcl"]
+set_global_assignment -library "lib_LP1000" -name MISC_FILE [file join $::quartus(sip_path) "LP1000_sim/LP1000_msim.tcl"]
+set_global_assignment -library "lib_LP1000" -name MISC_FILE [file join $::quartus(sip_path) "LP1000_sim/LP1000_tb.vhd"]
+set_global_assignment -library "lib_LP1000" -name MISC_FILE [file join $::quartus(sip_path) "LP1000_sim/LP1000_mlab.m"]
+set_global_assignment -library "lib_LP1000" -name MISC_FILE [file join $::quartus(sip_path) "LP1000_sim/LP1000_model.m"]
+set_global_assignment -library "lib_LP1000" -name MISC_FILE [file join $::quartus(sip_path) "LP1000_sim/LP1000_coef_int.txt"]
+set_global_assignment -library "lib_LP1000" -name MISC_FILE [file join $::quartus(sip_path) "LP1000_sim/LP1000_input.txt"]
+set_global_assignment -library "lib_LP1000" -name MISC_FILE [file join $::quartus(sip_path) "LP1000_sim/LP1000_param.txt"]

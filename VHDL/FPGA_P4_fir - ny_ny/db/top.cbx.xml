@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="top">
+		<CBX_INST_ENTRY INSTANCE_NAME="|top|fir_filter:fir_ecg_ports|fir_filter_ast:fir_filter_ast_inst|auk_dspip_avalon_streaming_sink_fir_131:sink|scfifo:\normal_fifo:fifo_eab_on:in_fifo" CBX_FILE_NAME="scfifo_teh1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top|fir_filter:fir_l_ports|fir_filter_ast:fir_filter_ast_inst|auk_dspip_avalon_streaming_sink_fir_131:sink|scfifo:\normal_fifo:fifo_eab_on:in_fifo" CBX_FILE_NAME="scfifo_teh1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top|fir_filter:fir_r_ports|fir_filter_ast:fir_filter_ast_inst|auk_dspip_avalon_streaming_sink_fir_131:sink|scfifo:\normal_fifo:fifo_eab_on:in_fifo" CBX_FILE_NAME="scfifo_teh1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

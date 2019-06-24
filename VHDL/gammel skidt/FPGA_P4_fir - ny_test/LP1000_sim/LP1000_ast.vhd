@@ -22,9 +22,9 @@ use work.auk_dspip_math_pkg_hpfir.all;
 entity LP1000_ast is
   generic (
   INWIDTH             : integer := 24;
-  FULL_WIDTH          : integer := 37;
+  FULL_WIDTH          : integer := 32;
   BANKINWIDTH         : integer := 0;
-  REM_LSB_BIT_g       : integer := 13;
+  REM_LSB_BIT_g       : integer := 8;
   REM_LSB_TYPE_g      : string := "Truncation";
   REM_MSB_BIT_g       : integer := 0;
   REM_MSB_TYPE_g      : string := "Truncation";
@@ -102,7 +102,7 @@ component LP1000_rtl is
     xIn_0              : in std_logic_vector(24 - 1 downto 0);
     xOut_v             : out std_logic_vector(0 downto 0);
     xOut_c             : out std_logic_vector(7 downto 0);
-    xOut_0             : out std_logic_vector(37 - 1 downto 0);
+    xOut_0             : out std_logic_vector(32 - 1 downto 0);
     clk                : in std_logic;
     areset             : in std_logic
 );
@@ -177,7 +177,7 @@ hpfircore: LP1000_rtl
      xIn_0     => data_in((0 + 24) * 0 + 24 - 1 downto (0 + 24) * 0),
      xOut_v    => core_out_valid,
      xOut_c    => core_out_channel,
-     xOut_0   => core_out(37 * 0 + 37 - 1 downto 37 * 0),
+     xOut_0   => core_out(32 * 0 + 32 - 1 downto 32 * 0),
      clk       => clk,
      areset    => reset_fir
    );

@@ -12,7 +12,7 @@
 # or its authorized distributors. Please refer to the applicable 
 # agreement for further details.
 
-# ACDS 13.1 162 win32 2019.06.14.13:58:59
+# ACDS 13.1 162 win32 2019.06.22.15:15:22
 
 # ----------------------------------------
 # ncsim - auto-generated simulation script

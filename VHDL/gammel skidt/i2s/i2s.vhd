@@ -1,100 +1,127 @@
-LIBRARY ieee;
-USE ieee.std_logic_1164.all;
+library ieee;
+use ieee.std_logic_1164.all;
 
-ENTITY i2s IS
-  GENERIC(
-    mclk_sclk_ratio  :  INTEGER := 4;    --number of mclk periods per sclk period
-    sclk_ws_ratio    :  INTEGER := 64;   --number of sclk periods per word select period
-    d_width          :  INTEGER := 24);  --data width
-  PORT(
-	 clk	:	IN STD_LOGIC;
-	 mclkout	:	OUT STD_LOGIC;
+entity I2S is
+generic (
+	i2s_d_width : integer := 24;
+	BITPERFRAME : integer := 48
+	);
 	
-    reset_n    :  IN   STD_LOGIC;                             --asynchronous active low reset
-    mclk       :  IN   STD_LOGIC;                             --master clock
-    sclk       :  OUT  STD_LOGIC;                             --serial clock (or bit clock)
-    ws         :  OUT  STD_LOGIC;                             --word select (or left-right clock)
-    sd_tx      :  OUT  STD_LOGIC;                             --serial data transmit
-    sd_rx      :  IN   STD_LOGIC;                             --serial data receive
-    l_data_tx  :  IN   STD_LOGIC_VECTOR(d_width-1 DOWNTO 0);  --left channel data to transmit
-    r_data_tx  :  IN   STD_LOGIC_VECTOR(d_width-1 DOWNTO 0);  --right channel data to transmit
-    l_data_rx  :  OUT  STD_LOGIC_VECTOR(d_width-1 DOWNTO 0);  --left channel data received
-    r_data_rx  :  OUT  STD_LOGIC_VECTOR(d_width-1 DOWNTO 0)); --right channel data received
-END i2s;
+port (
+	clk : in std_logic;
+	bclk : in std_logic;
+	lrclk : in std_logic;
+	adc_data : in std_logic;
+	valid : out std_logic;
+	ready : out std_logic;
+	l_rx_data : out std_logic_vector(i2s_d_width - 1 downto 0);
+	r_rx_data : out std_logic_vector(i2s_d_width - 1 downto 0)
+	);
+end I2S;
 
-ARCHITECTURE logic OF i2s IS
-  COMPONENT pll IS
-  PORT(
-	inclk0	:	IN STD_LOGIC  := '0';
-	c0			:	OUT STD_LOGIC);
-END COMPONENT;
+architecture Behavorial of I2S is
+	signal reset : std_logic := '1';
+	signal l_sr_in : std_logic_vector(i2s_d_width - 1 downto 0);
+	signal r_sr_in : std_logic_vector(i2s_d_width - 1 downto 0);
+	signal neg_edge, pos_edge : std_logic;
+	signal lr_edge : std_logic;
+	signal new_sample : std_logic;
+	signal zbclk, zzbclk, zzzbclk : std_logic;
+	signal zlrclk, zzlrclk, zzzlrclk : std_logic;
+	signal cnt : integer range 0 to 31 := 0;
+	
+begin
 
-  SIGNAL sclk_int       :  STD_LOGIC := '0';                      --internal serial clock signal
-  SIGNAL ws_int         :  STD_LOGIC := '0';                      --internal word select signal
-  SIGNAL l_data_rx_int  :  STD_LOGIC_VECTOR(d_width-1 DOWNTO 0);  --internal left channel rx data buffer
-  SIGNAL r_data_rx_int  :  STD_LOGIC_VECTOR(d_width-1 DOWNTO 0);  --internal right channel rx data buffer
-  SIGNAL l_data_tx_int  :  STD_LOGIC_VECTOR(d_width-1 DOWNTO 0);  --internal left channel tx data buffer
-  SIGNAL r_data_tx_int  :  STD_LOGIC_VECTOR(d_width-1 DOWNTO 0);  --internal right channel tx data buffer
-   
-BEGIN  
-  
-  PROCESS(mclk, reset_n)
-    VARIABLE sclk_cnt  :  INTEGER := 0;  --counter of master clocks during half period of serial clock
-    VARIABLE ws_cnt    :  INTEGER := 0;  --counter of serial clock toggles during half period of word select
-  BEGIN
-    
-    IF(reset_n = '0') THEN                                           --asynchronous reset
-      sclk_cnt := 0;                                                   --clear mclk/sclk counter
-      ws_cnt := 0;                                                     --clear sclk/ws counter
-      sclk_int <= '0';                                                 --clear serial clock signal
-      ws_int <= '0';                                                   --clear word select signal
-      l_data_rx_int <= (OTHERS => '0');                                --clear internal left channel rx data buffer
-      r_data_rx_int <= (OTHERS => '0');                                --clear internal right channel rx data buffer
-      l_data_tx_int <= (OTHERS => '0');                                --clear internal left channel tx data buffer
-      r_data_tx_int <= (OTHERS => '0');                                --clear internal right channel tx data buffer
-      sd_tx <= '0';                                                    --clear serial data transmit output
-      l_data_rx <= (OTHERS => '0');                                    --clear left channel received data output
-      r_data_rx <= (OTHERS => '0');                                    --clear right channel received data output
-    ELSIF(mclk'EVENT AND mclk = '1') THEN                            --master clock rising edge
-      IF(sclk_cnt < mclk_sclk_ratio/2-1) THEN                          --less than half period of sclk
-        sclk_cnt := sclk_cnt + 1;                                        --increment mclk/sclk counter
-      ELSE                                                             --half period of sclk
-        sclk_cnt := 0;                                                   --reset mclk/sclk counter
-        sclk_int <= NOT sclk_int;                                        --toggle serial clock
-        IF(ws_cnt < sclk_ws_ratio-1) THEN                                --less than half period of ws
-          ws_cnt := ws_cnt + 1;                                            --increment sclk/ws counter
-          IF(sclk_int = '0' AND ws_cnt > 1 AND ws_cnt < d_width*2+2) THEN  --rising edge of sclk during data word
-            IF(ws_int = '1') THEN                                            --right channel
-              r_data_rx_int <= r_data_rx_int(d_width-2 DOWNTO 0) & sd_rx;      --shift data bit into right channel rx data buffer
-            ELSE                                                             --left channel
-              l_data_rx_int <= l_data_rx_int(d_width-2 DOWNTO 0) & sd_rx;      --shift data bit into left channel rx data buffer
-            END IF;
-          END IF;
-          IF(sclk_int = '1' AND ws_cnt < d_width*2+3) THEN                 --falling edge of sclk during data word
-            IF(ws_int = '1') THEN                                            --right channel
-              sd_tx <= r_data_tx_int(d_width-1);                               --transmit serial data bit 
-              r_data_tx_int <= r_data_tx_int(d_width-2 DOWNTO 0) & '0';        --shift data of right channel tx data buffer
-            ELSE                                                             --left channel
-              sd_tx <= l_data_tx_int(d_width-1);                               --transmit serial data bit
-              l_data_tx_int <= l_data_tx_int(d_width-2 DOWNTO 0) & '0';        --shift data of left channel tx data buffer
-            END IF;
-          END IF;        
-        ELSE                                                            --half period of ws
-          ws_cnt := 0;                                                    --reset sclk/ws counter
-          ws_int <= NOT ws_int;                                           --toggle word select
-          r_data_rx <= r_data_rx_int;                                     --output right channel received data
-          l_data_rx <= l_data_rx_int;                                     --output left channel received data
-          r_data_tx_int <= r_data_tx;                                     --latch in right channel data to transmit
-          l_data_tx_int <= l_data_tx;                                     --latch in left channel data to transmit
-        END IF;
-      END IF;
-    END IF;    
-  END PROCESS;
-  
-    pll1: pll port map (inclk0 => clk, c0=> mclkout);
 
-  sclk <= sclk_int;  --output serial clock
-  ws <= ws_int;      --output word select
-  
-END logic;
-    
+	detect_edge : process(clk)
+    begin
+    	if rising_edge(clk) then
+        	zbclk <= bclk;
+            zzbclk <= zbclk;
+            zzzbclk <= zzbclk;
+            if zzbclk = '1' and zzzbclk = '0' then
+            	pos_edge <= '1';
+            elsif zzbclk = '0' and zzzbclk = '1' then
+            	neg_edge <= '1';
+            else
+            	pos_edge <= '0';
+                neg_edge <= '0';
+            end if;
+        end if;
+    end process;
+
+	 
+    detect_lr_edge : process(clk)
+    begin
+    	if rising_edge(clk) then
+        	zlrclk <= lrclk;
+            zzlrclk <= zlrclk;
+            zzzlrclk <= zzlrclk;
+            if zzlrclk /= zzzlrclk then
+            	lr_edge <= '1';
+            else
+            	lr_edge <= '0';
+            end if;
+        end if;
+    end process;
+
+	 
+    detect_sample : process(clk)
+    begin
+    	if rising_edge(clk) then
+        	if reset = '0' then 
+            	cnt <= 0;
+                valid <= '0';
+            else
+        		if lr_edge = '1' then
+        			cnt <= 0;
+        		end if;
+    			if pos_edge = '1' then
+        			if cnt < BITPERFRAME/2 - 1 then
+            			cnt <= cnt + 1;
+            		end if;
+        		end if;
+        		if neg_edge = '1' then  	
+        			if cnt = 1 then
+            			new_sample <= '1';
+            		elsif cnt >= i2s_d_width + 1 and cnt < BITPERFRAME/2 - 1 then
+            			new_sample <= '0';
+            		end if;
+        		end if;
+            	if cnt = i2s_d_width + 1 and neg_edge = '1' then
+					valid <= '1';
+            	else
+            	  	valid <= '0';
+            	end if;
+          	end if;
+        end if;
+    end process;
+
+	 
+    l_get_data : process(clk)
+    begin
+    	if rising_edge(clk) then
+    		if pos_edge = '1' and new_sample = '1' and lrclk = '0' then
+   	        	-- receive
+                l_sr_in <= l_sr_in(l_sr_in'high - 1 downto 0) & adc_data;
+        	end if;
+       	end if;
+   	end process;
+		
+		l_rx_data <= l_sr_in;
+		
+		
+	 r_get_data : process(clk)
+    begin
+    	if rising_edge(clk) then
+    		if pos_edge = '1' and new_sample = '1' and lrclk = '1' then
+   	        	-- receive
+                r_sr_in <= r_sr_in(r_sr_in'high - 1 downto 0) & adc_data;
+        	end if;
+       	end if;
+   	end process;
+		
+		r_rx_data <= r_sr_in;
+		
+	 
+end Behavorial;

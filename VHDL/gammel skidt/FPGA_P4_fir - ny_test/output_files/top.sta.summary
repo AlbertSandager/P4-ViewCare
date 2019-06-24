@@ -1,0 +1,101 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'rec_sclk'
+Slack : -1.550
+TNS   : -25.038
+
+Type  : Slow 1200mV 85C Model Setup 'rec_rx_req'
+Slack : -0.150
+TNS   : -0.682
+
+Type  : Slow 1200mV 85C Model Hold 'rec_rx_req'
+Slack : -0.376
+TNS   : -4.137
+
+Type  : Slow 1200mV 85C Model Hold 'rec_sclk'
+Slack : 0.319
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'rec_sclk'
+Slack : -0.244
+TNS   : -0.244
+
+Type  : Slow 1200mV 85C Model Removal 'rec_sclk'
+Slack : 0.542
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'rec_sclk'
+Slack : -3.000
+TNS   : -68.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'rec_rx_req'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 0C Model Setup 'rec_sclk'
+Slack : -1.278
+TNS   : -18.007
+
+Type  : Slow 1200mV 0C Model Setup 'rec_rx_req'
+Slack : -0.096
+TNS   : -0.196
+
+Type  : Slow 1200mV 0C Model Hold 'rec_rx_req'
+Slack : -0.266
+TNS   : -1.917
+
+Type  : Slow 1200mV 0C Model Hold 'rec_sclk'
+Slack : 0.268
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'rec_sclk'
+Slack : -0.185
+TNS   : -0.185
+
+Type  : Slow 1200mV 0C Model Removal 'rec_sclk'
+Slack : 0.471
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'rec_sclk'
+Slack : -3.000
+TNS   : -68.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'rec_rx_req'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Fast 1200mV 0C Model Setup 'rec_sclk'
+Slack : -0.845
+TNS   : -2.848
+
+Type  : Fast 1200mV 0C Model Setup 'rec_rx_req'
+Slack : 0.286
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'rec_rx_req'
+Slack : -0.330
+TNS   : -4.685
+
+Type  : Fast 1200mV 0C Model Hold 'rec_sclk'
+Slack : 0.129
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'rec_sclk'
+Slack : 0.458
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'rec_sclk'
+Slack : 0.258
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'rec_sclk'
+Slack : -3.000
+TNS   : -76.219
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'rec_rx_req'
+Slack : -3.000
+TNS   : -3.004
+
+------------------------------------------------------------

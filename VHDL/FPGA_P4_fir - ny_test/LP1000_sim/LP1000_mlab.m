@@ -19,12 +19,12 @@
 %MegaWizard Scaled Coefficient Values
 
  function  output = LP1000_mlab(stimulation, output)
- coef_matrix_in= [1,3,3,-1,-6,-7,1,17,34,42,34,17,1,-7,-6,-1,3,3,1];
+ coef_matrix_in= [-1];
  INTER_FACTOR  = 1;
  DECI_FACTOR  =  1;
  MSB_RM  = 0;
  MSB_TYPE  = 0;
- LSB_RM  = 13;
+ LSB_RM  = 8;
  LSB_TYPE  = 0;
  FIR_WIDTH  = 24 + MSB_RM + LSB_RM;
  OUT_WIDTH  = 24 ;  %24

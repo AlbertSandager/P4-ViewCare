@@ -5,11 +5,11 @@ ChansPerPhyOut : 1
 InWidth : 24 
 InFracWidth : 0 
 OutWidth : 24 
-OutFullWidth : 37 
+OutFullWidth : 32 
 OutFracWidth : 0 
 OutFullFracWidth : 0 
 nChans : 1 
-nTaps : 19 
+nTaps : 1 
 clockRate : 50 
 inRate : 0.008 
 interpN : 1 

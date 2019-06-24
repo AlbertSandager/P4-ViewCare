@@ -73,7 +73,7 @@ set_global_assignment -name VHDL_FILE top.vhd
 set_global_assignment -name VHDL_FILE SPI_slave.vhd
 set_global_assignment -name VHDL_FILE I2S.vhd
 set_global_assignment -name VHDL_FILE Mux4to1.vhd
-set_location_assignment PIN_T21 -to fir_clk
+set_location_assignment PIN_T22 -to fir_clk
 set_location_assignment PIN_Y17 -to ecg_fir_ast_source_valid
 set_location_assignment PIN_W17 -to i2s_l_fir_ast_source_valid
 set_location_assignment PIN_U15 -to i2s_r_fir_ast_source_valid

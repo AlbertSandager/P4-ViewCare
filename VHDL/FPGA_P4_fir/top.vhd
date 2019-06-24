@@ -53,7 +53,7 @@ architecture Behavorial of top is
 --send and receive vectors are defined
 signal ecg_rx_data : std_logic_vector(spi_d_width-1 downto 0) := (others => '0');
 signal ecg_reset_n : std_logic := '1';
-signal ecg_fir_reset_n : std_logic := '1';
+signal ecg_fir_reset_n : std_logic := '0';
 signal ecg_fir_ast_sink_data : std_logic_vector(23 downto 0) := (others => '0'); --   avalon_streaming_sink.data
 signal ecg_fir_ast_source_data : std_logic_vector(23 downto 0);                    -- avalon_streaming_source.data
 signal ecg_fir_ast_sink_valid : std_logic := '0';             --                        .valid
@@ -68,8 +68,8 @@ signal i2s_l_rx_data : std_logic_vector(i2s_d_width - 1 downto 0);
 signal i2s_r_rx_data : std_logic_vector(i2s_d_width - 1 downto 0);
 signal i2s_l_ready, i2s_r_ready : std_logic;
 signal i2s_reset : std_logic := '1';
-signal i2s_l_fir_reset_n : std_logic := '1';
-signal i2s_r_fir_reset_n : std_logic := '1';
+signal i2s_l_fir_reset_n : std_logic := '0';
+signal i2s_r_fir_reset_n : std_logic := '0';
 signal i2s_l_fir_ast_sink_data : std_logic_vector(23 downto 0) := (others => '0'); --   avalon_streaming_sink.data
 signal i2s_r_fir_ast_sink_data : std_logic_vector(23 downto 0) := (others => '0'); --   avalon_streaming_sink.data
 signal i2s_l_fir_ast_source_data : std_logic_vector(23 downto 0);                    -- avalon_streaming_source.data
